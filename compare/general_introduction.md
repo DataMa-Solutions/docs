@@ -6,7 +6,7 @@
 
 ![logo compare](images/Datama_compare_logo.png)
 
-**DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
+> **DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
 
 DataMa COMPARE makes it easy to explain variations of any KPI between two segments.
