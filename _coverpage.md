@@ -1,9 +1,7 @@
-![logo](images/cropped-Datala-Logo-300x300.png)
+![logo2](images/Datama_logo_horizontal2.png)
 
-# DataMa
+<h1> Smart Analytics for Smart Decisions </h1>
 
-> Smart Analytics for Smart Decisions
-
-### Optimise your web performance from DATA to DECISIONS
+<h2 style="color: #606060;"> Optimise your web performance from DATA to DECISIONS </h2>
 
 [Get Started](README.md)

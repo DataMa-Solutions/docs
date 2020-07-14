@@ -1,6 +1,6 @@
 # General
 
-> This section of documentation should allow you to get to understand how to use the app.
+> This section of documentation should allow you to get to understand **how to use the app**.
 
 
 
