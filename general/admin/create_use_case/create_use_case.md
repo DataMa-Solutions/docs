@@ -11,9 +11,8 @@ Once the data and the settings is done you are not able to modify them (load the
 2. Select the type of file you want to use
 3. Follow the instructions to updload your source
 
-4 types of source are available (click on one type to have more details) :
+3 types of source are available (click on one type to have more details) :
 
-* Google Analytics
 * [Google Sheet](general/admin/create_use_case/google_sheet.md)
 * [Excel file](general/admin/create_use_case/excel_file.md)
 * [.csv file](general/admin/create_use_case/csv_file.md)

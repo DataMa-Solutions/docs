@@ -16,4 +16,4 @@ This could be done whatever the continuous dimension represents.
 
 Below is an extract of the data that has been used for this example. You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=643112391)
 
-<iframe width=860 height=500 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXRV_yX735skN1XO80vxldchFr5tii0E1mUgk0vdkaZaOGDxHY9yVZEk0wXb1zag0OVIQzxRBm1zuw/pubhtml?gid=643112391&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=643112391&amp;single=true&amp;widget=true&amp;headers=false" width="860" height="500"></iframe>

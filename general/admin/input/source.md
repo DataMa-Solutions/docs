@@ -18,7 +18,7 @@ Metrics are always **numeric values**. As an input, you need to put only metrics
 
 To decide which metrics you want in your source, everything depends on your use case. However, it’s safe to say that you want at least the metrics that you need to compute the **KPI** you want to explain. Then you would need all the metrics that are required to compute your « market equation ». Please report to [Metric Relation](general/admin/input/metric_relation.md) section for more details.
 
-For more information, you can also read our [article](https://datama.fr/2019/04/23/how-to-build-my-business-metric-relation/) about metric relation.
+For more information, you can also read our [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/) about metric relation.
 
 ## Dimensions
 

@@ -8,6 +8,6 @@
 * Need to distribute co-variance proportionally to abs(gap) to ‘make it match’. Co-variance has to be monitored in final output. See Covariance page
 * Last step (“End”) is considered as a step by itself when doing dimension calculations
 
-To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2019/04/23/how-to-build-my-business-metric-relation/)
+To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/)
 
 ![waterfall1](images/Waterfall-1-768x317.jpg)

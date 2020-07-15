@@ -2,7 +2,7 @@
 
 > Metric relation describes the equation between metrics of your [source](general/admin/input/source.md), in order to compute the **KPI you want to explain**.
 
-At DataMa, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.fr/2019/04/23/how-to-build-my-business-metric-relation/).
+At DataMa, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
 
 Building it can be a little bit tricky, but generally you have it behind your business KPIs. All you need to do is come back to basics and try to write down how your metrics are related.
 
