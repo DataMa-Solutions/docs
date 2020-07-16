@@ -13,10 +13,11 @@ Each step is split in 3:
 * **Remaining performance** (on the right): Represents the sum of the impact of the rest of the element from the dimension (except only the other main element represented in the middle).
 
 
-**Example:** See below the same explanation using the example in the picture above using the 3rd step (Checkout/Sessions). The main dimension for this step is « Medium ». all the impact is calculated in the main unit « Revenue » (considering that Start is last month and End is actual month)
+### Example
+See below the same explanation using the example in the picture above using the 3rd step (*Checkout/Sessions*). The main dimension for this step is « Medium ». all the impact is calculated in the main unit « Revenue » (considering that *Start* is last month and *End* is actual month)
 
-* **Mix:** impact of the evolution of the split of medium traffic. In that case the evolution of the distribution of Medium between Last month (Start) and This month (End) has a negative impact in the Checkout/ Sessions. (e.g. Less people from the medium « referral » came in the website this month. There conversion rate is better than the other type of medium which generated a negative mix effect)
-* **Main performance:** main element at this step is the « organic » type of traffic which has the highest (negative) impact. The x2.43 in parenthesis say that: « organic traffic has a Checkout/ Session rate that fall 2.43 times faster than the other type of Medium (direct, cpc, …). »
+* **Mix:** impact of the evolution of the split of medium traffic. In that case the evolution of the distribution of Medium between *Last month (Start)* and *This month (End)* has a negative impact in the *Checkout/ Sessions*. (e.g. Less people from the medium « referral » came in the website this month. There conversion rate is better than the other type of medium which generated a negative mix effect)
+* **Main performance:** main element at this step is the « organic » type of traffic which has the highest (negative) impact. The x2.43 in parenthesis say that: « organic traffic has a *Checkout/ Session* rate that fall 2.43 times faster than the other type of *Medium* (direct, cpc, …). »
 * **Remaining performance:** sum of the impact of the rest of the medium type of traffic (direct, cpc, referral,) impacting the « Revenue ».
 
 

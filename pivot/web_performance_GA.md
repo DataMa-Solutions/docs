@@ -14,8 +14,8 @@ Access to the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t
 
 According to the results, the web manager should first consider the Medium to follow is performance, and then Landing_Page, Device_category….and at the end Gender, the impact on the revenue is not significantly different between Male and female.
 
-![pivot](images/DataMaPivot-HomeScreen-1024x399.jpg)
+![pivot](images/DataMaPivot-HomeScreen-1024x399.jpg) <!-- TBU -->
 
 There is a significant difference of Revenue per purchase according to the date of purchase…
 
-![revenue_purchase](images/RevenuePurchase-DataMaPIVOT-1024x407.jpg)
+![revenue_purchase](images/RevenuePurchase-DataMaPIVOT-1024x407.jpg) <!-- TBU -->

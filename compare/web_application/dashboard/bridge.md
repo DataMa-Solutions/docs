@@ -1,6 +1,6 @@
 # Bridge
 
-![bridge](images/Compare-Bridge-1024x429.jpg)
+![bridge](images/Compare-Bridge-1024x429.jpg) <!-- TBU : "table" no longer here ! But make sure the following text is still up to date after changing the picture -->
 
 For the selected step and dimension this graph shows the Mix effect and the performance effect.  This allow you to understand the impact of the evolution of the distribution in input (Mix) and the real impact of the performance (Perf)
 

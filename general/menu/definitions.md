@@ -19,7 +19,7 @@
 2. Then choose within the selected dimension, the segment you want to compare: 2018 and 2019, Mobile and Desktop, Product A and Product B ,….
 3. Click on "Compare" (or "Impact") to get results or tap Enter
 
-![start_end_gif](images/StartEnd-Compare_GIF2.gif)
+![start_end_gif](images/StartEnd-Compare_GIF2.gif) <!-- TBU : start_end no longer like this -->
 
 ## Specify which ratio you want to assess (Pivot & Impact)
 

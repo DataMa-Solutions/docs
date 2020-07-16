@@ -8,7 +8,7 @@ All things being equal the performance effect is the evolution of a performance.
 
 As presented below the performance effect could be represented at each step of your metric relation and for any dimension.
 
-![performance_effect](images/Segment-performance-dash.jpg)
+![performance_effect](images/Segment-performance-dash.jpg) <!-- TBU : now in the same box as mix_effect && no longer MIN and MAX but WORST and BEST-->
 
 ## Concept of segment performance
 
@@ -16,5 +16,5 @@ The performance effect is the variation that is dedicated to the dimension’ pe
 
 <center> <img src="compare/web_application/dashboard/images/Segment-performance.jpg"></center>
 
-* For each dimension on each step, flagging segments driving most of the change (min and max, depending on whether this step is going up or down)
+* For each dimension on each step, flagging segments driving most of the change (worst and best, depending on whether this step is going up or down)
 * Important metric to consider is the ratio change relative to average ratio change, to assess how much this is ‘normal’ given traffic on this segment

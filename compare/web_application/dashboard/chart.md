@@ -2,7 +2,7 @@
 
 ![chart](images/CompareWaterfall-1024x377.jpg)
 
-The blue bars on the left and on the right represent the [Start and End dimensions](/). It is your main KPI. You can modify them in the top left menu of DataMa COMPARE.
+The blue bars on the left and on the right represent the [Start and End dimensions](general/menu/definitions.md). It is your main KPI. You can modify them in the top left menu of DataMa COMPARE.
 
 Each step of the waterfall represents an underlying element of your performance, your sub-KPI or PI (performance indicator). The unit uses for each step is the same as your main KPI (the figures written inside or above the green or red boxes). It represents the contribution of this step on performance of the main KPI.
 

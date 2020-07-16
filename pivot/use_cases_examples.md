@@ -1,6 +1,6 @@
 # Use cases examples
 
-Please check all live examples on [demo.datama.fr](https://demo.datama.fr/app/DataMa_analyse_beta) !
+Please check all live examples on [solutions.datama.fr](https://solutions.datama.fr) !
 
 Here is how to change use case:
 

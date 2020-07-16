@@ -12,4 +12,4 @@ The interface is split in three main parts:
 * **Dashboard:**  essentially the charts you see in the page
 * **Menu:** The left part of the web page, which allows you to interact with the model
 
-![Menu](images/MENU-1024x512.png)
+![Menu](images/MENU-1024x512.png) <!-- TBU : menu changed -->
