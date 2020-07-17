@@ -1,0 +1,13 @@
+:root {
+    /* Coverpage */
+    --cover-background-image: linear-gradient(to left bottom, #D3D3D3 20%, #8fb5b3 80%);
+    --cover-button-primary-background: #14948c;
+    --cover-button-primary-border: #14948c;
+
+    /* Sidebar */
+    --sidebar-nav-link-color--active : #294a48;
+    --sidebar-toggle-icon-color :#14948c;
+    --navbar-menu-link-color--hover :#14948c;
+    /* Blockquote */
+    --blockquote-border-color:#14948c;
+}
