@@ -2,7 +2,7 @@
 
 > Find below information about the **« Content Square»**  example in our demo solution.
 
-This example is especially made to show how to analyse Content Square data within DataMa Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
+This example is especially made to show how to analyze Content Square data within DataMa Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
 
 You could as well add a lot more dimensions and a lot more steps in your conversion funnel.
 

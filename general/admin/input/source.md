@@ -4,7 +4,7 @@
 
 DataMa  source is basically a flat table.
 
-DataMa [demo](http://demo.datama.fr/) has a series of saved version using different sources that you can **get inspired looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
+DataMa [demo](http://solutions.datama.fr/) has a series of saved versions using different sources that you can **get inspired from looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
 
 As for example:
 
@@ -30,4 +30,4 @@ If a dimension is continuous (i.e. numeric) and has more than 6 possible values,
 
 Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
-By the way, DataMa Pivot is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+?> **Tip:** By the way, **DataMa Pivot** is a tool that can help you in selecting and understanding the dimensions you’re selecting.

@@ -19,4 +19,4 @@ In Admin header, by clicking the Save icon you can access the save menu.
 
 ## Good to know
 
-> In a normal DataMa License you can save up to 10 use cases. If you’ve reached the max amount of use case, you can remove some of them in the « Manage Version » menu
+?> **Tip:** In a normal DataMa License you can save up to 10 use cases. If you’ve reached the max amount of use case, you can remove some of them in the « Manage Version » menu

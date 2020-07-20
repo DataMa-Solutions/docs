@@ -10,6 +10,7 @@
             * [.csv file](general/admin/create_use_case/csv_file.md)
             * [Extensions](general/admin/create_use_case/extensions/extensions.md)
                 * [Tableau extension](general/admin/create_use_case/extensions/extension_tableau.md)
+                * [PowerBI extension](general/admin/create_use_case/extensions/extension_powerBI.md)
                 * [DataIku extension](general/admin/create_use_case/extensions/extension_DataIku.md)
                 * [Alteryx extension](general/admin/create_use_case/extensions/extension_Alteryx.md)
         * [Save](general/admin/save.md)

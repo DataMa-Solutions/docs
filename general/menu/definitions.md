@@ -21,6 +21,10 @@
 
 ![start_end_gif](images/StartEnd-Compare_GIF2.gif) <!-- TBU : start_end no longer like this -->
 
+?> **Tip:** When you're dealing with dates, a little calendar will appear next to the start and end dimensions. It can help you to select the dates more easily.
+
+<!-- TBU : create a demo (gif) of the use of the calendar -->
+
 ## Specify which ratio you want to assess (Pivot & Impact)
 
 *  Define the **Numerator** and the **Denominator** of your ratio (Revenue/ Users | Purchase/ Clients | Margin/ Products...)

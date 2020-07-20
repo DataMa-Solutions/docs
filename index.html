@@ -24,7 +24,7 @@
       loadSidebar: true,
       coverpage: true,
       mergeNavbar: true,
-      themeColor: '#306f6b',
+       themeColor: '#14948c',
       search: {
           noData: 'No Results!',
           paths: 'auto',
@@ -32,6 +32,15 @@
       },
       auto2top: true,
       plugins: [
+          function(hook, vm) {
+            hook.beforeEach(function(html) {
+                var editHtml = '[Edit document](' + "https://github.com/DataMa-Solutions/docs.git" + ')\n';
+
+                return (
+                    '📝 ' + editHtml + html
+                );
+            });
+        },
         function(hook) {
           var footer = [
             '<hr/>',
@@ -43,7 +52,7 @@
 
           hook.afterEach(function(html) {
             return html + footer;
-          })
+            })
         }
       ]
     }

@@ -14,8 +14,7 @@ If primary metric is an absolute value (e.g. Revenue), an artificial “N=1” m
 
 ## Interdependence
 
-In ‘Safe Mode’, most correlated dimensions are flagged. Interdependencies between dimensions are tested using Chi-Square and simple business calculation.
-
+In 'Safe Mode', most correlated dimensions are flagged. Interdependencies between dimensions are tested using Chi-Square and simple business calculation.
 
 ## Combined dimension
 
@@ -23,11 +22,11 @@ Combined dimension is created by concatenating all clustered dimensions into one
 
 ## Significance
 
-In ‘Safe Mode’, Simple check of minimal volume (manually inputted) for given metric in Start and End
+In 'Safe Mode', simple check of minimal volume (manually inputted) for given metric in Start and End
 
 ## Scope
 
-‘Out’ segment defined in column ‘Scope’ is excluded from analysis, and simply stacked on Start and End column in waterfall chart
+'Out' segment defined in column 'Scope' is excluded from analysis, and simply stacked on Start and End column in waterfall chart
 
 ## Covariance
 
@@ -35,4 +34,4 @@ For waterfall analysis, covariance is distributed on each step. User should chec
 
 For Dimension analysis, covariance is not distributed on neither mix nor performance sizing. Hence user should be careful when looking at dimension impact
 
-Read more about [Covariance](compare/model/covariance/md)
+Read more about [Covariance](compare/model/covariance.md)

@@ -6,4 +6,4 @@ By using the menu "export result" you can schedule for you or your boss an expor
 
 ![export_email](images/ExportEmail_GIF2.gif)
 
-**Tip:** you can just as easily share your DataMa graphs in a Data Studio (or others) and configure the sending of emails from your data viz tool!
+?> **Tip:** you can just as easily share your DataMa graphs in a Data Studio (or others) and configure the sending of emails from your data viz tool!

@@ -15,4 +15,4 @@ A Covariance ratio appears on the top left of the waterfall.
 
 (See more details regarding [Covariance](compare/model/covariance.md))
 
-A ‘!’ will appear when covariance is above 30%. This intends to remind you that covariance is relatively high, hence you need to be careful with the results you’re having, and potentially reduce the number of steps or dimensions to reduce covariance
+!> A ‘!’ will appear when covariance is above 30%. This intends to remind you that covariance is relatively high, hence you need to be careful with the results you’re having, and potentially reduce the number of steps or dimensions to reduce covariance
