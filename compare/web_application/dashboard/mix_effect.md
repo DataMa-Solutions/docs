@@ -8,7 +8,7 @@ The mix effect is the impact on your performance that is coming from an evolutio
 
 This graph represents the sum of the Mix impact of each dimension at each step of your funnel. The red circle represents the gap your are trying to understand at this step of the funnel.
 
-![mix_effect](images/Mix-effect-dash.jpg) <!-- TBU : now in the same box as perf ! -->
+![mix_effect](images/Mix-effect-dash.png)
 
 ## Model of Mix effet
 

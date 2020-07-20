@@ -8,7 +8,7 @@ All things being equal the performance effect is the evolution of a performance.
 
 As presented below the performance effect could be represented at each step of your metric relation and for any dimension.
 
-![performance_effect](images/Segment-performance-dash.jpg) <!-- TBU : now in the same box as mix_effect && no longer MIN and MAX but WORST and BEST-->
+![performance_effect](images/Segment-performance_worst.png)
 
 ## Concept of segment performance
 

@@ -8,4 +8,4 @@ Level of aggregation (<span style="color:red">NumLimit</span>): The level of agg
 
 Segments are now aggregated at the requested level
 
-![aggregation](images/Aggregation-1.gif) <!-- TBU : do it with PIVOT -->
+![aggregation](images/Aggregation-1.gif)

@@ -7,7 +7,7 @@ This could be done following 4 main steps:
 1. Extract your data via the interface, (or use the R code with the <span style="color:red"> compare_DataViz_source </span> function – for people using the R package)
 
 
-![Extract-PowerBI2](images/Extract-PowerBI-Compare_GIF2.gif) <!-- TBU -->
+![Extract-PowerBI2](images/Extract-PowerBI-Compare_GIF2.gif)
 
 2. Download the Power BI Template especially made for DataMa outputs here
 3. Unzip the downloaded file and open it in Power BI

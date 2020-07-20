@@ -2,6 +2,11 @@
 
 > **Start & End overview** is the representation of each segment performance of the selected dimension.
 
-(eg : in the gif below the bar represent the Revenue per date)
+* Click on the icon next to the selected dimension to see the overview graph
+* Use the dropdown menus to choose what you want to display
+    * Left dropdown menu: bars
+    * Right dropdown menu: points
 
-![overview](images/StartEnd-Overview-Compare_GIF2.gif) <!-- TBU : overview changed && start_end dimension no longer like this -->
+See an example below:
+
+![overview](images/StartEnd-Overview-Compare_GIF2.gif)

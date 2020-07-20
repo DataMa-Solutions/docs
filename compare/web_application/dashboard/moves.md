@@ -1,8 +1,8 @@
 # Moves
 
-> In the Detailed View the graphe **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
+> In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
 
-![moves](images/Compare-Moves-1024x428.jpg) <!-- TBU : "table" no longer here ! But check if the following text is still up to date after changing the picture -->
+![moves](images/Compare-Moves.png)
 
 This graph shows the performance effect and the mix effect within a single serie of arrows (or vectors). The start of the arrow represents the Start point of your analysis and the end of the arrow represents the End point of the analysis. An arrow is either an evolution of the performance effect and the mix effect from Start point to End point.
 

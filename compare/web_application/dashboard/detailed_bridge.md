@@ -1,6 +1,6 @@
 # Detailed Bridge
 
-![detailed_bridge](images/DetailedView-Filter-1024x431.jpg) <!-- TBU : "table" no longer here ! But make sure the following text is still up to date after changing the picture -->
+![detailed_bridge](images/DetailedView-Filter.png)
 
 Play with this graph by using both Step and dimensions drop-down menus.
 

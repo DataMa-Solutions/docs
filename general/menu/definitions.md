@@ -1,5 +1,4 @@
 # Definitions
-<!-- TBU -->
 
 > **The Definitions Menu** (or **comparison** in DataMa COMPARE) is here to set up your analysis.
 
@@ -15,15 +14,15 @@
 
 <center> <img src="general/menu/images/start_end.png"!/></center>
 
-1. Select the Start & End Dimension : Date, Device, Product….
+1. Select the Dimension : Date, Device, Product….
 2. Then choose within the selected dimension, the segment you want to compare: 2018 and 2019, Mobile and Desktop, Product A and Product B ,….
 3. Click on "Compare" (or "Impact") to get results or tap Enter
 
-![start_end_gif](images/StartEnd-Compare_GIF2.gif) <!-- TBU : start_end no longer like this -->
+![start_end_gif](images/StartEnd-Compare_GIF2.gif)
 
 ?> **Tip:** When you're dealing with dates, a little calendar will appear next to the start and end dimensions. It can help you to select the dates more easily.
 
-<!-- TBU : create a demo (gif) of the use of the calendar -->
+<center><img src="general/menu/images/calendar_dates.gif"/></center>
 
 ## Specify which ratio you want to assess (Pivot & Impact)
 

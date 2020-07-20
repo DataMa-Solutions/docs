@@ -4,4 +4,4 @@ The bars show for each element of a dimension the contribution of this element t
 
 The black line is the average KPI of this element (ratio: numerator / denominator)
 
-![clustering](images/RevenuePurchase-DataMaPIVOT-1024x407.jpg)
+<center><img src="pivot/web_application/dashboard/images/simple_chart_pivot.png")/></center>

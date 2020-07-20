@@ -2,7 +2,7 @@
 
 > Value boxes intends to give you an **executive summary of your analysis**. It is split in 3 boxes
 
-![value_boxes](images/ValueBoxes-Pivot-1024x67.jpg) <!-- TBU -->
+![value_boxes](images/ValueBoxes-Pivot.png)
 
 1. The mean of the selected KPI on the overall dimension
 2. The most important dimension in your dataset to follow the selected KPI.

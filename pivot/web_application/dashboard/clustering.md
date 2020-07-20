@@ -16,4 +16,4 @@ The black line is the average KPI of this element (ratio: numerator / denominato
 * For non-continuous elements, a cluster is created aggregating the element having a similar average KPI and representing less than “Aggregation in %” (see in the [Settings menu](pivot/web_application/menu/settings.md))
 * For continuous elements, multiple clusters are created aggregating elements having a similar average KPI.
 
-![clustering](images/RevenuePurchase-DataMaPIVOT-1024x407.jpg) <!-- TBU -->
+<center><img src="pivot/web_application/dashboard/images/simple_chart_pivot.png")/></center>

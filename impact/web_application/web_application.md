@@ -6,4 +6,4 @@ The interface is split in three main parts:
 * **Dashboard:**  essentially the charts you see in the page
 * **Menu:** The left part of the web page, which allows you to interact with the model
 
-![Menu](images/IMPACT-Interface-1536x769.png) <!-- TBU : do it with IMPACT -->
+![Menu](images/impact_home.png)

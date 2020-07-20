@@ -12,4 +12,4 @@ Level of aggregation (<span style="color:red">NumLimit</span>): The level of agg
 
 Segments are now aggregated at the requested level
 
-![aggregation](images/Aggregation-usage.gif) <!-- TBU -->
+![aggregation](images/Aggregation-usage.gif)

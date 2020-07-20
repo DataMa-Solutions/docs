@@ -2,4 +2,4 @@
 
 > Understand what is in the **Dashboard panel** of DataMa IMPACT
 
-<!-- Todo : need a picture --> 
+![impact-Dashboard](images/impact_home_dashboard.png)
