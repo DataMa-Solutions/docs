@@ -5,6 +5,12 @@
 1. Click on « Extract » in the admin header
 2. Select « URL »
 3. Tick « enable sharing as public URL »
-3. Click on « Copy url » 
+3. Click on « Copy url »
 
 ![export_url](images/export_url.gif)
+
+Each graph has also his own icon to be extracted independently:
+
+<center><img src="general/admin/export/images/share_graph.png"/></center>
+
+![extract_graph](images/ShareSimpleApp-Compare_GIF2.gif)
