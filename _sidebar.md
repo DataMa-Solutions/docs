@@ -23,7 +23,7 @@
             * [Document](general/admin/export/export_document.md)
             * [URL](general/admin/export/export_url.md)
             * [Slack & Email](general/admin/export/export_slack_mail.md)
-        * [Change metric relation](general/admin/change_metric_relation.md)
+        * [Change metrics relation](general/admin/change_metric_relation.md)
         * [Recent features](general/admin/recent_features.md)
     * [Menu](general/menu/menu.md)
         * [Definitions](general/menu/definitions.md)
@@ -69,7 +69,7 @@
                 * [Skipped steps](compare/web_application/menu/skipped_steps.md)
                 * [Compare of Compare](compare/web_application/menu/CoC.md)
                 * [Split Mix and Perf](compare/web_application/menu/split_mix_perf.md)
-                * [Significance tests](compare/web_application/menu/significance_test.md)
+                <!-- * [Significance tests](compare/web_application/menu/significance_test.md)  Todo : add to sidebar when done-->
                 * [Display Options](compare/web_application/menu/display_options.md)
 * [DataMa Pivot](pivot/pivot.md)
     * [General introduction](pivot/general_introduction.md)
@@ -87,13 +87,13 @@
                 * [Clustered chart](pivot/web_application/dashboard/clustered_chart.md)
             * [Interdependence](pivot/web_application/dashboard/interdependence.md)
             * [Interdependence detailed view](pivot/web_application/dashboard/inter_detailed.md)
-                * [Contigency table](pivot/web_application/dashboard/contigency.md)
+                <!-- * [Contigency table](pivot/web_application/dashboard/contigency.md) Todo : add to sidebar when done-->
                 * [Sankey](pivot/web_application/dashboard/sankey.md)
         * [Menu](pivot/web_application/menu/menu.md)
             * [Settings](pivot/web_application/menu/settings.md)
                 * [Tree depth](pivot/web_application/menu/tree_depth.md)
                 * [Aggregation in %](pivot/web_application/menu/aggregation.md)
-                * [Continuous clustering depth](pivot/web_application/menu/continuous_clustering.md)
+                <!-- * [Continuous clustering depth](pivot/web_application/menu/continuous_clustering.md) Todo : add to sidebar when done-->
 * [DataMa Impact](impact/impact.md)
     * [Web application](impact/web_application/web_application.md)
         * [Dashboard](impact/web_application/dashboard/dashboard.md)
@@ -104,12 +104,14 @@
                 * [Forecasting](impact/web_application/dashboard/forecasting.md)
                 * [Boxplot](impact/web_application/dashboard/boxplot.md)
                 * [Bayesian Bernoulli](impact/web_application/dashboard/bayesian.md)
+            <!-- * [Detailed view](impact/web_application/dashboard/detailed_view.md) Todo : add to sidebar when done-->
+                <!-- * [Detailed view - filters](impact/web_application/dashboard/detailed_view_filters.md) Todo : add to sidebar when done-->
         * [Menu](impact/web_application/menu/menu.md)
             * [Settings](impact/web_application/menu/settings.md)
                 * [Test to compute](impact/web_application/menu/test_to_compute.md)
                 * [Confidence interval](impact/web_application/menu/confidence_interval.md)
                 * [Aggregation in %](impact/web_application/menu/aggregation.md)
-* [DataMa Journey](journey/journey.md)
+<!--  * [DataMa Journey](journey/journey.md) Todo : add to sidebar when done-->
 
 --------
 

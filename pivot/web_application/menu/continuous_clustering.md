@@ -1,3 +1,3 @@
 # Continuous clustering depth
 
-<!-- Todo -->
+<!-- Todo && add to sidebar.md-->

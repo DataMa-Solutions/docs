@@ -1,3 +1,3 @@
 # Contigency table
 
-<!-- Todo -->
+<!-- Todo & add to sidebar.md -->

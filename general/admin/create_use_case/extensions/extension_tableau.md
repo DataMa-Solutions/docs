@@ -2,7 +2,7 @@
 
 > Using DataMa Solutions as a **Tableau extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and Tableau.
 
-DataMa will basically use the Tableau Extension API to get data from your workbook, and analyse it there. Below exemple is a good overview.
+DataMa will basically use the Tableau Extension API to get data from your workbook, and analyze it there. Below example is a good overview.
 
 ![tableau_extension](images/Tableau-extension-1.gif)
 

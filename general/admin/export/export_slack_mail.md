@@ -2,7 +2,7 @@
 
 > You don't have time to open the DataMa interface ... receive your analyses **directly in your mailbox** or on a **Slack channel**
 
-By using the menu "export result" you can schedule for you or your boss an export directly to a mailbox at the frequency you want.
+By using the menu "export result" you can schedule an export directly to a mailbox at the frequency you want.
 
 ![export_email](images/ExportEmail_GIF2.gif)
 

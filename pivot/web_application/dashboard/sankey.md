@@ -6,4 +6,4 @@ By choosing in the right menu the dimension you want to explore, you can underst
 
 ![inter_detailed](images/inter_detailed.png)
 
-The « % Distrib » option make appear the segments on the right of the window all at the same size. This help to compare segment between each other.
+?> The **« % Distrib »** option makes appear the segments on the right of the window all at the same size. This help to compare segment between each other.

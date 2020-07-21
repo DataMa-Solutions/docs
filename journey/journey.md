@@ -1,3 +1,3 @@
 # DataMa Journey
 
-<!-- Todo -->
+<!-- Todo & add to navbar.md & add to sidebar.md-->

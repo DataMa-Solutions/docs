@@ -4,7 +4,7 @@
 
 1. Click on the drop-down arrow to display the filters menu
 2. Select one or several « Excluded Dimension »
-3. Click on « Compare » to get results
+3. Click on « Compare » (or « Impact » ...) to get the results
 
 The selected dimensions are now excluded from the analysis.
 

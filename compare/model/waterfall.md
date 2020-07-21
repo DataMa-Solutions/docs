@@ -10,4 +10,4 @@
 
 To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/)
 
-![waterfall1](images/Waterfall-1-768x317.jpg)
+![waterfall1](images/waterfall.png)

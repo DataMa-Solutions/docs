@@ -1,6 +1,6 @@
 # Waterfall
 
-![waterfall](images/CompareWaterfall-1024x377.jpg)
+![waterfall](images/waterfall.png)
 
 Waterfall is a group of 3 tabs. See below articles for details on each tab:
 

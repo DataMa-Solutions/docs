@@ -10,3 +10,5 @@ Follow the below steps to load your Gsheet Data:
 2. Select « Gsheet»
 3. Copy-Paste the URL link of your Google Spreadsheet. Tick « Keep live connection » and click on « Ok »
 4. Check the import summary. Check dimensions and Metrics definition. Click on « next »
+
+?> **Tip:** You can also paste your use case using *Ctrl+V* shortcut

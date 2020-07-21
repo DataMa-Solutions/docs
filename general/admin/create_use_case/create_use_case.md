@@ -20,6 +20,6 @@ Once the data and the settings is done you are not able to modify them (load the
 Or directly within a DataMa extension :
 
 * [Tableau](general/admin/create_use_case/extensions/extension_tableau.md)
-* Power BI
+* [Power BI](general/admin/create_use_case/extensions/extension_powerBI.md)
 * [Dataiku](general/admin/create_use_case/extensions/extension_DataIku.md)
 * [Alteryx](general/admin/create_use_case/extensions/extension_Alteryx.md)

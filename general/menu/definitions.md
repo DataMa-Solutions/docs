@@ -6,9 +6,9 @@
 
 **Start & End definition:** This includes both definition of the dimension you want to compare on and the segments within that dimension that defines your starting point and end point
 
-* **Start End Dimension**: This can be whatever dimension is in your source, depending on your use case. Typically Period or Date, but also business unit, AB test variant, country…
-* **Start definition**: This is really you’re starting point for the KPI you want to understand, i.e. what you want to compare to. It can be one or multiple possible values of the selected dimension.
-* **End definition**: This is the end point of your waterfall, i.e. the observation of your KPI that you want to explain.
+* **Dimension**: This can be whatever dimension is in your source, depending on your use case. Typically Period or Date, but also business unit, AB test variant, country… (in the picture below the dimension is *Product*)
+* **Start definition**: This is really you’re starting point for the KPI you want to understand, i.e. what you want to compare to. It can be one or multiple possible values of the selected dimension. (here *Product A*)
+* **End definition**: This is the end point of your waterfall, i.e. the observation of your KPI that you want to explain. (here *Product B*)
 * The Start and End points represent the blue bar on the left and the right of the waterfall in COMPARE.
 
 

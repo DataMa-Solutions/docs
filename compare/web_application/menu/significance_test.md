@@ -1,3 +1,3 @@
 # Significance test
 
-<!-- Todo -->
+<!-- Todo & add to sidebar.md & add to setting.md -->

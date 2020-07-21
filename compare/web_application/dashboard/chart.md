@@ -1,6 +1,6 @@
 # Chart
 
-![chart](images/CompareWaterfall-1024x377.jpg)
+![chart](images/waterfall.png)
 
 The blue bars on the left and on the right represent the [Start and End dimensions](general/menu/definitions.md). It is your main KPI. You can modify them in the top left menu of DataMa COMPARE.
 

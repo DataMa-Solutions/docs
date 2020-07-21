@@ -24,10 +24,10 @@ For more information, you can also read our [article](https://datama.fr/2020/03/
 
 Dimensions can be either dates, characters, or even numeric values.
 
-To decide which dimensions you want in your source, you may want to think about which dimension has an impact on your business, but also which dimension you’re able to collect, and cross your metrics on. At any rate, you certainly want to have one dimension that is the dimension you want to compare on. E.g. if you want to compare two periods, you want a ‘Period’ dimension. If you want to compare two business units, you certainly want a ‘BU’ dimension.
+To decide which dimensions you want in your source, you may want to think about **which dimension has an impact on your business**, but also which dimension you’re able to collect, and cross your metrics on. At any rate, you certainly want to have one dimension that is the dimension you want to compare on. E.g. if you want to compare two periods, you want a ‘Period’ dimension. If you want to compare two business units, you certainly want a ‘BU’ dimension.
 
 If a dimension is continuous (i.e. numeric) and has more than 6 possible values, it will get discrete by a partition algorithm, in order to be able to compute mix effects & performance. See [Clustering](compare/model/modeling_components.md) methodology.
 
 Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
-?> **Tip:** By the way, **DataMa Pivot** is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+?> **Tip:** DataMa Pivot is a tool that can help you in selecting and understanding the dimensions you’re selecting.

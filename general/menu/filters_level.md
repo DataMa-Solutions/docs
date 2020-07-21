@@ -8,7 +8,7 @@ The unselected element will not only be removed from the analysis but also from 
 
 ![filters_level](images/filters-1-2.gif)
 
-1. In « Filter 1  » select the Dimension and one or several Segment you want to focus on
+1. In « Filter level 1  » select the Dimension and one or several Segment you want to focus on
 2. Click on « Compare » to get results
 
 Analysis in now focused on the selected Dimension and Segment(s)
