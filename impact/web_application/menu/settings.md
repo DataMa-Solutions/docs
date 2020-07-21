@@ -9,3 +9,4 @@ See articles below to have more details:
 * [Test to compute](impact/web_application/menu/test_to_compute.md)
 * [Confidence interval](impact/web_application/menu/confidence_interval.md)
 * [Aggregation in %](impact/web_application/menu/aggregation.md)
+<!-- * [Weight for Frequentist](impact/web_application/menu/weight_frequentist.md) Todo : add here when done --> 

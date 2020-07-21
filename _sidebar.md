@@ -8,6 +8,7 @@
             * [Google Sheet](general/admin/create_use_case/google_sheet.md)
             * [Excel file](general/admin/create_use_case/excel_file.md)
             * [.csv file](general/admin/create_use_case/csv_file.md)
+            <!-- * [Google analytics](general/admin/create_use_case/google_analytics.md) Todo : add here when done -->
             * [Extensions](general/admin/create_use_case/extensions/extensions.md)
                 * [Tableau extension](general/admin/create_use_case/extensions/extension_tableau.md)
                 * [PowerBI extension](general/admin/create_use_case/extensions/extension_powerBI.md)
@@ -111,6 +112,7 @@
                 * [Test to compute](impact/web_application/menu/test_to_compute.md)
                 * [Confidence interval](impact/web_application/menu/confidence_interval.md)
                 * [Aggregation in %](impact/web_application/menu/aggregation.md)
+                <!-- * [Weight for Frequentist](impact/web_application/menu/weight_frequentist.md) Todo : add here when done --> 
 <!--  * [DataMa Journey](journey/journey.md) Todo : add to sidebar when done-->
 
 --------

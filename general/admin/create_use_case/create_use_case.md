@@ -16,6 +16,7 @@ Once the data and the settings is done you are not able to modify them (load the
 * [Google Sheet](general/admin/create_use_case/google_sheet.md)
 * [Excel file](general/admin/create_use_case/excel_file.md)
 * [.csv file](general/admin/create_use_case/csv_file.md)
+<!-- * [Google analytics](general/admin/create_use_case/google_analytics.md) Todo : add here when done -->
 
 Or directly within a DataMa extension :
 
