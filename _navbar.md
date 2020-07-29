@@ -6,5 +6,6 @@
     * [DataMa Pivot](pivot/pivot.md)
     * [DataMa Impact](impact/impact.md)
     <!-- * [DataMa Journey](journey/journey.md) Todo : add to navbar when done-->
+* [News](news.md)
 
 * [About](https://datama.fr)
