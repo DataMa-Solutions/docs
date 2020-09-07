@@ -2,12 +2,8 @@
 
 ------------------
 
-Please check all live examples on [demo.datama.fr](http://solutions.datama.fr/) !
+DataMa JOURNEY can be used from a wide variety of use case, from online product analysis to cross-channel customer experience. It basically depends on the data you're putting as an input, which should include a 'Journey' column that gives the touch point with your customer in a sequential order.
 
-Here is how to change use case:
+In this section you will find some example of data set, but all is up to your creativity (and your capacity to collect and create the data source ;) )
 
-1. Select the dropdown menu « loaded version »
-2. Select the version you want to load »
-3. Click on « compare » or « done » to get the results
-
-All the data used in the different use cases are available in [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
+All the data used in the different use cases are available in [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1Z2JovUx_q7uLR2iy_fukiJWpIrA1o5wfvfnaHQUgBE4/edit#gid=0).

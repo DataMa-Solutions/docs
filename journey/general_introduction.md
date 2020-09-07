@@ -1,10 +1,15 @@
 # General Introduction
 
 
-> **DataMa JOURNEY is a data analysis tool that allows you to quickly visualize journeys and simulate attribution models on journeys' steps.**
-  
-DataMa JOURNEY (as well as DataMa COMPARE and PIVOT) analyses is possible thanks to 2 main types of data collected from your business:
+  > **DataMa JOURNEY is a data analysis tool that allows you to quickly visualize journeys and simulate attribution models on your customer touch points.**
 
-* **Business Metrics data of the company** (revenue, sales volume, number of users impacted by a marketing campaign, etc.)
-* and the **dimensions associated** with these volumes (customer segment, type of product sold, country, vendors, age, gender, device, year, models, …)
-Its data comes from management ERP, Excel spreadsheet or even **data collection tools** (like Google Analytics, ContentSquare, …)
+DataMa JOURNEY allows you to understand your customer experience, using the data you're already collecting.
+Ultimately, it will allow you to improve your customer experience through data driven insights.
+More precisely, you will be able to:
+
+* Visualize your customer journey and communicate it in an appealing format (Sunburst)
+* Compare your customer journeys between two segments, or two periods
+* Understand where the value comes from, and where it's lost, through an attribution model
+* Compare touch points between one another and see what's under/over performing
+
+ This [article](https://datama.fr/2020/05/12/getting-value-out-of-a-sunburst/) would be a good read to get introduced to Journey analysis and what you could get from DataMa JOURNEY
