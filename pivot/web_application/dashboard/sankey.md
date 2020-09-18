@@ -13,3 +13,7 @@ This represents each element at the same size which helps you comparing the dist
 ![inter_detailed](images/inter_detailed.png)
 
 ?> The **« % Distrib »** option makes appear the segments on the right of the window all at the same size. This help to compare segment between each other.
+
+## Sankey contigency table
+
+This table represents the detailed value of the Sankey graph. It's the link between the two dimensions you've selected in the right menu
