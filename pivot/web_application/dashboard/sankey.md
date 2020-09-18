@@ -2,7 +2,13 @@
 
 > This aims to discover **how dimensions are correlated**.
 
-By choosing in the right menu the dimension you want to explore, you can understand the distribution of each segment within a dimension.
+Show the distribution between 2 dimensions, understand for 2 dimensions how the elements of these dimensions are distributed together.
+
+You can change dimension by using the drop-down menu on the right.
+
+The “% distrib” option allows you to represent the distribution by percentage instead of absolute value.
+
+This represents each element at the same size which helps you comparing the distribution.
 
 ![inter_detailed](images/inter_detailed.png)
 
