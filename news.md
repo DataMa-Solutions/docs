@@ -2,7 +2,7 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
-### 2020-09-15: 2020 Back to school release
+### 2020-09-23: 2020 Back to school release
 
 * **General:**
     * Google Analytics is now a possible source, that can be saved with live update of the time window, and without using gsheet anymore
