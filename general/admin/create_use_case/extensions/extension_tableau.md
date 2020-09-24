@@ -10,11 +10,11 @@ DataMa will basically use the Tableau Extension API to get data from your workbo
 
 Below is a step by step video tutorial to get DataMa widget working in Tableau without login/ password so that all your stakeholders can access DataMa insights straight in Tableau.
 
-<iframe width="800" height="450" src="https://www.youtube.com/watch?v=mgcsAiLLp_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mgcsAiLLp_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can learn more about tableau dashboard extension [here](https://help.tableau.com/current/pro/desktop/en-us/dashboard_extensions.html)
 
-## Create you use case in DataMa app
+## 1. Create you use case in DataMa app
 
 * Download the extension manifest file <a href="https://www.docs.datama.fr/wp-content/uploads/2019/12/solutionsdatama_tableau.trex?dummy=dummy" target="_blank" download> here</a>, you should get a .trex file. Save it somewhere safe
 * In Tableau desktop, add DataMa as a dashboard extension (see also Tableau documentation [here](https://help.tableau.com/current/pro/desktop/en-us/dashboard_extensions.htm))
@@ -33,7 +33,7 @@ You can learn more about tableau dashboard extension [here](https://help.tableau
 * You can save your use case as usual in DataMa, and reload it in the same Tableau environment (but you won’t be able to open it outside of Tableau, since DataMa is only able to get data from Tableau when used as an extension)
 * Once saved, you can also use the refresh icon (next to the « loaded version »)
 
-## Export DataMa widget as extensions
+## 2. Export DataMa widget as extensions
 
 Last step is to export selected DataMa widget as self service Tableau widgets linked to your worksheet, so that other consumers of the report can access without logging in.
 
