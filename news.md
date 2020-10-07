@@ -2,6 +2,17 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2020-10-07:
+
+* **General:**
+    * Multiple fixes for stability and performance improvements
+    * Improvement of Google Analytics connector
+    * Minor UI improvements
+
+* **Compare:**
+    * Waterfall is now zoomable when exported as widget in a public url
+    * Improved performance of
+
 ### 2020-09-23: 2020 Back to school release
 
 * **General:**
