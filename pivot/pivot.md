@@ -30,4 +30,4 @@ Follow this [link](https://datama.fr/wp-content/uploads/2019/06/DataMaPivot_Broc
 
 Hope you enjoy it.
 
-Please visit DataMa generic [website](https://datama.fr/lets-talk/) for any other question and to hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get our point of view.
+Please visit DataMa generic [website](https://datama.fr/lets-talk/) for any other question and to hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.

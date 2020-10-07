@@ -15,5 +15,5 @@ In that specific use case, we compare revenue between 2 weeks (Year over Year) t
 Access to the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)
 
 **Here is a video of this use case with explanation of the overall DataMa Compare functionalities**
-
+<!-- TBU -->
 <iframe width="800" height="450" src="https://www.youtube.com/embed/wYuPTLZRTDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

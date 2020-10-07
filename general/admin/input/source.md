@@ -30,4 +30,5 @@ If a dimension is continuous (i.e. numeric) and has more than 6 possible values,
 
 Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
-?> **Tip:** DataMa Pivot is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+?> **Tip:** DataMa PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+!> **Warning:** DataMa JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source](journey/model/source.md) for more details.
