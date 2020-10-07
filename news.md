@@ -11,7 +11,7 @@
 
 * **Compare:**
     * Waterfall is now zoomable when exported as widget in a public url
-    * Improved performance of
+    * Improved speed of waterfall and moves chart rendering
 
 ### 2020-09-23: 2020 Back to school release
 
