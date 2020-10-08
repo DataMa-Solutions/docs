@@ -11,4 +11,4 @@ Excluded steps will be indicated by a crossed red square.
 
 Crossed selected steps are no more displayed in the chart
 
-![included_steps](images/SkippedSteps-Compare_GIF2.gif)
+![included_steps](images/IncludedSteps-Compare-GIF.gif)
