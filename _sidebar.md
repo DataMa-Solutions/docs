@@ -149,5 +149,5 @@
 * **Links**
 
 * <a href="https://datama.fr"> <img src="images/cropped-Datala-Logo.png"/>Website</a>
-* [![Twitter](https://icongram.jgog.in/simple/twitter.svg?colored&size=16)@DataMa_Solution](https://twitter.com/DataMa_Solution)
+* <a href="https://twitter.com/DataMa_Solution"> <img src="images/twitter.png" style="width: 20px; height: 20px;">Twitter</a>
 * <a href="https://www.linkedin.com/company/11195323"> <img src="images/logo-linkedin.png"/>LinkedIn</a>
