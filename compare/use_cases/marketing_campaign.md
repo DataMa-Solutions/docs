@@ -1,6 +1,6 @@
 # Marketing Campaign
 
-> Find below information about the **« Marketing – Campaign »**  example in our [demo](https://solutions.datama.fr/app/DataMa_analyse_beta) solution.
+> Find below information about the **« Marketing – Campaign »**  example in our [demo](https://solutions.datama.fr/) solution.
 
 Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis
 
@@ -15,5 +15,5 @@ Below is an extract of the data that has been used for this example. You can dow
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=1286768317&amp;single=true&amp;widget=true&amp;headers=false" width="920" height="440"></iframe>
 
 The 2 other Marketing examples represent specific features available in our DataMa Compare solution (clustering of continuous dimension, and the ability to put some of the data aside – scope in / scope out):
-* [Marketing Campaign – Continuous dimension](compare/use_cases/marketing_continuous.md)
-* [Marketing Campaign – Scope](compare/use_cases/marketing_scope.md)
+* [Marketing Campaign – Continuous dimension](home/use_cases/marketing_continuous.md)
+* [Marketing Campaign – Scope](home/use_cases/marketing_scope.md)
