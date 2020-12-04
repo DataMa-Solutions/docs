@@ -8,7 +8,7 @@ DataMa COMPARE makes it easy to explain variations of any KPI between two segmen
 
 This documentation gives you an overview of how it works and how to use it.
 
-Below is a video of the main functionnalities of DataMa Compare
+Below is a video of the main functionnalities of DataMa Compare:
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/wYuPTLZRTDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
