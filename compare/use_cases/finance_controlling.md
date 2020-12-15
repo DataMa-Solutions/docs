@@ -1,6 +1,6 @@
 # Finance Controlling
 
-> Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.datama.fr/app/DataMa_analyse_beta) solution.
+> Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.datama.fr/) solution.
 
 This example made for financial assessment is different from the previous examples because the metric relation is not representing a conversion funnel but a business equation.
 

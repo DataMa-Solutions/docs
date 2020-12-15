@@ -6,7 +6,7 @@ Clustering is necessary for dimension analysis
 * For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into “other”
 * For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
 
-Read docs related to [continuous dimension](compare/use_cases/marketing_continuous.md)
+Read docs related to [continuous dimension](home/use_cases/marketing_continuous.md)
 
 ## Absolute metric
 
