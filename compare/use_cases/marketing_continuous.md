@@ -1,6 +1,6 @@
 # Marketing Campaign – Continuous dimension
 
-> Find below information about the **« Marketing Campaign – Continous dimension»**  example in our [demo](https://solutions.datama.fr/app/DataMa_analyse_beta) solution.
+> Find below information about the **« Marketing Campaign – Continous dimension»**  example in our [demo](https://solutions.datama.fr/) solution.
 
 
 
