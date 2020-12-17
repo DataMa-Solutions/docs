@@ -146,6 +146,9 @@
                       * [Number of steps displayed](journey/web_application/menu/number_of_steps_displayed.md)
       * [DataMa Source](source/source.md)
 * [DataMa On Premise](r_package.md)
+* [Licence Terms](terms_of_service.md)
+  * [Privacy policy](Privacy_Policy.md)
+  * [Terms of Service](terms_of_service.md)
 
 
 --------
