@@ -11,3 +11,13 @@
 To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/)
 
 ![waterfall1](images/waterfall.png)
+
+Shows the impact of each step on your primary metric, from Start to End.
+
+Click on a step to see the details of this step
+
+By default, the most interesting dimension will be selected for this zoomed step
+
+You can change the selected dimension for this zoomed step by changing the Dimension filter in the detailed view - filter below
+
+You can unzoom by clicking on other steps or double clicking on the chart
