@@ -21,6 +21,7 @@
               * [Google analytics](general/admin/create_use_case/google_analytics.md)
               * [Extensions](general/admin/create_use_case/extensions/extensions.md)
                   * [Tableau extension](general/admin/create_use_case/extensions/extension_tableau.md)
+                    * [Tableau demo](general/admin/create_use_case/extensions/tableaudemo/tableaudemo.md)
                   * [PowerBI extension](general/admin/create_use_case/extensions/extension_powerBI.md)
                   * [DataIku extension](general/admin/create_use_case/extensions/extension_DataIku.md)
                   * [Alteryx extension](general/admin/create_use_case/extensions/extension_Alteryx.md)
