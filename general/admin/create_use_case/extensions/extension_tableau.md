@@ -16,7 +16,7 @@ You can learn more about tableau dashboard extension [here](https://help.tableau
 
 ## 1. Create you use case in DataMa app
 
-* Download the extension manifest file <a href="https://www.docs.datama.fr/wp-content/uploads/2019/12/solutionsdatama_tableau.trex?dummy=dummy" target="_blank" download> here</a>, you should get a .trex file. Save it somewhere safe
+* Download the extension manifest file <a href="https://datama-solutions.github.io/docs//#/zip/solutionsdatama_tableau.zip" target="_blank"> here</a>, you should get a .trex file. Save it somewhere safe
 * In Tableau desktop, add DataMa as a dashboard extension (see also Tableau documentation [here](https://help.tableau.com/current/pro/desktop/en-us/dashboard_extensions.htm))
     * In a Tableau workbook, open a dashboard sheet.
     * From the Objects section, drag Extension to the dashboard.
