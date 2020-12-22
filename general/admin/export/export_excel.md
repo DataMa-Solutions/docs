@@ -15,4 +15,4 @@ Just activate the macro (Ctrl + Shift + U) in the Excel DataMa Compare, either d
 
 ![Excel_extract](images/Excel-extract.jpg)
 
-[Excel extract](https://www.docs.datama.fr/wp-content/uploads/2018/11/2018-11-28-15-56-29-Excel-extract.xlsm)
+<a href="https://datama-solutions.github.io/docs//#/zip/2018-11-28-15-56-29-Excel-extract.xlsm" target="_blank">Excel extract</a>
