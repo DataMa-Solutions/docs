@@ -39,8 +39,6 @@
       * [Menu](general/menu/menu.md)
           * [Definitions](general/menu/definitions.md)
           * [Filters](general/menu/filters.md)
-              * [Filters](general/menu/filters_level.md)
-              * [Excluded Dimension](general/menu/excluded_dimensions.md)
       * [DataMa Compare](compare/compare.md)
           * [Model](compare/model/model.md)
               * [Waterfall](compare/model/waterfall.md)
