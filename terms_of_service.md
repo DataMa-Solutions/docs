@@ -16,7 +16,7 @@ The Licensee and Licensor are hereinafter referred to together as the  » Partie
 
 
 
-##INTRODUCTION:
+## INTRODUCTION:
 
 
 
