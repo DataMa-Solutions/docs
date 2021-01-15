@@ -2,6 +2,25 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2020-01-15:
+
+* **General:**
+    * Enhanced Google Analytics connector, including GA Segments and automatic refresh of extract in case of date change in Start & End definition
+    * DataMa Tableau extension now has a demo mode, listed on the official [Tableau extension Gallery](https://extensiongallery.tableau.com/extensions/233?version=2020.3&per-page=50)
+    * Ability to easily duplicate workbooks and see live source links on Home page
+    * Ability to change chart colors in display settings
+    * Simplified display of automated email report
+    * Multiple bug fixes and UI improvements
+
+* **Compare:**
+    * Improvement of the dimension interest scoring
+
+* **Pivot:**
+    * Added smart comments to Pivot charts
+
+* **Impact:**
+    * Included confidence interval on Welch T test calculation
+
 ### 2020-12-06: New UI
 
 * **General:**
