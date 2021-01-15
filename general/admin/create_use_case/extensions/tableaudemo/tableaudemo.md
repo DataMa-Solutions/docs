@@ -24,7 +24,7 @@ Typically a source for DataMa will have
     Adding a "1_..", "2_.." in the naming of your metrics should help in that regard
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Source example](images/Source_Example.png)
+![Source example](images/Source_Example.PNG)
 
 Please refer to the full documentation to learn more about [sources](/general/admin/input/source) or see [example of use cases](/home/use_cases/use_cases_examples)
 
@@ -36,7 +36,7 @@ Please refer to the full documentation to learn more about [sources](/general/ad
 * Click 'Start' at the bottom of the welcome modal when it appears
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Dashboard example](images/Dashboard_welcome.png)
+![Dashboard example](images/Dashboard_welcome.PNG)
 
 ## 3. Get insights
 
@@ -49,9 +49,9 @@ We encourage that you read the documentation about each solution to understand w
 * Driver analysis using [DataMa Pivot](/impact/impact.md)
 
 ### Example of Compare analysis for the SuperStore default dataset of Tableau.
-![Waterfall example](images/Waterfall_Example.png)
+![Waterfall example](images/Waterfall_Example.PNG)
 In a glimpse, we get the waterfall that explains the gap of Sales between 2018 and 2019, driven by quantity increase and in particular the one of Office Supplies in the west, as we can read by selecting the 'Executive Summary' in the output menu.
-![Waterfall example](images/ExecSum_Example.png)
+![Waterfall example](images/ExecSum_Example.PNG)
 
 ### Example of Compare analysis for Digital display campaigns
 
