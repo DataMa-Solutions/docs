@@ -10,7 +10,7 @@
     * Ability to easily duplicate workbooks and see live source links on Home page
     * Ability to change chart colors in display settings
     * Simplified display of automated email report
-    * Multiple bug fixes and UI improvements
+    * Multiple bug fixes and UI improvements (including ability to see which DataMa Solution is available, given your Licence & Data Source)
 
 * **Compare:**
     * Improvement of the dimension interest scoring
