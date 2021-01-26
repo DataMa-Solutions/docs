@@ -2,6 +2,49 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2020-01-15:
+
+* **General:**
+    * Enhanced Google Analytics connector, including GA Segments and automatic refresh of extract in case of date change in Start & End definition
+    * DataMa Tableau extension now has a demo mode, listed on the official [Tableau extension Gallery](https://extensiongallery.tableau.com/extensions/233?version=2020.3&per-page=50)
+    * Ability to easily duplicate workbooks and see live source links on Home page
+    * Ability to change chart colors in display settings
+    * Simplified display of automated email report
+    * Multiple bug fixes and UI improvements (including ability to see which DataMa Solution is available, given your Licence & Data Source)
+
+* **Compare:**
+    * Improvement of the dimension interest scoring
+
+* **Pivot:**
+    * Added smart comments to Pivot charts
+
+* **Impact:**
+    * Included confidence interval on Welch T test calculation
+
+### 2020-12-06: New UI
+
+* **General:**
+    * Added **home page** as a welcome page allowing quick access to saved workbooks. You can also edit and lock a workbook on the home page. [Learn More](source/source.md).
+    * DataMa Solution and Workbook name is now stored in the URL, which allows to bookmark your analysis to find it quickly when you're back
+    * Added **DataMa solution tab in header**, allowing to switch quickly from one solution to another, while keeping current settings in the menu
+    * **Improved filters** by adding the capability to filter or exclude for all dimensions. [Learn More](general/menu/filters.md)
+    * General refacto of the architecture of the app, which results in **improved performance**
+    * Overall improvement of the UI, cleaner and whiter, which results in **easier and more enjoyable usage**
+    * Multiple bug fixes
+
+* **Source: (beta)**
+    * Released first version of DataMa Source, which allows to check the source of your workbook. [Learn More](source/source.md)
+
+* **Compare:**
+    * Widgets have been reorganized, to improve performance and make it easier/ shorter to read
+
+* **Pivot:**
+    * Interdependence tab is now interactive: by clicking on a cell, you update the interdependence detailed view below.
+
+* **Journey:**
+    * Added difference of sunburst tab, which represent the gap between two sunbursts in compare mode.
+
+
 ### 2020-10-07:
 
 * **General:**

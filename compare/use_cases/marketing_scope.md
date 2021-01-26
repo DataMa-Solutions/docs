@@ -1,8 +1,6 @@
 # Marketing Campaign – Scope
 
-> Find below information about the **« Marketing Campaign – Scope»**  example in our [demo](https://solutions.datama.fr/app/DataMa_analyse_beta) solution.
-
-
+> Find below information about the **« Marketing Campaign – Scope»**  example in our [demo](https://solutions.datama.fr/) solution.
 
 Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
 

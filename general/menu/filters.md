@@ -1,8 +1,11 @@
 # Filters
 
-The **filters menu** is composed of 2 options:
+The **filters menu** is composed of 2 main options for each dimension of your dataset:
 
-* Excluded dimension (<span style="color:red">Excluded_Dimension</span>): Dimension you want to exclude from the analysis
-* Filter segment (<span style="color:red">Dimension_filter and Filter</span>): Segment within a given dimension that you want to filter on
+* Filter: Segment within a given dimension that you want to filter on. Just click on the button and select what you want to filter on.
+<center><img src="general/menu/images/filter_pills.PNG" alt="Filtering on a subset" /></center>
 
-![filters](images/Pivot-Filters_GIF2.gif)
+* Excluded dimension: Dimension (column of your dataset) you want to exclude from the analysis. Click on the left tick mark to exclude.
+<center><img src="general/menu/images/exclude_pills.PNG" alt="Excluding a dimension" /></center>
+
+You then need to click on the Green button at the bottom of the menu bar to apply those filters.
