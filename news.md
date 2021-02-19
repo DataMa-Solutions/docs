@@ -2,6 +2,27 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2020-02-19:
+
+* **General:**
+    * Added a **Big Query** connector in Beta. You can now pull data from BQ and edit the SQL query to do so in DataMa
+    * Scheduled **HTML export** feature: avoid computation time when exporting DataMa as a URL
+    * Multiple bug fixes and UI improvements   
+
+* **Compare:**
+    * **Right click on the waterfall** to dynamically change the dimension, skip steps, show more segments, filter on a specific segment etc.
+    * **Split of Mix effect and Performance effect only when it makes sense**. In "Auto" mode, mix effect won't be shown if it's too small vs. the overall variation
+    * "Negative drivers only" option in settings. Allows to always show negative variation first, and give highest interest to dimensions with large negative variations, even if the overall variation is positive
+    * Detailed table is now showing details of variations only for the selected Step
+
+* **Pivot:**
+    * **Compare mode** in Pivot. Enable comparison between two segments of the traditional Pivot charts (Dimension Importance and Clustering)
+    * **Mekko chart** representation for showing correlation between one dimension and another on a given metric
+
+* **Journey**
+    * **Sequence** logic enabling analysis of pairs of touch points instead of single touch point
+
+
 ### 2020-01-15:
 
 * **General:**
