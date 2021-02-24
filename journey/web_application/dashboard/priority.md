@@ -30,4 +30,4 @@ Three parameters are used in order to build this graph:
 
 ![priority](images/priority_without_compare.png)
 
-Here, the first step to improve is "Product" because it has  the highest [opportunity](journey/web_application/dashboard/opportunity.md) for the lowest [lost value](journey/web_application/dashboard/lost_value.md).
+Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity](journey/web_application/dashboard/opportunity.md) for the lowest [lost value](journey/web_application/dashboard/lost_value.md).

@@ -1,6 +1,6 @@
 # Pareto
 
-The Pareto tab is a graph allowing you to visualize the repartition of your metric in the various steps of the customer journey.
+The Pareto tab is a graph allowing you to the first 10 journeys contributing to a selected metric, and the share of total metric that it represent, as well as the cumulated share of selected metric of top X journeys.
 
 You will be able to quickly identify the steps representing the highest volumes thanks to our decreasing ranking.
 
