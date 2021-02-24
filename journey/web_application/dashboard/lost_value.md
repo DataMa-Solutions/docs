@@ -1,6 +1,10 @@
 # Lost Value
 
-The Feasability tab is a graph allowing you to visualize the lost value (simulated) of the various steps of the customer journey.
+The Lost tab is a graph allowing you to visualize the lost value (simulated) of the various steps of the customer journey.
+
+The lost value is computed on Journeys that bring no value. For each non valuable journey, a "theoretical value" is computed based on the selected attribution model and previously computed [value](journey/web_application/dashboard/feasibility.md) of each touch point, and this theoretical value is considered as lost due to the last touch point of the considered journey.
+
+![lost_value_concept](images/Lost_Value_Concept.png)
 
 You will be able to quickly identify the steps presenting the biggest lost.
 
@@ -15,13 +19,3 @@ Two parameters are used in order to build this graph:
 ![lost_value](images/lost_value.png)
 
 The biggest lost  is "Goal_Step2" then "Search" , "Offer"...
-
-**Lost Value:**
-
-Lost value is the sum of losses due to the point.
-
-![lost_value](images/lost_value_data.png)
-
-There is a loss on a point when adding this point to a customer journey causes a loss of value (here Revenue).
-
-The loss here is 4200.

@@ -9,16 +9,16 @@ Touch points could be any experience or even process you would like to analyse. 
 <center><img src="journey/model/images/model.png"/></center>
 
 ## Attribution
-Identify priority steps  and see the impact on their individual values.
+See attributed value to each touch point and compare between one another
 
 See details [here](journey/web_application/dashboard/attribution.md)
 
 ## Descriptive comparison
-Compare journeys , visualize their similarities and their differents.
+Compare journeys , visualize their similarities and their differences.
 
 See details [here](journey/web_application/dashboard/descriptive_comparison.md)
 
 ## Detailed View
-Observe each step of your journeys and compare journeys.
+Analyse in detail a specific touch point.
 
 See details [here](journey/web_application/dashboard/detailed_view.md)
