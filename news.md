@@ -2,7 +2,23 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
-### 2020-02-19:
+### 2021-03-24:
+
+* **General:**
+    * **Tableau extension - paid version**: Client version (for licensees) of the demo extension to quickly create, adjust and save your use case in Tableau with no limitation of time
+    * Tableau extension UI improvement: Easily navigate between solutions, outputs and source worksheets
+    * **Custom color**: you can decide of the look and feel of all your charts (Settings>Display)
+    * Multiple bug fixes and UI improvements (incl. ability to switch Start & End)
+
+* **Compare:**
+    * **Translation**: French translation is available for all text & comments (Settings>Display)
+    * Waterfall right click improvement: ability to filter/ exclude Combined_Dimension and Smart Dimension
+    * Metric relation quick definition: the Metric relation modal now includes a 'Sum' option when metrics are additive, not multiplicative
+
+* **Impact:**
+    * Clarified wording on p-value and test side options
+
+### 2021-02-19:
 
 * **General:**
     * Added a **Big Query** connector in Beta. You can now pull data from BQ and edit the SQL query to do so in DataMa
@@ -23,7 +39,7 @@
     * **Sequence** logic enabling analysis of pairs of touch points instead of single touch point
 
 
-### 2020-01-15:
+### 2021-01-15:
 
 * **General:**
     * Enhanced Google Analytics connector, including GA Segments and automatic refresh of extract in case of date change in Start & End definition
