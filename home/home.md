@@ -6,7 +6,7 @@
 
 The Home page shows all your worbooks.
 
-A workbook is a DataMa analysis, which can be using on or multiple DataMa solutions. Each workbook is linked to a dataset.
+A workbook is a DataMa analysis, which can be using on one or multiple DataMa solutions. Each workbook is linked to a dataset.
 
 You can create a new workbook by clicking the '+' card at the top left corner, or jump into a previously saved workbook from here.
 
@@ -18,6 +18,6 @@ Locking a workbook just prevent one user to unwillingly edit or delete that work
 
 ## Workbooks examples
 
-On the home page, you can find a set of demo work book that could help you getting inspired for your own analysis.
+On the home page, you can find a set of demo workbooks that could help you getting inspired for your own analysis.
 
 [Get inspired](/home/use_cases/use_cases_examples.md)

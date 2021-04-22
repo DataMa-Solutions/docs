@@ -4,13 +4,17 @@
 
 DataMa  source is basically a flat table.
 
+As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a spreadsheet.
+
+<center><img src="general/admin/input/images/SourceDimensionMetrics.jpg"/></center
+
+
 DataMa [demo](http://solutions.datama.fr/) has a series of saved versions using different sources that you can **get inspired from looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
 
 As for example:
 
 <center> <iframe width=610 height=260 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXRV_yX735skN1XO80vxldchFr5tii0E1mUgk0vdkaZaOGDxHY9yVZEk0wXb1zag0OVIQzxRBm1zuw/pubhtml?gid=1408263987&amp;single=true&amp;widget=true&amp;headers=false"></iframe> </center>
 
-As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a spreadsheet.
 
 ## Metrics
 
