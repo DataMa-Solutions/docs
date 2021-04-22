@@ -2,9 +2,14 @@
 
 > DataMa graphs and executive summary can be **extracted to documents or other tools** (data visualization).
 
-Your analysis can also be shared by email or by slack
+By using the export button, you can access different ways of extracting results of your analyse.
 
-<center><img src="general/admin/export/images/export_results.png" alt="export_results" /></center>
+<center><img src="general/admin/export/images/ExportResultButton.jpg"/></center
+
+Your analysis can also be shared by email or by slack or published as a URL
+
+<center><img src="general/admin/export/images/ExportResultPopup.jpg"/></center
+
 
 See below the articles to learn about each possible exported result :
 
