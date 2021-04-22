@@ -24,9 +24,14 @@
 
 <center><img src="general/menu/images/calendar_dates.gif"/></center>
 
+?> **Tip:** Clicking on the chart icon next to Start End Dimension gives you access to [Start End Help tabset](general/menu/start_end_help)
+
+
 ## Specify which ratio you want to assess (Pivot & Impact)
 
 *  Define the **Numerator** and the **Denominator** of your ratio (Revenue/ Users | Purchase/ Clients | Margin/ Products...)
 * In DataMa IMPACT & PIVOT, The Impact Metric is your main KPI. It will be the assessment metric that DataMa will calculated to make you understand the gain or the lost you’ve made.
 
 <center> <img src="general/menu/images/MenuDefinitions2.jpg"!/></center>
+
+?> **Tip:** Clicking on the '÷' icon next to Denominator drop down gives you access to the [Ratio helper tabset](general/menu/ratio_helper)
