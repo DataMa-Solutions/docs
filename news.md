@@ -5,7 +5,7 @@
 ### 2021-04-24:
 
 * **General:**
-    * **Ratio helper**: A new visualization helps you define the ratio you want to analyze, by comparing the different ratios in your metrics relation. You can also see the numerator of each ratio, which is particularly useful for funnel analysis to see where you're loosing customers. Available by clicking on the '÷' icon in Pivot / Impact and above 'Settings>Included steps' in compare
+    * **Ratio helper**: A new visualization helps you define the ratio you want to analyze, by comparing the different ratios in your metrics relation. You can also see the numerator of each ratio, which is particularly useful for funnel analysis to see where you're loosing customers. Available by clicking on the '÷' icon in Pivot / Impact and above 'Settings>Included steps' in compare [Learn More](general/menu/ratio_helper)
     * Improved header: Save/ Settings/ Download icon have been reshuffled so that it is more intuitive to use
     * Tableau extension: DataMa extension is now reactive to any interaction with worksheet source, and provides a capability to refresh the data manually
     * Improved Slack connector
@@ -15,7 +15,7 @@
     * **Slide style**: Added a 'Slide Title' above each chart, to better tell the compare story. Download as PPT will come soon
     * **Right click** is now available in shared waterfall: this gives the possibility to switch analyzed dimension and collapse steps when sharing widget outside of DataMa core app (e.g. Tableau or Data Studio)  
 
-    
+
 ### 2021-03-24:
 
 * **General:**
