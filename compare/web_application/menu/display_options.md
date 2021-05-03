@@ -9,3 +9,4 @@
 * **Label bridges:** Choose whether you want to display numbers on waterfall or not
 * **Print version:** Allow to read Shiny chart of segment performance without hovering on it
 * **Funnel shape:** Toggle off to force polygons on table view to be squares instead of trapezes
+* **Custom Colors:** By selecting "Custom" color palette, a text input show up. In this input you can write a comma separated list of hexadecimal colors. These color can use #ABC or #ABCDEF pattern. When you edit this input, a popup notice the behaviour of each defined colors, and required colors.
