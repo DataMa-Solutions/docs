@@ -2,6 +2,34 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2021-05-28:
+
+* **General:**
+    * **Power Point download**: Each DataMa slide (Title, Chart and Comments) can now be extracted in Microsoft Power Point format
+    * DataMa progressive web app can be installed for Chrome users to get quick access to DataMa platform from desktop
+    * Quick upload of source through Ctrl+V shortcut is now available from Home page (for Excel cell range, or Gsheet Url link)
+    * Option to save a cache of the results to avoid long computation time when loading same calculations
+    * Multiple bug fixes and UI improvements (including scrollbars on aside bar, clearer contextual hovering on all charts, and improved notifications)
+
+* **Compare:**
+    * Improved management of dimensions that are not distributed on all metrics (e.g. Product category at session level on a ecommerce website)
+
+* **Impact:**
+    * Improved readability of **volatility test**
+    * Slide title on each section
+    * French translation available
+
+* **Pivot:**
+    * Slide title on each section
+    * French translation available
+
+* **Journey:**
+    * Matrix areas with recommended actions on attribution chart to improve readability
+    * Ability to **filter on specific journeys with right click on sunburst**
+    * Improved readability of sunbursts
+    * Improved performance for large files, and options to reduce computation time (disabling of sunburst generation, limitation of analyzed touch points)
+
+
 ### 2021-04-24:
 
 * **General:**
