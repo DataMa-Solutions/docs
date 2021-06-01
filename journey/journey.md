@@ -8,7 +8,7 @@ If you're already familiar with DataMa Solutions, DataMa JOURNEY is a slightly d
 
 This documentation gives you an overview of how it works and how to use it.
 
-![journey_homepage](Images/homepage.png)
+![journey_homepage](Images/journey.png)
 
 Hope you enjoy it.
 
