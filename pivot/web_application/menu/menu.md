@@ -2,4 +2,4 @@
 
 > See in this chapter the detail of the **left menu** of DataMa interface
 
-![menu_pivot](images/pivot3.png)
+![menu_pivot](images/pivotmenu.png)
