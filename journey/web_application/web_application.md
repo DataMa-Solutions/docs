@@ -6,4 +6,4 @@ The interface is split in three main parts:
 * **Dashboard:**  essentially the charts you see in the page
 * **Menu:** The left part of the web page, which allows you to interact with the model
 
-![homepage](images/homepage.png)
+![homepage](images/journey2.png)
