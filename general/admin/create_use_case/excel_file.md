@@ -2,7 +2,7 @@
 
 > In this section you will find how to load your **Excel file**
 
-![excel_gif](images/Load-excel-Compare_GIF2.gif)
+![csv_gif](images/Load-GA-Compare_GIF2.gif)
 
 Follow the below steps to load your Excel Data:
 
