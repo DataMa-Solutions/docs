@@ -142,7 +142,7 @@ A vos stylos ✏️ et Joyeux Noël 🎁 !
 
 Vous pouvez retrouver l'ensemble des nouveautés dans la section [news](https://datama-solutions.github.io/docs/#/news) de la documentation.
 
- Parmi les nouveautés, l'introduction d'une 'home page'🏠, qui rassemble l'ensemble de vos workbooks. 
+ Parmi les nouveautés, l'introduction d'une 'home page' 🏠, qui rassemble l'ensemble de vos workbooks. 
 
 Chaque 'Card' représente un use case.
 
@@ -190,7 +190,9 @@ Par exemple:
 
 <h2>Tip of the week #20</h2>
 
- Parce que septembre vient de passer et qu'on a bien travaillé tout l'été, la nouvelle version backtoschool 🎒 de DataMa est disponible en production! Au programme:
+ Parce que septembre vient de passer et qu'on a bien travaillé tout l'été, la nouvelle version backtoschool 🎒 de DataMa est disponible en production! 
+
+Au programme:
 
 * Connecteur Google Analytics dynamique
 * Extension des widgets partageables sur les outils de viz 
@@ -298,7 +300,7 @@ Voir un exemple concret [ici](https://www.docs.datama.fr/docs/datama-compare/gen
 
 Préparé avec ❤️ depuis chez nous, on pense à vous et on vous accompagne sur tous vos sujets à distance!
 
-![Tip 11](images/11.png)
+ ![Tip 11](images/11.png)
 
 <h2>Tip of the week #10</h2>
 
@@ -397,16 +399,3 @@ Dans DataMa Compare et Impact, vous pouvez pré visualiser la définition de « 
 * L’onglet « Overview summarize » permet d’avoir une vision aggrégée
 
 Utile notamment dans le cas où l’on n’est pas certain de ce qu’on souhaite comparer !
-
-
-<h2>Tip of the week #1</h2>
-
-Did you know that the first Waterfall in DataMa Compare is interactive and allows you to “zoom in” on a step?
-
-* By clicking on one of the steps, you can “open” this step to have the detail of the effects to explain its variation.
-* By default, the most “interesting” dimension will be displayed, but you can force to display another dimension by using the “Dimension” button in the “Detailed view – filter” section.
-* You can also choose the number of segments to display in this same section using the slider
-
-Zoom out by clicking on another step, or on one of the blue bars (Start or End).
-
-Practical if you need to show the effect of a dimension on a stage, while keeping the global vision!
