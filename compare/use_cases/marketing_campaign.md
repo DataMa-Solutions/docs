@@ -8,7 +8,7 @@ This use case is is a basic example of conversion funnel used for an email campa
 
 **For example:** At the step : number of email « Open/Sent » the performance collapsed mainly due to the Segment 2 that less Opened the email in the Campaign B than in the Campaign A. (This could be seen in with the red bar in the middle)
 
-![Marketing-campaigns](images/Marketing-campaigns.jpg)
+![Marketing-campaigns](images/marketing-campaigns2.png)
 
 Below is an extract of the data that has been used for this example. You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1286768317)
 

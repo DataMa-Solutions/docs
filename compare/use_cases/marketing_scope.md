@@ -8,7 +8,7 @@ As presented in the data, a column called « Scope » allows to remove part of t
 
 This is helpful to compare your business all things being equal.
 
-![MarketingCampaign-Continous](images/MarketingCampaign-Scope.jpg)
+![MarketingCampaign-Continous](images/marketingscope3.png)
 
 Below is an extract of the data that has been used for this example. You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1172240978)
 
