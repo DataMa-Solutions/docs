@@ -26,6 +26,7 @@
     * Aligned UI with slide styles (smart titles will come in next release)
 
 * **Plugins:**
+    * URL export and Tableau extension are now resizable both vertically and horizontaly
     * Enhanced Power BI extension, with ability to select the desired output for each DataMa Solution
     * Improved backend and user info management for on premise deployment
 
