@@ -16,7 +16,7 @@
     * **Dimension interest display** : Interest score is now displayed in the dimension dropdown (right click in waterfall, or second slide)
 
 * **Impact:**
-    * **Anomaly detection** : this brand new feature (in  beta mode for now) allows to automate outlier identification on a given ratio, and understand the drivers of that anomaly. This is particularly useful in time series for being able to quickly spot issues in your KPIs overtime [Learn More](impact/dashboard/web_application/anomaly_detection)
+    * **Anomaly detection** : this brand new feature (in  beta mode for now) allows to automate outlier identification on a given ratio, and understand the drivers of that anomaly. This is particularly useful in time series for being able to quickly spot issues in your KPIs overtime [Learn More](impact/web_application/dashboard/anomaly_detection)
 
 * **Pivot:**
     * For the detailed view slide, dimension selection is now ranked by order of importance and the rank is displayed in the dropdown menu
