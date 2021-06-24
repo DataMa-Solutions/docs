@@ -17,7 +17,7 @@ DataMa PIVOT is a dataset analysis tool that allows you to identify and understa
 
 This documentation gives you an overview of how it works and how to use it.
 
-![pivot_homepage](images/Pivot-HomePage-1024x503.jpg)
+![pivot_homepage](images/pivot.png)
 
 You will optimize the preparation of your data analysis
 

@@ -10,7 +10,7 @@
 
 To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/)
 
-![waterfall1](images/waterfall.png)
+![waterfall1](images/waterfall2.png)
 
 Shows the impact of each step on your primary metric, from Start to End.
 
