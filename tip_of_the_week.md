@@ -231,8 +231,9 @@ Stay tune, there's a lot more to come... 🚀
 * and DataMa IMPACT will give you the combination with the power analysis (which ensures that the impact reaches a sufficient number of individuals) 👨‍👩‍👦‍👦
 
 To find this combination of amplitude and power analysis you can of course use DataMa IMPACT, but also within DataMa COMPARE, where you also find the Significance Test functionality. A very useful feature when you want to ensure the interest of the variation that you observe! 💥
-￼
-19_Significativité-Compare.gif 
+
+
+![Tip 19](images/19.gif)
 
 
 
@@ -242,11 +243,8 @@ To find this combination of amplitude and power analysis you can of course use D
 
  ➡️ 🔗 [here](https://datama-solutions.github.io/docs/#/) is you're best summer read!
 
-And as we acknowledge that we sometimes don't manage to keep up with the crazy pace of releases in the product, we've made you able to contribute on each page and suggest your own modifications by clicking on the "Edit document" link at the top of the page ✍️
+And as we acknowledge that we sometimes don't manage to keep up with the crazy pace of releases in the product, we've made you able to contribute on each page and suggest your own modifications by clicking on the "Edit document" link at the top of the page ✍️ !   #communitycontribution #thanksforyourhelp! 
 
-#communitycontribution #thanksforyourhelp!
-
-datama-solutions.github.io
 
 <h2>Tip of the week #17</h2>
 
@@ -257,7 +255,7 @@ As an analyst, we often try to analyse the performance of a segment compared to 
 
 Very practical when you don't want to open 2 windows on your computer to compare variations between them 😉
 
-17_DisplayOtherSegments2.gif 
+![Tip 17](images/17.gif)
 
 
 <h2>Tip of the week #16</h2>
@@ -268,7 +266,7 @@ You don't have time to open the DataMa interface ... receive your analyses direc
 ￼
 Tip: as seen above you can just as easily share your DataMa graphs in a Data Studio (or others) and configure the sending of emails from your data viz tool!
 
-ExportEmail_GIF2.gif 
+![Tip 16](images/16.gif)
 
 
 
@@ -321,6 +319,7 @@ How do I connect my data into DataMa? How do I get my data (and therefore my cha
 
 You can also use other extensions such as "OWOX BI BigQuery" for your BigQuery queries or the "Supermetrics" add-on for connection to all other applications on the market!
 
+![Tip 13](images/13.gif)
 
 <h2>Tip of the week #12</h2>
 
@@ -377,8 +376,6 @@ In DataMa, you can now:
 * drag & drop your data files (excel, csv).
 
 DataMa recognizes the source directly and offers you to launch the analysis directly!
-
-To find out more:
 
 
 <h2>Tip of the week #8</h2>
