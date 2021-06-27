@@ -102,8 +102,9 @@
                       * [Frequentist (Bernoulli)](impact/web_application/dashboard/frequentist_bernoulli.md)
                       * [Frequentist (other)](impact/web_application/dashboard/frequentist_other.md)
                       * [Forecasting](impact/web_application/dashboard/forecasting.md)
-                      * [Boxplot](impact/web_application/dashboard/boxplot.md)
+                      * [Volatility](impact/web_application/dashboard/volatility.md)
                       * [Bayesian Bernoulli](impact/web_application/dashboard/bayesian.md)
+                      * [Anomaly Detection](impact/web_application/dashboard/anomaly_detection.md)
                   <!-- * [Detailed view](impact/web_application/dashboard/detailed_view.md) Todo : add to sidebar when done-->
                       <!-- * [Detailed view - filters](impact/web_application/dashboard/detailed_view_filters.md) Todo : add to sidebar when done-->
               * [Menu](impact/web_application/menu/menu.md)

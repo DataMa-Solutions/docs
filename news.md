@@ -2,6 +2,35 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2021-06-25:
+
+* **General:**
+    * **Enhanced metric relation interface**: editing metric relation definition is now easier (deleting a step, changing name, switching orders or steps...)
+    * Spline and Gant bars: lines have been replaced by gant bars for discrete dimensions charts, and "splines" (smoothed lines) for continuous dimensions or dates. This makes data visualizations both more accurate and good looking
+    * **Excel download**: Data behind each chart can now be downloaded in excel format with one single click on the Excel icon in the top right corner
+    * [Ratio helper](general/menu/ratio_helper) now allows to compare a starting and ending point, when in compare mode
+    * Both [Ratio helper](general/menu/ratio_helper) and [Start end helper](general/menu/start_end_help) are now reactive to filters
+    * Multiple bug fixes and UI improvements (including default color palette update and standardization of all interaction buttons)
+
+* **Compare:**
+    * **Dimension interest display** : Interest score is now displayed in the dimension dropdown (right click in waterfall, or second slide)
+
+* **Impact:**
+    * **Anomaly detection** : this brand new feature (in  beta mode for now) allows to automate outlier identification on a given ratio, and understand the drivers of that anomaly. This is particularly useful in time series for being able to quickly spot issues in your KPIs overtime [Learn More](impact/web_application/dashboard/anomaly_detection)
+
+* **Pivot:**
+    * For the detailed view slide, dimension selection is now ranked by order of importance and the rank is displayed in the dropdown menu
+    * Dimension correlation matrix has been merged with the correlation slide, in a third tab for easier readability
+
+* **Journey:**
+    * Aligned UI with slide styles (smart titles will come in next release)
+
+* **Plugins:**
+    * URL export and Tableau extension are now resizable both vertically and horizontaly
+    * Enhanced Power BI extension, with ability to select the desired output for each DataMa Solution
+    * Improved backend and user info management for on premise deployment
+
+
 ### 2021-05-28:
 
 * **General:**
