@@ -7,6 +7,9 @@
     * [DataMa Impact](impact/impact.md)
     * [DataMa Journey](journey/journey.md)
     * [DataMa Source](source/source.md)
-* [News](news.md)
+
+* <p style="color:#429893;"> News </p>
+  * [Releases](news.md)
+  * [Tips](tip_of_the_week.md)
 
 * [About](https://datama.fr)
