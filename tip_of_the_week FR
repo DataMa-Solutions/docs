@@ -1,6 +1,16 @@
 # Tips of the week !
 
 
+<h2>Tip of the week #37</h2>
+
+On a du mal à suivre le rythme des release effrénées de l'équipe produit :sweat_smile:
+Dernière en date il y a quelques semaines (voir la [release note](https://datama-solutions.github.io/docs/#/news)
+Au menu notamment la détection d'anomalie dans DataMa Impact, qui permet d'identifier rapidement un point anormal dans le suivi d'un KPI, et de comprendre ensuite ses drivers.
+Compatible avec les sources classiques Datama, il vous suffit d'activer le toggle "anomaly detection" en haut à gauche d'impact pour voir apparaître les résultats qui seront bientôt exportables automatiquement dans un slack ou un email :bell:
+Lisez cet [article] (https://datama-solutions.github.io/docs/#/impact/web_application/dashboard/anomaly_detection?id=anomaly-detection) pour en savoir plus, et contactez nous pour une démo !
+
+![Tip 36](images/37.gif)
+
 
 <h2>Tip of the week #36</h2>
 
