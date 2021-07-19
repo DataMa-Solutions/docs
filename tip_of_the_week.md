@@ -1,6 +1,19 @@
 # Tips of the week !
 
 
+<h2>Tip of the week #37</h2>
+
+It's hard to keep up with the frantic release pace of the product team :sweat_smile:
+
+The latest release was a few weeks ago (see the [release note](https://datama-solutions.github.io/docs/#/news)
+
+On the menu is the anomaly detection in DataMa Impact, which allows to quickly identify an abnormal point in the monitoring of a KPI, and then to understand its drivers.
+
+Compatible with the classic Datama sources, you just need to activate the "anomaly detection" toggle at the top left of Impact to see the results appear, which will soon be automatically exportable in a slack or an email :bell:
+
+Read this [article](https://datama-solutions.github.io/docs/#/impact/web_application/dashboard/anomaly_detection?id=anomaly-detection) to learn more, and contact us for a demo!
+
+![Tip 36](images/37.gif)
 
 <h2>Tip of the week #36</h2>
 
@@ -243,7 +256,7 @@ To find this combination of amplitude and power analysis you can of course use D
 
  ➡️ 🔗 [here](https://datama-solutions.github.io/docs/#/) is you're best summer read!
 
-And as we acknowledge that we sometimes don't manage to keep up with the crazy pace of releases in the product, we've made you able to contribute on each page and suggest your own modifications by clicking on the "Edit document" link at the top of the page ✍️ !   #communitycontribution #thanksforyourhelp! 
+And as we acknowledge that we sometimes don't manage to keep up with the crazy pace of releases in the product, we've made you able to contribute on each page and suggest your own modifications by clicking on the "Edit document" link at the top of the page ✍️ !   #communitycontribution #thanksforyourhelp!
 
 
 <h2>Tip of the week #17</h2>
