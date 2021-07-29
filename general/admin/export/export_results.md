@@ -19,6 +19,7 @@ See below the articles to learn about each possible exported result :
 * [Power BI](general/admin/export/export_powerBI.md)
 * [Document](general/admin/export/export_document.md)
 * [URL](general/admin/export/export_url.md)
-
 **Scheduled exports:**
 * [Slack & Email](general/admin/export/export_slack_mail.md)
+* [Static URL](general/admin/export/export_static_url.md)
+
