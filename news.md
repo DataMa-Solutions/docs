@@ -5,13 +5,15 @@
 ### 2021-07-30:
 
 * **General:**
-    * **Advanced metric relation**: for each step of your market equation (aka Metric relation), you can now define a unit, and specify prioritized or excluded dimension for drill down.
-    Total step function definition is also easier to read and define
     * Ability to edit Gsheet/ BQ connection from HomePage
     * **Alert reports only option**: when scheduling an email/ slack, you can decide to receive it only if alerts are reached.
     In DataMa Compare, alerts are reached when some KPI reaches a pre-defined variation [threshold](docs\general\admin\change_metric_relation.md).
     In DataMa Impact with Anomaly detection, alerts are reached when an anomaly is found
     * Multiple bug fixes and UI improvements (including improvement of home page)
+
+* **Compare:**
+    * **Advanced metric relation**: for each step of your market equation (aka Metric relation), you can now define a unit, and specify prioritized or excluded dimension for drill down.
+    Total step function definition is also easier to read and define
 
 * **Impact:**
     * **Anomaly detection report** : As in Compare, you can now schedule an automated export by email/ slack of DataMa Impact anomaly analysis to receive a notification when computed.
