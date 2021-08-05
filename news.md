@@ -2,6 +2,41 @@
 
 > Find here the **latest releases** of DataMa Solutions
 
+### 2021-07-30:
+
+* **General:**
+    * Ability to edit Gsheet/ BQ connection from HomePage
+    * **Alert reports only option**: when scheduling an email/ slack, you can decide to receive it only if alerts are reached.
+    In DataMa Compare, alerts are reached when some KPI reaches a pre-defined variation [threshold](docs\general\admin\change_metric_relation.md).
+    In DataMa Impact with Anomaly detection, alerts are reached when an anomaly is found
+    * Multiple bug fixes and UI improvements (including improvement of home page)
+
+* **Compare:**
+    * **Advanced metric relation**: for each step of your market equation (aka Metric relation), you can now define a unit, and specify prioritized or excluded dimension for drill down.
+    Total step function definition is also easier to read and define
+
+* **Impact:**
+    * **Anomaly detection report** : As in Compare, you can now schedule an automated export by email/ slack of DataMa Impact anomaly analysis to receive a notification when computed.
+    * Included Waterfall tab and smart comments in Anomaly detection detailed slide
+    * Option to select only last point for analysis in anomaly detection, so that you can focus on what's new.
+    * Option to analyse only a numerator (not a ratio) in anomaly detection
+
+* **Journey:**
+    * **Slide titles** : Journey now includes smart titles, to help you understand the analysis
+
+* **DataMa Prep:**
+    * **Beta release of DataMa Prep**: from DataMa solutions home page, you can now access DataMa Prep. This is a brand new tool that allows user to visualy prepare data, by connecting, combining, transforming sources before plugin into DataMa analysis.
+    Particularly interesting features includes
+      * Advanced Google Analytics connector, with Segments, Filters, Custom dimensions and More
+      * Google trends connector, opening the door for market analysis and correlation with your own performance
+      * Pivot/ unpivot objects, to quickly transform columns in lines and vice versa
+      * Append object, which allows to "paste" one dataset below another. This is especially useful when building DataMa sources from different sources, or when some metrics are not distributed on all dimensions of your dataset
+      * Cleaning object, to rename/ change order of columns
+    * DataMa Prep is available to our beta testers. Please reach out to your Customer Success Manager if you want to give it a try
+
+* **Documentation:**
+  * Added a page with all historical "Tips of the week". You can check [here](tip_of_the_week.md)
+
 ### 2021-06-25:
 
 * **General:**
