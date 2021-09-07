@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 1.5rem 25% !important;
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+a.active {
+  font-weight: 600;
+}
+.dropdown-hover {
+  position: relative;
+  .dropdown {
+    position: absolute;
+    top: calc(100% - 20px);
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0 !important;
+    z-index: -1 !important;
+    background: $white;
+    padding: 10px;
+    min-width: 150px;
+    transition: 0.2s ease-in;
+    border: 1px solid $borderColor;
+    & > li {
+      display: inline-block;
+      width: 100%;
+      height: 2rem;
+      & a {
+        color: #333;
+      }
+    }
+  }
+}
+
+.dropdown-hover:hover {
+  .dropdown {
+    top: calc(100% + 20px);
+    opacity: 1 !important;
+    z-index: 2 !important;
+    transition: 0.2s ease-in;
+  }
+}
