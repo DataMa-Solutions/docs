@@ -9,13 +9,13 @@ description: This documentation gives you an overview of how DataMa works and ho
 ## DataMa Web application
 
 Jump into the documentation to get quickly up to speed on DataMa.
-You can get started here by reading the [Home page section](home/home.md)
+You can get started here by reading the [Home page section]({{site.url}}{{site.baseurl}}/core_app/home)
 
 ## DataMa Package
 
 While most of people will use DataMa on the SaaS version, some may want to deploy DataMa locally.
 This suppose that you can administrate yourself the accesses and infra for running DataMa.
-This also allows a usage of DataMa as any data science package, given the fact that DataMa is essentially a [R Package](/r_package.md)
+This also allows a usage of DataMa as any data science package, given the fact that DataMa is essentially a [R Package]({{site.url}}{{site.baseurl}}/core_app/DataMa_on_premise)
 
 ## Understand DataMa in Motion !
 
