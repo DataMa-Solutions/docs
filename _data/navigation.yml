@@ -1,342 +1,344 @@
 - name: DataMa Web application
-  link: /documentation/web-application.html
+  link: /web_application.html #OK
   subnav:
     - name: Home
-      link: /documentation/home/home.html
+      link: /home.html #OK
       subnav:
         - name: Get inspired
-          link: /documentation/home/use_cases/use_cases_examples.html
+          link: /home/use_cases/use_cases_examples.html #OK
           subnav:
             - name: Web performance - Google Analytics
-              link: /documentation/home/use_cases/web_performance_GA.html
+              link: /home/use_cases/web_performance_GA.html #OK
             - name: Marketing - Campaign
-              link: /documentation/home/use_cases/marketing_campaign.html
+              link: /home/use_cases/marketing_campaign.html #OK
               subnav:
                 - name: Continuous dimensions
-                  link: /documentation/home/use_cases/marketing_continuous.html
+                  link: /home/use_cases/marketing_continuous.html #OK
                 - name: Scope
-                  link: /documentation/home/use_cases/marketing_scope.html
+                  link: /home/use_cases/marketing_scope.html #OK
             - name: Product - AB test
-              link: /documentation/home/use_cases/product_AB_test.html
+              link: /home/use_cases/product_AB_test.html #OK
             - name: Finance Controlling
-              link: /documentation/home/use_cases/finance_controlling.html
+              link: /home/use_cases/finance_controlling.html #OK
             - name: Content Square data
-              link: /documentation/home/use_cases/Content_CS.html
+              link: /home/use_cases/Content_CS.html #OK
     - name: Core app
-      link: /documentation/core-app.html
+      link: /core_app.html #OK
       subnav:
         - name: Header
-          link: /documentation/core-app/header.html
+          link: /core_app/header.html #OK
           subnav:
             - name: Input
-              link: /documentation/core-app/header/input.html
+              link: /core_app/header/input.html #OK
               subnav:
                 - name: Source
-                  link: /documentation/core-app/header/input/source.html
+                  link: /core_app/header/input/source.html #OK
                 - name: Metric relation
-                  link: /documentation/core-app/header/input/metric-relation.html
+                  link: /core_app/header/input/metric_relation.html #OK
             - name: Create new use case
-              link: /documentation/core-app/header/create-new-use-case.html
+              link: /core_app/header/create_new_use_case.html #OK
               subnav:
                 - name: Google Sheet
-                  link: /documentation/core-app/header/create-new-use-case/google-sheet.html
+                  link: /core_app/header/create_new_use_case/google_sheet.html #OK
                 - name: Excel file
-                  link: /documentation/core-app/header/create-new-use-case/excel-file.html
+                  link: /core_app/header/create_new_use_case/excel_file.html #OK
                 - name: CSV file
-                  link: /documentation/core-app/header/create-new-use-case/csv.html
+                  link: /core_app/header/create_new_use_case/csv_file.html #OK
                 - name: Google Analytics
-                  link: /documentation/core-app/header/create-new-use-case/google-analytics.html
+                  link: /core_app/header/create_new_use_case/google_analytics.html #OK
                 - name: Extensions
-                  link: /documentation/core-app/header/create-new-use-case/extensions.html
+                  link: /core_app/header/create_new_use_case/extensions.html #OK
                   subnav:
                     - name: Tableau Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/tableau.html
+                      link: /core_app/header/create_new_use_case/extensions/tableau.html #OK
                       subnav:
                         - name: Tableau demo
-                          link: /documentation/core-app/header/create-new-use-case/extensions/tableau-demo.html
+                          link: /core_app/header/create_new_use_case/extensions/tableau_demo/tableau_demo.html #OK
                     - name: PowerBI Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/PowerBI.html
+                      link: /core_app/header/create_new_use_case/extensions/PowerBI.html #OK
                     - name: DataIku Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/DataIku.html
+                      link: /core_app/header/create_new_use_case/extensions/DataIku.html #OK
                     - name: Alteryx Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/Alteryx.html
+                      link: /core_app/header/create_new_use_case/extensions/Alteryx.html #OK
             - name: Save
-              link: /documentation/core-app/header/save.html
+              link: /core_app/header/save.html #OK
             - name: Loaded version
-              link: /documentation/core-app/header/loaded-version.html
+              link: /core_app/header/loaded_version.html #OK
             - name: Export results
-              link: /documentation/core-app/header/export-results.html
+              link: /core_app/header/export_results.html #OK
               subnav:
                 - name: Tableau
-                  link: /documentation/core-app/header/export-results/tableau.html
+                  link: /core_app/header/export_results/tableau.html #OK
                 - name: Excel
-                  link: /documentation/core-app/header/export-results/excel.html
+                  link: /core_app/header/export_results/excel.html #OK
                 - name: Power BI
-                  link: /documentation/core-app/header/export-results/PowerBI.html
+                  link: /core_app/header/export_results/PowerBI.html #OK
                 - name: Document
-                  link: /documentation/core-app/header/export-results/document.html
+                  link: /core_app/header/export_results/document.html #OK
                 - name: URL
-                  link: /documentation/core-app/header/export-results/url.html
+                  link: /core_app/header/export_results/url.html #OK
                 - name: Slack & Email
-                  link: /documentation/core-app/header/export-results/slack-and-email.html
+                  link: /core_app/header/export_results/slack_mail.html #OK
+                - name: Static URL
+                  link: /core_app/header/export_results/static_url.html #OK
             - name: Change metrics relation
-              link: /documentation/core-app/header/change-metrics-relation.html
+              link: /core_app/header/change_metrics_relation.html #OK
             - name: Recent features
-              link: /documentation/core-app/header/recent-features.html
+              link: /core_app/header/recent_features.html #OK
         - name: Menu
-          link: /documentation/core-app/menu
+          link: /core_app/menu.html #OK
           subnav:
             - name: Definitions
-              link: /documentation/core-app/menu/definitions.html
+              link: /core_app/menu/definitions.html #OK
             - name: Filters
-              link: /documentation/core-app/menu/filters.html
+              link: /core_app/menu/filters.html #OK
         - name: DataMa Compare
-          link: /documentation/core-app/compare.html
+          link: /core_app/compare.html #OK
           subnav:
             - name: Model
-              link: /documentation/core-app/compare/model.html
+              link: /core_app/compare/model.html #OK
               subnav:
                 - name: Waterfall
-                  link: /documentation/core-app/compare/model/waterfall.html
+                  link: /core_app/compare/model/waterfall.html #OK
                   subnav:
                     - name: Covariance
-                      link: /documentation/core-app/compare/model/waterfall/covariance.html
+                      link: /core_app/compare/model/waterfall/covariance.html #OK
                     - name: Summary view
-                      link: /documentation/core-app/compare/model/waterfall/summary-view.html
+                      link: /core_app/compare/model/waterfall/summary_view.html #OK
                 - name: Dimension (Mix & Perf)
-                  link: /documentation/core-app/compare/model/dimension-perf-and-mix.html
+                  link: /core_app/compare/model/dimensions.html #OK
                 - name: Other important modeling components
-                  link: /documentation/core-app/compare/model/other-important-modeling-components.html
+                  link: /core_app/compare/model/modeling_components.html #OK
             - name: Web application
-              link: /documentation/core-app/compare/web-application.html
+              link: /core_app/compare/web_application.html #OK
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/compare/web-application/dashboard.html
+                  link: /core_app/compare/web_application/dashboard.html #OK
                   subnav:
-                    - name: Value box
-                      link: /documentation/core-app/compare/web-application/dashboard/value-box.html
+                    - name: Value boxes
+                      link: /core_app/compare/web_application/dashboard/value_boxes.html #OK
                     - name: Waterfall
-                      link: /documentation/core-app/compare/web-application/dashboard/waterfall.html
+                      link: /core_app/compare/web_application/dashboard/waterfall.html #OK
                       subnav:
                         - name: Chart
-                          link: /documentation/core-app/compare/web-application/dashboard/waterfall/chart.html
+                          link: /core_app/compare/web_application/dashboard/waterfall/chart.html #OK
                           subnav:
                             - name: Zoomed View
-                              link: /documentation/core-app/compare/web-application/dashboard/waterfall/chart/zoomed-view.html
+                              link: /core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view.html #OK
                         - name: Summary Chart
-                          link: /documentation/core-app/compare/web-application/dashboard/waterfall/summary-chart.html
+                          link: /core_app/compare/web_application/dashboard/waterfall/summary_chart.html #OK
                         - name: Funnel
-                          link: /documentation/core-app/compare/web-application/dashboard/waterfall/funnel.html
+                          link: /core_app/compare/web_application/dashboard/waterfall/funnel.html #OK
                     - name: Detailed View
-                      link: /documentation/core-app/compare/web-application/dashboard/detailed-view.html
+                      link: /core_app/compare/web_application/dashboard/detailed_view.html #OK
                       subnav:
                         - name: Moves
-                          link: /documentation/core-app/compare/web-application/dashboard/detailed-view/moves.html
+                          link: /core_app/compare/web_application/dashboard/detailed_view/moves.html #OK
                         - name: Bridge
-                          link: /documentation/core-app/compare/web-application/dashboard/detailed-view/bridge.html
+                          link: /core_app/compare/web_application/dashboard/detailed_view/bridge.html #OK
                         - name: Detailed Bridge
-                          link: /documentation/core-app/compare/web-application/dashboard/detailed-view/detailed-bridge.html
+                          link: /core_app/compare/web_application/dashboard/detailed_view/detailed_bridge.html #OK
                     - name: Dimension analysis
-                      link: /documentation/core-app/compare/web-application/dashboard/dimension-analysis.html
+                      link: /core_app/compare/web_application/dashboard/dimension_analysis.html #OK
                       subnav:
                         - name: Mix effect
-                          link: /documentation/core-app/compare/web-application/dashboard/dimension-analysis/mix-effect.html
+                          link: /core_app/compare/web_application/dashboard/dimension_analysis/mix_effect.html #OK
                         - name: Performance effect
-                          link: /documentation/core-app/compare/web-application/dashboard/dimension-analysis/performance-effect.html
+                          link: /core_app/compare/web_application/dashboard/dimension_analysis/performance_effect.html #OK
                 - name: Menu
-                  link: /documentation/core-app/compare/web-application/menu.html
+                  link: /core_app/compare/web_application/menu.html #OK
                   subnav:
                     - name: Overview
-                      link: /documentation/core-app/compare/web-application/menu/overview.html
+                      link: /core_app/compare/web_application/menu/overview.html #OK
                     - name: Settings
-                      link: /documentation/core-app/compare/web-application/menu/settings.html
+                      link: /core_app/compare/web_application/menu/settings.html #OK
                       subnav:
                         - name: Aggregation
-                          link: /documentation/core-app/compare/web-application/menu/aggregation.html
+                          link: /core_app/compare/web_application/menu/aggregation.html #OK
                         - name: Smart Dimension
-                          link: /documentation/core-app/compare/web-application/menu/smart-dimension.html
+                          link: /core_app/compare/web_application/menu/smart_dimension.html #OK
                         - name: Skipped steps
-                          link: /documentation/core-app/compare/web-application/menu/skipped-steps.html
+                          link: /core_app/compare/web_application/menu/skipped_steps.html #unknown file
                         - name: Compare of Compare
-                          link: /documentation/core-app/compare/web-application/menu/compare-of-compare.html
+                          link: /core_app/compare/web_application/menu/compare_of_compare.html #OK
                         - name: Split Mix and Perf
-                          link: /documentation/core-app/compare/web-application/menu/split-mix-and-perf.html
+                          link: /core_app/compare/web_application/menu/split_mix_and_perf.html #OK
 #                            - name: Signifiance test
-#                              link: /documentation/core-app/compare/web-application/menu/signifiance-test.html
+#                              link: /core_app/compare/web_application/menu/signifiance_test.html
                         - name: Display Options
-                          link: /documentation/core-app/compare/web-application/menu/display-options.html
+                          link: /core_app/compare/web_application/menu/display_options.html #OK
         - name: DataMa Pivot
-          link: /documentation/core-app/pivot.html
+          link: /core_app/pivot.html #OK
           subnav:
             - name: General introduction
-              link: /documentation/core-app/pivot/general-introduction.html
+              link: /core_app/pivot/general_introduction.html #OK
             - name: Use cases examples
-              link: /documentation/core-app/pivot/use_cases-examples.html
+              link: /core_app/pivot/use_cases_examples.html #OK
               subnav:
                 - name: Web performance - Google Analytics
-                  link: /documentation/core-app/pivot/use_cases-examples/web-performance-google-analytics.html
+                  link: /core_app/pivot/use_cases_examples/web-performance-google-analytics.html #unknown file
             - name: Web application
-              link: /documentation/core-app/pivot/web-application.html
+              link: /core_app/pivot/web_application.html #OK
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/pivot/web-application/dashboard.html
+                  link: /core_app/pivot/web_application/dashboard.html #OK
                   subnav:
                     - name: Value boxes
-                      link: /documentation/core-app/pivot/web-application/dashboard/value-boxes.html
+                      link: /core_app/pivot/web_application/dashboard/value_boxes.html #OK
                     - name: Dimension importance
-                      link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance.html
+                      link: /core_app/pivot/web_application/dashboard/dimension_importance.html #OK
                       subnav:
                         - name: Dimension comparison
-                          link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance/dimension-comparison.html
+                          link: /core_app/pivot/web_application/dashboard/dimension_importance/dimension_comparison.html  #OK
                         - name: Decision tree
-                          link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance/decision-tree.html
+                          link: /core_app/pivot/web_application/dashboard/dimension_importance/decision_tree.html #OK
                         - name: Table
-                          link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance/table.html
+                          link: /core_app/pivot/web_application/dashboard/dimension_importance/table.html #OK
                     - name: Clustering
-                      link: /documentation/core-app/pivot/web-application/dashboard/clustering.html
+                      link: /core_app/pivot/web_application/dashboard/clustering.html #OK
                       subnav:
                         - name: Simple chart
-                          link: /documentation/core-app/pivot/web-application/dashboard/clustering/simple-chart.html
+                          link: /core_app/pivot/web_application/dashboard/clustering/simple_chart.html #OK
                         - name: Clustered chart
-                          link: /documentation/core-app/pivot/web-application/dashboard/clustering/clustered-chart.html
+                          link: /core_app/pivot/web_application/dashboard/clustering/clustered_chart.html #OK
                     - name: Interdependence
-                      link: /documentation/core-app/pivot/web-application/dashboard/interdependence.html
+                      link: /core_app/pivot/web_application/dashboard/interdependence.html #OK
                     - name: Interdependence detailed view
-                      link: /documentation/core-app/pivot/web-application/dashboard/interdependence-detailed-view.html
+                      link: /core_app/pivot/web_application/dashboard/interdependence_detailed_view.html #OK
                       subnav:
                         - name: Sankey
-                          link: /documentation/core-app/pivot/web-application/dashboard/interdependence-detailed-view/sankey.html
+                          link: /core_app/pivot/web_application/dashboard/interdependence_detailed_view/sankey.html #OK
                 - name: Menu
-                  link: /documentation/core-app/pivot/web-application/menu.html
+                  link: /core_app/pivot/web_application/menu.html #OK
                   subnav:
                     - name: Settings
-                      link: /documentation/core-app/pivot/web-application/menu/settings.html
+                      link: /core_app/pivot/web_application/menu/settings.html #OK
                       subnav:
                         - name: Tree depth
-                          link: /documentation/core-app/pivot/web-application/menu/settings/tree-depth.html
+                          link: /core_app/pivot/web_application/menu/settings/tree_depth.html #OK
                         - name: Aggregation in %
-                          link: /documentation/core-app/pivot/web-application/menu/settings/aggregation-in-percent.html
+                          link: /core_app/pivot/web_application/menu/settings/aggregation_in_percent.html #OK
 #                            - name: Continuous clustering depth
-#                              link: /documentation/core-app/pivot/web-application/menu/settings/continuous-clustering-depth.html
+#                              link: /core_app/pivot/web_application/menu/settings/continuous_clustering_depth.html
         - name: DataMa Impact
-          link: /documentation/core-app/impact.html
+          link: /core_app/impact.html #OK
           subnav:
             - name: Web application
-              link: /documentation/core-app/impact/web-application.html
+              link: /core_app/impact/web_application.html #OK
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/impact/web-application/dashboard.html
+                  link: /core_app/impact/web_application/dashboard.html #OK
                   subnav:
                     - name: Value boxes
-                      link: /documentation/core-app/impact/web-application/dashboard/value-boxes.html
+                      link: /core_app/impact/web_application/dashboard/value_boxes.html #OK
                     - name: Models
-                      link: /documentation/core-app/impact/web-application/dashboard/models.html
+                      link: /core_app/impact/web_application/dashboard/models.html #OK
                       subnav:
                         - name: Frequentist (Bernoulli)
-                          link: /documentation/core-app/impact/web-application/dashboard/models/frequentist/bernoulli.html
+                          link: /core_app/impact/web_application/dashboard/models/frequentist/bernoulli.html #OK
                         - name: Frequentist (other)
-                          link: /documentation/core-app/impact/web-application/dashboard/models/frequentist/other.html
+                          link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
                         - name: Forecasting
-                          link: /documentation/core-app/impact/web-application/dashboard/models/forecasting.html
+                          link: /core_app/impact/web_application/dashboard/models/forecasting.html #OK
                         - name: Boxplot
-                          link: /documentation/core-app/impact/web-application/dashboard/models/boxplot.html
+                          link: /core_app/impact/web_application/dashboard/models/boxplot.html #unknown file
                         - name: Bayesion bernoulli
-                          link: /documentation/core-app/impact/web-application/dashboard/models/bayesian-bernoulli.html
+                          link: /core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html #OK
                 - name: Menu
-                  link: /documentation/core-app/impact/web-application/menu.html
+                  link: /core_app/impact/web_application/menu.html #OK
                   subnav:
                     - name: Settings
-                      link: /documentation/core-app/impact/web-application/menu/settings.html
+                      link: /core_app/impact/web_application/menu/settings.html #OK
                       subnav:
                         - name: General Introduction
-                          link: /documentation/core-app/impact/web-application/menu/settings/general-introduction.html
+                          link: /core_app/impact/web_application/menu/settings/general_introduction.html #unknown file
                         - name: Use cases examples
-                          link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples.html
+                          link: /core_app/impact/web_application/menu/settings/use_cases_examples.html #unknown file
                           subnav:
                             - name: Test to compute
-                              link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/test-to-compute.html
+                              link: /core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html #OK
                             - name: Confidence interval
-                              link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/confidence-interval.html
+                              link: /core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval.html #OK
                             - name: Aggregation in %
-                              link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/aggregation-in-percent.html
+                              link: /core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html #OK
         - name: DataMa Journey
-          link: /documentation/core-app/journey.html
+          link: /core_app/journey.html #OK
           subnav:
             - name: General introduction
-              link: /documentation/core-app/journey/general-introduction.html
+              link: /core_app/journey/general_introduction.html #OK
             - name: Use cases examples
-              link: /documentation/core-app/journey/use_cases-examples.html
+              link: /core_app/journey/use_cases_examples.html #OK
               subnav:
                 - name: Website cross page journeys
-                  link: /documentation/core-app/journey/use_cases-examples/website-cross-page-journeys.html
+                  link: /core_app/journey/use_cases_examples/website_cross_page_journeys.html #OK
                 - name: Website intra page AB test
-                  link: /documentation/core-app/journey/use_cases-examples/website-intra-page-AB-test.html
+                  link: /core_app/journey/use_cases_examples/website_intra_page_AB_test.html #OK
                 - name: Online acquisition
-                  link: /documentation/core-app/journey/use_cases-examples/online-acquisition.html
+                  link: /core_app/journey/use_cases_examples/online_acquisition.html #OK
             - name: Model
-              link: /documentation/core-app/journey/model.html
+              link: /core_app/journey/model.html #OK
             - name: Web application
-              link: /documentation/core-app/journey/web-application.html
+              link: /core_app/journey/web_application.html #OK
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/journey/web-application/dashboard.html
+                  link: /core_app/journey/web_application/dashboard.html #OK
                   subnav:
                     - name: Value boxes
-                      link: /documentation/core-app/journey/web-application/dashboard/value-boxes.html
+                      link: /core_app/journey/web_application/dashboard/value_boxes.html #unknown file
                     - name: Attribution
-                      link: /documentation/core-app/journey/web-application/dashboard/attribution.html
+                      link: /core_app/journey/web_application/dashboard/attribution.html #OK
                       subnav:
                         - name: Priority
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/priority.html
+                          link: /core_app/journey/web_application/dashboard/attribution/priority.html #OK
                         - name: Opportunity (value)
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/opportunity-value.html
+                          link: /core_app/journey/web_application/dashboard/attribution/opportunity_value.html #OK
                         - name: Feasability (ratio)
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/feasability.html
+                          link: /core_app/journey/web_application/dashboard/attribution/feasability.html #OK
                         - name: Lost Value
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/lost-value.html
+                          link: /core_app/journey/web_application/dashboard/attribution/lost_value.html #OK
                         - name: Data
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/data.html
+                          link: /core_app/journey/web_application/dashboard/attribution/data.html #OK
                     - name: Descriptive Comparison
-                      link: /documentation/core-app/journey/web-application/dashboard/description-comparison.html
+                      link: /core_app/journey/web_application/dashboard/descriptive_comparison.html #OK
                       subnav:
                         - name: Pareto
-                          link: /documentation/core-app/journey/web-application/dashboard/descriptive-comparison/pareto.html
+                          link: /core_app/journey/web_application/dashboard/descriptive_comparison/pareto.html #OK
                         - name: Sunburst
-                          link: /documentation/core-app/journey/web-application/dashboard/descriptive-comparison/sunburst.html
+                          link: /core_app/journey/web_application/dashboard/descriptive_comparison/sunburst.html #OK
                     - name: Detailed View
-                      link: /documentation/core-app/journey/web-application/dashboard/detailed-view.html
+                      link: /core_app/journey/web_application/dashboard/detailed_view.html #OK
                       subnav:
                         - name: Simple Stat
-                          link: /documentation/core-app/journey/web-application/dashboard/detailed-view/simple-stat.html
+                          link: /core_app/journey/web_application/dashboard/detailed_view/simple_stat.html #OK
                         - name: Flow
-                          link: /documentation/core-app/journey/web-application/dashboard/detailed-view/flow.html
+                          link: /core_app/journey/web_application/dashboard/detailed_view/flow.html #OK
                           subnav:
                             - name: Relative
-                              link: /documentation/core-app/journey/web-application/dashboard/detailed-view/flow/relative.html
+                              link: /core_app/journey/web_application/dashboard/detailed_view/flow/relative.html #OK
                         - name: Data
-                          link: /documentation/core-app/journey/web-application/dashboard/detailed-view/data.html
+                          link: /core_app/journey/web_application/dashboard/detailed_view/data.html #OK
                 - name: Menu
-                  link: /documentation/core-app/journey/web-application/menu.html
+                  link: /core_app/journey/web_application/menu.html #OK
                   subnav:
                     - name: Settings
-                      link: /documentation/core-app/journey/web-application/menu/settings.html
+                      link: /core_app/journey/web_application/menu/settings.html #OK
                       subnav:
                         - name: Attribution model
-                          link: /documentation/core-app/journey/web-application/menu/settings/attribution-model.html
+                          link: /core_app/journey/web_application/menu/settings/attribution_model.html #OK
                         - name: Journey Separator
-                          link: /documentation/core-app/journey/web-application/menu/settings/journey-separator.html
+                          link: /core_app/journey/web_application/menu/settings/journey_separator.html #OK
                         - name: Simplification of journeys
-                          link: /documentation/core-app/journey/web-application/menu/settings/simplification-of-journeys.html
+                          link: /core_app/journey/web_application/menu/settings/simplification_of_journeys.html #OK
                         - name: Number of steps displayed
-                          link: /documentation/core-app/journey/web-application/menu/settings/number-of-steps-displayed.html
+                          link: /core_app/journey/web_application/menu/settings/number_of_steps_displayed.html #OK
         - name: DataMa Source
-          link: /documentation/core-app/source.html
+          link: /core_app/source.html #OK
 - name: DataMa On Premise
-  link: /documentation/core-app/DataMa-on-premise.html
+  link: /core_app/DataMa_on_premise.html #OK
 - name: Licence Terms
-  link: /documentation/core-app/licence-terms.html
+  link: /core_app/licence_terms.html #OK
   subnav:
     - name: Privacy policy
-      link: /documentation/core-app/licence-terms/privacy-policy.html
+      link: /core_app/licence_terms/privacy_policy.html #OK
     - name: Terms of Service
-      link: /documentation/core-app/licence-terms/terms-of-service.html
+      link: /core_app/licence_terms/terms_of_service.html #OK
