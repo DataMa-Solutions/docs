@@ -1,4 +1,13 @@
-# Tips of the week !
+---
+title: Tips of the week ! In French
+layout: page
+img_url: /assets/images/tip/37.gif
+img_type: image/gif
+img_width: 600
+img_height: 300
+description: |
+  Tips & tricks sur DataMa, mais en français 🐓
+---
 
 
 <h2>Tip of the week #37</h2>
