@@ -1,8 +1,12 @@
-# Product - AB test
+---
+title: Product - AB test
+description: As for the other examples, number of dimension could be extended to all the data available from your AB Test.
+layout: page
+---
 
 > Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.datama.fr/) solution.
 
-As for the other examples, number of dimension could be extended to all the data available from your AB Test.
+{{ page.description }}
 
 For the purpose of this example, we just have modified one element between A and B version: conversion of the Mobile-Chrome users from Cart_Step 1 to Cart_Step 2 (and the following steps accordingly)
 

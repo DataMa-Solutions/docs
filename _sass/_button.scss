@@ -1,0 +1,39 @@
+.btn {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  background-color: $datagreen_light;
+  color: $white !important;
+  &:hover {
+    color: $white !important;
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 5px;
+    margin-bottom: -5px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
