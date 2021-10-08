@@ -1,15 +1,24 @@
 <ul>
     {% for item in include.nav %}
-    <li>
-        <a href="{{ site.url }}{{ site.baseurl }}{{ item.link }}">
-            {{ item.name }}
+    {% if item.type == 'separated' %}
+        <li class="spaced">
+            <hr>
+    {% else %}
+        <li>
+    {% endif %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{ item.link }}">
+                {% if item.type == 'separated' %}
+                    <h2>{{ item.name }}</h2>
+                {% else %}
+                    {{ item.name }}
+                {% endif %}
+                {% if item.subnav %}
+                    <button class="collapser"></button>
+                {% endif %}
+            </a>
             {% if item.subnav %}
-                <button class="collapser"></button>
+                {% include menu.html nav=item.subnav %}
             {% endif %}
-        </a>
-        {% if item.subnav %}
-            {% include menu.html nav=item.subnav %}
-        {% endif %}
-    </li>
+        </li>
     {% endfor %}
 </ul>
