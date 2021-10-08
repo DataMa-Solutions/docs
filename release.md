@@ -5,7 +5,7 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
-### 2021-10-01:
+### 2021-10-08:
 
 * **General:**
     * Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. Month 1, Month 2... Month 12 when comparing two years, or Day 1, Day 2... Day 7 when comparing 2 weeks)
@@ -20,7 +20,7 @@ description: Find here the **latest releases** of DataMa Solutions
     * Focused/ Excluded dimensions are now available for Total step
 
 * **Impact:**
-    * Anomaly detection: Slider input to select % of point used for moving average Window
+    * Anomaly detection: Slider input to select % of point used for moving average window
     * Anomaly detection: Ability to analyse all steps of market equation for a given use case. Each step is analysed separately, and you can navigate from one indicator to another using drop down within first slide title. This is particularly useful to get notified from any anomaly within any step of a conversion funnel without setting up multiple use cases in DataMa
     * Anomaly detection: Forecasting method as an option on top of moving average for detection of anomaly, available for latest point only within settings
 
