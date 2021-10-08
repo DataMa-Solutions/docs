@@ -21,15 +21,30 @@ body {
     & > aside {
       width: 40px;
       transition: 0.2s ease-in;
+      padding: 20px 10px;
       & > header {
+        & > a:not(.burger) {
+          font-size: 0;
+          padding: 0;
+          height: 40px;
+          line-height: 40px;
+          top: 0;
+          transform: unset;
+          left: 0;
+          right: 0;
+          & >  img {
+            width: 35px;
+            height: 35px;
+            margin-top: 2.5px;
+            margin-left: 2.5px;
+          }
+        }
         & > .burger {
           margin-top: 40px;
-          margin-left: -40px;
-          color: #333 !important;
-          &::after {
-            content: "\f0da";
-            margin-left: 5px;
-          }
+          display: none;
+          position: relative;
+          padding: 0;
+          left: 0;
           & > i {
             margin-left: 3px;
           }
@@ -39,6 +54,9 @@ body {
       & > ul,
       & > nav {
         display: none;
+      }
+      &+main {
+        width: calc(100% - 50px) !important;
       }
       &.fixed+main {
         margin-left: 50px !important;
@@ -50,39 +68,43 @@ body {
   }
   & > aside {
     height: 100vh;
-    width: 250px;
+    width: 300px;
     transition: 0.2s ease-in;
     box-sizing: border-box;
     border-right: 1px solid rgba(0,0,0,0.1);
-    padding: 20px 10px;
+    padding: 20px;
     overflow-y: auto;
-    background-color: white;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FAFAFA 100%);
     position: relative;
     & > header {
       width: calc(100% + 20px);
-      height: 40px;
+      height: 100px;
       float: right;
       line-height: 40px;
       text-align: center;
-      display: flex;
-      flex-wrap: nowrap;
       margin: -20px -10px 0;
-      background: $datagreen;
+      position: relative;
 
       & > a {
         width: 100%;
-        height: 40px;
-        line-height: 40px;
+        height: 60px;
+        line-height: 60px;
         text-align: left;
-        color: white !important;
+        padding-left: 10px;
+        color: $datagreen !important;
         font-weight: 400;
+        font-size: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         &:hover {
           color: white;
           text-decoration: none;
         }
         & > img {
-          width: 26px;
-          height: 26px;
+          width: 30px;
+          height: 30px;
           margin-top: -3px;
           margin-left: 5px;
           margin-right: 5px;
@@ -94,19 +116,39 @@ body {
         float: right;
         line-height: 40px;
         text-align: center;
-        color: white;
-        &::after {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 600;
-          margin-left: 3px;
-        }
+        position: absolute;
+        top: 0;
+        right: -10px;
+        left: unset;
+        transform: unset;
+        display: none;
+        color: #333 !important;
+        font-size: 18px;
+        padding-bottom: 0 !important;
         &:hover {
           text-decoration: none;
         }
       }
     }
+    ul.open {
+      position: relative;
+    }
+    ul.open::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(0,0,0,0.05);
+      display: block;
+    }
     & > ul {
+      & a>img {
+        height: 17px;
+        width: auto;
+        margin-right: 5px;
+      }
       & > li:nth-child(2) {
         margin-top: 10px;
       }
@@ -124,6 +166,21 @@ body {
     & > nav {
       margin-top: 20px;
       padding: 20px 0;
+      & a {
+        color: #333 !important;
+      }
+      & h2 {
+        font-weight: 400;
+      }
+      & li.spaced {
+        & ul {
+          padding-top: 10px;
+        }
+        padding-bottom: 10px;
+      }
+      &>ul>li:first-child>hr:first-of-type {
+        display: none;
+      }
       & > a {
         width: 100%;
         display: inline-block;
@@ -143,12 +200,15 @@ body {
             display: inline-block;
             margin: 0;
             width: 100%;
-            height: 1.5rem;
+            height: 2rem;
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;
-            padding-left: 30px;
+            padding-right: 30px;
             box-sizing: border-box;
+            &:hover {
+              text-decoration: none;
+            }
             & > .collapser {
               position: absolute;
               z-index: 1;
@@ -159,20 +219,20 @@ body {
               border: none;
               bottom: 0;
               top: 50%;
-              left: 0;
+              right: 0;
               transform: translateY(-50%);
               line-height: 20px;
-              color: $datagreen;
+              color: #333;
               cursor: pointer;
               &::before {
                 font-family: "Font Awesome 5 Free";
                 text-align: center;
-                content: "\f067";
+                content: "\f107";
                 font-weight: 600;
               }
               &.active {
                 &::before {
-                  content: "\f068";
+                  content: "\f106";
                 }
               }
             }
@@ -184,7 +244,7 @@ body {
       }
     }
     & ul {
-      padding-left: 10px;
+      padding-left: 15px;
       margin: 0;
       list-style: none;
       li {
@@ -197,11 +257,11 @@ body {
       left: 0;
     }
     &.fixed+main {
-      margin-left: 250px !important;
+      margin-left: 300px !important;
     }
   }
   & > main {
-    width: calc(100% - 250px);
+    width: calc(100% - 300px);
     position: relative;
     box-sizing: border-box;
     padding: 20px;
@@ -233,19 +293,22 @@ body {
 }
 @media screen and (max-width: 767px) {
   body > main {
-    padding: 20px 40px;
+    padding: 20px 30px;
+  }
+  .burger {
+    display: block !important;
   }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   body > main {
-    padding: 20px 100px;
+    padding: 20px 50px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   body > main {
-    padding: 20px 200px;
+    padding: 20px 100px;
   }
 }
