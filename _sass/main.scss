@@ -206,14 +206,19 @@ body {
             overflow: hidden;
             padding-right: 30px;
             box-sizing: border-box;
+            line-height: 30px;
             &:hover {
               text-decoration: none;
+              & > .collapser {
+                background-color: rgba(0,0,0,0.1);
+                transition: 0.2s ease-in;
+              }
             }
             & > .collapser {
               position: absolute;
               z-index: 1;
               width: 30px;
-              height: 20px;
+              height: 30px;
               padding: 0;
               background: transparent;
               border: none;
@@ -240,6 +245,14 @@ body {
               display: none;
             }
           }
+        }
+      }
+      & .links {
+        a > img {
+          width: 15px;
+          height: 15px;
+          line-height: 30px;
+          margin-right: 10px;
         }
       }
     }
