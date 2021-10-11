@@ -20,6 +20,11 @@ $('aside>header>.burger').on('click', (e) => {
     e.preventDefault();
     $('body').toggleClass('menu-close')
 })
+$('aside>nav li>a').on('click', e => {
+    if ($(e.target).find('.collapser').length) {
+        $(e.target).find('.collapser').click()
+    }
+})
 $('aside>nav .collapser').on('click', (e) => {
     $(e.target).toggleClass('active');
     $(e.target).parent().next().toggleClass('open');

@@ -24,9 +24,9 @@
             - name: CSV file
               link: /core_app/header/create_new_use_case/csv_file.html #OK
             - name: Google Analytics
-                link: /core_app/header/create_new_use_case/google_analytics.html #OK
+              link: /core_app/header/create_new_use_case/google_analytics.html #OK
             - name: Google Big Query
-                link: /core_app/header/create_new_use_case/google_bigquery.html #OK
+              link: /core_app/header/create_new_use_case/google_bigquery.html #OK
             - name: Extensions
               link: /core_app/header/create_new_use_case/extensions.html #OK
               subnav:
