@@ -1,3 +1,7 @@
+h1 {
+  font-weight: 300;
+}
+
 .welcome {
   width: 100%;
   height: calc(100vh - 10px);
@@ -56,6 +60,9 @@
       width: 100%;
       margin-bottom: 2rem;
       font-size: 36px;
+      border: none;
+      margin-left: 0;
+      padding-left: 0;
     }
   }
   & > .bounce {
