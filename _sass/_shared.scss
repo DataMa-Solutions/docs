@@ -29,7 +29,7 @@ a.active {
   .dropdown {
     position: absolute;
     top: calc(100% - 20px);
-    left: 0;
+    right: 0;
     display: flex;
     flex-wrap: wrap;
     opacity: 0 !important;
