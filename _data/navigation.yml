@@ -321,30 +321,28 @@
 - name: Home
   type: separated
   link: /home.html #OK
+- name: Get inspired
+  link: /home/use_cases/use_cases_examples.html #OK
   subnav:
-    - name: Get inspired
-      link: /home/use_cases/use_cases_examples.html #OK
+    - name: Web performance - Google Analytics
+      link: /home/use_cases/web_performance_GA.html #OK
+    - name: Marketing - Campaign
+      link: /home/use_cases/marketing_campaign.html #OK
       subnav:
-        - name: Web performance - Google Analytics
-          link: /home/use_cases/web_performance_GA.html #OK
-        - name: Marketing - Campaign
-          link: /home/use_cases/marketing_campaign.html #OK
-          subnav:
-            - name: Continuous dimensions
-              link: /home/use_cases/marketing_continuous.html #OK
-            - name: Scope
-              link: /home/use_cases/marketing_scope.html #OK
-        - name: Product - AB test
-          link: /home/use_cases/product_AB_test.html #OK
-        - name: Finance Controlling
-          link: /home/use_cases/finance_controlling.html #OK
-        - name: Content Square data
-          link: /home/use_cases/Content_CS.html #OK
+        - name: Continuous dimensions
+          link: /home/use_cases/marketing_continuous.html #OK
+        - name: Scope
+          link: /home/use_cases/marketing_scope.html #OK
+    - name: Product - AB test
+      link: /home/use_cases/product_AB_test.html #OK
+    - name: Finance Controlling
+      link: /home/use_cases/finance_controlling.html #OK
+    - name: Content Square data
+      link: /home/use_cases/Content_CS.html #OK
 - name: Licence terms
   type: separated
   link: /core_app/licence_terms.html #OK
-  subnav:
-    - name: Privacy policy
-      link: /core_app/licence_terms/privacy_policy.html #OK
-    - name: Terms of Service
-      link: /core_app/licence_terms/terms_of_service.html #OK
+- name: Privacy policy
+  link: /core_app/licence_terms/privacy_policy.html #OK
+- name: Terms of Service
+  link: /core_app/licence_terms/terms_of_service.html #OK
