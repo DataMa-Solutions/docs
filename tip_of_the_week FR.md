@@ -1,7 +1,7 @@
 ---
 title: Tips of the week ! In French
 layout: page
-img_url: /assets/images/tip/37.gif
+img_url: /assets/images/tip/38.gif
 img_type: image/gif
 img_width: 600
 img_height: 300
@@ -9,6 +9,18 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+## Tip of the week #38
+
+La dernière [release](https://datama-solutions.github.io/docs/#/release)  de DataMa a eu lieu ce weekend :slightly_smiling_face:
+Parmi les nouveautés, la mise à dispo en beta :test_tube: de DataMa Prep, qui permet de générer un dataset pour DataMa de façon simple et visuelle, en combinant et retravaillant des sources.
+Plus de temps perdu sur Google Sheet à joindre 25 onglets :nerd_face:
+  * Plusieurs connecteurs pertinents pour DataMa, notamment Google Analytics et Google trends
+  * Data manipulations simples avec Pivot/ UnPivot/ Renaming/ Column Ordering/ Append
+  * Scheduleur disponible pour avoir la data immédiatement dispo dans DataMa
+Pour tester, demandez accès à votre CSM DataMa, puis rdv dans l'onglet "data flow" sur la home page de DataMa
+
+
+![Tip 38]({{site.url}}{{site.baseurl}}/assets/images/tip/38.gif)
 
 <h2>Tip of the week #37</h2>
 

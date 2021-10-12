@@ -1,22 +1,35 @@
 ---
 title: Tips of the week !
 layout: page
-img_url: /assets/images/tip/37.gif
+img_url: /assets/images/tip/38.gif
 img_type: image/gif
 img_width: 600
 img_height: 300
 description: |
-  It's hard to keep up with the frantic release pace of the product team :sweat_smile:
-  
-  The latest release was a few weeks ago (see the [release note](https://datama-solutions.github.io/docs/#/news))
-  
-  On the menu is the anomaly detection in DataMa Impact, which allows to quickly identify an abnormal point in the monitoring of a KPI, and then to understand its drivers.
-  
-  Compatible with the classic Datama sources, you just need to activate the 'anomaly detection' toggle at the top left of Impact to see the results appear, which will soon be automatically exportable in a slack or an email :bell:
+  Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #38
+
+Latest [release](https://datama-solutions.github.io/docs/#/release) of DataMa hapenned this weekend :slightly_smiling_face:
+Among others, DataMa prep is now available in beta:test_tube: , which allows you to generate a dataset for DataMa in a simple and visual way, conbining multiple sources
+No more time wasted with 25 worksheet in Gsheet :nerd_face:
+  * Multiple connectors for DataMa, including Google Analytics and Google trends
+  * Easy data manipulation including Pivot/ UnPivot/ Renaming/ Column Ordering/ Append
+  * Scheduleur available to get data fresh and ready for analysing in DataMa
+Test it by asking to your DataMa CSM, then go to the "data flow" tab on the home page of DataMa
+
+![Tip 38]({{site.url}}{{site.baseurl}}/assets/images/tip/38.gif)
 
 ## Tip of the week #37
-{{ page.description }}
+
+It's hard to keep up with the frantic release pace of the product team :sweat_smile:
+
+The latest release was a few weeks ago (see the [release note](https://datama-solutions.github.io/docs/#/release))
+
+On the menu is the anomaly detection in DataMa Impact, which allows to quickly identify an abnormal point in the monitoring of a KPI, and then to understand its drivers.
+
+Compatible with the classic Datama sources, you just need to activate the 'anomaly detection' toggle at the top left of Impact to see the results appear, which will soon be automatically exportable in a slack or an email :bell:
+
 Read this [article](https://datama-solutions.github.io/docs/#/impact/web_application/dashboard/anomaly_detection?id=anomaly-detection) to learn more, and contact us for a demo!
 
 ![Tip 37]({{site.url}}{{site.baseurl}}/assets/images/tip/37.gif)
@@ -158,7 +171,7 @@ Now you're turn ✏️ and merry Christmas 🎁!
 
 <h2>Tip of the week #24</h2>
 
-As annouced, new UI of DataMa is now in production on [solutions.Datama.io](solutions.Datama.io)  🎉
+As annouced, new UI of DataMa is now in production on [solutions.Datama.io](solutions.Datama.io) 🎉
 
 You can find everything that's new in the release note [here](https://datama-solutions.github.io/docs/#/news)
 
