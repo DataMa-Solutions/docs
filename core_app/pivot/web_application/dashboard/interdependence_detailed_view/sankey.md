@@ -14,7 +14,7 @@ The “% distrib” option allows you to represent the distribution by percentag
 
 This represents each element at the same size which helps you comparing the distribution.
 
-![inter_detailed]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/interdependence_detailed_view/images/inter_detailed.png)
+![inter_detailed]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/interdependence_detailed_view/images/inter_detailed.png)
 
 > The **« % Distrib »** option makes appear the segments on the right of the window all at the same size. This help to compare segment between each other.
 

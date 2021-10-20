@@ -18,4 +18,4 @@ Medium is the most important dimension and Gender is the less important.
 
 Each bubble of Medium, represent a type of medium (referral, organic, direct…), the grey bar represents the value of the *Weighted Standard deviation* used to sort the dimension.
 
-![bubble]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/dimension_importance/images/DimensionImportance-1-1024x312.jpg)
+![bubble]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/dimension_importance/images/DimensionImportance-1-1024x312.jpg)

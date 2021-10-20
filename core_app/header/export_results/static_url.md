@@ -13,4 +13,4 @@ layout: page
 4. Scheduling reports is useful when you want your static report to be updated with the latest data. If you want this option, it will be generated every day at 8am for example. If your data doesn't change overnight, then select the most appropriate schedule for the data compute update. If your data doesn't change at all, then generate a link without updates.
 5. Copy the url and use it where you want
 
-![export_url]({{site.url}}{{site.baseurl}}/core_app/header/export_results/images/export_static_url.gif)
+![export_url]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/images/export_static_url.gif)

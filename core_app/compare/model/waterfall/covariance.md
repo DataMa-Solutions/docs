@@ -28,7 +28,7 @@ A_End - A_Start = (B_End - B_Start) * A_Start / B_Start
 
 The visual representation below is much easier to get:
 
-![covariance]({{site.url}}{{site.baseurl}}/core_app/compare/model/waterfall/images/Covariance.gif)
+![covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/Covariance.gif)
 
 What you want to explain is the gap in surface between the two green squares.
 

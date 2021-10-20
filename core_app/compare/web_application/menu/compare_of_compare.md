@@ -24,16 +24,16 @@ We can take the example of this [dataset](https://docs.google.com/spreadsheets/d
 
 You’re in Week 3 2019, and you want to compare to Week 3 2018. Using DataMa Compare, you get this:
 
-![Coc]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/images/Fist-step.jpg)
+![Coc]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/Fist-step.jpg)
 
 Now, the real question that you’re asking when you run this every week (so you ran this also in week 2) is: **how is that different from last week?**
 
 This is where you activate Compare of Compare, and add Week 2 YoY analysis as secondary waterfall (yes, this assumes you also kept week 2 in the source you’re analysing).
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/images/CompareOfCompare-300x222.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/CompareOfCompare-300x222.jpg"/></center>
 
 And here are the results:
 
-![Coc3]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/images/Exec-sum-CoC.jpg)
+![Coc3]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/Exec-sum-CoC.jpg)
 
-![Coc4]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/images/Waterfall-CoC.jpg)
+![Coc4]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/Waterfall-CoC.jpg)

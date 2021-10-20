@@ -10,19 +10,19 @@ Touch points could be any experience or even process you would like to analyse. 
 
 > Overall **model** is split in 3 steps, that are the back bone of DataMa JOURNEY
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/journey/images/model.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/journey/images/model.png"/></center>
 
 ## Attribution
 See attributed value to each touch point and compare between one another
 
-See details [here]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution)
 
 ## Descriptive comparison
 Compare journeys , visualize their similarities and their differences.
 
-See details [here]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/description_comparison)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/description_comparison)
 
 ## Detailed View
 Analyse in detail a specific touch point.
 
-See details [here]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view)

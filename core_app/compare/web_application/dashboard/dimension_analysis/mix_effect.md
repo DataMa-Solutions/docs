@@ -12,7 +12,7 @@ The mix effect is the impact on your performance that is coming from an evolutio
 
 This graph represents the sum of the Mix impact of each dimension at each step of your funnel. The red circle represents the gap your are trying to understand at this step of the funnel.
 
-![mix_effect]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/images/Mix-effect-dash.png)
+![mix_effect]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/images/Mix-effect-dash.png)
 
 ## Model of Mix effet
 
@@ -20,7 +20,7 @@ Impact of the evolution of the volume breakdown in input.
 
 e.g. If you are selling several products, and if the share of an individual product in the portfolio changes there will be a mix effect.
 
-<center> <img src="{{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/images/Mix-Effect-768x518.jpg"></center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/images/Mix-Effect-768x518.jpg"></center>
 
 * For each step, mix effect calculations scaled using waterfall analysis output to be able to size impact on overall metric
 * While each different segment of one dimension is contributing differently to the mix effect, we represent the sum of them
@@ -39,4 +39,4 @@ As in the example below, when your proportion of Purchase between Device change,
 * If the proportion change it’s a **Mix effect**
 * If the average price change, it’s a **Performance effect**
 
-<center> <img src="{{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/images/Mix-Perf.jpg"></center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/images/Mix-Perf.jpg"></center>
