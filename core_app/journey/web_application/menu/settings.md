@@ -10,7 +10,7 @@ Most of them are editable through Shiny Web App, but you can also edit them thro
 
 See articles below to have more details:
 
- * [Attribution model]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/menu/settings/attribution_model)
- * [Journey Separator]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/menu/settings/journey_separator)
- * [Simplification of journeys]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/menu/settings/simplification_of_journeys)
- * [Number of steps displayed]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/menu/settings/number_of_steps_displayed)
+ * [Attribution model]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/attribution_model)
+ * [Journey Separator]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/journey_separator)
+ * [Simplification of journeys]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/simplification_of_journeys)
+ * [Number of steps displayed]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/number_of_steps_displayed)

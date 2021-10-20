@@ -10,4 +10,4 @@ Contact us (contact@datama.fr) to get a licence key and install the module
 
 Below is a good preview of what to expect
 
-![PowerBI]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/images/PowerBi_extension.gif)
+![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/images/PowerBi_extension.gif)

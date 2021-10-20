@@ -12,8 +12,8 @@ Two parameters are used in order to build this graph:
 
 * X axis is % of the metric you have chosen
 
-* Y axis is [point]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
+* Y axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
 **Example:**
 
-![pareto]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/pareto.png)
+![pareto]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/pareto.png)

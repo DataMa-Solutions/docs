@@ -16,4 +16,4 @@ Level of aggregation (<span style="color:red">NumLimit</span>): The level of agg
 
 Segments are now aggregated at the requested level
 
-![aggregation]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/images/Aggregation-usage.gif)
+![aggregation]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/images/Aggregation-usage.gif)
