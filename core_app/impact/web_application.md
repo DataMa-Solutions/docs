@@ -10,4 +10,4 @@ The interface is split in three main parts:
 * **Dashboard:**  essentially the charts you see in the page
 * **Menu:** The left part of the web page, which allows you to interact with the model
 
-![Menu]({{site.url}}{{site.baseurl}}/core_app/impact/images/Impact.png)
+![Menu]({{site.url}}/{{site.baseurl}}/core_app/impact/images/Impact.png)

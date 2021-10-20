@@ -9,9 +9,9 @@ layout: page
 DataMa helps you do the job of an advanced data analyst faster, in Tableau.
 It's particularly helpful for marketing analysis, such has gap/ root cause analysis.
 Using this extension you will have access to
-* Waterfall analysis using [DataMa Compare]({{site.url}}{{site.baseurl}}/core_app/compare)
-* Significance analysis using [DataMa Impact]({{site.url}}{{site.baseurl}}/core_app/impact)
-* Driver analysis using [DataMa Pivot]({{site.url}}{{site.baseurl}}/core_app/pivot)
+* Waterfall analysis using [DataMa Compare]({{site.url}}/{{site.baseurl}}/core_app/compare)
+* Significance analysis using [DataMa Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
+* Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
 Below is a step by step on how to get it working in tableau
 
@@ -24,13 +24,13 @@ Typically a source for DataMa will have
 * A set of dimensions in Rows
   * The dimension you want to compare on should come first
 * A set of metrics in columns
-  * The metrics should come in alphabetical order, so that DataMa automatically creates the right [Metric relation]({{site.url}}{{site.baseurl}}/core_app/header/input/metric_relation).
+  * The metrics should come in alphabetical order, so that DataMa automatically creates the right [Metric relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation).
     Adding a "1_..", "2_.." in the naming of your metrics should help in that regard
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Source example]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Source_Example.PNG)
+![Source example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Source_Example.PNG)
 
-Please refer to the full documentation to learn more about [sources]({{site.url}}{{site.baseurl}}/core_app/header/input/source) or see [example of use cases]({{site.url}}{{site.baseurl}}/home/use_cases/use_cases_examples)
+Please refer to the full documentation to learn more about [sources]({{site.url}}/{{site.baseurl}}/core_app/header/input/source) or see [example of use cases]({{site.url}}/{{site.baseurl}}/home/use_cases/use_cases_examples)
 
 ## 2. Insert the DataMa extension in a dashboard
 
@@ -40,7 +40,7 @@ Please refer to the full documentation to learn more about [sources]({{site.url}
 * Click 'Start' at the bottom of the welcome modal when it appears
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Dashboard example]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Dashboard_welcome.PNG)
+![Dashboard example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Dashboard_welcome.PNG)
 
 ## 3. Get insights
 
@@ -48,14 +48,14 @@ By default, DataMa brings you in DataMa compare and shows a waterfall analysis, 
 You can switch DataMa solution and visualisation using the top left menu
 We encourage that you read the documentation about each solution to understand what's in there and how it works.
 
-* Waterfall analysis using [DataMa Compare]({{site.url}}{{site.baseurl}}/core_app/compare)
-* Significance analysis using [DataMa Impact]({{site.url}}{{site.baseurl}}/core_app/impact)
-* Driver analysis using [DataMa Pivot]({{site.url}}{{site.baseurl}}/core_app/pivot)
+* Waterfall analysis using [DataMa Compare]({{site.url}}/{{site.baseurl}}/core_app/compare)
+* Significance analysis using [DataMa Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
+* Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
 ### Example of Compare analysis for the SuperStore default dataset of Tableau.
-![Waterfall example]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Waterfall_Example.PNG)
+![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Waterfall_Example.PNG)
 In a glimpse, we get the waterfall that explains the gap of Sales between 2018 and 2019, driven by quantity increase and in particular the one of Office Supplies in the west, as we can read by selecting the 'Executive Summary' in the output menu.
-![Waterfall example]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/ExecSum_Example.PNG)
+![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/ExecSum_Example.PNG)
 
 ### Example of Compare analysis for Digital display campaigns
 

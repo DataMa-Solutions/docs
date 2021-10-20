@@ -16,4 +16,4 @@ On the left part  of the sunburst (starting by negative) are the journeys that h
 
 Obviously, as this is a 0 sum game, you have as much decreasing journeys than increasing ones, reason why the left part and right part (negative and positive) have exactly the same share (50/50)
 
-![similarity_sunburst]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/similarity_sunburst.png)
+![similarity_sunburst]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/similarity_sunburst.png)

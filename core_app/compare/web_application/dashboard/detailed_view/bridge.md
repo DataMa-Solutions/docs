@@ -4,7 +4,7 @@ descriptionw: For the selected step and dimension this graph shows the Mix effec
 layout: page
 ---
 
-![bridge]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/Compare-Bridge.png)
+![bridge]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/Compare-Bridge.png)
 
 For the selected step and dimension this graph shows the Mix effect and the performance effect.  This allow you to understand the impact of the evolution of the distribution in input (Mix) and the real impact of the performance (Perf)
 

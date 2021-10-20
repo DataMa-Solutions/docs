@@ -13,4 +13,4 @@ layout: page
 
 See an example below:
 
-![overview]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/images/StartEnd-Overview-Compare_GIF2.gif)
+![overview]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/StartEnd-Overview-Compare_GIF2.gif)

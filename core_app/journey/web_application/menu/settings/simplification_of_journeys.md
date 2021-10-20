@@ -11,4 +11,4 @@ By using the dropdown menu, you can simplified your journeys by removing duplica
 This is very usefull to simplify your display and decrease computation time.
 
 
-<center> <img src="{{site.url}}{{site.baseurl}}/core_app/journey/web_application/menu/settings/images/journey_simplification.png"/></center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/images/journey_simplification.png"/></center>
