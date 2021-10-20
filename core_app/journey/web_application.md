@@ -10,4 +10,4 @@ The interface is split in three main parts:
 * **Dashboard:**  essentially the charts you see in the page
 * **Menu:** The left part of the web page, which allows you to interact with the model
 
-![homepage]({{site.url}}{{site.baseurl}}/core_app/journey/images/journey2.png)
+![homepage]({{site.url}}/{{site.baseurl}}/core_app/journey/images/journey2.png)

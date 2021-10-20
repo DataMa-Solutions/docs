@@ -4,7 +4,7 @@ description: DataMa PIVOT is a data analysis tool that allows you quickly analyz
 layout: page
 ---
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/images/IconePivot.jpg" alt="logo pivot" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/IconePivot.jpg" alt="logo pivot" /></center>
 
 > **DataMa PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.**
 
@@ -21,7 +21,7 @@ DataMa PIVOT is a dataset analysis tool that allows you to identify and understa
 
 This documentation gives you an overview of how it works and how to use it.
 
-![pivot_homepage]({{site.url}}{{site.baseurl}}/core_app/images/pivot.png)
+![pivot_homepage]({{site.url}}/{{site.baseurl}}/core_app/images/pivot.png)
 
 You will optimize the preparation of your data analysis
 

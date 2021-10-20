@@ -14,4 +14,4 @@ With :
 * **Value:** value of "Value" (selected in the menu), i.e. the attributed value, based on selected attribution model
 * **Value normalized:** same as before, but divided by total volume, to be able to compare touch point in Compare Mode
 
-![data]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/images/data_attribution.png)
+![data]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/images/data_attribution.png)

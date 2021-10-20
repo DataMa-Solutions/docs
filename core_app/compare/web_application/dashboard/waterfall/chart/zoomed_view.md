@@ -10,4 +10,4 @@ layout: page
 * By default, most interesting dimension is displayed, but you can force to show another dimension effect by changing the value in the detailed view filter section
 * Unzoom by clicking on another step, or on a total blue bar
 
-![zoomed_view]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/chart/images/1_Zoomed-view-detailed.gif)
+![zoomed_view]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/chart/images/1_Zoomed-view-detailed.gif)

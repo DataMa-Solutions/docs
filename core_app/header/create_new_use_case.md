@@ -8,7 +8,7 @@ layout: page
 
 Once the data and the settings is done you are not able to modify them (load the data again if needed – this option will come soon)
 
-<center> <img src="{{site.url}}{{site.baseurl}}/core_app/header/images/CreateUseCase.png" alt="Create new use case" /> </center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/header/images/CreateUseCase.png" alt="Create new use case" /> </center>
 
 
 1. Click on the « Create new use case » button
@@ -17,14 +17,14 @@ Once the data and the settings is done you are not able to modify them (load the
 
 3 types of source are available (click on one type to have more details) :
 
-* [Google Sheet]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/google_sheet.md)
-* [Excel file]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/excel_file.md)
-* [.csv file]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/csv_file.md)
-* [Google analytics]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/google_analytics.md)
+* [Google Sheet]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/google_sheet.md)
+* [Excel file]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/excel_file.md)
+* [.csv file]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/csv_file.md)
+* [Google analytics]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/google_analytics.md)
 
 Or directly within a DataMa extension :
 
-* [Tableau]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_tableau.md)
-* [Power BI]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_powerBI.md)
-* [Dataiku]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_DataIku.md)
-* [Alteryx]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_Alteryx.md)
+* [Tableau]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_tableau.md)
+* [Power BI]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_powerBI.md)
+* [Dataiku]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_DataIku.md)
+* [Alteryx]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_Alteryx.md)
