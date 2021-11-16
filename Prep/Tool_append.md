@@ -1,7 +1,9 @@
 # The tool "append"
 
 
-  > **Thanks to this tool, you can cross several datasets.**
+### Thanks to this option, you can cross several datasets.
 
 
-What does it mean?
+</br>
+
+You can add and cross two different datasets thanks to the option "append". 
