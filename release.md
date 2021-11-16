@@ -5,6 +5,15 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2021-11-18:
+
+* **General:**
+    * Get inspired use cases: Included latest examples from our blog on [Consent analysis](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/) and [Market trend analysis](https://www.datama.io/fr/2021/11/10/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
+    * Multiple bug fixes and UI improvements (including slack messages template and Big Query pagination)
+
+* **Impact:**
+    * Anomaly detection: Enhanced forecasting method to improve accounting of seasonality
+
 ### 2021-10-08:
 
 * **General:**
