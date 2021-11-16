@@ -1,12 +1,6 @@
 # Our sources
 
-  > **DataMa PREP is a data analysis tool that allows you to...**
+  **You can upload your datasets and add some elements to your analysis.**
 
-DataMa PREP enables you to ...
 
-Your screen is divided in several parts:
-* Footer Menu
-* Filters
-* Your analyse
-
-You have access to several commands such as "append" and "clean".
+All you have to do is to find your file on your computer and plug it in DataMa PREP.

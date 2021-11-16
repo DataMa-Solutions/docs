@@ -1,7 +1,8 @@
 # Enrich your analysis
 
 
-  > **Thanks to inputs of Google trends, you can enrich your analysis.**
+### Thanks to several inputs, you can enrich your analysis.
+
 
 
 
