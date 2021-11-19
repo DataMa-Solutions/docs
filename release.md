@@ -14,6 +14,9 @@ description: Find here the **latest releases** of DataMa Solutions
 * **Impact:**
     * Anomaly detection: Enhanced forecasting method to improve accounting of seasonality
 
+* **Journey:**
+    * Sunbursts can now be shared as a static URL to avoid computation time
+
 * **Source:**
     * Excel export: DataMa source now supports excel export, which allow to export any DataMa source (including DataMa prep results) in an Excel spreadsheet
 
