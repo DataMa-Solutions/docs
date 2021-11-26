@@ -1,7 +1,10 @@
 # Google analytics
 
 </br>
- **You can upload your Google Analytics datasets in DataMa PREP.**
+
+** You can upload your Google Analytics datasets in DataMa PREP. **
+
+
 
 
 Click on the GA icon to upload your document:
