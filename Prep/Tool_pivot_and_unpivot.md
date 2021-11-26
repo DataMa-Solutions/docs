@@ -3,7 +3,7 @@
 
 
 
-**You can clean your data in DataMa PREP.**
+**You might want to pivot and unpivot your dataset in DataMa PREP.**
 
 
-What is that for?
+What is that for? To transform one dimension into 
