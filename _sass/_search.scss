@@ -27,3 +27,22 @@
   }
   margin-bottom: 0.5rem;
 }
+
+.search-bar {
+  width: 100%;
+  border-radius: 25px;
+  line-height: 26px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 3px 10px;
+  background: white;
+  font-size: 14px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+.search-bar+.search-result:empty {
+  display: none;
+}
+.search-bar+.search-result:not(:empty) {
+  margin-top: 1rem;
+  display: block;
+}
