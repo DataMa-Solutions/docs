@@ -1,0 +1,14 @@
+{% for item in include.nav %}
+  {% if item.subnav %}
+    {
+      "title"    : "{{ item.name }}",
+      "url"      : "{{site.url}}/{{site.baseurl}}{{ item.link }}"
+    },
+    {% include searchSub.html nav=item.subnav %}
+  {% else %}
+    {
+      "title": "{{ item.name }}",
+      "url": "{{site.url}}/{{site.baseurl}}{{ item.link }}"
+    },
+  {% endif %}
+{% endfor %}
