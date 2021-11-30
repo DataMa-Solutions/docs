@@ -1,0 +1,18 @@
+---
+layout: search
+title: Search on Datama Documentation
+description: here you can find all result you want from DataMa Documentation page
+---
+<!-- Html Elements for Search -->
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="search...">
+    <ul id="results-container"></ul>
+</div>
+<!-- Configuration -->
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{site.url}}/{{site.baseurl}}/search.json'
+    })
+</script>
