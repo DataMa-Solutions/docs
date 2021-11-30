@@ -7,6 +7,7 @@
         "title": "{{ page.title | escape }}",
         "tags": "{{ page.tags }}",
         "keywords": "{{page.keywords}}",
+        "description": "{{page.description | strip | escape}}",
         "url": "{{ page.url}}",
         "body": "{{page.content | strip_newlines | strip_html | strip | escape }}"
       } {% unless forloop.last %},{% endunless %}
