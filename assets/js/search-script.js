@@ -146,7 +146,7 @@ let jsonLoaded = false;
             resultsContainer: null,
             json: [],
             success: Function.prototype,
-            searchResultTemplate: '<li class="search-result"><a href="{url}" title="{desc}"><strong>{title}</strong><small>{url}</small></a></li>',
+            searchResultTemplate: '<li class="search-result"><a href="{url}" title="{description}"><strong>{title}</strong><small>{description}</small></a></li>',
             templateMiddleware: Function.prototype,
             sortMiddleware: function () {
                 return 0
