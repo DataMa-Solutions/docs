@@ -3,10 +3,14 @@
         <a  href="{{site.url}}/{{site.baseurl}}/" title="Go to home page of documentation"><img src="{{site.url}}/{{site.baseurl}}/assets/images/simple_logo.png" alt="" title="Go to DataMa website">DataMa</a>
         <a href="#" class="burger" title="Collapse/Expand sidebar"><i class="fas fa-bars"></i></a>
     </header>
+    {% if include.search == 1 %}
     <main>
-        <input type="text" id="search-input-aside" class="search-bar" placeholder="search...">
+        <div class="search-group">
+            <input type="text" id="search-input-aside" class="search-bar" placeholder="search...">
+        </div>
         <ul id="results-container-aside" class="search-result"></ul>
     </main>
+    {% endif %}
     <nav>
         {% include menu.html nav=include.nav %}
         <hr>
