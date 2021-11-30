@@ -1,0 +1,29 @@
+.search-result {
+  & > a {
+    display: flex;
+    flex-wrap: wrap;
+    & > strong, & > small {
+      display: inline-block;
+    }
+    & > strong {
+      font-size: 16px;
+      font-weight: 500;
+      color: $datagreen;
+      width: 100%;
+    }
+    & > small {
+      font-size: 14px;
+      font-weight: 300;
+      color: #333;
+    }
+    &:hover {
+      & > strong {
+        text-decoration: underline;
+      }
+      & > small {
+        text-decoration: none;
+      }
+    }
+  }
+  margin-bottom: 0.5rem;
+}
