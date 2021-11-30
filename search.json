@@ -1,0 +1,18 @@
+---
+---
+[
+  {% for item in site.data.navigation %}
+    {% if item.subnav %}
+      {
+        "title"    : "{{ item.name }}",
+        "url"      : "{{site.url}}/{{site.baseurl}}{{ item.link }}"
+      },
+      {% include searchSub.html nav=item.subnav %}
+    {% else %}
+      {
+        "title"    : "{{ item.name }}",
+        "url"      : "{{site.url}}/{{site.baseurl}}{{ item.link }}"
+      } {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+]
