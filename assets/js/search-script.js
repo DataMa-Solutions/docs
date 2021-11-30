@@ -3,6 +3,8 @@
   * Copyright 2015-2020, Christian Fei
   * Licensed under the MIT License.
   */
+let jsonLoaded = false;
+
 !function () {
     "use strict";
     var f = {
@@ -68,7 +70,7 @@
                 return o
             }(u, t, c.searchStrategy, c).sort(c.sort) : []
         }, setOptions: function (t) {
-            c = t || {}, c.fuzzy = t.fuzzy || !1, c.limit = t.limit || 10, c.searchStrategy = t.fuzzy ? e : r, c.sort = t.sort || o, c.exclude = t.exclude || []
+            c = t || {}, c.fuzzy = t.fuzzy || !1, c.limit = t.limit || 150, c.searchStrategy = t.fuzzy ? e : r, c.sort = t.sort || o, c.exclude = t.exclude || []
         }
     };
 
@@ -91,7 +93,7 @@
         return u.push(t), u
     }
 
-    c.fuzzy = !1, c.limit = 10, c.searchStrategy = c.fuzzy ? e : r, c.sort = o, c.exclude = [];
+    c.fuzzy = !1, c.limit = 150, c.searchStrategy = c.fuzzy ? e : r, c.sort = o, c.exclude = [];
     var p = {
         load: function (t, e) {
             const n = window.XMLHttpRequest ? new window.XMLHttpRequest : new ActiveXObject("Microsoft.XMLHTTP");
@@ -101,10 +103,13 @@
 
     function h(e, n) {
         return function () {
-            if (4 === e.readyState && 200 === e.status) try {
-                n(null, JSON.parse(e.responseText))
-            } catch (t) {
-                n(t, null)
+            if (4 === e.readyState && 200 === e.status) {
+                try {
+                    jsonLoaded = true
+                    n(null, JSON.parse(e.responseText))
+                } catch (t) {
+                    n(t, null)
+                }
             }
         }
     }
@@ -147,7 +152,7 @@
                 return 0
             },
             noResultsText: "No results found",
-            limit: 10,
+            limit: 150,
             fuzzy: !1,
             debounceTime: null,
             exclude: []
