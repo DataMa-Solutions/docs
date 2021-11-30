@@ -17,11 +17,12 @@
       color: #333;
     }
     &:hover {
+      text-decoration: none;
       & > strong {
         text-decoration: underline;
       }
       & > small {
-        text-decoration: none;
+        text-decoration: none !important;
       }
     }
   }
