@@ -1,17 +1,14 @@
 ---
 ---
 [
-  {% for item in site.data.navigation %}
-    {% if item.subnav %}
+  {% for page in site.pages %}
+    {% if page.url != '/search.json' and page.url != '/tip_of_the_week.html' %}
       {
-        "title"    : "{{ item.name }}",
-        "url"      : "{{site.url}}/{{site.baseurl}}{{ item.link }}"
-      },
-      {% include searchSub.html nav=item.subnav %}
-    {% else %}
-      {
-        "title"    : "{{ item.name }}",
-        "url"      : "{{site.url}}/{{site.baseurl}}{{ item.link }}"
+        "title": "{{ page.title | escape }}",
+        "tags": "{{ page.tags }}",
+        "keywords": "{{page.keywords}}",
+        "url": "{{ page.url}}",
+        "body": "{{page.content | strip_newlines | strip_html | strip | escape }}"
       } {% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}
