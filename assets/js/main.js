@@ -1,3 +1,6 @@
+jsonLoaded = false
+const search = new Sws('./search.json')
+
 let expanded = [];
 
 if (Cookies.get('menu') != null) {
