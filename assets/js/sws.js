@@ -70,38 +70,43 @@ class Sws {
         if (event.target.id in this.configuration) {
             let value = event.target.value;
             let configuration = this.configuration[event.target.id]
-            let weights = this.getWeights(value, configuration).filter(e => e.total !== 0);
-            let displayed = "<ul>";
-            let invisible = "<div class='search-pages'>"
-            if (SwsDebug) {
-                console.log("SWS > Input on " + event.target.id + " '" + value + "'")
-                console.log(configuration)
-                console.log(weights)
-            }
-            let i = 0;
-            while (i < configuration.results.limit && i < weights.length) {
-                displayed += configuration.results.template(weights[i])
-                i++;
-            }
-            displayed += "</ul>"
-            if (i < weights.length) {
-                displayed += "<button class='search-show-more'>Show more results</button>"
-            }
-            while (i < weights.length) {
-                invisible += configuration.results.template(weights[i])
-                i++;
-            }
-            invisible += "</div>"
-            let container = document.getElementById(configuration.results.container);
-            container.innerHTML = displayed + invisible
-            let showMore = document.getElementsByClassName('search-show-more');
-            if (showMore != null) {
-                i = 0;
-                while (i < showMore.length) {
-                    showMore[i].removeEventListener('click', e => searchShowMore(e, configuration))
-                    showMore[i].addEventListener('click', e => searchShowMore(e, configuration))
+            if (value.length > 3) {
+                let weights = this.getWeights(value, configuration).filter(e => e.total !== 0);
+                let displayed = "<ul>";
+                let invisible = "<div class='search-pages'>"
+                if (SwsDebug) {
+                    console.log("SWS > Input on " + event.target.id + " '" + value + "'")
+                    console.log(configuration)
+                    console.log(weights)
+                }
+                let i = 0;
+                while (i < configuration.results.limit && i < weights.length) {
+                    displayed += configuration.results.template(weights[i])
                     i++;
                 }
+                displayed += "</ul>"
+                if (i < weights.length) {
+                    displayed += "<button class='search-show-more'>Show more results</button>"
+                }
+                while (i < weights.length) {
+                    invisible += configuration.results.template(weights[i])
+                    i++;
+                }
+                invisible += "</div>"
+                let container = document.getElementById(configuration.results.container);
+                container.innerHTML = displayed + invisible
+                let showMore = document.getElementsByClassName('search-show-more');
+                if (showMore != null) {
+                    i = 0;
+                    while (i < showMore.length) {
+                        showMore[i].removeEventListener('click', e => searchShowMore(e, configuration))
+                        showMore[i].addEventListener('click', e => searchShowMore(e, configuration))
+                        i++;
+                    }
+                }
+            } else {
+                let container = document.getElementById(configuration.results.container);
+                container.innerHTML = ""
             }
         } else {
             if (SwsDebug) {
