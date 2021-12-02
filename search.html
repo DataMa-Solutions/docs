@@ -9,15 +9,38 @@ description: here you can find all result you want from DataMa Documentation pag
         <input type="text" id="search-input" class="search-bar" name="q" placeholder="search...">
     </div>
     <h2>Result(s)</h2>
-    <ul id="results-container" class="search-result"></ul>
+    <div id="results-container" class="search-result"></div>
 </div>
 <!-- Configuration -->
 <script>
     const urlParams = new URLSearchParams(window.location.search);
-    SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{site.url}}/{{site.baseurl}}/search.json'
+    //SimpleJekyllSearch({
+    //    searchInput: document.getElementById('search-input'),
+    //    resultsContainer: document.getElementById('results-container'),
+    //    json: '{{site.url}}/{{site.baseurl}}/search.json'
+    //})
+    search.listen('search-input', {
+        fields: {
+            title: {
+                weight: 1000
+            },
+            keywords: {
+                weight: 500
+            },
+            tags: {
+                weight: 250
+            },
+            body: {
+                weight: 100
+            }
+        },
+        results: {
+            template: (element) => {
+                return `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+            },
+            limit: 15,
+            container: 'results-container'
+        }
     })
     let interval = setInterval(() => {
         if (jsonLoaded) {
@@ -27,9 +50,5 @@ description: here you can find all result you want from DataMa Documentation pag
             }
             clearInterval(interval)
         }
-    })
-
-    window.addEventListener("load", e => {
-
     })
 </script>

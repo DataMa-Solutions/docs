@@ -68,3 +68,17 @@
   margin-top: 1rem;
   display: block;
 }
+.search-result>button {
+  background: #149588;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.search-pages {
+  display: none;
+}
