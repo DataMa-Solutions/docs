@@ -1,5 +1,7 @@
+---
+---
 jsonLoaded = false
-const search = new Sws('./search.json')
+const search = new Sws('{{site.url}}/{{site.baseurl}}/search.json')
 
 let expanded = [];
 
