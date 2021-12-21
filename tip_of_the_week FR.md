@@ -8,6 +8,11 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #39
+L’équipe DataMa a pensé à vous en écrivant ces articles, retrouvez y comment analyser certaines de vos problématiques :
+  * Mesure de l’impact de votre outil de consentement: [here](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/)
+  * Suivre la performance de vos campagnes d’acquisition: [here](https://www.datama.io/fr/2021/11/22/comment-suivre-ses-campagnes-media-avec-datama/)
+  * Prendre en compte les tendances du marché dans vos analyses:[here](https://www.datama.io/fr/2021/11/22/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
 
 ## Tip of the week #38
 
