@@ -8,7 +8,7 @@ description: This documentation gives you an overview of how DataMa works and ho
 
 ## DataMa Web application
 
-Jump into the documentation to get quickly up to speed on DataMa.
+Jump into the documentation to get quickly up to speed on DataMa
 You can get started here by reading the [Home page section]({{site.url}}/{{site.baseurl}}/core_app/home)
 
 ## DataMa Package
