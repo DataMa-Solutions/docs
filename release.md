@@ -5,7 +5,20 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
-### 2021-11-18:
+### 2021-12-:
+
+* **Prep:**
+    * Big Query connector
+    * CSV Separator added
+    * Calculated fields
+    * Logout button for GA and BQR
+    * Multiple bug fixes, among them
+      - Dates bug fixed
+      - Limitation to 4 segments on GA
+      - Switch between flow & blocs
+      - Sometimes, dates were not casted properly
+    
+### 2021-11-20:
 
 * **General:**
     * Get inspired use cases: Included latest examples from our blog on [Consent analysis](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/) and [Market trend analysis](https://www.datama.io/fr/2021/11/10/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
