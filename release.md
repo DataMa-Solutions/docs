@@ -5,6 +5,26 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2021-12-23:
+
+* **Compare:**
+    * New animated waterfall: Compare waterfall has been fully reshaped to improve performance and enable new usage within extensions in the future.
+    Current visible benefits include :
+      * Static export (on a URL, with a schedule to avoid computation time) of waterfall is now interactive (zoom/ unzoom is available)
+      * Capability to "lock" one step into a given state (opened, split by a given dimension) and open other steps at the same time. This makes the "Detailed waterfall" tab useless, so not displayed in the interface anymore.
+      * Easier drill down within boxes : changing dimension, seeing "remaining" segments is more fluid
+      * Nice transition effects
+    Note that you can still go back to previous template by clicking by opting out from "New waterfall" in the display section at the bottom left of the side bar, and click "Compare"
+    * When a segment does not exist on start or end definition, the impact calculation now include a "unknown segment" bar to reflect this missing part.
+
+* **Impact:**
+    * Confidence interval settings can now be saved
+
+* **Prep:**
+    * Big Query connector is now available as a DataMa Prep source
+    * Calculated fields can be created in the "Clean" object
+    * Google Analytics connector includes a "GA 360 quota" option for GA 360 clients, to avoid sampling
+
 ### 2021-11-20:
 
 * **General:**
