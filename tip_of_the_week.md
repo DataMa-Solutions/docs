@@ -8,6 +8,14 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #39
+Get inspired in your analysis with those new articles 📰 on our blog!
+  * Measure the impact of your consent tool: [here](https://www.datama.io/2021/11/04/how-to-analyze-the-impact-of-your-consent-tool-on-your-performance-indicators/)
+  * Monitor the performance of your acquisition campaigns: [here](https://www.datama.io/2021/11/22/how-to-track-your-media-campaigns-with-datama/)
+  * Take into account market trends in your analyzes: [here](https://www.datama.io/2021/11/22/how-to-take-into-account-market-trends-in-your-performance-analysis/)
+
+Do the same at home! Then send us your results 😉
+
 ## Tip of the week #38
 
 Latest [release](https://datama-solutions.github.io/docs/#/release) of DataMa hapenned this weekend :slightly_smiling_face:
