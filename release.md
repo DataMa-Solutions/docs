@@ -5,7 +5,33 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
-### 2021-11-18:
+### 2021-12-26:
+
+* **Compare:**
+    * New animated waterfall: Compare waterfall has been fully reshaped to improve performance and enable new usage within extensions in the future.
+    Current visible benefits include :
+      * Static export (on a URL, with a schedule to avoid computation time) of waterfall is now interactive (zoom/ unzoom is available)
+      * Capability to "lock" one step into a given state (opened, split by a given dimension) and open other steps at the same time. This makes the "Detailed waterfall" tab useless, so not displayed in the interface anymore.
+      * Easier drill down within boxes : changing dimension, seeing "remaining" segments is more fluid
+      * Nice transition effects
+    Note that you can still go back to previous template by clicking by opting out from "New waterfall" in the display section at the bottom left of the side bar, and click "Compare"
+    * When a segment does not exist on start or end definition, the impact calculation now include a "unknown segment" bar to reflect this missing part.
+
+* **Impact:**
+    * Confidence interval settings can now be saved
+
+* **Prep:**
+  * Big Query connector
+  * CSV Separator added
+  * Calculated fields
+  * Logout button for GA and BQR
+  * Multiple bug fixes, among them
+    - Dates bug fixed
+    - Limitation to 4 segments on GA
+    - Switch between flow & blocs
+    - Sometimes, dates were not casted properly
+
+### 2021-11-20:
 
 * **General:**
     * Get inspired use cases: Included latest examples from our blog on [Consent analysis](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/) and [Market trend analysis](https://www.datama.io/fr/2021/11/10/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
