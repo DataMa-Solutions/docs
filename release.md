@@ -21,9 +21,15 @@ description: Find here the **latest releases** of DataMa Solutions
     * Confidence interval settings can now be saved
 
 * **Prep:**
-    * Big Query connector is now available as a DataMa Prep source
-    * Calculated fields can be created in the "Clean" object
-    * Google Analytics connector includes a "GA 360 quota" option for GA 360 clients, to avoid sampling
+  * Big Query connector
+  * CSV Separator added
+  * Calculated fields
+  * Logout button for GA and BQR
+  * Multiple bug fixes, among them
+    - Dates bug fixed
+    - Limitation to 4 segments on GA
+    - Switch between flow & blocs
+    - Sometimes, dates were not casted properly
 
 ### 2021-11-20:
 
