@@ -5,7 +5,7 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
-### 2021-12-23:
+### 2021-12-26:
 
 * **Compare:**
     * New animated waterfall: Compare waterfall has been fully reshaped to improve performance and enable new usage within extensions in the future.
