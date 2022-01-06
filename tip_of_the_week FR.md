@@ -8,6 +8,14 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #40
+Nous avons amélioré notre belle Waterfall, une première étape de notre refonte technologique qui permettra de faciliter la création de nouveaux usages dans le futur.
+Il vous est désormais possible:
+  * d’ouvrir le détail de plusieurs étapes en même temps
+  * d’avoir des exports statiques de la waterfall qui sont interactifs
+Retrouvez les derniers changements sur notre [release](https://datama-solutions.github.io/docs//release.html) de fin d’année ! 📑
+![Tip 40]({{site.url}}/{{site.baseurl}}/assets/images/tip/40.gif)
+
 ## Tip of the week #39
 L’équipe DataMa a pensé à vous en écrivant ces articles, retrouvez y comment analyser certaines de vos problématiques :
   * Mesure de l’impact de votre outil de consentement: [here](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/)
@@ -25,7 +33,7 @@ Plus de temps perdu sur Google Sheet à joindre 25 onglets :nerd_face:
 Pour tester, demandez accès à votre CSM DataMa, puis rdv dans l'onglet "data flow" sur la home page de DataMa
 
 
-![Tip 38]({{site.url}}{{site.baseurl}}/assets/images/tip/38.gif)
+![Tip 38]({{site.url}}/{{site.baseurl}}/assets/images/tip/38.gif)
 
 <h2>Tip of the week #37</h2>
 
