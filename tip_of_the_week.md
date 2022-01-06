@@ -8,6 +8,15 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #40
+We have improved our wonderfull Waterfall, a first step in our technological overhaul that will facilitate the creation of new uses in the future.
+You can now:
+  * open the details of several steps at the same time
+  * have static exports of the Waterfall which are interactive
+  * drill down easily within boxes
+Find the latest changes in our last [release](https://datama-solutions.github.io/docs//release.html)!📑
+![Tip 40]({{site.url}}/{{site.baseurl}}/assets/images/tip/40.gif)
+
 ## Tip of the week #39
 Get inspired in your analysis with those new articles 📰 on our blog!
   * Measure the impact of your consent tool: [here](https://www.datama.io/2021/11/04/how-to-analyze-the-impact-of-your-consent-tool-on-your-performance-indicators/)
@@ -26,7 +35,7 @@ No more time wasted with 25 worksheet in Gsheet :nerd_face:
   * Scheduleur available to get data fresh and ready for analysing in DataMa
 Test it by asking to your DataMa CSM, then go to the "data flow" tab on the home page of DataMa
 
-![Tip 38]({{site.url}}{{site.baseurl}}/assets/images/tip/38.gif)
+![Tip 38]({{site.url}}/{{site.baseurl}}/assets/images/tip/38.gif)
 
 ## Tip of the week #37
 
