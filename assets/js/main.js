@@ -24,7 +24,7 @@ if (window.innerWidth < 700) {
 /**
  * Aside open/close
  */
-$('.burger').on('click', (e) => {
+$('#burger').on('click', (e) => {
     e.preventDefault();
     $('body').toggleClass('menu-close')
 })

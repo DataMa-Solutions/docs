@@ -34,5 +34,11 @@
     {{ content }}
     {% include footer.html %}
 </main>
+<script>
+    $('#burger').on('click', (e) => {
+        e.preventDefault();
+        $('body').toggleClass('menu-close')
+    })
+</script>
 </body>
 </html>

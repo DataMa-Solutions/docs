@@ -329,6 +329,11 @@ body {
     & > aside {
       width: 200px !important;
     }
+    &.menu-close {
+      & > aside {
+        width: 40px !important;
+      }
+    }
     & > main {
       width: calc(100% - 200px) !important;
       overflow-x: scroll;
