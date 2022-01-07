@@ -340,6 +340,9 @@ body {
       padding: 20px 10px;
     }
   }
+  body:not(.menu-close) > aside.fixed + main {
+    margin-left: 0 !important;
+  }
 }
 
 
