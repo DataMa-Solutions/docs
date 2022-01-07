@@ -18,6 +18,9 @@ if (Cookies.get('menu') != null) {
     Cookies.set('menu', '')
 }
 $('a[href$="' + location.pathname + '"').addClass('active');
+if (window.innerWidth < 700) {
+ $('body').addClass('menu-close')
+}
 /**
  * Aside open/close
  */
