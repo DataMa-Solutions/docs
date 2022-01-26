@@ -256,9 +256,9 @@
       link: /prep/Structure.html
       subnav:
         - name: Aside
-          link: /prep/aside/In_the_side_bar.html
+          link: /prep/structure/aside.html
         - name: Header
-          link: /prep/Header.html
+          link: /prep/structure/header.html
           subnav:
             - name: Saving & Sharing
               link: /prep/header/Saving_and_sharing.html
