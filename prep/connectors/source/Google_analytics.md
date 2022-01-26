@@ -1,5 +1,5 @@
 ---
-title: Source Google Analytics
+title: Google Analytics
 description: DataMa Prep include a GA connector.
 layout: page
 ---

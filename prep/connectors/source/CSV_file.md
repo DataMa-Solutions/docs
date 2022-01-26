@@ -1,5 +1,5 @@
 ---
-title: Source CSV
+title: CSV file
 description: DataMa Prep include a csv files connector.
 layout: page
 ---

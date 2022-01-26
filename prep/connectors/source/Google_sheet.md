@@ -1,5 +1,5 @@
 ---
-title: Source Google Sheet
+title: Google Sheet
 description: DataMa Prep include a Google Sheet connector.
 layout: page
 ---

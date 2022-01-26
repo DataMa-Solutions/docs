@@ -1,5 +1,5 @@
 ---
-title: Source Google Trend
+title: Google Trend
 description: With DataMa Prep enrich your datasets with Google Trends data.
 layout: page
 ---
