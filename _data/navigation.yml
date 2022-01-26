@@ -255,22 +255,22 @@
     - name: Structure
       link: /prep/structure.html
       subnav:
-        - name: Aside
-          link: /prep/structure/aside.html
+        - name: Sidebar
+          link: /prep/structure/sidebar.html
         - name: Header
           link: /prep/structure/header.html
           subnav:
             - name: Saving & Sharing
               link: /prep/header/Saving_and_sharing.html
     - name: Actions
-      link: /prep/aside/actions.html
+      link: /prep/sidebar/actions.html
       subnav:
         - name: Append
-          link: /prep/aside/actions/Append.html
+          link: /prep/sidebar/actions/Append.html
         - name: Clean
-          link: /prep/aside/actions/Clean.html
+          link: /prep/sidebar/actions/Clean.html
         - name: Pivot and Unpivot
-          link: /prep/aside/actions/Pivot_Unpivot.html
+          link: /prep/sidebar/actions/Pivot_Unpivot.html
     - name: Sources
       link: /prep/connectors/available.html
       subnav:
