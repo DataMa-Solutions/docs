@@ -10,7 +10,7 @@ DataMa COMPARE analyses the contribution of each dimension in the performance an
 
 The below diagram helps you to understand the type of contribution we are analyzing when the performance evolves.
 
-<center> <img src="{{site.url}}{{site.baseurl}}/core_app/compare/model/images/Dimensions-analysis.gif"> </center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/compare/model/images/Dimensions-analysis.gif"> </center>
 
 In another way, Mix effect is the impact due to the change of proportion in entrance.
 
@@ -19,9 +19,9 @@ As in the example below, when your proportion of Purchase between Device change,
 * If the proportion change it’s a **Mix effect**
 * If the average price change, it’s a **Performance effect**
 
-<center> <img src="{{site.url}}{{site.baseurl}}/core_app/compare/model/images/Mix-Perf.jpg"> </center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/compare/model/images/Mix-Perf.jpg"> </center>
 
-Please report to this [article]({{site.url}}{{site.baseurl}}/core_app/header/input/source) to learn more about metrics and dimensions.
+Please report to this [article]({{site.url}}/{{site.baseurl}}/core_app/header/input/source) to learn more about metrics and dimensions.
 
 ## Mix Effect
 

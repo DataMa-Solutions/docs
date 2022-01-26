@@ -10,4 +10,4 @@ The interface is split in three main parts:
 * **Dashboard:**  essentially the charts you see in the page
 * **Menu:** The left part of the web page, which allows you to interact with the model
 
-![Menu]({{site.url}}{{site.baseurl}}/core_app/pivot/images/Pivot2.png)
+![Menu]({{site.url}}/{{site.baseurl}}/core_app/pivot/images/Pivot2.png)

@@ -12,4 +12,4 @@ The Simple Stat tab is a graph allowing you to visualize various information on 
 
 **Example:**
 
-![simple_stat]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/images/Simple_stat.png)
+![simple_stat]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/images/Simple_stat.png)

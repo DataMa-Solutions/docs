@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://datama-solutions.github.io/docs/</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/source</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/release.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/tip_of_the_week.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/web_application.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/input.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/input/source.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/input/metric_relation.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/google_sheet.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/excel_file.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/csv_file.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/google_analytics.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/google_bigquery.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/tableau.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/tableau_demo/tableau_demo.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/PowerBI.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/DataIku.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/Alteryx.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/save.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/loaded_version.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/tableau.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/excel.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/powerBI.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/document.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/url.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/slack_mail.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/static_url.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/change_metrics_relation.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/recent_features.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/menu.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/menu/definitions.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/menu/filters.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/waterfall.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/waterfall/covariance.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/waterfall/summary_view.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/dimensions.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/modeling_components.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/value_boxes.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/summary_chart.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/funnel.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/moves.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/bridge.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/detailed_bridge.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/overview.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/settings.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/aggregation.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/smart_dimension.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/compare_of_compare.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/split_mix_and_perf.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/display_options.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/general_introduction.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/use_cases_examples.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/value_boxes.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance/dimension_comparison.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance/decision_tree.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance/table.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/clustering.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/clustering/simple_chart.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/clustering/clustered_chart.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/interdependence.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/interdependence_detailed_view.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/interdependence_detailed_view/sankey.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/tree_depth.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/aggregation_in_percent.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/value_boxes.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/bernoulli.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/other.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/forecasting.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/volatility.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/anomaly_detection.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/weight_frequentist.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/general_introduction.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/use_cases_examples.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/use_cases_examples/website_cross_page_journeys.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/use_cases_examples/website_intra_page_AB_test.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/use_cases_examples/online_acquisition.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/model.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/priority.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/opportunity_value.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/feasability.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/lost_value.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/data.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/pareto.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/sunburst.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/simple_stat.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow/relative.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/data.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/attribution_model.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/journey_separator.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/simplification_of_journeys.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/number_of_steps_displayed.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/source.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/DataMa_on_premise.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/use_cases_examples.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/web_performance_GA.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/marketing_campaign.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/marketing_continuous.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/marketing_scope.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/product_AB_test.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/finance_controlling.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/Content_CS.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/licence_terms.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/licence_terms/privacy_policy.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/licence_terms/terms_of_service.html</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/DataMa_on_premise</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/tableau</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/DataIku</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/Alteryx</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/input/source</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/input/metric_relation</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/use_cases_examples</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/tableau</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/excel</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/document</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/export_results/url</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/create_new_use_case/excel_file</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/menu/start_end_help</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/menu/ratio_helper</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/waterfall</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/waterfall/summary_view</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/home/use_cases/marketing_continuous</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/waterfall/covariance</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/summary_chart</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/funnel</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/menu/definitions</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/moves</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/bridge</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/detailed_bridge</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/model/dimensions</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/aggregation</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/smart_dimension</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/included_steps</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/compare_of_compare</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/split_mix_and_perf</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/compare/web_application/menu/display_options</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/tree_depth</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/aggregation_in_percent</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/bernoulli</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/other</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/forecasting</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/bayesian_bernoulli</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/priority</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/opportunity_value</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/feasability</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/lost_value</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/data</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/pareto</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/sunburst</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/sunburst_diff</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/simple_stat</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow/relative</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/data</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/attribution_model</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/journey_separator</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/simplification_of_journeys</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/number_of_steps_displayed</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datama-solutions.github.io/docs/core_app/header/input/metric_relation?id=metric-relation</loc>
+  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

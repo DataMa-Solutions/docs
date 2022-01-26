@@ -10,6 +10,6 @@ Most of them are editable through Shiny Web App, but you can also edit them thro
 
 See articles below to have more details:
 
-* [Tree depth]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/menu/settings/tree_depth)
-* [Aggregation in %]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/menu/settings/aggregation_in_percent)
-* [Continuous clustering depth]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/menu/settings/continuous_clustering_depth)
+* [Tree depth]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/menu/settings/tree_depth)
+* [Aggregation in %]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/menu/settings/aggregation_in_percent)
+* [Continuous clustering depth]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/menu/settings/continuous_clustering_depth)

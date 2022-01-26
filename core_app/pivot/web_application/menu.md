@@ -6,4 +6,4 @@ layout: page
 
 > See in this chapter the detail of the **left menu** of DataMa interface
 
-![menu_pivot]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/images/pivotmenu.png)
+![menu_pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/images/pivotmenu.png)

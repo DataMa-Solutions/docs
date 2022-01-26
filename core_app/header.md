@@ -6,7 +6,7 @@ layout: page
 
 > See in this chapter details on the **Admin header**  available on top of DataMa interface
 
-![admin]({{site.url}}{{site.baseurl}}/core_app/images/compare_home_admin.png)
+![admin]({{site.url}}/{{site.baseurl}}/core_app/images/compare_home_admin.png)
 
 
 It allows you to:

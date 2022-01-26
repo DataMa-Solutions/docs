@@ -4,7 +4,7 @@ description: DataMa Source aims at checking your source and see distribution of 
 layout: page
 ---
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/images/database_icon.png" alt="logo Source" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/database_icon.png" alt="logo Source" /></center>
 
 > **DataMa Source aims at checking your source and see distribution of one KPI over different segments**
 
@@ -16,11 +16,11 @@ Few important things to note :
 * Segments which represent less than X% of total KPI numeraror is aggregated into a 'OtherSegments' bucket.
 * Clicking on a Segment will filter on that segment (total remains in Grey), so that you can see distribution between columns
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/images/Aggregated_table.png" alt="Aggregated table" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/Aggregated_table.png" alt="Aggregated table" /></center>
 
 ## Detailed table
 
 This second table is just a glimpse of first 10 lines of your source.
 You can search and order by clicking on a column title.
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/images/Detailed_table.png" alt="Detailed Table" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/Detailed_table.png" alt="Detailed Table" /></center>

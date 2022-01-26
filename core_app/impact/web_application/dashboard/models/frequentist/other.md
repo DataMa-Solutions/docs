@@ -8,9 +8,9 @@ In the frequentist approach, the outcome can be any variable. However, the data 
 
 If the outcome variable is binary and data is aggregated, the Frequentist (Bernoulli) test should be used instead (for a precious gain of statistical power).
 
-![image]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/dashboard/models/frequentist/images/value_boxes_frequentist.png)
+![image]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/models/frequentist/images/value_boxes_frequentist.png)
 
-![image]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/dashboard/models/frequentist/images/frequentist.png)
+![image]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/models/frequentist/images/frequentist.png)
 
 **Behind the scenes:** A frequentist Welch t-test is computed to test whether the mean outcome is significantly different between the *Start period* and the *End period*. The standard deviation used in the test is derived from the properties of the sample (from the sample variance).
 

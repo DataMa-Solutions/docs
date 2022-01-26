@@ -18,8 +18,8 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 **For example:** At the step : number of email « Open/Sent » the performance collapsed mainly due to the Segment 2 that less Opened the email in the Campaign B than in the Campaign A. (This could be seen in with the red bar in the middle)
 
-![Marketing-campaigns]({{site.url}}{{site.baseurl}}/assets/images/home/use_cases/Marketing-campaigns.jpg)
+![Marketing-campaigns]({{site.url}}/{{site.baseurl}}/assets/images/home/use_cases/Marketing-campaigns.jpg)
 
 The 2 other Marketing examples represent specific features available in our DataMa Compare solution (clustering of continuous dimension, and the ability to put some of the data aside – scope in / scope out):
-* [Marketing Campaign – Continuous dimension]({{site.url}}{{site.baseurl}}/home/use_cases/marketing_continuous.md)
-* [Marketing Campaign – Scope]({{site.url}}{{site.baseurl}}/home/use_cases/marketing_scope.md)
+* [Marketing Campaign – Continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous.md)
+* [Marketing Campaign – Scope]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_scope.md)
