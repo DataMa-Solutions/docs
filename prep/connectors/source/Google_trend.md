@@ -26,4 +26,4 @@ As you can see, you can custom your choice and adapt it to the period you want.
 
 It will enrich your analysis by comparing your own data of your e-commerce website or marketing campaign results with the data and trends of the market. You will be able to compare your evolution with a larger point of view and understand your performance in a more global context.
 
-To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/aside/tools/Tool_append.md)
+To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/aside/actions/Append.md)
