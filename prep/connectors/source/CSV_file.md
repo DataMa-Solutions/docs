@@ -1,11 +1,14 @@
 ---
+title: Source CSV
+description: DataMa Prep include a csv files connector.
+layout: page
 ---
 
-### You can plug your CSV files in DataMa PREP.
+**You can plug your CSV files in DataMa PREP.**
 
 
-![blopblop](images/CSVstep1.png)
+![CSV Step 1](images/CSVstep1.png)
 
 All you need to do is drag and drop your CSV file in the box.
 
-![django](images/CSVstep2.png)
+![CSV Step 2](images/CSVstep2.png)

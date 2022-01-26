@@ -247,8 +247,6 @@
   subnav:
     - name: Introduction
       link: /prep/general_introduction.html
-    - name: Your analysis
-      link: /prep/Your_analysis.html
     - name: Enrich your analysis
       link: /prep/Enrich_your_analysis.html
     - name: Aside
@@ -281,8 +279,6 @@
           link: /prep/connectors/source/Google_analytics.html
         - name: Google Trend
           link: /prep/connectors/source/Google_trend.html
-    - name: Coming soon
-      link: /prep/Coming_soon.html
 - name: Source
   link: /core_app/source.html #OK
 - name: Interface

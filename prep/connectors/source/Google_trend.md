@@ -1,7 +1,10 @@
 ---
+title: Source Google Trend
+description: With DataMa Prep enrich your datasets with Google Trends data.
+layout: page
 ---
 
-### You can cross your data with Google trends data
+#### You can cross your data with Google trends data
 
 ![image](images/Googletrendstep1.png)
 

@@ -1,4 +1,7 @@
 ---
+title: Source Google Sheet
+description: DataMa Prep include a Google Sheet connector.
+layout: page
 ---
 
 **You can upload your Google sheet in DataMa PREP.**
