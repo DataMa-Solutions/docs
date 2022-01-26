@@ -252,8 +252,6 @@
 - name: Prep
   link: /prep/prep.html
   subnav:
-    - name: Enrich your analysis
-      link: /prep/Enrich_your_analysis.html
     - name: Structure
       link: /prep/Structure.html
       subnav:
