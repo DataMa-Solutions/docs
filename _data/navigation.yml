@@ -1,3 +1,10 @@
+## Default page block
+# - name: MyPage
+#   link: /path/to/the/md.html // .html part is mandatory (replace md by html)
+#   subnav:
+#     - name: Others pages...
+#
+# OPTIONAL : type: separated // Add line after the bloc in the aside
 - name: Solutions
   type: separated
   link: /web_application.html #OK
