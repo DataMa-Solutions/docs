@@ -1,5 +1,5 @@
 ---
-title: Source Excel
+title: Excel file
 description: DataMa Prep include a excel files connector.
 layout: page
 ---
