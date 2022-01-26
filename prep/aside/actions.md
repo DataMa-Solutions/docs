@@ -4,4 +4,4 @@ description: DataMa Prep solution come with a lot of actions allowing you to man
 layout: page
 ---
 
-In this solution, you can join multiple [sources]({{site.url}}/{{site.baseurl}}/prep/connectors/our_sources.html) and manipulate them with a lot of **useful tools**
+In this solution, you can join multiple [sources]({{site.url}}/{{site.baseurl}}/prep/connectors/available.html) and manipulate them with a lot of **useful tools**

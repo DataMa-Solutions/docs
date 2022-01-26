@@ -22,7 +22,7 @@ See details [here]({{site.url}}/{{site.baseurl}}/prep/structure/header.html)
 ## The sources and operators
 Grab your dataset and enrich your analysis.
 
-See details [here]({{site.url}}/{{site.baseurl}}/prep/connectors/our_sources.html)
+See details [here]({{site.url}}/{{site.baseurl}}/prep/connectors/available.html)
 
 
 ## The main screen
