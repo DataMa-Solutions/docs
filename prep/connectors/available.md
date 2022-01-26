@@ -4,6 +4,9 @@ description: DataMa Prep include a lot of connectors. It allows you to join data
 layout: page
 ---
 
-**You can upload your datasets and add some elements to your analysis.**
+**DataMa Prep allow you to connect all your datasets for a better analysis**
 
-All you have to do is to find your file on your computer and plug it in DataMa PREP.
+By default, in the sidebar part of application you will find a list of all available connectors. 
+Add all the connectors you need by selecting them in the list, manipulate & format them as you want until their merge
+
+![Available Sources]({{site.url}}/{{site.baseurl}}/prep/connectors/images/available.png)
