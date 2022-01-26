@@ -1,5 +1,5 @@
 ---
-title: Clean Action
+title: Clean action
 description: Clean action allow you to edit order and types of your columns.
 layout: page
 ---

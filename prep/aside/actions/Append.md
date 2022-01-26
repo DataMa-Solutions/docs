@@ -1,6 +1,6 @@
 ---
-title: Append tool
-description: Append tool allow you to merge two source flow in one.
+title: Append action
+description: Append action allow you to merge two source flow in one.
 layout: page
 ---
 

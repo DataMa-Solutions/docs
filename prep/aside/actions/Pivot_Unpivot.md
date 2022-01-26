@@ -1,6 +1,6 @@
 ---
-title: Pivot and Unpivot tool
-description: Pivot/Unpivot tool allow you to apply a pivot and unpivot action on your data.
+title: Pivot and Unpivot actions
+description: Pivot and Unpivot actions allow you to apply a pivot and unpivot action on your data.
 layout: page
 ---
 
