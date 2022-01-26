@@ -4,6 +4,12 @@ description: With DataMa Prep enrich your datasets with Google Trends data.
 layout: page
 ---
 
+**With DataMa Prep add value to your dataset**
+
+Our tools allow you to enrich your local data with external data like Google Trend and others. Allowing you to understand all your kpi variation
+
+You can enrich your dataset thanks to information independent to your activity (weather, holidays...) to precise your performance analysis.
+
 #### You can cross your data with Google trends data
 
 ![image](images/Googletrendstep1.png)
