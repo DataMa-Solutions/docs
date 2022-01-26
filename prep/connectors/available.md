@@ -1,5 +1,5 @@
 ---
-title: Prep's Source
+title: Available Prep's connectors
 description: DataMa Prep include a lot of connectors. It allows you to join data from multiple source.
 layout: page
 ---
