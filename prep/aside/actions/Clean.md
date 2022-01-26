@@ -24,4 +24,4 @@ Because you might need to append later on this dataset with another one and you 
 
 ![image](images/Cleanstep3.png)
 
-To understand what is the operator "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/aside/tools/Tool_append.html)!
+To understand what is the operator "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/aside/actions/Append.html)!

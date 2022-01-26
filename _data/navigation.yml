@@ -252,15 +252,15 @@
     - name: Aside
       link: /prep/aside/In_the_side_bar.html
       subnav:
-        - name: Tools
+        - name: Actions
           link: /prep/aside/transform_your_data.html
           subnav:
             - name: Append
-              link: /prep/aside/tools/Tool_append.html
+              link: /prep/aside/actions/Append.html
             - name: Clean
-              link: /prep/aside/tools/Tool_clean.html
+              link: /prep/aside/actions/Clean.html
             - name: Pivot and Unpivot
-              link: /prep/aside/tools/Tool_pivot_and_unpivot.html
+              link: /prep/aside/actions/Pivot_Unpivot.html
     - name: Header
       link: /prep/Header.html
       subnav:
