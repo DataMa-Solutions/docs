@@ -5,6 +5,26 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-01-26:
+
+* **General:**
+    * DataMa application is now available through solutions.datama.io instead of solutions.datama.fr. Whyle the .fr is still redirecting to .io, you may want to update your bookmarks to avoid login/ token issues in the future
+    * Multiple bug fixes and UI improvements (including custom input stickiness when changing metric relation, default rounding of currencies to 2 decimals, connection to prep improvements...)
+
+* **Compare:**
+    * Variation significance testing can now be saved for a use case (available only with Impact license)
+    * Renamed "Positive"/ "Negative" variations as "Increase"/ "Decrease"
+    * Custom Palette now applies to new dynamic waterfall
+
+* **Journey:**
+    * Attribution toggle is now saved along with your use case (can be especially useful to save time when exporting a sunburst)
+
+* **Prep:**
+  * **Filter object**: in a flow, you can now filter data, using either exact match or regex
+  * Flows can be deleted and renamed from the top right flow name drop down
+  * Shortcut to DataMa Solutions (Compare, Impact, Pivot) are available in output object
+  * Added Prep documentation (see [here]({{site.url}}{{site.baseurl}}/prep/notfound.md))
+
 ### 2021-12-26:
 
 * **Compare:**
