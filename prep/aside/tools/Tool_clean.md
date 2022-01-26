@@ -1,5 +1,9 @@
 ---
+title: Clean tool
+description: With Clean tool you can, in easy-way, re-order your column and edit there type.
+layout: page
 ---
+
 ### You can clean your data in DataMa PREP. ###
 
 

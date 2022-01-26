@@ -1,6 +1,10 @@
 ---
+title: Source Google Analytics
+description: DataMa Prep include a GA connector.
+layout: page
 ---
-** You can upload your Google Analytics datasets in DataMa PREP. **
+
+**You can upload your Google Analytics datasets in DataMa PREP.**
 
 
 

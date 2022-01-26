@@ -1,19 +1,18 @@
 ---
+title: Introduction to Prep
+description: Get it started with DataMa Prep solution
+layout: page
 ---
 
 **DataMa PREP is a data analysis tool that allows you to prepare your dataset and enrich your flow before analyzing it.**
 
 After you have logged in, you will find this home page:
 
-![attribution](images/Homepage.png)
+![Global Prep UI](images/Homepage.png)
 
+**DataMa PREP's structure is made of 4 parts:**
 
-
-
-
-**DataMa PREP is made of 4 parts:**
-
-![attribution](images/Capturen1.PNG)
+![Structure](images/Capturen1.PNG)
 
 ## Header menu
 Go back to the home page, save, schedule, run and cache the flow.
@@ -28,8 +27,6 @@ See details [here]({{site.url}}/{{site.baseurl}}/prep/connectors/our_sources.htm
 
 ## The main screen
 Use arrows and our tools to create your flow.
-
-See details [here]({{site.url}}/{{site.baseurl}}/prep/Your_analysis.html)
 
 
 ## Your dataset sample

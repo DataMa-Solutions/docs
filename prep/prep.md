@@ -1,4 +1,7 @@
 ---
+title: DataMa Prep
+description: Get information about the DataMa Prep solution
+layout: page
 ---
 
 > **DataMa PREP is a data analysis tool that allows you to modify and prepare your dataset before analyzing it.**
@@ -7,7 +10,7 @@ If you're already familiar with DataMa Solutions, you will obviously need DataMa
 
 This documentation gives you an overview of how it works and how to use it.
 
-![journey_homepage](images/Capturen1.png)
+![prep_ui](images/Capturen1.PNG)
 
 Hope you enjoy it.
 

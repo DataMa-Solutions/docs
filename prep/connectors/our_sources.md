@@ -1,4 +1,7 @@
 ---
+title: Prep's Source
+description: DataMa Prep include a lot of connectors. It allows you to join data from multiple source.
+layout: page
 ---
 
 **You can upload your datasets and add some elements to your analysis.**

@@ -1,9 +1,9 @@
 ---
+title: Transform and improve your data
+description: DataMa Prep solution is a no-code application style allowing you to manipulate/transform datasets. 
+layout: page
 ---
-### Thanks to different tools you have access to when you click on the "Plus" button next to your dataset, you can transform your data.
 
-You can clean your data : see more details [here]({{site.url}}/{{site.baseurl}}/prep/aside/tools/Tool_clean.html).
+> **DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.**
 
-You can also append datasets : see more details [here]({{site.url}}/{{site.baseurl}}/prep/aside/tools/Tool_append.html)
-
-And last but not least, you can pivot and unpivot your dataflow: see more [here]({{site.url}}/{{site.baseurl}}/prep/aside/tools/Tool_pivot_and_unpivot.html)
+In this solution, you can join multiple [sources]({{site.url}}/{{site.baseurl}}/prep/connectors/our_sources.html) and manipulate them with a lot of [useful tools]({{site.url}}/{{site.baseurl}}/prep/aside/tools).
