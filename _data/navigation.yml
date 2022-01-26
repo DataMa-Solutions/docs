@@ -253,7 +253,7 @@
   link: /prep/prep.html
   subnav:
     - name: Structure
-      link: /prep/Structure.html
+      link: /prep/structure.html
       subnav:
         - name: Aside
           link: /prep/structure/aside.html
@@ -263,7 +263,7 @@
             - name: Saving & Sharing
               link: /prep/header/Saving_and_sharing.html
     - name: Actions
-      link: /prep/aside/transform_your_data.html
+      link: /prep/aside/actions.html
       subnav:
         - name: Append
           link: /prep/aside/actions/Append.html
@@ -272,7 +272,7 @@
         - name: Pivot and Unpivot
           link: /prep/aside/actions/Pivot_Unpivot.html
     - name: Sources
-      link: /prep/connectors/our_sources.html
+      link: /prep/connectors/available.html
       subnav:
         - name: CSV file
           link: /prep/connectors/source/CSV_file.html
