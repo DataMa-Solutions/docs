@@ -11,7 +11,7 @@ layout: page
 Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of DataMA's solutions.
 
 
-### How to use it
+### How to use it ?
 
 You can adapt your dataset and transform it in the right format so that its lines and columns concur with other datasets.
 
