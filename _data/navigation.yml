@@ -245,27 +245,27 @@
 - name: Prep
   link: /prep/prep.html
   subnav:
-    - name: Introduction
-      link: /prep/general_introduction.html
     - name: Enrich your analysis
       link: /prep/Enrich_your_analysis.html
-    - name: Aside
-      link: /prep/aside/In_the_side_bar.html
+    - name: Structure
+      link: /prep/Structure.html
       subnav:
-        - name: Actions
-          link: /prep/aside/transform_your_data.html
+        - name: Aside
+          link: /prep/aside/In_the_side_bar.html
+        - name: Header
+          link: /prep/Header.html
           subnav:
-            - name: Append
-              link: /prep/aside/actions/Append.html
-            - name: Clean
-              link: /prep/aside/actions/Clean.html
-            - name: Pivot and Unpivot
-              link: /prep/aside/actions/Pivot_Unpivot.html
-    - name: Header
-      link: /prep/Header.html
+            - name: Saving & Sharing
+              link: /prep/header/Saving_and_sharing.html
+    - name: Actions
+      link: /prep/aside/transform_your_data.html
       subnav:
-        - name: Saving & Sharing
-          link: /prep/header/Saving_and_sharing.html
+        - name: Append
+          link: /prep/aside/actions/Append.html
+        - name: Clean
+          link: /prep/aside/actions/Clean.html
+        - name: Pivot and Unpivot
+          link: /prep/aside/actions/Pivot_Unpivot.html
     - name: Sources
       link: /prep/connectors/our_sources.html
       subnav:

@@ -8,8 +8,3 @@ If you click on the "Play" button, you can see the results of your analysis and 
 
 You may want to grab a dataset from GA, a CSV file, a Google sheet,...
 See how to do so [here]({{site.url}}/{{site.baseurl}}/prep/connectors/our_sources.html). 
-
-
-
-You can also enrich your analysis thanks to a Google trend, inputs of your calendar,...
-Learn more about it [here]({{site.url}}/{{site.baseurl}}/prep/Enrich_your_analysis.html).

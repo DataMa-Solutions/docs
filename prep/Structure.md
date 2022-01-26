@@ -1,10 +1,10 @@
 ---
-title: Introduction to Prep
-description: Get it started with DataMa Prep solution
+title: Structure of Prep
+description: Get it started with DataMa Prep solution's structure
 layout: page
 ---
 
-**DataMa PREP is a data analysis tool that allows you to prepare your dataset and enrich your flow before analyzing it.**
+**DataMa PREP is a data aggregation tool that allows you to prepare your dataset and enrich your flow before analyzing it.**
 
 After you have logged in, you will find this home page:
 
