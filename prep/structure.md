@@ -17,7 +17,7 @@ After you have logged in, you will find this home page:
 ## Header menu
 Go back to the home page, save, schedule, run and cache the flow.
 
-See details [here]({{site.url}}/{{site.baseurl}}/prep/Header.html)
+See details [here]({{site.url}}/{{site.baseurl}}/prep/structure/header.html)
 
 ## The sources and operators
 Grab your dataset and enrich your analysis.

@@ -1,10 +1,10 @@
 ---
 title: DataMa Prep
-description: Get information about the DataMa Prep solution
+description: DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.
 layout: page
 ---
 
-> **DataMa PREP is a data analysis tool that allows you to modify and prepare your dataset before analyzing it.**
+> **DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.**
 
 If you're already familiar with DataMa Solutions, you will obviously need DataMa PREP one day. It will help you create a dataset compatible with DataMA's market equation.
 
