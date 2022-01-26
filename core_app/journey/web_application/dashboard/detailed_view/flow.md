@@ -14,4 +14,4 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 **Example:**
 
-![flow]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/images/flow.png)
+![flow]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/images/flow.png)

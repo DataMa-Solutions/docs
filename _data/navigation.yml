@@ -25,6 +25,8 @@
               link: /core_app/header/create_new_use_case/csv_file.html #OK
             - name: Google Analytics
               link: /core_app/header/create_new_use_case/google_analytics.html #OK
+            - name: Google Big Query
+              link: /core_app/header/create_new_use_case/google_bigquery.html #OK
             - name: Extensions
               link: /core_app/header/create_new_use_case/extensions.html #OK
               subnav:
@@ -51,7 +53,7 @@
             - name: Excel
               link: /core_app/header/export_results/excel.html #OK
             - name: Power BI
-              link: /core_app/header/export_results/PowerBI.html #OK
+              link: /core_app/header/export_results/powerBI.html #OK
             - name: Document
               link: /core_app/header/export_results/document.html #OK
             - name: URL
@@ -217,10 +219,12 @@
                   link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
                 - name: Forecasting
                   link: /core_app/impact/web_application/dashboard/models/forecasting.html #OK
-                - name: Boxplot
-                  link: /core_app/impact/web_application/dashboard/models/boxplot.html #unknown file
                 - name: Bayesion bernoulli
                   link: /core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html #OK
+                - name: Volatility
+                  link: /core_app/impact/web_application/dashboard/volatility.html #ok
+            - name: Anomaly Detection
+              link: /core_app/impact/web_application/dashboard/anomaly_detection.html
         - name: Menu
           link: /core_app/impact/web_application/menu.html #OK
           subnav:
@@ -238,6 +242,8 @@
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval.html #OK
                     - name: Aggregation in %
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html #OK
+                    - name: Weight Frequentist
+                      link: /core_app/impact/web_application/menu/weight_frequentist.html
 - name: Journey
   link: /core_app/journey.html #OK
   subnav:
@@ -308,6 +314,47 @@
                   link: /core_app/journey/web_application/menu/settings/simplification_of_journeys.html #OK
                 - name: Number of steps displayed
                   link: /core_app/journey/web_application/menu/settings/number_of_steps_displayed.html #OK
+- name: Prep
+  link: /prep/prep.html
+  subnav:
+    - name: Introduction
+      link: /prep/general_introduction.html
+    - name: Your analysis
+      link: /prep/Your_analysis.html
+    - name: Enrich your analysis
+      link: /prep/Enrich_your_analysis.html
+    - name: Aside
+      link: /prep/aside/In_the_side_bar.html
+      subnav:
+        - name: Tools
+          link: /prep/aside/transform_your_data.html
+          subnav:
+            - name: Append
+              link: /prep/aside/tools/Tool_append.html
+            - name: Clean
+              link: /prep/aside/tools/Tool_clean.html
+            - name: Pivot and Unpivot
+              link: /prep/aside/tools/Tool_pivot_and_unpivot.html
+    - name: Header
+      link: /prep/Header.html
+      subnav:
+        - name: Saving & Sharing
+          link: /prep/header/Saving_and_sharing.html
+    - name: Sources
+      link: /prep/connectors/our_sources.html
+      subnav:
+        - name: CSV file
+          link: /prep/connectors/source/CSV_file.html
+        - name: Excel File
+          link: /prep/connectors/source/Excel_file.html
+        - name: Google Sheet
+          link: /prep/connectors/source/Google_sheet.html
+        - name: Google Analytics
+          link: /prep/connectors/source/Google_analytics.html
+        - name: Google Trend
+          link: /prep/connectors/source/Google_trend.html
+    - name: Coming soon
+      link: /prep/Coming_soon.html
 - name: Source
   link: /core_app/source.html #OK
 - name: DataMa On Premise
@@ -315,30 +362,28 @@
 - name: Home
   type: separated
   link: /home.html #OK
+- name: Get inspired
+  link: /home/use_cases/use_cases_examples.html #OK
   subnav:
-    - name: Get inspired
-      link: /home/use_cases/use_cases_examples.html #OK
+    - name: Web performance - Google Analytics
+      link: /home/use_cases/web_performance_GA.html #OK
+    - name: Marketing - Campaign
+      link: /home/use_cases/marketing_campaign.html #OK
       subnav:
-        - name: Web performance - Google Analytics
-          link: /home/use_cases/web_performance_GA.html #OK
-        - name: Marketing - Campaign
-          link: /home/use_cases/marketing_campaign.html #OK
-          subnav:
-            - name: Continuous dimensions
-              link: /home/use_cases/marketing_continuous.html #OK
-            - name: Scope
-              link: /home/use_cases/marketing_scope.html #OK
-        - name: Product - AB test
-          link: /home/use_cases/product_AB_test.html #OK
-        - name: Finance Controlling
-          link: /home/use_cases/finance_controlling.html #OK
-        - name: Content Square data
-          link: /home/use_cases/Content_CS.html #OK
+        - name: Continuous dimensions
+          link: /home/use_cases/marketing_continuous.html #OK
+        - name: Scope
+          link: /home/use_cases/marketing_scope.html #OK
+    - name: Product - AB test
+      link: /home/use_cases/product_AB_test.html #OK
+    - name: Finance Controlling
+      link: /home/use_cases/finance_controlling.html #OK
+    - name: Content Square data
+      link: /home/use_cases/Content_CS.html #OK
 - name: Licence terms
   type: separated
   link: /core_app/licence_terms.html #OK
-  subnav:
-    - name: Privacy policy
-      link: /core_app/licence_terms/privacy_policy.html #OK
-    - name: Terms of Service
-      link: /core_app/licence_terms/terms_of_service.html #OK
+- name: Privacy policy
+  link: /core_app/licence_terms/privacy_policy.html #OK
+- name: Terms of Service
+  link: /core_app/licence_terms/terms_of_service.html #OK

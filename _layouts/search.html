@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DataMa Documentation - Search Results</title>
+    <link rel="icon" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="DataMa documentation - {{ page.description }}"/>
+    <meta name="og:title" content="DataMa documentation search results - {{ page.title }}">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="{{site.url}}/{{site.baseurl}}{{ page.img_url }}">
+    <meta name="og:video" content="{{site.url}}/{{site.baseurl}}{{ page.img_url }}">
+    <meta name="og:url" content="{{site.url}}/{{site.baseurl}}{{ page.img_url }}">
+    <meta name="og:image:width" content="{{ page.img_width }}">
+    <meta name="og:image:height" content="{{ page.img_height }}">
+    <meta name="google-site-verification" content="TUNtfUemY95_1kk74l6s9zMJE_bHp3SxLHcbu5eiow0" />
+    <meta property="og:image:type" content="{{ page.img_type }}"/>
+    <meta content="video.other" property="og:type" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{site.url}}/{{site.baseurl}}/assets/css/style.css">
+    <script src="{{site.url}}/{{site.baseurl}}/assets/js/jquery.js"></script>
+    <script src="{{site.url}}/{{site.baseurl}}/assets/js/cookies.js"></script>
+    <script src="{{site.url}}/{{site.baseurl}}/assets/js/sws.js" type="text/javascript"></script>
+</head>
+<body class="body-search">
+<script src="{{site.url}}/{{site.baseurl}}/assets/js/main.js"></script>
+{% include navigation.html nav=site.data.navigation search=0 %}
+<main>
+    {% include header.html %}
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    {% include footer.html %}
+</main>
+<script>
+    $('#burger').on('click', (e) => {
+        e.preventDefault();
+        $('body').toggleClass('menu-close')
+    })
+</script>
+</body>
+</html>

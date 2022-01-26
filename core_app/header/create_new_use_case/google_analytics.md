@@ -6,7 +6,7 @@ layout: page
 
 > In this section you will find how to load your **GA  from your Google Account**
 
-![csv_gif]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/images/Load-GA-Compare_GIF2.gif)
+![csv_gif]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/images/Load-GA-Compare_GIF2.gif)
 
 Follow the below steps to load your CSV Data:
 

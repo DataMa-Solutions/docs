@@ -8,6 +8,19 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #40
+Nous avons amélioré notre belle Waterfall, une première étape de notre refonte technologique qui permettra de faciliter la création de nouveaux usages dans le futur.
+Il vous est désormais possible:
+  * d’ouvrir le détail de plusieurs étapes en même temps
+  * d’avoir des exports statiques de la waterfall qui sont interactifs
+Retrouvez les derniers changements sur notre [release](https://datama-solutions.github.io/docs//release.html) de fin d’année ! 📑
+![Tip 40]({{site.url}}/{{site.baseurl}}/assets/images/tip/40.gif)
+
+## Tip of the week #39
+L’équipe DataMa a pensé à vous en écrivant ces articles, retrouvez y comment analyser certaines de vos problématiques :
+  * Mesure de l’impact de votre outil de consentement: [here](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/)
+  * Suivre la performance de vos campagnes d’acquisition: [here](https://www.datama.io/fr/2021/11/22/comment-suivre-ses-campagnes-media-avec-datama/)
+  * Prendre en compte les tendances du marché dans vos analyses:[here](https://www.datama.io/fr/2021/11/22/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
 
 ## Tip of the week #38
 
@@ -20,7 +33,7 @@ Plus de temps perdu sur Google Sheet à joindre 25 onglets :nerd_face:
 Pour tester, demandez accès à votre CSM DataMa, puis rdv dans l'onglet "data flow" sur la home page de DataMa
 
 
-![Tip 38]({{site.url}}{{site.baseurl}}/assets/images/tip/38.gif)
+![Tip 38]({{site.url}}/{{site.baseurl}}/assets/images/tip/38.gif)
 
 <h2>Tip of the week #37</h2>
 
@@ -34,7 +47,7 @@ Compatible avec les sources classiques Datama, il vous suffit d'activer le toggl
 
 Lisez cet [article](https://datama-solutions.github.io/docs/#/impact/web_application/dashboard/anomaly_detection?id=anomaly-detection) pour en savoir plus, et contactez nous pour une démo !
 
-![Tip 36](images/37.gif)
+![Tip 37]({{site.url}}/{{site.baseurl}}/assets/images/tip/37.gif)
 
 
 <h2>Tip of the week #36</h2>
@@ -45,7 +58,7 @@ Lisez cet [article](https://datama-solutions.github.io/docs/#/impact/web_applica
 
 Boum 💥
 
-![Tip 36](images/36.gif)
+![Tip 36]({{site.url}}/{{site.baseurl}}/assets/images/tip/36.gif)
 
 
 
@@ -60,7 +73,7 @@ Que ce soit dans Tableau ou PowerBi, retrouvez de manière transparente vos grap
 
 Retrouvez plus d'information sur notre [documentation](https://datama-solutions.github.io/docs//#/general/admin/create_use_case/extensions/extension_tableau?id=tableau-extension) en ligne ! 📕
 
-![Tip 34](images/34.gif)
+![Tip 34]({{site.url}}/{{site.baseurl}}/assets/images/tip/34.gif)
 
 
 
@@ -78,7 +91,7 @@ On y accède en cliquant sur le ➗ dans les paramètres .
 
 Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/general/menu/ratio_helper).
 
-![Tip 33](images/33.png)
+![Tip 33]({{site.url}}/{{site.baseurl}}/assets/images/tip/33.png)
 
 
 <h2>Tip of the week #32</h2>
@@ -88,7 +101,7 @@ Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/genera
 * Cette fonctionnalité est très pratique quand vous avez une étape en croissance, beaucoup de segments différents et que vous voudriez vous concentrer sur ceux qui ont baissé plutôt que de voir apparaître ceux qui vont bien.
 * On en profite aussi pour refaire le scoring des dimensions en regardant en priorité les dimensions dont les segments expliquent le mieux la baisse (même pour les étapes en croissance)
 
-![Tip 32](images/32.gif)
+![Tip 32]({{site.url}}/{{site.baseurl}}/assets/images/tip/32.gif)
 
 
 
@@ -100,7 +113,7 @@ Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/genera
 * Pour customiser encore plus vos dashboards, pouvez également modifier la couleur des graphes en choisissant les couleurs correspondant à votre charte graphique
 * Retrouvez l'historique de toutes les fonctionnalités mises en production directement sur le site de la [documentation](https://datama-solutions.github.io/docs/#/news) 🌈
 
-![Tip 31](images/31.gif)
+![Tip 31]({{site.url}}/{{site.baseurl}}/assets/images/tip/31.gif)
 
 
 
@@ -116,7 +129,7 @@ Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/genera
 
 A vous de tester !
 
-![Tip 29](images/29.png)
+![Tip 29]({{site.url}}/{{site.baseurl}}/assets/images/tip/29.png)
 
 
 
@@ -128,7 +141,7 @@ Bonne nouvelle, vous n'êtes pas obligé de l'afficher. Il suffit de désactiver
 
 Et pour ceux qui n'ont toujours pas compris ce qu'est l'effet de mix 🎛 on a un petit webinar pour vous jeudi 25 🙂 -> inscription ici
 
-![Tip 28](images/28.png)
+![Tip 28]({{site.url}}/{{site.baseurl}}/assets/images/tip/28.png)
 
 
 
@@ -140,7 +153,7 @@ Et pour ceux qui n'ont toujours pas compris ce qu'est l'effet de mix 🎛 on 
 
 Enjoy 😄
 
-![Tip 27](images/27.png) 
+![Tip 27]({{site.url}}/{{site.baseurl}}/assets/images/tip/27.png)
 
 
 
@@ -154,7 +167,7 @@ Enjoy 😄
 
 Lancez ensuite l'analyse en appuyant sur le bouton en bas à gauche (raccourci "Entrée" sur votre clavier)
 
-![Tip 26](images/26.gif)
+![Tip 26]({{site.url}}/{{site.baseurl}}/assets/images/tip/26.gif)
 
 
 <h2>Tip of the week #25</h2>
@@ -167,7 +180,7 @@ Il vous suffit de nous faire remonter vos idées de feature / améliorations par
 
 A vos stylos ✏️ et Joyeux Noël 🎁 !
 
-![Tip 25](images/25.gif)
+![Tip 25]({{site.url}}/{{site.baseurl}}/assets/images/tip/25.gif)
 
 
 
@@ -189,7 +202,7 @@ Depuis la home, vous pouvez facilement :  
 
 Pour en savoir plus sur la Home, c'est ici ! 
 
-![Tip 24](images/24.png)
+![Tip 24]({{site.url}}/{{site.baseurl}}/assets/images/tip/24.png)
 
 
 
@@ -201,7 +214,7 @@ Pour en savoir plus sur la Home, c'est ici ! 
 
 Quoi de plus simple ?
 
-![Tip 22](images/22.gif)
+![Tip 22]({{site.url}}/{{site.baseurl}}/assets/images/tip/22.gif)
 
 
 
@@ -219,7 +232,7 @@ Par exemple:
 
 ➡️ Votre analyse se met donc à jour de manière automatisée, sans même que vous ayez à changer le paramétrage 🤙!
 
-![Tip 21](images/21.png)
+![Tip 21]({{site.url}}/{{site.baseurl}}/assets/images/tip/21.png)
 
 
 
@@ -240,7 +253,7 @@ Merci à tous les contributeurs pour leurs idées et à vos feedbacks constants 
 
 Stay tune, there's a lot more to come... 🚀
 
-![Tip 20](images/20.JPG)
+![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.JPG)
 
 
 
@@ -321,7 +334,7 @@ Merci de nous remonter vos impressions lorsque vous testez !
 
 **Note:** Ce nouveau bandeau remplace l’ancien menu ‘Admin’ qui était en bas à gauche de la page!
 
-![Tip 12](images/12.gif)
+![Tip 12]({{site.url}}/{{site.baseurl}}/assets/images/tip/12.gif)
 
 <h2>Tip of the week #11</h2>
 
@@ -335,7 +348,7 @@ Voir un exemple concret [ici](https://www.docs.datama.fr/docs/datama-compare/gen
 
 Préparé avec ❤️ depuis chez nous, on pense à vous et on vous accompagne sur tous vos sujets à distance!
 
- ![Tip 11](images/11.png)
+ ![Tip 11]({{site.url}}/{{site.baseurl}}/assets/images/tip/11.png)
 
 <h2>Tip of the week #10</h2>
 
@@ -350,7 +363,7 @@ Il vous suffit de :
 
 Une fois que vos données se mettent à jour toutes seules, vous n’avez plus qu’a paramétrer un envoie régulier vers votre boite mail ou un channel Slack et le tour est joué
 
-![Tip 10](images/10.gif)
+![Tip 10]({{site.url}}/{{site.baseurl}}/assets/images/tip/10.gif)
 
 <h2>Tip of the week #9</h2>
 
@@ -374,7 +387,7 @@ Vous glissez-déposez l’extension fournie par DataMa dans votre dashboard Tabl
 
 Non seulement vos données sont à jour de ce que vous avez déjà dans Tableau, mais vos filtres et autres actions dans Tableau sont alors actifs dans DataMa ! 🔄
 
-![Tip 8](images/8.gif)
+![Tip 8]({{site.url}}/{{site.baseurl}}/assets/images/tip/8.gif)
 
 Pour en savoir plus: https://www.docs.datama.fr/docs/extensions/tableau-extension/
 
@@ -385,7 +398,7 @@ Pour en savoir plus: https://www.docs.datama.fr/docs/extensions/tableau-extensio
 
 * Maintenant oui 🙂
 
-![Tip 7](images/7.png)
+![Tip 7]({{site.url}}/{{site.baseurl}}/assets/images/tip/7.png)
 
 <h2>Tip of the week #6</h2>
 
@@ -395,7 +408,7 @@ En plus de la documentation, il existe depuis peu un tutoriel qui vous guide de 
 
 * Cliquez sur « Launch tutorial » en haut à droite de l’écran pour vous mettre sur la bonne voie ! 🧗‍♂️
 
-![Tip 6](images/6.png)
+![Tip 6]({{site.url}}/{{site.baseurl}}/assets/images/tip/6.png)
 
 <h2>Tip of the week #5</h2>
 

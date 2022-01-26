@@ -8,6 +8,23 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #40
+We have improved our wonderfull Waterfall, a first step in our technological overhaul that will facilitate the creation of new uses in the future.
+You can now:
+  * open the details of several steps at the same time
+  * have static exports of the Waterfall which are interactive
+  * drill down easily within boxes
+Find the latest changes in our last [release](https://datama-solutions.github.io/docs//release.html)!📑
+![Tip 40]({{site.url}}/{{site.baseurl}}/assets/images/tip/40.gif)
+
+## Tip of the week #39
+Get inspired in your analysis with those new articles 📰 on our blog!
+  * Measure the impact of your consent tool: [here](https://www.datama.io/2021/11/04/how-to-analyze-the-impact-of-your-consent-tool-on-your-performance-indicators/)
+  * Monitor the performance of your acquisition campaigns: [here](https://www.datama.io/2021/11/22/how-to-track-your-media-campaigns-with-datama/)
+  * Take into account market trends in your analyzes: [here](https://www.datama.io/2021/11/22/how-to-take-into-account-market-trends-in-your-performance-analysis/)
+
+Do the same at home! Then send us your results 😉
+
 ## Tip of the week #38
 
 Latest [release](https://datama-solutions.github.io/docs/#/release) of DataMa hapenned this weekend :slightly_smiling_face:
@@ -18,7 +35,7 @@ No more time wasted with 25 worksheet in Gsheet :nerd_face:
   * Scheduleur available to get data fresh and ready for analysing in DataMa
 Test it by asking to your DataMa CSM, then go to the "data flow" tab on the home page of DataMa
 
-![Tip 38]({{site.url}}{{site.baseurl}}/assets/images/tip/38.gif)
+![Tip 38]({{site.url}}/{{site.baseurl}}/assets/images/tip/38.gif)
 
 ## Tip of the week #37
 
@@ -32,7 +49,7 @@ Compatible with the classic Datama sources, you just need to activate the 'anoma
 
 Read this [article](https://datama-solutions.github.io/docs/#/impact/web_application/dashboard/anomaly_detection?id=anomaly-detection) to learn more, and contact us for a demo!
 
-![Tip 37]({{site.url}}{{site.baseurl}}/assets/images/tip/37.gif)
+![Tip 37]({{site.url}}/{{site.baseurl}}/assets/images/tip/37.gif)
 
 <h2>Tip of the week #36</h2>
 
@@ -42,7 +59,7 @@ In particular, a great news for analysts whose beautiful graphs always end up in
 
 Boom 💥
 
-![Tip 36]({{site.url}}{{site.baseurl}}/assets/images/tip/36.gif)
+![Tip 36]({{site.url}}/{{site.baseurl}}/assets/images/tip/36.gif)
 
 
 
@@ -57,7 +74,7 @@ Whether in Tableau or PowerBi, transparently display your DataMa graphs  🤓
 
 Find more information on our online [documentation](https://datama-solutions.github.io/docs//#/general/admin/create_use_case/extensions/extension_tableau?id=tableau-extension) ! 📕
 
-![Tip 34]({{site.url}}{{site.baseurl}}/assets/images/tip/34.gif)
+![Tip 34]({{site.url}}/{{site.baseurl}}/assets/images/tip/34.gif)
 
 
 
@@ -75,7 +92,7 @@ You can see it by clicking on the ➗   in the settings.
 
 To learn more, click [here](https://datama-solutions.github.io/docs/#/general/menu/ratio_helper).
 
-![Tip 33]({{site.url}}{{site.baseurl}}/assets/images/tip/33.png)
+![Tip 33]({{site.url}}/{{site.baseurl}}/assets/images/tip/33.png)
 
 
 <h2>Tip of the week #32</h2>
@@ -85,7 +102,7 @@ To learn more, click [here](https://datama-solutions.github.io/docs/#/general/me
 * This feature comes in handy when you have a growing stage, a lot of different segments, and you would like to focus on the ones that have gone down rather than seeing the ones that are doing well.
 * We also take the opportunity to redo the scoring of the dimensions by looking first at the dimensions whose segments best explain the decrease (even for the increasing stages)
 
-![Tip 32]({{site.url}}{{site.baseurl}}/assets/images/tip/32.gif)
+![Tip 32]({{site.url}}/{{site.baseurl}}/assets/images/tip/32.gif)
 
 
 
@@ -98,7 +115,7 @@ To learn more, click [here](https://datama-solutions.github.io/docs/#/general/me
 * 		Do not hesitate to come back to us if you have any access problem.
 * 		Thank you for your understanding and again sorry for the inconvenience.
 
-![Tip 31]({{site.url}}{{site.baseurl}}/assets/images/tip/31.gif)
+![Tip 31]({{site.url}}/{{site.baseurl}}/assets/images/tip/31.gif)
 
 
 
@@ -115,7 +132,7 @@ Within them, "right click"  🖱 on DataMa Compare waterfall is now available. Y
 
 Your turn to test it!
 
-![Tip 29]({{site.url}}{{site.baseurl}}/assets/images/tip/29.png)
+![Tip 29]({{site.url}}/{{site.baseurl}}/assets/images/tip/29.png)
 
 
 
@@ -125,7 +142,7 @@ Afraid of explaining what's a mix effect in that meeting with the DataMa Waterfa
 
 Good news, you don't need to show it. Just de-activate the split between mix and perf in the settings. DataMa will then group the two effects and just show negative and positive total variations instead.
 
-![Tip 28]({{site.url}}{{site.baseurl}}/assets/images/tip/28.png)
+![Tip 28]({{site.url}}/{{site.baseurl}}/assets/images/tip/28.png)
 
 
 
@@ -137,7 +154,7 @@ This new feature is part of a set of releases from this week that you can see on
 
 Enjoy 😄
 
-![Tip 27]({{site.url}}{{site.baseurl}}/assets/images/tip/27.png)
+![Tip 27]({{site.url}}/{{site.baseurl}}/assets/images/tip/27.png)
 
 
 
@@ -151,7 +168,7 @@ The DataMa team wish you a happy new year 🎉 !  In case you want to filter o
 
 The launch the calculations by hitting the button at bottom left  ('Enter' shortcut on your keyboard)
 
-![Tip 26]({{site.url}}{{site.baseurl}}/assets/images/tip/26.gif)
+![Tip 26]({{site.url}}/{{site.baseurl}}/assets/images/tip/26.gif)
 
 
 <h2>Tip of the week #25</h2>
@@ -165,7 +182,7 @@ And pipeline sprint is typically less than 2 weeks for prod... ⏩
 
 Now you're turn ✏️ and merry Christmas 🎁!
 
-![Tip 25]({{site.url}}{{site.baseurl}}/assets/images/tip/25.gif)
+![Tip 25]({{site.url}}/{{site.baseurl}}/assets/images/tip/25.gif)
 
 
 
@@ -187,7 +204,7 @@ From the home, you can easily:
 
 Learn more on the Home [here](https://datama-solutions.github.io/docs/#/home/home) !
 
-![Tip 24]({{site.url}}{{site.baseurl}}/assets/images/tip/24.png)
+![Tip 24]({{site.url}}/{{site.baseurl}}/assets/images/tip/24.png)
 
 
 <h2>Tip of the week #23</h2>
@@ -203,7 +220,7 @@ In a few days, you will discover the new DataMa interface, including:
 
 And a multitude of small improvements which are the fruit of your constant feedback... Thank you for your feedback and keep sending us your improvements wishes! 🙏
 
-![Tip 23]({{site.url}}{{site.baseurl}}/assets/images/tip/23.gif)
+![Tip 23]({{site.url}}/{{site.baseurl}}/assets/images/tip/23.gif)
 
 
 <h2>Tip of the week #22</h2>
@@ -214,7 +231,7 @@ A quick - yet not dirty - analysis from a spreadsheet into DataMa?
 
 Easy enough?
 
-![Tip 22]({{site.url}}{{site.baseurl}}/assets/images/tip/22.gif)
+![Tip 22]({{site.url}}/{{site.baseurl}}/assets/images/tip/22.gif)
 
 
 
@@ -232,7 +249,7 @@ For instance:
 
 ➡️ Therefore your analysis keeps up to date in a automated way, without having to change the settings 🤙!
 
-![Tip 21]({{site.url}}{{site.baseurl}}/assets/images/tip/21.png)
+![Tip 21]({{site.url}}/{{site.baseurl}}/assets/images/tip/21.png)
 
 
 
@@ -253,7 +270,7 @@ Thanks to all contributors for their ideas and your constant feedback on the too
 
 Stay tune, there's a lot more to come... 🚀
 
-![Tip 20]({{site.url}}{{site.baseurl}}/assets/images/tip/20.JPG)
+![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.JPG)
 
 <h2>Tip of the week #19</h2>
 
@@ -265,7 +282,7 @@ When we analyze a variation via DataMa COMPARE, we sometimes need to check its s
 To find this combination of amplitude and power analysis you can of course use DataMa IMPACT, but also within DataMa COMPARE, where you also find the Significance Test functionality. A very useful feature when you want to ensure the interest of the variation that you observe! 💥
 
 
-![Tip 19]({{site.url}}{{site.baseurl}}/assets/images/tip/19.gif)
+![Tip 19]({{site.url}}/{{site.baseurl}}/assets/images/tip/19.gif)
 
 
 
@@ -287,7 +304,7 @@ As an analyst, we often try to analyse the performance of a segment compared to 
 
 Very practical when you don't want to open 2 windows on your computer to compare variations between them 😉
 
-![Tip 17]({{site.url}}{{site.baseurl}}/assets/images/tip/17.gif)
+![Tip 17]({{site.url}}/{{site.baseurl}}/assets/images/tip/17.gif)
 
 
 <h2>Tip of the week #16</h2>
@@ -298,7 +315,7 @@ You don't have time to open the DataMa interface ... receive your analyses direc
   ￼
   Tip: as seen above you can just as easily share your DataMa graphs in a Data Studio (or others) and configure the sending of emails from your data viz tool!
 
-![Tip 16]({{site.url}}{{site.baseurl}}/assets/images/tip/16.gif)
+![Tip 16]({{site.url}}/{{site.baseurl}}/assets/images/tip/16.gif)
 
 
 
@@ -351,7 +368,7 @@ How do I connect my data into DataMa? How do I get my data (and therefore my cha
 
 You can also use other extensions such as "OWOX BI BigQuery" for your BigQuery queries or the "Supermetrics" add-on for connection to all other applications on the market!
 
-![Tip 13]({{site.url}}{{site.baseurl}}/assets/images/tip/13.gif)
+![Tip 13]({{site.url}}/{{site.baseurl}}/assets/images/tip/13.gif)
 
 <h2>Tip of the week #12</h2>
 
@@ -367,7 +384,7 @@ Happy to have your feedbacks while testing it!
 
 **Note:** this new header replaces the "Admin" menu that used to be at bottom left of the page
 
-![Tip 12]({{site.url}}{{site.baseurl}}/assets/images/tip/12.gif)
+![Tip 12]({{site.url}}/{{site.baseurl}}/assets/images/tip/12.gif)
 
 <h2>Tip of the week #11</h2>
 
@@ -381,7 +398,7 @@ See a concrete example [ici](https://www.docs.datama.fr/docs/datama-compare/gene
 
 Prepared with ❤️ from home, we think of you and accompany you on all your subjects from a distance!
 
-![Tip 11]({{site.url}}{{site.baseurl}}/assets/images/tip/11.png)
+![Tip 11]({{site.url}}/{{site.baseurl}}/assets/images/tip/11.png)
 
 <h2>Tip of the week #10</h2>
 
@@ -396,7 +413,7 @@ All you need to do is:
 
 Once your data updates itself, all you have to do is set up a regular send to your mailbox or a Slack channel and you're done!
 
-![Tip 10]({{site.url}}{{site.baseurl}}/assets/images/tip/10.gif)
+![Tip 10]({{site.url}}/{{site.baseurl}}/assets/images/tip/10.gif)
 
 <h2>Tip of the week #9</h2>
 
@@ -418,7 +435,7 @@ You drag and drop the extension provided by DataMa into your Tableau dashboard, 
 
 Not only is your data up-to-date with what you already have in Tableau, but your filters and other actions in Tableau are then active in DataMa! 🔄
 
-![Tip 8]({{site.url}}{{site.baseurl}}/assets/images/tip/8.gif)
+![Tip 8]({{site.url}}/{{site.baseurl}}/assets/images/tip/8.gif)
 
 For more information: https://www.docs.datama.fr/docs/extensions/tableau-extension/
 
@@ -429,7 +446,7 @@ For more information: https://www.docs.datama.fr/docs/extensions/tableau-extensi
 
 * Now yes 🙂
 
-![Tip 7]({{site.url}}{{site.baseurl}}/assets/images/tip/7.png)
+![Tip 7]({{site.url}}/{{site.baseurl}}/assets/images/tip/7.png)
 
 <h2>Tip of the week #6</h2>
 
@@ -440,7 +457,7 @@ In addition to the documentation, there is now a tutorial that interactively gui
 
 * Click on "Launch tutorial" at the top right of the screen to get you started! 🧗♂️
 
-![Tip 6]({{site.url}}{{site.baseurl}}/assets/images/tip/6.png)
+![Tip 6]({{site.url}}/{{site.baseurl}}/assets/images/tip/6.png)
 
 <h2>Tip of the week #5</h2>
 

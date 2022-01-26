@@ -4,7 +4,7 @@ description: Play with this graph by using both Step and dimensions drop-down me
 layout: page
 ---
 
-![detailed_bridge]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/DetailedView-Filter.png)
+![detailed_bridge]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/DetailedView-Filter.png)
 
 Play with this graph by using both Step and dimensions drop-down menus.
 

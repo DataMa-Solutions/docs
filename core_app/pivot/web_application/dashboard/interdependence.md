@@ -9,4 +9,4 @@ The calculation is made using a simple correlation rate to determine whether dim
 
 These figures are percentage of correlation.
 
-![simple_test]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/images/simple_test.png)
+![simple_test]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/images/simple_test.png)

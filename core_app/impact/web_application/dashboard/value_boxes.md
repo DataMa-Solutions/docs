@@ -6,7 +6,7 @@ layout: page
 
 > Value boxes intends to give you an **executive summary of your analysis**. It is split in 3 boxes
 
-![value_boxes]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/dashboard/images/valueboxes.png)
+![value_boxes]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/images/valueboxes.png)
 
 1. The result of the significance between the segments you are comparing
 2. The gap between your segment you are assessing
