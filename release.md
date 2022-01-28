@@ -23,7 +23,6 @@ description: Find here the **latest releases** of DataMa Solutions
   * **Filter object**: in a flow, you can now filter data, using either exact match or regex
   * Flows can be deleted and renamed from the top right flow name drop down
   * Shortcut to DataMa Solutions (Compare, Impact, Pivot) are available in output object
-  * Added Prep documentation (see [here]({{site.url}}{{site.baseurl}}/prep/notfound.md))
 
 ### 2021-12-26:
 
