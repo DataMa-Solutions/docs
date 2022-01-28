@@ -14,4 +14,4 @@ With :
 * **lastnext:** information used to create Flow
 
 
-![data]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/images/data2.png)
+![data]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/images/data2.png)

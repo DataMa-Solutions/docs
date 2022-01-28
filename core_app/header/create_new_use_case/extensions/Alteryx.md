@@ -10,4 +10,4 @@ Contact us (contact@datama.fr) to get a licence key and install the module
 
 Below screenshot is a good preview of what to expect
 
-![Alteryx]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/extensions/images/alteryx.png)
+![Alteryx]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/images/alteryx.png)

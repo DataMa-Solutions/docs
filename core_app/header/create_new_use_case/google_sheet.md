@@ -6,7 +6,7 @@ layout: page
 
 > In this section you will find how to load your **Gsheet Data**
 
-![gsheet_gif]({{site.url}}{{site.baseurl}}/core_app/header/create_new_use_case/images/Load-Gsheet-Compare_GIF2.gif)
+![gsheet_gif]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/images/Load-Gsheet-Compare_GIF2.gif)
 
 Follow the below steps to load your Gsheet Data:
 

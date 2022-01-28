@@ -8,4 +8,4 @@ The bars show for each element of a dimension the contribution of this element t
 
 The black line is the average KPI of this element (ratio: numerator / denominator)
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering/images/simple_chart_pivot.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering/images/simple_chart_pivot.png"/></center>

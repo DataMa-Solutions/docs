@@ -10,7 +10,7 @@ Most of them are editable through Shiny Web App, but you can also edit them thro
 
 See articles below to have more details:
 
-* [Test to compute]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute)
-* [Confidence interval]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval)
-* [Aggregation in %]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent)
+* [Test to compute]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute)
+* [Confidence interval]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval)
+* [Aggregation in %]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent)
 <!-- * [Weight for Frequentist](impact/web_application/menu/weight_frequentist.md) Todo : add here when done --> 

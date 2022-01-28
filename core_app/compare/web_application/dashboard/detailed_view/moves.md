@@ -6,13 +6,13 @@ layout: page
 
 > In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
 
-![moves]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/Compare-Moves.png)
+![moves]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/Compare-Moves.png)
 
 This graph shows the performance effect and the mix effect within a single serie of arrows (or vectors). The start of the arrow represents the Start point of your analysis and the end of the arrow represents the End point of the analysis. An arrow is either an evolution of the performance effect and the mix effect from Start point to End point.
 
-Read more [details]({{site.url}}{{site.baseurl}}/core_app/compare/model/dimensions) on Mix & Performance Effects.
+Read more [details]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensions) on Mix & Performance Effects.
 
-![moves2]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/Moves2-1024x525.png)
+![moves2]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/detailed_view/images/Moves2-1024x525.png)
 
 **Abscissa** of this graph is the Denominator of the Step, what we call the mix effect. It represents the evolution of the breakdown in input and in output (e.g. in the picture above, the abcissa is the % of Session by type of Medium. The purple arrow « Referral » goes from 37% of the Session in input to 31% at the End. This will have a mix effect. There is a decreased in % of this type of traffic)
 
