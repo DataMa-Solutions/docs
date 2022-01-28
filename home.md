@@ -6,7 +6,7 @@ layout: page
 
 > **The Home page is where you can administrate your different workbooks, or create new ones.**
 
-<center><img src="{{site.url}}{{site.baseurl}}/home/images/Home_page_general.png" alt="logo impact" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/home/images/Home_page_general.png" alt="logo impact" /></center>
 
 The Home page shows all your worbooks and workflows.
 
@@ -18,10 +18,10 @@ You can also edit the name or description of a workbook, remove it, or lock it f
 
 Locking a workbook just prevent one user to unwillingly edit or delete that workbook.
 
-<center><img src="{{site.url}}{{site.baseurl}}/home/images/Home_Cards.png" alt="logo impact" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/home/images/Home_Cards.png" alt="logo impact" /></center>
 
 ## Workbooks examples
 
 On the home page, you can find a set of demo workbooks that could help you getting inspired for your own analysis.
 
-[Get inspired]({{site.url}}{{site.baseurl}}/home/use_cases/use_cases_examples)
+[Get inspired]({{site.url}}/{{site.baseurl}}/home/use_cases/use_cases_examples)

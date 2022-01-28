@@ -1,76 +1,13 @@
+## Default page block
+# - name: MyPage
+#   link: /path/to/the/md.html // .html part is mandatory (replace md by html)
+#   subnav:
+#     - name: Others pages...
+#
+# OPTIONAL : type: separated // Add line after the bloc in the aside
 - name: Solutions
   type: separated
   link: /web_application.html #OK
-- name: Interface
-  link: /core_app.html #OK
-  subnav:
-    - name: Header
-      link: /core_app/header.html #OK
-      subnav:
-        - name: Input
-          link: /core_app/header/input.html #OK
-          subnav:
-            - name: Source
-              link: /core_app/header/input/source.html #OK
-            - name: Metric relation
-              link: /core_app/header/input/metric_relation.html #OK
-        - name: Create new use case
-          link: /core_app/header/create_new_use_case.html #OK
-          subnav:
-            - name: Google Sheet
-              link: /core_app/header/create_new_use_case/google_sheet.html #OK
-            - name: Excel file
-              link: /core_app/header/create_new_use_case/excel_file.html #OK
-            - name: CSV file
-              link: /core_app/header/create_new_use_case/csv_file.html #OK
-            - name: Google Analytics
-              link: /core_app/header/create_new_use_case/google_analytics.html #OK
-            - name: Extensions
-              link: /core_app/header/create_new_use_case/extensions.html #OK
-              subnav:
-                - name: Tableau Extension
-                  link: /core_app/header/create_new_use_case/extensions/tableau.html #OK
-                  subnav:
-                    - name: Tableau demo
-                      link: /core_app/header/create_new_use_case/extensions/tableau_demo/tableau_demo.html #OK
-                - name: PowerBI Extension
-                  link: /core_app/header/create_new_use_case/extensions/PowerBI.html #OK
-                - name: DataIku Extension
-                  link: /core_app/header/create_new_use_case/extensions/DataIku.html #OK
-                - name: Alteryx Extension
-                  link: /core_app/header/create_new_use_case/extensions/Alteryx.html #OK
-        - name: Save
-          link: /core_app/header/save.html #OK
-        - name: Loaded version
-          link: /core_app/header/loaded_version.html #OK
-        - name: Export results
-          link: /core_app/header/export_results.html #OK
-          subnav:
-            - name: Tableau
-              link: /core_app/header/export_results/tableau.html #OK
-            - name: Excel
-              link: /core_app/header/export_results/excel.html #OK
-            - name: Power BI
-              link: /core_app/header/export_results/PowerBI.html #OK
-            - name: Document
-              link: /core_app/header/export_results/document.html #OK
-            - name: URL
-              link: /core_app/header/export_results/url.html #OK
-            - name: Slack & Email
-              link: /core_app/header/export_results/slack_mail.html #OK
-            - name: Static URL
-              link: /core_app/header/export_results/static_url.html #OK
-        - name: Change metrics relation
-          link: /core_app/header/change_metrics_relation.html #OK
-        - name: Recent features
-          link: /core_app/header/recent_features.html #OK
-    - name: Menu
-      link: /core_app/menu.html #OK
-      subnav:
-        - name: Definitions
-          link: /core_app/menu/definitions.html #OK
-        - name: Filters
-          link: /core_app/menu/filters.html #OK
 - name: Compare
   link: /core_app/compare.html #OK
   subnav:
@@ -146,6 +83,51 @@
                 #                              link: /core_app/compare/web_application/menu/signifiance_test.html
                 - name: Display Options
                   link: /core_app/compare/web_application/menu/display_options.html #OK
+- name: Impact
+  link: /core_app/impact.html #OK
+  subnav:
+    - name: Web application
+      link: /core_app/impact/web_application.html #OK
+      subnav:
+        - name: Dashboard
+          link: /core_app/impact/web_application/dashboard.html #OK
+          subnav:
+            - name: Value boxes
+              link: /core_app/impact/web_application/dashboard/value_boxes.html #OK
+            - name: Models
+              link: /core_app/impact/web_application/dashboard/models.html #OK
+              subnav:
+                - name: Frequentist (Bernoulli)
+                  link: /core_app/impact/web_application/dashboard/models/frequentist/bernoulli.html #OK
+                - name: Frequentist (other)
+                  link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
+                - name: Forecasting
+                  link: /core_app/impact/web_application/dashboard/models/forecasting.html #OK
+                - name: Bayesion bernoulli
+                  link: /core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html #OK
+                - name: Volatility
+                  link: /core_app/impact/web_application/dashboard/volatility.html #ok
+            - name: Anomaly Detection
+              link: /core_app/impact/web_application/dashboard/anomaly_detection.html
+        - name: Menu
+          link: /core_app/impact/web_application/menu.html #OK
+          subnav:
+            - name: Settings
+              link: /core_app/impact/web_application/menu/settings.html #OK
+              subnav:
+                - name: General Introduction
+                  link: /core_app/impact/web_application/menu/settings/general_introduction.html #unknown file
+                - name: Use cases examples
+                  link: /core_app/impact/web_application/menu/settings/use_cases_examples.html #unknown file
+                  subnav:
+                    - name: Test to compute
+                      link: /core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html #OK
+                    - name: Confidence interval
+                      link: /core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval.html #OK
+                    - name: Aggregation in %
+                      link: /core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html #OK
+                    - name: Weight Frequentist
+                      link: /core_app/impact/web_application/menu/weight_frequentist.html
 - name: Pivot
   link: /core_app/pivot.html #OK
   subnav:
@@ -197,47 +179,6 @@
                   link: /core_app/pivot/web_application/menu/settings/tree_depth.html #OK
                 - name: Aggregation in %
                   link: /core_app/pivot/web_application/menu/settings/aggregation_in_percent.html #OK
-- name: Impact
-  link: /core_app/impact.html #OK
-  subnav:
-    - name: Web application
-      link: /core_app/impact/web_application.html #OK
-      subnav:
-        - name: Dashboard
-          link: /core_app/impact/web_application/dashboard.html #OK
-          subnav:
-            - name: Value boxes
-              link: /core_app/impact/web_application/dashboard/value_boxes.html #OK
-            - name: Models
-              link: /core_app/impact/web_application/dashboard/models.html #OK
-              subnav:
-                - name: Frequentist (Bernoulli)
-                  link: /core_app/impact/web_application/dashboard/models/frequentist/bernoulli.html #OK
-                - name: Frequentist (other)
-                  link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
-                - name: Forecasting
-                  link: /core_app/impact/web_application/dashboard/models/forecasting.html #OK
-                - name: Boxplot
-                  link: /core_app/impact/web_application/dashboard/models/boxplot.html #unknown file
-                - name: Bayesion bernoulli
-                  link: /core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html #OK
-        - name: Menu
-          link: /core_app/impact/web_application/menu.html #OK
-          subnav:
-            - name: Settings
-              link: /core_app/impact/web_application/menu/settings.html #OK
-              subnav:
-                - name: General Introduction
-                  link: /core_app/impact/web_application/menu/settings/general_introduction.html #unknown file
-                - name: Use cases examples
-                  link: /core_app/impact/web_application/menu/settings/use_cases_examples.html #unknown file
-                  subnav:
-                    - name: Test to compute
-                      link: /core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html #OK
-                    - name: Confidence interval
-                      link: /core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval.html #OK
-                    - name: Aggregation in %
-                      link: /core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html #OK
 - name: Journey
   link: /core_app/journey.html #OK
   subnav:
@@ -308,37 +249,142 @@
                   link: /core_app/journey/web_application/menu/settings/simplification_of_journeys.html #OK
                 - name: Number of steps displayed
                   link: /core_app/journey/web_application/menu/settings/number_of_steps_displayed.html #OK
+- name: Prep
+  link: /prep/prep.html
+  subnav:
+    - name: Structure
+      link: /prep/structure.html
+      subnav:
+        - name: Sidebar
+          link: /prep/structure/sidebar.html
+        - name: Header
+          link: /prep/structure/header.html
+          subnav:
+            - name: Saving & Sharing
+              link: /prep/header/Saving_and_sharing.html
+    - name: Actions
+      link: /prep/sidebar/actions.html
+      subnav:
+        - name: Append
+          link: /prep/sidebar/actions/Append.html
+        - name: Clean
+          link: /prep/sidebar/actions/Clean.html
+        - name: Pivot and Unpivot
+          link: /prep/sidebar/actions/Pivot_Unpivot.html
+    - name: Sources
+      link: /prep/connectors/available.html
+      subnav:
+        - name: CSV file
+          link: /prep/connectors/source/CSV_file.html
+        - name: Excel File
+          link: /prep/connectors/source/Excel_file.html
+        - name: Google Sheet
+          link: /prep/connectors/source/Google_sheet.html
+        - name: Google Analytics
+          link: /prep/connectors/source/Google_analytics.html
+        - name: Google Trend
+          link: /prep/connectors/source/Google_trend.html
 - name: Source
   link: /core_app/source.html #OK
+- name: Interface
+  link: /core_app.html #OK
+  subnav:
+    - name: Header
+      link: /core_app/header.html #OK
+      subnav:
+        - name: Input
+          link: /core_app/header/input.html #OK
+          subnav:
+            - name: Source
+              link: /core_app/header/input/source.html #OK
+            - name: Metric relation
+              link: /core_app/header/input/metric_relation.html #OK
+        - name: Create new use case
+          link: /core_app/header/create_new_use_case.html #OK
+          subnav:
+            - name: Google Sheet
+              link: /core_app/header/create_new_use_case/google_sheet.html #OK
+            - name: Excel file
+              link: /core_app/header/create_new_use_case/excel_file.html #OK
+            - name: CSV file
+              link: /core_app/header/create_new_use_case/csv_file.html #OK
+            - name: Google Analytics
+              link: /core_app/header/create_new_use_case/google_analytics.html #OK
+            - name: Google Big Query
+              link: /core_app/header/create_new_use_case/google_bigquery.html #OK
+            - name: Extensions
+              link: /core_app/header/create_new_use_case/extensions.html #OK
+              subnav:
+                - name: Tableau Extension
+                  link: /core_app/header/create_new_use_case/extensions/tableau.html #OK
+                  subnav:
+                    - name: Tableau demo
+                      link: /core_app/header/create_new_use_case/extensions/tableau_demo/tableau_demo.html #OK
+                - name: PowerBI Extension
+                  link: /core_app/header/create_new_use_case/extensions/PowerBI.html #OK
+                - name: DataIku Extension
+                  link: /core_app/header/create_new_use_case/extensions/DataIku.html #OK
+                - name: Alteryx Extension
+                  link: /core_app/header/create_new_use_case/extensions/Alteryx.html #OK
+        - name: Save
+          link: /core_app/header/save.html #OK
+        - name: Loaded version
+          link: /core_app/header/loaded_version.html #OK
+        - name: Export results
+          link: /core_app/header/export_results.html #OK
+          subnav:
+            - name: Tableau
+              link: /core_app/header/export_results/tableau.html #OK
+            - name: Excel
+              link: /core_app/header/export_results/excel.html #OK
+            - name: Power BI
+              link: /core_app/header/export_results/powerBI.html #OK
+            - name: Document
+              link: /core_app/header/export_results/document.html #OK
+            - name: URL
+              link: /core_app/header/export_results/url.html #OK
+            - name: Slack & Email
+              link: /core_app/header/export_results/slack_mail.html #OK
+            - name: Static URL
+              link: /core_app/header/export_results/static_url.html #OK
+        - name: Change metrics relation
+          link: /core_app/header/change_metrics_relation.html #OK
+        - name: Recent features
+          link: /core_app/header/recent_features.html #OK
+    - name: Menu
+      link: /core_app/menu.html #OK
+      subnav:
+        - name: Definitions
+          link: /core_app/menu/definitions.html #OK
+        - name: Filters
+          link: /core_app/menu/filters.html #OK
 - name: DataMa On Premise
   link: /core_app/DataMa_on_premise.html #OK
 - name: Home
   type: separated
   link: /home.html #OK
+- name: Get inspired
+  link: /home/use_cases/use_cases_examples.html #OK
   subnav:
-    - name: Get inspired
-      link: /home/use_cases/use_cases_examples.html #OK
+    - name: Web performance - Google Analytics
+      link: /home/use_cases/web_performance_GA.html #OK
+    - name: Marketing - Campaign
+      link: /home/use_cases/marketing_campaign.html #OK
       subnav:
-        - name: Web performance - Google Analytics
-          link: /home/use_cases/web_performance_GA.html #OK
-        - name: Marketing - Campaign
-          link: /home/use_cases/marketing_campaign.html #OK
-          subnav:
-            - name: Continuous dimensions
-              link: /home/use_cases/marketing_continuous.html #OK
-            - name: Scope
-              link: /home/use_cases/marketing_scope.html #OK
-        - name: Product - AB test
-          link: /home/use_cases/product_AB_test.html #OK
-        - name: Finance Controlling
-          link: /home/use_cases/finance_controlling.html #OK
-        - name: Content Square data
-          link: /home/use_cases/Content_CS.html #OK
+        - name: Continuous dimensions
+          link: /home/use_cases/marketing_continuous.html #OK
+        - name: Scope
+          link: /home/use_cases/marketing_scope.html #OK
+    - name: Product - AB test
+      link: /home/use_cases/product_AB_test.html #OK
+    - name: Finance Controlling
+      link: /home/use_cases/finance_controlling.html #OK
+    - name: Content Square data
+      link: /home/use_cases/Content_CS.html #OK
 - name: Licence terms
   type: separated
   link: /core_app/licence_terms.html #OK
-  subnav:
-    - name: Privacy policy
-      link: /core_app/licence_terms/privacy_policy.html #OK
-    - name: Terms of Service
-      link: /core_app/licence_terms/terms_of_service.html #OK
+- name: Privacy policy
+  link: /core_app/licence_terms/privacy_policy.html #OK
+- name: Terms of Service
+  link: /core_app/licence_terms/terms_of_service.html #OK

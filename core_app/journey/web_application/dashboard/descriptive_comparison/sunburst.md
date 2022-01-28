@@ -15,10 +15,10 @@ The left one is your Start segment.
 
 The right one is your End segment.
 
-![start_end_sunbursts]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/start_end_sunbursts.png)
+![start_end_sunbursts]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/start_end_sunbursts.png)
 
 **Similarity Sunburst:**
 
 This sunburst represents the differences in appearance of the various journeys between Start and End dimensions
 
-![similarity_sunburst]({{site.url}}{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/similarity_sunburst.png)
+![similarity_sunburst]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison/images/similarity_sunburst.png)

@@ -17,7 +17,7 @@ The black line is the average KPI of this element (ratio: numerator / denominato
 
 ### Aggregation:
 
-* For non-continuous elements, a cluster is created aggregating the element having a similar average KPI and representing less than “Aggregation in %” (see in the [Settings menu]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/menu/settings))
+* For non-continuous elements, a cluster is created aggregating the element having a similar average KPI and representing less than “Aggregation in %” (see in the [Settings menu]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/menu/settings))
 * For continuous elements, multiple clusters are created aggregating elements having a similar average KPI.
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/images/simple_chart_pivot.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/images/simple_chart_pivot.png"/></center>

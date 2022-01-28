@@ -70,7 +70,7 @@ description: Find here the **latest releases** of DataMa Solutions
 
 * **General:**
     * Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. Month 1, Month 2... Month 12 when comparing two years, or Day 1, Day 2... Day 7 when comparing 2 weeks)
-    * Date aggregation: Dates are now treated as numeric dimensions for clustering. DataMa will automatically create time frame with similar KPI trends to aggregate the data and make it easier to analyse (see [Settings menu]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering.md))
+    * Date aggregation: Dates are now treated as numeric dimensions for clustering. DataMa will automatically create time frame with similar KPI trends to aggregate the data and make it easier to analyse (see [Settings menu]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering.md))
     * Regex Filtering: Filter UI have been improved and now includes a Regex option, to filter on specific regular expressions
     * Language (English or French) can now be saved for a given workbook
     * Improved interface for Tableau dashboard extension

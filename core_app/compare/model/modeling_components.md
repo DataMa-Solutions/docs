@@ -10,11 +10,11 @@ Clustering is necessary for dimension analysis
 * For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into “other”
 * For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
 
-Read docs related to [continuous dimension]({{site.url}}{{site.baseurl}}/home/use_cases/marketing_continuous)
+Read docs related to [continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous)
 
 ## Absolute metric
 
-If primary metric is an absolute value (e.g. Revenue), an artificial “N=1” metric is created and used as denominator for first step, to match previous [methodology]({{site.url}}{{site.baseurl}}/core_app/header/input/metric_relation)
+If primary metric is an absolute value (e.g. Revenue), an artificial “N=1” metric is created and used as denominator for first step, to match previous [methodology]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation)
 
 ## Interdependence
 
@@ -38,4 +38,4 @@ For waterfall analysis, covariance is distributed on each step. User should chec
 
 For Dimension analysis, covariance is not distributed on neither mix nor performance sizing. Hence user should be careful when looking at dimension impact
 
-Read more about [Covariance]({{site.url}}{{site.baseurl}}/core_app/compare/model/waterfall/covariance)
+Read more about [Covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance)

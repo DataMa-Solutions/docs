@@ -1,0 +1,2 @@
+sitemap: https://datama-solutions.github.io/docs/sitemap.xml
+

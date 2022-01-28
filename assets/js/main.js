@@ -1,3 +1,8 @@
+---
+---
+jsonLoaded = false
+const search = new Sws('{{site.url}}/{{site.baseurl}}/search.json')
+
 let expanded = [];
 
 if (Cookies.get('menu') != null) {
@@ -13,12 +18,20 @@ if (Cookies.get('menu') != null) {
     Cookies.set('menu', '')
 }
 $('a[href$="' + location.pathname + '"').addClass('active');
+if (window.innerWidth < 700) {
+ $('body').addClass('menu-close')
+}
 /**
  * Aside open/close
  */
-$('aside>header>.burger').on('click', (e) => {
+$('#burger').on('click', (e) => {
     e.preventDefault();
     $('body').toggleClass('menu-close')
+})
+$('aside>nav li>a').on('click', e => {
+    if ($(e.target).find('.collapser').length) {
+        $(e.target).find('.collapser').click()
+    }
 })
 $('aside>nav .collapser').on('click', (e) => {
     $(e.target).toggleClass('active');

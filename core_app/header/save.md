@@ -8,12 +8,12 @@ In the admin header, by clicking the Save icon you can access the **save menu**.
 
 **Good to know :** Once your use case or the parameters changed, a star (\*) appear on the right of the name (see image below).
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/header/images/Save-SaveAs.png" alt="Save_star" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/images/Save-SaveAs.png" alt="Save_star" /></center>
 
 * By clicking **« Save »** you will update the saving of your current use case.
 * By clicking **« Save As… »** you will be able to change the name and the options of your saving.
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/header/images/SaveAs-Compare.png" alt="Save_as" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/images/SaveAs-Compare.png" alt="Save_as" /></center>
 
 * **Saving Name:** name of the use case
 * **Set as default when opening […]:** this use case will be loaded at the opening of the solution

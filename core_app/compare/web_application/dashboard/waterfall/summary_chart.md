@@ -4,14 +4,14 @@ description: This analysis is made using the metrics and the dimensions appearin
 layout: page
 ---
 
-![summary_chart]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/images/CompareSummaryWaterfall-1024x383.jpg)
+![summary_chart]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/images/CompareSummaryWaterfall-1024x383.jpg)
 
 This analysis is made using the metrics and the dimensions appearing in your dataset. This allow you to understand the contribution of your dimensions and highlight for each step the dimension that has the main impact. Each step is calculated using the main KPI unit (e.g. Revenue in the above picture)
 
 Each step is split in 3:
 
-* **Mix** (on the left) represent the impact of the evolution of the distribution in input (see details about [mix effect]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect))
-* **Main performance** (in the middle): main element of the main dimension that drive at the same time most of the value and most of the acceleration (figure in parenthesis – see explanation below) compare to the others elements in the same dimension  (see more about [performance effect]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect))
+* **Mix** (on the left) represent the impact of the evolution of the distribution in input (see details about [mix effect]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect))
+* **Main performance** (in the middle): main element of the main dimension that drive at the same time most of the value and most of the acceleration (figure in parenthesis – see explanation below) compare to the others elements in the same dimension  (see more about [performance effect]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect))
     * Dimension selection is based on “credit” logic between mix and performance calculations
     * Dimension selection is intended to help decision taking and fasten dashboard readability – that doesn’t mean that other dimensions are not important
 * **Remaining performance** (on the right): Represents the sum of the impact of the rest of the element from the dimension (except only the other main element represented in the middle).
