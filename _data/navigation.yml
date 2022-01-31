@@ -257,6 +257,8 @@
       subnav:
         - name: Sidebar
           link: /prep/interface/sidebar.html
+        - name: Sidebar
+          link: /prep/interface/sidebar.html
         - name: Header
           link: /prep/interface/header.html
           subnav:
