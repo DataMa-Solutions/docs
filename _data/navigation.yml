@@ -275,6 +275,8 @@
           link: /prep/sidebar/actions/Clean.html
         - name: Pivot and Unpivot
           link: /prep/sidebar/actions/Pivot_Unpivot.html
+        - name: Filter
+          link: /prep/sidebar/actions/Filter.html
     - name: Sources
       link: /prep/connectors/available.html
       subnav:
