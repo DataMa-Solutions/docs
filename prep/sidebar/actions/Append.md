@@ -28,4 +28,4 @@ If there are some columns shared between both dataset, it will merge them instea
 
 Congrats! Your dataset is ready to be uploaded in DataMa's solution!
 
-To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/prep/header/Saving_and_sharing.html)
+To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/prep/header/save.html)
