@@ -268,9 +268,6 @@
               link: /prep/header/scheduler.html
         - name: Main Screen
           link: /prep/interface/main_screen.html
-          subnav:
-            - name: Cache Bubble
-              link: /prep/main_screen/cache.html
     - name: Actions
       link: /prep/sidebar/actions.html
       subnav:
