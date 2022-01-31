@@ -8,7 +8,7 @@ layout: page
 
 Our tools allow you to enrich your local data with external data like Google Trend and others. Allowing you to understand all your kpi variation
 
-You can enrich your dataset thanks to information independent to your activity (weather, holidays...) to precise your performance analysis.
+With Google Trend connector, you can enrich your data flow with google search result in a given date range
 
 #### You can cross your data with Google trends data
 
@@ -18,7 +18,7 @@ You can enrich your dataset thanks to information independent to your activity (
 
 ![image](images/Googletrendstep2.png)
 
-As you can see, you can custom your choice and adapt it to the period you want.
+As you can see, you can customize your choice and adapt it to the period you want.
 
 ### Select the country concerned by this trend (France, US, GB or Germany):
 
