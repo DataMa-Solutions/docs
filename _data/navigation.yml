@@ -260,8 +260,8 @@
         - name: Header
           link: /prep/interface/header.html
           subnav:
-            - name: Saving & Sharing
-              link: /prep/header/Saving_and_sharing.html
+            - name: Saving
+              link: /prep/header/save.html
         - name: Main Screen
           link: /prep/interface/main_screen.html
           subnav:
