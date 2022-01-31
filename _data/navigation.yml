@@ -262,6 +262,8 @@
           subnav:
             - name: Saving
               link: /prep/header/save.html
+            - name: Scheduler
+              link: /prep/header/scheduler.html
         - name: Main Screen
           link: /prep/interface/main_screen.html
           subnav:
