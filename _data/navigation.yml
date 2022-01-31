@@ -252,18 +252,18 @@
 - name: Prep
   link: /prep/prep.html
   subnav:
-    - name: Structure
-      link: /prep/structure.html
+    - name: Interface
+      link: /prep/interface.html
       subnav:
         - name: Sidebar
-          link: /prep/structure/sidebar.html
+          link: /prep/interface/sidebar.html
         - name: Header
-          link: /prep/structure/header.html
+          link: /prep/interface/header.html
           subnav:
             - name: Saving & Sharing
               link: /prep/header/Saving_and_sharing.html
         - name: Main Screen
-          link: /prep/structure/main_screen.html
+          link: /prep/interface/main_screen.html
           subnav:
             - name: Cache Bubble
               link: /prep/main_screen/cache.html
