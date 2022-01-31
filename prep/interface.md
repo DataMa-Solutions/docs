@@ -27,6 +27,7 @@ See details [here]({{site.url}}/{{site.baseurl}}/prep/connectors/available.html)
 
 ## The main screen
 Use arrows and our tools to create your flow.
+See details [here]({{site.url}}/{{site.baseurl}}/prep/interface/main_screen.html)
 
 
 ## Your dataset sample
