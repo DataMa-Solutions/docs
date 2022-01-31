@@ -31,4 +31,4 @@ On the aside, you will find as list your dataset's columns. This list permit to:
 
 ![image](images/Cleanstep3.png)
 
-To understand what is the operator "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/aside/actions/Append.html)!
+To understand what is the operator "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/sidebar/actions/Append.html)!
