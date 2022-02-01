@@ -6,16 +6,8 @@ layout: page
 
 **You can upload your Google sheet in DataMa PREP.**
 
+### How to use it ?
 
-Click on the Googlesheet icon you can see below:
+You just have to paste your Google Sheet's share link and select the work sheet you want to work on.
 
-
-![attribution](images/SelectGooglesheet.png)
-
-Click then on this same Icon on your screen with your analysis.
-
-
-Now, you just have to copy and paste your URL link and select the work sheet you want to work on.
-
-
-![attribution](images/Googlesheetstep3.png)
+![attribution](images/GoogleSheet1.PNG)
