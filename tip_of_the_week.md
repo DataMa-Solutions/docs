@@ -8,6 +8,13 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #41
+You are afraid of missing the abnormal evolution of one of your indicators, DataMa allows you to automate anomaly detection. You will then benefit:
+  * For each anomaly, a notification by email or Slack
+  * An explanation of the reason that drives the variation
+  * Time saving and a better responsiveness when an anomaly occurs
+Find out how to implement it in the article: [Anomaly detection and explanation with DataMa](https://www.datama.io/2022/01/12/anomaly-detection-and-explanation-with-datama/)
+
 ## Tip of the week #40
 We have improved our wonderfull Waterfall, a first step in our technological overhaul that will facilitate the creation of new uses in the future.
 You can now:
