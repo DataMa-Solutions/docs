@@ -8,6 +8,13 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #41
+Vous avez peur de manquer l’évolution anormale d’un de vos indicateurs, DataMa vous permet d’automatiser la détection d’anomalie. Vous bénéficierez alors :
+  * A chaque anomalie d’une notification par mail ou par slack
+  * D’une explication de la raison qui drive la variation
+  * D’un gain de temps et de réactivité quand une anomalie survient
+Retrouvez comment l’implémenter dans l’article : [Accélérer la détection d’anomalies avec DataMa](https://www.datama.io/fr/2022/01/12/accelerer-la-detection-danomalies-avec-datama/)
+
 ## Tip of the week #40
 Nous avons amélioré notre belle Waterfall, une première étape de notre refonte technologique qui permettra de faciliter la création de nouveaux usages dans le futur.
 Il vous est désormais possible:
