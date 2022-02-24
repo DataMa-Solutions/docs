@@ -17,7 +17,7 @@ After you have logged in, you will find this home page:
 ## Header menu
 Go back to the home page, save, schedule, run and cache the flow.
 
-See details [here]({{site.url}}/{{site.baseurl}}/prep/structure/header.html)
+See details [here]({{site.url}}/{{site.baseurl}}/prep/interface/header.html)
 
 ## The sources and operators
 Grab your dataset and enrich your analysis.
@@ -27,6 +27,7 @@ See details [here]({{site.url}}/{{site.baseurl}}/prep/connectors/available.html)
 
 ## The main screen
 Use arrows and our tools to create your flow.
+See details [here]({{site.url}}/{{site.baseurl}}/prep/interface/main_screen.html)
 
 
 ## Your dataset sample

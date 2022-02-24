@@ -252,16 +252,20 @@
 - name: Prep
   link: /prep/prep.html
   subnav:
-    - name: Structure
-      link: /prep/structure.html
+    - name: Interface
+      link: /prep/interface.html
       subnav:
         - name: Sidebar
-          link: /prep/structure/sidebar.html
+          link: /prep/interface/sidebar.html
         - name: Header
-          link: /prep/structure/header.html
+          link: /prep/interface/header.html
           subnav:
-            - name: Saving & Sharing
-              link: /prep/header/Saving_and_sharing.html
+            - name: Saving
+              link: /prep/header/save.html
+            - name: Scheduler
+              link: /prep/header/scheduler.html
+        - name: Main Screen
+          link: /prep/interface/main_screen.html
     - name: Actions
       link: /prep/sidebar/actions.html
       subnav:
@@ -271,6 +275,8 @@
           link: /prep/sidebar/actions/Clean.html
         - name: Pivot and Unpivot
           link: /prep/sidebar/actions/Pivot_Unpivot.html
+        - name: Filter
+          link: /prep/sidebar/actions/Filter.html
     - name: Sources
       link: /prep/connectors/available.html
       subnav:
@@ -284,6 +290,8 @@
           link: /prep/connectors/source/Google_analytics.html
         - name: Google Trend
           link: /prep/connectors/source/Google_trend.html
+        - name: Google Big Query
+          link: /prep/connectors/source/Google_BigQuery.html
 - name: Source
   link: /core_app/source.html #OK
 - name: Interface
