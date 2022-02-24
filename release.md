@@ -8,7 +8,7 @@ description: Find here the **latest releases** of DataMa Solutions
 ### 2022-02-25:
 
 * **General:**
-    * Multiple bug fixes and UI improvements (including hover on select input, progress bar on prep source connection, inputs stickyness when editing metric relation...)
+    * Multiple bug fixes and UI improvements (including hover on select input, progress bar on prep source connection, inputs stickiness when editing metric relation, URL sharing of second slide of compare...)
 
 * **Compare:**
     * Units definition in Metric relation window now supports Regex anotation. (E.g. putting a "$(.*)M" as unit will display $125M for 125 value)
@@ -42,6 +42,7 @@ description: Find here the **latest releases** of DataMa Solutions
   * **Filter object**: in a flow, you can now filter data, using either exact match or regex
   * Flows can be deleted and renamed from the top right flow name drop down
   * Shortcut to DataMa Solutions (Compare, Impact, Pivot) are available in output object
+  * Improved documentation
 
 ### 2021-12-26:
 
