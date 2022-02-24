@@ -5,6 +5,25 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-02-25:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including hover on select input, progress bar on prep source connection, inputs stickiness when editing metric relation, URL sharing of second slide of compare...)
+
+* **Compare:**
+    * Units definition in Metric relation window now supports Regex anotation. (E.g. putting a "$(.*)M" as unit will display $125M for 125 value)
+    * Analysis depth parameter is now saved along with your use case
+
+* **Exports & Extension:**
+    * DataMa Tableau extension (simple widget) is now reactive to Tableau parameters changes
+    * Slack export now send a notification when error happen on a scheduled compute
+
+* **Prep**
+    * Create new flow button added at the end of your data flow list in the header dropdown
+    * Shortcut to DataMa Journey solution added to output object when relevant (i.e. when "Journey" column exists)
+    * Included examples in tips for Calculated fields
+    * Multiple bugs fixes and ui improvements
+
 ### 2022-01-26:
 
 * **General:**
@@ -23,6 +42,7 @@ description: Find here the **latest releases** of DataMa Solutions
   * **Filter object**: in a flow, you can now filter data, using either exact match or regex
   * Flows can be deleted and renamed from the top right flow name drop down
   * Shortcut to DataMa Solutions (Compare, Impact, Pivot) are available in output object
+  * Improved documentation
 
 ### 2021-12-26:
 
