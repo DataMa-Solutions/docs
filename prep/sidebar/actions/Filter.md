@@ -10,6 +10,8 @@ layout: page
 
 Let's say you want , from your dataset, to fetch products where the "product name" contains 'Hair' and the "price" is above $20. The filter action helps you do such tasks so you don't need to do them manualy.
 
+![Filter](images/show filters.PNG)
+
 ### How to use it ?
 
 By using the button "new filter" you must first choose the desired column.
