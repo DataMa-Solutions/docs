@@ -29,18 +29,18 @@ When you click on the Clean action block, you'll be able to see the configuratio
 - Remove a column from the dataset using the &times; button
 
 You'll also be able to edit a column type by using the select contain on items. If the conversion is not possible, for example converting a product name such as "hair dryer" to a date type, the clean action will show a warning.
-![image](images/clean types.png)
+![image](images/clean_types.png)
 
 In addition, DataMa prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
 
-![image](images/create calculated field.png)
+![image](images/create_calculated_field.png)
 
 This a powerfull tool to create columns using conditionals or aggregation functions without the need to manually edit your dataset.
 
-![image](images/calculated fied preview1.png)
+![image](images/calculated_field_preview1.png)
 
 Once you're done make sure to click on the "Ok" button to validate the creation of the calculated column.
 
-![image](images/calculated fied preview2.png)
+![image](images/calculated_field_preview2.png)
 
 Next is the "Append" action, click [here]({{site.url}}/{{site.baseurl}}/prep/sidebar/actions/Append.html)!
