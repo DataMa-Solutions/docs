@@ -73,8 +73,8 @@
                   link: /core_app/compare/web_application/menu/aggregation.html #OK
                 - name: Smart Dimension
                   link: /core_app/compare/web_application/menu/smart_dimension.html #OK
-                - name: Skipped steps
-                  link: /core_app/compare/web_application/menu/skipped_steps.html #unknown file
+                - name: Included steps
+                  link: /core_app/compare/web_application/menu/included_steps.html #unknown file
                 - name: Compare of Compare
                   link: /core_app/compare/web_application/menu/compare_of_compare.html #OK
                 - name: Split Mix and Perf
@@ -115,10 +115,8 @@
             - name: Settings
               link: /core_app/impact/web_application/menu/settings.html #OK
               subnav:
-                - name: General Introduction
-                  link: /core_app/impact/web_application/menu/settings/general_introduction.html #unknown file
                 - name: Use cases examples
-                  link: /core_app/impact/web_application/menu/settings/use_cases_examples.html #unknown file
+                  link: /core_app/impact/use_cases_examples.html #unknown file
                   subnav:
                     - name: Test to compute
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html #OK
@@ -127,7 +125,7 @@
                     - name: Aggregation in %
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html #OK
                     - name: Weight Frequentist
-                      link: /core_app/impact/web_application/menu/weight_frequentist.html
+                      link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
 - name: Pivot
   link: /core_app/pivot.html #OK
   subnav:
@@ -201,8 +199,6 @@
         - name: Dashboard
           link: /core_app/journey/web_application/dashboard.html #OK
           subnav:
-            - name: Value boxes
-              link: /core_app/journey/web_application/dashboard/value_boxes.html #unknown file
             - name: Attribution
               link: /core_app/journey/web_application/dashboard/attribution.html #OK
               subnav:
@@ -292,6 +288,8 @@
           link: /prep/connectors/source/Google_trend.html
         - name: Google Big Query
           link: /prep/connectors/source/Google_BigQuery.html
+        - name: Facebook Analytics
+          link: /prep/connectors/source/Facebook_analytics.html
 - name: Source
   link: /core_app/source.html #OK
 - name: Interface

@@ -20,11 +20,7 @@ So what you want, is to really explain Revenue_ThisYear – Revenue_LastYear. (<
 
 Well, this can be written as following:
 
-<center> <span style="color:red">
-A_End - A_Start = (B_End - B_Start) * A_Start / B_Start
-+ (A_End / B_End - A_Start / B_Start) * B_Start
-+ (B_End - B_Start) * (A_End / B_End - A_Start / B_Start)
-</span> </center>
+<center> ![equation]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/equation.png) </center>
 
 The visual representation below is much easier to get:
 
