@@ -199,8 +199,6 @@
         - name: Dashboard
           link: /core_app/journey/web_application/dashboard.html #OK
           subnav:
-            - name: Value boxes
-              link: /core_app/journey/web_application/dashboard/value_boxes.html #unknown file
             - name: Attribution
               link: /core_app/journey/web_application/dashboard/attribution.html #OK
               subnav:
