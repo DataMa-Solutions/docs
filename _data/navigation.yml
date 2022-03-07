@@ -73,8 +73,8 @@
                   link: /core_app/compare/web_application/menu/aggregation.html #OK
                 - name: Smart Dimension
                   link: /core_app/compare/web_application/menu/smart_dimension.html #OK
-                - name: Skipped steps
-                  link: /core_app/compare/web_application/menu/skipped_steps.html #unknown file
+                - name: Included steps
+                  link: /core_app/compare/web_application/menu/included_steps.html #unknown file
                 - name: Compare of Compare
                   link: /core_app/compare/web_application/menu/compare_of_compare.html #OK
                 - name: Split Mix and Perf
@@ -115,10 +115,8 @@
             - name: Settings
               link: /core_app/impact/web_application/menu/settings.html #OK
               subnav:
-                - name: General Introduction
-                  link: /core_app/impact/web_application/menu/settings/general_introduction.html #unknown file
                 - name: Use cases examples
-                  link: /core_app/impact/web_application/menu/settings/use_cases_examples.html #unknown file
+                  link: /core_app/impact/use_cases_examples.html #unknown file
                   subnav:
                     - name: Test to compute
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html #OK
