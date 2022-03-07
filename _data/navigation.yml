@@ -115,10 +115,8 @@
             - name: Settings
               link: /core_app/impact/web_application/menu/settings.html #OK
               subnav:
-                - name: General Introduction
-                  link: /core_app/impact/web_application/menu/settings/general_introduction.html #unknown file
                 - name: Use cases examples
-                  link: /core_app/impact/web_application/menu/settings/use_cases_examples.html #unknown file
+                  link: /core_app/impact/use_cases_examples.html #unknown file
                   subnav:
                     - name: Test to compute
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html #OK

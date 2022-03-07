@@ -1,4 +1,3 @@
-# Anomaly Detection
 
 > **Anomaly Detection allows you not only to detect potential outliers in your dataset but also to explain them using DataMa Compare algorithm.**
 
