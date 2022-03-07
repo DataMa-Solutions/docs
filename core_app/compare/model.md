@@ -16,7 +16,7 @@ See details [here]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfal
 ## Dimension analysis
 Identify which dimension in a specific step is driving the change
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimension_perf_and_mix)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensions)
 
 ### Mix effect
 For each step, analyze how much mix effects on each dimension contributes to the observed gap
@@ -30,4 +30,4 @@ For each step, select most interesting dimension to explain observed gap
 See details [here]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/summary_view)
 
 ## Other modeling components
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/compare/model/other_important_modeling_components)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/compare/model/modeling_components)
