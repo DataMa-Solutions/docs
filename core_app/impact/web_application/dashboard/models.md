@@ -11,3 +11,4 @@ See details in each of the Test section:
 * [Frequentist (other)]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/models/frequentist/other)
 * [Forecasting]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/models/forecasting)
 * [Bayesian Bernoulli]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/models/bayesian_bernoulli)
+* [Volatility]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/volatility)
