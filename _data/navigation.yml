@@ -73,8 +73,8 @@
                   link: /core_app/compare/web_application/menu/aggregation.html #OK
                 - name: Smart Dimension
                   link: /core_app/compare/web_application/menu/smart_dimension.html #OK
-                - name: Skipped steps
-                  link: /core_app/compare/web_application/menu/skipped_steps.html #unknown file
+                - name: Included steps
+                  link: /core_app/compare/web_application/menu/included_steps.html #unknown file
                 - name: Compare of Compare
                   link: /core_app/compare/web_application/menu/compare_of_compare.html #OK
                 - name: Split Mix and Perf
