@@ -9,13 +9,16 @@ description: Find here the **latest releases** of DataMa Solutions
 
 * **General:**
     * Exports in Slack and Emails have been improved to get faster access to insights in the notifications
-    * Multiple bug fixes and UI improvements (including value box for impact sizing in DataMa Impact, clarification of error messages for Compare and Impact, )
+    * Multiple bug fixes and UI improvements (including value box for impact sizing in DataMa Impact, clarification of error messages for Compare and Impact)
 
 * **Impact:**
     * Added "Causal Impact" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution
     * Anomaly detection notification slack and email messages now includes a list of all KPIs that are flagged as having an anomaly
 
-
+* **Prep**
+    * **Facebook ads connector** is now available, to get your campaigns statistics through FB Insights API and analyse it in DataMa
+    * Data flows can now be deleted from the flow selector in the header
+    * Multiple bug fixes and UI improvements (including Filter object enhancement, tooltips, ability to read Excel files saved on Mac)
 
 ### 2022-02-25:
 
