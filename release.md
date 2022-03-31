@@ -12,7 +12,7 @@ description: Find here the **latest releases** of DataMa Solutions
     * Multiple bug fixes and UI improvements (including value box for impact sizing in DataMa Impact, clarification of error messages for Compare and Impact)
 
 * **Impact:**
-    * Added "Causal Impact" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution
+    * Added "**Causal Impact**" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/causal_impact.html)
     * Anomaly detection notification slack and email messages now includes a list of all KPIs that are flagged as having an anomaly
 
 * **Prep**
