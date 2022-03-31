@@ -8,6 +8,35 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #44
+Pour compléter votre analyse dans DataMa Compare, découvrez le « Comparison Definition Helper » disponible en cliquant sur l'icône "chart" à côté de la Dimension Start/ End. Il vous permet de suivre l’évolution temporelle du ratio choisi (en courbe) et de son dénominateur (en barre 📊).
+Une vue « Overview Overlay » est également disponible afin de superposer les deux périodes comparées.
+Dites-nous ce que vous en pensez!
+![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/44.gif)
+
+## Tip of the week #43
+Aujourd’hui une petite astuce pour aller plus loin dans votre analyse sur Compare, il est possible pour vous d’activer l’option « Compare of Compare » dans les settings.
+Cette visualisation vous permettra de voir en arrière-plan de votre Waterfall les variations sur une autre période
+Ainsi il vous est possible de mettre en relief les résultats que vous analysez en la comparant par exemple à la même période de l’année précédente.
+Merci de nous donner vos feedbacks une fois testé!
+![Tip 43]({{site.url}}/{{site.baseurl}}/assets/images/tip/43.gif)
+
+## Tip of the week #42
+La Beta de DataMa Prep qui vous permet de travailler vos sources directement dans DataMa évolue.
+Un petit aperçu de features récentes :
+  * Connection directe à Bigquery
+  * Création de filtres
+  * Ajout de champs calculés
+Si vous ne l’avez pas encore découvert, demandez accès à votre CSM DataMa, puis rdv dans l'onglet "data flow" sur la home page de DataMa
+![Tip 42]({{site.url}}/{{site.baseurl}}/assets/images/tip/42.gif)
+
+## Tip of the week #41
+Vous avez peur de manquer l’évolution anormale d’un de vos indicateurs, DataMa vous permet d’automatiser la détection d’anomalie. Vous bénéficierez alors :
+  * A chaque anomalie d’une notification par mail ou par slack
+  * D’une explication de la raison qui drive la variation
+  * D’un gain de temps et de réactivité quand une anomalie survient
+Retrouvez comment l’implémenter dans l’article : [Accélérer la détection d’anomalies avec DataMa](https://www.datama.io/fr/2022/01/12/accelerer-la-detection-danomalies-avec-datama/)
+
 ## Tip of the week #40
 Nous avons amélioré notre belle Waterfall, une première étape de notre refonte technologique qui permettra de faciliter la création de nouveaux usages dans le futur.
 Il vous est désormais possible:
