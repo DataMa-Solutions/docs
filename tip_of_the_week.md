@@ -8,6 +8,28 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #44
+To complete your analysis in DataMa Compare, discover the "Comparison Definition Helper" available by clicking on the "chart" icon next to the Start/End Dimension. It allows you to follow the evolution over time of the chosen ratio (in curve) and its denominator (in bar 📊).
+An “Overview Overlay”  is also available to compare the Start and End periods.
+Tell us what you think!
+![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/44.gif)
+
+## Tip of the week #43
+Today a little tip to go further in your analysis on Compare, it’s possible for you to activate the “Compare of Compare” option in the settings.
+This visualization will allow you to see in the background of your Waterfall the variations over another period
+So you can highlight the results you are analyzing by comparing it, for instance, to the same period of the previous year.
+Please give us your feedback once tested!
+![Tip 43]({{site.url}}/{{site.baseurl}}/assets/images/tip/43.gif)
+
+## Tip of the week #42
+The DataMa Prep beta, which allows you to work on your sources directly in DataMa, is evolving.
+A small overview of recent features:
+  * Direct connection to Bigquery
+  * Creation of filters
+  * Addition of calculated fields
+If you haven't discovered it yet, request access to your DataMa CSM, then go to the "data flow" tab on the DataMa home page.
+![Tip 42]({{site.url}}/{{site.baseurl}}/assets/images/tip/42.gif)
+
 ## Tip of the week #41
 You are afraid of missing the abnormal evolution of one of your indicators, DataMa allows you to automate anomaly detection. You will then benefit:
   * For each anomaly, a notification by email or Slack
