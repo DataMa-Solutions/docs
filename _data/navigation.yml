@@ -103,10 +103,14 @@
                   link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
                 - name: Forecasting
                   link: /core_app/impact/web_application/dashboard/models/forecasting.html #OK
-                - name: Bayesion bernoulli
+                - name: Bayesian bernoulli
                   link: /core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html #OK
                 - name: Volatility
                   link: /core_app/impact/web_application/dashboard/volatility.html #ok
+                - name: Bootstrap
+                  link: /core_app/impact/web_application/dashboard/bootstrap.html #ok
+                - name: Causal Impact
+                  link: /core_app/impact/web_application/dashboard/causal_impact.html #ok
             - name: Anomaly Detection
               link: /core_app/impact/web_application/dashboard/anomaly_detection.html
         - name: Menu
