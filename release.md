@@ -5,6 +5,26 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-04-30:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including Compare of Compare unit display, Dimension identification in case of only numeric dataset)
+
+* **Compare:**
+    * Bridges for a given Step and given dimension (aka 'Second slide waterfall') is now dynamic: you can click, filter and drill down as in the global waterfall, including in widget export. It also takes into account unit, if provided for a given step
+    * Smart Dimension now exclude dimensions that have been excluded from analysis, either globally or for a given step within metrics relation definition
+    * Funnel view and dimension comparison charts has been revamped, and are now built on the client's browser. This prepares for future technical enhancements of DataMa performance and integration (more to come!)
+
+* **Impact:**
+    * Combined_Dimension is now excluded from possible explanation of anomaly detection, to avoid unreadable details
+
+* **Journey**
+    * By default, attribution model is now activated
+
+* **Prep**
+    * DataMa Prep dataset load time in DataMa Core have been dramatically improved. You can now open a workbook based on a DataMa Prep flow in seconds
+
+
 ### 2022-03-31:
 
 * **General:**
