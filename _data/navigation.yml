@@ -52,8 +52,6 @@
                   link: /core_app/compare/web_application/dashboard/detailed_view/moves.html #OK
                 - name: Bridge
                   link: /core_app/compare/web_application/dashboard/detailed_view/bridge.html #OK
-                - name: Detailed Bridge
-                  link: /core_app/compare/web_application/dashboard/detailed_view/detailed_bridge.html #OK
             - name: Dimension analysis
               link: /core_app/compare/web_application/dashboard/dimension_analysis.html #OK
               subnav:
