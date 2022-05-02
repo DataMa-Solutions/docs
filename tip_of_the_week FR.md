@@ -8,17 +8,25 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #46
+DataMa Prep continue son expansion avec l’arrivée du connecteur Facebook Ads en plus de ceux existant 🥳
+Petit rappel pour ceux qui veulent prendre en compte l'effet de l’évolution de leur marché dans leurs analyses, rien de plus simple sur DataMa Prep, il vous est possible de le faire en quelques clics avec le bon indice Google Trend, pour plus de précision n'hésitez pas à consulter cet [article](https://www.datama.io/fr/2021/11/22/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
+![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/46.gif)
+
+## Tip of the week #45
+Le saviez-vous, vous avez la possibilité de voir vos ratios ou la valeur de vos étapes grâce au « Ratio Definition Helper » disponible en cliquant sur l'icône "chart" 📊 à côté du Include Step dans les Settings dans Compare ou l’icône "division" ➗ à côté de KPI Denominator dans Pivot.
+Pour avoir une vision avec les deux segments sélectionnés, pensez à activer le Compare mode dans Pivot 😉
+![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/45.gif)
+
 ## Tip of the week #44
 Pour compléter votre analyse dans DataMa Compare, découvrez le « Comparison Definition Helper » disponible en cliquant sur l'icône "chart" à côté de la Dimension Start/ End. Il vous permet de suivre l’évolution temporelle du ratio choisi (en courbe) et de son dénominateur (en barre 📊).
 Une vue « Overview Overlay » est également disponible afin de superposer les deux périodes comparées.
-Dites-nous ce que vous en pensez!
 ![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/44.gif)
 
 ## Tip of the week #43
 Aujourd’hui une petite astuce pour aller plus loin dans votre analyse sur Compare, il est possible pour vous d’activer l’option « Compare of Compare » dans les settings.
 Cette visualisation vous permettra de voir en arrière-plan de votre Waterfall les variations sur une autre période
 Ainsi il vous est possible de mettre en relief les résultats que vous analysez en la comparant par exemple à la même période de l’année précédente.
-Merci de nous donner vos feedbacks une fois testé!
 ![Tip 43]({{site.url}}/{{site.baseurl}}/assets/images/tip/43.gif)
 
 ## Tip of the week #42
