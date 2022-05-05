@@ -8,15 +8,20 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+## Tip of the week #47
+Did you know ? You can download the source used by DataMa, to do this go to the Source tab, then just below “Full Data Source” click on the Excel icon to download your source in Excel format.
+Useful when the source was created in DataMa Prep or via the GA connector and you want to check its figures!
+![Tip 47]({{site.url}}/{{site.baseurl}}/assets/images/tip/47.gif)
+
 ## Tip of the week #46
 DataMa Prep continues its expansion with the arrival of the Facebook Ads connector in addition to those existing 🥳
 A little reminder for those who want to take into account the effect of the evolution of their market in their analyses, nothing could be simpler on DataMa Prep, you can do it in a few clicks with the right Google Trend index, for more precision do not hesitate to consult this [article](https://www.datama.io/2021/11/22/how-to-take-into-account-market-trends-in-your-performance-analysis/)
-![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/46.gif)
+![Tip 46]({{site.url}}/{{site.baseurl}}/assets/images/tip/46.gif)
 
 ## Tip of the week #45
 Did you know, you have the possibility to see your ratios or the value of your steps thanks to the "Ratio Definition Helper" available by clicking on the "chart" 📊 next to the Include Step in the Settings in Compare or the "division" ➗ next to KPI Denominator in Pivot.
 To have a vision with the two segments selected, consider activating the Compare mode in Pivot 😉
-![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/45.gif)
+![Tip 45]({{site.url}}/{{site.baseurl}}/assets/images/tip/45.gif)
 
 ## Tip of the week #44
 To complete your analysis in DataMa Compare, discover the "Comparison Definition Helper" available by clicking on the "chart" icon next to the Start/End Dimension. It allows you to follow the evolution over time of the chosen ratio (in curve) and its denominator (in bar 📊).

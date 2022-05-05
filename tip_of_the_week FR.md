@@ -8,15 +8,20 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #47
+Le saviez-vous ? Il vous est possible de télécharger la source utilisée par DataMa, pour cela aller dans l’onglet Source, puis juste en dessous « Full Data Source » cliquez sur l’icône Excel pour télécharger votre source au format Excel.
+Pratique quand la source a été créée dans DataMa prep ou via le connecteur GA et qu'on veut vérifier ses chiffres !
+![Tip 47]({{site.url}}/{{site.baseurl}}/assets/images/tip/47.gif)
+
 ## Tip of the week #46
 DataMa Prep continue son expansion avec l’arrivée du connecteur Facebook Ads en plus de ceux existant 🥳
 Petit rappel pour ceux qui veulent prendre en compte l'effet de l’évolution de leur marché dans leurs analyses, rien de plus simple sur DataMa Prep, il vous est possible de le faire en quelques clics avec le bon indice Google Trend, pour plus de précision n'hésitez pas à consulter cet [article](https://www.datama.io/fr/2021/11/22/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
-![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/46.gif)
+![Tip 46]({{site.url}}/{{site.baseurl}}/assets/images/tip/46.gif)
 
 ## Tip of the week #45
 Le saviez-vous, vous avez la possibilité de voir vos ratios ou la valeur de vos étapes grâce au « Ratio Definition Helper » disponible en cliquant sur l'icône "chart" 📊 à côté du Include Step dans les Settings dans Compare ou l’icône "division" ➗ à côté de KPI Denominator dans Pivot.
 Pour avoir une vision avec les deux segments sélectionnés, pensez à activer le Compare mode dans Pivot 😉
-![Tip 44]({{site.url}}/{{site.baseurl}}/assets/images/tip/45.gif)
+![Tip 45]({{site.url}}/{{site.baseurl}}/assets/images/tip/45.gif)
 
 ## Tip of the week #44
 Pour compléter votre analyse dans DataMa Compare, découvrez le « Comparison Definition Helper » disponible en cliquant sur l'icône "chart" à côté de la Dimension Start/ End. Il vous permet de suivre l’évolution temporelle du ratio choisi (en courbe) et de son dénominateur (en barre 📊).
