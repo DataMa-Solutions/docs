@@ -5,6 +5,20 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-05-30:
+
+* **General:**
+    * URL export has been improved with faster load for static version, vertical and horizontal responsiveness, and more charts available (incl Dimension Comparison in Pivot, Moves and detailed bridge in Compare)
+    * Multiple bug fixes and UI improvements (including non-default separators in Journey, NAs robustness in Impact, Scheduler timing display in Prep, User button display in Prep)
+
+* **Compare:**
+    * Clarified wording, titles and hovers in dimensions comparison charts
+    * Moves chart has been revamped, and is now built on the client's browser. This is part of future technical enhancements of DataMa performance and integration (more to come!)
+
+* **Prep**
+    * Google Analytics 4 connector is available in beta! Connect to your GA4 property and use the API to extract data and analyse it in DataMa
+    * Link to documentation has been added to all objects in the title of the side bar (under "i" icon), as well as clarified tooltips
+
 ### 2022-04-30:
 
 * **General:**
