@@ -5,6 +5,21 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-06-30:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including Dynamic saving of Start & End even without "Save As", Compare of Compare deactivation for Anomaly detection, Chart size and titles in Pivot)
+
+* **Compare:**
+    * Covariance roll up: Covariance for waterfall can now be computed at segment level in a given dimension before rolling up at total level. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/covariance_rollup)
+    * Split Mix and Perf parameter is now saved allong with other settings
+
+* **Prep:**
+    * UI improvements: Colors & text have been revamped to better prepare DataMa Solution future, all objects are now visible on the side bar
+    * New header: Top page of prep now includes Title on the left and Classic sub menus (File, Edit, Data, Help) to simplify access to actions and information
+    * **Email Connector**: You can now import in DataMa Prep a CSV file sent to an email (link or attachment). This enables almost any data platform connection, since most of them allow to schedule and send a custom report to a specific email. Example of platforms could be Teads, Forms, Pinterest, Criteo, etc
+    * **Snowflake Connector**: You can connect to your Snowflake data with simple login/ password. This enables access to any data on Snowflake, including AT Internet/ Piano data
+
 ### 2022-05-30:
 
 * **General:**
