@@ -9,6 +9,7 @@ description: Find here the **latest releases** of DataMa Solutions
 
 * **General:**
     * Multiple bug fixes and UI improvements (including improved error message for non accessible or empty data, skipped steps naming in Compare, xNA display in Compare table, Date handling in Prep)
+    * Tableau extension now handles measure names as a dimension
 
 * **Compare:**
     * Delta of % are now displayed as "pts", both for changes in mix and absolute variation of steps with unit set as "%"
