@@ -5,6 +5,18 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-07-28:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including improved error message for non accessible or empty data, skipped steps naming in Compare, xNA display in Compare table, Date handling in Prep)
+    * Tableau extension now handles measure names as a dimension
+
+* **Compare:**
+    * Delta of % are now displayed as "pts", both for changes in mix and absolute variation of steps with unit set as "%"
+
+* **Pivot:**
+    * Improved performance for large datasets with high number of unique values in one column
+
 ### 2022-06-30:
 
 * **General:**
