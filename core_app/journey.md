@@ -4,7 +4,7 @@ description: DataMa JOURNEY is a data analysis tool that allows you to quickly v
 layout: page
 ---
 
-[journey logo]({{site.url}}/{{site.baseurl}}/core_app/images/DataMa-JOURNEY-Logo-2.png)
+![journey logo]({{site.url}}/{{site.baseurl}}/core_app/images/DataMa-JOURNEY-Logo-2.png)
 
 > **DataMa JOURNEY is a data analysis tool that allows you to quickly visualize journeys and simulate attribution models on your customer touch points.**
 

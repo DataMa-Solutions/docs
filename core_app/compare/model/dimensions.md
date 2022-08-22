@@ -51,7 +51,7 @@ The negative and positive impacts of each segment for the Step and Dimension you
 
 Positive and Negative effects  are split into top X segments contributing to the variation, other segments being gouped into 'remaining' bucket.
 
-You can change the maximum number of segments displayed by playing with the slider on the right 
+You can change the maximum number of segments displayed by playing with the slider
 
 ## Biggest positive segment performance
 
