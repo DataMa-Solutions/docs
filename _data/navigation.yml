@@ -290,6 +290,8 @@
           link: /prep/connectors/source/Google_trend.html
         - name: Google Big Query
           link: /prep/connectors/source/Google_BigQuery.html
+        - name: Mail
+          link: /prep/connectors/source/Mail.html
 - name: Source
   link: /core_app/source.html #OK
 - name: Interface
