@@ -52,8 +52,6 @@
                   link: /core_app/compare/web_application/dashboard/detailed_view/moves.html #OK
                 - name: Bridge
                   link: /core_app/compare/web_application/dashboard/detailed_view/bridge.html #OK
-                - name: Detailed Bridge
-                  link: /core_app/compare/web_application/dashboard/detailed_view/detailed_bridge.html #OK
             - name: Dimension analysis
               link: /core_app/compare/web_application/dashboard/dimension_analysis.html #OK
               subnav:
@@ -103,10 +101,14 @@
                   link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
                 - name: Forecasting
                   link: /core_app/impact/web_application/dashboard/models/forecasting.html #OK
-                - name: Bayesion bernoulli
+                - name: Bayesian bernoulli
                   link: /core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html #OK
                 - name: Volatility
                   link: /core_app/impact/web_application/dashboard/volatility.html #ok
+                - name: Bootstrap
+                  link: /core_app/impact/web_application/dashboard/bootstrap.html #ok
+                - name: Causal Impact
+                  link: /core_app/impact/web_application/dashboard/causal_impact.html #ok
             - name: Anomaly Detection
               link: /core_app/impact/web_application/dashboard/anomaly_detection.html
         - name: Menu
@@ -125,7 +127,7 @@
                     - name: Aggregation in %
                       link: /core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html #OK
                     - name: Weight Frequentist
-                      link: /core_app/impact/web_application/menu/weight_frequentist.html
+                      link: /core_app/impact/web_application/dashboard/models/frequentist/other.html #OK
 - name: Pivot
   link: /core_app/pivot.html #OK
   subnav:
@@ -199,8 +201,6 @@
         - name: Dashboard
           link: /core_app/journey/web_application/dashboard.html #OK
           subnav:
-            - name: Value boxes
-              link: /core_app/journey/web_application/dashboard/value_boxes.html #unknown file
             - name: Attribution
               link: /core_app/journey/web_application/dashboard/attribution.html #OK
               subnav:
@@ -292,6 +292,8 @@
           link: /prep/connectors/source/Google_BigQuery.html
         - name: Mail
           link: /prep/connectors/source/Mail.html
+        - name: Facebook Analytics
+          link: /prep/connectors/source/Facebook_analytics.html
 - name: Source
   link: /core_app/source.html #OK
 - name: Interface

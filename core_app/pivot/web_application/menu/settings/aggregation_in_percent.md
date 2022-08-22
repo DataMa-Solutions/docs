@@ -12,4 +12,4 @@ layout: page
 
 Segments are now aggregated at the requested level
 
-![aggregation]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/menu/settings/images/Aggregation-1.gif)
+![aggregation]({{site.url}}/{{site.baseurl}}/assets/images/AggregationPercent.gif)
