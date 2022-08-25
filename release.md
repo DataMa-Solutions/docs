@@ -5,6 +5,14 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-08-31:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (Noteworthy Updates, Crop y axis on compare, and home bug fixe of prep sources)
+    
+* **Prep:**
+    * UI improvements: Loading bar of the App, New connector in pipe, (Performance improvements, and better types managements, a more robust backend)
+
 ### 2022-07-28:
 
 * **General:**
