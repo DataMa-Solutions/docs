@@ -5,7 +5,7 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
-### 2022-08-31:
+### 2022-08-25:
 
 * **General:**
     * Multiple bug fixes and UI improvements (Noteworthy Updates, Crop y axis on compare, and home bug fixe of prep sources)
