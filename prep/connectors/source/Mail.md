@@ -7,7 +7,7 @@ layout: page
 **You can plug to your Mail reports in DataMa PREP.**
 
 
-![CSV Step 1](images/mails.png)
+![Mails sources](images/Mails.png)
 
 # 1. Send the report first
 The first step is to copy the generated email and use your reporting tool to send emails to this adress. This adress is private, and is associated with your account. When your first report is sent to this address, you are now ready to go.
