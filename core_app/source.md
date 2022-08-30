@@ -23,4 +23,4 @@ Few important things to note :
 This second table is just a glimpse of first 10 lines of your source.
 You can search and order by clicking on a column title.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/Detailed_table.png" alt="Detailed Table" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/Detailed_table.PNG" alt="Detailed Table" /></center>
