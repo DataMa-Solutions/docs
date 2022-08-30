@@ -8,10 +8,12 @@ description: Find here the **latest releases** of DataMa Solutions
 ### 2022-08-25:
 
 * **General:**
+    * Crop Y axis: in the settings>display options you can opt out from 0 bar inclusion of Y axis of the waterfall to increase the scale
     * Multiple bug fixes and UI improvements (Noteworthy Updates, Crop y axis on compare, and home bug fixe of prep sources)
-    
+
 * **Prep:**
-    * UI improvements: Loading bar of the App, New connector in pipe, (Performance improvements, and better types managements, a more robust backend)
+    * UI improvements (incl. Loading bar of the App)
+    * Performance improvements, better types management, and more robust backend
 
 ### 2022-07-28:
 
