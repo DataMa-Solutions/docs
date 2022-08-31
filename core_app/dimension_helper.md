@@ -43,4 +43,4 @@ In case we select another dimension, when a compare dimension is defined, the re
 The overlay is the same as the overview chart with the exception of it overlaying both start and end. And it's available only when a compare dimension is defined.
 > This chart is particularly helpful for time series, e.g. to compare day by day how start and end differs
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/menu/images/overlay-mode-DH.png"/></center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/assets/images/helpers/overlay-mode-DH.png"/></center>
