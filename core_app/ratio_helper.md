@@ -6,12 +6,16 @@ layout: page
 
 > The Ratio Helper tabset helps you understand which ratio you want to analyze. You can display this tabset by hovering on a step in 'KPI' section of Impact/ Pivot.
 
+
 ## Ratio view - Default
+
+
 
 The Ratio view displays the value of each ratio defined as steps in your [metric relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation?id=metric-relation)
 The ratio defined by the Primary Numerator and Denominator appears in orange (if matching)
 Note that you can skip/ merge some ratios using the [included steps]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/included_steps) setting in DataMa Compare.
-> This chart should help you understand which ratio is high/ low relative to others, so that you can focus on analysing the right one
+> This chart should help you understand which ratio is high/ low relative to others, so that you can focus on analysing the right one.
+> The Ratio helper can filter your ratios based on their unit this way you can compare curencies, percentages and numbers independantly.
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/menu/images/ratio-default-RH.png"/></center>
 
