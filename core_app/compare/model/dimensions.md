@@ -69,10 +69,12 @@ The width of the bar and the parenthesis '(x...)' in the call outs refers to how
 
 Red dots refer to the total impact of that step (as in 'Waterfall Chart'), to allow evaluation of segment performance contribution to overall impact.
 
-## Filtering : Step & Dimension selection
+## Step & Dimension selection
 
-Select the Step and Dimension you want to see in left tab ('Detailed view').
+Select the Step and Dimension you want to see in second slide title or by opening and selecting the "split by" dimension in the overall waterfall
 
 By default, the step that drives most of your variation and the most interesting dimension within that step are selected.
 
-Dimensions are ranked by order of importance, i.e. by how helpful they are in explaining the gap of considered step.
+Dimensions are ranked by order of importance, or "Interest score", i.e. by how helpful they are in explaining the gap of considered step.
+
+This "Interest score" is based on how much each dimension has a abnormal biggest segment performance and significant mix effect contribution
