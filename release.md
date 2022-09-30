@@ -21,6 +21,11 @@ description: Find here the **latest releases** of DataMa Solutions
     * All DataMa Impact charts has been revamped, and are now built on the client's browser. This prepares for future technical enhancements of DataMa performance and integration (more to come!)
     * Anomaly detection waterfall chart is now dynamic, using same UI as in DataMa Compare
 
+* **Prep**
+    * Tableau connector in prep (Beta - please ask specific extension to your CSM for testing)
+    * Shortcuts (CTRL+V: copy paste gsheet or Excel Range, Suppr: Delete a block)
+    * Multiple UI fixes & improvements (BigQuery edit interface, calculated fields, arrows between blocks)
+
 ### 2022-08-25:
 
 * **General:**
