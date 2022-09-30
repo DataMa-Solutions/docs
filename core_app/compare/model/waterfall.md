@@ -22,6 +22,6 @@ Click on a step to see the details of this step
 
 By default, the most interesting dimension will be selected for this zoomed step
 
-You can change the selected dimension for this zoomed step by changing the Dimension filter in the detailed view - filter below
+You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by"
 
-You can unzoom by clicking on other steps or double clicking on the chart
+You can unzoom by clicking on other steps or clicking on the box again
