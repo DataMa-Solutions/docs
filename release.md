@@ -5,6 +5,15 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-10-25:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including zoom out magnifying glass on last step of waterfall, order and hover on anomaly explanation plot)
+    * Timezone now on UTC for all schedulers, both on Prep and in solutions, within Compare and Impact. As many countries are switching from summer time to winter time, DataMa scheduled jobs with stay on the same universal time, so that it fits with other external dependencies on data sources.
+
+* **Prep**
+    * Service account connector for Big Query as a secondary option for credentials sharing
+
 ### 2022-09-30:
 
 * **General:**
