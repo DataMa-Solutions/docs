@@ -5,6 +5,46 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-10-25:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including zoom out magnifying glass on last step of waterfall, order and hover on anomaly explanation plot)
+    * Timezone now on UTC for all schedulers, both on Prep and in solutions, within Compare and Impact. As many countries are switching from summer time to winter time, DataMa scheduled jobs with stay on the same universal time, so that it fits with other external dependencies on data sources.
+
+* **Prep**
+    * Service account connector for Big Query as a secondary option for credentials sharing
+
+### 2022-09-30:
+
+* **General:**
+    * Number of decimals in all numbers displayed can be manually defined in "Settings">"Display">"Force Rounding"
+    * Multiple bug fixes and UI improvements (including minor edits in smart comments, improved exports of Compare and Impact charts)
+
+* **Compare:**    
+    * Custom colors now impacts also font color in comments and slide titles
+    * Right click on Detailed bridge in Second slide allows to change dynamically selected KPI. This is also true for exported version of that same bridge, hence you can analyse any step of your market equation separately in an exported bridge
+    * Hovering clickable boxes in waterfalls now display a "+"/ "-" magnifying icon to better reflect that functionnality of DataMa waterfalls
+    * Hovering on "lock" icon better explains what this feature should be used for: keeping on step open on a given dimension and yet be allowed to open other steps at the same time
+
+* **Impact:**    
+    * All DataMa Impact charts has been revamped, and are now built on the client's browser. This prepares for future technical enhancements of DataMa performance and integration (more to come!)
+    * Anomaly detection waterfall chart is now dynamic, using same UI as in DataMa Compare
+
+* **Prep**
+    * Tableau connector in prep (Beta - please ask specific extension to your CSM for testing)
+    * Shortcuts (CTRL+V: copy paste gsheet or Excel Range, Suppr: Delete a block)
+    * Multiple UI fixes & improvements (BigQuery edit interface, calculated fields, arrows between blocks)
+
+### 2022-08-25:
+
+* **General:**
+    * Crop Y axis: in the settings>display options you can opt out from 0 bar inclusion of Y axis of the waterfall to increase the scale
+    * Multiple bug fixes and UI improvements (Noteworthy Updates, Crop y axis on compare, and home bug fixe of prep sources)
+
+* **Prep:**
+    * UI improvements (incl. Loading bar of the App)
+    * Performance improvements, better types management, and more robust backend
+
 ### 2022-07-28:
 
 * **General:**
