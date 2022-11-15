@@ -8,6 +8,8 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+> Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
+
 ## Tip of the week #47
 Did you know ? You can download the source used by DataMa, to do this go to the Source tab, then just below “Full Data Source” click on the Excel icon to download your source in Excel format.
 Useful when the source was created in DataMa Prep or via the GA connector and you want to check its figures!
