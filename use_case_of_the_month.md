@@ -16,7 +16,9 @@ Paid media campaigns are a huge contributor to user acquisition. But what is the
 In this month's use case, find out how one of the largest energy providers in France, **TotalEnergies** leveraged their data through DataMa to:
 
 📈  Analyze their WoW performance
+
 🔍  Detect underperforming campaigns
+
 🛠️  Implement automated processes to spot outliers as soon as they occur
 
 Read the full story [here](https://www.datama.io/2022/10/05/use-case-1-paid-acquisition-wow-analysis/)
