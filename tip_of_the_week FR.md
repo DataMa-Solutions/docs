@@ -58,8 +58,8 @@ De nouveaux connecteurs sont disponibles dans DataMa Prep 🥳
 ![Tip 54]({{site.url}}/{{site.baseurl}}/assets/images/tip/54.gif)
 
 ## Tip of the week #53
-Dans DataMa vous avez la possibilité de modifier les unités de vos étapes et de votre KPI. Il suffit d’aller dans le menu metric relation pour changer l’unité et possiblement aussi le nom de vos étapes.
-NB: quand vous comparer une dimension en %, DataMa l’interprète et affiche les variations de % en ‘pts’
+In DataMa you have the possibility to change the units of your steps and your KPI. Just go to the metric relation menu to change the unit and possibly also the name of your steps.
+NB: when you compare a dimension in %, DataMa interprets it and displays the % variations in 'pts'.
 ![Tip 53]({{site.url}}/{{site.baseurl}}/assets/images/tip/53.gif)
 
 ## Tip of the week #52
