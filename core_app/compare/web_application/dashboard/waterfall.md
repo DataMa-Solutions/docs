@@ -4,7 +4,7 @@ description: Introducing the waterfall histogram in dashboard
 layout: page
 ---
 
-![waterfall]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/images/waterfall.png)
+![waterfall]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/images/waterfall.png )
 
 Waterfall is a group of 3 tabs. See below articles for details on each tab:
 

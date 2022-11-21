@@ -5,6 +5,202 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-10-25:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including clearer hovers on Moves chart for Compare, zoom out magnifying glass on last level of waterfall, order and hover on anomaly explanation plot)
+    * Timezone now on UTC for all schedulers, both on Prep and in solutions, within Compare and Impact. As many countries are switching from summer time to winter time, DataMa scheduled jobs with stay on the same universal time, so that it fits with other external dependencies on data sources.
+
+* **Prep**
+    * Service account connector for Big Query as a secondary option for credentials sharing
+
+### 2022-09-30:
+
+* **General:**
+    * Number of decimals in all numbers displayed can be manually defined in "Settings">"Display">"Force Rounding"
+    * Multiple bug fixes and UI improvements (including minor edits in smart comments, improved exports of Compare and Impact charts)
+
+* **Compare:**    
+    * Custom colors now impacts also font color in comments and slide titles
+    * Right click on Detailed bridge in Second slide allows to change dynamically selected KPI. This is also true for exported version of that same bridge, hence you can analyse any step of your market equation separately in an exported bridge
+    * Hovering clickable boxes in waterfalls now display a "+"/ "-" magnifying icon to better reflect that functionnality of DataMa waterfalls
+    * Hovering on "lock" icon better explains what this feature should be used for: keeping on step open on a given dimension and yet be allowed to open other steps at the same time
+
+* **Impact:**    
+    * All DataMa Impact charts has been revamped, and are now built on the client's browser. This prepares for future technical enhancements of DataMa performance and integration (more to come!)
+    * Anomaly detection waterfall chart is now dynamic, using same UI as in DataMa Compare
+
+* **Prep**
+    * Tableau connector in prep (Beta - please ask specific extension to your CSM for testing)
+    * Shortcuts (CTRL+V: copy paste gsheet or Excel Range, Suppr: Delete a block)
+    * Multiple UI fixes & improvements (BigQuery edit interface, calculated fields, arrows between blocks)
+
+### 2022-08-25:
+
+* **General:**
+    * Crop Y axis: in the settings>display options you can opt out from 0 bar inclusion of Y axis of the waterfall to increase the scale
+    * Multiple bug fixes and UI improvements (Noteworthy Updates, Crop y axis on compare, and home bug fixe of prep sources)
+
+* **Prep:**
+    * UI improvements (incl. Loading bar of the App)
+    * Performance improvements, better types management, and more robust backend
+
+### 2022-07-28:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including improved error message for non accessible or empty data, skipped steps naming in Compare, xNA display in Compare table, Date handling in Prep)
+    * Tableau extension now handles measure names as a dimension
+
+* **Compare:**
+    * Delta of % are now displayed as "pts", both for changes in mix and absolute variation of steps with unit set as "%"
+
+* **Pivot:**
+    * Improved performance for large datasets with high number of unique values in one column
+
+### 2022-06-30:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including Dynamic saving of Start & End even without "Save As", Compare of Compare deactivation for Anomaly detection, Chart size and titles in Pivot)
+
+* **Compare:**
+    * Covariance roll up: Covariance for waterfall can now be computed at segment level in a given dimension before rolling up at total level. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/covariance_rollup)
+    * Split Mix and Perf parameter is now saved allong with other settings
+
+* **Prep:**
+    * UI improvements: Colors & text have been revamped to better prepare DataMa Solution future, all objects are now visible on the side bar
+    * New header: Top page of prep now includes Title on the left and Classic sub menus (File, Edit, Data, Help) to simplify access to actions and information
+    * **Email Connector**: You can now import in DataMa Prep a CSV file sent to an email (link or attachment). This enables almost any data platform connection, since most of them allow to schedule and send a custom report to a specific email. Example of platforms could be Teads, Forms, Pinterest, Criteo, etc
+    * **Snowflake Connector**: You can connect to your Snowflake data with simple login/ password. This enables access to any data on Snowflake, including AT Internet/ Piano data
+
+### 2022-05-30:
+
+* **General:**
+    * URL export has been improved with faster load for static version, vertical and horizontal responsiveness, and more charts available (incl Dimension Comparison in Pivot, Moves and detailed bridge in Compare)
+    * Multiple bug fixes and UI improvements (including non-default separators in Journey, NAs robustness in Impact, Scheduler timing display in Prep, User button display in Prep)
+
+* **Compare:**
+    * Clarified wording, titles and hovers in dimensions comparison charts
+    * Moves chart has been revamped, and is now built on the client's browser. This is part of future technical enhancements of DataMa performance and integration (more to come!)
+
+* **Prep**
+    * Google Analytics 4 connector is available in beta! Connect to your GA4 property and use the API to extract data and analyse it in DataMa
+    * Link to documentation has been added to all objects in the title of the side bar (under "i" icon), as well as clarified tooltips
+
+### 2022-04-30:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including Compare of Compare unit display, Dimension identification in case of only numeric dataset)
+
+* **Compare:**
+    * Bridges for a given Step and given dimension (aka 'Second slide waterfall') is now dynamic: you can click, filter and drill down as in the global waterfall, including in widget export. It also takes into account unit, if provided for a given step
+    * Smart Dimension now exclude dimensions that have been excluded from analysis, either globally or for a given step within metrics relation definition
+    * Funnel view and dimension comparison charts has been revamped, and are now built on the client's browser. This prepares for future technical enhancements of DataMa performance and integration (more to come!)
+
+* **Impact:**
+    * Combined_Dimension is now excluded from possible explanation of anomaly detection, to avoid unreadable details
+
+* **Journey**
+    * By default, attribution model is now activated
+
+* **Prep**
+    * DataMa Prep dataset load time in DataMa Core have been dramatically improved. You can now open a workbook based on a DataMa Prep flow in seconds
+
+
+### 2022-03-31:
+
+* **General:**
+    * Exports in Slack and Emails have been improved to get faster access to insights in the notifications
+    * Multiple bug fixes and UI improvements (including value box for impact sizing in DataMa Impact, clarification of error messages for Compare and Impact)
+
+* **Impact:**
+    * Added "**Causal Impact**" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/causal_impact.html)
+    * Anomaly detection notification slack and email messages now includes a list of all KPIs that are flagged as having an anomaly
+
+* **Prep**
+    * **Facebook ads connector** is now available, to get your campaigns statistics through FB Insights API and analyse it in DataMa
+    * Data flows can now be deleted from the flow selector in the header
+    * Multiple bug fixes and UI improvements (including Filter object enhancement, tooltips, ability to read Excel files saved on Mac)
+
+### 2022-02-25:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including hover on select input, progress bar on prep source connection, inputs stickiness when editing metric relation, URL sharing of second slide of compare...)
+
+* **Compare:**
+    * Units definition in Metric relation window now supports Regex anotation. (E.g. putting a "$(.*)M" as unit will display $125M for 125 value)
+    * Analysis depth parameter is now saved along with your use case
+
+* **Exports & Extension:**
+    * DataMa Tableau extension (simple widget) is now reactive to Tableau parameters changes
+    * Slack export now send a notification when error happen on a scheduled compute
+
+* **Prep**
+    * Create new flow button added at the end of your data flow list in the header dropdown
+    * Shortcut to DataMa Journey solution added to output object when relevant (i.e. when "Journey" column exists)
+    * Included examples in tips for Calculated fields
+    * Multiple bugs fixes and ui improvements
+
+### 2022-01-26:
+
+* **General:**
+    * DataMa application is now available through solutions.datama.io instead of solutions.datama.fr. Whyle the .fr is still redirecting to .io, you may want to update your bookmarks to avoid login/ token issues in the future
+    * Multiple bug fixes and UI improvements (including custom input stickiness when changing metric relation, default rounding of currencies to 2 decimals, connection to prep improvements...)
+
+* **Compare:**
+    * Variation significance testing can now be saved for a use case (available only with Impact license)
+    * Renamed "Positive"/ "Negative" variations as "Increase"/ "Decrease"
+    * Custom Palette now applies to new dynamic waterfall
+
+* **Journey:**
+    * Attribution toggle is now saved along with your use case (can be especially useful to save time when exporting a sunburst)
+
+* **Prep:**
+  * **Filter object**: in a flow, you can now filter data, using either exact match or regex
+  * Flows can be deleted and renamed from the top right flow name drop down
+  * Shortcut to DataMa Solutions (Compare, Impact, Pivot) are available in output object
+  * Improved documentation
+
+### 2021-12-26:
+
+* **Compare:**
+    * New animated waterfall: Compare waterfall has been fully reshaped to improve performance and enable new usage within extensions in the future.
+    Current visible benefits include :
+      * Static export (on a URL, with a schedule to avoid computation time) of waterfall is now interactive (zoom/ unzoom is available)
+      * Capability to "lock" one step into a given state (opened, split by a given dimension) and open other steps at the same time. This makes the "Detailed waterfall" tab useless, so not displayed in the interface anymore.
+      * Easier drill down within boxes : changing dimension, seeing "remaining" segments is more fluid
+      * Nice transition effects
+    Note that you can still go back to previous template by clicking by opting out from "New waterfall" in the display section at the bottom left of the side bar, and click "Compare"
+    * When a segment does not exist on start or end definition, the impact calculation now include a "unknown segment" bar to reflect this missing part.
+
+* **Impact:**
+    * Confidence interval settings can now be saved
+
+* **Prep:**
+  * Big Query connector
+  * CSV Separator added
+  * Calculated fields
+  * Logout button for GA and BQR
+  * Multiple bug fixes, among them
+    - Dates bug fixed
+    - Limitation to 4 segments on GA
+    - Switch between flow & blocs
+    - Sometimes, dates were not casted properly
+
+### 2021-11-20:
+
+* **General:**
+    * Get inspired use cases: Included latest examples from our blog on [Consent analysis](https://www.datama.io/fr/2021/11/04/comment-analyser-limpact-de-votre-outil-de-consentement-sur-vos-indicateurs-de-performance/) and [Market trend analysis](https://www.datama.io/fr/2021/11/10/comment-prendre-en-compte-les-tendances-de-marche-dans-son-analyse-de-performance/)
+    * Multiple bug fixes and UI improvements (including slack messages template and Big Query pagination)
+
+* **Impact:**
+    * Anomaly detection: Enhanced forecasting method to improve accounting of seasonality
+
+* **Journey:**
+    * Sunbursts can now be shared as a static URL to avoid computation time
+
+* **Source:**
+    * Excel export: DataMa source now supports excel export, which allow to export any DataMa source (including DataMa prep results) in an Excel spreadsheet
+
 ### 2021-10-08:
 
 * **General:**

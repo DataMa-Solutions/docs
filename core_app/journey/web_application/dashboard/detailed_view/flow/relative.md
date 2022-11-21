@@ -9,4 +9,4 @@ Relative is an other way to display [Flow]({{site.url}}/{{site.baseurl}}/core_ap
 
 **Example:**
 
-![relative]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow/images/relative.png)
+![relative]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow/images/Relative.png)

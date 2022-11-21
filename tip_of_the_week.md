@@ -8,6 +8,8 @@ img_height: 300
 description: |
   Tips & Tricks on how to take the most out of DataMa
 ---
+> Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
+
 ## Tip of the week #61
 In the Impact solution, DataMa offers you the possibility to analyse the pre-post variation of an intervention on a test group. You will find use cases whenever you want to test:
   * a new SEO strategy
@@ -89,7 +91,6 @@ Test the GA4 connector in a very simple way, for example to check the consistenc
   * Prepare your DataFlow in 3 clicks as in the image
   * Open it in DataMa Compare
   * Identify what needs to be improved/corrected
-
 ![Tip 49]({{site.url}}/{{site.baseurl}}/assets/images/tip/49.jpg)
 
 ## Tip of the week #48
@@ -103,7 +104,6 @@ If your source is updated daily 📅 and you want to do, for example, a weekly a
 ⚠ Note: your data source must either
   * include Full Last Year and This Year To Date data
   * or have exactly the same number of weeks/months/... at each update
-
 ![Tip 48]({{site.url}}/{{site.baseurl}}/assets/images/tip/48.gif)
 
 ## Tip of the week #47

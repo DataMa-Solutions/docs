@@ -12,10 +12,6 @@ Clustering is necessary for dimension analysis
 
 Read docs related to [continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous)
 
-## Absolute metric
-
-If primary metric is an absolute value (e.g. Revenue), an artificial “N=1” metric is created and used as denominator for first step, to match previous [methodology]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation)
-
 ## Interdependence
 
 In 'Safe Mode', most correlated dimensions are flagged. Interdependencies between dimensions are tested using Chi-Square and simple business calculation.
@@ -27,6 +23,7 @@ Combined dimension is created by concatenating all clustered dimensions into one
 ## Significance
 
 In 'Safe Mode', simple check of minimal volume (manually inputted) for given metric in Start and End
+You can also use DataMa Impact to assess properly signifiance of variations
 
 ## Scope
 
