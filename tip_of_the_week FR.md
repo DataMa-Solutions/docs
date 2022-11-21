@@ -8,6 +8,108 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #61
+DataMa vous propose dans la solution Impact d'analyser la variation pre-post une intervention sur un groupe test. Vous trouverez des cas d'usage quand vous voulez tester:
+  * une nouvelle stratégie SEO
+  * l'impact d'une nouvelle campagne de publicité
+Retrouver l'analyse détailler dans notre [documentation](https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/causal_impact.html)
+![Tip 61]({{site.url}}/{{site.baseurl}}/assets/images/tip/61.gif)
+
+## Tip of the week #60
+Comme dans de nombreux pays, le week-end dernier nous sommes passé à l’heure d’hiver ⌚ Pour éviter toute confusion dans les schedulers sur DataMa (par exemple pour DataMa Prep, les exports statics ou par mail), l’heure affichée est l’heure en UTC +0, donc indépendante de votre fuseau horaire.
+PS : restez au courant des dernières informations grâce aux notifications sur la home page 😉
+![Tip 60]({{site.url}}/{{site.baseurl}}/assets/images/tip/60.png)
+
+## Tip of the week #59
+Que vous soyez sur Compare, Pivot ou Impact, vous avez sûrement vu un segment nommé "Other (<2% of the total)" qui permet de regrouper tous les petits segments en un seul pour alléger la visualisation et l’interprétation des résultats. Néanmoins, vous pouvez régler ce paramètre en allant dans "Settings" → "Aggregation in %", vous pourrez alors:
+  * soit augmenter ce niveau d’agrégation jusqu’à 10%
+  * soit le diminuer pour rentrer dans le détail de ce segment
+![Tip 59]({{site.url}}/{{site.baseurl}}/assets/images/tip/59.png)
+
+## Tip of the week #58
+Connaissez-vous le dynamic filter sur la Waterfall? Après avoir zoomé sur une étape, faites un clic droit sur un des segments affichés et sélectionnez soit :
+  * "Keep only": pour filtrer uniquement sur le segment de la dimension sélectionné
+  * "Exclude" : pour exclure le segment en question
+Les filtres correspondant se mettent automatiquement à jour dans le menu de gauche 😉
+PS: pour revenir à l'état initial, il faut réinitialiser les filtres dans le menu de gauche
+![Tip 58]({{site.url}}/{{site.baseurl}}/assets/images/tip/58.gif)
+
+## Tip of the week #57
+Dans DataMa Compare, si vous souhaitez zoomer sur plusieurs étapes en même temps, vous pouvez forcer l'étape ouverte à rester visuellement ouverte sur la dimension sélectionnée, soit:
+  * à l’aide du petit cadenas 🔒 en haut à droite de l’étape zoomée
+  * avec un clic droit sur l'étape, puis sélectionnez «Lock»
+Pour déverrouiller l'étape, refaite la même chose en cliquant sur le cadenas ou avec le click droit vous aurez l’option « Unlock » 🔓
+![Tip 57]({{site.url}}/{{site.baseurl}}/assets/images/tip/57.gif)
+
+## Tip of the week #56
+Dans votre waterfall, si vous souhaitez visualiser plus finement les variations, vous pouvez décaler l'axe des Y pour qu'il ne démarre pas à 0, pour cela il vous suffit de 3 clics:
+Aller dans "Settings" → puis "Display Options" → désactiver le toggle: "Y Axis Include 0" et appuyer sur "Entrer" 😉
+![Tip 56]({{site.url}}/{{site.baseurl}}/assets/images/tip/56.gif)
+
+## Tip of the week #55
+N'oubliez pas de sauvegarder votre workbook 💾
+Tout ce que vous avez à faire, c'est appuyer sur “Ctrl + S” sur votre clavier pour que cela sauvegarde vos modification dans DataMa!
+![Tip 55]({{site.url}}/{{site.baseurl}}/assets/images/tip/55.png)
+
+## Tip of the week #54
+De nouveaux connecteurs sont disponibles dans DataMa Prep 🥳
+  * L'Email Connector: il permet de récupérer des fichiers CSV depuis vos mails, ce qui vous permet de récupérer simplement des données de différentes plateformes tel que Teads, Forms, Pinterest et bien d'autres encore.
+  * Snowflake Connector: avec une simple connexion à votre compte, vous pourrez importer directement votre data Snowflake dans DataMa
+![Tip 54]({{site.url}}/{{site.baseurl}}/assets/images/tip/54.gif)
+
+## Tip of the week #53
+Dans DataMa vous avez la possibilité de modifier les unités de vos étapes et de votre KPI. Il suffit d’aller dans le menu metric relation pour changer l’unité et possiblement aussi le nom de vos étapes.
+NB: quand vous comparer une dimension en %, DataMa l’interprète et affiche les variations de % en ‘pts’
+![Tip 53]({{site.url}}/{{site.baseurl}}/assets/images/tip/53.gif)
+
+## Tip of the week #52
+Une petite pub pour changer, mais qui pourrait vous intéresser...
+Connaissez-vous le système de parrainage chez DataMa ?
+Parce que nos clients sont nos meilleurs porte-paroles, petit rappel pour ceux qui ne s'en souviennent plus:
+  * vous gagnez -20% sur votre licence DataMa pendant 1 an pour toute souscription d'une client référencé par vous ! 🥳
+  * et les goodies qui vont avec... à vous la doudoune DataMa 😊
+Au passage on vous partage quelques références Q2 chez vous ou ailleurs, pour vous donner des nouvelles et des idées 💡
+![Tip 52]({{site.url}}/{{site.baseurl}}/assets/images/tip/52.png)
+
+## Tip of the week #51
+Petite astuce pour les utilisateurs de DataMa, dans DataMa Compare quand vous souhaitez faire un breakdown d’une étape de la Waterfall, DataMa vous fera par défaut un split par la dimension avec l’ « interest score » le plus élevé.
+Il vous est néanmoins possible de choisir un breakdown par une autre dimension en faisant un clic droit sur l’étape en question et en choisissant « split by …» et vous verrez apparaitre les dimensions disponibles avec l’« interest score » associé. Plus ce dernier est élevé, les variations des segments seront pertinentes
+![Tip 51]({{site.url}}/{{site.baseurl}}/assets/images/tip/51.gif)
+
+## Tip of the week #50
+Envie d’intégrer DataMa directement dans vos dashboards? Vous êtes sur :
+l’image
+* Tableau? Utilisez l’extension DataMa dans Tableau (voir la documentation)
+l’image
+* PowerBI? Suivez ce processus pour utiliser l'extention DataMa
+l’image
+* Pour tout autre solution de datavisualisation en ligne comme DataStudio, vous pouvez utiliser les exports statics, que vous pouvez plannifier (avec l’option «Automatically Schedule») pour que les graphiques s’actualisent avec votre source.
+PS : si vous voulez exporter tous les graphiques exportables d’une solution, faites l’export depuis le bouton d’export à côté du bouton « Save », sinon exporter seulement le graphique voulu avec le bouton au niveau du graphique « Export graph as Public URL »
+![Tip 50]({{site.url}}/{{site.baseurl}}/assets/images/tip/50.gif)
+
+## Tip of the week #49
+Une nouvelle release de DataMa inclut un nouveau connecteur
+Testez de manière très simple le connecteur GA4, pour par exemple vérifier la cohérence de vos données avec celle de GA3, pour cela :
+  * Préparez votre DataFlow en 3 clics comme sur l’image
+  * Ouvrez le dans DataMa Compare
+  * Identifiez ce qu’il faut améliorer/corriger
+
+![Tip 49]({{site.url}}/{{site.baseurl}}/assets/images/tip/49.jpg)
+
+## Tip of the week #48
+Vous souhaitez que la plage de date de votre use case évolue en fonction de l’actualisation de votre source, c’est très simple lors de la création de votre use case, sélectionnez la période souhaitée, puis au moment de la sauvegarde, vérifiez que la case «Dynamic saving of Start & End» est bien cochée ✅  
+Dans le cas où votre source s’actualise quotidiennement 📅 et que vous voulez faire par exemple une analyse hebdomadaire comparée à la même semaine l’année dernière, il vous faut créer une dimension Year-Week et répéter l’opération ci-dessus en définissant cette nouvelle dimension en Start/End. Ce cas d’usage peut-être mis en place pour des analyses:
+  * Hebdomadaire
+  * Mensuelle
+  * Trimestrielle
+  * Annuelle
+  * Custom (si vous souhaitez avoir une actualisation de la donnée non pas de la plus récente mais de la plus ancienne, vous pouvez décocher l’option « Use decreasing order » qui est sous «Dynamic saving of Start & End» dans le menu Save As)
+⚠ Remarque: il faut que votre source de donnée soit
+  * comprenne la donnée Full Last Year et This Year To Date
+  * ou ait exactement le même nombre de semaine/mois/... à chaque actualisation.
+
+![Tip 48]({{site.url}}/{{site.baseurl}}/assets/images/tip/48.gif)
+
 ## Tip of the week #47
 Le saviez-vous ? Il vous est possible de télécharger la source utilisée par DataMa, pour cela aller dans l’onglet Source, puis juste en dessous « Full Data Source » cliquez sur l’icône Excel pour télécharger votre source au format Excel.
 Pratique quand la source a été créée dans DataMa prep ou via le connecteur GA et qu'on veut vérifier ses chiffres !
