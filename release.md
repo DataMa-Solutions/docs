@@ -18,9 +18,10 @@ description: Find here the **latest releases** of DataMa Solutions
 * **Impact:**
     * Anomaly alert first message now includes the value of each detected anomaly for each KPI
     * Anomaly explanation now takes into account the advanced settings of metric relation, in particular the manually excluded dimensions as potential explainers for a given step
+    * All charts are now available for (scheduled) static export on a given URL
 
 * **Prep:**
-    * Added "ISOWEEK()" and "WEEK()" fonctions to calculated Dates
+    * Added "WEEKDAY()","ISOWEEK()" and "WEEK()" fonctions to calculated Dates
     * 🤫 DataMa Prep is about to host the brand new version of DataMa platform, including some really exciting features. Stay tuned to enter in the beta tester program!
 
 ### 2022-10-25:
