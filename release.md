@@ -5,6 +5,25 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2022-11-30:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including no "Other <..." segment when only one segment bucketed and alphabetical ranking of filter values)
+
+* **Compare:**
+    * Segment covariance is now included in the calculation of relative weight of mix and performance effects
+    * Display of "Out of Scope" and "Compare of Compare" variations have been improved for better readability in the waterfall
+    * Other bug fixes and minor improvements (No more "Remaining" segment in Waterfall when only one segment Remaining, Removed "Unknown" NA values in Compare table, significance calculation in Compare now available again, not creating comparable date when only one day on each side of comparison)
+
+* **Impact:**
+    * Anomaly alert first message now includes the value of each detected anomaly for each KPI
+    * Anomaly explanation now takes into account the advanced settings of metric relation, in particular the manually excluded dimensions as potential explainers for a given step
+    * All charts are now available for (scheduled) static export on a given URL
+
+* **Prep:**
+    * Added "WEEKDAY()","ISOWEEK()" and "WEEK()" fonctions to calculated Dates
+    * 🤫 DataMa Prep is about to host the brand new version of DataMa platform, including some really exciting features. Stay tuned to enter in the beta tester program!
+
 ### 2022-10-25:
 
 * **General:**
