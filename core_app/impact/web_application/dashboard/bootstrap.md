@@ -1,4 +1,8 @@
-# Bootsrap test
+---
+title: Boostraping
+description: Calculating significance using Boostrap test
+layout: page
+---
 
 Bootstrap testing is a very efficient statistic approach for reading out AB test results as we explain in this [article](https://www.linkedin.com/pulse/ab-test-optimisation-earlier-decisions-new-readout-de-b%C3%A9naz%C3%A9/?trk=portfolio_article-card_title)
 While it is indeed quite efficient, the calculation time is relatively high, which makes this test something you might want to use only in specific cases. Because of this large computation time, DataMa disables by default the calculation of the significance for each and every subsegments, but you can still re-enable that calculation by toggling the appropriate enabler at the bottom of the page.

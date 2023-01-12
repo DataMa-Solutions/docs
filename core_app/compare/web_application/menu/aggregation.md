@@ -13,4 +13,4 @@ layout: page
 
 Segments are now aggregated at the requested level
 
-![aggregation]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/Aggregation-1.gif)
+![aggregation]({{site.url}}/{{site.baseurl}}/assets/images/AggregationPercent.gif)

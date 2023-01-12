@@ -20,7 +20,7 @@ See details [here]({{site.url}}/{{site.baseurl}}/core_app/journey/web_applicatio
 ## Descriptive comparison
 Compare journeys , visualize their similarities and their differences.
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/description_comparison)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/descriptive_comparison)
 
 ## Detailed View
 Analyse in detail a specific touch point.

@@ -1,0 +1,16 @@
+---
+---
+[
+  {% for page in site.pages %}
+    {% if page.url != '/search.json' and page.url != '/tip_of_the_week.html' %}
+      {
+        "title": "{{ page.title | escape }}",
+        "tags": "{{ page.tags }}",
+        "keywords": "{{page.keywords}}",
+        "description": "{{page.description | strip | escape}}",
+        "url": "{{site.url}}/{{site.baseurl}}{{page.url}}",
+        "body": "{{page.content | strip_newlines | strip_html | strip | escape }}"
+      } {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+]
