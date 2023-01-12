@@ -7,7 +7,17 @@ img_width: 600
 img_height: 300
 description: |
   Practical DataMa use cases from real clients
+  
 ---
+<h2> 💡 Use Case of the Month #3 </h2>
+
+One of the last things you want to see is your conversion rate dropping 😱. But when it happens, identifying the cause of the drop is the first step to getting conversion back on track and preventing future declines 📉. In this month's use case, find out how a major hospitality player used DataMa to investigate the cause of their falling conversion rate while seeing increased traffic and average booking value. You can leverage these same methods to:
+
+🧮 Break down conversion rate in your market equation to examine contributing factors, such as occupancy rate
+🔧 Easily pivot or unpivot your dataset directly in DataMa, eliminating the need for external data prep
+🤔Understand mix effects on multiple dimensions that may affect conversion
+
+https://www.datama.io/2022/10/12/use-case-4-occupancy-rate-impact-on-conversion/
 
 <h2>💡 Use Case of the Month #2 </h2>
 
