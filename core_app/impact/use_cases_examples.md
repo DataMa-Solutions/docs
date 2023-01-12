@@ -1,5 +1,3 @@
-# Use cases examples
-
 <!-- todo : create some use cases examples & add to the sidebar -->
 
 Please check all live examples on [demo.datama.fr](http://solutions.datama.fr/) !
