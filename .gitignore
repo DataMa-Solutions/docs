@@ -12,3 +12,4 @@ Gemfile
 .RData
 .Ruserdata
 **/.DS_Store
+_config.yml
