@@ -7,24 +7,63 @@
 # OPTIONAL : type: separated // Add line after the bloc in the aside
 - name: Solutions
   type: separated
-  link: /web_application.html #OK
+  link: /web_application.html 
 - name: New version of DataMa
-  link: /core_app/new_docs.html
+  link: /core_app/new_docs.html #done
   subnav:
-    - name: Interface
-      link: /core_app/new/interface.html
+    - name: Interface #done
+      link: /core_app/new/interface/interface.html
       subnav:
-        - name: 1.1. Solutions header
-          link: /core_app/new/interface.html
+        - name: 1.1. Homepage
+          link: /core_app/new/interface/homepage.html
           subnav:
-            - name: 1.1.a. File
-              link: /core_app/new/interface/file.html
-            - name: 1.1.a. Edit
-              link: /core_app/new/interface/edit.html
-            - name: 1.1.a. Data
-              link: /core_app/new/interface/data.html
-            - name: 1.1.a. Help
-              link: /core_app/new/interface/help.html
+            - name: 1.1.a. Workbooks Management
+              link: /core_app/new/interface/workboobs_management.html
+            - name: 1.1.b. Folders
+              link: /core_app/new/interface/folders.html
+            - name: 1.1.c. Get Inspired
+              link: /core_app/new/interface/get_inspired.html
+              subnav:
+                - name: 1.1.c.a. Use Cases Examples
+                  link: /core_app/new/interface/use_cases_examples.html
+                - name: 1.1.c.b. Web performance (Google Analytics)
+                  link: /core_app/new/interface/web_performance_GA.html
+                - name: 1.1.c.d. Marketing campaign
+                  link: /core_app/new/interface/marketing_campaign.html
+                - name: 1.1.c.f. Marketing continuous
+                  link: /core_app/new/interface/marketing_continuous.html
+                - name: 1.1.c.g. Marketing scope
+                  link: /core_app/new/interface/marketing_scope.html
+                - name: 1.1.c.h. Product AB test
+                  link: /core_app/new/interface/product_AB_test.html
+                - name: 1.1.c.i. Content Square
+                  link: /core_app/new/interface/Content_CS.html
+                - name: 1.1.c.j. Marketing Continuous
+                  link: /core_app/new/interface/marketing_continuous.html
+        - name: 1.2. Solutions header #done
+          link: /core_app/new/interface/header/header.html
+          subnav:
+            - name: 1.2.a. File #done
+              link: /core_app/new/interface/header/file.html
+            #- name: 1.2.a. Edit
+            #  link: /core_app/new/interface/edit.html
+            - name: 1.2.b. Data #done
+              link: /core_app/new/interface/header/data.html
+            - name: 1.2.c. Help #done
+              link: /core_app/new/interface/header/help.html
+        - name: 1.3. Solutions subheader #done
+          link: /core_app/new/interface/subheader/subheader.html
+          subnav:
+            - name: 1.3.a. Dimension Comparison  #done
+              link: /core_app/new/interface/subheader/dimension_comparison.html
+            - name: 1.3.b. Dimension Helper  #done
+              link: /core_app/new/interface/subheader/dimension_helper.html
+        - name: 1.4. Filters  #done
+          link: /core_app/new/interface/filters/filters.html
+        - name: 1.5. Metrics relation 
+          link: /core_app/new/interface/metricsRel/metrics_relation.html
+        - name: 1.6. Settings 
+          link: /core_app/new/interface/settings/settings.html
     - name: Compare
       link: /core_app/new/compare.html
 - name: Old version of DataMa
