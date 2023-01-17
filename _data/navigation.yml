@@ -64,6 +64,9 @@
           link: /core_app/new/interface/metricsRel/metrics_relation.html
         - name: 1.6. Settings 
           link: /core_app/new/interface/settings/settings.html
+          subnav:
+            - name: 1.6.a aggregation
+              link: /core_app/new/interface/settings/aggregation.html
     - name: Compare
       link: /core_app/new/compare.html
 - name: Old version of DataMa
