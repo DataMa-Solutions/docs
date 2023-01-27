@@ -10,6 +10,102 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+## Tip of the week #61
+In the Impact solution, DataMa offers you the possibility to analyse the pre-post variation of an intervention on a test group. You will find use cases whenever you want to test:
+  * a new SEO strategy
+  * the impact of a new advertising campaign
+Find the detailed analysis in our [documentation](https://datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/causal_impact.html)
+![Tip 61]({{site.url}}/{{site.baseurl}}/assets/images/tip/61.gif)
+
+## Tip of the week #60
+As in many countries, last weekend we switched to winter time ⌚ To avoid confusion in the schedulers on DataMa (e.g. for DataMa Prep, statics exports or by mail), the time displayed is the time in UTC +0, so it's independent of your time zone.
+PS : stay informed of the latest information thanks to the notifications on the home page 😉
+![Tip 60]({{site.url}}/{{site.baseurl}}/assets/images/tip/60.png)
+
+## Tip of the week #59
+Whether you're on Compare, Pivot or Impact, you've probably seen a segment named "Other (<2% of the total)" which aggregates all the smaller segments into one to lighten the visualization and interpretation of results. Nevertheless, you can adjust this setting by going to "Settings" → "Aggregation in %", you can then:
+  * either increase this aggregation level up to 10%
+  * or decrease it to get into the detail of this segment
+![Tip 59]({{site.url}}/{{site.baseurl}}/assets/images/tip/59.png)
+
+## Tip of the week #58
+Do you know the dynamic filter on the Waterfall? After zooming in on a step, right click on one of the displayed segments and select either :
+  * "Keep only": to filter only on the selected segment
+  * "Exclude": to exclude the segment in question
+The corresponding filters are automatically updated in the left menu :clin_d'œil:
+PS: to return to the initial state, you must reset the filters in the left-hand menu
+![Tip 58]({{site.url}}/{{site.baseurl}}/assets/images/tip/58.gif)
+
+## Tip of the week #57
+In DataMa Compare, if you want to zoom in on several steps at the same time, you can force the open step to remain visually open on the selected dimension, either:
+  * with a click on the lock 🔒 at the top right of the zoomed step
+  * with a right click on the step, then select "Lock"
+To unlock the step, do the same thing by clicking on the lock or with the right click you will have the option "Unlock" 🔓
+![Tip 57]({{site.url}}/{{site.baseurl}}/assets/images/tip/57.gif)
+
+## Tip of the week #56
+In your waterfall, if you want to visualize the variations more finely, you can shift the Y axis so it doesn't start at 0, for that you just need 3 clicks:
+Go to "Settings" → then "Display Options" → disable the toggle: "Y Axis Include 0" and press "Enter" 😉
+![Tip 56]({{site.url}}/{{site.baseurl}}/assets/images/tip/56.gif)
+
+## Tip of the week #55
+Don’t forget to save you workbook 💾
+Did you know that all you had to do was press the “Ctrl + S” shortcut on your keyboard to save your workbook in DataMa?
+![Tip 55]({{site.url}}/{{site.baseurl}}/assets/images/tip/55.png)
+
+## Tip of the week #54
+New connectors are available in DataMa Prep 🥳
+  * The Email Connector: it allows you to load CSV files from your emails, which helps you to easily retrieve data from different platforms such as Teads, Forms, Pinterest and many more.
+  * Snowflake Connector: with a simple connection to your account, you can directly import your Snowflake data into DataMa
+![Tip 54]({{site.url}}/{{site.baseurl}}/assets/images/tip/54.gif)
+
+## Tip of the week #53
+
+![Tip 53]({{site.url}}/{{site.baseurl}}/assets/images/tip/53.gif)
+
+## Tip of the week #52
+A little ad for a change, but that might interest you...
+Do you know the DataMa sponsorship system?
+Because our customers are our best spokespersons, a little reminder for those who don't remember:
+  * you earn -20% on your DataMa license for 1 year for any subscription of a customer referenced by you! 🥳
+  * and the goodies that go with it... the DataMa down jacket is yours 😊
+By the way, we share with you some Q2 references at home or elsewhere, to give you news and ideas 💡
+![Tip 52]({{site.url}}/{{site.baseurl}}/assets/images/tip/52.png)
+
+## Tip of the week #51
+Little tip for DataMa users, in DataMa Compare when you want to do a breakdown of a Waterfall step, DataMa will by default make you a split by the dimension with the highest "interest score".
+However, you can choose a breakdown by another dimension by right-clicking on the step you choose and clicking “split by…” and you will see the available dimensions appear with the associated “interest score”. Higher is the latter, more relevant the variations of the segments will be.
+![Tip 51]({{site.url}}/{{site.baseurl}}/assets/images/tip/51.gif)
+
+## Tip of the week #50
+You want to integrate DataMa directly into your dashboards? Are you working on :
+  * Tableau? Use the DataMa extension in Tableau (see documentation)
+  * PowerBI? Follow this process to use the DataMa extension
+  * For any other online data visualization solution like DataStudio, you can use static exports, that you can schedule (with the “Automatically Schedule” option) so that the graphs update with your source.
+PS: if you want to export all the exportable graphs of a solution, do the export from the export button next to the "Save" button, otherwise export only the desired graph with the button at the level of the graph "Export graph as Public URL »
+![Tip 50]({{site.url}}/{{site.baseurl}}/assets/images/tip/50.gif)
+
+## Tip of the week #49
+A new DataMa release includes a new connector!
+Test the GA4 connector in a very simple way, for example to check the consistency of your data with that of GA3, for this:
+  * Prepare your DataFlow in 3 clicks as in the image
+  * Open it in DataMa Compare
+  * Identify what needs to be improved/corrected
+![Tip 49]({{site.url}}/{{site.baseurl}}/assets/images/tip/49.jpg)
+
+## Tip of the week #48
+You want the date range of your use case to evolve according to the update of your source, it's very simple when creating your use case, select the desired period, then when saving, check that the “Dynamic saving of Start & End” box is checked ✅
+If your source is updated daily 📅 and you want to do, for example, a weekly analysis compared to the same week last year, you need to create a Year-Week dimension and repeat the above operation by defining this new dimension in Start/End. This use case can be set up for analyses:
+  * Weekly
+  * Monthly
+  * Quarterly
+  * Annual
+  * Custom (if you want to update the data not from the most recent but from the oldest, you can uncheck the option "Use decreasing order" which is under "Dynamic saving of Start & End" in the Save As menu )
+⚠ Note: your data source must either
+  * include Full Last Year and This Year To Date data
+  * or have exactly the same number of weeks/months/... at each update
+![Tip 48]({{site.url}}/{{site.baseurl}}/assets/images/tip/48.gif)
+
 ## Tip of the week #47
 Did you know ? You can download the source used by DataMa, to do this go to the Source tab, then just below “Full Data Source” click on the Excel icon to download your source in Excel format.
 Useful when the source was created in DataMa Prep or via the GA connector and you want to check its figures!
