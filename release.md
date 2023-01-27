@@ -5,6 +5,32 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+
+### 2022-12-20:
+
+* **General:**
+    * Lines with only 0 on metrics do not trigger a warning error anymore, especially in slack/ mail messages
+
+* **Compare:**
+    * Covariance distibution for impact calculations now takes into account the formula linking the metrics. This allows to avoid distributing covariance to independant KPIs (e.g. if your market equation is `Total_Revenues = Quantity_Existing_Business * Avg_Price_Existing_Business + Revenue_new_business` , no covariance will be distributed on `Revenue_new_business` if market equation, as this KPI is independant from others)
+
+### 2022-12-15: New app beta release
+
+DataMa v2 has been released for beta testers on [app.datama.io](https://app.datama.io) ! 
+
+This is an important step on a major migration process scheduled for 2023.You can ask to your Customer Success Manager to get a tour on the new platform, which is a beta version for now.
+
+While full documentation is still work in process, here is a quick preview of the main benefits of the new app:
+
+* The Home page has been significantly improved:
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/assets/images/DataMa_v2_Home.jpg"/></center>
+
+* The Prep page now has new functionalities:
+<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/assets/images/DataMa_v2_Flow.jpg"/></center>
+
+* DataMa Solutions are now accessible in what used to be the Prep environment:
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/assets/images/DataMa_v2_Solution.jpg"/></center>
+
 ### 2022-11-30:
 
 * **General:**
