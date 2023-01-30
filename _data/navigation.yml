@@ -14,32 +14,44 @@
     - name: Interface #done
       link: /core_app/new/interface/interface.html
       subnav:
-        - name: 1.1. Homepage
+        - name: 1.1. Homepage #done
           link: /core_app/new/interface/homepage/homepage.html
           subnav:
-            - name: 1.1.a. Header
+            - name: 1.1.a. Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
-            - name: 1.1.b. Workbooks Management
+            - name: 1.1.b. Workbooks Management #done
               link: /core_app/new/interface/homepage/workboobs_management.html
-            - name: 1.1.c. Get Inspired
+            - name: 1.1.c. Get Inspired #done
               link: /core_app/new/interface/homepage/get_inspired.html
               subnav:
                 - name: 1.1.c.a. Use Cases Examples
-                  link: /core_app/new/interface/use_cases_examples.html
-                - name: 1.1.c.b. Web performance (Google Analytics)
-                  link: /core_app/new/interface/web_performance_GA.html
-                - name: 1.1.c.d. Marketing campaign
-                  link: /core_app/new/interface/marketing_campaign.html
-                - name: 1.1.c.f. Marketing continuous
-                  link: /core_app/new/interface/marketing_continuous.html
+                  link: /core_app/new/interface/homepage/get_inspired/use_cases_examples.html
+                - name: 1.1.c.b. Web performance (Google Analytics) #done
+                  link: /core_app/new/interface/homepage/get_inspired/web_performance_GA.html
+                - name: 1.1.c.d. Marketing campaign #done
+                  link: /core_app/new/interface/homepage/get_inspired/marketing_campaign.html
+                - name: 1.1.c.f. Marketing continuous #done
+                  link: /core_app/new/interface/homepage/get_inspired/marketing_continuous.html
                 - name: 1.1.c.g. Marketing scope
-                  link: /core_app/new/interface/marketing_scope.html
-                - name: 1.1.c.h. Product AB test
-                  link: /core_app/new/interface/product_AB_test.html
+                  link: /core_app/new/interface/homepage/get_inspired/marketing_scope.html
+                - name: 1.1.c.h. Product AB test #done
+                  link: /core_app/new/interface/homepage/get_inspired/product_AB_test.html
                 - name: 1.1.c.i. Content Square
-                  link: /core_app/new/interface/Content_CS.html
-                - name: 1.1.c.j. Marketing Continuous
-                  link: /core_app/new/interface/marketing_continuous.html
+                  link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
+                - name: 1.1.c.j. Finance Control
+                  link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
+                - name: 1.1.c.k. Retail Performance
+                  link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+            - name: 1.1.d. Admin #done
+              link: /core_app/new/interface/homepage/admin.html
+              subnav:
+                - name: 1.1.d.a. Security #done
+                  link: /core_app/new/interface/homepage/admin/security.html
+                - name: 1.1.d.b. Statistic #done
+                  link: /core_app/new/interface/homepage/admin/statistic.html
+                - name: 1.1.d.c. Licences #done
+                  link: /core_app/new/interface/homepage/admin/licences.html
+
         - name: 1.2. Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
@@ -62,16 +74,44 @@
               link: /core_app/new/interface/subheader/filters.html
             - name: 1.3.d Metrics relation 
               link: /core_app/new/interface/subheader/metrics_relation.html
-            - name: 1.3.e Settings 
+            - name: 1.3.e Settings #done
               link: /core_app/new/interface/subheader/settings.html
               subnav:
-                - name: 1.3.e.a aggregation
+                - name: 1.3.e.a aggregation #done
                   link: /core_app/new/interface/subheader/settings/aggregation.html
-                - name: 1.3.e.b Others settings
+                - name: 1.3.e.b Others settings #done
                   link: /core_app/new/interface/subheader/settings/other_settings.html
 
-    - name: Compare
+    - name: Compare (Doc in progress)
       link: /core_app/new/compare.html
+    - name: Detect #done
+      link: /core_app/new/detect/detect.html
+      subnav:
+        - name: General Introduction #done
+          link: /core_app/new/detect/detect_introduction.html
+        - name: Detect interface #done
+          link: /core_app/new/detect/detect_interface.html
+
+    - name: Pivot (Doc in progress)
+      link: /core_app/new/pivot/pivot.html
+      subnav:
+        - name: General Introduction #done
+          link: /core_app/new/pivot/pivot_introduction.html
+        - name: Pivot interface
+          link: /core_app/new/pivot/pivot_interface.html
+
+    - name: Assess (Doc in progress)
+      link: /core_app/new/assess.html
+    - name: Journey (Doc in progress)
+      link: /core_app/new/journey.html
+    - name: Prep (Doc in progress)
+      link: /core_app/new/prep.html
+    - name: Admin 
+      link: /core_app/new/admin.html
+    - name: Integrations 
+      link: /core_app/new/integrations.html
+
+
 - name: Old version of DataMa
   link: /core_app/old_docs.html
 
