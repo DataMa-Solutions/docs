@@ -8,6 +8,44 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+## Tip of the week #66
+Avec la nouvelle version de DataMa arrive une nouvelle Home 😃
+En plus des fonctionnalités existantes, vous pouvez désormais:
+  * Organiser les uses cases dans des dossiers avec de jolis emojis 📁
+  * Retrouver visuellement à quelles sources ils sont connectés (sous le nom de votre use case, il y aura les logos des sources, par exemple: celui de deux Google Sheet et un Google Analytics), s'ils sont schedulés, et s'ils sont exportés
+  * Voir quand ils ont été créé/ edités pour la dernière fois
+  * Ajouter un lien dans la description du worbook vers de la documentation interne (en cliquant sur les trois petits points en bas à droite et en ajoutant un URL sur "Learn More...")
+![Tip 66]({{site.url}}/{{site.baseurl}}/assets/images/tip/66.png)
+
+## Tip of the week #65
+Quand on compare deux segments dans le cas d’un AB test ou quand on compare deux périodes, on peut se poser la question : la variation est-elle significative? Dans DataMa, il vous suffit simplement d’activer dans Settings le toggle « Significance test », vous pouvez ensuite choisir
+  * le niveau de confiance que vous souhaitez avoir avec le paramètre
+  * le type de test (forecast / volatilité quand vous comparez deux périodes, frequentist/ bayesian quand vous comparez deux variantes d'AB test)
+Sur la waterfall, un astérisque apparaitra à côté des variations qui sont significatives, cela s'applique à la fois au KPI principal comme à chacune des étapes 😉
+![Tip 65]({{site.url}}/{{site.baseurl}}/assets/images/tip/65.gif)
+
+## Tip of the week #64
+Dans le cas où vous avez une partie de vos données qui est « non comparable » dans votre analyse DataMa Compare (par exemple la fermeture d’un marché), mais vous souhaitez tout de même les voir apparaître à part dans votre Waterfall, pour ne comparer vos KPIs que sur des choses comparables (🍎 to 🍎):
+  * Créez une colonne « Scope » contenant la mention « In » pour ce que l’on veut conserver ou « Out » pour ce que l’on souhaite exclure
+  * DataMa exclura automatiquement le « Out » de l’analyse et le fera apparaître dans un bloc à part de la waterfall, en bleu clair « Out of Scope »
+Note: vous pouvez aussi traiter le « Out of scope » comme une étape à part entière en le faisant apparaitre explicitement dans l'équation de marché. Pour information la covariance est maintenant redistribuée que sur les étapes qui ne sont pas indépendantes (pour ne pas mélanger des morceaux de 🍎 avec des 🍐)
+![Tip 64]({{site.url}}/{{site.baseurl}}/assets/images/tip/64.png)
+
+## Tip of the week #63
+Pour faciliter la communication et le partage de l’analyse augmentée, DataMa se déploie sur une nouvelle solution de Data Visualisation:
+  * Après l’extension Tableau Software,
+  * DataMa arrive sur Data Studio/Looker Studio 🥳
+  * La prochaine étape sur Power BI !
+![Tip 63]({{site.url}}/{{site.baseurl}}/assets/images/tip/63.gif)
+
+## Tip of the week #62
+La nouvelle interface de DataMa arrive bientôt! (Stay tuned 😃). Spoiler: elle se base sur l'interface DataMa Prep à laquelle vous avez déjà accès. C'est l'occasion de tester DataMa Prep si vous ne l'avez pas encore fait!😉
+Sur la HomePage, cliquez sur Data Flows puis sur le ➕ et vous pourrez:
+  * Retrouver tous les connecteurs que vous aviez et bien d'autres encore (BigQuery, Snowflake, Google Trends ...)
+  * Nettoyer et préparer vos colonnes
+  * Scheduler l'actualisation de votre source de données
+![Tip 62]({{site.url}}/{{site.baseurl}}/assets/images/tip/62.png)
+
 ## Tip of the week #61
 DataMa vous propose dans la solution Impact d'analyser la variation pre-post une intervention sur un groupe test. Vous trouverez des cas d'usage quand vous voulez tester:
   * une nouvelle stratégie SEO
