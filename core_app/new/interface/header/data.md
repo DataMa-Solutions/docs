@@ -1,5 +1,5 @@
 ---
-title: Data
+title: Data menu
 description: Find here how you can use the "Data" menu of the header of the DataMa Solutions
 layout: page
 ---

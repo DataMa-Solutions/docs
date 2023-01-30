@@ -15,14 +15,14 @@
       link: /core_app/new/interface/interface.html
       subnav:
         - name: 1.1. Homepage
-          link: /core_app/new/interface/homepage.html
+          link: /core_app/new/interface/homepage/homepage.html
           subnav:
-            - name: 1.1.a. Workbooks Management
-              link: /core_app/new/interface/workboobs_management.html
-            - name: 1.1.b. Folders
-              link: /core_app/new/interface/folders.html
+            - name: 1.1.a. Header
+              link: /core_app/new/interface/homepage/homepage_header.html
+            - name: 1.1.b. Workbooks Management
+              link: /core_app/new/interface/homepage/workboobs_management.html
             - name: 1.1.c. Get Inspired
-              link: /core_app/new/interface/get_inspired.html
+              link: /core_app/new/interface/homepage/get_inspired.html
               subnav:
                 - name: 1.1.c.a. Use Cases Examples
                   link: /core_app/new/interface/use_cases_examples.html
@@ -58,15 +58,18 @@
               link: /core_app/new/interface/subheader/dimension_comparison.html
             - name: 1.3.b. Dimension Helper  #done
               link: /core_app/new/interface/subheader/dimension_helper.html
-        - name: 1.4. Filters  #done
-          link: /core_app/new/interface/filters/filters.html
-        - name: 1.5. Metrics relation 
-          link: /core_app/new/interface/metricsRel/metrics_relation.html
-        - name: 1.6. Settings 
-          link: /core_app/new/interface/settings/settings.html
-          subnav:
-            - name: 1.6.a aggregation
-              link: /core_app/new/interface/settings/aggregation.html
+            - name: 1.3.c. Filters  #done
+              link: /core_app/new/interface/subheader/filters.html
+            - name: 1.3.d Metrics relation 
+              link: /core_app/new/interface/subheader/metrics_relation.html
+            - name: 1.3.e Settings 
+              link: /core_app/new/interface/subheader/settings.html
+              subnav:
+                - name: 1.3.e.a aggregation
+                  link: /core_app/new/interface/subheader/settings/aggregation.html
+                - name: 1.3.e.b Others settings
+                  link: /core_app/new/interface/subheader/settings/other_settings.html
+
     - name: Compare
       link: /core_app/new/compare.html
 - name: Old version of DataMa

@@ -6,12 +6,12 @@ layout: page
 
 > **Metric relation** describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/metricsRel/images/Edit_metricsrel.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/Edit_metricsrel.jpg"/></center>
 
 ## Change metrics relation
 > Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/metricsRel/images/metrics_relation.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/metrics_relation.jpg"/></center>
 
 > Instead of "prod", you can build your own market equation, such a "sum" for examples or even more customized one.
 
@@ -21,12 +21,12 @@ By default DataMa create a product of ratio (prod) with all the steps defined in
 But you can change it with "sum" to add each steps. e.g: <span style="color:red">Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1) </span>.
 
 When customising your metrics relation you should write it as below using each step between brackets (e.g. [1]) :
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/metricsRel/images/custom_metricsRel.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/custom_metricsRel.jpg"/></center>
 When modifying a market equation make sure your calculation is still correct. in your dataset your market equation of a specific row should be equal to the last column of your dataset. 
 
 ## What's mathematically a market equation
 
-> Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/old/header/input/source.md), in order to compute the **KPI you want to explain**.
+> Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/old/header/input/source.html), in order to compute the **KPI you want to explain**.
 
 At DataMa, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
 
