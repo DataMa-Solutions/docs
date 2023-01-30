@@ -11,7 +11,7 @@ The filters menu is composed of 2 main options for each dimension of your datase
 - run the waterfall on 1 or multiple segments of the dimensions  
 - exclude some dimensions/segments from the analysis
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/filters/images/filters.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters.jpg"/></center>
 
 
 ## **Filter:** 
@@ -20,7 +20,7 @@ Filtering on a subset
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/filters/images/filters_segment.jpg"/></center>
 
 Segment can also be filtered with a right click on the segment in the waterfall. The calculation will re-run automatically.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/filters/images/filters_exclude.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_exclude.jpg"/></center>
 
 ## **Filters options:**
 
@@ -28,15 +28,15 @@ Segment can also be filtered with a right click on the segment in the waterfall.
 - **Use reguler expresion:** Filter by using reguler expression
 - **Exclude this dimension:** This dimension will be ignore from the analysis and is not going to be raised as an explanation factory.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/filters/images/filters_advanced.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_advanced.jpg"/></center>
 
 
 ## **Excluded dimension:** 
 Dimension (column of your dataset) you want to exclude from the analysis. Click on the cross of the pill to exclude the dimension.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/filters/images/filters_Cross_exclude.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_Cross_exclude.jpg"/></center>
 
 You then need to click on the bin to re-include the dimension.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/filters/images/filters_excludedDim.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_excludedDim.jpg"/></center>
 
 
 Don't hesitate to contact us if you need any other connexion with your data.
