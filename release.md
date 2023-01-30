@@ -5,10 +5,70 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-01-27:
+
+* **General:**
+    * DataMa's new platform is now accessible for all clients in beta. Try it out on [app.datama.io](https://app.datama.io) (see below on the 2022-12-15 release for included features)
+    * Google Looker Studio (ex Data Studio) extension is now available for testing. Contact your customer success manager to get early access
+    * Multiple bug fixes and UI improvements (incl. including default rounding of $.* Units to two decimals)
+
+* **Compare:**
+    * Comparable date will now give the name of the day or week when relevant. For instance, if you are comparing one week vs. another, DataMa will create "Monday", "Tuesday"... segments to find if one of those days is the driver of the variation (available in English only)
+    * Title of second slide now takes into account custom palette, so that an increase of a "bad" KPI (e.g. Costs or Bounce rate) is properly worded
+
+* **Impact:**
+    * Anomaly detection is now available for multiple KPIs with no denominators. This is particularly useful in case you want to monitor a simple KPI on multiple segments separately (e.g. Revenues on each and every country separately)
+    * Anomaly detection now takes into account custom color palette for outliers and for over/ underperformance wording
+    * Comments in second slide are now dynamic depending on selected dimension in the slide title
+
+### 2022-12-20:
+
+* **General:**
+    * Lines with only 0 on metrics do not trigger a warning error anymore, especially in slack/ mail messages
+
+* **Compare:**
+    * Covariance distibution for impact calculations now takes into account the formula linking the metrics. This allows to avoid distributing covariance to independant KPIs (e.g. if your market equation is `Total_Revenues = Quantity_Existing_Business * Avg_Price_Existing_Business + Revenue_new_business` , no covariance will be distributed on `Revenue_new_business` if market equation, as this KPI is independant from others)
+
+### 2022-12-15: New app beta release
+
+DataMa v2 has been released for beta testers on [app.datama.io](https://app.datama.io) ! 
+
+This is an important step on a major migration process scheduled for 2023.You can ask to your Customer Success Manager to get a tour on the new platform, which is a beta version for now.
+
+While full documentation is still work in process, here is a quick preview of the main benefits of the new app:
+
+* The Home page has been significantly improved:
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/assets/images/DataMa_v2_Home.jpg"/></center>
+
+* The Prep page now has new functionalities:
+<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/assets/images/DataMa_v2_Flow.jpg"/></center>
+
+* DataMa Solutions are now accessible in what used to be the Prep environment:
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/assets/images/DataMa_v2_Solution.jpg"/></center>
+
+### 2022-11-30:
+
+* **General:**
+    * Multiple bug fixes and UI improvements (including no "Other <..." segment when only one segment bucketed and alphabetical ranking of filter values)
+
+* **Compare:**
+    * Segment covariance is now included in the calculation of relative weight of mix and performance effects
+    * Display of "Out of Scope" and "Compare of Compare" variations have been improved for better readability in the waterfall
+    * Other bug fixes and minor improvements (No more "Remaining" segment in Waterfall when only one segment Remaining, Removed "Unknown" NA values in Compare table, significance calculation in Compare now available again, not creating comparable date when only one day on each side of comparison)
+
+* **Impact:**
+    * Anomaly alert first message now includes the value of each detected anomaly for each KPI
+    * Anomaly explanation now takes into account the advanced settings of metric relation, in particular the manually excluded dimensions as potential explainers for a given step
+    * All charts are now available for (scheduled) static export on a given URL
+
+* **Prep:**
+    * Added "WEEKDAY()","ISOWEEK()" and "WEEK()" fonctions to calculated Dates
+    * 🤫 DataMa Prep is about to host the brand new version of DataMa platform, including some really exciting features. Stay tuned to enter in the beta tester program!
+
 ### 2022-10-25:
 
 * **General:**
-    * Multiple bug fixes and UI improvements (including zoom out magnifying glass on last step of waterfall, order and hover on anomaly explanation plot)
+    * Multiple bug fixes and UI improvements (including clearer hovers on Moves chart for Compare, zoom out magnifying glass on last level of waterfall, order and hover on anomaly explanation plot)
     * Timezone now on UTC for all schedulers, both on Prep and in solutions, within Compare and Impact. As many countries are switching from summer time to winter time, DataMa scheduled jobs with stay on the same universal time, so that it fits with other external dependencies on data sources.
 
 * **Prep**

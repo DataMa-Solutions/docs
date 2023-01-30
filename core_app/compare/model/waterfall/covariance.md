@@ -20,7 +20,7 @@ So what you want, is to really explain Revenue_ThisYear – Revenue_LastYear. (<
 
 Well, this can be written as following:
 
-<center> ![equation]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/equation.png) </center>
+![equation]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/equation.png)
 
 The visual representation below is much easier to get:
 
