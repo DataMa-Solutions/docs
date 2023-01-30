@@ -5,6 +5,21 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-01-27:
+
+* **General:**
+    * DataMa's new platform is now accessible for all clients in beta. Try it out on [app.datama.io](https://app.datama.io) (see below on the 2022-12-15 release for included features)
+    * Google Looker Studio (ex Data Studio) extension is now available for testing. Contact your customer success manager to get early access
+    * Multiple bug fixes and UI improvements (incl. including default rounding of $.* Units to two decimals)
+
+* **Compare:**
+    * Comparable date will now give the name of the day or week when relevant. For instance, if you are comparing one week vs. another, DataMa will create "Monday", "Tuesday"... segments to find if one of those days is the driver of the variation (available in English only)
+    * Title of second slide now takes into account custom palette, so that an increase of a "bad" KPI (e.g. Costs or Bounce rate) is properly worded
+
+* **Impact:**
+    * Anomaly detection is now available for multiple KPIs with no denominators. This is particularly useful in case you want to monitor a simple KPI on multiple segments separately (e.g. Revenues on each and every country separately)
+    * Anomaly detection now takes into account custom color palette for outliers and for over/ underperformance wording
+    * Comments in second slide are now dynamic depending on selected dimension in the slide title
 
 ### 2022-12-20:
 
