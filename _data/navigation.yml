@@ -92,12 +92,12 @@
         - name: Detect interface #done
           link: /core_app/new/detect/detect_interface.html
 
-    - name: Pivot (Doc in progress)
+    - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       subnav:
         - name: General Introduction #done
           link: /core_app/new/pivot/pivot_introduction.html
-        - name: Pivot interface
+        - name: Pivot interface #done
           link: /core_app/new/pivot/pivot_interface.html
 
     - name: Assess (Doc in progress)
@@ -105,11 +105,38 @@
     - name: Journey (Doc in progress)
       link: /core_app/new/journey.html
     - name: Prep (Doc in progress)
-      link: /core_app/new/prep.html
-    - name: Admin 
-      link: /core_app/new/admin.html
+      link: /core_app/new/prep/prep.html
+      subnav:
+        - name: Dataset #done
+          link: /core_app/new/prep/dataset.html
+        - name: Prep interface #done
+          link: /core_app/new/prep/prep_interface.html
+          subnav:
+            - name: Add Source
+              link: /core_app/new/prep/interface/add_source.html
+            - name: Extensions
+              link: /core_app/new/prep/interface/extensions.html
+            - name: Refine Data
+              link: /core_app/new/prep/interface/refine_data.html
+            - name: Block Output
+              link: /core_app/new/prep/interface/block_output.html
+              subnav:
+                - name: Metrics Relation
+                  link: /core_app/new/prep/interface/metrics_relation.html
+                - name: Unit
+                  link: /core_app/new/prep/interface/unit.html
+                - name: Threshold
+                  link: /core_app/new/prep/interface/threshold.html
+                - name: Focused and excluded dimensions
+                  link: /core_app/new/prep/interface/focusExcluded_dimensions.html
+            - name: Extrat Analysis
+              link: /core_app/new/prep/interface/extract_analysis.html
     - name: Integrations 
       link: /core_app/new/integrations.html
+    - name: Admin
+      type: separated
+      link: /core_app/new/admin.html
+
 
 
 - name: Old version of DataMa
