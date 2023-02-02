@@ -10,6 +10,11 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+## Tip of the week #67
+In the new version of DataMa, Flow Prep is an integral part of your use case. Therefore, you can navigate from it thanks to the left side bar to the solution(s) (Compare, Detect, Pivot ...) you want to use.
+Moreover, a favorite icon ⭐, allows you to define the solution you want to open by default from the Home Page 😉
+![Tip 67]({{site.url}}/{{site.baseurl}}/assets/images/tip/67.gif)
+
 ## Tip of the week #66
 With the new version of DataMa comes a new Home 😃
 In addition to the existing features, you can now:
