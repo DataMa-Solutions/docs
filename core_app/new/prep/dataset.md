@@ -10,7 +10,7 @@ layout: page
 DataMa source is basically a flat table.
 As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a spreadsheet.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/prep_dataset.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/prep_dataset.jpg"  style="width:550px; height:auto;"/></center>
 
 
 DataMa [demo](http://app.datama.io/) has a series of saved versions using different sources that you can **get inspired from looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).

@@ -4,9 +4,13 @@ description: DataMa DETECT aims at evaluating over time the normality of a varia
 layout: page
 ---
 
+> DataMa DETECT aims at evaluating over time the normality of a variation.
+
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_interface.png"/></center>
 
-**Interface of DataMa DETECT** 
+<br><br>
+
+**Interface of DataMa DETECT:** 
 
 - [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html) (find here general information about the Header)
 - [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html) (find here general information about the Subheader)
