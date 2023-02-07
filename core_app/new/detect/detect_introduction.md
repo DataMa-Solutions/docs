@@ -28,3 +28,8 @@ You can also adjust how sensitive you want the detection to be using the “Conf
 By default, the most relevant outlier is selected, but you can also choose any point in your dataset that you would like to get insight for. This can be done by selecting it, or by directly clicking on the graph.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_anomalyExplanation.jpg"/></center>
+
+
+**Dataset needed for DataMa DETECT** 
+
+<i>DataMa Detect</i> needs at least 30 days in a the [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) to be able to evaluate a normality. Otherwise the dataset needs to have Dimensions and Metrics as for all solutions in DataMa. A dataset used in <i>DataMa Detect</i> could be used in the other solution as well. 

@@ -4,8 +4,11 @@ description: This section helps you to refine your data in DataMa Prep
 layout: page
 ---
 
-Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions
 
+> **This section helps you to refine your data in DataMa Prep**
+
+Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions.
+<br>
 
 Here is the available actions you can do so far in DataMa Prep to refine your dataset:
 - [Clean](#clean)

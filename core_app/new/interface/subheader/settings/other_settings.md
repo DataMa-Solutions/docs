@@ -109,9 +109,9 @@ Clustering is necessary for dimension analysis
 - For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
 
 Read docs related to continuous dimension
-<br/>
+<br/><br/>
 
-> <u>**ANALYSIS DIMENSIONS**</u>
+<b><u>ANALYSIS DIMENSION</u></b>
 <br/>
 
 > **12. Smart dimension**

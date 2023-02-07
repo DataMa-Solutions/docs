@@ -104,7 +104,7 @@
       link: /core_app/new/assess.html
     - name: Journey (Doc in progress)
       link: /core_app/new/journey.html
-    - name: Prep (Doc in progress)
+    - name: Prep #done
       link: /core_app/new/prep/prep.html
       subnav:
         - name: Dataset #done
@@ -112,26 +112,26 @@
         - name: Prep interface #done
           link: /core_app/new/prep/prep_interface.html
           subnav:
-            - name: Add Source
+            - name: Add Source #done
               link: /core_app/new/prep/interface/add_source.html
-            - name: Extensions
+            - name: Extensions #done
               link: /core_app/new/prep/interface/extensions.html
-            - name: Refine Data
+            - name: Refine Data #done
               link: /core_app/new/prep/interface/refine_data.html
-            - name: Block Output
+            - name: Block Output #done
               link: /core_app/new/prep/interface/block_output.html
               subnav:
-                - name: Metrics Relation
+                - name: Metrics Relation #done
                   link: /core_app/new/prep/interface/metrics_relation.html
-                - name: Unit
+                - name: Unit #done
                   link: /core_app/new/prep/interface/unit.html
-                - name: Threshold
+                - name: Threshold #done
                   link: /core_app/new/prep/interface/threshold.html
-                - name: Focused and excluded dimensions
+                - name: Focused and excluded dimensions #done
                   link: /core_app/new/prep/interface/focusExcluded_dimensions.html
-            - name: Extrat Analysis
+            - name: Export Analysis #done
               link: /core_app/new/prep/interface/extract_analysis.html
-    - name: Integrations 
+    - name: Integrations
       link: /core_app/new/integrations.html
     - name: Admin
       type: separated
