@@ -100,10 +100,57 @@
         - name: Pivot interface #done
           link: /core_app/new/pivot/pivot_interface.html
 
-    - name: Assess (Doc in progress)
-      link: /core_app/new/assess.html
+    - name: Assess #done
+      link: /core_app/new/assess/assess.html
+      subnav:
+        - name: General Introduction #done
+          link: /core_app/new/assess/assess_introduction.html
+        - name: Assess interface #done
+          link: /core_app/new/assess/assess_interface.html      
+        - name: Model #done
+          link: /core_app/new/assess/model.html
+          subnav:
+            - name: Frequentist #done
+              link: /core_app/new/assess/model/frequentist.html
+            - name: Bayesian #done
+              link: /core_app/new/assess/model/bayesian.html
+            - name: Bootstrap #done
+              link: /core_app/new/assess/model/bootstrap.html
+            - name: Volatility #done
+              link: /core_app/new/assess/model/volatility.html
+            - name: Forecast #done
+              link: /core_app/new/assess/model/forecast.html
+            - name: Causal impact #done
+              link: /core_app/new/assess/model/causal.html
+        - name: Settings #done
+          link: /core_app/new/assess/settings.html
+
     - name: Journey (Doc in progress)
-      link: /core_app/new/journey.html
+      link: /core_app/new/journey/journey.html
+      subnav:
+        - name: General introduction
+          link: /core_app/new/journey/general_introduction.html 
+        - name: Use cases examples
+          link: /core_app/new/journey/use_cases_examples.html 
+          subnav:
+            - name: Website cross page journeys
+              link: /core_app/new/journey/use_cases_examples/website_cross_page_journeys.html
+            - name: Website intra page AB test
+              link: /core_app/new/journey/use_cases_examples/website_intra_page_AB_test.html
+            - name: Online acquisition
+              link: /core_app/new/journey/use_cases_examples/online_acquisition.html
+        - name: Model
+          link: /core_app/new/journey/model.html
+        - name: Interface # mettre les images à jour
+          link: /core_app/new/journey/interface/journey_interface.html
+          subnav:
+            - name: Attribution # mettre les images à jour
+              link: /core_app/new/journey/interface/attribution.html
+            - name: Descriptive Comparison # mettre les images à jour
+              link: /core_app/new/journey/interface/descriptive_comparison.html
+            - name: Detailed View # mettre les images à jour
+              link: /core_app/new/journey/interface/detailed_view.html
+
     - name: Prep #done
       link: /core_app/new/prep/prep.html
       subnav:
@@ -133,15 +180,9 @@
               link: /core_app/new/prep/interface/extract_analysis.html
     - name: Integrations
       link: /core_app/new/integrations.html
-    - name: Admin
-      type: separated
-      link: /core_app/new/admin.html
-
-
 
 - name: Old version of DataMa
   link: /core_app/old_docs.html
-
   subnav:
     - name: Compare
       link: /core_app/old/compare.html #OK

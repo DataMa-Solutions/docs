@@ -1,5 +1,5 @@
 ---
-title: General introduction
+title: Pivot - General introduction
 description: DataMa PIVOT is a dataset analysis tool that allows you to identify and understand the dimensions that have the greatest impact on the performance indicator you want to track.
 layout: page
 ---
