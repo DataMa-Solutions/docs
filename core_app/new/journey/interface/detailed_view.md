@@ -4,14 +4,24 @@ description: Detailed View is a group of 4 tabs. See below articles for details 
 layout: page
 ---
 
-![detailed view]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/images/detailed_view.png)
+> This chapter is stil in construction in the solution (see old version of DataMa to get information about the Detailed View)
+
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
+
 
 Detailed View is a group of 4 tabs. See below articles for details on each tab:
 
 * [Simple Stat](#simple-stat)
 * [Flow](#relative)
 * [Relative](#relative)
-* [Data](#data)
+* [Data](#data)  <span style="color:red"> (Chapter in construction)</span>
+
+<br>
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/detailed_view.png"  style="width:1000px;">
+
+
 
 <br>
 
@@ -25,7 +35,7 @@ The Simple Stat tab is a graph allowing you to visualize various information on 
 
 **<u>Example:</u>**
 
-![simple_stat]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/detailed_view/images/Simple_stat.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Simple_stat.png"  style="width:1000px;">
 
 
 <br>
@@ -42,7 +52,7 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 **<u>Example:</u>**
 
-![flow]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/detailed_view/images/flow.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/flow.png"  style="width:1000px;">
 
 <br>
 
@@ -53,7 +63,7 @@ Relative is an other way to display [Flow]({{site.url}}/{{site.baseurl}}/core_ap
 
 **Example:**
 
-![relative]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/detailed_view/flow/images/Relative.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Relative.png"  style="width:1000px;">
 
 <br>
 
@@ -70,4 +80,4 @@ With :
 * **lastnext:** information used to create Flow
 
 
-![data]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/detailed_view/images/data2.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/data2.png"  style="width:1000px;">

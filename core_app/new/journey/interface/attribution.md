@@ -4,19 +4,19 @@ description: Attribution is a group of 5 tabs. See below articles for details on
 layout: page
 ---
 
-![attribution]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/images/attribution.png)
+<br>
 
-Attribution is a group of 5 tabs. See below articles for details on each tab:
+Attribution is a group of 5 tabs. See below details on each tab:
 
 * [Priority](#priority)
 * [Opportunity (Value)](#opportunity-value)
 * [Feasability (Ratio)](#feasability-ratio)
 * [Lost Value](#lost-value)
-* [Data](#data)
+* [Data](#data) 
 
+<br>
 
-
-### <b>Priority </b>
+> ### <b>Priority </b>
 
 
 The Priority tab  is a graph allowing you to visualize the steps of your customers' journeys to improve first.
@@ -25,15 +25,15 @@ The Priority tab  is a graph allowing you to visualize the steps of your custome
 
 Three parameters are used in order to build this graph:
 
-* X axis is  [feasability]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/feasability)
+* X axis is [feasability](#feasability-ratio)
 
-* Y axis is  [opportunity]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/opportunity_value)
+* Y axis is [opportunity](#opportunity-value)
 
-* The size of the circles is  [normalized value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* The size of the circles is  [normalized value](#data)
 
 **<u>Example:</u>**
 
-![priority]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/priority.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_priority.jpg" style="width:1000px;">
 
 Here, the first step to improve is "Search" because it has  the highest feasibility ([Ratio]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)) and opportunity ([Value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)).
 
@@ -49,26 +49,27 @@ Three parameters are used in order to build this graph:
 
 **<u>Example:</u>**
 
-![priority]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/priority_without_compare.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/priority_without_compare.png" style="width:1000px;">
 
 Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/opportunity_value) for the lowest [lost value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/lost_value).
 
 <br>
 
-### <b>Opportunity (Value) </b>
+> ### <b>Opportunity (Value) </b>
 
 The Opportunity tab is a graph allowing you to visualize the value attributed to each touch point of the customer journey based on selected attribution model.
 
-![attribution]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/Attribution_Concept.png)
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Attribution_Concept.png" style="width:750px;">
 
 When Compare mode is ON, the gap of value between start and end is a good valuation of the opportunity behind improving the customer experience for a given touch point. It takes into account both the efficiency of the touch point (i.e. the value it brings each time it is seen) and the volume it represents (i.e. the number of users that actually are exposed to this touch point)
 
-![attribution_comparison]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/Value_Comparison.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Value_Comparison.png" style="width:750px;">
 
 
 **<u>Example:</u>**
 
-![opportunity]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/opportunity.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/opportunity.png" style="width:550px;">
 
 The biggest opportunity  is "Search" then "Offer" , "Goal_Step2"...
 
@@ -84,13 +85,13 @@ Two parameters are used in order to build this graph:
 <br>
 
 
-### <b>Feasability (Ratio)</b>
+> ### <b>Feasability (Ratio)</b>
 
 The Feasability tab is a graph allowing you to visualize the Value/ Volume of the various touch points of the customer journey.
 
 You should read this ratio (value/ volume) as the value brought by a given touch point each time it's seen in journeys with value.
 
-![attribution]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/Attribution_Concept.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Attribution_Concept.png" style="width:650px;">
 
 Steps are ranked by ratio when Compare mode is OFF, and by gap of ratio when compare mode is ON.
 
@@ -98,11 +99,11 @@ When Compare mode is ON, the gap of ratio % could be interpretable as the "feasi
 
 You will be able to quickly identify the steps presenting the biggest feasability.
 
-![attribution]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/Value_Comparison.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Value_Comparison.png" style="width:750px;">
 
 **<u>Example:</u>**
 
-![feasability]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/feasability.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/feasability.png" style="width:1000px;">
 
 The biggest feasability  is "Goal_Step3" then "Blog" , "Goal_Step2"...
 
@@ -116,13 +117,13 @@ Two parameters are used in order to build this graph:
 
 <br>
 
-### <b>Lost Value</b>
+> ### <b>Lost Value</b>
 
 The Feasability tab is a graph allowing you to visualize the Value/ Volume of the various touch points of the customer journey.
 
 You should read this ratio (value/ volume) as the value brought by a given touch point each time it's seen in journeys with value.
 
-![attribution]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/Attribution_Concept.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Attribution_Concept.png" style="width:750px;">
 
 Steps are ranked by ratio when Compare mode is OFF, and by gap of ratio when compare mode is ON.
 
@@ -130,11 +131,11 @@ When Compare mode is ON, the gap of ratio % could be interpretable as the "feasi
 
 You will be able to quickly identify the steps presenting the biggest feasability.
 
-![attribution]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/Value_Comparison.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Value_Comparison.png" style="width:850px;">
 
 **<u>Example:</u>**
 
-![feasability]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/feasability.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/feasability.png" style="width:1000px;">
 
 The biggest feasability  is "Goal_Step3" then "Blog" , "Goal_Step2"...
 
@@ -149,7 +150,7 @@ Two parameters are used in order to build this graph:
 <br>
 
 
-### <b>Data</b>
+> ### <b>Data</b>
 
 
 > The **Data Tab** is the table used to generate the others tabs of Attribution
@@ -162,4 +163,4 @@ With :
 * **Value:** value of "Value" (selected in the menu), i.e. the attributed value, based on selected attribution model
 * **Value normalized:** same as before, but divided by total volume, to be able to compare touch point in Compare Mode
 
-![data]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/data_attribution.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/data_attribution.png" style="width:950px;">

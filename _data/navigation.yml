@@ -14,72 +14,72 @@
     - name: Interface #done
       link: /core_app/new/interface/interface.html
       subnav:
-        - name: 1.1. Homepage #done
+        - name: Homepage #done
           link: /core_app/new/interface/homepage/homepage.html
           subnav:
-            - name: 1.1.a. Header #done
+            - name: Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
-            - name: 1.1.b. Workbooks Management #done
+            - name: Workbooks Management #done
               link: /core_app/new/interface/homepage/workboobs_management.html
-            - name: 1.1.c. Get Inspired #done
+            - name: Get Inspired #done
               link: /core_app/new/interface/homepage/get_inspired.html
               subnav:
-                - name: 1.1.c.a. Use Cases Examples
+                - name: Use Cases Examples
                   link: /core_app/new/interface/homepage/get_inspired/use_cases_examples.html
-                - name: 1.1.c.b. Web performance (Google Analytics) #done
+                - name: Web performance (Google Analytics) #done
                   link: /core_app/new/interface/homepage/get_inspired/web_performance_GA.html
-                - name: 1.1.c.d. Marketing campaign #done
+                - name: Marketing campaign #done
                   link: /core_app/new/interface/homepage/get_inspired/marketing_campaign.html
-                - name: 1.1.c.f. Marketing continuous #done
+                - name: Marketing continuous #done
                   link: /core_app/new/interface/homepage/get_inspired/marketing_continuous.html
-                - name: 1.1.c.g. Marketing scope
+                - name: Marketing scope
                   link: /core_app/new/interface/homepage/get_inspired/marketing_scope.html
-                - name: 1.1.c.h. Product AB test #done
+                - name: Product AB test #done
                   link: /core_app/new/interface/homepage/get_inspired/product_AB_test.html
-                - name: 1.1.c.i. Content Square
+                - name: Content Square
                   link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
-                - name: 1.1.c.j. Finance Control
+                - name: Finance Control
                   link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
-                - name: 1.1.c.k. Retail Performance
+                - name: Retail Performance
                   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
-            - name: 1.1.d. Admin #done
+            - name: Admin #done
               link: /core_app/new/interface/homepage/admin.html
               subnav:
-                - name: 1.1.d.a. Security #done
+                - name: Security #done
                   link: /core_app/new/interface/homepage/admin/security.html
-                - name: 1.1.d.b. Statistic #done
+                - name: Statistic #done
                   link: /core_app/new/interface/homepage/admin/statistic.html
-                - name: 1.1.d.c. Licences #done
+                - name: Licences #done
                   link: /core_app/new/interface/homepage/admin/licences.html
 
-        - name: 1.2. Solutions header #done
+        - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
-            - name: 1.2.a. File #done
+            - name: File #done
               link: /core_app/new/interface/header/file.html
             #- name: 1.2.a. Edit
             #  link: /core_app/new/interface/edit.html
-            - name: 1.2.b. Data #done
+            - name: Data #done
               link: /core_app/new/interface/header/data.html
-            - name: 1.2.c. Help #done
+            - name: Help #done
               link: /core_app/new/interface/header/help.html
-        - name: 1.3. Solutions subheader #done
+        - name: Solutions subheader #done
           link: /core_app/new/interface/subheader/subheader.html
           subnav:
-            - name: 1.3.a. Dimension Comparison  #done
+            - name: Dimension Comparison  #done
               link: /core_app/new/interface/subheader/dimension_comparison.html
-            - name: 1.3.b. Dimension Helper  #done
+            - name: Dimension Helper  #done
               link: /core_app/new/interface/subheader/dimension_helper.html
-            - name: 1.3.c. Filters  #done
+            - name: Filters  #done
               link: /core_app/new/interface/subheader/filters.html
-            - name: 1.3.d Metrics relation 
+            - name: Metrics relation 
               link: /core_app/new/interface/subheader/metrics_relation.html
-            - name: 1.3.e Settings #done
+            - name: Settings #done
               link: /core_app/new/interface/subheader/settings.html
               subnav:
-                - name: 1.3.e.a aggregation #done
+                - name: aggregation #done
                   link: /core_app/new/interface/subheader/settings/aggregation.html
-                - name: 1.3.e.b Others settings #done
+                - name: Others settings #done
                   link: /core_app/new/interface/subheader/settings/other_settings.html
 
     - name: Compare (Doc in progress)
@@ -125,12 +125,12 @@
         - name: Settings #done
           link: /core_app/new/assess/settings.html
 
-    - name: Journey (Doc in progress)
+    - name: Journey
       link: /core_app/new/journey/journey.html
       subnav:
-        - name: General introduction
+        - name: General introduction #done
           link: /core_app/new/journey/general_introduction.html 
-        - name: Use cases examples
+        - name: Use cases examples #done
           link: /core_app/new/journey/use_cases_examples.html 
           subnav:
             - name: Website cross page journeys
@@ -139,8 +139,8 @@
               link: /core_app/new/journey/use_cases_examples/website_intra_page_AB_test.html
             - name: Online acquisition
               link: /core_app/new/journey/use_cases_examples/online_acquisition.html
-        - name: Model
-          link: /core_app/new/journey/model.html
+#        - name: Model
+#          link: /core_app/new/journey/model.html
         - name: Interface # mettre les images à jour
           link: /core_app/new/journey/interface/journey_interface.html
           subnav:
@@ -544,29 +544,29 @@
               link: /core_app/old/menu/definitions.html #OK
             - name: Filters
               link: /core_app/old/menu/filters.html #OK
+        - name: Homepage
+          link: /home.html #OK
+          subnav:
+            - name: Get inspired
+              link: /home/use_cases/use_cases_examples.html #OK
+              subnav:
+                - name: Web performance - Google Analytics
+                  link: /home/use_cases/web_performance_GA.html #OK
+                - name: Marketing - Campaign
+                  link: /home/use_cases/marketing_campaign.html #OK
+                  subnav:
+                    - name: Continuous dimensions
+                      link: /home/use_cases/marketing_continuous.html #OK
+                    - name: Scope
+                      link: /home/use_cases/marketing_scope.html #OK
+                - name: Product - AB test
+                  link: /home/use_cases/product_AB_test.html #OK
+                - name: Finance Controlling
+                  link: /home/use_cases/finance_controlling.html #OK
+                - name: Content Square data
+                  link: /home/use_cases/Content_CS.html #OK
 - name: DataMa On Premise
   link: /core_app/old/DataMa_on_premise.html #OK
-- name: Home
-  type: separated
-  link: /home.html #OK
-- name: Get inspired
-  link: /home/use_cases/use_cases_examples.html #OK
-  subnav:
-    - name: Web performance - Google Analytics
-      link: /home/use_cases/web_performance_GA.html #OK
-    - name: Marketing - Campaign
-      link: /home/use_cases/marketing_campaign.html #OK
-      subnav:
-        - name: Continuous dimensions
-          link: /home/use_cases/marketing_continuous.html #OK
-        - name: Scope
-          link: /home/use_cases/marketing_scope.html #OK
-    - name: Product - AB test
-      link: /home/use_cases/product_AB_test.html #OK
-    - name: Finance Controlling
-      link: /home/use_cases/finance_controlling.html #OK
-    - name: Content Square data
-      link: /home/use_cases/Content_CS.html #OK
 - name: Licence terms
   type: separated
   link: /core_app/old/licence_terms.html #OK

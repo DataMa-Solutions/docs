@@ -4,7 +4,7 @@ description: Descriptive Comparison is a group of 4 tabs. See below articles for
 layout: page
 ---
 
-![descriptive comparison]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/images/descriptive_comparison.png)
+![descriptive comparison]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/images/descriptive_comparison.png" style="width:550px;">
 
 Descriptive Comparison is a group of 4 tabs. See below articles for details on each tab:
 
@@ -13,8 +13,9 @@ Descriptive Comparison is a group of 4 tabs. See below articles for details on e
 * [Sunburst](#sunburst)
 * [Sunburst difference](#sunburst-difference) (available in compare mode only)
 
+<br>
 
-### <b> Pareto </b>
+> ### <b> Pareto </b>
 
 The Pareto tab is a graph allowing you to the first 10 journeys contributing to a selected metric, and the share of total metric that it represent, as well as the cumulated share of selected metric of top X journeys.
 
@@ -28,12 +29,12 @@ Two parameters are used in order to build this graph:
 
 **<u>Example:</u>**
 
-![pareto]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/descriptive_comparison/images/pareto.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/pareto.png" style="width:1000px;">
 
 
 <br>
 
-### <b> Sunburst </b>
+> ### <b> Sunburst </b>
 
 Sunburst are commonly used to represent sequential data, such as customer journey.
 You can learn more on sunbursts and how to use it [here](https://datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
@@ -46,19 +47,19 @@ The left one is your Start segment.
 
 The right one is your End segment.
 
-![start_end_sunbursts]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/descriptive_comparison/images/start_end_sunbursts.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/start_end_sunbursts.png" style="width:1000px;">
 
 **Similarity Sunburst:**
 
 This sunburst represents the differences in appearance of the various journeys between Start and End dimensions
 
-![similarity_sunburst]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/descriptive_comparison/images/similarity_sunburst.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width1000px;">
 
 
 
 <br>
 
-### <b> Sunburst difference </b>
+> ### <b> Sunburst difference </b>
 
 
 This view is only available when Compare mode toggle is activated on DataMa Journey
@@ -73,4 +74,4 @@ On the left part  of the sunburst (starting by negative) are the journeys that h
 
 Obviously, as this is a 0 sum game, you have as much decreasing journeys than increasing ones, reason why the left part and right part (negative and positive) have exactly the same share (50/50)
 
-![similarity_sunburst]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/descriptive_comparison/images/similarity_sunburst.png)
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width:1000px;">
