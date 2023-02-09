@@ -15,14 +15,14 @@ Touch points could be any experience or even process you would like to analyse. 
 ## Attribution
 See attributed value to each touch point and compare between one another
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/attribution.html)
 
 ## Descriptive comparison
 Compare journeys , visualize their similarities and their differences.
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/descriptive_comparison)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/descriptive_comparison.html)
 
 ## Detailed View
 Analyse in detail a specific touch point.
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/detailed_view)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/detailed_view)

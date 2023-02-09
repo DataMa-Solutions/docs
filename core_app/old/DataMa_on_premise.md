@@ -1,12 +1,16 @@
 ---
 title: DataMa on Premise
-description: DataMa is essentially a R package, embedded in a Shiny web application.
+description: DataMa could also be installed on premise.
 layout: page
 ---
 
-> DataMa is essentially a [R](https://www.r-project.org/) package, embedded in a [Shiny](https://shiny.rstudio.com/) web application.
+> DataMa could be packaged and installed on premise.
 
-The straightest way of using DataMa certainly to use the solution in a [Shiny Web App]({{site.url}}/{{site.baseurl}}/core_app), either hosted on our servers ([solutions.datama.fr](https://solutions.datama.fr/)) or on premise.
-Note that deployment on premise is simplified by the use of [Docker](https://www.docker.com/), and [ShinyProxy](https://www.shinyproxy.io/).
+The straightest way of using DataMa certainly to use the solution in a [Web browser](https://app.datama.io/), hosted on our servers or on premise.
 
-However, you could also use DataMa R package as a brick within a data flow that performs the task on the defined inputs and renders a flat file or a HTML object that can be consumed by other applications, in particular visualisation software, such as [Tableau](https://www.tableau.com/). In that sense, DataMa works well as a step of data science platforms like [DataIku](https://www.dataiku.com/) or [Alteryx](https://www.alteryx.com/).
+
+However, you could also use DataMa package as a brick within a data flow that performs the task on the defined inputs and renders a flat file or a HTML object that can be consumed by other applications, in particular visualisation software, such as [Tableau](https://www.tableau.com/), [Power BI](https://powerbi.microsoft.com) or [Looker Studio](https://lookerstudio.google.com). See more details in the [extension]({{site.url}}/{{site.baseurl}}/core_app/new/integrations.html) part 
+
+In that sense, DataMa works well as a step of data science platforms like [DataIku](https://www.dataiku.com/) or [Alteryx](https://www.alteryx.com/).
+
+> [Ask us](https://datama.io/lets-talk/) for more details on what's available in term of implementation and integration.
