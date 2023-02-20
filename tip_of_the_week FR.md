@@ -9,6 +9,13 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+## Tip of the week #68
+Dans la [nouvelle version de DataMa](https://websso.datama.io/), l'ancien menu de gauche, où étaient définis les filtres, est maintenant dans la barre du haut.
+En cliquant sur le bouton "filtres", toutes les dimensions filtrables existant dans votre jeu de données apparaitront.
+Le « Helper » 📊 est une aide graphique pour voir la répartition des éléments de votre dimension sur l'une des étapes.
+Les filtres appliqués apparaitront dans la barre du haut à côté du bouton "Filter". Vous pouvez ensuite modifier un filtre en cliquant dessus ou le supprimer en cliquant sur la petite poubelle 😉
+![Tip 68]({{site.url}}/{{site.baseurl}}/assets/images/tip/68.gif)
+
 ## Tip of the week #67
 Dans la nouvelle version de DataMa, le flow Prep fait partie intégrante de votre use case. De ce fait, vous pouvez naviguer de ce dernier grâce à la « side bar » de gauche vers la ou les solutions (Compare, Detect, Pivot ...) que vous souhaitez utiliser.
 De plus une icone favoris ⭐, vous permet de définir la solution que vous voulez ouvrir par défaut depuis la Home Page 😉
