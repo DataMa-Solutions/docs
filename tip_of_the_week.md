@@ -10,6 +10,13 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+## Tip of the week #68
+In the [new version of DataMa](https://websso.datama.io/), the old left-hand menu, where the filters were defined, is now in the top bar.
+By clicking on the "filters" button, all filterable dimensions existing in your dataset will appear.
+The "Helper" 📊 is a graphical aid to see the distribution of the elements of your dimension on one of the steps.
+The applied filters will appear in the top bar next to the "Filter" button. You can then edit a filter by clicking on it or delete it by clicking on the small bin 😉
+![Tip 68]({{site.url}}/{{site.baseurl}}/assets/images/tip/68.gif)
+
 ## Tip of the week #67
 In the new version of DataMa, Flow Prep is an integral part of your use case. Therefore, you can navigate from it thanks to the left side bar to the solution(s) (Compare, Detect, Pivot ...) you want to use.
 Moreover, a favorite icon ⭐, allows you to define the solution you want to open by default from the Home Page 😉
