@@ -16,4 +16,4 @@ Its data comes from management ERP, Excel spreadsheet or even **data collection 
 
 **Dataset needed for DataMa PIVOT** 
 
-<i>DataMa Pivot</i>[dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) only needs at leat 2 metrics and 1 dimension. A dataset used in <i>DataMa Pivot</i> could be used in the other solution as well. 
+<i>DataMa Pivot</i> [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) only needs at leat 2 metrics and 1 dimension. A dataset used in <i>DataMa Pivot</i> could be used in the other solution as well. 
