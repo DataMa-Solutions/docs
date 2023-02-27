@@ -20,7 +20,7 @@
             - name: Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
             - name: Workbooks Management #done
-              link: /core_app/new/interface/homepage/workboobs_management.html
+              link: /core_app/new/interface/homepage/workbooks_management.html
             - name: Get Inspired #done
               link: /core_app/new/interface/homepage/get_inspired.html
               subnav:
@@ -83,7 +83,38 @@
                   link: /core_app/new/interface/subheader/settings/other_settings.html
 
     - name: Compare (Doc in progress)
-      link: /core_app/new/compare.html
+      link: /core_app/new/compare/compare.html
+      subnav:
+        - name: General Introduction
+          link: /core_app/new/compare/compare_introduction.html
+        - name: Compare interface
+          link: /core_app/new/compare/compare_interface.html
+          subnav:
+            - name: Waterfall
+              link: /core_app/new/compare/interface/waterfall.html
+            - name: Detailed View
+              link: /core_app/new/compare/interface/detailed_view.html
+            - name: Dimension analysis
+              link: /core_app/new/compare/interface/dimension_analysis.html
+            - name: Compare Header
+              link: /core_app/new/compare/interface/compare_header.html
+              subnav:
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics relation 
+                  link: /core_app/new/interface/subheader/metrics_relation.html
+                - name: Settings #done
+                  link: /core_app/new/interface/subheader/settings.html
+                  subnav:
+                    - name: aggregation #done
+                      link: /core_app/new/interface/subheader/settings/aggregation.html
+                    - name: Others settings #done
+                      link: /core_app/new/interface/subheader/settings/other_settings.html
+
     - name: Detect #done
       link: /core_app/new/detect/detect.html
       subnav:
@@ -144,6 +175,8 @@
         - name: Interface # mettre les images à jour
           link: /core_app/new/journey/interface/journey_interface.html
           subnav:
+            - name: Solutions Header 
+              link: /core_app/new/journey/interface/header/journey_header.html
             - name: Attribution # mettre les images à jour
               link: /core_app/new/journey/interface/attribution.html
             - name: Descriptive Comparison # mettre les images à jour

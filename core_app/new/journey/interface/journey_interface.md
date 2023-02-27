@@ -15,7 +15,7 @@ Touch points could be any experience or even process you would like to analyse. 
 
 
 * **[Admin Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/homepage_header.html):** the header of the window manage your account and your use cases
-* **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html):** the subheader of the window manage the settings of the solution
+* **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/journey_header.html):** the subheader of the window manage the settings of the solution
 * **Sidebar:** The left part of the web page, which allows you to switch from one solution to another
 
 > Overall **interface** is split in 3 steps, that are the back bone of DataMa JOURNEY
