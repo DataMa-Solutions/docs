@@ -19,7 +19,7 @@ As in the example below, when your proportion of Purchase between Device change,
 * If the proportion change it’s a **Mix effect**
 * If the average price change, it’s a **Performance effect**
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/old/compare/model/images/Mix-Perf.jpg"> </center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-Perf.jpg"> </center>
 
 Please report to this [article]({{site.url}}/{{site.baseurl}}/core_app/old/header/input/source) to learn more about metrics and dimensions.
 

@@ -12,8 +12,8 @@ Here is the panel of the Settings.
 <br>
 
 The settings is detailed in : 
-- [Aggregation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html")
-- [Other Settings]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/other_settings.html")
+- [Aggregation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
+- [Other Settings]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/other_settings.html)
 
 <br>
 

@@ -13,6 +13,6 @@ By default, the drop-down menus are selected in both main step and main dimensio
 The selection is dynamic: selection made on the « Detailed view – filter » will affect the waterfall above.
 
 3 different views are available for this « detailed view »:
-* [Moves]({{site.url}}/{{site.baseurl}}/core_app/old/compare/web_application/dashboard/detailed_view/moves)
-* [Bridge]({{site.url}}/{{site.baseurl}}/core_app/old/compare/web_application/dashboard/detailed_view/bridge)
-* [Detailed bridge]({{site.url}}/{{site.baseurl}}/core_app/old/compare/web_application/dashboard/detailed_view/detailed_bridge)
+* [Moves]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/moves.html)
+* [Bridge]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/bridge.html)
+* [Table]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/table.html)

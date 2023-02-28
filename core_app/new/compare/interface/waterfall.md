@@ -11,7 +11,7 @@ layout: page
 
 Waterfall is a group of 3 tabs. See below articles for details on each tab:
 
-* [Chart](#chart)
+* [Chart](#waterfall-chart)
 * [Funnel](#funnel)
 * [Dimension Comparison](#dimension-comparison)
 
@@ -19,12 +19,12 @@ Waterfall is a group of 3 tabs. See below articles for details on each tab:
 
 <br>
 
-### **Chart**
+### **Waterfall Chart**
 
 <br>
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_waterfall.png"> </center>
 
-
+<br>
 
 * The Steps can be a multiplication of each KPI or can be additive
 * Need to distribute co-variance proportionally to abs(gap) to 'make it match'. Co-variance has to be monitored in final output. See [Covariance]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/modeling_components.html) page
@@ -49,7 +49,7 @@ You can unzoom by clicking on other steps or clicking on the box again
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_zoomedView.jpg"> </center>
 
 
-### **Funnel**
+### <b><u>**Funnel</u></b>**
 
 The funnel section shows the % change and absolute values of each KPI 
 
@@ -58,14 +58,15 @@ This funnel gives details on numbers behind waterfall chart. Each step of your c
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_funnel.png"> </center>
 
 
-### **Dimension Comparison**
+### **<b><u>Dimension Comparison</u></b>**
 
 **Mix effect**
-Effect of the change in the mix in input.
+For each step, it shows the total mix effect of each dimension (which has a mix effect).
 
 <i>>eg.The mix effect is the impact on your performance that is coming from an evolution of the distribution of your "denominator" in input. If you have more people in input with a better conversion rate, you will have a positive mix effect due to the type of client coming into your store or your website.</i>
 
-This graph represents the sum of the Mix impact of each dimension at each step of your funnel. The red circle represents the gap your are trying to understand at this step of the funnel.
+This graph represents the sum of the Mix impact of each dimension at each step of your funnel. The red circle represents the gap your are trying to understand at this step of the funnel, to allow evaluation of mix effect contribution to overall impact.
+
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonMix.jpg"> </center>
 
@@ -76,7 +77,7 @@ read more about Mix effect
 <br>
 
 
-**Performance effect**
+**Performance effect: Min**
 
 A performance effect is an observed difference in a performance. <i>eg.As for example selling different number of car between two week is a performance effect. Having less user in a website is a negative performance effect.</i>
 
@@ -85,3 +86,12 @@ All things being equal the performance effect is the evolution of a performance.
 As presented below the performance effect could be represented at each step of your metric relation and for any dimension.
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerf.jpg"> </center>
+
+<br>
+
+**Performance effect: Max**
+
+For each step, within each dimension, it shows the segment having the biggest positive contribution in performance, net of mix effects, in bars.
+The width of the bar and the parenthesis ‘(x…)’ in the call outs refers to how fast this performance change is relative to the other segments.
+
+Red dots refer to the total impact of that step (as in ‘Waterfall Chart’), to allow evaluation of segment performance contribution to overall impact.
