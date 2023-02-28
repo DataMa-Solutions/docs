@@ -94,13 +94,20 @@
               link: /core_app/new/compare/interface/waterfall.html
             - name: Detailed View
               link: /core_app/new/compare/interface/detailed_view.html
-            - name: Dimension analysis
-              link: /core_app/new/compare/interface/dimension_analysis.html
+              subnav:
+                - name: Moves
+                  link: /core_app/new/compare/interface/moves.html
+                - name: Bridge
+                  link: /core_app/new/compare/interface/bridge.html
+                - name: Table
+                  link: /core_app/new/compare/interface/table.html
             - name: Compare Header
               link: /core_app/new/compare/interface/compare_header.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Secondary Comparison  #done
+                  link: /core_app/new/compare/interface/secondary_comparison.html
                 - name: Dimension Helper  #done
                   link: /core_app/new/interface/subheader/dimension_helper.html
                 - name: Filters  #done
@@ -114,7 +121,13 @@
                       link: /core_app/new/interface/subheader/settings/aggregation.html
                     - name: Others settings #done
                       link: /core_app/new/interface/subheader/settings/other_settings.html
-
+        - name: Model
+          link: /core_app/new/compare/model/model.html
+          subnav:
+            - name: Covariance
+              link: /core_app/new/compare/model/covariance.html
+            - name: Mix & Performance effect
+              link: /core_app/new/compare/model/dimension_analysis.html
     - name: Detect #done
       link: /core_app/new/detect/detect.html
       subnav:
