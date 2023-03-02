@@ -10,6 +10,28 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+## Tip of the week #70
+With the arrival of the new version of DataMa, in addition to the graphic redesign, we have also improved the functioning of the "Use Cases" 💡
+  * Indeed, DataMa Prep has become a unique tool for loading and transforming data
+  * And we combined the "Use Cases" and the "Flows" to create only one element the "Workbooks"
+And this has impacts (positive ones, of course 🤩):
+  * Only your old flows created via DataMa Prep have been switched to the new solution
+    * fortunately the DataMa team will accompany you to help you migrate the other Use Cases during the next months 😉
+  * But above all this evolution allows you to clarify the information of your analyses, by displaying from the home page for each Workbook :
+    * a clear view of the connected data source(s)
+    * the various scheduled exports (Mail, Slack, statistics URL, ...),
+    * the favourite solution used for this analysis
+    * the folder it belongs to
+    * and many other information to come 🎁
+Don't hesitate to contact us to know more about this migration... and above all... go have a look at the new [platform](https://websso.datama.io/)!!!
+![Tip 70]({{site.url}}/{{site.baseurl}}/assets/images/tip/70.gif)
+
+## Tip of the week #69
+You may have noticed that in the [new version of DataMa](https://websso.datama.io/),the "Impact" solution no longer appears. It has been split into two separate solutions "Assess" and "Detect" in order to meet two needs:
+  * Assess: will allow you to determine the significance of your variations through different tests (Bayesian, Bootstrap, Frequentist) at the global level and on each of your dimensions
+  * Detect: will focus on the detection of anomalies, whether it is one of your KPIs or all of them, with an explanation of the origin of the anomaly 🔍
+![Tip 69]({{site.url}}/{{site.baseurl}}/assets/images/tip/69.png)
+
 ## Tip of the week #68
 In the [new version of DataMa](https://websso.datama.io/), the old left-hand menu, where the filters were defined, is now in the top bar.
 By clicking on the "filters" button, all filterable dimensions existing in your dataset will appear.
