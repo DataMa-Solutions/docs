@@ -47,4 +47,4 @@ DataMa goes further with Metric Relation by adding multiple properties to refine
 
 ## Get inspired
 
-[DataMa examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired.html) can help you get idea of Metric Relation you may want to build.
+[DataMa examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.

@@ -18,10 +18,9 @@ layout: page
 
 > The Compare **interface** is split in 2 steps, that are the back bone of DataMa COMPARE
 
-* **Interface:**  essentially the charts you see in the page (split in Attribution, descriptive comparison and Detailed view)
-    - [Waterfall]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/waterfall.html)
-    - [Detail View]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/detailed_view.html)
-#    - [Dimension Analysis]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/dimension_analysis.html)
+ The **Interface** is essentially the charts you see in the page:
+ - [Waterfall]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/waterfall.html)
+ - [Detail View]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/detailed_view.html)
 
 <br>
 

@@ -4,7 +4,7 @@ description: This example made for financial assessment is different from other 
 layout: page
 ---
 
-> Find below information about the **« Finance – Controlling»**  example in our [demo](https://app.datama.io/) solution.
+> Find below information about the **« Finance – Controlling»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
 
 Here is a glimpse on the data:
 

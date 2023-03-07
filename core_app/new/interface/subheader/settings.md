@@ -6,14 +6,18 @@ layout: page
 
 > Find here how to use the **Settings**
 
-Here is the panel of the Settings. 
+Here is the panel of the Settings for Compare.
 <br>
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
 <br>
 
-The settings is detailed in : 
-- [Aggregation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
-- [Other Settings]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/other_settings.html)
+The settings is detailed separately for each solution : 
+- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
+- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/settings.html)
+- [Journey]({{site.url}}/{{site.baseurl}}docs/core_app/new/journey/interface/journey_header.html)
+- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
+- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html)
+
 
 <br>
 

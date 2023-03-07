@@ -19,13 +19,18 @@
           subnav:
             - name: Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
+              subnav:
+                - name: File
+                  link: /core_app/new/interface/header/file.html
+                - name: Data
+                  link: /core_app/new/interface//header/data.html
+                - name: Help
+                  link: /core_app/new/interface/header/help.html
             - name: Workbooks Management #done
               link: /core_app/new/interface/homepage/workbooks_management.html
             - name: Get Inspired #done
-              link: /core_app/new/interface/homepage/get_inspired.html
+              link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
               subnav:
-                - name: Use Cases Examples
-                  link: /core_app/new/interface/homepage/get_inspired/use_cases_examples.html
                 - name: Web performance (Google Analytics) #done
                   link: /core_app/new/interface/homepage/get_inspired/web_performance_GA.html
                 - name: Marketing campaign #done
@@ -43,15 +48,7 @@
                 - name: Retail Performance
                   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
             - name: Admin #done
-              link: /core_app/new/interface/homepage/admin.html
-              subnav:
-                - name: Security #done
-                  link: /core_app/new/interface/homepage/admin/security.html
-                - name: Statistic #done
-                  link: /core_app/new/interface/homepage/admin/statistic.html
-                - name: Licences #done
-                  link: /core_app/new/interface/homepage/admin/licences.html
-
+              link: /core_app/new/interface/homepage/admin/admin.html
         - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
@@ -76,58 +73,54 @@
               link: /core_app/new/interface/subheader/metrics_relation.html
             - name: Settings #done
               link: /core_app/new/interface/subheader/settings.html
-              subnav:
-                - name: aggregation #done
-                  link: /core_app/new/interface/subheader/settings/aggregation.html
-                - name: Others settings #done
-                  link: /core_app/new/interface/subheader/settings/other_settings.html
 
-    - name: Compare (Doc in progress)
+    - name: Compare #done
       link: /core_app/new/compare/compare.html
       subnav:
-        - name: General Introduction
+        - name: General Introduction #done
           link: /core_app/new/compare/compare_introduction.html
-        - name: Compare interface
+        - name: Compare interface #done
           link: /core_app/new/compare/compare_interface.html
           subnav:
-            - name: Waterfall
+            - name: Waterfall #done
               link: /core_app/new/compare/interface/waterfall.html
-            - name: Detailed View
+            - name: Detailed View #done
               link: /core_app/new/compare/interface/detailed_view.html
               subnav:
-                - name: Moves
+                - name: Moves #done
                   link: /core_app/new/compare/interface/moves.html
-                - name: Bridge
+                - name: Bridge #done
                   link: /core_app/new/compare/interface/bridge.html
-                - name: Table
+                - name: Table #done
                   link: /core_app/new/compare/interface/table.html
-            - name: Compare Header
+            - name: Compare subheader #done
               link: /core_app/new/compare/interface/compare_header.html
               subnav:
                 - name: Dimension Comparison  #done
-                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                  link: /core_app/new/compare/interface/subheader/dimension_comparison.html
                 - name: Secondary Comparison  #done
-                  link: /core_app/new/compare/interface/secondary_comparison.html
+                  link: /core_app/new/compare/interface/subheader/secondary_comparison.html
                 - name: Dimension Helper  #done
-                  link: /core_app/new/interface/subheader/dimension_helper.html
+                  link: /core_app/new/compare/interface/subheader/dimension_helper.html
                 - name: Filters  #done
-                  link: /core_app/new/interface/subheader/filters.html
+                  link: /core_app/new/compare/interface/subheader/filters.html
                 - name: Metrics relation 
-                  link: /core_app/new/interface/subheader/metrics_relation.html
+                  link: /core_app/new/compare/interface/subheader/metrics_relation.html
+                - name: Export #done
+                  link: /core_app/new/compare/interface/subheader/export.html
                 - name: Settings #done
-                  link: /core_app/new/interface/subheader/settings.html
-                  subnav:
-                    - name: aggregation #done
-                      link: /core_app/new/interface/subheader/settings/aggregation.html
-                    - name: Others settings #done
-                      link: /core_app/new/interface/subheader/settings/other_settings.html
+                  link: /core_app/new/compare/interface/subheader/settings.html
         - name: Model
           link: /core_app/new/compare/model/model.html
           subnav:
             - name: Covariance
               link: /core_app/new/compare/model/covariance.html
-            - name: Mix & Performance effect
-              link: /core_app/new/compare/model/dimension_analysis.html
+            - name: Mix effect
+              link: /core_app/new/compare/model/dimension_analysis_mix.html
+            - name: Performance effect
+              link: /core_app/new/compare/model/dimension_analysis_performance.html
+            - name: Modeling Components
+              link: /core_app/new/compare/model/modeling_components.html
     - name: Detect #done
       link: /core_app/new/detect/detect.html
       subnav:
@@ -135,6 +128,9 @@
           link: /core_app/new/detect/detect_introduction.html
         - name: Detect interface #done
           link: /core_app/new/detect/detect_interface.html
+          subnav:
+            - name: Header & Settings #done
+              link: /core_app/new/detect/settings.html
 
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
@@ -143,6 +139,10 @@
           link: /core_app/new/pivot/pivot_introduction.html
         - name: Pivot interface #done
           link: /core_app/new/pivot/pivot_interface.html
+          subnav:
+            - name: Header & Settings #done
+              link: /core_app/new/pivot/settings.html
+
 
     - name: Assess #done
       link: /core_app/new/assess/assess.html
@@ -151,6 +151,9 @@
           link: /core_app/new/assess/assess_introduction.html
         - name: Assess interface #done
           link: /core_app/new/assess/assess_interface.html      
+          subnav:
+            - name: Header & Settings #done
+              link: /core_app/new/assess/settings.html
         - name: Model #done
           link: /core_app/new/assess/model.html
           subnav:
@@ -166,14 +169,23 @@
               link: /core_app/new/assess/model/forecast.html
             - name: Causal impact #done
               link: /core_app/new/assess/model/causal.html
-        - name: Settings #done
-          link: /core_app/new/assess/settings.html
 
     - name: Journey
       link: /core_app/new/journey/journey.html
       subnav:
         - name: General introduction #done
           link: /core_app/new/journey/general_introduction.html 
+        - name: Interface # mettre les images à jour
+          link: /core_app/new/journey/interface/journey_interface.html
+          subnav:
+            - name: Header & Settings 
+              link: /core_app/new/journey/interface/journey_header.html
+            - name: Attribution # mettre les images à jour
+              link: /core_app/new/journey/interface/attribution.html
+            - name: Descriptive Comparison # mettre les images à jour
+              link: /core_app/new/journey/interface/descriptive_comparison.html
+            - name: Detailed View # mettre les images à jour
+              link: /core_app/new/journey/interface/detailed_view.html
         - name: Use cases examples #done
           link: /core_app/new/journey/use_cases_examples.html 
           subnav:
@@ -185,17 +197,6 @@
               link: /core_app/new/journey/use_cases_examples/online_acquisition.html
 #        - name: Model
 #          link: /core_app/new/journey/model.html
-        - name: Interface # mettre les images à jour
-          link: /core_app/new/journey/interface/journey_interface.html
-          subnav:
-            - name: Solutions Header 
-              link: /core_app/new/journey/interface/header/journey_header.html
-            - name: Attribution # mettre les images à jour
-              link: /core_app/new/journey/interface/attribution.html
-            - name: Descriptive Comparison # mettre les images à jour
-              link: /core_app/new/journey/interface/descriptive_comparison.html
-            - name: Detailed View # mettre les images à jour
-              link: /core_app/new/journey/interface/detailed_view.html
 
     - name: Prep #done
       link: /core_app/new/prep/prep.html
@@ -225,7 +226,14 @@
             - name: Export Analysis #done
               link: /core_app/new/prep/interface/extract_analysis.html
     - name: Integrations
-      link: /core_app/new/integrations.html
+      link: /core_app/new/integration/integrations.html
+      subnav:
+        - name: PowerBI
+          link: /core_app/new/integration/powerbi.html
+        - name: Tableau
+          link: /core_app/new/integration/tableau.html
+        - name: Looker Studio
+          link: /core_app/new/integration/looker_studio.html
 
 - name: Old version of DataMa
   link: /core_app/old_docs.html

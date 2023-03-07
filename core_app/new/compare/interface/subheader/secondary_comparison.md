@@ -6,7 +6,9 @@ layout: page
 
 > Find here how you can use **the Dimension Comparison** of the subheader of the DataMa solution**
 
-**What it is:**
+<br>
+
+# **What it is:**
 
 Previously known as Compare of Compare, this mode allows you to compare 2 waterfalls. The secondary waterfall is defined by turning the secondary comparison on (on any available dimensions) and then defining the start of your secondary waterfall and the end of your secondary waterfall. 
 
@@ -19,7 +21,7 @@ In the background, DataMa will then run the same analysis for the 2 definitions 
 
 <br>
 
-**When to use it**
+# **When to use it**
 Compare of Compare mode is particularly useful when you regularly run the same analysis for different periods of time.
 We can take the example of this dataset.
 

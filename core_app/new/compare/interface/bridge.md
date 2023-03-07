@@ -8,8 +8,9 @@ layout: page
 
 > For the selected step and dimension the <i>Bridge</i> shows the Mix effect and the performance effect.
 
-The bridge focuses on one KPI at a time. It shows the impact that each dimension has on the value of the KPI (whilst on the main waterfall the impact is on the overall KPI)
+<br>
 
+The bridge focuses on one KPI at a time. It shows the impact that each dimension has on the value of the KPI (whilst on the main waterfall the impact is on the overall KPI)
 
 <br>
 

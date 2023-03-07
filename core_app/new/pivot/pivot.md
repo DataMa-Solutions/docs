@@ -32,4 +32,6 @@ You will optimize the preparation of your data analysis
 
 Hope you enjoy it.
 
+<br>
+
 Please visit DataMa generic [website](https://datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
