@@ -8,6 +8,7 @@ layout: page
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.jpg"/></center>
 
+<br>
 
 For all DataMa Solution tools (Prep, Compare, Assess and Pivot), a contextual subheader gives you access to several options for managing your work. In this part, we give a brief overview of these common option menus : Comparison, filters, KPIs, Settings,...
 

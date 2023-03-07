@@ -4,8 +4,11 @@ description: See in this chapter details how to use main features of the DataMa 
 layout: page
 ---
 
+<br>
+
 > See in this chapter details how to use the **Interface**  of the DataMa solution
 
+<br>
 
 This chapter gathers different features shared amongst the differents modules, such as: 
 - [Home page]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/homepage.html)

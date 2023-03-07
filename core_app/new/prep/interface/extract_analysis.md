@@ -3,8 +3,11 @@ title: Prep - Export Analysis
 description: This section helps you automatise the export of your analysis
 layout: page
 ---
+<br>
 
 > **This section helps you automatise the export of your analysis**
+
+<br>
 
 You don’t have time to open the DataMa interface … receive your analyses directly in your mailbox or on a Slack channel
 By using the menu “export result” you can schedule an export directly to a mailbox at the frequency you want.
@@ -25,8 +28,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-> ### <b>Slack</b> ###
-<br>
+## <b>Slack</b>
 
 - connect your slack account
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
@@ -43,9 +45,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-> ### <b>Email</b> ###
-
-<br>
+## <b>Email</b>
 
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
 - Enter one or more email addresses by selecting "Enter" between each address,
@@ -60,8 +60,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-> ### <b>Static URL</b> ###
-
+## <b>Static URL</b>
 
 This extraction allows to create URL accessible to every user without login to DataMa.
 
@@ -80,10 +79,9 @@ Export part or full view of the solution : "alert message", "Waterfall" or "Deta
 
 Your graph wil be updated according to your data. As soon as you load the URL the graph will be updated with the freshest data. 
 
-
 <br>
 
-> ### <b>Teams</b> ###
+## <b>Teams</b>
 
 This connector is under development and will be available soon. (coming in March 2023)
 
