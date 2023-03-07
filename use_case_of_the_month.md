@@ -9,7 +9,15 @@ description: |
   Practical DataMa use cases from real clients
   
 ---
-Every month, DataMa publishes a practical use case from a real client, to get other inspired and share knowledge and learnings
+Every month, DataMa publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
+
+<h> 💡Use Case of the Month #4 </h>
+
+DataMa's dynamic waterfall visualization excels at breaking down classic market equations to give you quick and smart insights 🤓 But did you know DataMa's customizable features allow you to analyze more complex and unique cases? 🤯 Read this month's use case to find out how a major fashion retailer used Datama's Tableau extension to:
+
+💰 Break down their YoY costs and identify the factors responsible for any increases
+⚙️ Create market equations to address a unique business question, including color and display customizations
+📊 Easily integrate DataMa into their data viz tool of choice
 
 <h2> 💡 Use Case of the Month #3 </h2>
 
