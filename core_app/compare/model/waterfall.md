@@ -6,7 +6,7 @@ layout: page
 
 > The **waterfall analysis** is the main element of DataMa COMPARE interface. It concatenates all the detailed analysis that appear in other graphs.
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/compare/model/images/Waterfall-768x627.jpg"> </center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/Waterfall-768x627.jpg"> </center>
 
 * Steps generally matching conversion funnel, can be additive branches as long as we add a % of traffic going to a given branch as a step in the waterfall
 * Need to distribute co-variance proportionally to abs(gap) to 'make it match'. Co-variance has to be monitored in final output. See [Covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance.html) page

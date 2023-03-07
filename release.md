@@ -56,7 +56,7 @@ description: Find here the **latest releases** of DataMa Solutions
 
 ### 2022-12-15: New app beta release
 
-DataMa v2 has been released for beta testers on [app.datama.io](https://app.datama.io) ! 
+DataMa v2 has been released for beta testers on <a href="https://app.datama.io/" target="_blank">app.datama.io</a> ! 
 
 This is an important step on a major migration process scheduled for 2023.You can ask to your Customer Success Manager to get a tour on the new platform, which is a beta version for now.
 
