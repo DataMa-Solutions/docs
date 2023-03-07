@@ -25,11 +25,11 @@ So what you want, is to really explain Revenue_ThisYear – Revenue_LastYear. (<
 
 Well, this can be written as following:
 
-![equation]({{site.url}}/{{site.baseurl}}/core_app/old/compare/model/waterfall/images/equation.png)
+![equation]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/equation.png)
 
 The visual representation below is much easier to get:
 
-![covariance]({{site.url}}/{{site.baseurl}}/core_app/old/compare/model/waterfall/images/Covariance.gif)
+![covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/Covariance.gif)
 
 What you want to explain is the gap in surface between the two green squares.
 

@@ -108,7 +108,7 @@ While full documentation is still work in process, here is a quick preview of th
     * Multiple bug fixes and UI improvements (including Dynamic saving of Start & End even without "Save As", Compare of Compare deactivation for Anomaly detection, Chart size and titles in Pivot)
 
 * **Compare:**
-    * Covariance roll up: Covariance for waterfall can now be computed at segment level in a given dimension before rolling up at total level. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/old/compare/web_application/menu/covariance_rollup)
+    * Covariance roll up: Covariance for waterfall can now be computed at segment level in a given dimension before rolling up at total level. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/covariance_rollup)
     * Split Mix and Perf parameter is now saved allong with other settings
 
 * **Prep:**
@@ -158,7 +158,7 @@ While full documentation is still work in process, here is a quick preview of th
     * Multiple bug fixes and UI improvements (including value box for impact sizing in DataMa Impact, clarification of error messages for Compare and Impact)
 
 * **Impact:**
-    * Added "**Causal Impact**" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/old/impact/web_application/dashboard/causal_impact.html)
+    * Added "**Causal Impact**" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/causal_impact.html)
     * Anomaly detection notification slack and email messages now includes a list of all KPIs that are flagged as having an anomaly
 
 * **Prep**
@@ -250,7 +250,7 @@ While full documentation is still work in process, here is a quick preview of th
 
 * **General:**
     * Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. Month 1, Month 2... Month 12 when comparing two years, or Day 1, Day 2... Day 7 when comparing 2 weeks)
-    * Date aggregation: Dates are now treated as numeric dimensions for clustering. DataMa will automatically create time frame with similar KPI trends to aggregate the data and make it easier to analyse (see [Settings menu]({{site.url}}/{{site.baseurl}}/core_app/old/pivot/web_application/dashboard/clustering.md))
+    * Date aggregation: Dates are now treated as numeric dimensions for clustering. DataMa will automatically create time frame with similar KPI trends to aggregate the data and make it easier to analyse (see [Settings menu]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering.md))
     * Regex Filtering: Filter UI have been improved and now includes a Regex option, to filter on specific regular expressions
     * Language (English or French) can now be saved for a given workbook
     * Improved interface for Tableau dashboard extension

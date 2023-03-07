@@ -32,7 +32,7 @@ You can learn more about tableau dashboard extension [here](https://help.tableau
 
 * Login to DataMa, and navigate to the model you need (Compare, Pivot, Impact etc)
 * Once on the web app if launched, click on « Admin > Change Source » and in the extension section, click on « Tableau »
-* Select the Tableau worksheet you want to connect to. This worksheet should contain Dimension and metrics as for DataMa sources in general (see [here]({{site.url}}/{{site.baseurl}}/core_app/old/header/input/source))
+* Select the Tableau worksheet you want to connect to. This worksheet should contain Dimension and metrics as for DataMa sources in general (see [here]({{site.url}}/{{site.baseurl}}/core_app/header/input/source))
 * Then follow usual steps to create a new analysis in DataMa. **Cautious: the dimensions and metrics are loaded in alphabetical order**, not the order you’re displaying them onto your worksheet, so you might want to define properly your steps by un-ticking the box « My source is in line with DataMa standards »
 * You can save your use case as usual in DataMa, and reload it in the same Tableau environment (but you won’t be able to open it outside of Tableau, since DataMa is only able to get data from Tableau when used as an extension)
 * Once saved, you can also use the refresh icon (next to the « loaded version »)
