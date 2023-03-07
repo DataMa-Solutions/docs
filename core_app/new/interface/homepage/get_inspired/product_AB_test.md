@@ -4,7 +4,7 @@ description: As for the other examples, number of dimension could be extended to
 layout: page
 ---
 
-> Find below information about the **«Product – AB Test»**  example in our [demo](https://app.datama.io/) solution.
+> Find below information about the **«Product – AB Test»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
 
 {{ page.description }}
 

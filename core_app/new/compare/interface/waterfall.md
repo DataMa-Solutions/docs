@@ -11,7 +11,7 @@ layout: page
 
 Waterfall is a group of 3 tabs. See below articles for details on each tab:
 
-* [Chart](#waterfall-chart)
+* [Waterfall Chart](#waterfall-chart)
 * [Funnel](#funnel)
 * [Dimension Comparison](#dimension-comparison)
 
@@ -19,7 +19,7 @@ Waterfall is a group of 3 tabs. See below articles for details on each tab:
 
 <br>
 
-### **Waterfall Chart**
+# <b><u>Waterfall Chart</u></b>
 
 <br>
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_waterfall.png"> </center>
@@ -49,7 +49,7 @@ You can unzoom by clicking on other steps or clicking on the box again
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_zoomedView.jpg"> </center>
 
 
-### <b><u>**Funnel</u></b>**
+# <b><u>Funnel</u></b>
 
 The funnel section shows the % change and absolute values of each KPI 
 
@@ -57,10 +57,14 @@ This funnel gives details on numbers behind waterfall chart. Each step of your c
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_funnel.png"> </center>
 
+<br>
 
-### **<b><u>Dimension Comparison</u></b>**
+# <b><u>Dimension Comparison</u></b>
 
-**Mix effect**
+<br>
+
+## **Mix effect**
+
 For each step, it shows the total mix effect of each dimension (which has a mix effect).
 
 <i>>eg.The mix effect is the impact on your performance that is coming from an evolution of the distribution of your "denominator" in input. If you have more people in input with a better conversion rate, you will have a positive mix effect due to the type of client coming into your store or your website.</i>
@@ -77,7 +81,7 @@ read more about Mix effect
 <br>
 
 
-**Performance effect: Min**
+## **Performance effect: Min**
 
 A performance effect is an observed difference in a performance. <i>eg.As for example selling different number of car between two week is a performance effect. Having less user in a website is a negative performance effect.</i>
 
@@ -89,7 +93,7 @@ As presented below the performance effect could be represented at each step of y
 
 <br>
 
-**Performance effect: Max**
+## **Performance effect: Max**
 
 For each step, within each dimension, it shows the segment having the biggest positive contribution in performance, net of mix effects, in bars.
 The width of the bar and the parenthesis ‘(x…)’ in the call outs refers to how fast this performance change is relative to the other segments.

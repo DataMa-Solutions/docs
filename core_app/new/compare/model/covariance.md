@@ -4,6 +4,10 @@ description: Basically the share of the variation that you can’t attribute to 
 layout: page
 ---
 
+> <b>Covariance</b>, is basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
+
+<br>
+
 In general, **Covariance** is a statistic measure of joint variability between two variables. You can learn more statistical docs on the [web](https://en.wikipedia.org/wiki/Covariance), but this article focuses on the business usage in DataMa Compare.
 
 In our case, covariance is basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.

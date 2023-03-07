@@ -32,12 +32,12 @@ Please refer to the [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_ap
 
 In DataMa Assess, you can assess the significance of a variation only on one given KPI. Hence, you need to select one of the step of your metric relation for that KPI. By default, DataMa selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/assess_settingsKPI.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsKPI.png"/></center>
 
 
 If you want to assess the significance for a KPI that is not explicitly in your metric relation, you can still edit the numerator and denominator manually by clicking on the KPI pill. See specific section for more details on the KPI pill
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/assess_settingsKPI2.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsKPI2.png"/></center>
 
 <br>
 
@@ -47,7 +47,7 @@ Confidence interval is set in % to decide the level of confidence, or statistica
 
 Depending on the test you are performing, this input can be used in different ways. Please refer to the [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) section for more details
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/assess_settingsConfidenceInterval.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsConfidenceInterval.png"/></center>
 
 <br>
 
@@ -55,7 +55,7 @@ Depending on the test you are performing, this input can be used in different wa
 
 You can decide which test  to perform depending by selecting the appropriate model. Please refer to the [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) section for more details
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/assess_settingsTestCompute.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsTestCompute.png"/></center>
 
 <br>
 
@@ -66,7 +66,7 @@ The Frequentist Weight parameter allows you to select a metric that will multipl
 
 For instance, if you’re analyzing the significance of a variation of Average Basket value in an AB test, you would need to have 1 line per transaction, so that DataMa can compute the standard deviation of that Revenues generated per transaction. However, since you have many transactions, you could end up with a too large dataset. To avoid handling large datasets, DataMa allows you to define a “weight” for each line, and in that example you could group transactions by bucket of Revenues. This [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1483851606) is a good example of that transformation from this other [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1115355265), where “Lines” will be used as denominator for the KPI and “Weight” column as the weightening for Revenue/ Lines ratio. Note that the second data set is significantly smaller than the first one, and gives the same results.
 
-
+<br>
 
 ### <b>Test side</b>
 

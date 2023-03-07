@@ -4,25 +4,30 @@ description: See in this chapter details how to use the Folders of your account
 layout: page
 ---
 
-> See in this chapter details how to use the **Folders**  of the DataMa solution
+> This chapter explains how to use the "folders" in the DataMa solution to manage your workbooks.
+
+<br>
+
+## <b>**Workbook**</b>
 
 
-On the home page, you can access your workbooks in the “Recent section” or in your workspaces organized with folders. 
+You can access your workbooks from the home page in the "Recent" section or in folders you've created in your workspaces.
 
-In the “Recent” section of the home page, you find the last workwooks you modified. A contextual menu allows you to edit, delete or move them to a specific folder.
+The "Recent" section shows the workbooks you've worked on recently. You can edit, delete, or move them to a folder using the contextual menu.
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_management.png"/></center>
 
 
 
-You find a similar management of your workwooks in “Workbooks” side navigation menu.
+You can also manage your workbooks in the "Workbooks" menu.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
 
+<br>
 
-> **Folders**
+## <b>**Folders**</b>
 
-On the “Workbooks” side navigation menu, you can create folders to organize your workbooks. You have to specify a name and an icon (facultative).
+To organize your workbooks, you can create folders in the "Workbooks" menu. Simply give the folder a name and an optional icon.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/folders_icon.png"/></center>

@@ -16,6 +16,8 @@ The table allows to access a detail view of the data with the ability to refine 
 
 <br>
 
+## What's available on the table?
+
 By changing the settings of the table you can choose to display 5 types of information: 
 - **Value**: new value of the ratio. (e.g: 2633 Users in referral for "this year")
 - **Impact**: differece of Value between <i>Start</i> and <i>End</i> (eg.: "this year" - "last year" = 2633)
@@ -28,7 +30,13 @@ Change Formatting of the table by clicking on the Settings icon:
 
 <br>
 
-And adapt the display with 
+
+## How could it look like?
+
+The display is adaptable according to your needs.
+
+<br>
+
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg" style="width:70%">
 
 - **Arrow**: Displays an arrow that goes up or down depending on the positive or negative variation 

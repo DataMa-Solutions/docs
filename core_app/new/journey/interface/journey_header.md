@@ -4,7 +4,7 @@ description: The header in DataMa Journey helps you manipulate and refine your U
 layout: page
 ---
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_header.png">
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_header.jpg">
 
 <br>
 

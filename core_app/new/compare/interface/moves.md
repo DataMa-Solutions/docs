@@ -12,6 +12,10 @@ This graph shows the performance effect and the mix effect within a single serie
 
 <br>
 
+# <b>How to understand this graph?</b>
+
+<br>
+
 Read more [details]({{site.url}}/{{site.baseurl}}/core_app/old/compare/model/dimensions) on Mix & Performance Effects.
 
 <br>

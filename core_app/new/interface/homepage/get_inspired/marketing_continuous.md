@@ -4,7 +4,7 @@ description: |
     As presented in the data, one of the dimension is a continuous dimension. This dimension wil be clustered by the algorithm to gathered people around the same age with a similar behaviour. In that case : 18-20.5 >> 20.5 – 23>> 23-25 >>25-36.5….
 layout: page
 ---
-> Find below information about the **« Marketing Campaign – Continous dimension»**  example in our [demo](https://app.datama.io/) solution.
+> Find below information about the **« Marketing Campaign – Continous dimension»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
 
 Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
 
