@@ -73,7 +73,6 @@
               link: /core_app/new/interface/subheader/metrics_relation.html
             - name: Settings #done
               link: /core_app/new/interface/subheader/settings.html
-
     - name: Compare #done
       link: /core_app/new/compare/compare.html
       subnav:
@@ -620,11 +619,14 @@
                 - name: Content Square data
                   link: /home/use_cases/Content_CS.html #OK
 - name: DataMa On Premise
-  link: /core_app/old/DataMa_on_premise.html #OK
+  link: /core_app/new/DataMa_on_premise.html #OK
+- name: First Use
+  type: separated
+  link: /core_app/new/tutorial/first_use.html #OK
 - name: Licence terms
   type: separated
-  link: /core_app/old/licence_terms.html #OK
+  link: /core_app/new/admin/licence_terms.html #OK
 - name: Privacy policy
-  link: /core_app/old/licence_terms/privacy_policy.html #OK
+  link: /core_app/new/admin/privacy_policy.html #OK
 - name: Terms of Service
-  link: /core_app/old/licence_terms/terms_of_service.html #OK
+  link: /core_app/new/admin/terms_of_service.html #OK

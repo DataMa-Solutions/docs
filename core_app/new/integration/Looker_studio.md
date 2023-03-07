@@ -12,7 +12,7 @@ layout: page
 
 From Looker Studio you can load new vizualisation from the community, and retrieve our manifesto : <i>gs://app.datama.io/looker-studio</i>
 
-![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadindExtension.gif)
+![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadingExtension.gif)
 
 <br>
 
@@ -36,7 +36,7 @@ DataMa will be basically like a Looker Studio graph embedded in the visualisatio
 
 > Tip: When you want to compare period: Create a calculated field as a 1st dimension to choose what to put as a Start & End element in this dimension. This calculated field could then be used as Dropdown menu to better select the period you want to compare
 
-Contact us (contact@datama.fr) to get a licence key and install the extension.
+<br>
 
-Below is a good preview of what to expect
+Contact us (contact@datama.fr) to get a licence key and install the extension.
 

@@ -13,7 +13,7 @@ The header will follow you all along your experience in the platform letting you
 
 <br>
 
-> Discore as well the available Menu of the Header 
+> Discore as well the Header of the solutions
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.jpg"/></center>

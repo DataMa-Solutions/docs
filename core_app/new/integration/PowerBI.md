@@ -49,6 +49,3 @@ DataMa will be basically like a PowerBi graph embedded in the visualisation. You
 <br>
 
 Contact us (contact@datama.fr) to get a licence key and install the extension.
-
-Below is a good preview of what to expect
-
