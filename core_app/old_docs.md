@@ -6,7 +6,7 @@ layout: page
 
 > **This documentation aims to explain and present the current version of DataMa Solution**
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/old/images/old_version.jpg" alt="Old documentation" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/old_version.jpg" alt="Old documentation" /></center>
 
 Welcome in our documentation !
 

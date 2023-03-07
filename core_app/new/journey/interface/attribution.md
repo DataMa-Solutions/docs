@@ -35,23 +35,23 @@ Three parameters are used in order to build this graph:
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_priority.jpg" style="width:1000px;">
 
-Here, the first step to improve is "Search" because it has  the highest feasibility ([Ratio]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)) and opportunity ([Value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)).
+Here, the first step to improve is "Search" because it has  the highest feasibility ([Ratio]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)) and opportunity ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)).
 
 ** Priority without Compare Mode**
 
 Three parameters are used in order to build this graph:
 
-* X axis is  [opportunity]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/opportunity_value)
+* X axis is  [opportunity]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/opportunity_value)
 
-* Y axis is  [lost value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/lost_value)
+* Y axis is  [lost value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/lost_value)
 
-* The size of the circles is  [normalized value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* The size of the circles is  [normalized value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
 **<u>Example:</u>**
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/images/priority_without_compare.png" style="width:1000px;">
+<img src="{{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/images/priority_without_compare.png" style="width:1000px;">
 
-Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/opportunity_value) for the lowest [lost value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/lost_value).
+Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/opportunity_value) for the lowest [lost value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/lost_value).
 
 <br>
 
@@ -77,9 +77,9 @@ You will be able to quickly identify the steps presenting the biggest opportunit
 
 Two parameters are used in order to build this graph:
 
-* X axis is [point]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* X axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
-* Y axis is your [value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* Y axis is your [value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
 
 <br>
@@ -109,9 +109,9 @@ The biggest feasability  is "Goal_Step3" then "Blog" , "Goal_Step2"...
 
 Two parameters are used in order to build this graph:
 
-* X axis is [point]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* X axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
-* Y axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data) )
+* Y axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) )
 
 
 
@@ -141,9 +141,9 @@ The biggest feasability  is "Goal_Step3" then "Blog" , "Goal_Step2"...
 
 Two parameters are used in order to build this graph:
 
-* X axis is [point]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* X axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
-* Y axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data) )
+* Y axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) )
 
 
 

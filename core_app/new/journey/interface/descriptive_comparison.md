@@ -4,7 +4,7 @@ description: Descriptive Comparison is a group of 4 tabs. See below articles for
 layout: page
 ---
 
-![descriptive comparison]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/images/descriptive_comparison.png" style="width:550px;">
+![descriptive comparison]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/images/descriptive_comparison.png" style="width:550px;">
 
 Descriptive Comparison is a group of 4 tabs. See below articles for details on each tab:
 
@@ -25,7 +25,7 @@ Two parameters are used in order to build this graph:
 
 * X axis is % of the metric you have chosen
 
-* Y axis is [point]({{site.url}}/{{site.baseurl}}/core_app/old/journey/web_application/dashboard/attribution/data)
+* Y axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
 **<u>Example:</u>**
 

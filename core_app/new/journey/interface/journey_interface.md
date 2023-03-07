@@ -20,7 +20,7 @@ Touch points could be any experience or even process you would like to analyse. 
 
 > Overall **interface** is split in 3 steps, that are the back bone of DataMa JOURNEY
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/old/journey/images/model.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/journey/images/model.png"/></center>
 
 * **Interface:**  essentially the charts you see in the page (split in Attribution, descriptive comparison and Detailed view)
     - [Attribution]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/attribution.html)

@@ -10,7 +10,7 @@ Touch points could be any experience or even process you would like to analyse. 
 
 > Overall **model** is split in 3 steps, that are the back bone of DataMa JOURNEY
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/old/journey/images/model.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/journey/images/model.png"/></center>
 
 ## Attribution
 See attributed value to each touch point and compare between one another

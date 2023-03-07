@@ -40,7 +40,7 @@ Number of dimension are theoretically unlimited. However, as your data set get b
 
 > **Tip:** DataMa PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
 
-> **Warning:** DataMa JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/old/journey.md) for more details.
+> **Warning:** DataMa JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
 
 
 🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) you need to first configure your flow (using a variety of sources and action blocks) and then click on the DataMa block there you will be able to define Metrics and relations
