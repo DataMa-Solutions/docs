@@ -16,8 +16,8 @@ Previously known as Compare of Compare, this mode allows you to compare 2 waterf
 
 In the background, DataMa will then run the same analysis for the 2 definitions of start and end, and then display the results of the secondary analysis in the background. Main output is :
 
-●	In the Waterfall « Chart », the secondary waterfall is displayed in the background
-●	In the Comments, the trend between secondary and primary analysis will be worded
+●   In the Waterfall « Chart », the secondary waterfall is displayed in the background
+●   In the Comments, the trend between secondary and primary analysis will be worded
 
 <br>
 

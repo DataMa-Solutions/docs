@@ -193,9 +193,11 @@ Read this [article](https://datama-solutions.github.io/docs/#/impact/web_applica
 
 <h2>Tip of the week #36</h2>
 
-📢 Lots of new stuff on the platform this week!  You have the full list [here](https://datama-solutions.github.io/docs/#/news).
+📢 Lots of new stuff on the platform this week!
+ You have the full list [here](https://datama-solutions.github.io/docs/#/news).
 
-In particular, a great news for analysts whose beautiful graphs always end up in slides (we know some of them 😅 ): you can now download all DataMa graphs and comments on PowerPoint in one click.  Just click on the "ppt" icon on the top right of the graph.
+In particular, a great news for analysts whose beautiful graphs always end up in slides (we know some of them 😅 ): you can now download all DataMa graphs and comments on PowerPoint in one click.
+ Just click on the "ppt" icon on the top right of the graph.
 
 Boom 💥
 
@@ -224,7 +226,8 @@ Again, another release this week 🎉 !
 
 Within the [news](https://datama-solutions.github.io/docs/#/news), the ability to visualize ratios of your 'market equation' side by side.
 
-For instance, the click through rate of each page of a funnel on the same bar chart   📊
+For instance, the click through rate of each page of a funnel on the same bar chart  
+📊
 
 Named 'Ratio helper', this visualisation is useful to know which ratio is under/ over performing even before trying to understand the drivers in Pivot.
 
@@ -249,11 +252,11 @@ To learn more, click [here](https://datama-solutions.github.io/docs/#/general/me
 <h2>Tip of the week #30</h2>
 
 🚒 Following the events at OVH, here is some information on the situation of DataMa hosting:
-* 		Being hosted at OVH, we were impacted by the shutdown of services following the Strasbourg fire, but ultimately without much consequence because we were able to switch the solution to other servers in Europe.
-* 		A few hours after the shutdown, everything was back to normal, the backups worked fine, everything was restored on solutions.datama.fr 🤓
-* 		We even took the opportunity to increase the power of the platform. 🚀
-* 		Do not hesitate to come back to us if you have any access problem.
-* 		Thank you for your understanding and again sorry for the inconvenience.
+*       Being hosted at OVH, we were impacted by the shutdown of services following the Strasbourg fire, but ultimately without much consequence because we were able to switch the solution to other servers in Europe.
+*       A few hours after the shutdown, everything was back to normal, the backups worked fine, everything was restored on solutions.datama.fr 🤓
+*       We even took the opportunity to increase the power of the platform. 🚀
+*       Do not hesitate to come back to us if you have any access problem.
+*       Thank you for your understanding and again sorry for the inconvenience.
 
 ![Tip 31]({{site.url}}/{{site.baseurl}}/assets/images/tip/31.gif)
 
@@ -288,7 +291,8 @@ Good news, you don't need to show it. Just de-activate the split between mix and
 
 <h2>Tip of the week #27</h2>
 
-DataMa Pivot now has its own smart comment 📝!  You can find your insights in bullet points under each chart of DataMa Pivot, as if an analyst would have work to get what you need!
+DataMa Pivot now has its own smart comment 📝!
+ You can find your insights in bullet points under each chart of DataMa Pivot, as if an analyst would have work to get what you need!
 
 This new feature is part of a set of releases from this week that you can see on https://datama-solutions.github.io/docs/#/news
 
@@ -300,7 +304,8 @@ Enjoy 😄
 
 <h2>Tip of the week #26</h2>
 
-The DataMa team wish you a happy new year 🎉 !  In case you want to filter out and forget this 2020 year 😷 from your analysis, we have what you need... with the new filter interface you can, in 2 clics:
+The DataMa team wish you a happy new year 🎉 !
+ In case you want to filter out and forget this 2020 year 😷 from your analysis, we have what you need... with the new filter interface you can, in 2 clics:
 
 * ✔️ select segments that you want to keep
 * ❎ exclude a dimension from analysis using left button
@@ -328,7 +333,8 @@ Now you're turn ✏️ and merry Christmas 🎁!
 
 <h2>Tip of the week #24</h2>
 
-As annouced, new UI of DataMa is now in production on [solutions.Datama.io](solutions.Datama.io) 🎉
+As annouced, new UI of DataMa is now in production on [solutions.Datama.io](solutions.Datama.io)
+🎉
 
 You can find everything that's new in the release note [here](https://datama-solutions.github.io/docs/#/news)
 
