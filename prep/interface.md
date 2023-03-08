@@ -12,7 +12,7 @@ After you have logged in, you will find this home page:
 
 **DataMa PREP's structure is made of 4 parts:**
 
-![Structure](images/Capturen1.PNG)
+![Structure](images/Capturen1.png)
 
 ## Header menu
 Go back to the home page, save, schedule, run and cache the flow.

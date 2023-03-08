@@ -10,7 +10,7 @@ If you're already familiar with DataMa Solutions, you will obviously need DataMa
 
 This documentation gives you an overview of how it works and how to use it.
 
-![prep_ui](images/Capturen1.PNG)
+![prep_ui](images/Capturen1.png)
 
 Hope you enjoy it.
 
