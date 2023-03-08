@@ -16,7 +16,7 @@ Attribution is a group of 5 tabs. See below details on each tab:
 
 <br>
 
-> ### <b>Priority </b>
+## <b>Priority</b>
 
 
 The Priority tab  is a graph allowing you to visualize the steps of your customers' journeys to improve first.
@@ -55,7 +55,7 @@ Here, the first step to improve is "Goal_Step2" because it has a relatively low 
 
 <br>
 
-> ### <b>Opportunity (Value) </b>
+## <b>Opportunity (Value)</b>
 
 The Opportunity tab is a graph allowing you to visualize the value attributed to each touch point of the customer journey based on selected attribution model.
 
@@ -84,8 +84,7 @@ Two parameters are used in order to build this graph:
 
 <br>
 
-
-> ### <b>Feasability (Ratio)</b>
+## <b>Feasability (Ratio)</b>
 
 The Feasability tab is a graph allowing you to visualize the Value/ Volume of the various touch points of the customer journey.
 
@@ -117,7 +116,7 @@ Two parameters are used in order to build this graph:
 
 <br>
 
-> ### <b>Lost Value</b>
+## <b>Lost Value</b>
 
 The Feasability tab is a graph allowing you to visualize the Value/ Volume of the various touch points of the customer journey.
 
@@ -150,7 +149,7 @@ Two parameters are used in order to build this graph:
 <br>
 
 
-> ### <b>Data</b>
+## <b>Data</b>
 
 
 > The **Data Tab** is the table used to generate the others tabs of Attribution

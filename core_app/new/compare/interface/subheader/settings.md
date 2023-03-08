@@ -6,7 +6,27 @@ layout: page
 
 > Find here how to use the **Settings**
 
-Here is the panel of the Settings. 
+<br>
+
+- [1. Aggregation in %](#1-aggregation-in)
+- [2. Split Mix and Perf](#2-split-mix-and-perf)
+- [3. Negative Driver First](#3-negative-driver-first)
+- [4. Significance test](#4-significance-test)
+- [5. Analyse Depth](#5-analyse-depth)
+- [6. Covariance roll up](#6-covariance-roll-up)
+- [7. Include 0 for Y axis](#7-include-0-for-y-axis)
+- [8. Analysis Language](#8-analysis-language)
+- [9. Colors Palette For Plots](#9-colors-palette-for-plots)
+- [10. Force Rounding](#10-force-rounding)
+- [11. Clustering](#11-clustering)
+- [12. Max segment displayed](#12-max-segment-displayed)
+- [13. Smart dimension](#13-smart-dimension)
+- [14. Combined Dimensions](#14-combined-dimensions)
+- [15. Comparable Dates](#15-comparable-dates)
+
+<br>
+
+Here is the panel of the Settings
 <br>
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
 
@@ -100,14 +120,7 @@ When deactivated DataMa will adapt the Axis to your dataset. This help to better
 
 <br/>
 
-## **8. Force Rounding**:
-
-The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number. 
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
-<br/>
-
-## **9. Analysis Language**
+## **8. Analysis Language**
 
 
 For now, DataMa is only available in English and in French. By default Datama is in english. 
@@ -116,7 +129,7 @@ For now, DataMa is only available in English and in French. By default Datama is
 
 <br/>
 
-## **10. Colors Palette For Plots**
+## **9. Colors Palette For Plots**
     
 Graphs colors are customizable, in 3 different ways. 
 Grayscale, scattered and Custom. 
@@ -133,6 +146,15 @@ The custom method allows to refine color by color all the graphs available in th
 
 <br/>
 
+
+## **10. Force Rounding**:
+
+The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number. 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
+
+<br/>
+
 ## **11. Clustering**
 
 Clustering is necessary for dimension analysis
@@ -143,13 +165,18 @@ Read docs related to continuous dimension
 
 <br/>
 
+## **12. Max segment displayed**
+
+Decide how many segments you want to display in every waterfall graph.
+By default this parameter is set at '4'.
+
 <br/>
 
 # <b><u>ANALYSIS DIMENSION</u></b>
 
 <br/>
 
-## **12. Smart dimension**
+## **13. Smart dimension**
 For each step of the waterfall analysis, the Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation. It comes in addition to the Combined dimension which crosses all dimensions.
 
 <br>
@@ -170,7 +197,7 @@ You can't change the selection of the combination, but you can concatenat two co
 
 <br>
 
-## **13. Combined Dimensions**
+## **14. Combined Dimensions**
 
 By default <i>Combined Dimensions</i> is activated. DataMa creates an additional Dimension in your analyse which is the combination of all your dimension.
 
@@ -178,7 +205,7 @@ You can't change the selection of the combination, but you can concatenat two co
 
 <br>
 
-## **14. Comparable Dates**
+## **15. Comparable Dates**
 
 Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a “Comparable_date” dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 

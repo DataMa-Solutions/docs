@@ -16,7 +16,8 @@ Here is the main elements to find in DataMa PIVOT:
 - Coming soon: [Decision Tree](#decision-tree)
 
 <br><br>
-> ### Importance Chart ###
+
+## <b>Importance Chart </b>
 
 The dimension importance is the first element of the DataMa PIVOT interface. It sorts all the dimensions by importance from left to right, regarding the KPI you are following.
 - Dimensions are sorted according to the Standard deviation which is weighted according to the volume. This basically means that dimensions on the left of the charts have segments that differ a lot on the selected KPIs. Depending on the dimension you’re looking at, one could then identify business opportunities in increasing the performance of low bubbles on this chart, if that is feasible.
@@ -30,17 +31,18 @@ The AB Test example below shows the importance of 3 dimensions to measure the ra
 Browser is the most important dimension and Test_variant is the least important.
 Each bubble of browser, represents a type of browser (Chrome, Firefox, Safari …), the gray bar represents the value of the Weighted Standard deviation used to sort the dimension.
 
+<br>
 
-
-> ### Simple chart ###
+## <b>Simple chart</b>
 
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide. This is a non-aggregated view of the data.
 The black line is the average KPI of this element (ratio: numerator / denominator)
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_simpleChart.png" style="width:450px; height:auto;"/></center>
 
+<br>
 
-> ### Clustered Chart ###
+##  <b>Clustered Chart</b>
 
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide.
 The black line is the average KPI of this element (ratio: numerator / denominator)
@@ -51,15 +53,17 @@ Aggregation:
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_clusteredChart.png"/></center>
 
+<br>
 
-> ### MariMekko ###
+## <b>MariMekko</b>
 
 This aims to represent how one dimension is distributed in another dimension.
 
 As for the Sankey diagram, you can change dimension by using the drop-down menu on the title. The first element corresponds to the splitted segment and the second one is the dimension you want to investigate (represented in each column).
 
+<br>
 
-> ### Sankey Diagram ###
+## <b>Sankey Diagram</b>
 
 This aims to discover how dimensions are correlated.
 Show the distribution between 2 dimensions, understand for 2 dimensions how the elements of these dimensions are distributed together.
@@ -72,16 +76,18 @@ This represents each element at the same size which helps you compare the distri
 
 The « % Distrib » option makes the segments on the right of the window all at the same size. This helps to compare segments between each other.
 
+<b>
 
-> ### Simple Test Matrix ###
+## <b>Simple Test Matrix</b>
 
 The calculation is made using a simple correlation rate to determine whether dimensions are independent. Higher the score is, higher the correlation is.
 These figures are the percentage of correlation.When you click on one of the figures, it will filter automatically on the corresponding dimension (column and line).
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_simpleTestMatrix.png"/></center>
 
+<br>
 
-> ### Decision Tree ###
+## <b>Decision Tree</b>
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
 
@@ -98,3 +104,4 @@ In the box, see on the top the value of the KPI for the concerned population and
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree.png" style="width:650px; height:auto;"/></center>
 
 
+<br>

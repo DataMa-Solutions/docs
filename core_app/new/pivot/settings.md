@@ -7,8 +7,21 @@ layout: page
 
 > Here is the different settings available in DataMa **Pivot**
 
+<br>
 
-Find here the main elements of the solution Header in DataMa Pivot 
+- [Comparison](#comparison)
+- [Filters](#filters)
+- [KPI](#filters) (Metric Relation)
+- [Maximum Depth Of Decision Tree](#maximum-depth-of-decision-tree)
+- [Maximum Depth For Continuous Grouping](#maximum-depth-for-continuous-grouping)
+- [Analysis Language](#analysis-language)
+- [Colors Palette For Plots](#colors-palette-for-plots)
+- [Force Rounding](#force-rounding)
+
+
+<br>
+
+> Find here the details of the main settings DataMa Pivot
 
 <br>
 
@@ -70,7 +83,7 @@ For now, DataMa is only available in English and in French. By default Datama is
 
 <br/>
 
-## **Colors Palette For Plots**
+## Colors Palette For Plots
     
 Graphs colors are customizable, in 3 different ways. 
 Grayscale, scattered and Custom. 
