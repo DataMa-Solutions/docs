@@ -11,6 +11,15 @@ description: |
 ---
 Every month, DataMa publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
 
+<h> 💡Use Case of the Month #5 </h>
+
+Defining, monitoring, and forecasting KPIs can be complex, especially when trying to determine the cause of gaps between actual and forecasted results🤔. In this month's use case, find out how a major web C2C marketplace used DataMa to:
+📈 Model complex mix effects and changes in their customer service efforts to get clear results on financial impacts
+🧩 Seamlessly integrate DataMa into their existing tech stack, including Snowflake and Tableau
+🎯 Focus on key initiatives by identifying the cause of discrepancies between forecasted and actual data
+
+Read the full story [here](https://www.datama.io/use-case-5-forecast-analysis-vs-actual-performance/)
+
 <h> 💡Use Case of the Month #4 </h>
 
 DataMa's dynamic waterfall visualization excels at breaking down classic market equations to give you quick and smart insights 🤓 But did you know DataMa's customizable features allow you to analyze more complex and unique cases? 🤯 Read this month's use case to find out how a major fashion retailer used Datama's Tableau extension to:
@@ -18,6 +27,8 @@ DataMa's dynamic waterfall visualization excels at breaking down classic market 
 💰 Break down their YoY costs and identify the factors responsible for any increases
 ⚙️ Create market equations to address a unique business question, including color and display customizations
 📊 Easily integrate DataMa into their data viz tool of choice
+
+Read the full story [here](https://www.datama.io/use-case-4-logistics-cost-analysis-in-tableau/)
 
 <h2> 💡 Use Case of the Month #3 </h2>
 
