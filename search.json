@@ -9,7 +9,7 @@
         "keywords": "{{page.keywords}}",
         "description": "{{page.description | strip | escape}}",
         "url": "{{site.url}}/{{site.baseurl}}{{page.url}}",
-        "body": "{{page.content | strip_newlines | strip_html | strip | escape }}"
+        "body": "{{page.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
       } {% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}

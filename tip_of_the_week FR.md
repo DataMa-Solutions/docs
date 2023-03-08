@@ -196,9 +196,13 @@ Lisez cet [article](https://datama-solutions.github.io/docs/#/impact/web_applica
 
 <h2>Tip of the week #36</h2>
 
-📢 Plein de nouveautés sur la plateforme cette semaine!  Vous avez la liste complète [ici](https://datama-solutions.github.io/docs/#/news).
+📢 Plein de nouveautés sur la plateforme cette semaine!
+ Vous avez la liste complète [ici](https://datama-solutions.github.io/docs/#/news).
 
- En particulier, une nouveauté de taille pour les analystes dont les beaux graphs finissent toujours en slide (on en connait quelques uns 😅): vous pouvez maintenant télécharger tous les graphs et commentaires DataMa sur PowerPoint en un clic. Il n'y a qu'à cliquer sur l'icone "ppt" en haut à droite du graph. 
+
+En particulier, une nouveauté de taille pour les analystes dont les beaux graphs finissent toujours en slide (on en connait quelques uns 😅): vous pouvez maintenant télécharger tous les graphs et commentaires DataMa sur PowerPoint en un clic.
+Il n'y a qu'à cliquer sur l'icone "ppt" en haut à droite du graph.
+
 
 Boum 💥
 
@@ -223,15 +227,20 @@ Retrouvez plus d'information sur notre [documentation](https://datama-solutions
 
 <h2>Tip of the week #33</h2>
 
-Encore une nouvelle release cette semaine ! 
+Encore une nouvelle release cette semaine !
+
 
 Parmi les [nouveautés](https://datama-solutions.github.io/docs/#/news), la possibilité de visualiser les ratios de votre "équation de marché" les uns à coté des autres.
 
- Par exemple, le taux de passage entre chaque page sur un même bar chart  📊
 
-Baptisé 'Ratio helper', cette visualisation est utile avant même chercher à comprendre les drivers pour savoir quel ratio analyser. 
+Par exemple, le taux de passage entre chaque page sur un même bar chart 
+📊
 
-On y accède en cliquant sur le ➗ dans les paramètres .
+Baptisé 'Ratio helper', cette visualisation est utile avant même chercher à comprendre les drivers pour savoir quel ratio analyser.
+
+
+On y accède en cliquant sur le ➗ dans les paramètres
+.
 
 Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/general/menu/ratio_helper).
 
@@ -251,7 +260,8 @@ Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/genera
 
 <h2>Tip of the week #31</h2>
 
- DataMa s'internationalise, les commentaires sont maintenant disponibles en Français !! 🇫🇷
+
+DataMa s'internationalise, les commentaires sont maintenant disponibles en Français !! 🇫🇷
 
 * Vous pouvez changer la langue depuis le menu Settings > Display option > choose a language
 * Pour customiser encore plus vos dashboards, pouvez également modifier la couleur des graphes en choisissant les couleurs correspondant à votre charte graphique
@@ -263,7 +273,8 @@ Pour en savoir plus, rdv [ici](https://datama-solutions.github.io/docs/#/genera
 
 <h2>Tip of the week #29</h2>
 
-🆕 Pas mal de [nouveautés](https://datama-solutions.github.io/docs/#/news) sur la plateforme depuis ce weekend, toujours basé sur vos feedbacks ! Notamment la possibilité de cliquer "bouton droit" 🖱 sur la waterfall DataMa Compare, pour décider facilement de :
+🆕 Pas mal de [nouveautés](https://datama-solutions.github.io/docs/#/news) sur la plateforme depuis ce weekend, toujours basé sur vos feedbacks !
+Notamment la possibilité de cliquer "bouton droit" 🖱 sur la waterfall DataMa Compare, pour décider facilement de :
 
 * Zoomer sur une étape pour voir l'impact d'une dimension (l'équivalent du clic gauche)
 * Sauter (fusionner) une étape dans le funnel
@@ -279,9 +290,12 @@ A vous de tester !
 
 <h2>Tip of the week #28</h2>
 
- Angoissé par l'idée d'avoir à expliquer un effet mix dans la réunion autour de la waterfall DataMa 😨 ? 
 
-Bonne nouvelle, vous n'êtes pas obligé de l'afficher. Il suffit de désactiver le split entre Mix et Performance dans les settings à gauche. DataMa regroupera alors les deux effets, et séparera plutôt les variations négatives des variations positives. 
+Angoissé par l'idée d'avoir à expliquer un effet mix dans la réunion autour de la waterfall DataMa 😨 ?
+
+
+Bonne nouvelle, vous n'êtes pas obligé de l'afficher. Il suffit de désactiver le split entre Mix et Performance dans les settings à gauche. DataMa regroupera alors les deux effets, et séparera plutôt les variations négatives des variations positives.
+
 
 Et pour ceux qui n'ont toujours pas compris ce qu'est l'effet de mix 🎛 on a un petit webinar pour vous jeudi 25 🙂 -> inscription ici
 
@@ -291,9 +305,13 @@ Et pour ceux qui n'ont toujours pas compris ce qu'est l'effet de mix 🎛 on 
 
 <h2>Tip of the week #27</h2>
 
- DataMa Pivot se dote de commentaires intelligents pour chacun de ses charts 📝 ! Retrouvez en bullet points les insights générés par DataMa Pivot sous chacun des graphs, comme un analyste l'aurait fait !
 
- Cette nouveauté fait partie d'une série de release ce début de semaine, que vous pouvez retrouver sur https://datama-solutions.github.io/docs/#/news 
+DataMa Pivot se dote de commentaires intelligents pour chacun de ses charts 📝 !
+Retrouvez en bullet points les insights générés par DataMa Pivot sous chacun des graphs, comme un analyste l'aurait fait !
+
+
+Cette nouveauté fait partie d'une série de release ce début de semaine, que vous pouvez retrouver sur https://datama-solutions.github.io/docs/#/news
+
 
 Enjoy 😄
 
@@ -303,7 +321,9 @@ Enjoy 😄
 
 <h2>Tip of the week #26</h2>
 
- Toute l'équipe DataMa vous souhaite une bonne année 2021! Vous voulez exclure cette mauvaise année 2020 de vos analyses et l'oublier définitivement 😷 ?  Rien de plus facile avec la nouvelle interface de filtres. Vous pouvez, en deux clics:
+
+Toute l'équipe DataMa vous souhaite une bonne année 2021!
+Vous voulez exclure cette mauvaise année 2020 de vos analyses et l'oublier définitivement 😷 ?  Rien de plus facile avec la nouvelle interface de filtres. Vous pouvez, en deux clics:
 
 * ✔️ sélectionner les segments sur lesquels vous souhaitez filtrer
 * ❎ Exclure une dimension de l'analyse, en cliquant sur sur le bouton à gauche
@@ -316,11 +336,14 @@ Lancez ensuite l'analyse en appuyant sur le bouton en bas à gauche (raccourci "
 
 <h2>Tip of the week #25</h2>
 
- Chez DataMa, c'est Noël tous les jours.🎅
 
-  Pourquoi ? Parce que vous n'avez pas à attendre le 25 décembre pour faire votre liste au Père Noël.
+Chez DataMa, c'est Noël tous les jours.🎅
 
-Il vous suffit de nous faire remonter vos idées de feature / améliorations par chat, directement dans l'outil ou en réponse sur ce channel, et on met ça dans la backlog.  Et un ticket prend typiquement moins de deux semaines à être en prod. ⏩
+ 
+Pourquoi ? Parce que vous n'avez pas à attendre le 25 décembre pour faire votre liste au Père Noël.
+
+Il vous suffit de nous faire remonter vos idées de feature / améliorations par chat, directement dans l'outil ou en réponse sur ce channel, et on met ça dans la backlog.
+ Et un ticket prend typiquement moins de deux semaines à être en prod. ⏩
 
 A vos stylos ✏️ et Joyeux Noël 🎁 !
 
@@ -330,21 +353,31 @@ A vos stylos ✏️ et Joyeux Noël 🎁 !
 
 <h2>Tip of the week #24</h2>
 
- Comme annoncé, la nouvelle version de DataMa est maintenant accessible sur [solutions.Datama.io](solutions.Datama.io)  🎉
+
+Comme annoncé, la nouvelle version de DataMa est maintenant accessible sur [solutions.Datama.io](solutions.Datama.io) 
+🎉
 
 Vous pouvez retrouver l'ensemble des nouveautés dans la section [news](https://datama-solutions.github.io/docs/#/news) de la documentation.
 
- Parmi les nouveautés, l'introduction d'une 'home page' 🏠, qui rassemble l'ensemble de vos workbooks. 
+
+Parmi les nouveautés, l'introduction d'une 'home page' 🏠, qui rassemble l'ensemble de vos workbooks.
+
 
 Chaque 'Card' représente un use case.
 
-Depuis la home, vous pouvez facilement :  
-* ✏️ Editer le titre ou la description d'un workbook  
-* 🔒 Bloquer un workbook pour empecher son édition  
-* ❎ Supprimer un workbook  
-* ⚖️ Lancer un workbook sur la solution DataMa de votre choix ! 
+Depuis la home, vous pouvez facilement :
+ 
+* ✏️ Editer le titre ou la description d'un workbook
+ 
+* 🔒 Bloquer un workbook pour empecher son édition
+ 
+* ❎ Supprimer un workbook
+ 
+* ⚖️ Lancer un workbook sur la solution DataMa de votre choix !
 
-Pour en savoir plus sur la Home, c'est ici ! 
+
+Pour en savoir plus sur la Home, c'est ici !
+
 
 ![Tip 24]({{site.url}}/{{site.baseurl}}/assets/images/tip/24.png)
 
@@ -352,9 +385,12 @@ Pour en savoir plus sur la Home, c'est ici ! 
 
 <h2>Tip of the week #22</h2>
 
- Une analyse à faire rapidos dans DataMa depuis un tableur ?  
 
-✂️ Hop, on copie la plage de cellule à analyser (Ctrl+C) et on la colle direct sur DataMa (Ctrl + V). 
+Une analyse à faire rapidos dans DataMa depuis un tableur ?
+ 
+
+✂️ Hop, on copie la plage de cellule à analyser (Ctrl+C) et on la colle direct sur DataMa (Ctrl + V).
+
 
 Quoi de plus simple ?
 
@@ -364,9 +400,12 @@ Quoi de plus simple ?
 
 <h2>Tip of the week #21</h2>
 
- Quand vous sauvegardez une analyse sur DataMa, et que cette analyse est liée à une source "live" (e.g. une Gsheet), DataMa vous propose de sauvegarder les paramètres "Start" et "End" de manière dynamique. 
 
-Sous ses jours un peu techniques 🤓, cette feature est très pratique pour une analyse récurrente, car elle permet de glisser automatiquement la fenêtre d'analyse 🗓. 
+Quand vous sauvegardez une analyse sur DataMa, et que cette analyse est liée à une source "live" (e.g. une Gsheet), DataMa vous propose de sauvegarder les paramètres "Start" et "End" de manière dynamique.
+
+
+Sous ses jours un peu techniques 🤓, cette feature est très pratique pour une analyse récurrente, car elle permet de glisser automatiquement la fenêtre d'analyse 🗓.
+
 
 Par exemple:
 * A un instant t, vous avez dans votre data source une colonne "Week" ayant pour valeur  semaine 24 ,  semaine 25  et  semaine 26 .
@@ -382,7 +421,9 @@ Par exemple:
 
 <h2>Tip of the week #20</h2>
 
- Parce que septembre vient de passer et qu'on a bien travaillé tout l'été, la nouvelle version backtoschool 🎒 de DataMa est disponible en production! 
+
+Parce que septembre vient de passer et qu'on a bien travaillé tout l'été, la nouvelle version backtoschool 🎒 de DataMa est disponible en production!
+
 
 Au programme:
 
@@ -393,20 +434,26 @@ Au programme:
 * Table interactive dans Compare
 * et bien d'autres listés ici: https://datama-solutions.github.io/docs//#/news
 
-Merci à tous les contributeurs pour leurs idées et à vos feedbacks constants sur l'outil ! 
+Merci à tous les contributeurs pour leurs idées et à vos feedbacks constants sur l'outil !
+
 
 Stay tune, there's a lot more to come... 🚀
 
-![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.JPG)
+![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.jpg)
 
 
 
 <h2>Tip of the week #18</h2>
- Si vous vous embêtez à la plage 🏖, on a une bonne lecture pour vous : la documentation sur DataMa 📖 ...
 
- ➡️ C'est 🔗 ici que ça se passe ! 
+Si vous vous embêtez à la plage 🏖, on a une bonne lecture pour vous : la documentation sur DataMa 📖 ...
 
-Et comme il nous arrive aussi d'être à la plage et de ne pas tenir le rythme effréné des nouvelles features dans la documentation, la bonne nouvelle c'est que vous pouvez maintenant contribuer à son élaboration en cliquant sur "Edit document" en haut de chaque pages et en suggérant vous même vos modifications sur github  #communitycontribution #mercidevotreaide! 
+
+➡️ C'est 🔗 ici que ça se passe !
+
+
+Et comme il nous arrive aussi d'être à la plage et de ne pas tenir le rythme effréné des nouvelles features dans la documentation, la bonne nouvelle c'est que vous pouvez maintenant contribuer à son élaboration en cliquant sur "Edit document" en haut de chaque pages et en suggérant vous même vos modifications sur github 
+#communitycontribution #mercidevotreaide!
+
 
 (retrouvez tous les tip of the week: https://datama.fr/category/tipoftheweek/)
 
