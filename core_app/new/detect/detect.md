@@ -18,4 +18,4 @@ You can use DataMa DETECT to monitor your dataset and set up automatic monitorin
 
 **Interface of DataMa DETECT** 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/interface_detect.JPG"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/interface_detect.jpg "/></center>

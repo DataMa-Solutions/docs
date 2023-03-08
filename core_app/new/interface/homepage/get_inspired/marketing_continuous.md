@@ -20,7 +20,7 @@ Below is an extract of the data that has been used for this example. You can dow
 
 # In DataMa Comapare 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous.JPG"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous.jpg "/></center>
 
 Looking at this dimension further in detail
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous-moves.JPG"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous-moves.jpg "/></center>
