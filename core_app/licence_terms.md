@@ -19,9 +19,7 @@ The Licensee and Licensor are hereinafter referred to together as the  » Partie
 # GENERAL TERMS AND CONDITIONS
 
 
-
 ## INTRODUCTION:
-
 
 
 As a preliminary point, the Parties declare and recognize that the negotiations that preceded the conclusion of this Agreement were conducted in good faith and benefited, during the pre-contractual negotiation phase, from all the information necessary and useful to enable them to proceed. The Parties knowingly and mutually disclose any information that could determine their consent and that they could legitimately ignore.
@@ -245,7 +243,7 @@ The Licensor warrants that the whole Software is wholly owned and isn’t consti
 
 For its part, the Licensee undertakes to immediately report to the Licensor any infringement of the Software of which it has knowledge, the Licensor being then free to take the measures it deems appropriate.
 
-### Article 12.2 Reproduction – Adaptation – Copy 
+### Article 12.2 Reproduction – Adaptation – Copy
 
 The Licensor remains the sole owner of the Software.
 
