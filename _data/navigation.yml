@@ -49,6 +49,13 @@
                   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
+              subnav:
+                - name: Licences
+                  link: /core_app/new/interface/homepage/admin/licences.html
+                - name: Security
+                  link: /core_app/new/interface/homepage/admin/security.html
+                - name: Statistic
+                  link: /core_app/new/interface/homepage/admin/statistic.html
         - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
