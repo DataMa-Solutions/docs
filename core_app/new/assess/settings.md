@@ -9,15 +9,40 @@ layout: page
 
 
 Here's what you going to find in this chapter:
+- [Aggregation in %](#aggregation-in)
 - [Comparison](#comparison)
 - [KPI](#kpi)
+- [Significance for each Segment](#significance-for-each-segment)
+- [Cumulative significance](#cumulative-significance)
 - [Confidence interval](#confidence-interval)
 - [Test to compute](#test-to-compute)
 - [Frequentist Weight](#frequentist-weight)
 - [Test side](#test-side)
+- [Impacted Dimension](#impacted-dimension)
+- [Impacted Segment](#impacted-segment)
+- [Impact Sizing](#impact-sizing)
+
 
 
 <br>
+<br>
+
+### <b>Aggregation in %</b>
+
+Level of aggregation: The level of aggregation that the model is using 
+
+<br>
+
+e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.
+
+<br>
+
+- Click on the drop-down arrow to display the settings menu
+
+- Move the cursor to the right to increase the level of aggregation
+
+- Segments are now aggregated at the requested level
+
 <br>
 
 ### <b>Comparison</b>
@@ -38,6 +63,23 @@ In DataMa Assess, you can assess the significance of a variation only on one giv
 If you want to assess the significance for a KPI that is not explicitly in your metric relation, you can still edit the numerator and denominator manually by clicking on the KPI pill. See specific section for more details on the KPI pill
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsKPI2.png"/></center>
+
+<br>
+
+### <b>Significance for each Segment</b>
+
+This parameter is activated by default. 
+This allows to calculate the significance for every Dimension, and for every Segment within Dimensions. Deactivate this parameter to accelerate time of calculation. 
+
+<br>
+
+
+### <b>Cumulative significance</b>
+
+This parameter is de-activated by default. 
+Instead of calculating the significance independantly for every segment in a dimension, it will add every segment with the previous one. 
+This is interesting when you are mesuring the significance for <i>date</i>, it will allows you to measure at which date you reached the significance. 
+
 
 <br>
 
@@ -89,6 +131,29 @@ Therefore, if we see words such as “increased, greater, larger, improved and s
 
 
 <br>
+
+### <b>Impacted Dimension</b>
+
+Causal Impact test allows to assess the significance of a variation pre-post an intervention on a test group. To read more about the Causal Impact
+
+Define the dimension impacted by the change, that were you have you "Control" and "Variant". 
+
+<br>
+
+### <b>Impacted Segment</b>
+
+Causal Impact test allows to assess the significance of a variation pre-post an intervention on a test group. To read more about the Causal Impact
+
+Define which is the "Variant" segment within the Dimension selected above. This segment is the one impacted by the change
+
+<br>
+
+### <b>Impact Sizing</b>
+
+Impact Sizing tells you how important is the relationship between two segments in a specific metric. 
+
+e.g. Significance between "Test A" and "Test B" can be sized in Revenue or in Purchase, or marge...
+
 
 
 <br>

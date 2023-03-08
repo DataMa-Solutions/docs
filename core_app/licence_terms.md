@@ -19,9 +19,7 @@ The Licensee and Licensor are hereinafter referred to together as the  » Partie
 # GENERAL TERMS AND CONDITIONS
 
 
-
 ## INTRODUCTION:
-
 
 
 As a preliminary point, the Parties declare and recognize that the negotiations that preceded the conclusion of this Agreement were conducted in good faith and benefited, during the pre-contractual negotiation phase, from all the information necessary and useful to enable them to proceed. The Parties knowingly and mutually disclose any information that could determine their consent and that they could legitimately ignore.

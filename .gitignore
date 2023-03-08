@@ -4,7 +4,6 @@ _site
 .jekyll-metadata
 .idea
 vendor
-_config.yml
 Gemfile.lock
 Gemfile
 .Rproj.user
@@ -12,4 +11,3 @@ Gemfile
 .RData
 .Ruserdata
 **/.DS_Store
-_config.yml

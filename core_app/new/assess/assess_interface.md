@@ -16,7 +16,6 @@ Overall Significance and Significance by Sub Segment
 
 ## <b>The overall Significance</b>
 
-
 This is where you can see the output of the statistical analysis : 
 - a title saying whether or not the difference is significant
 - a chart showing the visual outcome
@@ -24,6 +23,7 @@ This is where you can see the output of the statistical analysis :
 
 Please refer to each [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) documentation to better understand how to read it. 
 By default, DataMa will select the model that best fits the type of data you’ve connected, but you can force it to a certain test using the <i>test to compute</i> (add link) parameter
+
 <br>
 
 ## <b>The Significance by sub segment</b>

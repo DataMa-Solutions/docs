@@ -10,6 +10,27 @@ layout: page
 
 <br>
 
+- [Comparison](#comparison)
+- [Filters](#filters)
+- [KPI](#kpi) (metric relation)
+- [Aggregation in %](#aggregation-in)
+- [Analysis Language](#analysis-language)
+- [Colors Palette For Plots](#colors-palette-for-plots)
+- [Force Rounding](#force-rounding)
+- [Max Segment Displayed](#max-segment-displayed)
+- [Maximum Depth For Continuous Grouping](#maximum-depth-for-continuous-grouping)
+- [Analyse All Metrics Relation Steps](#analyse-all-metrics-relation-steps)
+- [Inspect Numerator only](#inspect-numerator-only)
+- [Analyse Latest Point Only](#analyse-latest-point-only)
+- [Detection Methode](#detection-method)
+- [Number of points for average window](#number-of-points-for-average-window)
+- [Confidence Interval](#confidence-interval)
+- [Analysis Depth](#analysis-depth)
+- [Include 0 For Y Axis](#include-0-for-y-axis)
+
+
+<br>
+
 ## Comparison
 
 DataMa Pivot can be used with a comparison. To activate this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing. 
@@ -54,7 +75,7 @@ For now, DataMa is only available in English and in French. By default Datama is
 
 <br/>
 
-# **10. Colors Palette For Plots**
+### Colors Palette For Plots
     
 Graphs colors are customizable, in 3 different ways. 
 Grayscale, scattered and Custom. 
@@ -97,10 +118,23 @@ DataMa Detect can anlyse one step or all the steps of your funnel. When all step
 
 <br>
 
+### Inspect Numerator only
+
+When you're analysig all metrics relation steps, you can choose to analyse only the numerator. 
+This is useful when your market equation is not important or not relevant and you prefer to analyse independently all the Numerator. 
+
+
+
 ### Analyse Latest Point Only
 
 You can choose to display the anomalies of each date or only for the latest point in the data.
 On a day over day anomaly detection we recommand to activate this parameter, to avoid having all the anomalies raised.
+
+<br>
+
+### Detection Method
+
+When "Analyse latest point only" is activated you can choose the standard "Moving Window" or the "Forecast" which will forecast the most likely confidence interval.
 
 <br>
 
