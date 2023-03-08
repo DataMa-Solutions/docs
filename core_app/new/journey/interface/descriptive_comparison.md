@@ -15,7 +15,7 @@ Descriptive Comparison is a group of 4 tabs. See below articles for details on e
 
 <br>
 
-> ### <b> Pareto </b>
+## <b>Pareto</b>
 
 The Pareto tab is a graph allowing you to the first 10 journeys contributing to a selected metric, and the share of total metric that it represent, as well as the cumulated share of selected metric of top X journeys.
 
@@ -34,7 +34,7 @@ Two parameters are used in order to build this graph:
 
 <br>
 
-> ### <b> Sunburst </b>
+## <b>Sunburst</b>
 
 Sunburst are commonly used to represent sequential data, such as customer journey.
 You can learn more on sunbursts and how to use it [here](https://datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
@@ -59,7 +59,7 @@ This sunburst represents the differences in appearance of the various journeys b
 
 <br>
 
-> ### <b> Sunburst difference </b>
+## <b>Sunburst difference</b>
 
 
 This view is only available when Compare mode toggle is activated on DataMa Journey
