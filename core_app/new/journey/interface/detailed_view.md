@@ -13,7 +13,7 @@ layout: page
 Detailed View is a group of 4 tabs. See below articles for details on each tab:
 
 * [Simple Stat](#simple-stat)
-* [Flow](#relative)
+* [Flow](#flow)
 * [Relative](#relative)
 * [Data](#data)  <span style="color:red"> (Chapter in construction)</span>
 
@@ -25,7 +25,7 @@ Detailed View is a group of 4 tabs. See below articles for details on each tab:
 
 <br>
 
-### <b> Simple Stat </b>
+## <b> Simple Stat </b>
 
 The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:
 
@@ -40,7 +40,7 @@ The Simple Stat tab is a graph allowing you to visualize various information on 
 
 <br>
 
-### <b> Flow </b>
+## <b> Flow </b>
 
 The Flow tab is a graph allowing you to visualize previous point and next point for a choosen touch point (Point in Detailed View Filter) on a choosen metric (Metric in Detailed View Filter).
 
@@ -56,7 +56,7 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 <br>
 
-### <b> Relative </b>
+## <b> Relative </b>
 
 Relative is an other way to display [Flow]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow) graph.
 
@@ -67,7 +67,7 @@ Relative is an other way to display [Flow]({{site.url}}/{{site.baseurl}}/core_ap
 
 <br>
 
-### <b> Data </b>
+## <b> Data </b>
 
 
 > The **Data Tab** is the table used to generate the others tabs of Detailed View.
