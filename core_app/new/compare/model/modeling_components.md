@@ -13,7 +13,6 @@ Here is what you are going to find in this page:
 - [Significance](#significance)
 - [Scope](#scope)
 - [Covariance](#covariance)
-- [Analysis depth](#analysis-depth)
 
 <br>
 
@@ -63,19 +62,3 @@ For Dimension analysis, covariance is not distributed on neither mix nor perform
 Read more about [Covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance)
 
 <br>
-
-## Analysis depth
-
-This feature allows you to adapt the level of detail DataMa will describe in the comment. The default level is “Medium”.
-
-<br>
-
-
-## Comparable Date
-
-Comparable date is an automated dimension added by DataMa when the Comparison dimension is a date. 
-
-This will take 3 different forms : 
-- Day : When you’re comparing the performance of 2 weeks, “Comparable Date” will be Day 1, Day 2 until Day 7 to be able to compare Monday versus Monday between the Weeks.
-- Week : When you’re comparing the performance of 2 months, “Comparable Date” will be Week 1, Week 2 …. to be able to compare the Weeks in between the Months you are comparing.
-- Month : When you’re comparing the performance of 2 years, “Comparable Date” will be Months 1, Months 2 …. to be able to compare the Months in between the Years you are comparing.

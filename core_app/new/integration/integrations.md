@@ -16,5 +16,5 @@ layout: page
 Check the documentation of the tool you’re interested in to see how you can leverage it:
 
 - [Tableau Software]({{site.url}}/{{site.baseurl}}/core_app/new/integration/tableau.html)
-- [PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/PowerBI.html)
-- [Looker Studio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/Looker_studio.html)
+- [PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/powerbi.html)
+- [Looker Studio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/looker_studio.html)
