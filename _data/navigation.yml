@@ -238,11 +238,11 @@
       link: /core_app/new/integration/integrations.html
       subnav:
         - name: PowerBI
-          link: /core_app/new/integration/PowerBI.html
+          link: /core_app/new/integration/powerbi.html
         - name: Tableau
           link: /core_app/new/integration/tableau.html
         - name: Looker Studio
-          link: /core_app/new/integration/Looker_studio.html
+          link: /core_app/new/integration/looker_studio.html
 
 - name: Old version of DataMa
   link: /core_app/old_docs.html
