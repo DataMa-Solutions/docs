@@ -46,7 +46,10 @@ in the analysis by clicking the cross)
 
 ## KPI
 
-In DataMa Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions. 
+In DataMa Detect, you can detect the anomaly of only one KPI or all metric relation. 
+
+By default, DataMa selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
+
 
 <br>
 
