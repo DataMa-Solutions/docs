@@ -5,6 +5,46 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-02-28:
+
+* **Extensions:**
+    * Power BI extension is now available for testing. Contact your customer success manager to get early access
+    * Clarified welcome message for Tableau demo extension
+
+* **New platform:**
+    * Workbook scheduled exports are now available in beta mode (email, slack, public URL) - ask your Customer Success for experimental access
+    * Account usage statistics are now available in beta mode - ask your Customer Success for experimental access
+    * DataMa Journey is now available in the new UI - Sunbursts interactivity has been revamped, feel free to have a look !
+    * Multiple bug fixes and UI improvements (incl. compatibility of datasets having a column titled "Cluster", Pre-check of dataset accuracy in DataMa Prep)
+
+* **Compare**
+    * You can now drill down/ interact with a bucket by right clicking on the label of that bucket at the bottom. This is particularly usefull when buckets are small.
+    * Smart Dimension is now labeled "dimension1*dimension2" in waterfall and inputs, for easier understanding of which pair or dimension is computed as most interesting pair of dimension (aka "Smart Dimension")
+
+* **Detect**
+    * Excluded/ forced dimensions for a given step in metrics relation are now taken into account within anomaly explanations in exports (email/ slack)
+    * Default outlier selected for explanation is now the most recent outlier instead of the biggest outlier, to avoid missing historical data in explanation
+
+* **Prep**
+    * CSV connector now include a "Skip first X row" input to avoid first lines of a file
+    * Excel connector has been improved for faster and more accurate loading
+
+
+### 2023-01-27:
+
+* **General:**
+    * DataMa's new platform is now accessible for all clients in beta. Try it out on [app.datama.io](https://app.datama.io) (see below on the 2022-12-15 release for included features)
+    * Google Looker Studio (ex Data Studio) extension is now available for testing. Contact your customer success manager to get early access
+    * Multiple bug fixes and UI improvements (incl. including default rounding of $.* Units to two decimals)
+
+* **Compare:**
+    * Comparable date will now give the name of the day or week when relevant. For instance, if you are comparing one week vs. another, DataMa will create "Monday", "Tuesday"... segments to find if one of those days is the driver of the variation (available in English only)
+    * Title of second slide now takes into account custom palette, so that an increase of a "bad" KPI (e.g. Costs or Bounce rate) is properly worded
+
+* **Impact:**
+    * Anomaly detection is now available for multiple KPIs with no denominators. This is particularly useful in case you want to monitor a simple KPI on multiple segments separately (e.g. Revenues on each and every country separately)
+    * Anomaly detection now takes into account custom color palette for outliers and for over/ underperformance wording
+    * Comments in second slide are now dynamic depending on selected dimension in the slide title
 
 ### 2022-12-20:
 

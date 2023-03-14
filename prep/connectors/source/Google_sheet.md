@@ -10,4 +10,4 @@ layout: page
 
 You just have to paste your Google Sheet's share link and select the work sheet you want to work on.
 
-![attribution](images/GoogleSheet1.PNG)
+![attribution](images/GoogleSheet1.png)
