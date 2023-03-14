@@ -5,6 +5,9 @@
 #     - name: Others pages...
 #
 # OPTIONAL : type: separated // Add line after the bloc in the aside
+- name: Get Started
+  type: separated
+  link: /core_app/new/tutorial/first_use.html #OK
 - name: Solutions
   type: separated
   link: /web_application.html 
@@ -620,9 +623,6 @@
                   link: /home/use_cases/Content_CS.html #OK
 - name: DataMa On Premise
   link: /core_app/new/DataMa_on_premise.html #OK
-- name: First Use
-  type: separated
-  link: /core_app/new/tutorial/first_use.html #OK
 - name: Licence terms
   type: separated
   link: /core_app/new/admin/licence_terms.html #OK
