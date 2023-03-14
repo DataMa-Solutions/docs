@@ -8,6 +8,7 @@
 - name: Get Started
   type: separated
   link: /core_app/new/tutorial/first_use.html #OK
+
 - name: Solutions
   type: separated
   link: /web_application.html 

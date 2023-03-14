@@ -71,7 +71,6 @@ In the DataMa output block:
 
 If your dataset is properly split between Dimensions and metrics, and the metrics relations makes sense, you can select a DataMa solution.
 
-
 <br>
 
 # <b>Bonus:</b> Check your Column and define your steps
@@ -87,7 +86,6 @@ A waterfall allows to quickly identify and understand the factors that cause you
 - When the Checkout/ Sessions drops from -26.7% it has an impact of 12,298€ in Revenue
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusWaterfall.jpg"/></center>
-
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusStartEnd.jpg"/></center>
 
@@ -108,7 +106,6 @@ Each variation is split between mix and perf (see [article]({{site.url}}/{{site.
 ## The Moves « graphe » is a representation of both Mix & Perf effect
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMoves.jpg"/></center>
-
 
 <br>
 
