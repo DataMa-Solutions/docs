@@ -245,7 +245,8 @@ The Licensor warrants that the whole Software is wholly owned and isn’t consti
 
 For its part, the Licensee undertakes to immediately report to the Licensor any infringement of the Software of which it has knowledge, the Licensor being then free to take the measures it deems appropriate.
 
-### Article 12.2 Reproduction – Adaptation – Copy 
+### Article 12.2 Reproduction – Adaptation – Copy
+
 
 The Licensor remains the sole owner of the Software.
 

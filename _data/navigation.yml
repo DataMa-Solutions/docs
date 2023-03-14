@@ -52,6 +52,13 @@
                   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
+              subnav:
+                - name: Licences
+                  link: /core_app/new/interface/homepage/admin/licences.html
+                - name: Security
+                  link: /core_app/new/interface/homepage/admin/security.html
+                - name: Statistic
+                  link: /core_app/new/interface/homepage/admin/statistic.html
         - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
@@ -211,7 +218,7 @@
             - name: Add Source #done
               link: /core_app/new/prep/interface/add_source.html
             - name: Extensions #done
-              link: /core_app/new/prep/interface/extensions.html
+              link: /core_app/new/integration/integrations.html
             - name: Refine Data #done
               link: /core_app/new/prep/interface/refine_data.html
             - name: Block Output #done
@@ -231,11 +238,11 @@
       link: /core_app/new/integration/integrations.html
       subnav:
         - name: PowerBI
-          link: /core_app/new/integration/powerbi.html
+          link: /core_app/new/integration/PowerBI.html
         - name: Tableau
           link: /core_app/new/integration/tableau.html
         - name: Looker Studio
-          link: /core_app/new/integration/looker_studio.html
+          link: /core_app/new/integration/Looker_studio.html
 
 - name: Old version of DataMa
   link: /core_app/old_docs.html

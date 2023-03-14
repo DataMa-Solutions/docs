@@ -13,4 +13,4 @@ You can customize the histogram according to several breakdowns (Total, Solution
 > What's a Compute?
 At DataMa, the consumption of the solution is made according to the number of compute. Which is the number of time the algorithms are triggered to display new results. Which means that when using filters, when playing with settings, when saving this count a Compute. However this has no impact on the cost of the solution. Feel free to use the solution as much as you want! 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/statistic.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/statistic.png"/></center>

@@ -28,7 +28,7 @@ Typically a source for DataMa will have
     Adding a "1_..", "2_.." in the naming of your metrics should help in that regard
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Source example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Source_Example.PNG)
+![Source example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Source_Example.png)
 
 Please refer to the full documentation to learn more about [sources]({{site.url}}/{{site.baseurl}}/core_app/header/input/source) or see [example of use cases]({{site.url}}/{{site.baseurl}}/home/use_cases/use_cases_examples)
 
@@ -40,7 +40,7 @@ Please refer to the full documentation to learn more about [sources]({{site.url}
 * Click 'Start' at the bottom of the welcome modal when it appears
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Dashboard example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Dashboard_welcome.PNG)
+![Dashboard example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Dashboard_welcome.png)
 
 ## 3. Get insights
 
@@ -53,9 +53,9 @@ We encourage that you read the documentation about each solution to understand w
 * Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
 ### Example of Compare analysis for the SuperStore default dataset of Tableau.
-![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Waterfall_Example.PNG)
+![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Waterfall_Example.png)
 In a glimpse, we get the waterfall that explains the gap of Sales between 2018 and 2019, driven by quantity increase and in particular the one of Office Supplies in the west, as we can read by selecting the 'Executive Summary' in the output menu.
-![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/ExecSum_Example.PNG)
+![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/ExecSum_Example.png)
 
 ### Example of Compare analysis for Digital display campaigns
 

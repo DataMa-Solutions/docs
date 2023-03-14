@@ -26,8 +26,8 @@ Impact of the evolution of the volume breakdown in input.
 
 e.g. <i>If you are selling several products, and if the share of an individual product in the portfolio changes, there will be a mix effect.</i>
 
-●	For each step, mix effect calculations scaled using waterfall analysis output to be able to size impact on overall metric
-●	While each different segment of one dimension is contributing differently to the mix effect, we represent the sum of them
+●   For each step, mix effect calculations scaled using waterfall analysis output to be able to size impact on overall metric
+●   While each different segment of one dimension is contributing differently to the mix effect, we represent the sum of them
 
 **Example in eCommerce**
 
@@ -35,8 +35,8 @@ For instance, say mobile users convert much lower than desktop users (which is o
 What DataMa Mix effect analysis does is just replicating that logic but for each step of the funnel and for each dimension provided in the data set. As long as those dimensions are not interdependent, you come up with a share of the gap on each step that can be attributed to mix effects on a given dimension.
 In another way, the Mix effect is the impact due to the change of proportion in entrance.
 As in the example below, when your proportion of Purchase between Devices change, that automatically changes your Average Basket. In 2018 70% of purchases were made via Desktop, compared to only 50% in 2019, with a stable average basket of 35€ 
-●	If the proportion changes it’s a Mix effect
-●	If the average price changes, it’s a Performance effect
+●   If the proportion changes it’s a Mix effect
+●   If the average price changes, it’s a Performance effect
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-Perf.jpg"> </center>
 
@@ -53,5 +53,5 @@ As presented below the performance effect could be represented at each step of y
 
 The performance effect is the variation which is dedicated to the dimension’ performance on its own. It is to be distinguished with the variation due to the volume changes (mix effect + covariance) that can’t be attributed to one of the dimensions you are following.
 
-●	For each dimension on each step, flagging segments driving most of the change (Min and Max,, depending on whether this step is going up or down)
-●	Important metric to consider is the ratio change relative to average ratio change, to assess how much this is ‘normal’ given traffic on this segment
+●   For each dimension on each step, flagging segments driving most of the change (Min and Max,, depending on whether this step is going up or down)
+●   Important metric to consider is the ratio change relative to average ratio change, to assess how much this is ‘normal’ given traffic on this segment

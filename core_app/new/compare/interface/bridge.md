@@ -14,7 +14,7 @@ The bridge focuses on one KPI at a time. It shows the impact that each dimension
 
 <br>
 
-![bridge]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_bridge.jpg)
+![bridge]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_bridge.jpg )
 
 <br>
 
