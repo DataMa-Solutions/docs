@@ -10,17 +10,19 @@ layout: page
 
 <br>
 
+Let's start with a simple case, with an excel dataset. There are multiple [other ways]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html) to load data. 
 
+<br>
 # <b>Step 1:</b> Check your data
 
 Check your column : 
 - 1st column is what you want to compare (date, device, country…)
 - Followed by the rest of the dimensions (if any)
-- And after the metrics, quantitative columns which are summable (no ratio, %…) in the order of a funnel or what we call “Market Equation”.
+- And after come the metrics, quantitative columns which are summable (no ratio, %…) in the order of a funnel or what we call [“Market Equation”]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_checkData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_checkData.jpg"/></center>
 
 
 Read more about [source]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
@@ -35,7 +37,7 @@ In the “Get inspired” section you will find examples of workbook in multiple
 
 Here is the Homepage of DataMa with all the workbook saved by you or your team
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.jpg"/></center>
 
 Click to "Add new workbook" to access DataMa Prep and connect (or load) your data.
 
@@ -43,13 +45,13 @@ Click to "Add new workbook" to access DataMa Prep and connect (or load) your dat
 
 # <b>Step 3:</b> Add your source to Datama Prep
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.jpg"/></center>
 
 <br>
 
 In the list of available connectors select the one that match your data source
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_loadData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_loadData.jpg"/></center>
 
 <br>
 
@@ -65,10 +67,9 @@ In the DataMa output block:
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.jpg"/></center>
 
 If your dataset is properly split between Dimensions and metrics, and the metrics relations makes sense, you can select a DataMa solution.
-
 
 <br>
 
@@ -85,7 +86,6 @@ A waterfall allows to quickly identify and understand the factors that cause you
 - When the Checkout/ Sessions drops from -26.7% it has an impact of 12,298€ in Revenue
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusWaterfall.jpg"/></center>
-
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusStartEnd.jpg"/></center>
 
@@ -106,7 +106,6 @@ Each variation is split between mix and perf (see [article]({{site.url}}/{{site.
 ## The Moves « graphe » is a representation of both Mix & Perf effect
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMoves.jpg"/></center>
-
 
 <br>
 

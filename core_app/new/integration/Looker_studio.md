@@ -7,10 +7,14 @@ layout: page
 
 > Using DataMa Solutions as a **Looker Studio extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and Looker Studio.
 
+<br>
+
 # <b>How to load the extension?</b>
 
 
 From Looker Studio you can load new vizualisation from the community, and retrieve our manifesto : <i>gs://app.datama.io/looker-studio</i>
+
+<br>
 
 ![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadingExtension.gif)
 
