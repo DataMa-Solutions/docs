@@ -25,7 +25,3 @@ The settings is detailed separately for each solution :
 In order to customize your analysis to your needs, DataMa allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level. 
 
-
-
-https://app.tango.us/app/workflow/Edit-your-preferences-817a5c1967344308bea447a7029bbc01
-

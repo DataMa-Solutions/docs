@@ -32,7 +32,7 @@ Find here the main elements of the solution Header in DataMa Journey:
 
 ## Comparison
 
-DataMa journey can be used with a comparison. To activate this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing. 
+DataMa Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing. 
 
 <br>
 
@@ -54,9 +54,9 @@ In DataMa Journey, there is only one ratio to be defined to run the module. This
 
 ### Analyse Sequences
 
-Instead of analysing step you can toggle this settings to analyse sequences of steps
+Instead of analysing steps, you can toggle this setting to analyse sequences of steps
 
-For example <span style="color:red">Search-Product-Cart</span> are 3 touch points <span style="color:red">Search</span>, <span style="color:red">Product</span> and <span style="color:red">Cart</span> and when <i>Sequences<i> is activated it will become 2 sequences <span style="color:red">Search-Product</span>  et <span style="color:red">Product-Cart</span>
+For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch points: <span style="color:red">Search</span>, <span style="color:red">Product</span> and <span style="color:red">Cart</span>, and when <i>Sequences<i> is activated it will become 2 sequences <span style="color:red">Search-Product</span> and <span style="color:red">Product-Cart</span>
 
 ### Journey Separator 
 
@@ -74,11 +74,11 @@ By using the text input, you can change the seperator between steps of your jour
 
 ### Maximum Number of Points analysed
 
-By default, the algorithm will analysed the 50 top steps in your <i>journey</is> column. 
+By default, the algorithm will analyse the top 50 steps in your <i>journey</is> column. 
 
 ### Maximum Number of steps in Sunburst
 
-By default only 6 steps of user journeys are represented. This can be changed by modifying this settings.
+By default, only 6 steps of user journeys are represented. This can be changed by modifying this setting.
 
 ### Attribution
 
@@ -90,14 +90,14 @@ By using the dropdown menu, you can choose your attribution model and thus consi
 
 ### Simplify Sunburst
 
-By activating the dropdown menu, you can simplified your journeys by removing duplicates journeys and removing duplicates steps in journeys.
+By activating the dropdown menu, you can simplify your journeys by removing duplicate journeys and removing duplicate steps in journeys.
 
-This is very usefull to simplify your display and decrease computation time.
+This is very useful to simplify your display and decrease computation time.
 
 ### Simple Stat
 
 The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:
 
-- **Frequency**: number of time your metric appears on average.
-- **Appearance**: presence probability of your metric in journey.
+- **Frequency**: number of times your metric appears on average.
+- **Appearance**: presence probability of your metric in journeys.
 - **Length**: Average journey length when your metric appears
