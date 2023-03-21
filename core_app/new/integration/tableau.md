@@ -4,7 +4,11 @@ description: Using DataMa Solutions as a Tableau extension is a great way to mak
 layout: page
 ---
 
+<br>
+
 > Using DataMa Solutions as a **Tableau extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and Tableau.
+
+<br>
 
 DataMa will basically use the Tableau Extension API to get data from your workbook, and analyze it there. Below example is a good overview.
 

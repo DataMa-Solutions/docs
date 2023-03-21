@@ -4,6 +4,12 @@ description: This section helps you extract data from your data sources
 layout: page
 ---
 
+<br>
+
+Our tools allow you to enrich your local data with external data like Google Trend and others. Allowing you to understand all your kpi variation
+
+<br>
+
 Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions
 
 
@@ -14,12 +20,15 @@ Here is the available connectors:
 - [Google Analytics 3](#google-analytics-3)
 - [Google Analytics 4 (beta)](#google-analytics-4-beta)
 - [Google Google BigQuery](#google-google-bigquery)
-- [Snowflake](#mail)
+- [Mail](#mail)
+- [Snowflake](#snowflake)
+- [Google trends](#google-trends)
+- [Facebook](#facebook)
 
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/inegration.html) (Tableau, PowerBI, LookerStudio,...)
 
 
-> ### Google Sheet ###
+> ## Google Sheet
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_googleSheet.jpg"/></center>
 
@@ -37,7 +46,7 @@ When those steps are completed, you just have to select the sheet you would like
 
 <br>
 
-> ### Excel File ###
+> ## Excel File
 
 If you want to analyze your excel file, it’s easy. Click on the Excel connector, drop (or click) your excel file in the box given, and upload. You will be asked which sheet you want to use, and that’s it. Click on load and continue building your flow with more blocks.
 
@@ -45,7 +54,7 @@ If you want to analyze your excel file, it’s easy. Click on the Excel connecto
 
 <br>
 
-> ### csv File ###
+> ## csv File
 
 If you want to analyze your csv file, it’s easy. Click on the csv connector, drop your csv file in the box given, and upload. You will be asked which csv separator you want to use, and that’s it. 
 Click on load and continue building your flow with more blocks.
@@ -54,7 +63,7 @@ Click on load and continue building your flow with more blocks.
 
 <br>
 
-> ### Google Analytics 3 ###
+> ## Google Analytics 3 
 
 You can upload your Google Analytics datasets in DataMa PREP.
 Click on the Analytics 3 connector in Datama prep, you might need to give authorization to your google analytics by clicking on [Connect] button. You can also use service account to connect to Google Analytics. Learn more on [Service Accounts]("https://developers.google.com/analytics/devguides/reporting/core/v4/authorization#service_accounts") here
@@ -81,7 +90,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 <br>
 
-> ### Google Analytics 4 (beta) ###
+> ## Google Analytics 4 (beta) 
 
 You can upload your Google Analytics 4 datasets in DataMa PREP.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
@@ -99,7 +108,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 <br>
 
-> ### Google Google BigQuery ###
+> ## Google Google BigQuery
 
 You can do an sql query on your Google BigQuery and use it in DataMa PREP.
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
@@ -118,7 +127,7 @@ It is then displayed the amount of data it will use in Google BigQuery.
 
 <br>
 
-> ### mail ###
+> ## mail
 
 The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into DataMa and have a scheduled analysis.
 
@@ -136,7 +145,7 @@ For ex. if your reports are always downloaded through Amazon's server, urls will
 
 <br>
 
-> ### Snowflake ###
+> ## Snowflake
 
 When using the snowflake connector, you’ll need the following information to configure the Snowflake source:
 - Organization link which is the link https://XXX-XXX.snowflakecomputing.com
@@ -152,3 +161,43 @@ When connected, you can select a warehouse and a database if needed, and input y
 
 
 ⚠️ **Important information** :<i> Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your snowflake dataset, within the hour, you will refresh your data using the button on the header.</i>
+
+<br>
+
+> ## Google Trends
+
+**Google Trend is most of the time a dataset that needs to be appended with another dataset.**
+
+With Google Trend connector, you can enrich your data flow with Google Search result in a given date range
+
+#### You can cross your data with Google trends data
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.jpg" style="width:60%"/></center>
+
+### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.jpg"/></center>
+
+It will enrich your analysis by comparing your own data of your e-commerce website or marketing campaign results with the data and trends of the market. You will be able to compare your evolution with a larger point of view and understand your performance in a more global context.
+
+<br>
+
+To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/sidebar/actions/Append.html)
+
+
+<br>
+
+> ## Facebook
+
+**You can upload your Facebook Analytics datasets in DataMa PREP.**
+
+When opening the Facebook block you can see which account is connected and you can disconnect it if you want to use another one.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB1.png"/></center>
+
+After selecting an AdAccount you are able to create a report by selecting fields, breakdowns, metrics and a preiod.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB2.png"/></center>
+
+Since reporting is by default at the level of Adsets, it is not mandatory to select fields or breakdowns.
+
+If no field or breakdown is selected the chosen metrics will then be applied to the Adsets available for the selected AdAccount.
+

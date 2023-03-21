@@ -8,6 +8,79 @@ img_height: 300
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
+
+## Tip of the week #70
+Avec l’arrivée de la nouvelle version de DataMa en plus de la refonte de l’interface graphique, nous avons également amélioré le fonctionnement des "Use Cases" 💡
+  * En effet, DataMa Prep est devenu l'outil unique de chargement et de transformation de la donnée
+  * Et nous avons combiné les "Use Cases" et les "Flows" pour ne créer plus qu'un seul élément les "workbooks"
+Et ceci à des impacts (positifs, bien entendu 🤩):
+  * Uniquement vos anciens Flow crée via DataMa Prep ont été basculés dans la nouvelle solution
+    * heureusement l’équipe DataMa vous accompagnera pour vous aider à faire la migration des autres Use Cases au cours des prochains mois 😉
+  * Mais surtout cette évolution permet de clarifier les informations de vos analyses, en affichant depuis la page d'accueil pour chaque Workbook :
+    * une vue claire de la (ou des) source de données connectée
+    * des différents exports programmés (Mail, Slack, statics URL, ...)
+    * de la solution favorite utilisée pour cette analyse
+    * du dossier auquel elle appartient
+    * et beaucoup d'autres informations à venir 🎁
+N'hésitez pas à nous contacter pour en savoir plus sur cette migration... et surtout... allez jeter un coup d'œil sur la nouvelle [platforme](https://websso.datama.io/)!!
+![Tip 70]({{site.url}}/{{site.baseurl}}/assets/images/tip/70.gif)
+
+## Tip of the week #69
+Vous avez peut-être remarqué, dans la [nouvelle version de DataMa](https://websso.datama.io/), la solution "Impact" n’apparait plus. Elle a été divisée en deux solutions distinctes "Assess" et "Detect" pour répondre à deux besoins :
+  * Assess : vous permettra de déterminer la significativité de vos variations aux travers de différents tests (Bayesian, Bootstrap, Frequentist) au niveau global et sur chacune de vos dimensions
+  * Detect : se focalisera sur la détection d’anomalie que ce soit l’un de vos KPIs ou sur tous avec une explication sur l’origine de l’anomalie 🔍
+![Tip 69]({{site.url}}/{{site.baseurl}}/assets/images/tip/69.png)
+
+## Tip of the week #68
+Dans la [nouvelle version de DataMa](https://websso.datama.io/), l'ancien menu de gauche, où étaient définis les filtres, est maintenant dans la barre du haut.
+En cliquant sur le bouton "filtres", toutes les dimensions filtrables existant dans votre jeu de données apparaitront.
+Le « Helper » 📊 est une aide graphique pour voir la répartition des éléments de votre dimension sur l'une des étapes.
+Les filtres appliqués apparaitront dans la barre du haut à côté du bouton "Filter". Vous pouvez ensuite modifier un filtre en cliquant dessus ou le supprimer en cliquant sur la petite poubelle 😉
+![Tip 68]({{site.url}}/{{site.baseurl}}/assets/images/tip/68.gif)
+
+## Tip of the week #67
+Dans la nouvelle version de DataMa, le flow Prep fait partie intégrante de votre use case. De ce fait, vous pouvez naviguer de ce dernier grâce à la « side bar » de gauche vers la ou les solutions (Compare, Detect, Pivot ...) que vous souhaitez utiliser.
+De plus une icone favoris ⭐, vous permet de définir la solution que vous voulez ouvrir par défaut depuis la Home Page 😉
+![Tip 67]({{site.url}}/{{site.baseurl}}/assets/images/tip/67.gif)
+
+## Tip of the week #66
+Avec la nouvelle version de DataMa arrive une nouvelle Home 😃
+En plus des fonctionnalités existantes, vous pouvez désormais:
+  * Organiser les uses cases dans des dossiers avec de jolis emojis 📁
+  * Retrouver visuellement à quelles sources ils sont connectés (sous le nom de votre use case, il y aura les logos des sources, par exemple: celui de deux Google Sheet et un Google Analytics), s'ils sont schedulés, et s'ils sont exportés
+  * Voir quand ils ont été créé/ edités pour la dernière fois
+  * Ajouter un lien dans la description du worbook vers de la documentation interne (en cliquant sur les trois petits points en bas à droite et en ajoutant un URL sur "Learn More...")
+![Tip 66]({{site.url}}/{{site.baseurl}}/assets/images/tip/66.png)
+
+## Tip of the week #65
+Quand on compare deux segments dans le cas d’un AB test ou quand on compare deux périodes, on peut se poser la question : la variation est-elle significative? Dans DataMa, il vous suffit simplement d’activer dans Settings le toggle « Significance test », vous pouvez ensuite choisir
+  * le niveau de confiance que vous souhaitez avoir avec le paramètre
+  * le type de test (forecast / volatilité quand vous comparez deux périodes, frequentist/ bayesian quand vous comparez deux variantes d'AB test)
+Sur la waterfall, un astérisque apparaitra à côté des variations qui sont significatives, cela s'applique à la fois au KPI principal comme à chacune des étapes 😉
+![Tip 65]({{site.url}}/{{site.baseurl}}/assets/images/tip/65.gif)
+
+## Tip of the week #64
+Dans le cas où vous avez une partie de vos données qui est « non comparable » dans votre analyse DataMa Compare (par exemple la fermeture d’un marché), mais vous souhaitez tout de même les voir apparaître à part dans votre Waterfall, pour ne comparer vos KPIs que sur des choses comparables (🍎 to 🍎):
+  * Créez une colonne « Scope » contenant la mention « In » pour ce que l’on veut conserver ou « Out » pour ce que l’on souhaite exclure
+  * DataMa exclura automatiquement le « Out » de l’analyse et le fera apparaître dans un bloc à part de la waterfall, en bleu clair « Out of Scope »
+Note: vous pouvez aussi traiter le « Out of scope » comme une étape à part entière en le faisant apparaitre explicitement dans l'équation de marché. Pour information la covariance est maintenant redistribuée que sur les étapes qui ne sont pas indépendantes (pour ne pas mélanger des morceaux de 🍎 avec des 🍐)
+![Tip 64]({{site.url}}/{{site.baseurl}}/assets/images/tip/64.png)
+
+## Tip of the week #63
+Pour faciliter la communication et le partage de l’analyse augmentée, DataMa se déploie sur une nouvelle solution de Data Visualisation:
+  * Après l’extension Tableau Software,
+  * DataMa arrive sur Data Studio/Looker Studio 🥳
+  * La prochaine étape sur Power BI !
+![Tip 63]({{site.url}}/{{site.baseurl}}/assets/images/tip/63.gif)
+
+## Tip of the week #62
+La nouvelle interface de DataMa arrive bientôt! (Stay tuned 😃). Spoiler: elle se base sur l'interface DataMa Prep à laquelle vous avez déjà accès. C'est l'occasion de tester DataMa Prep si vous ne l'avez pas encore fait!😉
+Sur la HomePage, cliquez sur Data Flows puis sur le ➕ et vous pourrez:
+  * Retrouver tous les connecteurs que vous aviez et bien d'autres encore (BigQuery, Snowflake, Google Trends ...)
+  * Nettoyer et préparer vos colonnes
+  * Scheduler l'actualisation de votre source de données
+![Tip 62]({{site.url}}/{{site.baseurl}}/assets/images/tip/62.png)
+
 ## Tip of the week #61
 DataMa vous propose dans la solution Impact d'analyser la variation pre-post une intervention sur un groupe test. Vous trouverez des cas d'usage quand vous voulez tester:
   * une nouvelle stratégie SEO
