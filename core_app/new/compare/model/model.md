@@ -18,7 +18,7 @@ See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/
 ## <b>Dimension analysis</b>
 Identify which dimension in a specific step is driving the change with some details on Mix and Performance effect.
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis.html)
+See details here for [Mix Effects]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and for [performance effects]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
 
 <br>
 

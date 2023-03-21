@@ -23,13 +23,6 @@
           subnav:
             - name: Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
-              subnav:
-                - name: File
-                  link: /core_app/new/interface/header/file.html
-                - name: Data
-                  link: /core_app/new/interface//header/data.html
-                - name: Help
-                  link: /core_app/new/interface/header/help.html
             - name: Workbooks Management #done
               link: /core_app/new/interface/homepage/workbooks_management.html
             - name: Get Inspired #done
@@ -49,17 +42,19 @@
                   link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
                 - name: Finance Control
                   link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
-                - name: Retail Performance
-                  link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                # - name: Retail Performance
+                #   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                - name: Anomaly Detection
+                  link: /core_app/new/interface/homepage/get_inspired/anomaly_detection.html
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
               subnav:
                 - name: Licences
-                  link: /core_app/new/interface/homepage/admin/licences.html
+                  link: /core_app/new/interface/homepage/admin/admin.html#licences
                 - name: Security
-                  link: /core_app/new/interface/homepage/admin/security.html
+                  link: /core_app/new/interface/homepage/admin/admin.html#security
                 - name: Statistic
-                  link: /core_app/new/interface/homepage/admin/statistic.html
+                   link: /core_app/new/interface/homepage/admin/admin.html#statistic
         - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
@@ -94,6 +89,17 @@
           subnav:
             - name: Waterfall #done
               link: /core_app/new/compare/interface/waterfall.html
+              subnav:
+                - name: Waterfall chart
+                  link: /core_app/new/compare/interface/waterfall.html#waterfall-chart
+                - name: Funnel
+                  link: /core_app/new/compare/interface/waterfall.html#funnel
+                - name: Dimension Comparison
+                  link: /core_app/new/compare/interface/waterfall.html#dimension-comparison
+                - name: Mix Effect
+                  link: /core_app/new/compare/interface/waterfall.html#mix-effect
+                - name: Performance Effect
+                  link: /core_app/new/compare/interface/waterfall.html#performance-effect-max
             - name: Detailed View #done
               link: /core_app/new/compare/interface/detailed_view.html
               subnav:
@@ -120,6 +126,40 @@
                   link: /core_app/new/compare/interface/subheader/export.html
                 - name: Settings #done
                   link: /core_app/new/compare/interface/subheader/settings.html
+                  subnav:
+                    - name: Aggregation in %
+                      link: /core_app/new/compare/interface/subheader/settings.html#1-aggregation-in
+                    - name: Split Mix and Perf
+                      link: /core_app/new/compare/interface/subheader/settings.html#2-split-mix-and-perf
+                    - name: Negative Driver First
+                      link: /core_app/new/compare/interface/subheader/settings.html#3-negative-driver-first
+                    - name: Significance test
+                      link: /core_app/new/compare/interface/subheader/settings.html#4-significance-test
+                    - name: Analyse Depth
+                      link: /core_app/new/compare/interface/subheader/settings.html#5-analyse-depth
+                    - name: Covariance roll up
+                      link: /core_app/new/compare/interface/subheader/settings.html#6-covariance-roll-up
+                    - name: Include 0 for Y axis
+                      link: /core_app/new/compare/interface/subheader/settings.html#7-include-0-for-y-axis
+                    - name: Analysis Language
+                      link: /core_app/new/compare/interface/subheader/settings.html#8-analysis-language
+                    - name: Colors Palette For Plots
+                      link: /core_app/new/compare/interface/subheader/settings.html#9-colors-palette-for-plots
+                    - name: Force Rounding
+                      link: /core_app/new/compare/interface/subheader/settings.html#10-force-rounding
+                    - name: Clustering
+                      link: /core_app/new/compare/interface/subheader/settings.html#11-clustering
+                    - name: Max segment displayed
+                      link: /core_app/new/compare/interface/subheader/settings.html#12-max-segment-displayed
+                    - name: Smart dimension
+                      link: /core_app/new/compare/interface/subheader/settings.html#13-smart-dimension
+                    - name: Combined Dimensions
+                      link: /core_app/new/compare/interface/subheader/settings.html#14-combined-dimensions
+                    - name: Comparable Dates
+                      link: /core_app/new/compare/interface/subheader/settings.html#15-comparable-dates
+
+
+      
         - name: Model
           link: /core_app/new/compare/model/model.html
           subnav:
@@ -141,6 +181,40 @@
           subnav:
             - name: Header & Settings #done
               link: /core_app/new/detect/settings.html
+            - name: Comparison #done
+              link: /core_app/new/detect/settings.html#comparison
+            - name: Filters #done
+              link: /core_app/new/detect/settings.html#filters
+            - name: KPI #done
+              link: /core_app/new/detect/settings.html#kpi
+            - name: Aggregation in % #done
+              link: /core_app/new/detect/settings.html#aggregation-in
+            - name: Analysis language #done
+              link: /core_app/new/detect/settings.html#analysis-language
+            - name: Colors palette for plots #done
+              link: /core_app/new/detect/settings.html#colors-palette-for-plots
+            - name: Colors palette for plots #done
+              link: /core_app/new/detect/settings.html#force-rounding
+            - name: Force Rounding #done
+              link: /core_app/new/detect/settings.html#max-segment-displayed
+            - name: Max Segment Displayed #done
+              link: /core_app/new/detect/settings.html#maximum-depth-for-continuous-grouping
+            - name: Analyse All Metrics Relation Steps #done
+              link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
+            - name: Inspect Numerator only #done
+              link: /core_app/new/detect/settings.html#inspect-numerator-only
+            - name: Analyse Latest Point Only #done
+              link: /core_app/new/detect/settings.html#analyse-latest-point-only
+            - name: Detection Methode #done
+              link: /core_app/new/detect/settings.html#detection-method
+            - name: Number of points for average window #done
+              link: /core_app/new/detect/settings.html#number-of-points-for-average-window
+            - name: Confidence Interval #done
+              link: /core_app/new/detect/settings.html#confidence-interval
+            - name: Analysis Depth #done
+              link: /core_app/new/detect/settings.html#analysis-depth
+            - name: Include 0 For Y Axis #done
+              link: /core_app/new/detect/settings.html#include-0-for-y-axis
 
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
@@ -152,6 +226,20 @@
           subnav:
             - name: Header & Settings #done
               link: /core_app/new/pivot/settings.html
+            - name: Importance Chart #done
+              link: /core_app/new/pivot/settings.html#importance-chart
+            - name: Simple chart #done
+              link: /core_app/new/pivot/settings.html#simple-chart
+            - name: Clustered Chart #done
+              link: /core_app/new/pivot/settings.html#clustered-chart
+            - name: MariMekko #done
+              link: /core_app/new/pivot/settings.html#marimekko
+            - name: Sankey Diagram #done
+              link: /core_app/new/pivot/settings.html#sankey-diagram
+            - name: Simple Test Matrix #done
+              link: /core_app/new/pivot/settings.html#simple-test-matrix
+            - name: Decision Tree #done
+              link: /core_app/new/pivot/settings.html#decision-tree
 
 
     - name: Assess #done
@@ -218,8 +306,30 @@
           subnav:
             - name: Add Source #done
               link: /core_app/new/prep/interface/add_source.html
+              subnav:
+                - name: Google Sheet
+                  link: /core_app/new/prep/interface/add_source.html#google-sheet
+                - name: Excel File
+                  link: /core_app/new/prep/interface/add_source.html#excel-file
+                - name: csv File
+                  link: /core_app/new/prep/interface/add_source.html#csv-file
+                - name: Google Analytics 3
+                  link: /core_app/new/prep/interface/add_source.html#google-analytics-3
+                - name: Google Analytics 4 (beta)
+                  link: /core_app/new/prep/interface/add_source.html#google-analytics-4-beta
+                - name: Google Google BigQuery
+                  link: /core_app/new/prep/interface/add_source.html#google-google-bigquery
+                - name: Mail
+                  link: /core_app/new/prep/interface/add_source.html#mail
+                - name: Snowflake
+                  link: /core_app/new/prep/interface/add_source.html#snowflake
+                - name: Google trends
+                  link: /core_app/new/prep/interface/add_source.html#google-trends
+                - name: Facebook
+                  link: /core_app/new/prep/interface/add_source.html#facebook
+
             - name: Extensions #done
-              link: /core_app/new/integration/integrations.html
+              link: /core_app/new/integration/integrations.html                
             - name: Refine Data #done
               link: /core_app/new/prep/interface/refine_data.html
             - name: Block Output #done
