@@ -18,8 +18,11 @@ In order to facilitate your work, DataMa automatically detects the metrics and d
 To do this we proceed as follows: 
 By reading the columns from left to right, we detect which is the last column to have the type 'Text', all the columns that precede this one will be defined as dimensions, all those following will be defined as metrics. 
 
+<br>
 
 The first dimension will be used as a [comparison dimension.]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
+
+<br>
 
 Learn more on this by reading details on: 
 - [Metrics Relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html)
@@ -27,8 +30,9 @@ Learn more on this by reading details on:
 - [Threshold]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/threshold.html)
 - [Focused and excluded dimensions]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/included-excluded_dimensions.html)
 
+<br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_blockOutput.jpg"/></center>
+<center><img style="width:60%" src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_blockOutput.jpg"/></center>
 
 
 
