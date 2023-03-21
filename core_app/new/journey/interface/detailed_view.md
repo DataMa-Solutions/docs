@@ -10,7 +10,7 @@ layout: page
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
 
 
-Detailed View is a group of 4 tabs. See below articles for details on each tab:
+Detailed View is a group of 4 tabs. See the articles below for details on each tab:
 
 * [Simple Stat](#simple-stat)
 * [Flow](#flow)
@@ -42,13 +42,12 @@ The Simple Stat tab is a graph allowing you to visualize various information on 
 
 ## <b> Flow </b>
 
-The Flow tab is a graph allowing you to visualize previous point and next point for a choosen touch point (Point in Detailed View Filter) on a choosen metric (Metric in Detailed View Filter).
+The Flow tab is a graph allowing you to visualize previous points and next points for a chosen touch point (Point in Detailed View Filter) on a choosen metric (Metric in Detailed View Filter).
 
+If Compare Mode is activated, then then End Dimension will be represented.
+Green represents positive variation between Start and End, while red represents negative variation between Start and End.
 
-If Compare Mode is activated then End Dimension will be represented.
-Green represents positive variation between Start and End while red represents negative variation between Start and End.
-
-The size of the flow shown is related to the percentage of the metric flowing from one touch point to another, in sequential order. 
+The size of the flow shown is related to the percentage of the metric flowing from one touch point to the other, in sequential order. 
 
 **<u>Example:</u>**
 
@@ -58,7 +57,7 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 ## <b> Relative </b>
 
-Relative is an other way to display [Flow]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow) graph.
+Relative is another way to display the [Flow]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow) graph.
 
 
 **Example:**
@@ -70,7 +69,7 @@ Relative is an other way to display [Flow]({{site.url}}/{{site.baseurl}}/core_ap
 ## <b> Data </b>
 
 
-> The **Data Tab** is the table used to generate the others tabs of Detailed View.
+> The **Data Tab** is the table used to generate the other tabs of Detailed View.
 
 With :
 
