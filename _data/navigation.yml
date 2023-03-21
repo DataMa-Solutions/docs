@@ -186,6 +186,20 @@
           subnav:
             - name: Header & Settings #done
               link: /core_app/new/pivot/settings.html
+            - name: Importance Chart #done
+              link: /core_app/new/pivot/settings.html#importance-chart
+            - name: Simple chart #done
+              link: /core_app/new/pivot/settings.html#simple-chart
+            - name: Clustered Chart #done
+              link: /core_app/new/pivot/settings.html#clustered-chart
+            - name: MariMekko #done
+              link: /core_app/new/pivot/settings.html#marimekko
+            - name: Sankey Diagram #done
+              link: /core_app/new/pivot/settings.html#sankey-diagram
+            - name: Simple Test Matrix #done
+              link: /core_app/new/pivot/settings.html#simple-test-matrix
+            - name: Decision Tree #done
+              link: /core_app/new/pivot/settings.html#decision-tree
 
 
     - name: Assess #done
