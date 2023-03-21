@@ -33,8 +33,6 @@ Here is an example for a date:
 Here is an example for a string
 <left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_text.png"/></left>
 
-Dimension Helper chart can help you to understand what you want to compare, in case you don’t know 😅
+[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/dimension_helper) chart can help you to understand what you want to compare, in case you don’t know 😅.
 
-
-Don't hesitate to contact us if you need any other connexion with your data.
 
