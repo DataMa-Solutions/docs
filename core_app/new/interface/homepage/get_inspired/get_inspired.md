@@ -31,7 +31,7 @@ Here are the available examples :
 * [Marketing campaign]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_campaign.html)
 * [Marketing continuous]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
 * [Marketing scope]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html)
-* [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html)
+<!-- * [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html) -->
 * [Content Square]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
 * [Retail Performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_performance.html)
 * [Finance Control]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/finance_controlling.html)

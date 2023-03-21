@@ -7,7 +7,7 @@ layout: page
 > See in this chapter details what to find in the **Admin** section of the homepage
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/admin.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.jpg"/></center>
 
 <br>
 
