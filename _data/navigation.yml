@@ -186,6 +186,40 @@
           subnav:
             - name: Header & Settings #done
               link: /core_app/new/detect/settings.html
+            - name: Comparison #done
+              link: /core_app/new/detect/settings.html#comparison
+            - name: Filters #done
+              link: /core_app/new/detect/settings.html#filters
+            - name: KPI #done
+              link: /core_app/new/detect/settings.html#kpi
+            - name: Aggregation in % #done
+              link: /core_app/new/detect/settings.html#aggregation-in
+            - name: Analysis language #done
+              link: /core_app/new/detect/settings.html#analysis-language
+            - name: Colors palette for plots #done
+              link: /core_app/new/detect/settings.html#colors-palette-for-plots
+            - name: Colors palette for plots #done
+              link: /core_app/new/detect/settings.html#force-rounding
+            - name: Force Rounding #done
+              link: /core_app/new/detect/settings.html#max-segment-displayed
+            - name: Max Segment Displayed #done
+              link: /core_app/new/detect/settings.html#maximum-depth-for-continuous-grouping
+            - name: Analyse All Metrics Relation Steps #done
+              link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
+            - name: Inspect Numerator only #done
+              link: /core_app/new/detect/settings.html#inspect-numerator-only
+            - name: Analyse Latest Point Only #done
+              link: /core_app/new/detect/settings.html#analyse-latest-point-only
+            - name: Detection Methode #done
+              link: /core_app/new/detect/settings.html#detection-method
+            - name: Number of points for average window #done
+              link: /core_app/new/detect/settings.html#number-of-points-for-average-window
+            - name: Confidence Interval #done
+              link: /core_app/new/detect/settings.html#confidence-interval
+            - name: Analysis Depth #done
+              link: /core_app/new/detect/settings.html#analysis-depth
+            - name: Include 0 For Y Axis #done
+              link: /core_app/new/detect/settings.html#include-0-for-y-axis
 
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
@@ -197,6 +231,20 @@
           subnav:
             - name: Header & Settings #done
               link: /core_app/new/pivot/settings.html
+            - name: Importance Chart #done
+              link: /core_app/new/pivot/settings.html#importance-chart
+            - name: Simple chart #done
+              link: /core_app/new/pivot/settings.html#simple-chart
+            - name: Clustered Chart #done
+              link: /core_app/new/pivot/settings.html#clustered-chart
+            - name: MariMekko #done
+              link: /core_app/new/pivot/settings.html#marimekko
+            - name: Sankey Diagram #done
+              link: /core_app/new/pivot/settings.html#sankey-diagram
+            - name: Simple Test Matrix #done
+              link: /core_app/new/pivot/settings.html#simple-test-matrix
+            - name: Decision Tree #done
+              link: /core_app/new/pivot/settings.html#decision-tree
 
 
     - name: Assess #done
