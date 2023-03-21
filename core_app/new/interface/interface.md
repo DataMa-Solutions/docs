@@ -1,12 +1,12 @@
 ---
 title: Interface
-description: See in this chapter details how to use main features of the DataMa interface
+description: In this chapter, see details on how to use the main features of the DataMa interface
 layout: page
 ---
 
 <br>
 
-> See in this chapter details how to use the **Interface**  of the DataMa solution
+> In this chapter, see details on how to use the **Interface**  of the DataMa solution
 
 <br>
 
