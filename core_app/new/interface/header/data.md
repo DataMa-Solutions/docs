@@ -4,23 +4,19 @@ description: Find here how you can use the "Data" menu of the header of the Data
 layout: page
 ---
 
-> Find here how you can use **the Data** menu of the header of the Solution**
+> Find here how you can use **the Data** menu of the header of the Solution
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/data_menu.jpg"/></center>
 
 **In Prep :** 
 
-- **Schedule** : program in advance the execution of a flow in Prep 
-- **Run and cache** : cache the data and run the flow
-- **Analyze** : choose a tool in which to run a computation of the data flow.
+- **Analyze** : Choose a tool in which to run a computation of the data flow.
+- **Schedule** : Program in advance the execution of a flow in Prep.
+- **Refresh** : Refresh data or refresh everything.
 
 **In solutions :** 
 
-- **Compute** : launch a computation for the current tool.
-- **Clean Cache** : clear the cache in memory.
-- **Edit in Prep** : open Prep to modify the data flow.
-- **Analyze** : choose a tool in which to run a computation.
-
-
-Don't hesitate to contact us if you need any other connexion with your data.
-
+- **Edit in Prep** : Open Prep to modify the data flow.
+- **Analyze** : Choose a tool in which to run a computation.
+- **Compute** : Launch a computation for the current tool.
+- **Refresh** : Refresh computation or refresh data refresh everything

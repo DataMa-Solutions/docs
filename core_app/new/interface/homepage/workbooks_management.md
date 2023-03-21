@@ -20,7 +20,7 @@ The "Recent" section shows the workbooks you've worked on recently. You can edit
 
 
 
-You can also manage your workbooks in the "Workbooks" menu.
+You can also manage your workbooks in the "Workbooks" page.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
 
@@ -28,6 +28,6 @@ You can also manage your workbooks in the "Workbooks" menu.
 
 ## <b>**Folders**</b>
 
-To organize your workbooks, you can create folders in the "Workbooks" menu. Simply give the folder a name and an optional icon.
+To organize your workbooks, you can create folders in the "Workbooks" page. Simply give the folder a name and an optional icon.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/folders_icon.png"/></center>
