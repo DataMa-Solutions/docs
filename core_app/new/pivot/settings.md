@@ -27,7 +27,7 @@ layout: page
 
 ## Comparison
 
-DataMa Pivot can be used with a comparison. To activate this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing. 
+DataMa Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing. 
 
 <br>
 
