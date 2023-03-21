@@ -23,13 +23,6 @@
           subnav:
             - name: Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
-              subnav:
-                - name: File
-                  link: /core_app/new/interface/header/file.html
-                - name: Data
-                  link: /core_app/new/interface//header/data.html
-                - name: Help
-                  link: /core_app/new/interface/header/help.html
             - name: Workbooks Management #done
               link: /core_app/new/interface/homepage/workbooks_management.html
             - name: Get Inspired #done
@@ -49,8 +42,10 @@
                   link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
                 - name: Finance Control
                   link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
-                - name: Retail Performance
-                  link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                # - name: Retail Performance
+                #   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                - name: Anomaly Detection
+                  link: /core_app/new/interface/homepage/get_inspired/anomaly_detection.html
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
               subnav:
