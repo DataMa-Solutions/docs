@@ -4,21 +4,21 @@ description: The solution JOURNEY is split in four main parts.
 layout: page
 ---
 
-> The solution is split into 4 part
+> This solution is split into 4 parts
 
-A pre-requisite is to be able to generate a data source that contains your customer journeys, the volume and the value associated to it.
+A pre-requisite is to be able to generate a data source that contains your customer journeys, the volume, and the value associated with it.
 A customer journey is essentially a set of touch points, in a sequential order, e.g. 'touch point 1 - touch point 2 - touch point 3'
-Touch points could be any experience or even process you would like to analyse. See use case section to get inspired
+Touch points could be any experience or even process you would like to analyse. See the use case section to get inspired.
 
 
 ![homepage]({{site.url}}/{{site.baseurl}}/core_app/new/journey/images/journey_interface.png)
 
 
-* **[Admin Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/homepage_header.html):** the header of the window manage your account and your use cases
-* **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/journey_header.html):** the subheader of the window manage the settings of the solution
-* **Sidebar:** The left part of the web page, which allows you to switch from one solution to another
+* **[Admin Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/homepage_header.html):** the header of the window manages your account and your use cases
+* **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/journey_header.html):** the subheader of the window manages the settings of the solution
+* **Sidebar:** The left part of the web page allows you to switch from one solution to another
 
-> Overall **interface** is split in 3 steps, that are the back bone of DataMa JOURNEY
+> Overall **interface** is split into 3 steps, that are the backbone of DataMa JOURNEY
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/journey/images/model.png"/></center>
 
