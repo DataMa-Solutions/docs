@@ -25,7 +25,7 @@ Here is the available connectors:
 - [Google trends](#google-trends)
 - [Facebook](#facebook)
 
-And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/inegration.html) (Tableau, PowerBI, LookerStudio,...)
+And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, PowerBI, LookerStudio,...)
 
 
 > ## Google Sheet
