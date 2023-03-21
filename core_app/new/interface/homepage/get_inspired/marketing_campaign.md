@@ -21,5 +21,5 @@ This use case is a basic example of conversion funnel used for an email campaign
 ![Marketing-campaigns]({{site.url}}/{{site.baseurl}}/assets/images/home/use_cases/Marketing-campaigns.jpg)
 
 The 2 other Marketing examples represent specific features available in our DataMa Compare solution (clustering of continuous dimension, and the ability to put some of the data aside – scope in / scope out):
-* [Marketing Campaign – Continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous.md)
-* [Marketing Campaign – Scope]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_scope.md)
+* [Marketing Campaign – Continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous.html)
+* [Marketing Campaign – Scope]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_scope.html)
