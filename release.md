@@ -5,6 +5,27 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-03-31:
+
+* **Extensions:**
+    * Looker Studio extension includes "Comparison Period" toggler to facilitate comparison definiton
+    * Tableau extension in the new UI is available for testing, but only sharable with Login/ Pwd
+    * PowerBI extension has been improved, with better management of versioning and dates/ timezone handling
+
+* **New platform:**
+    * Documentation for the new UI has been released check out [here](https://datama-solutions.github.io/docs/core_app/new_docs.html)
+    * Metrics relation and market equation definition UI has been improved, in a separate pop up
+    * Multiple bug fixes and UI improvements (incl. Excel handling in prep, file management on home page, KPIs & Filter pills display, and cache management)
+
+* **Compare**
+    * In the new UI, you can now display waterfall in % points instead of total KPIs by right clicking on the blue total bars
+    * [Table view](https://datama-solutions.github.io/docs/core_app/new/compare/interface/table.html) in the second slide can now display the total KPI impact and secondary comparison (in a subline)
+
+* **Prep**
+    * Snowflake connector now allows higer timeout and view querying
+
+
+
 ### 2023-02-28:
 
 * **Extensions:**
