@@ -54,7 +54,7 @@
                 - name: Security
                   link: /core_app/new/interface/homepage/admin/admin.html#security
                 - name: Statistic
-                   link: /core_app/new/interface/homepage/admin/admin.html#statistic
+                  link: /core_app/new/interface/homepage/admin/admin.html#statistic
         - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
           subnav:
