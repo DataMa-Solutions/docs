@@ -16,7 +16,7 @@ From Looker Studio you can load new vizualisation from the community, and retrie
 
 <br>
 
-![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadingExtension3.gif)
+![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadingExtension.gif)
 
 <br>
 
