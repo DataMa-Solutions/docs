@@ -9,6 +9,25 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+## Tip of the week #73: Secondary Comparison disponible dans la Table
+Dans DataMa Compare vous avez la possibilité de comparer une variation avec une autre variation, c’est ce qui vous est proposé avec le "Secondary Comparison". C’est utile lorsque vous comparez par exemple une période par rapport à une autre et que vous voulez mettre en relief cette comparaison avec ce qui c’était passé sur les mêmes périodes l’année précédente.
+La dernière release a ajouté la "Secondary Comparison" à la Table, maintenant quand vous l'activez une ligne sera ajoutée sous chaque segment correspondant à la variation sur cette seconde comparaison 😉
+![Tip 73]({{site.url}}/{{site.baseurl}}/assets/images/tip/73.gif)
+
+## Tip of the week #72: CSV Skip Raw
+Petite amélioration dans DataMa Prep, maintenant vous avez une option pour ne pas prendre en compte un certain nombre de lignes dans votre CSV. Par exemple, si vous avez un titre lorsque vous faites l’export du CSV, plus besoin de supprimer les premières lignes du fichier avant de l'importer dans DataMa, vous pouvez sélectionner le nombre de lignes à ne pas prendre en compte 😉
+![Tip 72]({{site.url}}/{{site.baseurl}}/assets/images/tip/72.gif)
+
+## Tip of the week #71:
+Sur la nouvelle version de DataMa dans la solution Compare, la table disponible dans la deuxième slide sous la Waterfall a été améliorée 🥳
+  * Avec l’ajout d’une expansion de chaque colonne et d'un petit cadenas 🔒 vous permettant de bloquer l’ouverture d'une colonne pour en avoir plusieurs d'ouvertes
+  * Avec l'ajout de nouvelle colonnes: Rank et Rank Change, qui permet de savoir le ranking d'un segment sur une métrique (eg. le desktop est n°1 en conversion) et la variation de ce rank entre les deux points de comparaison (e.g. le desktop était n°2 en conversion et c'est maintenant le n°1)
+  * Avec l'implémentation d'un menu de configuration de la table qui vous permettra:
+    * De changer l’ordre des colonnes
+    * D’afficher les colonnes que vous souhaitez visualiser
+    * D'appliquer une mise en forme conditionnelle (couleur, barre, flèche up & down ...)
+![Tip 71]({{site.url}}/{{site.baseurl}}/assets/images/tip/71.gif)
+
 ## Tip of the week #70
 Avec l’arrivée de la nouvelle version de DataMa en plus de la refonte de l’interface graphique, nous avons également amélioré le fonctionnement des "Use Cases" 💡
   * En effet, DataMa Prep est devenu l'outil unique de chargement et de transformation de la donnée
