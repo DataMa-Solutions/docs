@@ -1,5 +1,5 @@
 ---
-title: Header
+title: Solutions Header
 description: Find here how you can use the header of the DataMa Solutions
 layout: page
 ---
