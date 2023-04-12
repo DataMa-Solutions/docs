@@ -23,7 +23,7 @@ As soon as you received the extension from your DataMa point of contact, you can
 
 DataMa will be basically like a PowerBi graph embedded in the visualisation. You will have to configure it as a basic graph. 
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_extension.gif)
+![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
 
 <br>
 
@@ -34,7 +34,7 @@ DataMa will be basically like a PowerBi graph embedded in the visualisation. You
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerbi_advancedSettings.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_advancedSettings.jpg"/></center>
 
 <br>
 
@@ -44,7 +44,7 @@ DataMa will be basically like a PowerBi graph embedded in the visualisation. You
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerbi_licenceKey.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_licenceKey.jpg"/></center>
 
 <br>
 
