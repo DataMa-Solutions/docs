@@ -42,8 +42,10 @@
                   link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
                 - name: Finance Control
                   link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
-                # - name: Retail Performance
-                #   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                  name: Retail Performance
+                  link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                  name: Retail Categories
+                  link: /core_app/new/interface/homepage/get_inspired/retail_categories.html
                 - name: Anomaly Detection
                   link: /core_app/new/interface/homepage/get_inspired/anomaly_detection.html
             - name: Admin #done
@@ -598,52 +600,52 @@
                     - name: Number of steps displayed
                       link: /core_app/journey/web_application/menu/settings/number_of_steps_displayed.html #OK
     - name: Prep
-      link: /prep/prep.html
+      link: /core_app/prep/prep.html
       subnav:
         - name: Interface
-          link: /prep/interface.html
+          link: /core_app/prep/interface.html
           subnav:
             - name: Sidebar
-              link: /prep/interface/sidebar.html
+              link: /core_app/prep/interface/sidebar.html
             - name: Header
-              link: /prep/interface/header.html
+              link: /core_app/prep/interface/header.html
               subnav:
                 - name: Saving
-                  link: /prep/header/save.html
+                  link: /core_app/prep/header/save.html
                 - name: Scheduler
-                  link: /prep/header/scheduler.html
+                  link: /core_app/prep/header/scheduler.html
             - name: Main Screen
-              link: /prep/interface/main_screen.html
+              link: /core_app/prep/interface/main_screen.html
         - name: Actions
-          link: /prep/sidebar/actions.html
+          link: /core_app/prep/sidebar/actions.html
           subnav:
             - name: Append
-              link: /prep/sidebar/actions/Append.html
+              link: /core_app/prep/sidebar/actions/Append.html
             - name: Clean
-              link: /prep/sidebar/actions/Clean.html
+              link: /core_app/prep/sidebar/actions/Clean.html
             - name: Pivot and Unpivot
-              link: /prep/sidebar/actions/Pivot_Unpivot.html
+              link: /core_app/prep/sidebar/actions/Pivot_Unpivot.html
             - name: Filter
-              link: /prep/sidebar/actions/Filter.html
+              link: /core_app/prep/sidebar/actions/Filter.html
         - name: Sources
-          link: /prep/connectors/available.html
+          link: /core_app/prep/connectors/available.html
           subnav:
             - name: CSV file
-              link: /prep/connectors/source/CSV_file.html
+              link: /core_app/prep/connectors/source/CSV_file.html
             - name: Excel File
-              link: /prep/connectors/source/Excel_file.html
+              link: /core_app/prep/connectors/source/Excel_file.html
             - name: Google Sheet
-              link: /prep/connectors/source/Google_sheet.html
+              link: /core_app/prep/connectors/source/Google_sheet.html
             - name: Google Analytics
-              link: /prep/connectors/source/Google_analytics.html
+              link: /core_app/prep/connectors/source/Google_analytics.html
             - name: Google Trend
-              link: /prep/connectors/source/Google_trend.html
+              link: /core_app/prep/connectors/source/Google_trend.html
             - name: Google Big Query
-              link: /prep/connectors/source/Google_BigQuery.html
+              link: /core_app/prep/connectors/source/Google_BigQuery.html
             - name: Mail
-              link: /prep/connectors/source/Mail.html
+              link: /core_app/prep/connectors/source/Mail.html
             - name: Facebook Analytics
-              link: /prep/connectors/source/Facebook_analytics.html
+              link: /core_app/prep/connectors/source/Facebook_analytics.html
     - name: Source
       link: /core_app/source.html #OK
     - name: Interface

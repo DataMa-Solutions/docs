@@ -34,6 +34,7 @@ Here are the available examples :
 <!-- * [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html) -->
 * [Content Square]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
 * [Retail Performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_performance.html)
+* [Retail Categories]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_categories.html)
 * [Finance Control]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/finance_controlling.html)
 * [Anomaly Detection]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/anomaly_detection.html)
 

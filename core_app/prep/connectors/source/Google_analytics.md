@@ -4,9 +4,9 @@ description: DataMa Prep include a GA connector.
 layout: page
 ---
 
-**You can upload your Google Analytics datasets in DataMa PREP.**
+> **You can upload your Google Analytics datasets in DataMa PREP.**
 
-
+<br>
 
 ## Instructions
 
@@ -22,8 +22,12 @@ To do so, login to your GA Account by pressing the authorize button
 You can configure your GA report with the sidebar inputs. See image bellow
 ![GAstep3](images/GAstep3_1.png)
 
+<br>
+
 ### Views Metrics and dimensions
 Select your view, metrics and dimensions with the first block (in red). You can choose only one view and as many metrics and dimensions you want.
+
+<br>
 
 ### Segment definition
 
@@ -35,9 +39,13 @@ Segments let you isolate and analyze those subsets of data so you can examine an
 
 You can also use segments as the basis for audiences. For example, you might create a segment of users who visit your menswear pages, and then target just those users (your audience) with a remarketing campaign that is focused on the new items that you are adding to those pages.
 
+<br>
+
 #### Using segments
 **It is not mandatory** to add segments to your report.
 Just check the "Add segment(s)". You can **add up to 4 segments**
+
+<br>
 
 #### Timeframe selection
 

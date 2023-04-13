@@ -4,6 +4,10 @@ description: Find information about how to save your flow
 layout: page
 ---
 
+> **Find information about how to save your flow**
+
+<br>
+
 After setting your flow you will need to save it in order to launch DataMa Core.
 
 ![Save ui](images/save_ui.png)

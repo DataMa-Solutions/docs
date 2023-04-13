@@ -43,4 +43,4 @@ Once you're done make sure to click on the "Ok" button to validate the creation 
 
 ![image](images/calculated_field_preview2.png)
 
-Next is the "Append" action, click [here]({{site.url}}/{{site.baseurl}}/prep/sidebar/actions/Append.html)!
+Next is the "Append" action, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/sidebar/actions/Append.html)!
