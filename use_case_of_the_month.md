@@ -11,15 +11,15 @@ description: |
 ---
 Every month, DataMa publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
 
-<h2> 💡Use Case of the Month #5 - Actual vs. Forecasted </h2>
+<h2> 💡Use Case of the Month #6 - Actual vs. Funnel A/B Testing Analysis </h2>
 
-Defining, monitoring, and forecasting KPIs can be complex, especially when trying to determine the cause of gaps between actual and forecasted results 🤨. In this month's use case, find out how a major web C2C marketplace, **Click & Boat** used DataMa to:
+Generating leads is essential for the growth of most businesses, but it can be challenging to determine if improvements are actually having a positive impact on conversion 🤔. In this month's use case, discover how one of our clients was able to leverage a suite of DataMa's solutions to:
 
-* 📈 Model complex mix effects and changes in their customer service efforts to get clear results on financial impacts
-* 🧩 Seamlessly integrate DataMa into their existing tech stack, including Snowflake and Tableau
-* 🎯 Focus on key initiatives by identifying the cause of discrepancies between forecasted and actual data
+* 🧪 Quickly determine the most effective version of their funnel to optimize their conversion rate.
+* ✅ Validate the significance and confirm the random distribution of their A/B tests
+* 🚀 Enhance their analysis by easily visualizing customer behavior with waterfall and customer journey graphs 
 
-Read the full story [here](https://www.datama.io/use-case-5-forecast-analysis-vs-actual-performance/)
+Read the full story [here](https://www.datama.io/use-case-6-funnel-a-b-testing-analysis/)
 
 
 <h2> 💡Use Case of the Month #4 - Logistic Cost analysis </h2>
