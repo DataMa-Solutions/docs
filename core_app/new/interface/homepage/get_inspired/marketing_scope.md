@@ -10,6 +10,8 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=1172240978&amp;single=true&amp;widget=true&amp;headers=false" width="860" height="500"></iframe>
 
+<br>
+
 ## In DataMa Compare
 
 Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.

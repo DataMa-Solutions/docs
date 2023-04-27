@@ -42,12 +42,19 @@
                   link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
                 - name: Finance Control
                   link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
-                  name: Retail Performance
+                - name: Retail Performance
                   link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
-                  name: Retail Categories
+                - name: Retail Categories
                   link: /core_app/new/interface/homepage/get_inspired/retail_categories.html
                 - name: Anomaly Detection
                   link: /core_app/new/interface/homepage/get_inspired/anomaly_detection.html
+                - name: Display Campaign Comparison
+                  link: /core_app/new/interface/homepage/get_inspired/display_campaign.html
+                - name: Churn Rate
+                  link: /core_app/new/interface/homepage/get_inspired/churn_rate.html
+                - name: Display acquisition
+                  link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
+
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
               subnav:
