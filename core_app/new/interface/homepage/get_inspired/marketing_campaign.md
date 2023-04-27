@@ -18,7 +18,19 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 **For example:** At the step : number of email « Open/Sent » the performance collapsed mainly due to the Segment 2 that less Opened the email in the Campaign B than in the Campaign A. (This could be seen in with the red bar in the middle)
 
-![Marketing-campaigns]({{site.url}}/{{site.baseurl}}/assets/images/home/use_cases/Marketing-campaigns.jpg)
+<br>
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingComparisonCampaign.jpg "/></center>
+
+<br>
+
+## In DataMa Pivot
+
+DataMa Pivot wil help to explain the importance of the dimension and help you focus on the characteristic that should be taking into account to understand your campaign performance. 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_pivot_MarketingCampaign.jpg"/></center>
+
+<br>
 
 The 2 other Marketing examples represent specific features available in our DataMa Compare solution (clustering of continuous dimension, and the ability to put some of the data aside – scope in / scope out):
 * [Marketing Campaign – Continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous.html)

@@ -12,6 +12,8 @@ Take a look at the data:
 
 You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1408263987)
 
+<br>
+
 ## In DataMa Compare
 
 Distinct from other examples, this use case is designed for financial assessment using a business equation to analyze retail performance instead of a conversion funnel.

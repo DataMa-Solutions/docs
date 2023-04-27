@@ -13,10 +13,6 @@ To help you get inspired with you own data, we provide a set of example workbook
 
 Please check all live examples on <a href="https://app.datama.io/" target="_blank">app.datama.io</a>, and pick the one closest to your current working field.
 
-
-
-
-
 <br>
 
 All the data used in the different use cases are available in public Google sheets:
@@ -24,19 +20,40 @@ All the data used in the different use cases are available in public Google shee
 * DataMa Assess specific [sources](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
 * DataMa Journey specific [sources](https://docs.google.com/spreadsheets/d/1Z2JovUx_q7uLR2iy_fukiJWpIrA1o5wfvfnaHQUgBE4/edit#gid=0)
 
+<br>
 
 Here are the available examples : 
+
+<b>Web Analyse</b>
+
 * [Web performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/web_performance_GA.html) (Google Analytics)
 * [Product AB test]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/product_AB_test.html)
+* [Content Square]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
+* [Anomaly Detection]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/anomaly_detection.html)
+
+<br>
+
+<b>Marketing</b>
+
 * [Marketing campaign]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_campaign.html)
 * [Marketing continuous]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
 * [Marketing scope]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html)
-<!-- * [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html) -->
-* [Content Square]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
+* [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html)
+* [Display Campaign Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/display_campaign.html)
+
+<br>
+
+<b>Business Analysis</b>
+
 * [Retail Performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_performance.html)
 * [Retail Categories]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_categories.html)
-* [Finance Control]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/finance_controlling.html)
-* [Anomaly Detection]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/anomaly_detection.html)
+* [Finance Controlling]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/finance_controlling.html)
+
+<br>
+
+<b>CRM</b>
+
+* [Churn Rate]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/churn_rate.html)
 
 
 <br>
