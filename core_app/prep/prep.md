@@ -10,7 +10,8 @@ If you're already familiar with DataMa Solutions, you will obviously need DataMa
 
 This documentation gives you an overview of how it works and how to use it.
 
-![prep_ui](images/Capturen1.png)
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/prep/images/Capturen1.png"/></center>
+
 
 Hope you enjoy it.
 

@@ -4,8 +4,9 @@ description: Find information about DataMa Prep BigQuery's source
 layout: page
 ---
 
-**You can do an sql query on your Google BigQuery and use it in DataMa PREP.**
+> **You can do an sql query on your Google BigQuery and use it in DataMa PREP.**
 
+<br>
 
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
 ![BQR open](images/GoogleBigQuery1.png)

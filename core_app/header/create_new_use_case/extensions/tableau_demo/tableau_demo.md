@@ -6,6 +6,8 @@ layout: page
 
 > Tableau extension demo is an introduction to DataMa analysis limited in time and capacity. You may want to contact us for getting fully up to speed
 
+<br>
+
 DataMa helps you do the job of an advanced data analyst faster, in Tableau.
 It's particularly helpful for marketing analysis, such has gap/ root cause analysis.
 Using this extension you will have access to
@@ -14,6 +16,8 @@ Using this extension you will have access to
 * Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
 Below is a step by step on how to get it working in tableau
+
+<br>
 
 ## 1. Create a source worksheet
 
@@ -28,9 +32,14 @@ Typically a source for DataMa will have
     Adding a "1_..", "2_.." in the naming of your metrics should help in that regard
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Source example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Source_Example.png)
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Source_Example.PNG"/></center>
+
+<br>
 
 Please refer to the full documentation to learn more about [sources]({{site.url}}/{{site.baseurl}}/core_app/header/input/source) or see [example of use cases]({{site.url}}/{{site.baseurl}}/home/use_cases/use_cases_examples)
+
+<br>
 
 ## 2. Insert the DataMa extension in a dashboard
 
@@ -40,7 +49,8 @@ Please refer to the full documentation to learn more about [sources]({{site.url}
 * Click 'Start' at the bottom of the welcome modal when it appears
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
-![Dashboard example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Dashboard_welcome.png)
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Dashboard_welcome.PNG"/></center>
 
 ## 3. Get insights
 
@@ -52,10 +62,17 @@ We encourage that you read the documentation about each solution to understand w
 * Significance analysis using [DataMa Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
 * Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
+<br>
+
 ### Example of Compare analysis for the SuperStore default dataset of Tableau.
-![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Waterfall_Example.png)
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/Waterfall_Example.png"/></center>
+
 In a glimpse, we get the waterfall that explains the gap of Sales between 2018 and 2019, driven by quantity increase and in particular the one of Office Supplies in the west, as we can read by selecting the 'Executive Summary' in the output menu.
-![Waterfall example]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/ExecSum_Example.png)
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau_demo/images/ExecSum_Example.png"/></center>
+
+<br>
 
 ### Example of Compare analysis for Digital display campaigns
 
