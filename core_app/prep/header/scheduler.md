@@ -4,6 +4,8 @@ description: When enabled, the scheduler will allow you to pre-compute making Da
 layout: page
 ---
 
+> **When enabled, the scheduler will allow you to pre-compute making DataMa Analysis faster.**
+
 ## Scheduler
 
 ### What is Datama scheduler

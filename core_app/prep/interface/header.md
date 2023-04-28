@@ -4,6 +4,8 @@ description: Get information about the DataMa Prep header functionalities
 layout: page
 ---
 
+<br>
+
 In this section, you will find global settings and information such as your user, your flows, or your scheduler configuration of your current flow
 
 ## Application's action

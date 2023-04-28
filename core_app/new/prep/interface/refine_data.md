@@ -167,4 +167,4 @@ For example, this unpivot configuration creates two columns {Sessions.female and
 
 Congrats! Your dataset is ready to be uploaded in DataMa's solution!
 
-To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/prep/header/save.html)
+To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)
