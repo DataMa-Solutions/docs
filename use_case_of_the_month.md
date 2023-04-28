@@ -22,6 +22,17 @@ Generating leads is essential for the growth of most businesses, but it can be c
 Read the full story [here](https://www.datama.io/use-case-6-funnel-a-b-testing-analysis/)
 
 
+<h2> 💡Use Case of the Month #5 - Actual vs. Forecasted </h2>
+
+Defining, monitoring, and forecasting KPIs can be complex, especially when trying to determine the cause of gaps between actual and forecasted results 🤨. In this month's use case, find out how a major web C2C marketplace, **Click & Boat** used DataMa to:
+
+* 📈 Model complex mix effects and changes in their customer service efforts to get clear results on financial impacts
+* 🧩 Seamlessly integrate DataMa into their existing tech stack, including Snowflake and Tableau
+* 🎯 Focus on key initiatives by identifying the cause of discrepancies between forecasted and actual data
+
+Read the full story [here](https://www.datama.io/use-case-5-forecast-analysis-vs-actual-performance/)
+
+
 <h2> 💡Use Case of the Month #4 - Logistic Cost analysis </h2>
 
 DataMa's dynamic waterfall visualization excels at breaking down classic market equations to give you quick and smart insights 🤓 But did you know DataMa's customizable features allow you to analyze more complex and unique cases? 🤯 Read this month's use case to find out how a major fashion retailer, **Techstyle** used Datama's Tableau extension to:
