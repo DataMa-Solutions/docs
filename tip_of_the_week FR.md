@@ -9,6 +9,15 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+## Tip of the week #75: Affichage de la waterfall en points
+Dans DataMa Compare, vous pouvez désormais afficher votre Waterfall en points (%) au lieu de la vue en volume des KPI totaux 🤩
+Pour passer d’une vue à l’autre, il vous suffit de faire un clic droit de la souris sur les barres totales bleues et sélectionner «% Display impact in points» 😉
+![Tip 75]({{site.url}}/{{site.baseurl}}/assets/images/tip/75.gif)
+
+## Tip of the week #74: Secondary Comparison disponible dans la Table
+DataMa continue d’améliorer ses extensions dans les outils de visualisation. Dans Looker Studio vous pouvez maintenant activer la fonctionnalité "comparison date range" pour comparer B (la période que vous sélectionnez dans le filtre) vs A (la période de comparaison que vous sélectionnez dans le menu déroulant : previous period, previous year,...), ce qui rendra son utilisation plus dynamique 😃
+![Tip 74]({{site.url}}/{{site.baseurl}}/assets/images/tip/74.gif)
+
 ## Tip of the week #73: Secondary Comparison disponible dans la Table
 Dans DataMa Compare vous avez la possibilité de comparer une variation avec une autre variation, c’est ce qui vous est proposé avec le "Secondary Comparison". C’est utile lorsque vous comparez par exemple une période par rapport à une autre et que vous voulez mettre en relief cette comparaison avec ce qui c’était passé sur les mêmes périodes l’année précédente.
 La dernière release a ajouté la "Secondary Comparison" à la Table, maintenant quand vous l'activez une ligne sera ajoutée sous chaque segment correspondant à la variation sur cette seconde comparaison 😉
