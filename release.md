@@ -5,6 +5,22 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-04-27:
+
+* **New platform:**
+    * Get inspired use cases exploration has been improved with filters by solution and by function
+    * Multiple bug fixes and UI improvements (incl. Send feedback button, better error message handling, Duplicate button on workbook card, Filter block and arrows management in Prep, Excel loading)
+    * Dimensions and Ratio helpers are now reactive to applied filters
+
+* **Assess**
+    * In the new UI, statistical test used to compute significance is now visible directly on subheader
+
+* **Compare**
+    * In the new UI, significance test calculations are now available through settings for all assess enabled clients
+
+* **Journey**
+    * Old UI now includes the improved version of Sunburst (with interactions on clicks)
+
 ### 2023-03-31:
 
 * **Extensions:**
