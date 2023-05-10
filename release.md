@@ -5,6 +5,32 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-05-10:
+
+* **Extension:**
+    * For PowerBI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
+        * Define a worbook name in the settings of the extension
+        * Save in DataMa app using the "..." on the top right corner
+        * Find your worbook in app.datama.io and define advanced settings
+        * Save your workbook in app.datama.io
+        * Reload your use case in your extension (Looker Studio or PowerBI)
+    * Assess charts are now available within extensions (Looker Studio & PowerBI)
+
+* **Global:**
+    * **Compact Numbers** toggle is now available in settings - this allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k)
+
+* **Prep**
+    * BigQuery connector performance has been significantly improved for large dataset. As such, global performance and memory usage has been improved, making large dataset schedule more reliable
+    * Clean block now allows to transform string to int or float (e.g. "2.3" as 2.3). Strings that can't be converted will be displayed as "NaN" or "null"
+
+* **Compare**
+    * You can now decide on what to display behind Segment name in the waterfall labelling, under "Segment text complement" input: 
+        * Variation relative to average (e.g. "x2.43")
+        * Percentage Variation (e.g. "-46%")
+        * Nothing
+    * In the new UI, table sort has been improved, and can be applied even when using secondary comparison
+
+
 ### 2023-04-27:
 
 * **New platform:**
