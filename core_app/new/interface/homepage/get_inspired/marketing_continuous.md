@@ -18,7 +18,9 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=643112391&amp;single=true&amp;widget=true&amp;headers=false" width="860" height="500"></iframe>
 
-# In DataMa Comapare 
+<br>
+
+## In DataMa Comapare 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous.jpg "/></center>
 
