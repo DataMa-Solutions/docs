@@ -18,6 +18,7 @@ layout: page
 ## What you will find in this chapter: 
 
 - [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/dimension_comparison.html)
+- [Drill down hierarchy]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
 - [Secondary Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/secondary_comparison.html)
 - [Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/dimension_helper.html)
 - [Filters]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/filters.html)

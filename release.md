@@ -5,6 +5,45 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-05-31:
+
+* **Extension:**
+    * [Beta 🧪] **Advanced extension settings** For PowerBI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
+        * Define a worbook name in the settings of the extension
+        * Save in DataMa app using the "..." on the top right corner
+        * Find your worbook in app.datama.io and define advanced settings
+        * Save your workbook in app.datama.io
+        * Reload your use case in your extension (Looker Studio or PowerBI)
+    * Assess, Pivot and Journey charts are now available within extensions (Looker Studio & PowerBI)
+
+* **Compare:**
+    * [Beta 🧪] **Drill down by Dimensions then Steps**: Until then, DataMa Compare was analysing a variation first by Steps of the Market equation, then by Dimension within a Step. 
+    You can now decide to reverse that pattern and breakdown the total variation by top impacting segments of any dimension and then by Steps within each Segment
+    DataMa even gives you an assessment of what might be the most interesting pattern with an interest score ranking both approaches
+    Click below to learn more on this important feature
+    [Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+
+ * **Prep**
+    * From DataMa block output you can now switch directly to the suggested datama solution
+    * New calculated field UI, including columns/ formula auto completion
+
+### 2023-05-10:
+
+* **Global:**
+    * **Compact Numbers** toggle is now available in settings - this allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k)
+
+* **Prep**
+    * BigQuery connector performance has been significantly improved for large dataset. As such, global performance and memory usage has been improved, making large dataset schedule more reliable
+    * Clean block now allows to transform string to int or float (e.g. "2.3" as 2.3). Strings that can't be converted will be displayed as "NaN" or "null"
+
+* **Compare**
+    * You can now decide on what to display behind Segment name in the waterfall labelling, under "Segment text complement" input: 
+        * Variation relative to average (e.g. "x2.43")
+        * Percentage Variation (e.g. "-46%")
+        * Nothing
+    * In the new UI, table sort has been improved, and can be applied even when using secondary comparison
+
+
 ### 2023-04-27:
 
 * **New platform:**
