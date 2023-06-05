@@ -16,14 +16,14 @@ Previously known as Compare of Compare, this mode allows you to compare 2 waterf
 
 In the background, DataMa will then run the same analysis for the 2 definitions of start and end, and then display the results of the secondary analysis in the background. Main output is :
 
-●   In the Waterfall « Chart », the secondary waterfall is displayed in the background
-●   In the Comments, the trend between secondary and primary analysis will be worded
+*  In the Waterfall « Chart », the secondary waterfall is displayed in the background
+*  In the Comments, the trend between secondary and primary analysis will be worded
 
 <br>
 
 # **When to use it**
 Compare of Compare mode is particularly useful when you regularly run the same analysis for different periods of time.
-We can take the example of this dataset.
+We can take the example of this [dataset](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1243203565).
 
 You’re in Week 3 2022, and you want to compare to Week 3 2021. Using DataMa Compare, you get this:
 
