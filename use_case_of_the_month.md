@@ -11,6 +11,16 @@ description: |
 ---
 Every month, DataMa publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
 
+<h2> 💡Use Case of the Month #7 - Conversion Funnel Monitoring </h2>
+
+The continuous performance and quality of an e-commerce website plays a vital role in driving sales for any brand. However, performing analyses and fixing errors can be a time-consuming task ⏰. In this month’s use case, find out how the well-known fashion brand Lacoste🐊 was able to leverage multiple DataMa solutions to:
+
+* ⏳ Implement time-saving use cases that automatically deliver key insights and smart analyses to stakeholders every week
+* 🚨 Proactively detect anomalies in KPIs affecting site performance for early intervention
+* 🌱 Take advantage of DataMa’s customer success services to effectively utilize the product and plan for scaling across additional use cases
+
+Read the full story [here](https://www.datama.io/use-case-7-conversion-funnel-monitoring/)
+
 <h2> 💡Use Case of the Month #6 - Actual vs. Funnel A/B Testing Analysis </h2>
 
 Generating leads is essential for the growth of most businesses, but it can be challenging to determine if improvements are actually having a positive impact on conversion 🤔. In this month's use case, discover how one of our clients was able to leverage a suite of DataMa's solutions to:
