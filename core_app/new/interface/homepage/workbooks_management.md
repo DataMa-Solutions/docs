@@ -1,6 +1,6 @@
 ---
-title: Workbooks Management
-description: See in this chapter details how to use the Folders of your account
+title: Workbook Management
+description: In this chapter, see details on how to use the Folders of your account
 layout: page
 ---
 

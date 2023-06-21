@@ -1,15 +1,15 @@
 ---
 title: Get inspired
-description: DataMa Solutions can be used to help you take the right dataset on any type of use cases and related dataset.
+description: You can use DataMa Solutions to help you create the right dataset on any type of use case
 layout: page
 ---
 
-DataMa Solutions can be used to help you take the right dataset on any type of use cases and related dataset.
-This being said, most use cases today are in the web analytics/ marketing/ transactional/ financial domains.
+You can use DataMa Solutions to help you create the right dataset on any type of use case.
+Most use cases today are in the web analytics, marketing, transactional, financial domains.
 
 <br>
 
-To help you get inspired with you own data, we provide a set of example workbooks.
+To help you get inspired with your own data, we provide a set of example workbooks.
 
 Please check all live examples on <a href="https://app.datama.io/" target="_blank">app.datama.io</a>, and pick the one closest to your current working field.
 
@@ -29,7 +29,7 @@ Here are the available examples :
 * [Web performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/web_performance_GA.html) (Google Analytics)
 * [Product AB test]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/product_AB_test.html)
 * [Marketing campaign]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_campaign.html)
-* [Marketing continuous]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
+* [Continuous Marketing]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
 * [Marketing scope]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html)
 * [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html)
 * [Content Square]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
@@ -40,6 +40,6 @@ Here are the available examples :
 
 <br>
 
-Please refer to the left menu of this documentation to jump into more details for one specific use case.
+Please refer to the left menu of this documentation to jump into more details for any specific use case.
 
 
