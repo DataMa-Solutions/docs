@@ -1,13 +1,13 @@
 ---
 title: Licence
-description: See in this chapter details what to find in the LIcence section of the homepage
+description: On this page, find details on the Licence section of the homepage
 layout: page
 ---
 
-> See in this chapter details what to find in the **Licence** section of the homepage
+> On this page, find details on the  **Licence** section of the homepage
 
 
-This is a menu specific to the administration. It allows you to manage the different license keys. Three options are possible for each user :
+This is a menu specific to administrators. It allows you to manage different license keys. Three options are possible for each user :
 
 - **Refresh Key** : update the user's license key
 - **Revoke** : remove the rights of a user linked to his license key
