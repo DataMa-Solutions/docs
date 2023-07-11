@@ -5,6 +5,41 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-06-31:
+
+* **Extension:**
+    * PowerBI and Looker Studio can now leverage computing cache when available for faster results 
+
+* **General:**
+    * All settings in the new UI have been organized by group for better readibility
+    * Improved error message with technical logs 
+    * Animation on comments (in user preference) allow to display comments word by word, with a "generative AI" style
+
+* **Compare:**
+    * [Beta 🧪] **New waterfall chart**  - navigate from one display to another with shorcuts at the top bar. 3 displays are available:
+        * Waterfall:
+            * UI improvements
+                * Zoom on axis
+                * Link between bars
+                * Reverse axis
+                * Displayed text is editable & conditional formating
+                * Text: custom font and font size
+                * Improved animation (on hover and when appearing)
+                * Auto cropping of bar labels
+                * Explore multiple box at the same time - No lock necessary 
+            * Secondary comparison 
+                * Separate chart & custom positioning
+                * Overlap of common bar in secondary comparison (aka "merge feature")
+            * Improvement of performance & reactivity
+        * **Tree view** (NEW!)
+            * Display up to 4 indicators at the same time in a card, with conditional formatting
+            * Explore top X contributors accross multiple dimensions
+        * Bubble view (In development)
+    * Added Start and End value as an column option for table and tree view
+
+* **Journey:**
+    * Multiple fixes in the new UI (comparison, attribution toggle)
+
 ### 2023-05-31:
 
 * **Extension:**
