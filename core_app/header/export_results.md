@@ -20,11 +20,10 @@ See below the articles to learn about each possible exported result :
 **Direct output:**
 * [Tableau]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/tableau)
 * [Excel]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/excel)
-* [Power BI]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/PowerBI)
+* [Power BI]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/powerBI)
 * [Document]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/document)
 * [URL]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/url)
 
 **Scheduled exports:**
-* [Slack & Email]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/slack_and_email)
-* [Static URL]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/static_url.md)
-
+* [Slack & Email]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/slack_mail)
+* [Static URL]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/static_url)

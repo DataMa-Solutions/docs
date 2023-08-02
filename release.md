@@ -5,16 +5,65 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
-### 2023-05-10:
+
+### 2023-06-31:
 
 * **Extension:**
-    * For PowerBI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
+    * PowerBI and Looker Studio can now leverage computing cache when available for faster results 
+
+* **General:**
+    * All settings in the new UI have been organized by group for better readibility
+    * Improved error message with technical logs 
+    * Animation on comments (in user preference) allow to display comments word by word, with a "generative AI" style
+
+* **Compare:**
+    * [Beta 🧪] **New waterfall chart**  - navigate from one display to another with shorcuts at the top bar. 3 displays are available:
+        * Waterfall:
+            * UI improvements
+                * Zoom on axis
+                * Link between bars
+                * Reverse axis
+                * Displayed text is editable & conditional formating
+                * Text: custom font and font size
+                * Improved animation (on hover and when appearing)
+                * Auto cropping of bar labels
+                * Explore multiple box at the same time - No lock necessary 
+            * Secondary comparison 
+                * Separate chart & custom positioning
+                * Overlap of common bar in secondary comparison (aka "merge feature")
+            * Improvement of performance & reactivity
+        * **Tree view** (NEW!)
+            * Display up to 4 indicators at the same time in a card, with conditional formatting
+            * Explore top X contributors accross multiple dimensions
+        * Bubble view (In development)
+    * Added Start and End value as an column option for table and tree view
+
+* **Journey:**
+    * Multiple fixes in the new UI (comparison, attribution toggle)
+
+### 2023-05-31:
+
+* **Extension:**
+    * [Beta 🧪] **Advanced extension settings** For PowerBI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
         * Define a worbook name in the settings of the extension
         * Save in DataMa app using the "..." on the top right corner
         * Find your worbook in app.datama.io and define advanced settings
         * Save your workbook in app.datama.io
         * Reload your use case in your extension (Looker Studio or PowerBI)
-    * Assess charts are now available within extensions (Looker Studio & PowerBI)
+    * Assess, Pivot and Journey charts are now available within extensions (Looker Studio & PowerBI)
+
+* **Compare:**
+    * [Beta 🧪] **Drill down by Dimensions then Steps**: Until then, DataMa Compare was analysing a variation first by Steps of the Market equation, then by Dimension within a Step. 
+    You can now decide to reverse that pattern and breakdown the total variation by top impacting segments of any dimension and then by Steps within each Segment
+    DataMa even gives you an assessment of what might be the most interesting pattern with an interest score ranking both approaches
+    Click below to learn more on this important feature
+    [Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+
+ * **Prep**
+    * From DataMa block output you can now switch directly to the suggested datama solution
+    * New calculated field UI, including columns/ formula auto completion
+
+### 2023-05-10:
 
 * **Global:**
     * **Compact Numbers** toggle is now available in settings - this allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k)

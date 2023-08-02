@@ -10,6 +10,34 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+## Tip of the week #75: Display waterfall in points
+In DataMa Compare, you can now display your waterfall in points (%) instead of the volume view of the total KPIs 🤩
+To switch between the two views, simply right-click on the blue total bars and select "% Display impact in points" 😉
+![Tip 75]({{site.url}}/{{site.baseurl}}/assets/images/tip/75.gif)
+
+## Tip of the week #74: Comparison date range available in DataMa's LookerStudio extension
+DataMa continues to improve its extensions in the visualisation tools. In Looker Studio you can now enable the "comparison date range" feature to compare B (the period you select in the filter) vs A (the comparison period you select in the dropdown menu: previous period, previous year,...), which will make it more dynamic to use 😃
+![Tip 74]({{site.url}}/{{site.baseurl}}/assets/images/tip/74.gif)
+
+## Tip of the week #73: Secondary Comparison available in the Table
+In DataMa Compare you have the possibility to compare one variation with another variation, this is what is offered with the "Secondary Comparison". This is useful when you compare for example one period to another and want to highlight this comparison with what happened in the same periods the year before.
+The last release added the "Secondary Comparison" to the Table, now when you activate it a line will be added under each segment corresponding to the variation on this second comparison 😉
+![Tip 73]({{site.url}}/{{site.baseurl}}/assets/images/tip/73.gif)
+
+## Tip of the week #72: CSV Skip Raw
+Small improvement in DataMa Prep, now you have an option to skip a certain number of lines in your CSV. For example, if you have a title when you export the CSV, no need to delete the first few lines of the file before importing it into DataMa, you can select the number of lines to skip 😉
+![Tip 72]({{site.url}}/{{site.baseurl}}/assets/images/tip/72.gif)
+
+## Tip of the week #71:
+On the new version of DataMa in the Compare solution, the table available in the second slide under the Waterfall has been improved 🥳
+  * With the addition of an expansion of each column and a small lock 🔒 allowing you to block the opening of a column to have several open
+  * With the addition of new columns: Rank and Rank Change, which allows you to know the ranking of a segment on a metric (eg. the desktop is #1 in conversion) and the variation of this rank between the two points of comparison (e.g. the desktop was #2 in conversion and it is now #1)
+  * With the implementation of a table configuration menu that will allow you to:
+    * Change the order of the columns
+    * Display the columns you want to see
+    * Apply conditional formatting (colour, bar, up & down arrow ...)
+![Tip 71]({{site.url}}/{{site.baseurl}}/assets/images/tip/71.gif)
+
 ## Tip of the week #70
 With the arrival of the new version of DataMa, in addition to the graphic redesign, we have also improved the functioning of the "Use Cases" 💡
   * Indeed, DataMa Prep has become a unique tool for loading and transforming data

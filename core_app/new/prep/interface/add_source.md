@@ -182,7 +182,7 @@ It will enrich your analysis by comparing your own data of your e-commerce websi
 
 <br>
 
-To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl}}/prep/sidebar/actions/Append.html)
+To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/sidebar/actions/Append.html)
 
 
 <br>
