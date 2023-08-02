@@ -5,6 +5,22 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-08-03:
+
+* **General:**
+    * **Export custom settings** Exports (emails, slack & iframes) can now be customized with additional inputs, such as filters. This allows for instance to schedule 2 emails for 2 different scope (e.g. 2 countries) using one single workbook
+    * All charts are now displayed as SVG, which means that, once exported to Power Point (using the PPT icon at top of each slide), you can then right click on any chart and "Convert to Shape", so that you can customized further there (including editing the text, shapes and colors)
+    * "Copy Paste" capabilites of DataMa Prep to easily import a source (such as an excel cell range) has been improved to better match original format. Just select a cell range in Excel, copy it, and paste it (Ctrl+V) in DataMa Prep
+    * Inputs are now available through the search bar: in a workbook, just hit Ctrl+F, and type the name of the input, it will come as the first result in the "Settings" block and you can change it here
+    * Detailed view of workbooks is available on home page. This allows to display list of workbooks as a table, as you can usually explore files through icons or list in your operating system
+    * **User preference** can now be set by default for any new workbook on the home page. Any setting of any solution is available there. For instance, you could make default color palette for any new workbook your own prefered palette. Just click on the user preference icon on the top right corner and edit here. Note that previously saved workbooks won't be impacted. 
+
+* **Pivot:**
+    * **Explore in Compare** By right clicking on a bubble in the importance chart, you can easily switch to DataMa Compare to explain the over/ under performance of a given segments vs. other. This comes handy when trying to find opportunities for optimization of a KPI.
+
+* **Compare:**
+    * [Smart Dimension]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/smart_dimension.html) has been improved: you can now decide of the number of dimensions to include in combinations (previously only pairs of dimensions were available) and you can keep all combinations in your results (instead of just the most interesting combination)
+    * Secondary comparison (aka Compare of Compare) labeling has been improved and is now available in most charts & tables
 
 ### 2023-06-31:
 
