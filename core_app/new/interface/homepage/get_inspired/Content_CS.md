@@ -1,10 +1,10 @@
 ---
 title: Content Square data
-description: This example is especially made to show how to analyze Content Square data within DataMa Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
+description: This example is will show you how to specifically analyze Contentsquare data within DataMa Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 layout: page
 ---
 
-> Find below information about the **« Content Square»**  example in our demo solution.
+> This page details the  **« Content Square»**  example in our demo solution.
 
 ## Overview
 
@@ -35,13 +35,11 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 ## In DataMa Compare
 
-This example is especially made to show how to analyze Content Square data within DataMa Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
+This example is will show you how to specifically analyze Contentsquare data within DataMa Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 
-You could as well add a lot more dimensions, and a lot more steps in your conversion funnel.
+You can add many additional dimensions and steps in your conversion funnel.
 
-<br>
-
-## Conclusion
+## Content – Contentsquare data
 
 By analyzing the ContentSquare data and evaluating user behavior across different pages, zones, and devices, you can gain valuable insights into user engagement patterns and optimize content placement to improve the user experience. This documentation provides a step-by-step guide to perform the analysis, identify user engagement patterns, and generate insightful reports for content optimization. Remember to regularly update the dataset and monitor user behavior to ensure continuous improvement in user engagement and website performance.
 
