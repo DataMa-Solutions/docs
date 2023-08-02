@@ -16,7 +16,7 @@ From Looker Studio you can load new vizualisation from the community, and retrie
 
 <br>
 
-![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadingExtension3.gif)
+![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/LookerStudio_loadingExtension.gif)
 
 <br>
 
@@ -24,7 +24,7 @@ From Looker Studio you can load new vizualisation from the community, and retrie
 
 DataMa will be basically like a Looker Studio graph embedded in the visualisation. You will have to configure it as a basic graph. 
 
-![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/lookerStudio_extension.gif)
+![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/lookerstudio_extension.gif)
 
 <br>
 

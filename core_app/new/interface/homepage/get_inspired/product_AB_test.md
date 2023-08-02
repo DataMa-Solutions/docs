@@ -14,7 +14,8 @@ For the purpose of this example, we just have modified one element between A and
 
 Above is an extract of the data that has been used for this example. You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1756377864)
 
+<br>
 
-# In DataMa Compare 
+## In DataMa Compare 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_ProductABtest.jpg "/></center>
