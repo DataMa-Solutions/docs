@@ -9,6 +9,89 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+
+## Tip of the week #86: Envoi d’export uniquement quand il y a des alertes
+Vous pouvez paramétrer vos exports Slack ou Mail pour qu’ils soient envoyés seulement quand il y a une alerte. Pour cela, cliquez sur le bouton export, et sélectionnez l’export que vous voulez modifier, finalement activez le toggle «Send on Alert only » et sauvegardez l'export 😉
+![Tip 86]({{site.url}}/{{site.baseurl}}/assets/images/tip/86.gif)
+
+## Tip of the week #85: Refonte du menu des Paramètres
+La nouvelle version du menu des paramètres est disponible dans DataMa, pour y accéder il faut de cliquer sur le bouton "Settings" dans la barre du haut.
+La nouvelle structure est la suivante:
+1. « Solutions Model » : qui regroupe tous les paramètres propres à la solutions (Compare, Detect, Journey …)
+2. « Worbook Style » vous permet de modifier des paramètres qui sont globaux au workbook quelque soit la solution tel que la palette de couleur 🎨, la langue ou les caractéristiques d’affichage des nombres
+3. Et enfin vous retrouverez votre équation de marché dans le menu "KPIs & Market equation"
+![Tip 85]({{site.url}}/{{site.baseurl}}/assets/images/tip/85.gif)
+
+## Tip of the week #84: Une nouvelle version de la Waterfall disponible
+Une nouvelle version de Waterfall est disponible en version expérimentale 🧪, son fonctionnement est expliqué dans cette [petite vidéo youtube](https://youtu.be/8CeyzFoaznQ) où vous découvrirez les nouvelles capacités de la fameuse waterfall DataMa, qui peut maintenant se transformer en arbre de décision pour simplifier encore l'explication de variations auprès de vos clients, pendant que les commentaires se génèrent automatiquement.
+Pour l’activer il faut accéder aux settings de la Waterfall et, en haut à droite de la fenêtre qui s'affichera, activer le toggle "New Waterfall". Si ce bouton n’est pas disponible, contactez DataMa pour qu’on vous accorde le rôle expérimental 🥼 pour découvrir en avance les nouvelles fonctionnalités 😉
+![Tip 84]({{site.url}}/{{site.baseurl}}/assets/images/tip/84.gif)
+
+## Tip of the week #83: Smart Dimension
+Dans la Waterfall de DataMa Compare, quand vous zoomez sur une étape vous pouvez observer la variation de chaque segment d'une dimension. Mais il peut être intéressant d'aller se concentrer sur une combinaison de dimensions, pour cela DataMa vous propose la Smart Dimension 🤓: qui va pour chaque étape de la Waterfall, identifier la paire de dimensions la plus pertinente pour expliquer la variation des performances.
+Par exemple: Considérez le scénario dans lequel votre performance est entièrement expliquée par une baisse de performance sur les utilisateurs mobiles avec le navigateur Firefox. En activant l'option Smart dimension, DataMa Compare identifiera la dimension Device*Browser comme la dimension la plus pertinente 🎯. Cependant, si l'option Smart Dimension n'est pas activée, DataMa Compare attribuera la variation de performance à la dimension Device ou Browser.
+NB: il existe la Combined Dimension qui vient recouper non pas 2 dimensions mais toutes les dimensions disponibles dans le dataset.
+![Tip 83]({{site.url}}/{{site.baseurl}}/assets/images/tip/83.gif)
+
+## Tip of the week #82: Looker Studio extension “Save in DataMa”
+DataMa est disponible sur Looker Studio comme une extension, si vous ne l’utilisez pas encore et que cela vous intéresse voici le lien vers la documentation pour l'ajouter à votre Dashboard et n’hésitez pas à contacter le Service Client DataMa pour avoir la clé de licence associée à votre compte 😉
+Vous pouvez désormais avoir votre Use Case à la fois dans Looker Studio et dans DataMa grâce à l’option "Save in DataMa" 💾 que vous trouverez dans les trois petits points en haut à droite de l’extension.
+Cette option vous permettra de personnaliser votre Waterfall avec tous les paramètres disponibles dans DataMa pour améliorer la visualisation dans LookerStudio, vous pourrez par exemple modifier:
+  * les couleurs 🎨
+  * le niveau d’agrégation
+  * le nom des étapes
+  * …
+![Tip 82]({{site.url}}/{{site.baseurl}}/assets/images/tip/82.gif)
+
+## Tip of the week #81: Drill Down par Dimensions puis par Etapes
+Jusqu'à présent, DataMa Compare analysait une variation d'abord par étapes de l'équation de marché, puis par dimension à l'intérieur d'une étape. Vous pouvez désormais décider d'inverser ce schéma et de distribuer la variation totale par segment ayant le plus d'impact dans n'importe quelle dimension, puis par étape dans chaque segment.
+Pour activer cette option, il faut aller dans Settings, puis choisir parmi les trois options suivantes :
+  * « Auto » qui vous permet avec un clic droit sur les barres bleues de la Waterfall de passer d’un état à l’autre 🖱️
+  * « Steps than Dimensions » (par défaut)
+  * « Dimensions than Steps » (pour forcer la vue Dimension puis étapes)
+Quand vous êtes en mode « Auto », DataMa vous donne même une évaluation de ce qui pourrait être le schéma le plus intéressant avec un score d'intérêt classant les deux approches 😉
+![Tip 81]({{site.url}}/{{site.baseurl}}/assets/images/tip/81.gif)
+
+## Tip of the week #80: Compact Numbers
+Petite astuce qui allègera le visuel de vos graphiques quand vous avez des grands nombres, en allant dans les « Settings » puis en validant l’option « Compact Numbers », vous allez transformer les labels en millier, millions ou plus par tranche de millier atteinte 😉
+Par exemple:
+  * si vous avez un revenue de 45 548€, avec l’option "Compact numbers" il apparaitra sous la forme 45.5k
+  * si vous avez 11 342 764 visiteurs cela deviendra 11.3M
+  * ...
+![Tip 80]({{site.url}}/{{site.baseurl}}/assets/images/tip/80.gif)
+
+## Tip of the week #79: Personnalisation de l'indication de performance d'un segment sur la waterfall
+Par défaut, DataMa affiche après le nom d'un segment sa variation relative par rapport à la variation moyenne (e.g. organic (x2.43)). Vous avez désormais la possibilité de modifier dans les "Settings" ce complément de texte par l'une de ces trois options :
+  * Afficher la variation relative à la moyenne (par défaut)
+  * Afficher la variation en pourcentage
+  * Le désactiver
+Quel que soit l’option que vous choisirez, toutes les informations resteront disponibles lors dans le label quand vous passerez la souris sur un segment 😉
+![Tip 79]({{site.url}}/{{site.baseurl}}/assets/images/tip/79.gif)
+
+## Tip of the week #78: Table de Comparison dans DataMa Journey
+En effectuant une analyse de parcours utilisateur dans DataMa Journey, découvrez notre nouvelle fonctionnalité : La table interactive. 😎
+En passant votre souris sur les différentes étapes du Sunburst, cette table vous permettra de :
+  * Visualiser la proportion d'utilisateurs à chaque étape du parcours sélectionné.
+  * Dans le cadre d'une analyse comparative, la table offre une vue en pourcentage d'utilisateurs entre vos deux éléments de comparaison, ainsi que la vue du différentiel en points. 😉
+![Tip 78]({{site.url}}/{{site.baseurl}}/assets/images/tip/78.gif)
+
+## Tip of the week #77: Filtrer avec des REGEXP
+Dans une dimension quand vous avez de nombreux segments, il est long de sélectionner/désélectionner les segments que vous souhaitez filtrer, néanmoins vous avez la possibilité dans les « advance settings » de filtrer grâce une REGEXP (Expression Régulière) pour gagner du temps 😉
+Voici quelques cas d’usage :
+  * Sur les parcours utilisateur dans Journey, si l’on souhaite filtrer tous les parcours qui sont passés par une certaine page (ex: ^Search correspond aux parcours des utilisateurs qui ont commencé par la Search)
+  * Sur les dates, si l’on souhaite filtrer que les dates contenant l’année 2023 ou un certain mois (ex: 2023-03-.* pour tout le mois de mars 2023)
+  * Sur les campagnes media (ex: paid_search_.*  pour les campagnes search)
+![Tip 77]({{site.url}}/{{site.baseurl}}/assets/images/tip/77.gif)
+
+## Tip of the week #76: Dimension Helper
+Connaissez-vous le « Dimension Helper » ? 🤔 Ce dernier vous permettra de voir de manière synthétique la valeur (en ligne) et la distribution (en barre) des KPIs de votre équation de marché sur les segments d'une dimension 🤩
+Pour l’ouvrir, il suffit d’aller dans l’onglet "Filters" de la barre du haut, vous pourrez alors :
+  * sélectionner votre dimension
+  * sélectionner l’étape de l’équation de marché que vous souhaitez suivre
+  * pour avoir une meilleure comparaison, sélectionner la vue « Overlay »
+  * appliquer des filtres sur les différentes dimensions à votre disposition
+![Tip 76]({{site.url}}/{{site.baseurl}}/assets/images/tip/76.gif)
+
 ## Tip of the week #75: Affichage de la waterfall en points
 Dans DataMa Compare, vous pouvez désormais afficher votre Waterfall en points (%) au lieu de la vue en volume des KPI totaux 🤩
 Pour passer d’une vue à l’autre, il vous suffit de faire un clic droit de la souris sur les barres totales bleues et sélectionner «% Display impact in points» 😉
