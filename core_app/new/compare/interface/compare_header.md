@@ -7,7 +7,7 @@ layout: page
 
 <br>
 
-> The header in DataMa Compare helps you manipulate and refine your Use Cases
+> The header in DataMa Compare helps you manipulate and refine your Use Cases.
 
 <br>
 
@@ -15,7 +15,7 @@ layout: page
 
 <br>
 
-## What you will find in this chapter: 
+## What you will find in this chapter:
 
 - [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/dimension_comparison.html)
 - [Drill down hierarchy]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
