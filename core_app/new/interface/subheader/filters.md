@@ -9,14 +9,14 @@ layout: page
 
 The filters menu is composed of 2 main options for each dimension of your dataset:
 - run the waterfall on 1 or multiple segments of the dimensions  
-- exclude some dimensions/segments from the analysis
+- exclude some dimensions/segments from the analysis.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters.jpg"/></center>
 <br>
 
-## **Filter:** 
+## **Filter:**
 Segment within a given dimension that you want to filter on. Just click on the button and select what you want to filter on.
-Filtering on a subset
+Filtering on a subset.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_segment.jpg"/></center>
 
 Segment can also be filtered with a right click on the segment in the waterfall. The calculation will re-run automatically.
@@ -33,7 +33,7 @@ Segment can also be filtered with a right click on the segment in the waterfall.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_advanced.jpg"/></center>
 <br>
 
-## **Excluded dimension:** 
+## **Excluded dimension:**
 Dimension (column of your dataset) you want to exclude from the analysis. Click on the cross of the pill to exclude the dimension.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_Cross_exclude.jpg"/></center>
 
