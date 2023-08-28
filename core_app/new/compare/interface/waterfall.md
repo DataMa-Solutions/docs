@@ -15,8 +15,9 @@ Waterfall is a group of 3 tabs. See below articles for details on each tab:
 * [Funnel](#funnel)
 * [Dimension Comparison](#dimension-comparison)
     *   [Mix Effect](#mix-effect)
-    *   [Performance Effect - Max](#performance-effect-max)
     *   [Performance Effect - Min](#performance-effect-min)
+    *   [Performance Effect - Max](#performance-effect-max)
+
 
 
 
@@ -55,7 +56,7 @@ You can unzoom by clicking on other steps or clicking on the box again
 
 # <b><u>Funnel</u></b>
 
-The funnel section shows the % change and absolute values of each KPI 
+The funnel section shows the % change and absolute values of each KPI
 
 This funnel gives details on numbers behind waterfall chart. Each step of your conversion funnel is a box, total step is squared in black. Hovering gives you details on numerator and denominator behind the ratio. You can remove the funnel shape in display settings.
 
