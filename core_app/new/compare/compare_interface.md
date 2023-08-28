@@ -19,4 +19,4 @@ layout: page
 
 <br>
 
-For more theoretical information about DataMa Compare model, you can refer [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html)
+For more theoretical information about DataMa Compare model, you can refer [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html).
