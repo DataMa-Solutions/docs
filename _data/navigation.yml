@@ -62,7 +62,7 @@
                   link: /core_app/new/interface/homepage/admin/admin.html#licences
                 - name: Security
                   link: /core_app/new/interface/homepage/admin/admin.html#security
-                - name: Statistic
+                - name: Statistics
                   link: /core_app/new/interface/homepage/admin/admin.html#statistics
         - name: Solutions header #done
           link: /core_app/new/interface/header/header.html
