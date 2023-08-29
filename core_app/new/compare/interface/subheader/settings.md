@@ -9,23 +9,23 @@ layout: page
 <br>
 
 <b>Methodology:<b><br>
-  - [Split Mix and Perf](#2-split-mix-and-perf)
-  - [Negative Driver First](#3-negative-driver-first)
+  - [Split Mix and Perf](#split-mix-and-perf)
+  - [Negative Driver First](#negative-driver-first)
 
 <br>
 <b>Auto-generated dimension:<b><br>
-  - [Comparable Dates](#15-comparable-dates)
-  - [Combined Dimensions](#14-combined-dimensions)
-  - [Smart dimension](#13-smart-dimension)
+  - [Comparable Dates](#comparable-dates)
+  - [Combined Dimensions](#combined-dimensions)
+  - [Smart dimension](#smart-dimension)
 
 <br>
 <b>Text and comment:<b><br>
-  - [Analyse Depth](#5-analyse-depth)
-  - [Aggregation in %](#1-aggregation-in-)
-  - [Covariance roll up](#6-covariance-roll-up)
-  - [Max segment displayed](#12-max-segment-displayed)
-  - [Significance test](#4-significance-test)
-  - [Include 0 for Y axis](#7-include-0-for-y-axis)
+  - [Analyse Depth](#analyse-depth)
+  - [Aggregation in %](#aggregation-in-)
+  - [Covariance roll up](#covariance-roll-up)
+  - [Max segment displayed](#max-segment-displayed)
+  - [Significance test](#significance-test)
+  - [Include 0 for Y axis](#include-0-for-y-axis)
 
 - [8. Analysis Language](#8-analysis-language)
 - [9. Colors Palette For Plots](#9-colors-palette-for-plots)
@@ -53,7 +53,7 @@ Color palette and default language for example can be modified at both level.
 <br/>
 <br/>
 
-## **2. Split Mix and Perf**
+## **Split Mix and Perf**
 
 This settings sets how DataMa will act regarding Mix & Performance visualisation.
 By default DataMa will automatically choose to split or not the Mix and Performance effect. If the Mix is too small, only Negative and Positive Segments will be displayed.
@@ -62,7 +62,7 @@ But you can disable this auto choice, and choose to always split the Mix and the
 
 <br>
 
-## **3. Negative Driver First**
+## **Negative Driver First**
 
 By default DataMa automatically choose to display the segment that are following the variation. If your step is increasing, the segments displayed will be the one that drive this increase. On the contrary, when your step variation is going down, datama will choose to display segments that are explaining the decrease.
 
@@ -74,13 +74,13 @@ This could be changed by activating the “Negative Driver First”. Negative Se
 <br/>
 <br>
 
-## **15. Comparable Dates**
+## **Comparable Dates**
 
 Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a “Comparable_date” dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 
 <br>
 
-## **14. Combined Dimensions**
+## **Combined Dimensions**
 
 By default <i>Combined Dimensions</i> is activated. DataMa creates an additional Dimension in your analyse which is the combination of all your dimension.
 
@@ -88,7 +88,7 @@ You can't change the selection of the combination, but you can concatenat two co
 
 <br/>
 
-## **13. Smart dimension**
+## **Smart dimension**
 For each step of the waterfall analysis, the Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation. It comes in addition to the Combined dimension which crosses all dimensions.
 
 <br>
@@ -113,14 +113,14 @@ You can't change the selection of the combination, but you can concatenat two co
 <br/>
 <br>
 
-## **5. Analyse Depth**
+## **Analyse Depth**
 
 This selection allows to adapt the level of detail available in the contextual help (Comments,…). By default the contextual help is at Medium.
 At <i>Max</i> all the available details regarding graphs will be available.
 
 <br/>
 
-## **1. Aggregation in %**
+## **Aggregation in %**
 
 **Clustering**
 
@@ -141,7 +141,7 @@ Segments are now aggregated at the requested level
 
 <br>
 
-## **6. Covariance roll up**
+## **Covariance roll up**
 
 By default in DataMa Compare, the covariance between each step of the market equation is distributed on total computation level.
 
@@ -157,14 +157,14 @@ See an example below:
 
 <br/>
 
-## **12. Max segment displayed**
+## **Max segment displayed**
 
 Decide how many segments you want to display in every waterfall graph.
 By default this parameter is set at '4'.
 
 <br>
 
-## **4. Significance test**
+## **Significance test**
 
 When owning a license of DataMa Assess (aka DataMa Impact), you can activate the significance test.
 Switch on to compute significance of steps variations, using DataMa Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
@@ -175,14 +175,14 @@ The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_ap
 
 <br>
 
-## **7. Include 0 for Y axis**
+## **Include 0 for Y axis**
 
 By default active, this makes the 0 line appear on the waterfall
 When deactivated DataMa will adapt the Axis to your dataset. This help to better display small variations.
 
 <br/>
 
-## **8. Analysis Language**
+## **Analysis Language**
 
 
 For now, DataMa is only available in English and in French. By default Datama is in english.
@@ -191,7 +191,7 @@ For now, DataMa is only available in English and in French. By default Datama is
 
 <br/>
 
-## **9. Colors Palette For Plots**
+## **Colors Palette For Plots**
 
 Graphs colors are customizable, in 3 different ways.
 Grayscale, scattered and Custom.
@@ -209,7 +209,7 @@ The custom method allows to refine color by color all the graphs available in th
 <br/>
 
 
-## **10. Force Rounding**:
+## **Force Rounding**:
 
 The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number.
 
