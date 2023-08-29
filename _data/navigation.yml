@@ -125,8 +125,6 @@
                   link: /core_app/new/compare/interface/subheader/dimension_comparison.html
                 - name: Secondary Comparison  #done
                   link: /core_app/new/compare/interface/subheader/secondary_comparison.html
-                - name: Drill down hierarchy  #done
-                  link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
                 - name: Dimension Helper  #done
                   link: /core_app/new/compare/interface/subheader/dimension_helper.html
                 - name: Filters  #done
@@ -135,6 +133,8 @@
                   link: /core_app/new/compare/interface/subheader/metrics_relation.html
                 - name: Export #done
                   link: /core_app/new/compare/interface/subheader/export.html
+                - name: Drill down hierarchy  #done
+                  link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
                 - name: Settings #done
                   link: /core_app/new/compare/interface/subheader/settings.html
                   subnav:
