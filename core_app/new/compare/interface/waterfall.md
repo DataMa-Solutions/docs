@@ -81,7 +81,7 @@ This graph represents the sum of the Mix impact of each dimension at each step o
 
 <br>
 
-read more about Mix effect
+read more about [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html#mix-effect)
 
 <br>
 
