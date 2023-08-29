@@ -4,7 +4,7 @@ description: This chapter will describe Mix effect to allow you to properly unde
 layout: page
 ---
 
-Each performance is composed of a [Mix effect](#mix-effect) and a [Performance effect](#performance-effect).
+Each performance is composed of a [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and a [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html).
 
 This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
 
@@ -52,19 +52,3 @@ As in the example below, when your proportion of Purchase between Device change,
 * If the average price change, it’s a **Performance effect**
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-Perf.jpg"></center>
-
-
-### <b>Performance Effect</b>
-
-A performance effect is an observed difference in a performance. For example, selling a different number of cars between two weeks has a performance effect. Having less users on a website is a negative performance effect.
-
-
-All things being equal, the performance effect is the evolution of a performance.
-As presented below the performance effect could be represented at each step of your metric relation and for any dimension.
-
-**Concept of segment performance**
-
-The performance effect is the variation which is dedicated to the dimension’ performance on its own. It is to be distinguished with the variation due to the volume changes (mix effect + covariance) that can’t be attributed to one of the dimensions you are following.
-
-* For each dimension on each step, flagging segments driving most of the change (Min and Max,, depending on whether this step is going up or down)
-* Important metric to consider is the ratio change relative to average ratio change, to assess how much this is ‘normal’ given traffic on this segment.
