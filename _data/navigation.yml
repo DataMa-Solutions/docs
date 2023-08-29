@@ -138,39 +138,36 @@
                 - name: Settings #done
                   link: /core_app/new/compare/interface/subheader/settings.html
                   subnav:
-                    - name: Aggregation in %
-                      link: /core_app/new/compare/interface/subheader/settings.html#1-aggregation-in-
                     - name: Split Mix and Perf
-                      link: /core_app/new/compare/interface/subheader/settings.html#2-split-mix-and-perf
+                      link: /core_app/new/compare/interface/subheader/settings.html#split-mix-and-perf
                     - name: Negative Driver First
-                      link: /core_app/new/compare/interface/subheader/settings.html#3-negative-driver-first
-                    - name: Significance test
-                      link: /core_app/new/compare/interface/subheader/settings.html#4-significance-test
-                    - name: Analyse Depth
-                      link: /core_app/new/compare/interface/subheader/settings.html#5-analyse-depth
-                    - name: Covariance roll up
-                      link: /core_app/new/compare/interface/subheader/settings.html#6-covariance-roll-up
-                    - name: Include 0 for Y axis
-                      link: /core_app/new/compare/interface/subheader/settings.html#7-include-0-for-y-axis
-                    - name: Analysis Language
-                      link: /core_app/new/compare/interface/subheader/settings.html#8-analysis-language
-                    - name: Colors Palette For Plots
-                      link: /core_app/new/compare/interface/subheader/settings.html#9-colors-palette-for-plots
-                    - name: Force Rounding
-                      link: /core_app/new/compare/interface/subheader/settings.html#10-force-rounding
-                    - name: Clustering
-                      link: /core_app/new/compare/interface/subheader/settings.html#11-clustering
-                    - name: Max segment displayed
-                      link: /core_app/new/compare/interface/subheader/settings.html#12-max-segment-displayed
-                    - name: Smart dimension
-                      link: /core_app/new/compare/interface/subheader/settings.html#13-smart-dimension
-                    - name: Combined Dimensions
-                      link: /core_app/new/compare/interface/subheader/settings.html#14-combined-dimensions
+                      link: /core_app/new/compare/interface/subheader/settings.html#negative-driver-first
                     - name: Comparable Dates
-                      link: /core_app/new/compare/interface/subheader/settings.html#15-comparable-dates
-
-
-
+                      link: /core_app/new/compare/interface/subheader/settings.html#comparable-dates
+                    - name: Combined Dimensions
+                      link: /core_app/new/compare/interface/subheader/settings.html#combined-dimensions
+                    - name: Smart dimension
+                      link: /core_app/new/compare/interface/subheader/settings.html#smart-dimension
+                    - name: Analyse Depth
+                      link: /core_app/new/compare/interface/subheader/settings.html#analyse-depth
+                    - name: Aggregation in %
+                      link: /core_app/new/compare/interface/subheader/settings.html#aggregation-in-
+                    - name: Covariance roll up
+                      link: /core_app/new/compare/interface/subheader/settings.html#covariance-roll-up
+                    - name: Max segment displayed
+                      link: /core_app/new/compare/interface/subheader/settings.html#max-segment-displayed
+                    - name: Significance test
+                      link: /core_app/new/compare/interface/subheader/settings.html#significance-test
+                    - name: Include 0 for Y axis
+                      link: /core_app/new/compare/interface/subheader/settings.html#include-0-for-y-axis
+                    - name: Other
+                      subnav:
+                        - name: Analysis Language
+                          link: /core_app/new/compare/interface/subheader/settings.html#analysis-language
+                        - name: Colors Palette For Plots
+                          link: /core_app/new/compare/interface/subheader/settings.html#colors-palette-for-plots
+                        - name: Force Rounding
+                          link: /core_app/new/compare/interface/subheader/settings.html#force-rounding
         - name: Model
           link: /core_app/new/compare/model/model.html
           subnav:
@@ -226,7 +223,6 @@
               link: /core_app/new/detect/settings.html#analysis-depth
             - name: Include 0 For Y Axis #done
               link: /core_app/new/detect/settings.html#include-0-for-y-axis
-
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       subnav:
@@ -251,8 +247,6 @@
               link: /core_app/new/pivot/settings.html#simple-test-matrix
             - name: Decision Tree #done
               link: /core_app/new/pivot/settings.html#decision-tree
-
-
     - name: Assess #done
       link: /core_app/new/assess/assess.html
       subnav:
@@ -278,7 +272,6 @@
               link: /core_app/new/assess/model/forecast.html
             - name: Causal impact #done
               link: /core_app/new/assess/model/causal.html
-
     - name: Journey
       link: /core_app/new/journey/journey.html
       subnav:
@@ -306,7 +299,6 @@
               link: /core_app/new/journey/use_cases_examples/online_acquisition.html
 #        - name: Model
 #          link: /core_app/new/journey/model.html
-
     - name: Prep #done
       link: /core_app/new/prep/prep.html
       subnav:
