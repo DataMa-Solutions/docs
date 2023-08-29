@@ -28,7 +28,7 @@ But you can change it with "sum" to add each steps. e.g: <span style="color:red"
 
 When customising your metrics relation you should write it as below using each step between brackets (e.g. [1]) :
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/custom_metricsRel.jpg"/></center>
-When modifying a market equation make sure your calculation is still correct. in your dataset your market equation of a specific row should be equal to the last column of your dataset. 
+When modifying a market equation make sure your calculation is still correct. in your dataset your market equation of a specific row should be equal to the last column of your dataset.
 <br>
 
 ## What's mathematically a market equation
@@ -66,4 +66,4 @@ Don’t be afraid of putting too many PIs in that equation: with DataMa Compare,
 
 DataMa Demo can help you get idea of Metric Relation you may want to build.
 
-Just look at [demo sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0), and related [demo use cases](http://solutions.datama.fr/) you get an idea of how it could look.
+Just look at [demo sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0), and related [demo use cases](https://app2.datama.io/a/dashboard/home) you get an idea of how it could look.
