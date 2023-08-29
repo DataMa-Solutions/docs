@@ -8,21 +8,28 @@ layout: page
 
 <br>
 
-- [1. Aggregation in %](#1-aggregation-in-)
-- [2. Split Mix and Perf](#2-split-mix-and-perf)
-- [3. Negative Driver First](#3-negative-driver-first)
-- [4. Significance test](#4-significance-test)
-- [5. Analyse Depth](#5-analyse-depth)
-- [6. Covariance roll up](#6-covariance-roll-up)
-- [7. Include 0 for Y axis](#7-include-0-for-y-axis)
+<b>Methodology:<b><br>
+  - [Split Mix and Perf](#2-split-mix-and-perf)
+  - [Negative Driver First](#3-negative-driver-first)
+
+<br>
+<b>Auto-generated dimension:<b><br>
+  - [Comparable Dates](#15-comparable-dates)
+  - [Combined Dimensions](#14-combined-dimensions)
+  - [Smart dimension](#13-smart-dimension)
+
+<br>
+<b>Text and comment:<b><br>
+  - [Analyse Depth](#5-analyse-depth)
+  - [Aggregation in %](#1-aggregation-in-)
+  - [Covariance roll up](#6-covariance-roll-up)
+  - [Max segment displayed](#12-max-segment-displayed)
+  - [Significance test](#4-significance-test)
+  - [Include 0 for Y axis](#7-include-0-for-y-axis)
+
 - [8. Analysis Language](#8-analysis-language)
 - [9. Colors Palette For Plots](#9-colors-palette-for-plots)
 - [10. Force Rounding](#10-force-rounding)
-- [11. Clustering](#11-clustering)
-- [12. Max segment displayed](#12-max-segment-displayed)
-- [13. Smart dimension](#13-smart-dimension)
-- [14. Combined Dimensions](#14-combined-dimensions)
-- [15. Comparable Dates](#15-comparable-dates)
 
 <br>
 
@@ -42,24 +49,8 @@ Color palette and default language for example can be modified at both level.
 
 <br>
 
-# <b><u>MODEL PARAMETERS</u></b>
+# <b><u>METHODOLOGY</u></b>
 <br/>
-<br/>
-
-## **1. Aggregation in %**
-
-**Level of aggregation**: The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%,  segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.
-
-
-1. Click on the settings menu on the header
-2. Move the cursor of the aggreation to the right to increase the level of aggregation
-3. Close the panel to recaculate the results
-
-Segments are now aggregated at the requested level
-
-
-Don't hesitate to contact us if you need any other connexion with your data.
-
 <br/>
 
 ## **2. Split Mix and Perf**
@@ -79,22 +70,74 @@ This could be changed by activating the “Negative Driver First”. Negative Se
 
 <br>
 
-## **4. Significance test**
-
-When owning a license of DataMa Assess (aka DataMa Impact), you can activate the significance test.
-Switch on to compute significance of steps variations, using DataMa Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
-The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/frequentist.html).
+# <b><u>AUTO-GENERATED DIMENSIONS</u></b>
+<br/>
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/compare_significanceTest.png"/></center>
+## **15. Comparable Dates**
 
+Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a “Comparable_date” dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 
+<br>
+
+## **14. Combined Dimensions**
+
+By default <i>Combined Dimensions</i> is activated. DataMa creates an additional Dimension in your analyse which is the combination of all your dimension.
+
+You can't change the selection of the combination, but you can concatenat two columns in your dataset if you want a specific combination.
+
+<br/>
+
+## **13. Smart dimension**
+For each step of the waterfall analysis, the Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation. It comes in addition to the Combined dimension which crosses all dimensions.
+
+<br>
+
+<b>Example</b>
+
+Consider the scenario in which your performance is entirely explained by a performance decline on mobile users with the Firefox browser. When turning on Smart dimension, DataMa Compare will identify the Device*Browser dimension as the most relevant dimension. However, when leaving the Smart dimension option off, DataMa Compare will attribute the performance variation to either the Device or Mobile dimension.
+
+<br>
+
+<b>Activate Smart Dimension</b>
+
+To activate Smart Dimension, click in Settings and switch on the Smart dimension button. Combinaison of smart dimension will appear in the waterfall only if they are more relevant than an alone dimension.
+
+You can't change the selection of the combination, but you can concatenat two columns in your dataset if you want a specific combination.
+
+**Since it implies a longer computation time, this option is off by default. However, we recommend you turn it on if you have a small set of dimension (less than 10).**
+
+<br>
+
+# <b><u>Text and comment</u></b>
+<br/>
 <br>
 
 ## **5. Analyse Depth**
 
 This selection allows to adapt the level of detail available in the contextual help (Comments,…). By default the contextual help is at Medium.
 At <i>Max</i> all the available details regarding graphs will be available.
+
+<br/>
+
+## **1. Aggregation in %**
+
+**Clustering**
+
+Clustering is necessary for dimension analysis
+- For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into “other”
+- For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
+
+Read [docs related to continuous dimension]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
+
+**Level of aggregation**: The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%,  segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.
+
+
+1. Click on the settings menu on the header
+2. Move the cursor of the aggreation to the right to increase the level of aggregation
+3. Close the panel to recaculate the results
+
+Segments are now aggregated at the requested level
 
 <br>
 
@@ -111,6 +154,24 @@ Activate the covariance roll up toggle.<br>
 Select the dimension you want for sub-segment distribution of covariance.<br>
 See an example below:
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/CovarianceRollup.png"/></center>
+
+<br/>
+
+## **12. Max segment displayed**
+
+Decide how many segments you want to display in every waterfall graph.
+By default this parameter is set at '4'.
+
+<br>
+
+## **4. Significance test**
+
+When owning a license of DataMa Assess (aka DataMa Impact), you can activate the significance test.
+Switch on to compute significance of steps variations, using DataMa Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
+The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/frequentist.html).
+<br>
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/compare_significanceTest.png"/></center>
 
 <br>
 
@@ -153,62 +214,3 @@ The custom method allows to refine color by color all the graphs available in th
 The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
-
-<br/>
-
-## **11. Clustering**
-
-Clustering is necessary for dimension analysis
-- For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into “other”
-- For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
-
-Read docs related to continuous dimension
-
-<br/>
-
-## **12. Max segment displayed**
-
-Decide how many segments you want to display in every waterfall graph.
-By default this parameter is set at '4'.
-
-<br/>
-
-# <b><u>ANALYSIS DIMENSION</u></b>
-
-<br/>
-
-## **13. Smart dimension**
-For each step of the waterfall analysis, the Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation. It comes in addition to the Combined dimension which crosses all dimensions.
-
-<br>
-
-<b>Example</b>
-
-Consider the scenario in which your performance is entirely explained by a performance decline on mobile users with the Firefox browser. When turning on Smart dimension, DataMa Compare will identify the Device*Browser dimension as the most relevant dimension. However, when leaving the Smart dimension option off, DataMa Compare will attribute the performance variation to either the Device or Mobile dimension.
-
-<br>
-
-<b>Activate Smart Dimension</b>
-
-To activate Smart Dimension, click in Settings and switch on the Smart dimension button. Combinaison of smart dimension will appear in the waterfall only if they are more relevant than an alone dimension.
-
-You can't change the selection of the combination, but you can concatenat two columns in your dataset if you want a specific combination.
-
-**Since it implies a longer computation time, this option is off by default. However, we recommend you turn it on if you have a small set of dimension (less than 10).**
-
-<br>
-
-## **14. Combined Dimensions**
-
-By default <i>Combined Dimensions</i> is activated. DataMa creates an additional Dimension in your analyse which is the combination of all your dimension.
-
-You can't change the selection of the combination, but you can concatenat two columns in your dataset if you want a specific combination.
-
-<br>
-
-## **15. Comparable Dates**
-
-Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a “Comparable_date” dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
-
-
-Don't hesitate to contact us if you need any other connexion with your data.
