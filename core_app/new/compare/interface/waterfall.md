@@ -94,7 +94,7 @@ All things being equal the performance effect is the evolution of a performance.
 
 As presented below the performance effect could be represented at each step of your metric relation and for any dimension.
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerf.jpg"> </center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMin.jpg"> </center>
 
 <br>
 
@@ -104,3 +104,5 @@ For each step, within each dimension, it shows the segment having the biggest po
 The width of the bar and the parenthesis ‘(x…)’ in the call outs refers to how fast this performance change is relative to the other segments.
 
 Red dots refer to the total impact of that step (as in ‘Waterfall Chart’), to allow evaluation of segment performance contribution to overall impact.
+
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMax.jpg"> </center>
