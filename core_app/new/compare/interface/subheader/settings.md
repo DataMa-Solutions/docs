@@ -8,7 +8,7 @@ layout: page
 
 <br>
 
-- [1. Aggregation in %](#1-aggregation-in)
+- [1. Aggregation in %](#1-aggregation-in-)
 - [2. Split Mix and Perf](#2-split-mix-and-perf)
 - [3. Negative Driver First](#3-negative-driver-first)
 - [4. Significance test](#4-significance-test)
@@ -38,7 +38,7 @@ The settings is detailed below.
 
 > **User Preferences**
 In order to customize your analysis to your needs, DataMa allows you to save user preferences at Use Case level or at your profile level.
-Color palette and default language for example can be modified at both level. 
+Color palette and default language for example can be modified at both level.
 
 <br>
 
@@ -83,10 +83,10 @@ This could be changed by activating the “Negative Driver First”. Negative Se
 
 When owning a license of DataMa Assess (aka DataMa Impact), you can activate the significance test.
 Switch on to compute significance of steps variations, using DataMa Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
-The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/frequentist.html). 
+The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/frequentist.html).
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/compare_significanceTest.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/compare_significanceTest.png"/></center>
 
 
 <br>
@@ -94,7 +94,7 @@ The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_ap
 ## **5. Analyse Depth**
 
 This selection allows to adapt the level of detail available in the contextual help (Comments,…). By default the contextual help is at Medium.
-At <i>Max</i> all the available details regarding graphs will be available. 
+At <i>Max</i> all the available details regarding graphs will be available.
 
 <br>
 
@@ -104,10 +104,11 @@ By default in DataMa Compare, the covariance between each step of the market equ
 
 However in some cases, you might want this distribution to be done at a lower level within a given dimension, so that when summing up the impact of each steps for each segment of that dimension at total level, you end up with the exact same total. This is particularly true when you systematically deep dive on each segment of a dimension (e.g. by Country) and also display to your end users the sum of all those segments (e.g. worldwide)
 
-“Covariance roll up” toggle helps you do this calculation pattern, by computing the impact for each segment of a given dimension, and then sums them up at total level. To use it
+“Covariance roll up” toggle helps you do this calculation pattern, by computing the impact for each segment of a given dimension, and then sums them up at total level.
 
-Activate the covariance roll up toggle
-Select the dimension you want for sub-segment distribution of covariance
+To use it :<br>
+Activate the covariance roll up toggle.<br>
+Select the dimension you want for sub-segment distribution of covariance.<br>
 See an example below:
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/CovarianceRollup.png"/></center>
 
@@ -116,24 +117,24 @@ See an example below:
 ## **7. Include 0 for Y axis**
 
 By default active, this makes the 0 line appear on the waterfall
-When deactivated DataMa will adapt the Axis to your dataset. This help to better display small variations. 
+When deactivated DataMa will adapt the Axis to your dataset. This help to better display small variations.
 
 <br/>
 
 ## **8. Analysis Language**
 
 
-For now, DataMa is only available in English and in French. By default Datama is in english. 
+For now, DataMa is only available in English and in French. By default Datama is in english.
 - You can change the language for a specific Use Case (Settings > Analysis Language)
 - or globally for the whole Use cases (Profile icon > User preferences > Analysis Language)
 
 <br/>
 
 ## **9. Colors Palette For Plots**
-    
-Graphs colors are customizable, in 3 different ways. 
-Grayscale, scattered and Custom. 
-The custom method allows to refine color by color all the graphs available in the solution. 
+
+Graphs colors are customizable, in 3 different ways.
+Grayscale, scattered and Custom.
+The custom method allows to refine color by color all the graphs available in the solution.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/colors_palette.png"/></center>
 
@@ -149,7 +150,7 @@ The custom method allows to refine color by color all the graphs available in th
 
 ## **10. Force Rounding**:
 
-The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number. 
+The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
 
