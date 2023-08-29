@@ -139,7 +139,7 @@
                   link: /core_app/new/compare/interface/subheader/settings.html
                   subnav:
                     - name: Aggregation in %
-                      link: /core_app/new/compare/interface/subheader/settings.html#1-aggregation-in
+                      link: /core_app/new/compare/interface/subheader/settings.html#1-aggregation-in-
                     - name: Split Mix and Perf
                       link: /core_app/new/compare/interface/subheader/settings.html#2-split-mix-and-perf
                     - name: Negative Driver First
