@@ -21,10 +21,11 @@
         - name: Homepage #done
           link: /core_app/new/interface/homepage/homepage.html
           subnav:
-            - name: User preferences
-              link: /core_app/new/interface/homepage/user_preferences.html
             - name: Header #done
               link: /core_app/new/interface/homepage/homepage_header.html
+              subnav:
+                - name: User preferences
+                  link: /core_app/new/interface/homepage/user_preferences.html
             - name: Workbooks Management #done
               link: /core_app/new/interface/homepage/workbooks_management.html
             - name: Get Inspired #done
