@@ -153,6 +153,8 @@
                       link: /core_app/new/compare/interface/subheader/settings.html#smart-dimension
                     - name: Analyse Depth
                       link: /core_app/new/compare/interface/subheader/settings.html#analyse-depth
+                    - name: Segment text complement
+                      link: /core_app/new/compare/interface/subheader/settings.html#segment-text-complement
                     - name: Aggregation in %
                       link: /core_app/new/compare/interface/subheader/settings.html#aggregation-in-
                     - name: Covariance roll up
@@ -163,14 +165,6 @@
                       link: /core_app/new/compare/interface/subheader/settings.html#significance-test
                     - name: Include 0 for Y axis
                       link: /core_app/new/compare/interface/subheader/settings.html#include-0-for-y-axis
-                    - name: Other
-                      subnav:
-                        - name: Analysis Language
-                          link: /core_app/new/compare/interface/subheader/settings.html#analysis-language
-                        - name: Colors Palette For Plots
-                          link: /core_app/new/compare/interface/subheader/settings.html#colors-palette-for-plots
-                        - name: Force Rounding
-                          link: /core_app/new/compare/interface/subheader/settings.html#force-rounding
         - name: Model
           link: /core_app/new/compare/model/model.html
           subnav:
