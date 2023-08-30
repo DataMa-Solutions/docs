@@ -21,15 +21,15 @@ layout: page
 <br>
 <b>Text and comment:<b><br>
   - [Analyse Depth](#analyse-depth)
+  - [Segment text complement](#segment-text-complement)
+
+<br>
+<b>Advanced settings:<b><br>
   - [Aggregation in %](#aggregation-in-)
   - [Covariance roll up](#covariance-roll-up)
   - [Max segment displayed](#max-segment-displayed)
   - [Significance test](#significance-test)
   - [Include 0 for Y axis](#include-0-for-y-axis)
-
-- [8. Analysis Language](#8-analysis-language)
-- [9. Colors Palette For Plots](#9-colors-palette-for-plots)
-- [10. Force Rounding](#10-force-rounding)
 
 <br>
 
@@ -118,6 +118,21 @@ You can't change the selection of the combination, but you can concatenat two co
 This selection allows to adapt the level of detail available in the contextual help (Comments,…). By default the contextual help is at Medium.
 At <i>Max</i> all the available details regarding graphs will be available.
 
+<br/>
+
+## **Segment text complement**
+
+Segment text complement allows to decide on what to display behind Segment name in the waterfall labelling.
+As a reminder, a segment is a attribute within a dimension of your dataset.
+Options for this input are:
+- Variation relative to average (e.g. “x2.43”) - this is the default value and allows to spot easily "abnormal" variations way above average (i.e. above 1)
+- Percentage Variation (e.g. “-46%”)
+- Nothing
+
+<br/>
+
+# <b><u>Advanced Settings</u></b>
+<br/>
 <br/>
 
 ## **Aggregation in %**
