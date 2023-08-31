@@ -219,7 +219,7 @@
               link: /core_app/new/detect/settings.html#inspect-numerator-only
             - name: Analyse Latest Point Only #done
               link: /core_app/new/detect/settings.html#analyse-latest-point-only
-            - name: Detection Methode #done
+            - name: Detection Method #done
               link: /core_app/new/detect/settings.html#detection-method
             - name: Number of points for average window #done
               link: /core_app/new/detect/settings.html#number-of-points-for-average-window
