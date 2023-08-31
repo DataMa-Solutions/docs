@@ -8,7 +8,7 @@ layout: page
 
 
 The filters menu is composed of 2 main options for each dimension of your dataset:
-- run the waterfall on 1 or multiple segments of the dimensions  
+- run the analysis on 1 or multiple segments of the dimensions  
 - exclude some dimensions/segments from the analysis.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters.jpg"/></center>
