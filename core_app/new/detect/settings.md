@@ -22,9 +22,10 @@ layout: page
 - [Analyse All Metrics Relation Steps](#analyse-all-metrics-relation-steps)
 - [Inspect Numerator only](#inspect-numerator-only)
 - [Analyse Latest Point Only](#analyse-latest-point-only)
-- [Detection Methode](#detection-method)
-- [Number of points for average window](#number-of-points-for-average-window)
+- [Detection Method](#detection-method)
+- [Points included in baseline](#points-included-in-baseline)
 - [Confidence Interval](#confidence-interval)
+- [Threshold value](#threshold-value)
 - [Analysis Depth](#analysis-depth)
 - [Include 0 For Y Axis](#include-0-for-y-axis)
 
@@ -126,24 +127,17 @@ DataMa Detect can anlyse one step or all the steps of your funnel. When all step
 When you're analysig all metrics relation steps, you can choose to analyse only the numerator. 
 This is useful when your market equation is not important or not relevant and you prefer to analyse independently all the Numerator. 
 
-
-
 ### Analyse Latest Point Only
 
 You can choose to display the anomalies of each date or only for the latest point in the data.
-On a day over day anomaly detection we recommand to activate this parameter, to avoid having all the anomalies raised.
+In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
 
 <br>
 
 ### Detection Method
 
-When "Analyse latest point only" is activated you can choose the standard "Moving Window" or the "Forecast" which will forecast the most likely confidence interval.
-
-<br>
-
-### Number of points for average window
-
-This allows you to define how many point in your historical data the algoritm need to take into account to forecast the confidence interval.
+Detection method defines which algorithm DataMa uses to flag anomalies.
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 <br>
 
@@ -154,7 +148,31 @@ A confidence interval is a range of values that is likely to contain an unknown 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/ConfidenceIntervall-Concept.jpg"/></center>
 
 By changing the confidence interval you can modify the precision expected from the significance.
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
+<br>
+
+### Threshold value
+
+Threshold is used by some anomaly detection methods to define the cutoff between anomalies and normal points. The threshold will be considered as % or absolute value depending on the method. 
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+
+### Points included in baseline
+
+This allows you to define which type of points (same day, same hour etc) in your historical data the algoritm will consider for baseline.
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+
+<br>
+
+### Number of points in base line
+
+This allows you to define how many points within the defined type of points in your historical data the algoritm will consider for baseline.
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+
+<br>
+
+
+<br>
 
 ### Analysis Depth 
 
