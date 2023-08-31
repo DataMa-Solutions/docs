@@ -9,43 +9,23 @@ layout: page
 
 <br>
 
-- [Comparison](#comparison)
-- [Filters](#filters)
-- [KPI](#filters) (Metric Relation)
+- [Aggregation in %](#aggregation-in-)
 - [Maximum Depth Of Decision Tree](#maximum-depth-of-decision-tree)
 - [Maximum Depth For Continuous Grouping](#maximum-depth-for-continuous-grouping)
+- [Comparison](#comparison)
+- [KPI](#kpi) (Metric Relation)
 
 
 <br>
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.jpg">
 
 > Find here the details of the main settings DataMa Pivot
 
-<br>
-
-## Comparison
-
-DataMa Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
-
-<br>
-
-## Filters
-
-Filter any element you want to remove from the data or from the analysis  (You can remove the dimension appearing
-in the analysis by clicking the cross)
-
-<br>
-
-## KPI
-
-In DataMa Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.
-
-<br>
-
-## Settings
-
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.jpg">
-
 <br/>
+
+# <b>Single Dimension Clustering<b>
+<br>
 
 ## Aggregation in %
 
@@ -66,6 +46,23 @@ By increasing the tree depth you increase the detail of the decision tree. It wi
 
 <br/>
 
+# <b>Multiple Dimension Clustering<b>
+<br>
+
 ## Maximum Depth For Continuous Grouping
 
 For continuous elements, multiple clusters are created aggregating elements having a similar average KPI. The level of aggregation of the clustering is set by this parameter.
+
+<br>
+
+# <b>Comparison<b>
+<br>
+
+DataMa Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
+
+<br>
+
+# <b>KPI<b>
+<br>
+
+In DataMa Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.

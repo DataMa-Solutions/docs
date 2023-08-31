@@ -253,8 +253,27 @@
               link: /core_app/new/pivot/settings.html#decision-tree
             - name: Pivot subheader
               subnav:
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics relation
+                  link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/pivot/interface/subheader/settings.html
+                  subnav:
+                    - name: Aggregation in %
+                      link: /core_app/new/pivot/interface/subheader/settings.html#aggregation-in-
+                    - name: Maximum Depth Of Decision tree
+                      link: /core_app/new/pivot/interface/subheader/settings.html#maximum-depth-of-decision-tree
+                    - name: Maximum Depth For Continuous Grouping
+                      link: /core_app/new/pivot/interface/subheader/settings.html#maximum-depth-for-continuous-grouping
+                    - name: Comparison
+                      link: /core_app/new/pivot/interface/subheader/settings.html#comparison
+                    - name: KPI
+                      link: /core_app/new/pivot/interface/subheader/settings.html#kpi
     - name: Assess #done
       link: /core_app/new/assess/assess.html
       subnav:
