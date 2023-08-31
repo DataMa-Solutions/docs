@@ -26,6 +26,15 @@
               subnav:
                 - name: User preferences
                   link: /core_app/new/interface/homepage/user_preferences.html
+                  subnav:
+                    - name: Analysis Language
+                      link: /core_app/new/interface/homepage/user_preferences.html#analysis-language
+                    - name: Colors Palette For Plots
+                      link: /core_app/new/interface/homepage/user_preferences.html#colors-palette-for-plots
+                    - name: Compact Numbers
+                      link: /core_app/new/interface/homepage/user_preferences.html#compact-numbers
+                    - name: Force Rounding
+                      link: /core_app/new/interface/homepage/user_preferences.html#force-rounding
             - name: Workbooks Management #done
               link: /core_app/new/interface/homepage/workbooks_management.html
             - name: Get Inspired #done
@@ -228,8 +237,6 @@
         - name: Pivot interface #done
           link: /core_app/new/pivot/pivot_interface.html
           subnav:
-            - name: Header & Settings #done
-              link: /core_app/new/pivot/settings.html
             - name: Importance Chart #done
               link: /core_app/new/pivot/settings.html#importance-chart
             - name: Simple chart #done
@@ -244,6 +251,10 @@
               link: /core_app/new/pivot/settings.html#simple-test-matrix
             - name: Decision Tree #done
               link: /core_app/new/pivot/settings.html#decision-tree
+            - name: Pivot subheader
+              subnav:
+                - name: Settings #done
+                  link: /core_app/new/pivot/interface/subheader/settings.html
     - name: Assess #done
       link: /core_app/new/assess/assess.html
       subnav:

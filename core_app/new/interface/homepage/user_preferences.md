@@ -11,24 +11,22 @@ Here is the panel of the user preferences for workbook style.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/user_preferences.jpg"/></center>
 <br>
 
-The settings is detailed separately for each solution :
-- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
-- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/settings.html)
-- [Journey]({{site.url}}/{{site.baseurl}}docs/core_app/new/journey/interface/journey_header.html)
-- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
-- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html)
-
 
 <br>
 
 > **User Preferences**
-In order to customize your analysis to your needs, DataMa allows you to save user preferences at Use Case level or at your profile level.
+<br> In order to customize your analysis to your needs, DataMa allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level.
 
 <br/>
+# <b>Workbook style<b>
+<br/>
 
-## **Analysis Language**
+## Language and colors
 
+<br/>
+
+### **Analysis Language**
 
 For now, DataMa is only available in English and in French. By default Datama is in english.
 - You can change the language for a specific Use Case (Settings > Analysis Language)
@@ -36,7 +34,7 @@ For now, DataMa is only available in English and in French. By default Datama is
 
 <br/>
 
-## **Colors Palette For Plots**
+### **Colors Palette For Plots**
 
 Graphs colors are customizable, in 3 different ways.
 Grayscale, scattered and Custom.
@@ -53,9 +51,27 @@ The custom method allows to refine color by color all the graphs available in th
 
 <br/>
 
+## Number display
 
-## **Force Rounding**:
+<br/>
+
+### **Compact Numbers**
+
+When activated, this toggle allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k).
+
+### **Force Rounding**
 
 The rounding setting will bypass the smart rounding available in DataMa which adapts the number of decimals according to each number.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
+
+<br/>
+# <b>Solution models<b>
+<br/>
+
+The settings is detailed separately for each solution :
+- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
+- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html)
+- [Journey]({{site.url}}/{{site.baseurl}}docs/core_app/new/journey/interface/journey_header.html)
+- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
+- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html)

@@ -14,14 +14,10 @@ For all DataMa Solution tools (Prep, Compare, Assess and Pivot), a contextual su
 
 <br>
 
-> [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html) <br>
-> [Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html)<br>
-> [Filters]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/filters.html)<br>
-> [Metric relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html)<br>
-> [Settings]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings.html)<br>
+## What you will find in this chapter:
 
-
-
-
-Don't hesitate to contact us if you need any other connexion with your data.
-
+- [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
+- [Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html)
+- [Filters]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/filters.html)
+- [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html)
+- [Settings]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings.html)
