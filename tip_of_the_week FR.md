@@ -9,6 +9,11 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+## Tip of the Week 87: Nouvel Affichage des workbooks sur la HomePage
+Une nouvelle vue de vos workbooks est disponible sur la Home page de DataMa, en cliquant sur l'icône liste en haut à droite, vous pourrez passer d'une vue "Grille" avec les workbooks sous forme de carte à une vue "Détaillée" sous la forme synthétique d'un tableau
+Le choix de visualisation pour lequel vous opterez sera sauvegardé pour vos prochaines sessions 😉
+![Tip 87]({{site.url}}/{{site.baseurl}}/assets/images/tip/87.gif)
+
 
 ## Tip of the week #86: Envoi d’export uniquement quand il y a des alertes
 Vous pouvez paramétrer vos exports Slack ou Mail pour qu’ils soient envoyés seulement quand il y a une alerte. Pour cela, cliquez sur le bouton export, et sélectionnez l’export que vous voulez modifier, finalement activez le toggle «Send on Alert only » et sauvegardez l'export 😉

@@ -11,6 +11,12 @@ description: |
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
 
+## Tip of the Week 87: New workbook view on the HomePage
+A new view of your workbooks is available on the DataMa Home page. By clicking on the list icon at the top right, you can switch from a "Grid" view with the workbooks in the form of a map to a "Detailed" view in the synthetic form of a table 
+Your choice of view will be saved for future sessions 😉
+![Tip 87]({{site.url}}/{{site.baseurl}}/assets/images/tip/87.gif)
+
+
 ## Tip of the week #86: Send exports only when there are alerts
 You can set up your Slack or Mail exports so that they are only sent when there is an alert. To do this, click on the export button, select the export you want to modify, then activate the "Send on Alert only" toggle and save the export 😉
 ![Tip 86]({{site.url}}/{{site.baseurl}}/assets/images/tip/86.gif)
