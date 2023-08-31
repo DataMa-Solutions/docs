@@ -11,6 +11,14 @@ When using the solution, you can access the definition of your metric relation i
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/Edit_metricsrel.jpg"/></center>
 
+Included steps (selected): are the steps that are kept within your overall Metric Relation definition. This allows you to change your overall « Market Equation » and the KPI you’re following, as well as grouping/ expanding the steps you’ve defined
+
+In the Subheader, the steps included will be indicated by a green outline.
+
+Excluded steps will disappear from the header.
+
+To re-include a step, click on KPI to access all the steps from the metric relation. From here you can re-include the gray outlined steps or remove a step.
+
 <br>
 
 ## Change metrics relation
