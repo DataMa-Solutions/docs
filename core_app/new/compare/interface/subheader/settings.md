@@ -49,7 +49,7 @@ Color palette and default language for example can be modified at both level.
 
 <br>
 
-# <b><u>METHODOLOGY</u></b>
+# <b>Methodology<b>
 <br/>
 <br/>
 
@@ -70,8 +70,8 @@ This could be changed by activating the “Negative Driver First”. Negative Se
 
 <br>
 
-# <b><u>AUTO-GENERATED DIMENSIONS</u></b>
-<br/>
+# <b>Auto-generated dimensions<b>
+<br>
 <br>
 
 ## **Comparable Dates**
@@ -109,8 +109,8 @@ You can't change the selection of the combination, but you can concatenat two co
 
 <br>
 
-# <b><u>Text and comment</u></b>
-<br/>
+# <b>Text and comment</b>
+<br>
 <br>
 
 ## **Analyse Depth**
@@ -118,7 +118,7 @@ You can't change the selection of the combination, but you can concatenat two co
 This selection allows to adapt the level of detail available in the contextual help (Comments,…). By default the contextual help is at Medium.
 At <i>Max</i> all the available details regarding graphs will be available.
 
-<br/>
+<br>
 
 ## **Segment text complement**
 
@@ -131,7 +131,7 @@ Options for this input are:
 
 <br/>
 
-# <b><u>Advanced Settings</u></b>
+# <b>Advanced Settings<b>
 <br/>
 <br/>
 
