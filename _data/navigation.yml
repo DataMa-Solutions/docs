@@ -78,6 +78,8 @@
               link: /core_app/new/interface/header/data.html
             - name: Help #done
               link: /core_app/new/interface/header/help.html
+            - name: Export #done
+              link: /core_app/new/interface/header/export.html
         - name: Solutions subheader #done
           link: /core_app/new/interface/subheader/subheader.html
           subnav:
@@ -125,17 +127,15 @@
               link: /core_app/new/compare/interface/compare_header.html
               subnav:
                 - name: Dimension Comparison  #done
-                  link: /core_app/new/compare/interface/subheader/dimension_comparison.html
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
                 - name: Secondary Comparison  #done
                   link: /core_app/new/compare/interface/subheader/secondary_comparison.html
                 - name: Dimension Helper  #done
-                  link: /core_app/new/compare/interface/subheader/dimension_helper.html
+                  link: /core_app/new/interface/subheader/dimension_helper.html
                 - name: Filters  #done
-                  link: /core_app/new/compare/interface/subheader/filters.html
+                  link: /core_app/new/interface/subheader/filters.html
                 - name: Metrics relation
-                  link: /core_app/new/compare/interface/subheader/metrics_relation.html
-                - name: Export #done
-                  link: /core_app/new/compare/interface/subheader/export.html
+                  link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Drill down hierarchy  #done
                   link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
                 - name: Settings #done
