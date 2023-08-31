@@ -9,6 +9,7 @@ layout: page
 <br>
 
 <b>Methodology:<b><br>
+  - [Drill Down Hierarchy]({{site.url}}/{{site.baseurl}}/docs/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
   - [Split Mix and Perf](#split-mix-and-perf)
   - [Negative Driver First](#negative-driver-first)
 

@@ -145,11 +145,11 @@
                   link: /core_app/new/interface/subheader/filters.html
                 - name: Metrics relation
                   link: /core_app/new/interface/subheader/metrics_relation.html
-                - name: Drill down hierarchy  #done
-                  link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
                 - name: Settings #done
                   link: /core_app/new/compare/interface/subheader/settings.html
                   subnav:
+                    - name: Drill down hierarchy  #done
+                      link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
                     - name: Split Mix and Perf
                       link: /core_app/new/compare/interface/subheader/settings.html#split-mix-and-perf
                     - name: Negative Driver First
