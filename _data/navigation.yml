@@ -193,42 +193,46 @@
         - name: Detect interface #done
           link: /core_app/new/detect/detect_interface.html
           subnav:
-            - name: Header & Settings #done
-              link: /core_app/new/detect/settings.html
-            - name: Comparison #done
-              link: /core_app/new/detect/settings.html#comparison
-            - name: Filters #done
-              link: /core_app/new/detect/settings.html#filters
-            - name: KPI #done
-              link: /core_app/new/detect/settings.html#kpi
-            - name: Aggregation in % #done
-              link: /core_app/new/detect/settings.html#aggregation-in
-            - name: Analysis language #done
-              link: /core_app/new/detect/settings.html#analysis-language
-            - name: Colors palette for plots #done
-              link: /core_app/new/detect/settings.html#colors-palette-for-plots
-            - name: Colors palette for plots #done
-              link: /core_app/new/detect/settings.html#force-rounding
-            - name: Force Rounding #done
-              link: /core_app/new/detect/settings.html#max-segment-displayed
-            - name: Max Segment Displayed #done
-              link: /core_app/new/detect/settings.html#maximum-depth-for-continuous-grouping
-            - name: Analyse All Metrics Relation Steps #done
-              link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
-            - name: Inspect Numerator only #done
-              link: /core_app/new/detect/settings.html#inspect-numerator-only
-            - name: Analyse Latest Point Only #done
-              link: /core_app/new/detect/settings.html#analyse-latest-point-only
-            - name: Detection Method #done
-              link: /core_app/new/detect/settings.html#detection-method
-            - name: Number of points for average window #done
-              link: /core_app/new/detect/settings.html#number-of-points-for-average-window
-            - name: Confidence Interval #done
-              link: /core_app/new/detect/settings.html#confidence-interval
-            - name: Analysis Depth #done
-              link: /core_app/new/detect/settings.html#analysis-depth
-            - name: Include 0 For Y Axis #done
-              link: /core_app/new/detect/settings.html#include-0-for-y-axis
+            - name: Detect subheader
+              subnav:
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Secondary Comparison  #done
+                  link: /core_app/new/compare/interface/subheader/secondary_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics relation
+                  link: /core_app/new/interface/subheader/metrics_relation.html
+                - name: Settings #done
+                  link: /core_app/new/detect/settings.html
+                  subnav:
+                    - name: Analyse All Metrics Relation Steps #done
+                      link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
+                    - name: Inspect Numerator only #done
+                      link: /core_app/new/detect/settings.html#inspect-numerator-only
+                    - name: Analyse Latest Point Only #done
+                      link: /core_app/new/detect/settings.html#analyse-latest-point-only
+                    - name: Detection Method #done
+                      link: /core_app/new/detect/settings.html#detection-method
+                    - name: Treshold Value
+                      link: /core_app/new/detect/settings.html#threshold-value
+                    - name: Confidence Interval #done
+                      link: /core_app/new/detect/settings.html#confidence-interval
+                    - name: Points Included in Baseline
+                      link: /core_app/new/detect/settings.html#points-included-in-baseline
+                    - name: Number of points in Baseline #done
+                      link: /core_app/new/detect/settings.html#number-of-points-in-baseline
+                    - name: Analysis Depth #done
+                      link: /core_app/new/detect/settings.html#analysis-depth
+                    - name: Aggregation in % #done
+                      link: /core_app/new/detect/settings.html#aggregation-in-
+                    - name: Comparison #done
+                      link: /core_app/new/detect/settings.html#comparison
+                    - name: KPI #done
+                      link: /core_app/new/detect/settings.html#kpi
+
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       subnav:
@@ -259,7 +263,7 @@
                   link: /core_app/new/interface/subheader/dimension_helper.html
                 - name: Filters  #done
                   link: /core_app/new/interface/subheader/filters.html
-                - name: Metrics relation
+                - name: Metrics Relation
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/pivot/interface/subheader/settings.html
@@ -282,8 +286,43 @@
         - name: Assess interface #done
           link: /core_app/new/assess/assess_interface.html
           subnav:
-            - name: Header & Settings #done
-              link: /core_app/new/assess/settings.html
+            - name: Assess subheader
+              subnav:
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics Relation
+                  link: /core_app/new/interface/subheader/metrics_relation.html
+                - name: Settings #done
+                  link: /core_app/new/assess/settings.html
+                  subnav:
+                    - name: Test To Compute
+                      link: /core_app/new/assess/settings.html#test-to-compute
+                    - name: Confidence Interval
+                      link: /core_app/new/assess/settings.html#confidence-interval
+                    - name: Frequentist Weight
+                      link: /core_app/new/assess/settings.html#frequentist-weight
+                    - name: Impacted Dimension
+                      link: /core_app/new/assess/settings.html#impacted-dimension
+                    - name: Impacted Segment
+                      link: /core_app/new/assess/settings.html#impacted-segment
+                    - name: Impact Sizing
+                      link: /core_app/new/assess/settings.html#impact-sizing
+                    - name: Test Side
+                      link: /core_app/new/assess/settings.html#test-side
+                    - name: Aggregation in %
+                      link: /core_app/new/assess/settings.html#aggregation-in-
+                    - name: Significance for each Segment
+                      link: /core_app/new/assess/settings.html#significance-for-each-segment
+                    - name: Cumulative Signifiance
+                      link: /core_app/new/assess/settings.html#cumulative-significance
+                    - name: Comparison
+                      link: /core_app/new/assess/settings.html#comparison
+                    - name: KPI
+                      link: /core_app/new/assess/settings.html#kpi
         - name: Model #done
           link: /core_app/new/assess/model.html
           subnav:
@@ -307,14 +346,45 @@
         - name: Interface # mettre les images à jour
           link: /core_app/new/journey/interface/journey_interface.html
           subnav:
-            - name: Header & Settings
-              link: /core_app/new/journey/interface/journey_header.html
             - name: Attribution # mettre les images à jour
               link: /core_app/new/journey/interface/attribution.html
             - name: Descriptive Comparison # mettre les images à jour
               link: /core_app/new/journey/interface/descriptive_comparison.html
             - name: Detailed View # mettre les images à jour
               link: /core_app/new/journey/interface/detailed_view.html
+            - name: Journey subheader
+              subnav:
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics Relation
+                  link: /core_app/new/interface/subheader/metrics_relation.html
+                - name: Settings
+                  link: /core_app/new/journey/interface/journey_header.html
+                  subnav:
+                    - name: Journey Separator
+                      link: /core_app/new/journey/interface/journey_header.html#journey-separator
+                    - name: Simplify Sunburst
+                      link: /core_app/new/journey/interface/journey_header.html#simplify-sunburst
+                    - name: Maximum Number of steps in Sunburst
+                      link: /core_app/new/journey/interface/journey_header.html#maximum-number-of-steps-in-sunburst
+                    - name: Attribution
+                      link: /core_app/new/journey/interface/journey_header.html#attribution
+                    - name: Model
+                      link: /core_app/new/journey/interface/journey_header.html#model
+                    - name: Journey Deduping
+                      link: /core_app/new/journey/interface/journey_header.html#journey-deduping
+                    - name: Maximum Number of Points analysed
+                      link: /core_app/new/journey/interface/journey_header.html#maximum-number-of-points-analysed
+                    - name: Analise Sequences
+                      link: /core_app/new/journey/interface/journey_header.html#analyse-sequences
+                    - name: Comparison
+                      link: /core_app/new/journey/interface/journey_header.html#comparison
+                    - name: KPI
+                      link: /core_app/new/journey/interface/journey_header.html#kpi
         - name: Use cases examples #done
           link: /core_app/new/journey/use_cases_examples.html
           subnav:
