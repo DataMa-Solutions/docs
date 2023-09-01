@@ -9,12 +9,18 @@ layout: page
 
 <br>
 
+<b>Single Dimension Clusturing:<b><br>
 - [Aggregation in %](#aggregation-in-)
-- [Maximum Depth Of Decision Tree](#maximum-depth-of-decision-tree)
 - [Maximum Depth For Continuous Grouping](#maximum-depth-for-continuous-grouping)
+
+<br>
+<b>Multiple Dimensions Clusturing:<b><br>
+- [Maximum Depth Of Decision Tree](#maximum-depth-of-decision-tree)
+
+<br>
+<b>Basic setting:s<b><br>
 - [Comparison](#comparison)
 - [KPI](#kpi) (Metric Relation)
-
 
 <br>
 
@@ -36,6 +42,15 @@ Move the cursor to the right to increase the level of aggregation
 Click on « Pivot » to get results
 Segments are now aggregated at the requested level
 
+<br>
+
+## Maximum Depth For Continuous Grouping
+
+For continuous elements, multiple clusters are created aggregating elements having a similar average KPI. The level of aggregation of the clustering is set by this parameter.
+
+<br/>
+
+# <b>Multiple Dimension Clustering<b>
 <br/>
 
 ## Maximum Depth Of Decision Tree
@@ -44,25 +59,17 @@ Segments are now aggregated at the requested level
 
 By increasing the tree depth you increase the detail of the decision tree. It will be more detailed.
 
-<br/>
-
-# <b>Multiple Dimension Clustering<b>
 <br>
 
-## Maximum Depth For Continuous Grouping
-
-For continuous elements, multiple clusters are created aggregating elements having a similar average KPI. The level of aggregation of the clustering is set by this parameter.
-
+# <b>Basic settings<b>
 <br>
 
-# <b>Comparison<b>
-<br>
+## Comparison
 
 DataMa Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
 
 <br>
 
-# <b>KPI<b>
-<br>
+## KPI
 
 In DataMa Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.
