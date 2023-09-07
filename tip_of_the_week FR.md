@@ -10,6 +10,20 @@ description: |
 ---
 
 
+## Tip of the Week 88: Raccourci de Recherche CTRL + F
+Un raccourci de recherche a été mis en place sur toutes les pages de DataMa en appuyant sur CTRL + F, lorsque vous ferez une recherche 🔍 les résultats seront répartis dans les sections suivantes:
+  * Settings: (uniquement quand vous êtes dans un workbook) qui vous permet d'éditer un paramètre du workbook ⚙️
+  * Workbooks: pour retrouver vos workbooks sans passer par la page d'accueil 📂
+  * Documentation: pour avoir les liens vers la documentation 📄
+![Tip 88]({{site.url}}/{{site.baseurl}}/assets/images/tip/88.gif)
+
+
+## Tip of the Week 87: Nouvel Affichage des workbooks sur la HomePage
+Une nouvelle vue de vos workbooks est disponible sur la Home page de DataMa, en cliquant sur l'icône liste en haut à droite, vous pourrez passer d'une vue "Grille" avec les workbooks sous forme de carte à une vue "Détaillée" sous la forme synthétique d'un tableau
+Le choix de visualisation pour lequel vous opterez sera sauvegardé pour vos prochaines sessions 😉
+![Tip 87]({{site.url}}/{{site.baseurl}}/assets/images/tip/87.gif)
+
+
 ## Tip of the week #86: Envoi d’export uniquement quand il y a des alertes
 Vous pouvez paramétrer vos exports Slack ou Mail pour qu’ils soient envoyés seulement quand il y a une alerte. Pour cela, cliquez sur le bouton export, et sélectionnez l’export que vous voulez modifier, finalement activez le toggle «Send on Alert only » et sauvegardez l'export 😉
 ![Tip 86]({{site.url}}/{{site.baseurl}}/assets/images/tip/86.gif)
