@@ -24,6 +24,7 @@ Here is the available connectors:
 - [Snowflake](#snowflake)
 - [Google trends](#google-trends)
 - [Facebook](#facebook)
+- [Piano Analytics (AT Internet)](#piano-analytics)
 
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, PowerBI, LookerStudio,...)
 
@@ -201,3 +202,17 @@ Since reporting is by default at the level of Adsets, it is not mandatory to sel
 
 If no field or breakdown is selected the chosen metrics will then be applied to the Adsets available for the selected AdAccount.
 
+> ## Piano Analytics
+
+**You can import data from the data query explorer of Piano (ex AT-Internet) in DataMa**
+
+When opening the Piano Analytics block in DataMa prep, you first need to upload an API key. This API key can be generated on your profile section in Piano [learn more](https://support.piano.io/hc/en-us/articles/4466006444306-API-Keys). Download the API key (.csv) from Piano on your computer, then upload it in DataMa Prep in the API key section
+
+Once done, you then need to paste an "API body" content. This will be generated in the data query interface of Piano Analytics: create a report containing the properties and metrics that you want in DataMa and then hit "Copy API body (POST)" on the top right of the report and then copy the Body block
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataQuery.png"/></center>
+
+Then Paste the API body in DataMa prep in the appropriate field
+
+Lastly, define your dates for the report in DataMa Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date) 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataResults.png"/></center>
