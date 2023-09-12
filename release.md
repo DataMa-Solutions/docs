@@ -15,7 +15,6 @@ description: Find here the **latest releases** of DataMa Solutions
     * Performance and user experience of extensions have been improved, providing faster results and allowing demo mode for all extensions based on the new UI
 
 * **Compare:**
-    * Performance of compute has been improved in particular when you have a large number of dimensions (which is often the case for when activating smart dimension for instance)
     * Display of the new waterfall (activate it using the ⚙️ icon at top right of waterfall side) and tree view has been improved since beta release, with additional capabilities for customizing labels and layout
 
 * **Pivot:**
