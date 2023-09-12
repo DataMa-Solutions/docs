@@ -73,7 +73,7 @@ If your dataset is properly split between dimensions and metrics, and the metric
 
 <br>
 
-# <b>Bonus:</b> Check your Column and define your steps
+# <b>Bonus:</b> Intro to waterfall analysis
 
 ## What is a waterfall graph ? 
 
