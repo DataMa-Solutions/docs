@@ -8,7 +8,7 @@ layout: page
 
 <br>
 
-By clicking on the export icon, access all the possible extraction : 
+By clicking on the export icon, access all the possible extraction :
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/compare_export.jpg"/></center>
 
