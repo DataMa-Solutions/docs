@@ -10,6 +10,12 @@ description: |
 ---
 
 
+## Tip of the Week 89: Préférences utilisateur
+Vous aviez déjà la possibilité de personnaliser vos préférences au niveau du workbook pour choisir la langue ou bien la palette de couleur à appliquer aux graphiques.🎨
+Maintenant, bien que cette option soit toujours disponible au niveau du workbook, vous pouvez désormais définir les paramètres au niveau utilisateur, depuis la Home. Sélectionnez "User Preferences" et la configuration s'appliquera à tous les nouveaux workbooks que vous créerez. 😉
+![Tip 89]({{site.url}}/{{site.baseurl}}/assets/images/tip/89.gif)
+
+
 ## Tip of the Week 88: Raccourci de Recherche CTRL + F
 Un raccourci de recherche a été mis en place sur toutes les pages de DataMa en appuyant sur CTRL + F, lorsque vous ferez une recherche 🔍 les résultats seront répartis dans les sections suivantes:
   * Settings: (uniquement quand vous êtes dans un workbook) qui vous permet d'éditer un paramètre du workbook ⚙️

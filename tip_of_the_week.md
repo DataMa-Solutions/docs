@@ -11,6 +11,12 @@ description: |
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
 
+## Tip of the Week 89: Préférences utilisateur
+You already had the option of customising your preferences at workbook level to choose the language or colour scheme to apply to the graphics.🎨
+Now, although this option is still available at workbook level, you can define the settings at user level, from Home. Select 'User Preferences' and the configuration will apply to all new workbooks you create. 😉
+![Tip 89]({{site.url}}/{{site.baseurl}}/assets/images/tip/89.gif)
+
+
 ## Tip of the Week 88: CTRL + F Search shortcut
 A search shortcut has been introduced on all DataMa pages by pressing CTRL + F. When you do a search 🔍 the results will be divided into the following sections:
   * Settings: (only when you are in a workbook) which allows you to edit a workbook setting⚙️
