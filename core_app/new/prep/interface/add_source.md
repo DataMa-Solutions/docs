@@ -128,7 +128,7 @@ It is then displayed the amount of data it will use in Google BigQuery.
 
 <br>
 
-> ## mail
+> ## Mail
 
 The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into DataMa and have a scheduled analysis.
 
@@ -148,18 +148,23 @@ For ex. if your reports are always downloaded through Amazon's server, urls will
 
 > ## Snowflake
 
-When using the snowflake connector, you’ll need the following information to configure the Snowflake source:
+When using the snowflake connector, you’ll need the following information to configure the Snowflake source :
 - Organization link which is the link https://XXX-XXX.snowflakecomputing.com
-- You can copy the organization url in your Snowflake Admin > Accounts and hover on the account you would like to connect to, and a link icon should appear next to account name, copy the url. It’ll be the XXX-XXX (Account ID) in the url.
+  - In this link you'll need the Account ID which is XXX-XXX part of the url.
+  - You can find it by going in your Snowflake Admin > Accounts.
+  - Hover the account you would like to connect to, and a link icon should appear next to account name, copy the url.
+  - Cut the Account ID from the url.
+  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake_account_id.png"/></center>
 - Warehouse (optional)
 - Database (optional)
-With those information, you will need to put the Account ID in the account field, your credentials and hit connect
+
+With those information, you will need to fill your credentials and the Account ID in the account field. Once finished, hit connect.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake.png"/></center>
 
+When connected, you can select a warehouse and a database in advanced settings if needed, and input your query. 
 
-When connected, you can select a warehouse and a database if needed, and input your query. 
-
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake_advanced_settings.png"/></center>
 
 ⚠️ **Important information** :<i> Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your snowflake dataset, within the hour, you will refresh your data using the button on the header.</i>
 
