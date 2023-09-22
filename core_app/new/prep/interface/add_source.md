@@ -178,11 +178,11 @@ With Google Trend connector, you can enrich your data flow with Google Search re
 
 #### You can cross your data with Google trends data
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.jpg" style="width:60%"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:60%"/></center>
 
 ### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG"/></center>
 
 It will enrich your analysis by comparing your own data of your e-commerce website or marketing campaign results with the data and trends of the market. You will be able to compare your evolution with a larger point of view and understand your performance in a more global context.
 
@@ -198,10 +198,10 @@ To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl
 **You can upload your Facebook Analytics datasets in DataMa PREP.**
 
 When opening the Facebook block you can see which account is connected and you can disconnect it if you want to use another one.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB1.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB1.PNG"/></center>
 
 After selecting an AdAccount you are able to create a report by selecting fields, breakdowns, metrics and a preiod.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB2.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB2.PNG"/></center>
 
 Since reporting is by default at the level of Adsets, it is not mandatory to select fields or breakdowns.
 
