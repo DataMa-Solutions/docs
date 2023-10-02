@@ -10,8 +10,13 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+## Tip of the Week 90: Exploring in Compare from Pivot
+In DataMa Pivot, when you are on the "Importance Chart" graph, you can look to see what opportunities there are for optimising a KPI 🤔
+This is now possible by right-clicking on one of the bubbles in the graph and selecting "Compare this", you can easily switch to DataMa Compare to explain the over-/under-performance of a given segment compared to others 🤩
+![Tip 90]({{site.url}}/{{site.baseurl}}/assets/images/tip/90.gif)
 
-## Tip of the Week 89: Préférences utilisateur
+
+## Tip of the Week 89: User preferences
 You already had the option of customising your preferences at workbook level to choose the language or colour scheme to apply to the graphics.🎨
 Now, although this option is still available at workbook level, you can define the settings at user level, from Home. Select 'User Preferences' and the configuration will apply to all new workbooks you create. 😉
 ![Tip 89]({{site.url}}/{{site.baseurl}}/assets/images/tip/89.gif)

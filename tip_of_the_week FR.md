@@ -9,6 +9,11 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+## Tip of the Week 90: Exploration dans Compare depuis Pivot
+Dans DataMa Pivot, lorsque vous êtes sur le graphique "Importance Chart", vous pouvez chercher à savoir quelles sont les possibilités d'optimisation d'un KPI 🤔
+C'est maintenant possible en cliquant avec le bouton droit de la souris sur une des bulles du graphique en sélectionnant "Compare this", vous pouvez facilement basculer vers DataMa Compare pour expliquer la sur-/sous-performance d'un segment donné par rapport aux autres 🤩
+![Tip 90]({{site.url}}/{{site.baseurl}}/assets/images/tip/90.gif)
+
 
 ## Tip of the Week 89: Préférences utilisateur
 Vous aviez déjà la possibilité de personnaliser vos préférences au niveau du workbook pour choisir la langue ou bien la palette de couleur à appliquer aux graphiques.🎨
