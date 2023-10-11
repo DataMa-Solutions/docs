@@ -4,7 +4,7 @@ description: See in this chapter details how to use the homepage of your account
 layout: page
 ---
 
-> See in this chapter details how to use the **Homepage**  of the DataMa solution
+> In this chapter, see details on how to use the **Homepage**  of the DataMa solution
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/homepage.png"/></center>

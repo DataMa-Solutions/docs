@@ -5,6 +5,154 @@ description: Find here the **latest releases** of DataMa Solutions
 
 > {{ page.description }}
 
+### 2023-10-01:
+
+* **Extensions:**
+    * Looker Studio, PowerBI and Tableau extensions in the new UI have been improved to leverage cache when useful and now include a "reload" button to refresh the data and the settings
+
+* **Compare:**
+    * Performance for large datasets has been improved. As a result, large datasets run 20-30% faster than before
+    * Top line labels are now available for each sub segments when opening a step
+    * In tree view, the top X factor exploration method has been improved: right click on a box > exploration method > select the number of top contributors directly in the appropriate input. This will show the top contributors accross multiple dimensions.
+
+* **Prep:**
+    * Clean block has been revamped, and experience is improved in particular when deleting columns
+    * Duplicate feature is available for a source block: by clicking on the "..." at bottom right of a source block, you can duplicate it and then edit the new duplicated block. This is useful for instance if you have on GA4 block on say, last month, and you want to append the same source for last year
+
+
+### 2023-09-12:
+
+* **General:**
+    * [Beta 🧪] **Hourly alerting**: DataMa now handles dataset with timestamps has a dimension, and allows scheduling emails at hourly frequency. This enables use cases such as anomaly detection on hourly basis, to flag any issue in your business as soon as it happens. This feature is available as a paid option - ask your customer success manager for early access <!--feature to be developed and tested-->
+
+* **Extension:**
+    * [Beta 🧪] **New Tableau extension**: New tableau extension gives access to the new UI in Tableau. Benefits includes access to all charts & comments of the new UI (including new waterfall with decision tree viz), simplified process to create extension, and higher flexibility to use case customization <!--documentation to be done-->
+    * Performance and user experience of extensions have been improved, providing faster results and allowing demo mode for all extensions based on the new UI
+
+* **Compare:**
+    * Display of the new waterfall (activate it using the ⚙️ icon at top right of waterfall side) and tree view has been improved since beta release, with additional capabilities for customizing labels and layout
+
+* **Pivot:**
+    * **Clustering tree** is now available in the new UI, with enhanced vizualization. This helps you create clusters within your dataset accross multiple dimensions using regression tree machine learning <!--documentation to be done-->
+    * **Numerator only** option makes DataMa Pivot work on metrics that have no denominator. Just select the numerator and "1" as denominator in the KPI panel <!--To be checked-->
+
+* **Detect:**
+    * **New detection methods**: detection methods has been revamped and enriched, adding 3 user defined threshold methods to make anomaly detection more flexible. Use cases include for instance flagging any change of more than +-10% vs. same day of week. Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+    * The above feature include also a upgrade of anomaly detection inputs:
+        * Ability to increase the confidence interval for anomaly detection in forecast and volatility method up to 99.9% (if you want to avoid having too many alerts sent by DataMa detect)
+        * The capacity to reduce the number of points for baseline calculation down to 1, which is particularly useful for threshold methods
+        * A new input for type of points included in base line, whether it is all points, same day of week, or same hour
+
+* **Prep:**
+    * **Piano analytics connector**: Piano (ex AT Internet) connector is now available - you can get the data from Piano into DataMa and analyse it there.[Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html#piano-analytics)
+
+### 2023-08-03:
+
+* **General:**
+    * **Export custom settings** Exports (emails, slack & iframes) can now be customized with additional inputs, such as filters. This allows for instance to schedule 2 emails for 2 different scope (e.g. 2 countries) using one single workbook
+    * All charts are now displayed as SVG, which means that, once exported to Power Point (using the PPT icon at top of each slide), you can then right click on any chart and "Convert to Shape", so that you can customized further there (including editing the text, shapes and colors)
+    * "Copy Paste" capabilites of DataMa Prep to easily import a source (such as an excel cell range) has been improved to better match original format. Just select a cell range in Excel, copy it, and paste it (Ctrl+V) in DataMa Prep
+    * Inputs are now available through the search bar: in a workbook, just hit Ctrl+F, and type the name of the input, it will come as the first result in the "Settings" block and you can change it here
+    * Detailed view of workbooks is available on home page. This allows to display list of workbooks as a table, as you can usually explore files through icons or list in your operating system
+    * **User preference** can now be set by default for any new workbook on the home page. Any setting of any solution is available there. For instance, you could make default color palette for any new workbook your own prefered palette. Just click on the user preference icon on the top right corner and edit here. Note that previously saved workbooks won't be impacted. 
+
+* **Pivot:**
+    * **Explore in Compare** By right clicking on a bubble in the importance chart, you can easily switch to DataMa Compare to explain the over/ under performance of a given segments vs. other. This comes handy when trying to find opportunities for optimization of a KPI.
+
+* **Compare:**
+    * [Smart Dimension]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/smart_dimension.html) has been improved: you can now decide of the number of dimensions to include in combinations (previously only pairs of dimensions were available) and you can keep all combinations in your results (instead of just the most interesting combination)
+    * Secondary comparison (aka Compare of Compare) labeling has been improved and is now available in most charts & tables
+
+### 2023-06-31:
+
+* **Extension:**
+    * PowerBI and Looker Studio can now leverage computing cache when available for faster results 
+
+* **General:**
+    * All settings in the new UI have been organized by group for better readibility
+    * Improved error message with technical logs 
+    * Animation on comments (in user preference) allow to display comments word by word, with a "generative AI" style
+
+* **Compare:**
+    * [Beta 🧪] **New waterfall chart**  - navigate from one display to another with shorcuts at the top bar. 3 displays are available:
+        * Waterfall:
+            * UI improvements
+                * Zoom on axis
+                * Link between bars
+                * Reverse axis
+                * Displayed text is editable & conditional formating
+                * Text: custom font and font size
+                * Improved animation (on hover and when appearing)
+                * Auto cropping of bar labels
+                * Explore multiple box at the same time - No lock necessary 
+            * Secondary comparison 
+                * Separate chart & custom positioning
+                * Overlap of common bar in secondary comparison (aka "merge feature")
+            * Improvement of performance & reactivity
+        * **Tree view** (NEW!)
+            * Display up to 4 indicators at the same time in a card, with conditional formatting
+            * Explore top X contributors accross multiple dimensions
+        * Bubble view (In development)
+    * Added Start and End value as an column option for table and tree view
+
+* **Journey:**
+    * Multiple fixes in the new UI (comparison, attribution toggle)
+
+### 2023-05-31:
+
+* **Extension:**
+    * [Beta 🧪] **Advanced extension settings** For PowerBI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
+        * Define a worbook name in the settings of the extension
+        * Save in DataMa app using the "..." on the top right corner
+        * Find your worbook in app.datama.io and define advanced settings
+        * Save your workbook in app.datama.io
+        * Reload your use case in your extension (Looker Studio or PowerBI)
+    * Assess, Pivot and Journey charts are now available within extensions (Looker Studio & PowerBI)
+
+* **Compare:**
+    * [Beta 🧪] **Drill down by Dimensions then Steps**: Until then, DataMa Compare was analysing a variation first by Steps of the Market equation, then by Dimension within a Step. 
+    You can now decide to reverse that pattern and breakdown the total variation by top impacting segments of any dimension and then by Steps within each Segment
+    DataMa even gives you an assessment of what might be the most interesting pattern with an interest score ranking both approaches
+    Click below to learn more on this important feature
+    [Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+
+ * **Prep**
+    * From DataMa block output you can now switch directly to the suggested datama solution
+    * New calculated field UI, including columns/ formula auto completion
+
+### 2023-05-10:
+
+* **Global:**
+    * **Compact Numbers** toggle is now available in settings - this allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k)
+
+* **Prep**
+    * BigQuery connector performance has been significantly improved for large dataset. As such, global performance and memory usage has been improved, making large dataset schedule more reliable
+    * Clean block now allows to transform string to int or float (e.g. "2.3" as 2.3). Strings that can't be converted will be displayed as "NaN" or "null"
+
+* **Compare**
+    * You can now decide on what to display behind Segment name in the waterfall labelling, under "Segment text complement" input: 
+        * Variation relative to average (e.g. "x2.43")
+        * Percentage Variation (e.g. "-46%")
+        * Nothing
+    * In the new UI, table sort has been improved, and can be applied even when using secondary comparison
+
+
+### 2023-04-27:
+
+* **New platform:**
+    * Get inspired use cases exploration has been improved with filters by solution and by function
+    * Multiple bug fixes and UI improvements (incl. Send feedback button, better error message handling, Duplicate button on workbook card, Filter block and arrows management in Prep, Excel loading)
+    * Dimensions and Ratio helpers are now reactive to applied filters
+
+* **Assess**
+    * In the new UI, statistical test used to compute significance is now visible directly on subheader
+
+* **Compare**
+    * In the new UI, significance test calculations are now available through settings for all assess enabled clients
+
+* **Journey**
+    * Old UI now includes the improved version of Sunburst (with interactions on clicks)
+
 ### 2023-03-31:
 
 * **Extensions:**

@@ -10,6 +10,112 @@ description: |
 ---
 > Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
 
+
+## Tip of the Week 88: CTRL + F Search shortcut
+A search shortcut has been introduced on all DataMa pages by pressing CTRL + F. When you do a search 🔍 the results will be divided into the following sections:
+  * Settings: (only when you are in a workbook) which allows you to edit a workbook setting⚙️
+  * Workbooks: to find your workbooks without going through the home page 📂
+  * Documentation: to get links to the documentation 📄
+![Tip 88]({{site.url}}/{{site.baseurl}}/assets/images/tip/88.gif)
+
+
+## Tip of the Week 87: New workbook view on the HomePage
+A new view of your workbooks is available on the DataMa Home page. By clicking on the list icon at the top right, you can switch from a "Grid" view with the workbooks in the form of a map to a "Detailed" view in the synthetic form of a table
+Your choice of view will be saved for future sessions 😉
+![Tip 87]({{site.url}}/{{site.baseurl}}/assets/images/tip/87.gif)
+
+
+## Tip of the week #86: Send exports only when there are alerts
+You can set up your Slack or Mail exports so that they are only sent when there is an alert. To do this, click on the export button, select the export you want to modify, then activate the "Send on Alert only" toggle and save the export 😉
+![Tip 86]({{site.url}}/{{site.baseurl}}/assets/images/tip/86.gif)
+
+## Tip of the week #85: Redesign of the Settings menu
+The new version of the settings menu is now available in DataMa. To access it, click on the "Settings" button in the top bar.
+The new structure is as follows:
+1. "Solutions Model": this groups together all the parameters specific to the solution (Compare, Detect, Journey, etc.)
+2. "Worbook Style" allows you to modify parameters which are global to the workbook whatever the solution, such as the colour palette 🎨,  the language or the display characteristics of the numbers
+3. And finally you will find your market equation in the "KPIs & Market equation" menu.
+![Tip 85]({{site.url}}/{{site.baseurl}}/assets/images/tip/85.gif)
+
+## Tip of the week #84: A new version of Waterfall available
+A new version of Waterfall is available as an experimental version 🧪, how it works is explained in this [short youtube video](https://youtu.be/8CeyzFoaznQ) where you'll discover the new capabilities of the famous DataMa waterfall, which can now be transformed into a decision tree to further simplify the explanation of variations to your customers, while comments are generated automatically.
+To activate it you need to access the Waterfall settings and, at the top right of the window that appears, activate the "New Waterfall" toggle. If this button is not available, contact DataMa to be granted the experimental role 🥼 to discover the new features in advance 😉
+![Tip 84]({{site.url}}/{{site.baseurl}}/assets/images/tip/84.gif)
+
+## Tip of the week #83: Smart Dimension
+In DataMa Compare's Waterfall, when you zoom in on a step you can see the variation in each segment of a dimension. But it can be interesting to focus on a combination of dimensions, so DataMa offers you the Smart Dimension 🤓: which will, for each stage of the Waterfall, identify the pair of dimensions most relevant to explain the variation in performance.
+For example: Consider the scenario in which your performance is entirely explained by a drop in performance on mobile users with the Firefox browser. By enabling the Smart Dimension option, DataMa Compare will identify the Device*Browser dimension as the most relevant dimension 🎯. However, if the Smart Dimension option is not enabled, DataMa Compare will attribute the performance variation to the Device or Browser dimension.
+NB: there is a Combined Dimension which overlaps not 2 dimensions but all the dimensions available in the dataset.
+![Tip 83]({{site.url}}/{{site.baseurl}}/assets/images/tip/83.gif)
+
+## Tip of the week #82: Looker Studio extension "Save in DataMa"
+DataMa is available on Looker Studio as an extension, if you're not using it yet and you're interested here is the link to the documentation to add it to your Dashboard and don't hesitate to contact DataMa Customer Services to get the licence key associated with your account 😉
+You can now have your Use Case in both Looker Studio and DataMa thanks to the "Save in DataMa" option 💾 which you'll find in the three little dots at the top right of the extension.
+This option will allow you to customise your Waterfall with all the parameters available in DataMa in order to improve the visualisation in LookerStudio, you will be able to change, for example:
+  * colours  🎨
+  * the level of aggregation
+  * step names
+  * …
+![Tip 82]({{site.url}}/{{site.baseurl}}/assets/images/tip/82.gif)
+
+## Tip of the week #81: Drill Down by Dimensions then Steps
+Until now, DataMa Compare analysed variation first by steps in the market equation, then by dimension within a step. You can now decide to reverse this pattern and breakdown the total variation by the segment with the greatest impact in any dimension, then by step within each segment.
+To activate this option, go to Settings, then choose one of the following three options:
+  * Auto", which lets you right-click on the blue bars of the Waterfall to switch from one state to another 🖱️
+  * Steps than Dimensions (default)
+  * Dimensions than Steps (to force the view to Dimensions then Steps)
+When you're in 'Auto' mode, DataMa even gives you an assessment of what might be the most interesting scheme with an interest score ranking the two approaches 😉
+![Tip 81]({{site.url}}/{{site.baseurl}}/assets/images/tip/81.gif)
+
+## Tip of the week #80: Compact Numbers
+Here's a little trick to lighten the visual of your graphs when you have large numbers. Go to "Settings" and select the "Compact Numbers" option to transform the labels into thousands, millions or more in increments of a thousand 😉
+For example:
+  * if you have an income of €45,548, with the "Compact numbers" option it will appear as 45.5k
+  * if you have 11 342 764 visitors it will become 11.3M
+  * ...
+![Tip 80]({{site.url}}/{{site.baseurl}}/assets/images/tip/80.gif)
+
+## Tip of the week #79: Personalising the performance indication of a Waterfall segment
+By default, DataMa displays after the name of a segment its relative variation compared to the average variation (e.g. organic (x2.43)). You now have the option of modifying this additional text in the "Settings" by one of these three options:
+  * Display the variation relative to the average (default)
+  * Display the variation as a percentage
+  * Disable it
+Whichever option you choose, all the information will still be available in the label when you move the mouse over a segment 😉
+![Tip 79]({{site.url}}/{{site.baseurl}}/assets/images/tip/79.gif)
+
+## Tip of the week #78: Comparison Table in DataMa Journey
+While performing a user journey analysis in DataMa Journey, discover our new feature: The interactive table 😎
+By hovering your mouse over the different stages of the Sunburst, this table will allow you to :
+  * View the proportion of users at each stage of the selected route.
+  * For benchmarking purposes, the table provides a percentage view of users between your two comparables, as well as a view of the differential in points. 😉
+![Tip 78]({{site.url}}/{{site.baseurl}}/assets/images/tip/78.gif)
+
+## Tip of the week #77: Filtering with REGEXPs
+In a dimension when you have many segments, it is time consuming to select/deselect the segments you want to filter, nevertheless you have the possibility in the "advance settings" to filter with a REGEXP (Regular Expression) to save time 😉
+Here are some use cases:
+  * On user journeys in Journey, if you want to filter all the journeys that have passed through a certain page (e.g. ^Search corresponds to the journeys of users who started with the Search)
+  * On dates, if you want to filter only dates containing the year 2023 or a certain month (e.g. 2023-03-.* for the whole month of March 2023)
+  * On media campaigns (ex: paid_search_.* for search campaigns)
+![Tip 77]({{site.url}}/{{site.baseurl}}/assets/images/tip/77.gif)
+
+## Tip of the week #76: Dimension Helper
+Do you know the "Dimension Helper"? 🤔 This will allow you to see in a synthetic way the value (in line) and the distribution (in bar) of the KPIs of your market equation on the segments of a dimension 🤩
+To open it, just go to the "Filters" tab in the top bar, you will then be able to :
+  * select your dimension
+  * select the step of the market equation you want to follow
+  * have a better comparison, select the "Overlay" view
+  * apply filters on the different dimensions at your disposal
+![Tip 76]({{site.url}}/{{site.baseurl}}/assets/images/tip/76.gif)
+
+## Tip of the week #75: Display waterfall in points
+In DataMa Compare, you can now display your waterfall in points (%) instead of the volume view of the total KPIs 🤩
+To switch between the two views, simply right-click on the blue total bars and select "% Display impact in points" 😉
+![Tip 75]({{site.url}}/{{site.baseurl}}/assets/images/tip/75.gif)
+
+## Tip of the week #74: Comparison date range available in DataMa's LookerStudio extension
+DataMa continues to improve its extensions in the visualisation tools. In Looker Studio you can now enable the "comparison date range" feature to compare B (the period you select in the filter) vs A (the comparison period you select in the dropdown menu: previous period, previous year,...), which will make it more dynamic to use 😃
+![Tip 74]({{site.url}}/{{site.baseurl}}/assets/images/tip/74.gif)
+
 ## Tip of the week #73: Secondary Comparison available in the Table
 In DataMa Compare you have the possibility to compare one variation with another variation, this is what is offered with the "Secondary Comparison". This is useful when you compare for example one period to another and want to highlight this comparison with what happened in the same periods the year before.
 The last release added the "Secondary Comparison" to the Table, now when you activate it a line will be added under each segment corresponding to the variation on this second comparison 😉
