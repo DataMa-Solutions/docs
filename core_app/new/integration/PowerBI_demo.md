@@ -14,7 +14,7 @@ layout: page
 You are here because you are trying the datama extension in PowerBi and you want to know more about how to use it. 
 You have downloaded our demo powerBi dashboard and the set up of a use case sound a big fuzzy for you.
 
-You can read thie [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html), if you better want to understand what the "Compare" extension is doing.  
+You can read this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html), if you better want to understand what the "Compare" extension is doing.  
 
 <br>
 
