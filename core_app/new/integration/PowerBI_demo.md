@@ -31,7 +31,7 @@ Here a the purpose of the dataset :
 
 Don't hesitate to load your own demo to test the extension!
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
+![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBI_DatamaExtension_FirstUseCase.gif)
 
 <br>
 
@@ -52,6 +52,12 @@ Note: By default, Datama will create a [relation]({{site.url}}/{{site.baseurl}}/
 
 <br>
 
+# <b>To know more about the solution?</b>
+
+If Mix effect, Performance effect or Market Equation seems a bit complicated for you, don't hesitate to read our dedicated page:
+- [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
+- [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
+- [Market Equation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) (or Metric Relation)
 <br>
 <br>
 
