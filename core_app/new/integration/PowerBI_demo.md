@@ -5,60 +5,59 @@ layout: page
 ---
 
 
-> Welcome in the documentation of **Datama extension for PowerBI**. This is a great way to make your tableau report more insightful with the benefits of both DataMa and PowerBI.
+> Welcome to the **Datama extension documentation for PowerBI**. Harness the combined strengths of DataMa and PowerBI to make your reports more insightful.
+
 
 <br>
 
 # <b>Why I am here?</b>
 
-You are here because you are trying the datama extension in PowerBi and you want to know more about how to use it. 
-You have downloaded our demo powerBi dashboard and the set up of a use case sound a big fuzzy for you.
+You're here because you're exploring the Datama extension in PowerBi and seeking deeper insights on its usage. If the setup of the demo PowerBI dashboard seems unclear, you're in the right place. 
 
-You can read this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html), if you better want to understand what the "Compare" extension is doing.  
+To get a clearer understanding of what the "Compare" extension does, visit this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html).  
 
-<br>
-
-# <b>What can of Use case can I do with this demo?</b>
-
-We already have uploaded some datasets for you but you can add some more if you need.
-Here a the purpose of the dataset : 
-- **Web Analytics**: funnel conversion analysis - Performance variation between Last Year and This Year.
-- **Retail Performance**: this dataset allow to compare the net margin on a month-over-month basis.
-- **Media Acquisition**: This use case focuses on analyzing media acquisition, specifically examining the effectiveness of various campaigns with respect to their allocated budget
-- **Product AB Test**: this dataset allows to compare difference of performance within a conversion funnel of Variant and Control of an A/B Test
 
 <br>
 
-Don't hesitate to load your own demo to test the extension!
+# <b>What Use Cases Can the Demo Handle?</b>
+
+We've preloaded several datasets for you, but you're welcome to add your own dataset:
+- **Web Analytics**: Funnel conversion analysis highlighting variations between Last Year and This Year.
+- **Retail Performance**: Compare the net margin on a month-over-month basis.
+- **Media Acquisition**: Assess the effectiveness of campaigns over time including performance of media budget allocation.
+- **Product A/B Test**: Evaluate performance variations in the conversion funnel for Variant versus Control in A/B Tests.
+
+<br>
+
+Load your own data if you want to test the extension even further!
 
 ![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBI_DatamaExtension_FirstUseCase.gif)
 
 <br>
 
-# <b>How to set up the DataMa extension?</b>
+# <b>Setting Up the Datama Extension</b>
 
-1. Select Your Dataset: Choose a dataset from the list on the right that aligns with your interests.
-2. Choose Your Metrics: Drag & drop one or multiple metrics from the chosen dataset into the metrics entry of Datama visual.
+1. **Select Your Dataset**: Pick from the list on the right a dataset that meets your interests.
+2. **Choose Your Metrics**: Drag and drop desired metrics from the dataset into the Datama visual metrics entry. 
+    - **Note**: Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
 
-Note: By default, Datama will create a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among the metrics. Ensure they're arranged in the order of a "funnel".
-
-3. Specify the Dimension: Drag & drop your desired dimension into the dimension field of the visual. 
-    1. The first dimension determines how the waterfall is split. For instance: 
-        1. If it's a date, Datama will bisect the period.
-        2. If it's a lengthy list, only the initial two elements are utilized.
-        3. Filters can be applied to adapt your comparison. For advanced dimensions, create a calculated field.
-    2. The rest of dimensions in the field aid our scoring algorithm, determining which one most accurately explains performance variations at each step of your funnel.
-4. Launch and Learn: Once you've configured your settings, click on "Launch demo" for a 2-minute interactive demonstration. If you want to know more, reach out for a more comprehensive experience: solutions@datama.io
+3. **Specify the Dimension**: Drag and drop the dimension of your choice into the visual's dimension field. 
+    - The primary dimension affects how the waterfall is divided. For example: 
+        1. Dates lead Datama to split the period in two.
+        2. Lengthy lists use only the first two items.
+        3. Adjust your comparison with filters. For complex dimensions, establish a calculated field.
+    - The additional dimensions refine our scoring algorithm to pinpoint the most relevant dimension for performance variations in your funnel.
+4. **Launch and Learn**: Post configuration, hit "Launch demo" for a 2-minute interactive tour. For a deeper dive, connect with us at solutions@datama.io.
 
 <br>
 
-# <b>To know more about the solution?</b>
+# <b>Want More Insight into the Solution?</b>
 
-If Mix effect, Performance effect or Market Equation seems a bit complicated for you, don't hesitate to read our dedicated page:
+If "Mix effect", "Performance effect", or "Market Equation" sound intricate, explore our dedicated pages:
 - [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
 - [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
 - [Market Equation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) (or Metric Relation)
 <br>
 <br>
 
-Contact us (solutions@datama.io) if you further want to test the solution or if you want to buy a licence of the extension.
+Reach out to us at [solutions@datama.io](mailto:solutions@datama.io) for further testing or to inquire about licensing options.
