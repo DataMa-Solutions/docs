@@ -4,19 +4,18 @@ description: See the privacy policy of the DataMa applications.
 layout: page
 ---
 
-# Datama PowerBi Extension Privacy Policy
 
-
-## Introduction
+# Introduction
 
 Thank you for choosing Datama's PowerBi Extension. Located at 7 rue Pierre Ginier, 75018 Paris, Datama is devoted to upholding the confidentiality and security of its users. This Privacy Policy provides a transparent outline of our procedures concerning the collection, usage, and sharing of your data when using our PowerBi extension. Engaging with our extension is an implicit agreement to the terms of this Privacy Policy.
 
+# PowerBi Extension Privacy Policy
 
 ## 1. Information Collection
 When you interact with our PowerBi extension, we may gather specific data categories, notably dataframes shared through PowerBi. This data is aggregated, aiding us in ensuring the extension's seamless functionality and tailoring it to serve users better.
 
 
-# 2. User Consent
+## 2. User Consent
 Your active engagement with our extension inherently conveys your consent to our data practices. If you opt to cease using the extension, we respect your decision by ensuring all your associated data is automatically purged within a span of 7 days.
 
 
