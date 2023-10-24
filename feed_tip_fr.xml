@@ -6,7 +6,7 @@ layout: null
     <channel>
         <title>{{ site.title }}</title>
         <link>{{ site.url }}</link>
-        <atom:link href="{{site.url}}/{{site.baseurl}}/{{page.url}}" rel="self" type="application/rss+xml"/>
+        <atom:link href="{{site.url}}/{{site.baseurl}}{{page.url}}" rel="self" type="application/rss+xml"/>
         <description>{{ site.description }}</description>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         {% for post in site.posts %}
@@ -14,19 +14,19 @@ layout: null
         <item>
             <title>{{ post.title }}</title>
             <link>
-                {{site.url}}/{{site.baseurl}}/{{post.url}}
+                {{site.url}}/{{site.baseurl}}{{post.url}}
             </link>
             <description>
                 {{ post.content | escape }}
             </description>
             <image>
-                <url>{{site.url}}/{{site.baseurl}}/{{post.img_url}}</url>
+                <url>{{site.url}}/{{site.baseurl}}{{post.img_url}}</url>
                 <title>{{post.title}}</title>
-                <link>{{site.url}}/{{site.baseurl}}/{{post.url}}</link>
+                <link>{{site.url}}/{{site.baseurl}}{{post.url}}</link>
             </image>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
-                {{site.url}}/{{site.baseurl}}/{{post.url}}
+                {{site.url}}/{{site.baseurl}}{{post.url}}
             </guid>
         </item>
         {% endif %}
