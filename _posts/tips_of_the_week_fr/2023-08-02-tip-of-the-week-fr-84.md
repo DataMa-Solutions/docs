@@ -6,6 +6,7 @@ img_url: /assets/images/tip/84.gif
 img_type: image/gif
 img_width: 600
 img_height: 300
+layout: page
 ---
 
 
