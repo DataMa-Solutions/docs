@@ -11,7 +11,7 @@ description: |
 {% if post.feed == "tip_en" %} 
 <h2>{{ post.title }}</h2>
 {{ post.content }}
-<img src="{{site.url}}/{{site.baseurl}}/{{post.img_url}}" title="{{ post.title }}"/>
+<img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
 {% endif %}
 {% endfor %}
 {% include tip_of_the_week_old.md %}
