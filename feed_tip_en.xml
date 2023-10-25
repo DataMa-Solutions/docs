@@ -12,13 +12,9 @@ layout: null
         {% for post in site.posts %}
         {% if post.feed == "tip_en" %}
         <item>
-            <title>{{ post.title }}</title>
-            <link>
-                {{site.url}}/{{site.baseurl}}{{post.url}}
-            </link>
             <description>
+                [{{post.title}}]({{site.url}}/{{site.baseurl}}{{post.url}})
                 {{ post.content | escape }}
-                <![CDATA[<img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{post.title}}" style="width:{{post.img_width}}px;height:{{post.img_height}}px;"/>]]>
             </description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
