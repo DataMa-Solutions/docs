@@ -13,9 +13,14 @@ layout: null
         {% if post.feed == "tip_en" %}
         <item>
             <description>
-                [{{post.title}}]({{site.url}}/{{site.baseurl}}{{post.url}})
                 {{ post.content | escape }}
             </description>
+            <media:content
+                    url="{{site.url}}/{{site.baseurl}}{{post.img_url}}"
+                    medium="image"
+                    type="{{post.img_type}}"
+                    width="{{post.img_width}}"
+                    height="{{post.img_height}}" />
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
                 {{site.url}}/{{site.baseurl}}{{post.url}}
