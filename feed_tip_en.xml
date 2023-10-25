@@ -19,11 +19,7 @@ layout: null
             <description>
                 {{ post.content | escape }}
             </description>
-            <image>
-                <url>{{site.url}}/{{site.baseurl}}{{post.img_url}}</url>
-                <title>{{post.title}}</title>
-                <link>{{site.url}}/{{site.baseurl}}{{post.url}}</link>
-            </image>
+            <enclosure url="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{post.title}}" type="image/gif" />
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
                 {{site.url}}/{{site.baseurl}}{{post.url}}
