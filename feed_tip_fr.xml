@@ -18,8 +18,8 @@ layout: null
             </link>
             <description>
                 {{ post.content | escape }}
-                <![CDATA[<img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{post.title}}" style="width:{{post.img_width}}px;height:{{post.img_height}}px;"/>]]>
             </description>
+            <enclosure url="{{site.url}}/{{site.baseurl}}{{post.img_url}}" type="{{post.img_type}}" />
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
                 {{site.url}}/{{site.baseurl}}{{post.url}}
