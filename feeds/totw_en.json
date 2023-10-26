@@ -1,11 +1,10 @@
 ---
 ---
 [
-  {% assign lastPost = site.posts | where_exp: "item", "item.feed == 'tip_en'" | first %}
-  {% for post in site.posts %}
-  {% if post.feed == "tip_en" %}
+  {% assign posts = site.posts | where_exp: "item", "item.feed == 'tip_en'" %}
+  {% for post in posts %}
   {
-    {% if lastPost.title == post.title %}
+    {% if forloop.first %}
     "latest": "True",
     {% endif %}
     "title": "{{ post.title | escape }}",
@@ -15,6 +14,5 @@
     "img_type": "{{post.img_type}}",
     "description": "{{ post.content | replace: '"', "'" | replace: '<li>', "* " | strip_newlines | strip_html | strip | escape }}"
   }{% unless forloop.last %},{% endunless %}
-  {% endif %}
   {% endfor %}
 ]
