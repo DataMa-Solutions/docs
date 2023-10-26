@@ -1,0 +1,20 @@
+---
+---
+[
+  {% assign lastPost = site.posts | where_exp: "item", "item.feed == 'tip_en'" | first %}
+  {% for post in site.posts %}
+  {% if post.feed == "tip_en" %}
+  {
+    {% if lastPost.title == post.title %}
+    "latest": "True",
+    {% endif %}
+    "title": "{{ post.title | escape }}",
+    "date": "{{post.date}}",
+    "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
+    "img": "{{site.url}}/{{site.baseurl}}{{post.img_url}}",
+    "img_type": "{{post.img_type}}",
+    "description": "{{ post.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endif %}
+  {% endfor %}
+]
