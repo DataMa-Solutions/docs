@@ -1,9 +1,9 @@
 ---
-feed: uctom
+feed: ucotm
 title:  "💡 Use Case of the Month #4 - Logistic Cost analysis"
 date:   2023-06-01 12:00:00 +0200
 layout: post
-uctom_url : https://www.datama.io/use-case-4-logistics-cost-analysis-in-tableau/
+ucotm_url : https://www.datama.io/use-case-4-logistics-cost-analysis-in-tableau/
 ---
 
 
