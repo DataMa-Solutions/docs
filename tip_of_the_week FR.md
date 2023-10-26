@@ -9,6 +9,34 @@ description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
 
+
+## Tip of the Week 94: Fusionner la  Secondary Comparison
+La semaine dernière on vous parlait des secondary comparison. Dans le cas où l'on est dans la vision "overlay" quand on fait une "Secondary Comparison", il existe deux types de visualisations:
+  * Le premier où chaque segment /période est différent(e), il y a quatre segments A,B,C et D et on se retrouve alors dans la vision superposée avec au premier plan A-B et en arrière plan C-D. C'est le cas classique quand on regarde une variation entre deux mois et qu'on veut les comparer à cette même variation l'année précédente
+  * Le second qui est nouveau et qui permet de combiner les comparaisons, est le format où l'on a deux périodes qui se suivent (dans un format A-B et B-C) dans ce cas DataMa va combiner les deux vues en une seule au premier plan, ce qui donne en une seule vue les deux waterfalls au format continu A-B-C. Il est utile lorsqu'on regarde par exemple trois semaines/mois consécutifs et qu'on veut comparer leur évolution. Il est possible de revenir sur la vue superposée en faisant un clic droit sur une des barres bleues puis en sélectionnant "Unmerge waterfalls on common bars"
+![Tip 94]({{site.url}}/{{site.baseurl}}/assets/images/tip/94.gif)
+
+
+## Tip of the Week 93: Nouveaux affichages de la Secondary Comparison
+Vous utilisez peut être les "secondary comparison" dans DataMa Compare - par exemple pour comparer la variation d'un pays vs. un autre.DataMa affiche alors 2 waterfalls: par défaut l'affichage est en superposé avec au premier plan la première comparaison et en second plan la deuxième.
+Maintenant vous avez la possibilité de changer l'affichage en séparant la deuxième comparaison dans une nouvelle Waterfall qui apparaitra soit à droite, soit en dessous.
+Pour y accéder, il faut faire un clic droit sur un bloc de la Waterfall puis Secondary Comparison et enfin l'option d'affichage que vous souhaitez parmi "Right", "Above" ou "Overlay" 😉
+![Tip 93]({{site.url}}/{{site.baseurl}}/assets/images/tip/93.gif)
+
+
+## Tip of the Week 92: Datama Compare Tree Chart
+Avez-vous vu l'arbre de décision dans Datama Compare ? 🌳
+En cliquant sur le bouton "Tree"  en haut à droite de votre Waterfall, vous pouvez visualiser vos données d'une nouvelle manière, en montrant l'impact de toutes vos dimensions d'un seul coup d'œil 👀
+Cliquez avec le bouton droit de la souris sur une case pour explorer les principaux contributeurs à une dimension et modifier d'autres paramètres 🔧 (notamment le mode d'exploration qui, en passant en mode "Top X", vous permettra de visualiser les plus grands segments contributeurs toutes dimensions confondues)
+![Tip 92]({{site.url}}/{{site.baseurl}}/assets/images/tip/92.gif)
+
+
+## Tip of the Week 91: Connecteur Piano Analytics
+Pour préparer votre donnée dans DataMa, vous avez la possibilité de brancher votre source de donnée et de la transformer dans DataMa Prep.
+De nombreux connecteurs étaient déjà disponibles comme GA4, Facebook Ads, Bigquery ... et maintenant un nouveau connecteur les rejoint: Piano Analytics 🤩
+![Tip 91]({{site.url}}/{{site.baseurl}}/assets/images/tip/91.png)
+
+
 ## Tip of the Week 90: Exploration dans Compare depuis Pivot
 Dans DataMa Pivot, lorsque vous êtes sur le graphique "Importance Chart", vous pouvez chercher à savoir quelles sont les possibilités d'optimisation d'un KPI 🤔
 C'est maintenant possible en cliquant avec le bouton droit de la souris sur une des bulles du graphique en sélectionnant "Compare this", vous pouvez facilement basculer vers DataMa Compare pour expliquer la sur-/sous-performance d'un segment donné par rapport aux autres 🤩
