@@ -1,5 +1,5 @@
 ---
-feed: tip_en
+feed: totw_en
 title:  "Tip of the Week 84: A new version of Waterfall available"
 date:   2023-08-02 10:12:00 +0200
 img_url: /assets/images/tip/84.gif
