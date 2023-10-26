@@ -13,7 +13,7 @@
     "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
     "img": "{{site.url}}/{{site.baseurl}}{{post.img_url}}",
     "img_type": "{{post.img_type}}",
-    "description": "{{ post.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
+    "description": "{{ post.content | replace: '"', "'" | replace: '<li>', "* " | strip_newlines | strip_html | strip | escape }}"
   }{% unless forloop.last %},{% endunless %}
   {% endif %}
   {% endfor %}
