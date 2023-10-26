@@ -11,6 +11,6 @@ layout: post
 
 
 A search shortcut has been introduced on all DataMa pages by pressing CTRL + F. When you do a search 🔍 the results will be divided into the following sections:
-* Settings: (only when you are in a workbook) which allows you to edit a workbook setting⚙️
+* Settings: (only when you are in a workbook) which allows you to edit a workbook setting ⚙️
 * Workbooks: to find your workbooks without going through the home page 📂
 * Documentation: to get links to the documentation 📄
