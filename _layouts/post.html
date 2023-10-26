@@ -33,7 +33,12 @@
     {% include header.html %}
     <h1>{{ page.title }}</h1>
     {{ content }}
+    {% if page.img_url != null %}
     <img src="{{site.url}}/{{site.baseurl}}{{page.img_url}}" title="{{ page.title }}"/>
+    {% endif %}
+    {% if page.uctom_url != null %}
+    Read the full story <a href="{{page.uctom_url}}">here</a>
+    {% endif %}
     {% include footer.html %}
 </main>
 <script src="{{site.url}}/{{site.baseurl}}/assets/js/main.js"></script>
