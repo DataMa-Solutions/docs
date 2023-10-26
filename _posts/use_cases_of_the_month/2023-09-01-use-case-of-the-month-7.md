@@ -1,9 +1,9 @@
 ---
-feed: uctom
+feed: ucotm
 title:  "💡 Use Case of the Month #7 - Conversion Funnel Monitoring"
 date:   2023-09-01 12:00:00 +0200
 layout: post
-uctom_url : https://www.datama.io/use-case-7-conversion-funnel-monitoring/
+ucotm_url : https://www.datama.io/use-case-7-conversion-funnel-monitoring/
 ---
 
 

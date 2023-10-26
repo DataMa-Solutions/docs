@@ -1,7 +1,7 @@
 ---
 ---
 [
-  {% assign posts = site.posts | where_exp: "item", "item.feed == 'uctom'" %}
+  {% assign posts = site.posts | where_exp: "item", "item.feed == 'ucotm'" %}
   {% for post in posts %}
   {
     {% if forloop.first %}
@@ -11,7 +11,7 @@
     "date": "{{post.date}}",
     "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
     "description": "{{ post.content | replace: '"', "'" | replace: '<li>', "* " | strip_newlines | strip_html | strip | escape }}",
-    "uctom_url" : "{{post.uctom_url}}"
+    "ucotm_url", : "{{post.ucotm_url}}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

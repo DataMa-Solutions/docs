@@ -12,10 +12,10 @@ description: |
 > Every month, DataMa publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
 
 {% for post in site.posts %}
-{% if post.feed == "uctom" %}
+{% if post.feed == "ucotm" %}
 <h2>{{ post.title }}</h2>
 {{ post.content }}
-Read the full story <a href="{{post.uctom_url}}">here</a>
+Read the full story <a href="{{post.ucotm_url}}">here</a>
 {% endif %}
 {% endfor %}
 {% include use_cases_of_the_month_old.md %}
