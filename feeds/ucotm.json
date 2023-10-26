@@ -11,7 +11,7 @@
     "date": "{{post.date}}",
     "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
     "description": "{{ post.content | replace: '"', "'" | replace: '<li>', "* " | strip_newlines | strip_html | strip | escape }}",
-    "ucotm_url", : "{{post.ucotm_url}}"
+    "ucotm_url" : "{{post.ucotm_url}}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
