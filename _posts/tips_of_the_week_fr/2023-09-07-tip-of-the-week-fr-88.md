@@ -1,5 +1,5 @@
 ---
-feed: tip_fr
+feed: totw_fr
 title:  "Tip of the Week 88: Raccourci de Recherche CTRL + F"
 date:   2023-09-07 10:12:00 +0200
 img_url: /assets/images/tip/88.gif

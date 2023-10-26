@@ -1,5 +1,5 @@
 ---
-feed: tip_en
+feed: totw_en
 title:  "Tip of the Week 87: New workbook view on the HomePage"
 date:   2023-08-31 10:12:00 +0200
 img_url: /assets/images/tip/87.gif
