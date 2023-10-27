@@ -1,7 +1,7 @@
 ---
 ---
 [
-  {% assign posts = site.posts | where_exp: "item", "item.feed == 'tip_fr'" %}
+  {% assign posts = site.posts | where_exp: "item", "item.feed == 'totw_fr'" %}
   {% for post in posts %}
   {
     {% if forloop.first %}

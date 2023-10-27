@@ -1,5 +1,5 @@
 ---
-feed: tip_fr
+feed: totw_fr
 title:  "Tip of the Week 87: Nouvel Affichage des workbooks sur la HomePage"
 date:   2023-08-31 10:12:00 +0200
 img_url: /assets/images/tip/87.gif
