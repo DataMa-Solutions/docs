@@ -10,7 +10,7 @@ layout: null
         <description>{{ site.description }}</description>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         {% for post in site.posts %}
-        {% if post.feed == "tip_en" %}
+        {% if post.feed == "totw_fr" %}
         <item>
             <title>{{ post.title }}</title>
             <link>

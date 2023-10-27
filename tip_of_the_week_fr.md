@@ -1,14 +1,14 @@
 ---
 title: Tips of the week ! In French
 layout: feed
-feed_name: tip_fr
+feed_name: totw_fr
 description: |
   Tips & tricks sur DataMa, mais en français 🐓
 ---
-> Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
+> Chaque semaine, DataMa publie un conseil ou une astuce sur la manière de tirer le meilleur parti du logiciel.
 
 {% for post in site.posts %}
-{% if post.feed == "tip_fr" %}
+{% if post.feed == "totw_fr" %}
 <h2>{{ post.title }}</h2>
 {{ post.content }}
 <img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>

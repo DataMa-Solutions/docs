@@ -1,5 +1,5 @@
 ---
-feed: tip_en
+feed: totw_en
 title:  "Tip of the Week 85: Redesign of the Settings menu"
 date:   2023-08-03 10:12:00 +0200
 img_url: /assets/images/tip/85.gif
