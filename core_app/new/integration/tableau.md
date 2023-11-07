@@ -65,13 +65,16 @@ Here is an example of a source from the same dataset as above.
 ## If you are a DataMa Client
 
 * Enter your licence key by clicking on the appropriate link (or top right corner "..." then "Configure"). Your licence key is available on [DataMa Platform](https://app.datama.io) under "Security" page on the home page. Ask your customer success manager if you don't see a licence key here.
-* Set up additional settings if need be: if default settings doesn't suit your use case (e.g. you have a custom market equation or you want to refine model settings), you can refine those settings as for any other DataMa use case
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/licence_key_tableau.png"/></center>
+* Set up additional settings if need be: if default settings doesn't suit your use case (e.g. you have a custom market equation or you want to refine model settings), you can refine those settings as for any other DataMa use case    
     * Click on the top right "..." and then "Configure" and give a name to your workbook
-    * At the bottom of the page, click "open in full app"
+    * At the bottom of the page, click "open in full app" (Note: by doing so, you will save a new workbook on your account under the "From Extension" file)
     * Enter your normal login/password DataMa credentials
-    * Define your advanced settings in the workbook
-    * Save the workbook
+    * Define your advanced settings in the workbook as you like
+    * Save the workbook 💾
     * Click "Exit full app" at the bottom right of the screen to return to the simplified screen 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/open_full_app.png"/></center>
+
 
 # 4. Publish your workbook
 
