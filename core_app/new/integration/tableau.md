@@ -80,3 +80,5 @@ Here is an example of a source from the same dataset as above.
 
 You can then upload publish your Dashboard embedding DataMa in Tableau Server or Tableau online so that anyone in your organisation can access DataMa's insights.
 Just make sure that the Tableau admin authorize DataMa's extension to be published on your organisation. 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/Tableau_gif.gif"/></center>
