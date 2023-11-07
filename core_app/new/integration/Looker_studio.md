@@ -1,11 +1,11 @@
 ---
 title: Looker Studio extension
-description: Using DataMa Solutions as a Looker Studio extension is a great way to make your tableau report more insightful with the benefits of both DataMa and Looker Studio.
+description: Using DataMa Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both DataMa and Looker Studio.
 layout: page
 ---
 
 
-> Using DataMa Solutions as a **Looker Studio extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and Looker Studio.
+> Using DataMa Solutions as a **Looker Studio extension** is a great way to make your report more insightful with the benefits of both DataMa and Looker Studio.
 
 <br>
 
