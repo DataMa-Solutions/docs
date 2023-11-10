@@ -2,6 +2,7 @@
 title: Sunburst difference
 description: This view is only available when Compare mode toggle is activated on DataMa Journey.
 layout: page
+scope: shiny
 ---
 
 This view is only available when Compare mode toggle is activated on DataMa Journey

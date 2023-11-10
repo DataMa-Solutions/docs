@@ -2,6 +2,7 @@
 title: Mix effect
 description: See the mix effect with an example
 layout: page
+scope: shiny
 ---
 
 ## In the Web App

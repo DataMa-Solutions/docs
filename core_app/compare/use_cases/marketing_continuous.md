@@ -1,3 +1,9 @@
+---
+title: Marketing Campaign – Continuous dimensions
+description: This page details the **« Marketing Campaign – Continuous dimensions »**  example in our [demo](https://solutions.datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Marketing Campaign – Continuous dimensions
 
 > This page details our  **« Marketing Campaign – Continous dimensions»**  example in our [demo](https://solutions.datama.fr/) solution.

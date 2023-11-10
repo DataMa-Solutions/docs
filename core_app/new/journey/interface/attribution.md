@@ -2,6 +2,7 @@
 title: Attribution
 description: Attribution is a group of 5 tabs. See articles below for details on each tab.
 layout: page
+scope: app
 ---
 
 <br>

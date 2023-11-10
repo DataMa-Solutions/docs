@@ -2,6 +2,7 @@
 title: Dimensions (Mix & Perf)
 description: Dimensions and metrics are the two elements coming from your data that allow DataMa COMPARE to properly work.
 layout: page
+scope: app
 ---
 
 > **Dimensions and metrics** are the two elements coming from your data that allow **DataMa COMPARE** to properly work.

@@ -2,6 +2,7 @@
 title: Funnel
 description: This new Tab in DataMa COMPARE replaces what was originally the Table tab.
 layout: page
+scope: shiny
 ---
 
 This new Tab in DataMa COMPARE replaces what was originally the Table tab.

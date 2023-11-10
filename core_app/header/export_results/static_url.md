@@ -2,6 +2,7 @@
 title: Export as a static URL
 description: DataMa outcomes can be extracted as a secured URL and embedded in different tools (Tableau, Data Studio, web browser,…).
 layout: page
+scope: shiny
 ---
 
 > DataMa outcomes can be extracted as a secured URL and embedded in different tools (Tableau, Data Studio, web browser,…)

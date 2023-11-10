@@ -2,6 +2,7 @@
 title: Table
 description: The Table Tab is the calculation made to represent the Dimension comparison Tab.
 layout: page
+scope: shiny
 ---
 
 > The **Table Tab** is the calculation made to represent the Dimension comparison Tab

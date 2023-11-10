@@ -2,6 +2,7 @@
 title: Moves
 description: In the Detailed View the graph « Moves » represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
 layout: page
+scope: shiny
 ---
 
 > In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
