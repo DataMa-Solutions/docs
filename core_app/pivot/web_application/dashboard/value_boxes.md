@@ -2,6 +2,7 @@
 title: Value boxes
 description: Value boxes intends to give you an executive summary of your analysis. It is split in 3 boxes.
 layout: page
+scope: shiny
 ---
 
 > Value boxes intends to give you an **executive summary of your analysis**. It is split in 3 boxes

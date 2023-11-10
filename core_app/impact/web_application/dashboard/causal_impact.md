@@ -2,6 +2,7 @@
 title: Causal Impact
 description: Inferring the causal impact of a change on a test group in a time serie
 layout: page
+scope: shiny
 ---
 Causal Impact test allows to assess the significance of a variation **pre-post an intervention on a test group**.
 

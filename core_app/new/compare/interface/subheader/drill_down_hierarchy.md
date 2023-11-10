@@ -2,6 +2,7 @@
 title: Drill down hierarchy
 description: Edit main drill down hierarchy for comparison by Steps or Dimension first
 layout: page
+scope: app
 ---
 
 > Drill down hierarchy is in beta 🧪 right now and unactivated by default. Please send us any feedback to get this improved!

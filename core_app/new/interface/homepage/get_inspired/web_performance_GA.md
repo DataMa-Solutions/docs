@@ -2,6 +2,7 @@
 title: Web performance – Google Analytics
 description: This use case is a basic example of a conversion funnel used on an eCommerce Website. This example is for the Google Analytics of the Google Store website, which sells branded merchandise.
 layout: page
+scope: app
 ---
 
 This use case is a basic example of a conversion funnel used on an eCommerce Website. This example is for the Google Analytics of the Google Store website, which sells branded merchandise.

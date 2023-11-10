@@ -2,6 +2,7 @@
 title: Filters
 description: Find here how you can use the filtes in DataMa
 layout: page
+scope: app
 ---
 
 > Find here how you can use **Filters**

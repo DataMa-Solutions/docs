@@ -2,6 +2,7 @@
 title: Save
 description: Documentation about save in Datama
 layout: page
+scope: shiny
 ---
 
 In the admin header, by clicking the Save icon you can access the **save menu**.

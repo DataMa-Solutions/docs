@@ -2,6 +2,7 @@
 title: Compare (Sub)Header
 description: The header in DataMa Compare helps you manipulate and refine your Use Cases
 layout: page
+scope: app
 ---
 
 

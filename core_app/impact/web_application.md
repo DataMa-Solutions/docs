@@ -2,6 +2,7 @@
 title: Web application
 description: Description of the DataMa Impact interface.
 layout: page
+scope: shiny
 ---
 
 The interface is split in three main parts:

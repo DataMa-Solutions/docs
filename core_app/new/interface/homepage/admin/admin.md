@@ -2,6 +2,7 @@
 title: Homepage - Admin
 description: On this page, find details on the Admin section of the homepage
 layout: page
+scope: app
 ---
 
 >On this page, find details on the **Admin** section of the homepage
