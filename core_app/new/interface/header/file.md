@@ -2,6 +2,7 @@
 title: File
 description: Find out how you can use the "File" menu of the header of the DataMa Solutions
 layout: page
+scope: app
 ---
 
 > Find out how you can use **the File** menu of the header of the Solution**

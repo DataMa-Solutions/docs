@@ -1,3 +1,9 @@
+---
+title: Marketing Campaign – Scope
+description: This page details the **« Marketing Campaign – Scope »**  example in our [demo](https://solutions.datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Marketing Campaign – Scope
 
 > This page details the **« Marketing Campaign – Scope»**  example in our [demo](https://solutions.datama.fr/) solution.

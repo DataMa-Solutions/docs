@@ -2,6 +2,7 @@
 title: Alteryx extension
 description: DataMa can be run as a Alteryx plugin, to use both the R library and the Shiny web app in an Alteryx environment.
 layout: page
+scope: shiny
 ---
 
 > DataMa can be run as a **Alteryx plugin**, to use both the R library and the Shiny web app in an Alteryx environment.

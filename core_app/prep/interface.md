@@ -2,6 +2,7 @@
 title: Structure of Prep
 description: Get it started with DataMa Prep solution's structure
 layout: page
+scope: shiny
 ---
 
 **DataMa PREP is a data aggregation tool that allows you to prepare your dataset and enrich your flow before analyzing it.**

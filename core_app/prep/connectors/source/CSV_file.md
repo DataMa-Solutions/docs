@@ -2,6 +2,7 @@
 title: CSV file
 description: DataMa Prep include a csv files connector allowing to you to use your local data.
 layout: page
+scope: shiny
 ---
 
 **You can plug your CSV files in DataMa PREP.**

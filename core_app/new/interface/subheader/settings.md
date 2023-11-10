@@ -2,6 +2,7 @@
 title: Settings
 description: Find here how to use the **Settings**
 layout: page
+scope: app
 ---
 
 > Find here how to use the **Settings**

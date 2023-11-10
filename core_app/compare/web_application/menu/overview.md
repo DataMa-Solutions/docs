@@ -2,6 +2,7 @@
 title: Overview
 description: Start & End overview is the representation of each segment performance of the selected dimension.
 layout: page
+scope: shiny
 ---
 
 > **Start & End overview** is the representation of each segment performance of the selected dimension.

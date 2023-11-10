@@ -2,6 +2,7 @@
 title: Prep's sample
 description: Get information about the DataMa Prep sample informations
 layout: page
+scope: shiny
 ---
 
 > **Sample part of DataMa Prep solution can be open in order to have a preview of how your dataset currently look**

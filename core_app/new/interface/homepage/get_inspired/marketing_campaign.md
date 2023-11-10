@@ -2,6 +2,7 @@
 title: Marketing Campaign
 description: This use case is a basic example of conversion funnel used for an email campaign. In that case DataMa Compare will help to compare 2 different campaign and identify the performance at each step of the two campaigns and understand from which element is mainly due this difference between each campaign.
 layout: page
+scope: app
 ---
 
 > Find below information about the **« Marketing – Campaign »**  example in our [demo](https://solutions.datama.fr/) solution.

@@ -2,6 +2,7 @@
 title: Pivot - Interface
 description: Understand what is in the Dashboard panel of DataMa PIVOT
 layout: page
+scope: app
 ---
 
 > Understand what is in the interface of **DataMa PIVOT**

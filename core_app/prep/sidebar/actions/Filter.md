@@ -2,6 +2,7 @@
 title: Filter
 description: Find information about filtering action on DataMa Prep
 layout: page
+scope: shiny
 ---
 
 **Filter action allow you to filter data in columns.**

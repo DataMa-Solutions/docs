@@ -2,6 +2,7 @@
 title: Detailed View
 description: Detailed View is a group of 4 tabs. See below articles for details on each tab.
 layout: page
+scope: shiny
 ---
 
 ![detailed view]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/images/detailed_view.png)

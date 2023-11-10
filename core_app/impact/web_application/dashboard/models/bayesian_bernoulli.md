@@ -2,6 +2,7 @@
 title: Bayesian Bernoulli
 description: In the bayesian Bernoulli approach, the outcome has to be binary (e.g. Purchase). As long as this is true, any aggregation of the data can be used.
 layout: page
+scope: shiny
 ---
 
 In the bayesian Bernoulli approach, the outcome has to be binary (e.g. Purchase). As long as this is true, any aggregation of the data can be used.

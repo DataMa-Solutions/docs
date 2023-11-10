@@ -2,6 +2,7 @@
 title: Covariance
 description: Basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
 layout: page
+scope: app
 ---
 
 > <b>Covariance</b>, is basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.

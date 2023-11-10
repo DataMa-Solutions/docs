@@ -2,6 +2,7 @@
 title: DataMa Detect
 description: DataMa DETECT aims at evaluating over time the normality of a variation.
 layout: page
+scope: app
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Detect_icon.jpg" alt="logo detect" /></center>

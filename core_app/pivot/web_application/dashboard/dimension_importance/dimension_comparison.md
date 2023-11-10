@@ -2,6 +2,7 @@
 title: Dimension comparison
 description: The dimension comparison is the first element of DataMa PIVOT interface. It sorts all the dimension by importance from left to right.
 layout: page
+scope: shiny
 ---
 
 The dimension comparison is the first element of DataMa PIVOT interface. It sorts all the dimension by importance from left to right, regarding the KPI your are following (see *Definitions* in the left menu).
