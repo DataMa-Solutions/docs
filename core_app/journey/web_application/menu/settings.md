@@ -2,6 +2,7 @@
 title: Settings
 description: DataMa Journey include a series of parameters in the left menu, that you may have to use to refine or better visualise your analysis.
 layout: page
+scope: shiny
 ---
 
 DataMa Journey include a series of parameters in the left menu, that you may have to use to refine or better visualise your analysis.

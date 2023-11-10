@@ -2,6 +2,7 @@
 title: Dimension Helper
 description: Find here how you can use the Dimension helper overview
 layout: page
+scope: app
 ---
 
 > Find here how you can use **the Dimension helper** overview of the solution**

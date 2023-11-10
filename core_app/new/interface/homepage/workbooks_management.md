@@ -2,6 +2,7 @@
 title: Workbook Management
 description: In this chapter, see details on how to use the Folders of your account
 layout: page
+scope: app
 ---
 
 > This chapter explains how to use the "folders" in the DataMa solution to manage your workbooks.

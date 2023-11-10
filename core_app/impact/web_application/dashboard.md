@@ -2,6 +2,7 @@
 title: Dashboard
 description: Understand what is in the Dashboard panel of DataMa IMPACT.
 layout: page
+scope: shiny
 ---
 
 > Understand what is in the **Dashboard panel** of DataMa IMPACT

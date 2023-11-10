@@ -2,6 +2,7 @@
 title: Settings
 description: DataMa Pivot include a series of parameters in the left menu, that you may have to use to refine or better visualise your analysis.
 layout: page
+scope: shiny
 ---
 
 DataMa Pivot include a series of parameters in the left menu, that you may have to use to refine or better visualise your analysis.

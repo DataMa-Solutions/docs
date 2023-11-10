@@ -2,6 +2,7 @@
 title: Prep - Save your flow
 description: Find information about how to save your flow
 layout: page
+scope: shiny
 ---
 
 > **Find information about how to save your flow**

@@ -2,6 +2,7 @@
 title: Export
 description: Find here how you can export your analysis
 layout: page
+scope: app
 ---
 
 > Find here how you can **export** your analysis

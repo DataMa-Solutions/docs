@@ -2,6 +2,7 @@
 title: Summary view
 description: Shows the main information on how the dimension contributes to the variation of the performance between start and end in a given step.
 layout: page
+scope: shiny
 ---
 
 The **summary view** shows the main information on how the dimension contributes to the variation of the performance between start and end in a given step. Each step is split in three: Mix effect (1) main performance effect (2), and remaining (3).

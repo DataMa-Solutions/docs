@@ -2,6 +2,7 @@
 title: New documentation
 description: Welcome in the documentation of the New DataMa version released in January 2023.
 layout: page
+scope: shiny
 ---
 
 > **Welcome in the documentation of the New DataMa version released in January 2023.**

@@ -2,6 +2,7 @@
 title: Export to Power BI
 description: DataMa Compare Power BI template below allows you to visualize the output in Power BI.
 layout: page
+scope: shiny
 ---
 
 > DataMa Compare Power BI template below allows you to **visualize the output in Power BI**.

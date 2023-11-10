@@ -2,6 +2,7 @@
 title: DataMa Prep
 description: DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.
 layout: page
+scope: shiny
 ---
 
 > **DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.**

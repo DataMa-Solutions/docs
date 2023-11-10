@@ -2,6 +2,7 @@
 title: Forecasting
 description: Used with time series to compare realized values against forecasted values.
 layout: page
+scope: shiny
 ---
 
 Used with time series to compare realized values against forecasted values.

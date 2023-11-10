@@ -2,6 +2,7 @@
 title: TERMS OF SERVICE
 description: See the terms of service of the DataMa applications.
 layout: page
+scope: app
 ---
 
 Thank you for signing up for an account with DataMa  Solutions, property of  DataMa SAS, a company incorporated in France, having its registered office at 20bis rue Louis-Philippe, 92200 Neuilly-Sur-Seine, FRANCE, registered established under the laws of France under the number 832 573 281, taking into the person of his legal representative, Mr. Guillaume DE BÉNAZÉ;

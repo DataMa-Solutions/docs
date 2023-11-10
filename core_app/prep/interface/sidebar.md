@@ -2,6 +2,7 @@
 title: Sidebar
 description: Prep's sidebar is where you can easily add new source to your dataflow.
 layout: page
+scope: shiny
 ---
 
 If you click on the "Play" button, you can see the results of your analysis and update your final file.

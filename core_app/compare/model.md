@@ -2,6 +2,7 @@
 title: Model
 description: Overall model is split in 3 steps, that are the back bone of DataMa Compare.
 layout: page
+scope: shiny
 ---
 
 > Overall **model** is split in 3 steps, that are the back bone of DataMa Compare

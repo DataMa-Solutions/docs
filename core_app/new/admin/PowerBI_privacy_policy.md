@@ -2,6 +2,7 @@
 title: Datama PowerBi Extension Privacy Policy
 description: See the privacy policy of the DataMa applications.
 layout: page
+scope: app
 ---
 
 

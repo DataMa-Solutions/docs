@@ -2,6 +2,7 @@
 title: Pareto
 description: The Pareto tab is a graph allowing you to the first 10 journeys contributing to a selected metric, and the share of total metric that it represent, as well as the cumulated share of selected metric of top X journeys.
 layout: page
+scope: shiny
 ---
 
 The Pareto tab is a graph allowing you to the first 10 journeys contributing to a selected metric, and the share of total metric that it represent, as well as the cumulated share of selected metric of top X journeys.

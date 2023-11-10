@@ -2,6 +2,7 @@
 title: Table
 description: Table is gathering all the figures that helps to understand step variation and dimensions impact 
 layout: page
+scope: app
 ---
 
 > Table is gathering all the figures that helps to understand step variation and dimensions impact.
