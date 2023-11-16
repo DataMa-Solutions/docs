@@ -14,7 +14,8 @@ Here is the main elements to find in DataMa PIVOT:
 - [MariMekko](#marimekko)
 - [Sankey Diagram](#sankey-diagram)
 - [Simple Test Matrix](#simple-test-matrix)
-- Coming soon: [Decision Tree](#decision-tree)
+- [Decision Tree](#decision-tree)
+- [Market equation tree](#market-equation-tree)
 
 <br><br>
 
@@ -91,8 +92,6 @@ These figures are the percentage of correlation.When you click on one of the fig
 
 ## <b>Decision Tree</b>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
-
 
 The decision tree is based on a Rpart model (Recursive Partitioning and Regression Trees)
 Helps you identify the optimal characteristic of the sample that has the best performance. This decision tree helps you understand your dimensions and the importance they have explaining your performance.
@@ -105,5 +104,19 @@ In the box, see on the top the value of the KPI for the concerned population and
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree.png" style="width:650px; height:auto;"/></center>
 
+Here is what it looks like in Pivot:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree_new.png" style="width:650px; height:auto;"/></center>
 
 <br>
+
+## <b>Market equation Tree</b>
+
+The market equation tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations.
+It is therefore available when you select "Check all metric relation steps".
+
+Steps of the market equation tree are ordered according to the importance they have on the KPI. The units appear if you specify them in the metrics relations.
+
+By default, the most interesting dimension for each step is displayed first, you can of course change the display by right-clicking on the tree. The segments are sorted by their value compared to the mean.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>
