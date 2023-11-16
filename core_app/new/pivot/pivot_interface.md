@@ -94,7 +94,7 @@ These figures are the percentage of correlation.When you click on one of the fig
 
 
 The decision tree is based on a Rpart model (Recursive Partitioning and Regression Trees)
-Helps you identify the optimal characteristic of the sample that has the best performance. This decision tree helps you understand your dimensions and the importance they have explaining your performance.
+It helps you identify the optimal characteristic of the sample that has the best performance. This decision tree helps you understand your dimensions and the importance they have in the explanation of your performance.
 The figures in the square is the average KPI for this specific population and the percentage is the ratio of the population having this characteristic.
 
 
