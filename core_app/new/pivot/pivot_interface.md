@@ -112,11 +112,18 @@ Here is what it looks like in Pivot:
 
 ## <b>Market equation Tree</b>
 
-The market equation tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations.
-It is therefore available when you select "Check all metric relation steps".
-
-Steps of the market equation tree are ordered according to the importance they have on the KPI. The units appear if you specify them in the metrics relations.
-
-By default, the most interesting dimension for each step is displayed first, you can of course change the display by right-clicking on the tree. The segments are sorted by their value compared to the mean.
+The market equation tree is available when you select "Check all metric relation steps".
+This tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations, then on your dimensions, and finally on your segments. 
+The units appear if you specify them in the metrics relations. Here is what it looks like:
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>
+
+Steps of the market equation tree are ordered according to the importance they have on the KPI. The importance of of a step is a criteria you can choose in the settings of Pivot sidebar. There are different options: Value, Standard deviation and Auto.
+
+- **Value** : No mtter what the units are, the higher the value, the higher the importance.
+- **Standard deviation** : No matter what the units are, the standard deviation of the step, the higher the importance.
+- **Auto** : If all your steps have the same unit, their importance is based on the Value. If some steps don't have the same unit, the steps that are not ratios are compared by Standard deviation. If all your steps are not ratios, then they are compared by standard deviation.
+
+By default, the most interesting dimension for each step is displayed first, you can of course change the display by right-clicking on the tree.
+
+For each step, the mean of each dimension is computed, and the segments are sorted by their value compared to the mean, whether it is above or below the average.
