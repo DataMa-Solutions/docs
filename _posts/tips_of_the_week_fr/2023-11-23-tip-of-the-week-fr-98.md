@@ -14,5 +14,6 @@ layout: post
 1. Sélectionnez le Bloc Source que vous voulez dupliquer.
 2. Cliquez sur les Trois Petits Points "..." situés sur le bloc source.
 3. Choisissez "Duplicate this block" 📚: En un clic, créez une copie exacte de votre bloc, avec tous les paramètres déjà configurés.
+
 ✨ Pourquoi c'est pratique ? Imaginez : vous avez un bloc GA4 configuré pour le mois dernier. Avec la duplication, créez facilement une version pour l'année dernière. Gain de temps et efficacité assurés !
 Profitez-en dès maintenant et boostez votre productivité avec Prep ! 😉
