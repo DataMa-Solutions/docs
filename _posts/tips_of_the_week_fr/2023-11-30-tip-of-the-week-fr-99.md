@@ -1,6 +1,6 @@
 ---
 feed: totw_fr
-title:  "Tip of the Week 99: Download your Prep data in Excel format"
+title:  "Tip of the Week 99: Télécharger votre donnée Prep au format Excel"
 date:   2023-11-30 10:12:00 +0200
 img_url: /assets/images/tip/99.gif
 img_type: image/gif
