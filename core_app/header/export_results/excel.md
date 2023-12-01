@@ -2,6 +2,7 @@
 title: Export as Excel
 description: In this section you will find how to export results as an Excel file
 layout: page
+scope: shiny
 ---
 
 > In this section you will find how to export results as an **Excel file**

@@ -1,3 +1,9 @@
+---
+title: Create new use case
+description: In this section you will find how to create a new use case
+layout: page
+scope: shiny
+---
 # Create new use case
 
 > The **Create new use case** menu allows to change the data source.

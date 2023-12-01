@@ -2,6 +2,7 @@
 title: Detect - interface
 description: DataMa DETECT aims at evaluating over time the normality of a variation.
 layout: page
+scope: app
 ---
 
 > DataMa DETECT aims at evaluating over time the normality of a variation.

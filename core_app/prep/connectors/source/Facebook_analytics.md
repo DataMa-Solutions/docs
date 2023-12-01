@@ -2,6 +2,7 @@
 title: Facebook Analytics
 description: DataMa Prep include a FB connector.
 layout: page
+scope: shiny
 ---
 
 **You can upload your Facebook Analytics datasets in DataMa PREP.**

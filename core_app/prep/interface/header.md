@@ -2,6 +2,7 @@
 title: Prep's header
 description: Get information about the DataMa Prep header functionalities
 layout: page
+scope: shiny
 ---
 
 <br>

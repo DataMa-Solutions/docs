@@ -2,6 +2,7 @@
 title: Homepage
 description: See in this chapter details how to use the homepage of your account
 layout: page
+scope: app
 ---
 
 > In this chapter, see details on how to use the **Homepage**  of the DataMa solution

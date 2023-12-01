@@ -2,6 +2,7 @@
 title: Prep - Output
 description: This section helps you to prepare your data to be analysed in the Output block
 layout: page
+scope: app
 ---
 
 <br>

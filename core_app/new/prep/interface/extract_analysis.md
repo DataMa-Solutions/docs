@@ -2,6 +2,7 @@
 title: Prep - Export Analysis
 description: This section helps you automatise the export of your analysis
 layout: page
+scope: app
 ---
 <br>
 

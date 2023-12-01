@@ -2,6 +2,7 @@
 title: DataIku extension
 description: DataMa can be run as a DataIku plugin
 layout: page
+scope: shiny
 ---
 
 > DataMa can be run as a DataIku plugin (see https://www.dataiku.com/product/plugins/)
