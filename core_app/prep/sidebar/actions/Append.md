@@ -2,6 +2,7 @@
 title: Append action
 description: Append action allow you to merge two source flow in one.
 layout: page
+scope: shiny
 ---
 
 **Append action allow you to merge two source flow in one.**

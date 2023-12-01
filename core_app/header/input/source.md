@@ -2,6 +2,7 @@
 title: Source
 description: This section identify the type of data you should load
 layout: page
+scope: shiny
 ---
 
 > This section identify the **type of data** you should load

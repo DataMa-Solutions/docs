@@ -2,6 +2,7 @@
 title: Smart dimension
 description: The Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation.
 layout: page
+scope: shiny
 ---
 
 For each step of the waterfall analysis, the *Smart dimension* identifies the combination of dimensions which is most relevant in explaining performance variation. It comes in addition to the *Combined dimension* which crosses all dimensions.

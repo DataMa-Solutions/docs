@@ -2,6 +2,7 @@
 title: Create new use case
 description: The Create new use case menu allows to change the data source.
 layout: page
+scope: shiny
 ---
 
 > The **Create new use case** menu allows to change the data source.

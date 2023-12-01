@@ -2,6 +2,7 @@
 title: CSV file
 description: In this section you will find how to load your **CSV file
 layout: page
+scope: shiny
 ---
 
 > In this section you will find how to load your **CSV file**

@@ -2,6 +2,7 @@
 title: Media Acquisition Analysis
 description: This use case focuses on analyzing media acquisition data for digital marketing campaigns
 layout: page
+scope: app
 ---
 > This use case focuses on analyzing **media acquisition** data for digital marketing campaigns
 

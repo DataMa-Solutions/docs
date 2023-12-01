@@ -2,6 +2,7 @@
 title: Use cases examples
 description: See en example of how to change use case.
 layout: page
+scope: shiny
 ---
 
 Please check all live examples on [solutions.datama.fr](https://solutions.datama.fr) !

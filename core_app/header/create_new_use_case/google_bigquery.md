@@ -1,3 +1,9 @@
+---
+title: Google Big Query
+description: In this section you will find how to load your BigQuery data
+layout: page
+scope: shiny
+---
 # Google BigQuery Connector
 
 > In this section you will find how to load your **BigQuery queries from your Google Account**

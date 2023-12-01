@@ -2,6 +2,7 @@
 title: Get inspired
 description: DataMa Solutions can be used to help you take the right dataset on any type of use cases and related dataset.
 layout: page
+scope: shiny
 ---
 
 DataMa Solutions can be used to help you take the right dataset on any type of use cases and related dataset.

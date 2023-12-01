@@ -2,6 +2,7 @@
 title: Chart
 description : Description of the chart in waterfall
 layout: page
+scope: shiny
 ---
 
 ![chart]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/images/waterfall.png)

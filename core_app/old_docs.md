@@ -2,6 +2,7 @@
 title: Old documentation
 description: Welcome in the documentation of our old version of DataMa Solutions.
 layout: page
+scope: shiny
 ---
 
 > **This documentation aims to explain and present the current version of DataMa Solution**

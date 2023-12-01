@@ -2,6 +2,7 @@
 title: Header
 description: See in this chapter details how to use the homepage header of your account
 layout: page
+scope: app
 ---
 
 > See in this chapter details how to use the **Header** of the homepage

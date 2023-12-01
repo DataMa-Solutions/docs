@@ -2,6 +2,7 @@
 title: Subheader
 description: Find here how you can use the subheader of the DataMa Solutions
 layout: page
+scope: app
 ---
 
 > Find here how you can use **the subheader** of the Solution**

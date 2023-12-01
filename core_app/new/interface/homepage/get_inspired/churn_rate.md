@@ -2,6 +2,7 @@
 title: Churn rate Comparison analysis
 description: This use case presents a churn rate comparison analysis from last year to this year
 layout: page
+scope: app
 ---
 > This use case presents a **churn rate** comparison analysis from last year to this year
 

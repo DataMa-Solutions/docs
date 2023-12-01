@@ -2,6 +2,7 @@
 title: Loaded version
 description: access any of your saved Use Case
 layout: page
+scope: shiny
 ---
 
 > By using Loaded Version menu you can **access any of your saved Use Case**.
