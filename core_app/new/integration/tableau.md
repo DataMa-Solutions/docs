@@ -59,8 +59,10 @@ Here is an example of a source from the same dataset as above.
 
 ## If you are new to DataMa
 
+* (OPTIONAL - if you have multiple worksheets in the same dashboard: make sure Datama is sourcing on the right worksheet by selecting the worksheet under the "Source settings" menu in the Configure panel which you can open through the top right corner "..." button) 
 * Click "Launch Trial" to get a free trial limited in time. 
 * Enter your email when prompted to get a 2 weeks trial period for free
+
 
 ## If you are a DataMa Client
 
