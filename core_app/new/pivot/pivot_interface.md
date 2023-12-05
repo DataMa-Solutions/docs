@@ -122,6 +122,4 @@ The units appear if you specify them in the metrics relations. Here is what it l
 
 Steps of the market equation tree are ordered according to the importance they have on the KPI. The importance of a step is a criteria you can choose in the settings of Pivot subheader. The options are detailed in the settings of Step interest criteria.
 
-
-
 For each step, the mean of each dimension is computed, and the segments are sorted by their value compared to the mean, whether it is above or below the average.

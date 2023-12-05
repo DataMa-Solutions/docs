@@ -81,6 +81,14 @@ In DataMa Pivot, there is only one ratio to be defined to run the module. This r
 
 <br/>
 
+## Inspect numerator only
+
+When the toggle is checked, Pivot is focusing on the numerator of the step you are currently exploring.
+
+## Analyse all metrics relation steps
+
+When the toggle is checked, it displays the Market equation tree slide. You can not activate Inspect numerator only in the same time.
+
 ## Step interest criteria
 
 There are different options: Value, Standard deviation and Auto.
@@ -93,4 +101,4 @@ By default, the most interesting dimension for each step is displayed first, you
 
 ## Analysis depth
 
-WIP
+The comments summing up the market equation tree have different degrees of analysis. There are 4 different options: Low, Medium, High and Max, each option giving more details than the previous one.
