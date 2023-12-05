@@ -24,6 +24,13 @@ scope: app
 - [KPI](#kpi) (Metric Relation)
 
 <br>
+<b>Metric relation analysis:<b><br>
+- [Inspect numerator only](#inspect-numerator-only)
+- [Analyse all metrics relation steps](#analyse-all-metrics-relation-steps)
+- [Step interest criteria](#step-interest-criteria)
+- [Analysis depth](#analysis-depth)
+
+<br>
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.jpg">
 
@@ -87,7 +94,7 @@ When the toggle is checked, Pivot is focusing on the numerator of the step you a
 
 ## Analyse all metrics relation steps
 
-When the toggle is checked, it displays the Market equation tree slide. You can not activate Inspect numerator only in the same time.
+DataMa Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
 
 ## Step interest criteria
 
