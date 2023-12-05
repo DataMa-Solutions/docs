@@ -120,6 +120,8 @@ The units appear if you specify them in the metrics relations. Here is what it l
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>    # TO UPDATE
 
 
-Steps of the market equation tree are ordered according to the importance they have on the KPI. The importance of a step is a criteria you can choose in the settings of Pivot subheader. The options are detailed in the settings of Step interest criteria.
+Steps of the market equation tree are ordered according to the importance they have on the KPI. The importance of a step is a [criteria]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#step-interest-criteria) you can choose in the settings of Pivot subheader. The options are detailed in the settings of Step interest criteria.
 
 For each step, the mean of each dimension is computed, and the segments are sorted by their value compared to the mean, whether it is above or below the average.
+
+The _Comments_ section sums up the most interesting parts of the tree with a level of analysis that can be changed in [analysis depth]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analysis-depth)
