@@ -114,7 +114,9 @@ Here is what it looks like in Pivot:
 
 The market equation tree is available when you select [Analyse all metrics relation steps]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analyse-all-metrics-relation-steps).
 This tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations, then on your dimensions, and finally on your segments. 
-You can specify your KPIs units in the metrics relations. Here is what it looks like:
+You can specify your KPIs units in the metrics relations.
+
+Here is what the tree looks like:
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>
