@@ -112,12 +112,12 @@ Here is what it looks like in Pivot:
 
 ## <b>Market equation Tree</b>
 
-The market equation tree is available when you select "Check all metric relation steps".
+The market equation tree is available when you select [Analyse all metrics relation steps]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analyse-all-metrics-relation-steps).
 This tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations, then on your dimensions, and finally on your segments. 
-The units appear if you specify them in the metrics relations. Here is what it looks like:
+You can specify your KPIs units in the metrics relations. Here is what it looks like:
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>    # TO UPDATE
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>
 
 
 Steps of the market equation tree are ordered according to the importance they have on the KPI. The importance of a step is a [criteria]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#step-interest-criteria) you can choose in the settings of Pivot subheader. The options are detailed in the settings of Step interest criteria.
