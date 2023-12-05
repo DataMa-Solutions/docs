@@ -102,11 +102,9 @@ Steps of the decision tree are ordered according to the importance they have on 
 On the right find the more important dimension to follow and the worst on the left.
 In the box, see on the top the value of the KPI for the concerned population and on the bottom the percentage of population concerned by this selection.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree.png" style="width:650px; height:auto;"/></center>
-
 Here is what it looks like in Pivot:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree_new.png" style="width:650px; height:auto;"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree.png" style="width:650px; height:auto;"/></center>
 
 <br>
 
