@@ -242,19 +242,19 @@
           link: /core_app/new/pivot/pivot_interface.html
           subnav:
             - name: Importance Chart #done
-              link: /core_app/new/pivot/settings.html#importance-chart
+              link: /core_app/new/pivot/pivot_interface.html#importance-chart
             - name: Simple chart #done
-              link: /core_app/new/pivot/settings.html#simple-chart
+              link: /core_app/new/pivot/pivot_interface.html#simple-chart
             - name: Clustered Chart #done
-              link: /core_app/new/pivot/settings.html#clustered-chart
+              link: /core_app/new/pivot/pivot_interface.html#clustered-chart
             - name: MariMekko #done
-              link: /core_app/new/pivot/settings.html#marimekko
+              link: /core_app/new/pivot/pivot_interface.html#marimekko
             - name: Sankey Diagram #done
-              link: /core_app/new/pivot/settings.html#sankey-diagram
+              link: /core_app/new/pivot/pivot_interface.html#sankey-diagram
             - name: Simple Test Matrix #done
-              link: /core_app/new/pivot/settings.html#simple-test-matrix
+              link: /core_app/new/pivot/pivot_interface.html#simple-test-matrix
             - name: Decision Tree #done
-              link: /core_app/new/pivot/settings.html#decision-tree
+              link: /core_app/new/pivot/pivot_interface.html#decision-tree
             - name: Pivot subheader
               subnav:
                 - name: Dimension Comparison  #done
