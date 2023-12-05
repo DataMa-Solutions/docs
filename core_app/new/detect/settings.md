@@ -48,7 +48,7 @@ scope: app
 
 ## Analyse All Metrics Relation Steps
 
-DataMa Detect can anlyse one step or all the steps of your funnel. When all step are selected, you will be able to see in a dropdown menu every step with an anomaly.
+DataMa Detect can analyse one step or all the steps of your funnel. When all step are selected, you will be able to see in a dropdown menu every step with an anomaly.
 
 <br>
 
@@ -150,6 +150,4 @@ DataMa Pivot can be used with a comparison. To activate this mode select a dimen
 
 In DataMa Detect, you can detect the anomaly of only one KPI or all metric relation.
 
-By default, DataMa selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
-
-<br>
+By default, DataMa selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation.
