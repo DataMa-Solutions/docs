@@ -124,4 +124,4 @@ Steps of the market equation tree are ordered according to the importance they h
 
 For each step, the mean of each dimension is computed, and the segments are sorted by their value compared to the mean, whether it is above or below the average.
 
-The _Comments_ section sums up the most interesting parts of the tree with a level of analysis that can be changed in [analysis depth]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analysis-depth)
+The _Comments_ section sums up the most interesting parts of the tree with a level of analysis that can be changed in [analysis depth]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analysis-depth).
