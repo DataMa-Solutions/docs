@@ -8,4 +8,4 @@ scope: datama/extensions
 
 _Find below documentation related to each extensions_
 
-1. [Datama Compare]({{site.url}}/{{site.baseurl}}/docs/extensions/datama-compare/introduction.html)
+1. [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)

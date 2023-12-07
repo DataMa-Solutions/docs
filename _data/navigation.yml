@@ -843,28 +843,28 @@
   type: bold
   subnav:
     - name: Compare
-      link: /extensions/datama-compare/concept.html
+      link: /extensions/datama-compare/introduction.html
       subnav:
         - name: Introduction
           link: /extensions/datama-compare/introduction.html
-        - name: Concept
-          link: /extensions/datama-compare/concept.html
-        - name : How to use
+        - name : Get it started
           link: /extensions/datama-compare/how-to-use/index.html
           subnav:
-            - name: Looker Studio
+            - name: In Looker Studio
               link: /extensions/datama-compare/how-to-use/looker-studio.html
-            - name: PowerBI
+            - name: In PowerBI
               link: /extensions/datama-compare/how-to-use/powerbi.html
-            - name: Tableau
+            - name: In Tableau
               link: /extensions/datama-compare/how-to-use/tableau.html
+        - name: Concept
+          link: /extensions/datama-compare/concept.html
         - name: Structure
           link: /extensions/datama-compare/structure.html
         - name : Settings
           link: /extensions/datama-compare/settings/index.html
           subnav:
             - name: Analysis
-              link: /extension/datama-compare/settings/analysis/index.html
+              link: /extensions/datama-compare/settings/analysis/index.html
               subnav:
                 - name: Metrics relation
                   link: /extensions/datama-compare/settings/analysis/metrics-relation.html
@@ -879,6 +879,8 @@
                   link: /extensions/datama-compare/settings/waterfall/display.html
                 - name: Labels
                   link: /extensions/datama-compare/settings/waterfall/labels.html
+        - name: Privacy Policy
+          link: /extensions/datama-compare/privacy_policy.html
 - name: Licence terms
   link: /core_app/new/admin/licence_terms.html #OK
   type: separated
