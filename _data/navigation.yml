@@ -847,6 +847,8 @@
       subnav:
         - name: Introduction
           link: /extensions/datama-compare/introduction.html
+        - name: Concept
+          link: /extensions/datama-compare/concept.html
         - name : Get it started
           link: /extensions/datama-compare/how-to-use/index.html
           subnav:
@@ -856,8 +858,6 @@
               link: /extensions/datama-compare/how-to-use/powerbi.html
             - name: In Tableau
               link: /extensions/datama-compare/how-to-use/tableau.html
-        - name: Concept
-          link: /extensions/datama-compare/concept.html
         - name: Structure
           link: /extensions/datama-compare/structure.html
         - name : Settings
