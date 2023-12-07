@@ -12,7 +12,7 @@ scope: datama/extensions/compare
 
 > **Datama Compare is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
-Datama Compare makes it easy to explain variations of any KPI between two segments.
+Serverless & easy to integrate into your tools, Datama Compare makes it easy to explain variations of any KPI between two segments.
 
 This documentation gives you an overview of how it works and how to use it.
 
