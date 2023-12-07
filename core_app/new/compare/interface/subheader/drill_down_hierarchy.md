@@ -29,8 +29,8 @@ Yet, you can manually change the drill down by right clicking on a total bar of 
 
 ## **Steps then Dimension (default setting)**
 
-By default, the main entry point for Compare analysis are the steps of your market equation, a.k.a. [metric relation]({{site.url}}/{{site.baseurl}}/docs/core_app/new/prep/interface/metrics_relation.html). 
-Then, within each step, DataMa helps you find what is the most interesting dimension to explain the gap of a given steps. This is the default way of working of DataMa Compare, as specified in (Model details)[{{site.url}}/{{site.baseurl}}/docs/core_app/new/compare/model/model.html]
+By default, the main entry point for Compare analysis are the steps of your market equation, a.k.a. [metric relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html). 
+Then, within each step, DataMa helps you find what is the most interesting dimension to explain the gap of a given steps. This is the default way of working of DataMa Compare, as specified in (Model details)[{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html]
 
 ## **Dimension then steps**
 
