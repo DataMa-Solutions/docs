@@ -860,6 +860,8 @@
               link: /extensions/datama-compare/how-to-use/tableau.html
         - name: Structure
           link: /extensions/datama-compare/structure.html
+        - name : Waterfall
+          link: /extensions/datama-compare/waterfall.html
         - name : Settings
           link: /extensions/datama-compare/settings/index.html
           subnav:
