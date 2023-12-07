@@ -456,6 +456,9 @@
               link: /core_app/new/integration/PowerBI_demo.html 
         - name: Tableau
           link: /core_app/new/integration/tableau.html
+          subnav:
+            - name: Tableau - Compare - Demo #done
+              link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
 
