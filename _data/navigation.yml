@@ -8,7 +8,7 @@
 - name: Get Started
   link: /core_app/new/tutorial/first_use.html #OK
   type: bold
-- name: Solutions
+- name: Application (SaaS)
   link: /core_app/new_docs.html
   type: separated
   subnav:
@@ -838,7 +838,7 @@
                       link: /home/use_cases/finance_controlling.html #OK
                     - name: Content Square data
                       link: /home/use_cases/Content_CS.html #OK
-- name: Extensions
+- name: Application (Serverless)
   link: /extensions/index.html
   type: bold
   subnav:
