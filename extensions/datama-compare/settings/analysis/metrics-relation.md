@@ -1,7 +1,7 @@
 ---
 title: Metrics Relation
 layout: page
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > This part allow you to edit your KPIs and your market equation, it is very useful when you want to fit your analysis with your business

@@ -1,7 +1,7 @@
 ---
 title: Concept of Datama Compare
 layout: page
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > **Here is what you should now about DataMa to understand what is behing the solution**

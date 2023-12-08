@@ -1,7 +1,7 @@
 ---
 title: Datama Compare on Tableau
 layout: page
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > This page is currently under maintenance

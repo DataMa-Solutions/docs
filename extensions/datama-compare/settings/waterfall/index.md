@@ -1,7 +1,7 @@
 ---
 title: Plot settings of Datama Compare
 description: Here you will find how you can personify display of Datama compare plots
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

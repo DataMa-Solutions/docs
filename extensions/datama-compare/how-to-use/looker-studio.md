@@ -1,7 +1,7 @@
 ---
 title: How to use DataMa Compare in Looker Studio
 layout: page
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > Simplify your market analysis by using Compare extension in your dashboard

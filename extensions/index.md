@@ -1,7 +1,7 @@
 ---
 title: Datama Extension
 description: Find here all documentation about Datama extensions on visualization tools
-scope: datama/extensions
+scope: datama/serverless
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations
