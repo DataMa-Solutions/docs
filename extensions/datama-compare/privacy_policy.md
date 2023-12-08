@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy of Datama Compare in Looker Studio
 layout: page
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 # Introduction
 

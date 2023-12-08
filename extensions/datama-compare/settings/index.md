@@ -1,7 +1,7 @@
 ---
 title: Settings of Datama Compare
 description: Discover all settings exposed by Datama Compare to improve your analysis
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

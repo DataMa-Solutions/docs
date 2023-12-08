@@ -1,7 +1,7 @@
 ---
 title: Introduction to Datama Compare
 layout: page
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 <br>

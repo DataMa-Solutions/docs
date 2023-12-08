@@ -1,7 +1,7 @@
 ---
 title: Analysis settings of Datama Compare
 description: Discover how you can explore your data to fit your business
-scope: datama/extensions/compare
+scope: datama/serverless/compare
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations
