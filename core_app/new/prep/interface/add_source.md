@@ -2,7 +2,7 @@
 title: Prep - Add Source
 description: This section helps you extract data from your data sources
 layout: page
-scope: app
+scope: datama/saas/prep
 ---
 
 <br>

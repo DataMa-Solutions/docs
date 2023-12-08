@@ -2,7 +2,7 @@
 title: Mix Effect
 description: This chapter will describe Mix effect to allow you to properly understand the underlying composition of your performance.
 layout: page
-scope: app
+scope: datama/saas/compare
 ---
 
 Each performance is composed of a [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and a [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html).

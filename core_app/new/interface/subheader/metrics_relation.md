@@ -2,7 +2,7 @@
 title: Metrics relation
 description: Find here how you can build a market equation in DataMa
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 > **Metric relation** describes the equation between metrics of your source, in order to compute the KPI you want to explain.

@@ -2,7 +2,7 @@
 title: Input
 description: Find here how you can load data in DataMa
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 > Find here how you can **load data in DataMa**

@@ -3,6 +3,23 @@ layout: search
 title: Search on Datama Documentation
 description: here you can find all result you want from DataMa Documentation page
 ---
+<!--
+  ~ DATAMA SAS
+  ~ --------------
+  ~ NOTICE:  All information contained herein is, and remains
+  ~ the property of DataMa SAS and/or some open source packages used
+  ~ if any.  The intellectual and technical concepts contained
+  ~ herein are proprietary to DataMa SAS
+  ~ and its suppliers and may be covered by French and Foreign Patents,
+  ~ patents in process, and are protected by trade secret or copyright law.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from DataMa SAS.
+  ~ Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
+  ~ Copyright (c) 2023 DATAMA SAS, All rights reserved.
+  ~ Generated for file : search.html project project-deep-sky
+  -->
+
 <!-- Html Elements for Search -->
 <div id="search-container">
     <div class="search-group">
@@ -19,8 +36,23 @@ description: here you can find all result you want from DataMa Documentation pag
     //    resultsContainer: document.getElementById('results-container'),
     //    json: '{{site.url}}/{{site.baseurl}}/search.json'
     //})
+    let groups = {
+        'shiny': 'Legacy',
+        'datama/saas': 'Full App',
+        'datama/saas/compare': 'Compare (SaaS)',
+        'datama/saas/assess': 'Compare (SaaS)',
+        'datama/saas/detect': 'Compare (SaaS)',
+        'datama/saas/pivot': 'Compare (SaaS)',
+        'datama/saas/journey': 'Compare (SaaS)',
+        'datama/serverless': 'Light App',
+        'datama/serverless/compare': 'Compare (Light)'
+    }
+    console.log(search.json)
     search.listen('search-input', {
         fields: {
+            scope: {
+                weight: 1100
+            },
             title: {
                 weight: 1000
             },
@@ -36,7 +68,10 @@ description: here you can find all result you want from DataMa Documentation pag
         },
         results: {
             template: (element) => {
-                return `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                return {
+                    scope: search.json[element.id].scope,
+                    html: `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><span class="search-group">${groups[search.json[element.id].scope]}</span><strong>${search.json[element.id].title}</strong><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                }
             },
             limit: 15,
             container: 'results-container'
