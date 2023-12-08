@@ -2,7 +2,7 @@
 title: Cross web page journeys
 description: This example is showing a dataset for DataMa JOURNEY to analyze web pages' contribution to website value by page category.
 layout: page
-scope: app
+scope: datama/saas/journey
 ---
 
 This example is showing a dataset for DataMa JOURNEY to analyze web pages' contribution to website value by page category.

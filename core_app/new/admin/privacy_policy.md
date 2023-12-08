@@ -2,7 +2,7 @@
 title: PRIVACY POLICY
 description: See the privacy policy of the DataMa applications.
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 

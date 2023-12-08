@@ -2,7 +2,7 @@
 title: Journey - Interface
 description: The solution JOURNEY is split in four main parts.
 layout: page
-scope: app
+scope: datama/saas/journey
 ---
 
 > This solution is split into 4 parts

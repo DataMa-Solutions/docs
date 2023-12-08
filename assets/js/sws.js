@@ -1,3 +1,20 @@
+/*
+ * DATAMA SAS
+ * --------------
+ * NOTICE:  All information contained herein is, and remains
+ * the property of DataMa SAS and/or some open source packages used
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to DataMa SAS
+ * and its suppliers and may be covered by French and Foreign Patents,
+ * patents in process, and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from DataMa SAS.
+ * Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
+ * Copyright (c) 2023 DATAMA SAS, All rights reserved.
+ * Generated for file : sws.js project project-deep-sky
+ */
+
 /**
  * Simple Weighted Search
  * (c) 2021 - by Anatole Piveteau
@@ -72,27 +89,31 @@ class Sws {
             let configuration = this.configuration[event.target.id]
             if (value.length > 3) {
                 let weights = this.getWeights(value, configuration).filter(e => e.total !== 0);
-                let displayed = "<ul>";
-                let invisible = "<div class='search-pages'>"
+                let displayed;
+                let invisible;
                 if (SwsDebug) {
                     console.log("SWS > Input on " + event.target.id + " '" + value + "'")
                     console.log(configuration)
                     console.log(weights)
                 }
                 let i = 0;
+                let result = [];
                 while (i < configuration.results.limit && i < weights.length) {
-                    displayed += configuration.results.template(weights[i])
+                    result.push(configuration.results.template(weights[i]))
                     i++;
                 }
-                displayed += "</ul>"
+                result = result.sort((a, b) => a.scope.localeCompare(b.scope))
+                displayed = "</ul>" + result.map(r => r.html).join('') + "</ul>"
+                result = []
                 if (i < weights.length) {
                     displayed += "<button class='search-show-more'>Show more results</button>"
                 }
                 while (i < weights.length) {
-                    invisible += configuration.results.template(weights[i])
+                    result.push(configuration.results.template(weights[i]))
                     i++;
                 }
-                invisible += "</div>"
+                result = result.sort((a, b) => a.scope.localeCompare(b.scope))
+                invisible = "<div class='search-pages'>" + result.map(r => r.html).join('') + "</div>"
                 let container = document.getElementById(configuration.results.container);
                 container.innerHTML = displayed + invisible
                 let showMore = document.getElementsByClassName('search-show-more');

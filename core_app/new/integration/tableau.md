@@ -2,7 +2,7 @@
 title: Tableau extension
 description: Using DataMa Solutions as a Tableau extension is a great way to make your tableau report more insightful with the benefits of both DataMa and Tableau.
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 <br>

@@ -2,7 +2,7 @@
 title: Export
 description: Find here how you can export your analysis
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 > Find here how you can **export** your analysis

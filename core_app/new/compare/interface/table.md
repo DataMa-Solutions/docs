@@ -2,7 +2,7 @@
 title: Table
 description: Table is gathering all the figures that helps to understand step variation and dimensions impact 
 layout: page
-scope: app
+scope: datama/saas/compare
 ---
 
 > Table is gathering all the figures that helps to understand step variation and dimensions impact.

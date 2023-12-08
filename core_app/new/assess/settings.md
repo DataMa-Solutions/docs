@@ -2,7 +2,7 @@
 title: Assess - Settings
 description: Here is the different settings available in DataMa Assess
 layout: page
-scope: app
+scope: datama/saas/assess
 ---
 
 
