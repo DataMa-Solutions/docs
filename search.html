@@ -37,17 +37,16 @@ description: here you can find all result you want from DataMa Documentation pag
     //    json: '{{site.url}}/{{site.baseurl}}/search.json'
     //})
     let groups = {
-        'shiny': 'Legacy',
-        'datama/saas': 'Full App',
-        'datama/saas/compare': 'Compare (SaaS)',
-        'datama/saas/assess': 'Compare (SaaS)',
-        'datama/saas/detect': 'Compare (SaaS)',
-        'datama/saas/pivot': 'Compare (SaaS)',
-        'datama/saas/journey': 'Compare (SaaS)',
-        'datama/serverless': 'Light App',
-        'datama/serverless/compare': 'Compare (Light)'
+        'shiny': 'shiny legacy',
+        'datama/saas': 'App SaaS',
+        'datama/saas/compare': 'compare SaaS',
+        'datama/saas/assess': 'Assess SaaS',
+        'datama/saas/detect': 'Detect SaaS',
+        'datama/saas/pivot': 'Pivot SaaS',
+        'datama/saas/journey': 'Journey SaaS',
+        'datama/light': 'App Light',
+        'datama/light/compare': 'Compare Light'
     }
-    console.log(search.json)
     search.listen('search-input', {
         fields: {
             scope: {
@@ -70,9 +69,10 @@ description: here you can find all result you want from DataMa Documentation pag
             template: (element) => {
                 return {
                     scope: search.json[element.id].scope,
-                    html: `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><span class="search-group">${groups[search.json[element.id].scope]}</span><strong>${search.json[element.id].title}</strong><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                    html: `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><div class="search-tags">${(groups[search.json[element.id].scope] || '').split(' ').filter(e => e).map(e => '<span class="search-group">' + e + '</span>').join('')}</div><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
                 }
             },
+            groups,
             limit: 15,
             container: 'results-container'
         }

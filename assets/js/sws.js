@@ -58,16 +58,28 @@ class Sws {
             let weight = {};
             let total = 0;
             while (j < fieldsToParse.length) {
-                let occurrences = (this.json[i][fieldsToParse[j]].match(new RegExp(value)) || []).length;
-                let occurrencesLow = (this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp(value.toLowerCase())) || []).length;
+                let occurrences = [
+                    ...(this.json[i][fieldsToParse[j]].match(new RegExp(value)) || []),
+                    ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].match(new RegExp(value)) || []) : [])
+                ].length;
+                let occurrencesLow = [
+                    ...(this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp(value.toLowerCase())) || []),
+                    ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].toLowerCase().match(new RegExp(value)) || []) : [])
+                ].length;
                 let split = value.split(' ');
                 weight[fieldsToParse[j]] = occurrences * configuration.fields[fieldsToParse[j]].weight
                 weight[fieldsToParse[j]] += occurrencesLow * (configuration.fields[fieldsToParse[j]].weight / 2)
                 let k = 0;
                 while (k < split.length) {
                     if (split[k].length > 3) {
-                        let occurrencesSplit = (this.json[i][fieldsToParse[j]].match(new RegExp(split[k])) || []).length;
-                        let occurrencesSplitLow = (this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp(split[k].toLowerCase())) || []).length;
+                        let occurrencesSplit = [
+                            ...(this.json[i][fieldsToParse[j]].match(new RegExp(split[k])) || []),
+                            ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].match(new RegExp(split[k])) || []) : [])
+                        ].length;
+                        let occurrencesSplitLow = [
+                            ...(this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp(split[k].toLowerCase())) || []),
+                            ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].toLowerCase().match(new RegExp(split[k])) || []) : [])
+                        ].length;
                         weight[fieldsToParse[j]] += occurrencesSplit * (configuration.fields[fieldsToParse[j]].weight / 4)
                         weight[fieldsToParse[j]] += occurrencesSplitLow * (configuration.fields[fieldsToParse[j]].weight / 8)
                     }
