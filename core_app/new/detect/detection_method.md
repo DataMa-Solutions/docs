@@ -2,7 +2,7 @@
 title: Detect - Detection methods
 description: This page explains the existing methods for anomaly detection
 layout: page
-scope: app
+scope: datama/saas/detect
 ---
 
 <br>

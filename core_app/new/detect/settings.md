@@ -2,7 +2,7 @@
 title: Detect - Settings
 description: Here is the different settings available in DataMa detect
 layout: page
-scope: app
+scope: datama/saas/detect
 ---
 
 <br>

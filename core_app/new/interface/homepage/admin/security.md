@@ -2,7 +2,7 @@
 title: Security
 description: On this page, find details on the Security section of the homepage
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 > On this page, find details on the **Security** section of the homepage

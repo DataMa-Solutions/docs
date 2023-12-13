@@ -2,7 +2,7 @@
 title: Get inspired
 description: You can use DataMa Solutions to help you create the right dataset on any type of use case
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 You can use DataMa Solutions to help you create the right dataset on any type of use case.

@@ -2,7 +2,7 @@
 title: Pivot - Settings
 description: Here is the different settings available in DataMa Pivot
 layout: page
-scope: app
+scope: datama/saas/pivot
 ---
 
 

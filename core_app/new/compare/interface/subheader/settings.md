@@ -2,7 +2,7 @@
 title: Compare - Settings
 description: Find here how to use the **Settings**
 layout: page
-scope: app
+scope: datama/saas/compare
 ---
 
 > Find here how to use the **Settings**
@@ -10,7 +10,7 @@ scope: app
 <br>
 
 <b>Methodology:<b><br>
-  - [Drill Down Hierarchy]({{site.url}}/{{site.baseurl}}/docs/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+  - [Drill Down Hierarchy]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
   - [Split Mix and Perf](#split-mix-and-perf)
   - [Negative Driver First](#negative-driver-first)
 

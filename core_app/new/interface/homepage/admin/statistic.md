@@ -2,7 +2,7 @@
 title: Statistics
 description: See in this chapter details what to find in the statistic section of the homepage
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 > On this page, find details on the **Statistic** section of the homepage

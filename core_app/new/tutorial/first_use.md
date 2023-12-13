@@ -2,7 +2,7 @@
 title: User onboarding
 description: Successfully Run your 1st DataMa report
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 <br>
