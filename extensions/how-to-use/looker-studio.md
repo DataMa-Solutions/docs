@@ -34,7 +34,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-temp.gif" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>
 
 <br>
 
