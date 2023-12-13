@@ -28,7 +28,7 @@ Follow these steps to add Datama Light in your report :
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
 1. Click on "Trial version" link of Datama footer
-2. On the "Full Extension" card, click on "🚀 Try for free"
+**2. On the "Full Extension" card, click on "🚀 Try for** free"
 3. Create your Datama account
 4. Get your Trial extension
 
