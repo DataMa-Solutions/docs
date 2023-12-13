@@ -8,7 +8,7 @@
 - name: Get Started
   link: /core_app/new/tutorial/first_use.html #OK
   type: bold
-- name: Application (SaaS)
+- name: Full App
   link: /core_app/new_docs.html
   type: separated
   subnav:
@@ -838,7 +838,7 @@
                       link: /home/use_cases/finance_controlling.html #OK
                     - name: Content Square data
                       link: /home/use_cases/Content_CS.html #OK
-- name: Application (Serverless)
+- name: Light App
   link: /extensions/index.html
   type: bold
   subnav:
@@ -849,15 +849,6 @@
           link: /extensions/datama-compare/introduction.html
         - name: Concept
           link: /extensions/datama-compare/concept.html
-        - name : Get it started
-          link: /extensions/datama-compare/how-to-use/index.html
-          subnav:
-            - name: In Looker Studio
-              link: /extensions/datama-compare/how-to-use/looker-studio.html
-            - name: In PowerBI
-              link: /extensions/datama-compare/how-to-use/powerbi.html
-            - name: In Tableau
-              link: /extensions/datama-compare/how-to-use/tableau.html
         - name: Structure
           link: /extensions/datama-compare/structure.html
         - name : Waterfall
@@ -881,8 +872,18 @@
                   link: /extensions/datama-compare/settings/waterfall/display.html
                 - name: Labels
                   link: /extensions/datama-compare/settings/waterfall/labels.html
-        - name: Privacy Policy
-          link: /extensions/datama-compare/privacy_policy.html
+    - name : Extensions
+      link: /extensions/how-to-use/index.html
+      subnav:
+        - name: Looker Studio
+          link: /extensions/how-to-use/looker-studio.html
+          subnav:
+            - name: Privacy Policy
+              link: /extensions/how-to-use/looker-studio/privacy-policy.html
+        - name: PowerBI
+          link: /extensions/how-to-use/powerbi.html
+        - name: Tableau
+          link: /extensions/how-to-use/tableau.html
 - name: Licence terms
   link: /core_app/new/admin/licence_terms.html #OK
   type: separated

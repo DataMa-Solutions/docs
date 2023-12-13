@@ -33,9 +33,9 @@ This documentation gives you an overview of how it works and how to use it.
 <br>
 
 ### Embed Datama Compare in your reports quickly by following these links:
-- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/how-to-use/looker-studio.html)
-- [In PowerBI]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/how-to-use/powerbi.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/how-to-use/tableau.html)
+- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+- [In PowerBI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerbi.html)
+- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
 
 <br>
 
