@@ -33,6 +33,7 @@ class Sws {
                 }
                 jsonLoaded = true
                 this.json = data;
+                console.log("FETCHED")
             })
             .catch(error => {
                 if (SwsDebug) {
@@ -50,6 +51,13 @@ class Sws {
         this.configuration[input] = configuration
     }
     getWeights(value, configuration) {
+        if (this.json && !this.filtered) {
+            let required = Object.keys(configuration.fields).filter(f => configuration.fields[f].required);
+            this.json = this.json.filter(r => {
+                return required.every(k => r[k] && r[k] !== '')
+            })
+            this.filtered = true;
+        }
         let i = 0;
         const weights = [];
         while (i < this.json.length) {
@@ -59,11 +67,11 @@ class Sws {
             let total = 0;
             while (j < fieldsToParse.length) {
                 let occurrences = [
-                    ...(this.json[i][fieldsToParse[j]].match(new RegExp(value)) || []),
+                    ...(this.json[i][fieldsToParse[j]].match(new RegExp("([\\s\\-.\"'_+\(]+|(?![a-zA-Z])|^)" + value + "([\\s\\-.\"'_+\(]+|(?![a-zA-Z\n])|$)")) || []),
                     ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].match(new RegExp(value)) || []) : [])
                 ].length;
                 let occurrencesLow = [
-                    ...(this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp(value.toLowerCase())) || []),
+                    ...(this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp("([\\s\\-.\"'_+\(]+|(?![a-zA-Z])|^)" + value.toLowerCase() + "([\\s\\-.\"'_+\(]+|(?![a-zA-Z\n])|$)")) || []),
                     ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].toLowerCase().match(new RegExp(value)) || []) : [])
                 ].length;
                 let split = value.split(' ');
@@ -73,11 +81,11 @@ class Sws {
                 while (k < split.length) {
                     if (split[k].length > 3) {
                         let occurrencesSplit = [
-                            ...(this.json[i][fieldsToParse[j]].match(new RegExp(split[k])) || []),
+                            ...(this.json[i][fieldsToParse[j]].match(new RegExp("([\\s\\-.\"'_+\(]+|(?![a-zA-Z])|^)" + split[k] + "([\\s\\-.\"'_+\(]+|(?![a-zA-Z\n])|$)")) || []),
                             ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].match(new RegExp(split[k])) || []) : [])
                         ].length;
                         let occurrencesSplitLow = [
-                            ...(this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp(split[k].toLowerCase())) || []),
+                            ...(this.json[i][fieldsToParse[j]].toLowerCase().match(new RegExp("([\\s\\-.\"'_+\(]+|(?![a-zA-Z])|^)" + split[k].toLowerCase() + "([\\s\\-.\"'_+\(]+|(?![a-zA-Z\n])|$)")) || []),
                             ...(configuration.results.groups[this.json[i][fieldsToParse[j]]] ? (configuration.results.groups[this.json[i][fieldsToParse[j]]].toLowerCase().match(new RegExp(split[k])) || []) : [])
                         ].length;
                         weight[fieldsToParse[j]] += occurrencesSplit * (configuration.fields[fieldsToParse[j]].weight / 4)
