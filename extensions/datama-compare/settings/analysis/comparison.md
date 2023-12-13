@@ -1,7 +1,7 @@
 ---
 title: Comparison
 layout: page
-scope: datama/serverless/compare
+scope: datama/light/compare
 ---
 
 > This part allow to choose what you want to compare, you can also add others comparison to go deeper

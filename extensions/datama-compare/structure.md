@@ -1,7 +1,7 @@
 ---
 title: Structure of Datama Compare
 layout: page
-scope: datama/serverless/compare
+scope: datama/light/compare
 ---
 
 > **To guarantee you get started as quickly as possible, Datama has made its experience as intuitive as possible.**

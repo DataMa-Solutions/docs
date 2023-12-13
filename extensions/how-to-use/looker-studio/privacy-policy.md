@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy of Datama Light in Looker Studio
 layout: page
-scope: datama/serverless/compare
+scope: datama/light/compare
 ---
 # Introduction
 
