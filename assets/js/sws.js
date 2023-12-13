@@ -33,7 +33,6 @@ class Sws {
                 }
                 jsonLoaded = true
                 this.json = data;
-                console.log("FETCHED")
             })
             .catch(error => {
                 if (SwsDebug) {
