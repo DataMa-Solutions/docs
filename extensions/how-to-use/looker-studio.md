@@ -10,29 +10,27 @@ scope: datama/light
 
 In order to use Datama Light in your report, you need to add a new visualization and set up your metrics & your dimensions you want to analyse
 
+Follow these steps to add Datama Light in your report : 
+
+1. Edit your report
+2. In the toolbar, click _Community visualizations and components Community visualization icon_
+3. Click on "_Explore more_"
+4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file"
+
 <br>
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
 
 <br>
 
-### Set up your license key
+### Get a free trial period
 
-If you have a license key you will need to add it into the "License key" input of Looker Studio:
+You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
-<br>
-
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-license.gif" /></center>
-
-<br>
-
-### Get a free trial license
-
-If you don't have a license key, you can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
-
-- Click on "Trial version" link of Datama footer
-- On the "Full Extension" card, click on "🚀 Try for free"
-- Paste the license key into the "License key" input of Looker Studio
+1. Click on "Trial version" link of Datama footer
+2. On the "Full Extension" card, click on "🚀 Try for free"
+3. Create your Datama account
+4. Get your Trial extension
 
 <br>
 
