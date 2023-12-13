@@ -2,7 +2,7 @@
 title: Settings
 description: Find here how to use the **Settings**
 layout: page
-scope: app
+scope: datama/saas
 ---
 
 > Find here how to use the **Settings**

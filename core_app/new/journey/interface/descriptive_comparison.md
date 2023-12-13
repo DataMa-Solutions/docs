@@ -2,7 +2,7 @@
 title: Descriptive Comparison
 description: Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab.
 layout: page
-scope: app
+scope: datama/saas/journey
 ---
 
 ![descriptive comparison]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/images/descriptive_comparison.png" style="width:550px;">

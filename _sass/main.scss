@@ -1,3 +1,20 @@
+/*!
+ * DATAMA SAS
+ * --------------
+ * NOTICE:  All information contained herein is, and remains
+ * the property of DataMa SAS and/or some open source packages used
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to DataMa SAS
+ * and its suppliers and may be covered by French and Foreign Patents,
+ * patents in process, and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from DataMa SAS.
+ * Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
+ * Copyright (c) 2023 DATAMA SAS, All rights reserved.
+ * Generated for file : main.scss project project-deep-sky
+ */
+
 /** IMPORT PART **/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import "colors";
@@ -93,7 +110,6 @@ body {
     & > header {
       width: calc(100% + 20px);
       height: 100px;
-      float: right;
       line-height: 40px;
       text-align: center;
       margin: -20px -10px 0;
@@ -183,17 +199,13 @@ body {
     & > nav {
       margin-top: 20px;
       padding: 20px 0;
+      border-top: 1px rgba(0,0,0,0.075) solid;
       & a {
         color: #333 !important;
       }
       & h2 {
         font-weight: 400;
-      }
-      & li.spaced {
-        & ul {
-          padding-top: 10px;
-        }
-        padding-bottom: 10px;
+        font-size: 20px;
       }
       &>ul>li:first-child>hr:first-of-type {
         display: none;
@@ -224,6 +236,7 @@ body {
             padding-right: 30px;
             box-sizing: border-box;
             line-height: 30px;
+            font-weight: 400;
             &:hover {
               text-decoration: none;
               & > .collapser {
