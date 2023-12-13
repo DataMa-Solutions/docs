@@ -1,5 +1,5 @@
 ---
-title: Datama Extension
+title: Datama Light
 description: Find here all documentation about Datama extensions on visualization tools
 scope: datama/serverless
 ---
