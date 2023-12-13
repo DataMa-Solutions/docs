@@ -1,7 +1,7 @@
 ---
 title: Datama Light
 description: Find here all documentation about Datama extensions on visualization tools
-scope: datama/serverless
+scope: datama/light
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

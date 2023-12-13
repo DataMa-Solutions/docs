@@ -1,7 +1,7 @@
 ---
 title: Advanced settings
 layout: page
-scope: datama/serverless/compare
+scope: datama/light/compare
 ---
 
 > Some others pretty cool features to improve your analysis

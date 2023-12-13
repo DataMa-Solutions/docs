@@ -1,7 +1,7 @@
 ---
 title: Datama Compare on PowerBI
 layout: page
-scope: datama/serverless/compare
+scope: datama/light/compare
 ---
 
 > This page is currently under maintenance

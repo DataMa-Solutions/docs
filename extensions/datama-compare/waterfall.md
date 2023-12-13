@@ -1,7 +1,7 @@
 ---
 title: Waterfall in DataMa Compare
 layout: page
-scope: datama/serverless/compare
+scope: datama/light/compare
 ---
 
 <br>
