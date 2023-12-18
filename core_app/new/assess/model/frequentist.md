@@ -3,6 +3,7 @@ title: Assess - Frequentist model
 description: In the Bernoulli frequentist approach, the outcome has to be binary
 layout: page
 scope: datama/saas/assess
+keywords: full app assess model frequentist 
 ---
 
 

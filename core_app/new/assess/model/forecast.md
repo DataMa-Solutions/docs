@@ -3,6 +3,7 @@ title: Model - Forecast model
 description: Used with time series to compare realized values against forecasted values.
 layout: page
 scope: datama/saas/assess
+keywords: full app assess model forecast
 ---
 
 <br>

@@ -2,6 +2,7 @@
 title: Metrics Relation
 layout: page
 scope: datama/light/compare
+keywords: light compare settings analysis metrics relation mr market equation
 ---
 
 > This part allow you to edit your KPIs and your market equation, it is very useful when you want to fit your analysis with your business

@@ -2,6 +2,7 @@
 title: Privacy Policy of Datama Light in Looker Studio
 layout: page
 scope: datama/light/compare
+keywords: Looker LookerStudio privacy policy
 ---
 # Introduction
 

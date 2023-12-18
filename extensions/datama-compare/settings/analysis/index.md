@@ -2,6 +2,7 @@
 title: Analysis settings of Datama Compare
 description: Discover how you can explore your data to fit your business
 scope: datama/light/compare
+keywords: light compare settings analysis
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

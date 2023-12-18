@@ -2,6 +2,7 @@
 title: Advanced settings
 layout: page
 scope: datama/light/compare
+keywords: light compare settings analysis advanced
 ---
 
 > Some others pretty cool features to improve your analysis
