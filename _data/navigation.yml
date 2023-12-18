@@ -699,6 +699,8 @@
                           link: /core_app/journey/web_application/menu/settings/simplification_of_journeys.html #OK
                         - name: Number of steps displayed
                           link: /core_app/journey/web_application/menu/settings/number_of_steps_displayed.html #OK
+                        - name: Display exits in Sunburst
+                          link: /core_app/journey/web_application/menu/settings/display_exits_in_sunburst.html #OK
         - name: Prep
           link: /core_app/prep/prep.html
           subnav:
