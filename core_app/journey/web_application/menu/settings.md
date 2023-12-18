@@ -16,3 +16,5 @@ See articles below to have more details:
  * [Simplification of journeys]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/simplification_of_journeys)
  * [Number of steps displayed]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/number_of_steps_displayed)
  * [Display exits in Sunburst]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/display_exits_in_sunburst)
+ * [Reverse Journey]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/menu/settings/reverse_journey)
+
