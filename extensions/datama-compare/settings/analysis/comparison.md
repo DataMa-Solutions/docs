@@ -2,6 +2,7 @@
 title: Comparison
 layout: page
 scope: datama/light/compare
+keywords: light compare settings analysis comparison
 ---
 
 > This part allow to choose what you want to compare, you can also add others comparison to go deeper

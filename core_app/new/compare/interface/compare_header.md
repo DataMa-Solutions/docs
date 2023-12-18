@@ -3,6 +3,7 @@ title: Compare (Sub)Header
 description: The header in DataMa Compare helps you manipulate and refine your Use Cases
 layout: page
 scope: datama/saas/compare
+keywords: full app compare header
 ---
 
 

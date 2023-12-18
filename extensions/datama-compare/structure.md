@@ -2,6 +2,7 @@
 title: Structure of Datama Compare
 layout: page
 scope: datama/light/compare
+keywords: light compare structure
 ---
 
 > **To guarantee you get started as quickly as possible, Datama has made its experience as intuitive as possible.**

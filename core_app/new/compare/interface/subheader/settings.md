@@ -3,6 +3,7 @@ title: Compare - Settings
 description: Find here how to use the **Settings**
 layout: page
 scope: datama/saas/compare
+keywords: full app compare settings
 ---
 
 > Find here how to use the **Settings**

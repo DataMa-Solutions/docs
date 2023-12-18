@@ -3,6 +3,7 @@ title: Detailed View
 description: This detailed View »** allows you to deep dive on each step and each dimension.
 layout: page
 scope: datama/saas/compare
+keywords: full app compare detail detailed view
 ---
 
 > **« Detailed View »** allows you to deep dive on each step and each dimension.

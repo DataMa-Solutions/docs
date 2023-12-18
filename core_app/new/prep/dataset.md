@@ -3,6 +3,7 @@ title: Dataset
 description: This section identify the type of data you should load
 layout: page
 scope: datama/saas/prep
+keywords: full app prep dataset metrics dimensions
 ---
 
 
