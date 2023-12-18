@@ -3,6 +3,7 @@ title: Detailed View
 description: Detailed View is a group of 4 tabs. See below articles for details on each tab.
 layout: page
 scope: datama/saas/journey
+keywords: full app journey detailed view detail details
 ---
 
 > This chapter is stil in construction in the solution (see old version of DataMa to get information about the Detailed View)

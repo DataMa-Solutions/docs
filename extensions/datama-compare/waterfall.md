@@ -2,6 +2,7 @@
 title: Waterfall in DataMa Compare
 layout: page
 scope: datama/light/compare
+keywords: light compare waterfall
 ---
 
 <br>

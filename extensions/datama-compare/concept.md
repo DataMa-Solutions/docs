@@ -2,6 +2,7 @@
 title: Concept of Datama Compare
 layout: page
 scope: datama/light/compare
+keywords: light compare concept
 ---
 
 > **Here is what you should now about DataMa to understand what is behing the solution**

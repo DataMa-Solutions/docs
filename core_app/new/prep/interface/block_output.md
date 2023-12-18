@@ -3,6 +3,7 @@ title: Prep - Output
 description: This section helps you to prepare your data to be analysed in the Output block
 layout: page
 scope: datama/saas/prep
+keywords: full app prep output block
 ---
 
 <br>

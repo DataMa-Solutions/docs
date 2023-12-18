@@ -3,6 +3,7 @@ title: Prep - Export Analysis
 description: This section helps you automatise the export of your analysis
 layout: page
 scope: datama/saas/prep
+keywords: full app prep report export schedule extract analysis
 ---
 <br>
 

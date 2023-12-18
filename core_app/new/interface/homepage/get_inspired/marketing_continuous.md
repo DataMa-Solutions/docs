@@ -4,6 +4,7 @@ description: |
     As presented in the data, one of the dimensions is a continuous dimension. This dimension will be clustered by the algorithm to gather people around the same age with similar behaviour. In this case : 18-20.5 >> 20.5 – 23>> 23-25 >>25-36.5….
 layout: page
 scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 > This page details the  **« Marketing Campaign – Continous dimension»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
 

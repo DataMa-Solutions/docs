@@ -3,6 +3,7 @@ title: PowerBI extension
 description: Using DataMa Solutions as a PowerBI extension is a great way to make your report more insightful with the benefits of both DataMa and PowerBi.
 layout: page
 scope: datama/saas
+keywords: full app integration embed embedded add-on addons addon PowerBi powerbi
 ---
 
 

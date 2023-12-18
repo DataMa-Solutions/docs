@@ -2,6 +2,7 @@
 title: How to use DataMa Light in Looker Studio
 layout: page
 scope: datama/light
+keywords: Looker LookerStudio get started
 ---
 
 > Enhanced your Looker Studio dashboard with augmented analysis using Datama Light extension

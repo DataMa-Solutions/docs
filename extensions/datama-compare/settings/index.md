@@ -2,6 +2,7 @@
 title: Settings of Datama Compare
 description: Discover all settings exposed by Datama Compare to improve your analysis
 scope: datama/light/compare
+keywords: light compare settings
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations
