@@ -1,7 +1,8 @@
 ---
-title: How to use Datama Compare
-description: Discover how you can use and implement Datama Compare for your uses
+title: How to use Datama Light
+description: Discover how you can use and implement Datama Light for your uses
 scope: datama/light/compare
+keywords: extension light get started
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

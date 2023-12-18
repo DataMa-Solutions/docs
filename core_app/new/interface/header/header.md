@@ -3,6 +3,7 @@ title: Header
 description: Find out how you can use the header of the DataMa Solutions
 layout: page
 scope: datama/saas
+keywords: full app header menu
 ---
 
 > Find out how you can use **the header of the Solution**

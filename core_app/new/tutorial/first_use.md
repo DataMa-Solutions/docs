@@ -3,6 +3,7 @@ title: User onboarding
 description: Successfully Run your 1st DataMa report
 layout: page
 scope: datama/saas
+keywords: full app prep get started 1st first uses use
 ---
 
 <br>

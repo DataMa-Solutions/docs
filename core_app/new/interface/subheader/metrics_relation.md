@@ -3,6 +3,7 @@ title: Metrics relation
 description: Find here how you can build a market equation in DataMa
 layout: page
 scope: datama/saas
+keywords: full app subheader sub header metrics relation mr metric
 ---
 
 > **Metric relation** describes the equation between metrics of your source, in order to compute the KPI you want to explain.

@@ -2,6 +2,7 @@
 title: Introduction to Datama Compare
 layout: page
 scope: datama/light/compare
+keywords: datama light compare Compare intro introduction
 ---
 
 <br>

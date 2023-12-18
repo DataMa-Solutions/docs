@@ -3,6 +3,7 @@ title: Pivot - Interface
 description: Understand what is in the Dashboard panel of DataMa PIVOT
 layout: page
 scope: datama/saas/pivot
+keywords: full app pivot interface
 ---
 
 > Understand what is in the interface of **DataMa PIVOT**

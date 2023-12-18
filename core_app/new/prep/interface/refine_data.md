@@ -3,6 +3,7 @@ title: Prep - Refine data
 description: This section helps you to refine your data in DataMa Prep
 layout: page
 scope: datama/saas/prep
+keywords: full app prep refine data
 ---
 
 

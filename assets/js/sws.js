@@ -100,7 +100,7 @@ class Sws {
             weights.push(weight)
             i++;
         }
-        return weights.sort((a,b) => (a.total > b.total) ? -1 : ((b.total > a.total) ? 1 : 0));
+        return weights.sort((a,b) => b.total - a.total);
     }
     suggest(event) {
         if (event.target.id in this.configuration) {
@@ -115,13 +115,21 @@ class Sws {
                     console.log(configuration)
                     console.log(weights)
                 }
+                // sort by scope + rank
+                weights = weights.sort((a, b) => {
+                    if (a.scope && b.scope && a.scope !== b.scope) {
+                        return a.scope.localeCompare(b.scope)
+                    } else {
+                        if (!a.scope) return 1
+                        return b.total - a.total
+                    }
+                })
                 let i = 0;
                 let result = [];
                 while (i < configuration.results.limit && i < weights.length) {
                     result.push(configuration.results.template(weights[i]))
                     i++;
                 }
-                result = result.sort((a, b) => a.scope.localeCompare(b.scope))
                 displayed = "</ul>" + result.map(r => r.html).join('') + "</ul>"
                 result = []
                 if (i < weights.length) {

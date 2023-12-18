@@ -2,6 +2,7 @@
 title: Datama Light
 description: Find here all documentation about Datama extensions on visualization tools
 scope: datama/light
+keywords: extensions light viz tools
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

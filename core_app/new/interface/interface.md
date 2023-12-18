@@ -3,6 +3,7 @@ title: Interface
 description: In this chapter, see details on how to use the main features of the DataMa interface
 layout: page
 scope: datama/saas
+keywords: full app interface
 ---
 
 <br>

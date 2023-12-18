@@ -3,6 +3,7 @@ title: Pivot - Settings
 description: Here is the different settings available in DataMa Pivot
 layout: page
 scope: datama/saas/pivot
+keywords: full app pivot settings subheader sub header
 ---
 
 
