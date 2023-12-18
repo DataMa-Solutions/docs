@@ -27,6 +27,7 @@ Find here the main elements of the solution Header in DataMa Journey:
 - [Simplify Sunburst](#simplify-sunburst)
 - [Maximum Number of steps in Sunburst](#maximum-number-of-steps-in-sunburst)
 - [Display exits in Sunburst](#display-exits-in-sunburst)
+- [Reverse Journey](#reverse-journey)
 
 <br>
 <b>Attribution:<b><br>
@@ -87,6 +88,12 @@ By default, only 6 steps of user journeys are represented. This can be changed b
 ## Display exits in Sunburst
 
 By default, journey exits are displayed. It shows the proportion of people who have exited the journey.
+
+<br>
+
+## Reverse Journey
+
+By activating Reverse Journey, you can display the users' reverse journeys. This is useful to know where they come from.
 
 <br>
 
