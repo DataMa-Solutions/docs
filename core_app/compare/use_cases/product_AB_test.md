@@ -1,3 +1,9 @@
+---
+title: Product - AB Test
+description: Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Product - AB test
 
 > Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.datama.fr/) solution.

@@ -2,6 +2,7 @@
 title: Tableau extension demo
 description: Tableau extension demo is an introduction to DataMa analysis limited in time and capacity. You may want to contact us for getting fully up to speed
 layout: page
+scope: shiny
 ---
 
 > Tableau extension demo is an introduction to DataMa analysis limited in time and capacity. You may want to contact us for getting fully up to speed

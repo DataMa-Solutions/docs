@@ -1,0 +1,16 @@
+---
+---
+[
+  {% assign posts = site.posts | where_exp: "item", "item.feed == 'release_note'" %}
+  {% for post in posts %}
+  {
+    {% if forloop.first %}
+    "latest": "True",
+    {% endif %}
+    "title": "{{ post.title | escape }}",
+    "date": "{{post.date}}",
+    "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
+    "description": "{{ post.content | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', "" | strip_newlines | strip_html | strip | escape }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

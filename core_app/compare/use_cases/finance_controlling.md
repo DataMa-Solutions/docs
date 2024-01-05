@@ -1,3 +1,9 @@
+---
+title: Finance Controlling
+description: Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Finance Controlling
 
 > Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.datama.fr/) solution.

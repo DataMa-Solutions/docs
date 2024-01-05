@@ -2,6 +2,8 @@
 title: Secondary Comparison
 description: Find here how you can use the Comparison menu of the subheader of the DataMa Solutions
 layout: page
+scope: datama/saas/compare
+keywords: full app compare coc compare of compare secondary comparison
 ---
 
 > Find here how you can use **the Dimension Comparison** of the subheader of the DataMa solution**

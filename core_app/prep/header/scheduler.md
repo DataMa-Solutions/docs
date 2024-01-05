@@ -2,6 +2,7 @@
 title: Using the scheduler
 description: When enabled, the scheduler will allow you to pre-compute making DataMa Analysis faster.
 layout: page
+scope: shiny
 ---
 
 > **When enabled, the scheduler will allow you to pre-compute making DataMa Analysis faster.**

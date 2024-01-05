@@ -2,6 +2,8 @@
 title: Compare Interface
 description: Overall interface is split in 4 elements, that are the back bone of DataMa Compare.
 layout: page
+scope: datama/saas/compare
+keywords: full app compare interface
 ---
 
 > Overall **interface** is split in 4 elements, that are the back bone of DataMa Compare

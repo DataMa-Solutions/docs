@@ -2,6 +2,8 @@
 title: Pivot - Settings
 description: Here is the different settings available in DataMa Pivot
 layout: page
+scope: datama/saas/pivot
+keywords: full app pivot settings subheader sub header
 ---
 
 
@@ -21,6 +23,13 @@ layout: page
 <b>Basic setting:s<b><br>
 - [Comparison](#comparison)
 - [KPI](#kpi) (Metric Relation)
+
+<br>
+<b>Metric relation analysis:<b><br>
+- [Inspect numerator only](#inspect-numerator-only)
+- [Analyse all metrics relation steps](#analyse-all-metrics-relation-steps)
+- [Step interest criteria](#step-interest-criteria)
+- [Analysis depth](#analysis-depth)
 
 <br>
 
@@ -73,3 +82,31 @@ DataMa Pivot can be used with a comparison. To enable this mode select a dimensi
 ## KPI
 
 In DataMa Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.
+
+<br/>
+
+# <b>Metric relation analysis<b>
+
+<br/>
+
+## Inspect numerator only
+
+When the toggle is checked, Pivot is focusing on the numerator of the step you are currently exploring.
+
+## Analyse all metrics relation steps
+
+DataMa Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
+
+## Step interest criteria
+
+There are different options: Value, Standard deviation and Auto.
+
+- **Value** : No matter what the units are, the higher the value, the higher the importance.
+- **Standard deviation** : No matter what the units are, the higher the standard deviation of the step, the higher the importance.
+- **Auto** : If all your steps have the same unit, their importance is based on the Value. If some steps don't have the same unit, the steps that are ratios are compared by Standard deviation. If all your steps are not ratios, then they are compared by standard deviation.
+
+By default, the most interesting dimension for each step is displayed first, you can of course change the display by right-clicking on the tree.
+
+## Analysis depth
+
+The comments summing up the market equation tree have different degrees of analysis. There are 4 different options: Low, Medium, High and Max, each option giving more details than the previous one.

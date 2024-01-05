@@ -2,6 +2,7 @@
 title: Performance effect
 description: Performance effect in the WebApp and concept of segment performance.
 layout: page
+scope: shiny
 ---
 
 ## Performance effect in the WebApp

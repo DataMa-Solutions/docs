@@ -2,6 +2,7 @@
 title: DataMa on Premise
 description: DataMa could also be installed on premise.
 layout: page
+scope: shiny
 ---
 
 > DataMa could be packaged and installed on premise.

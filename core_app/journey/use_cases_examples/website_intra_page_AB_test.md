@@ -2,6 +2,7 @@
 title: Intra page AB test experience
 description: This example is showing a dataset for  DataMa JOURNEY to analyze page user actions (scroll, click etc) contribution to AB test experiment within a page.
 layout: page
+scope: shiny
 ---
 
 This example is showing a dataset for  DataMa JOURNEY to analyze page user actions (scroll, click etc) contribution to AB test experiment within a page.

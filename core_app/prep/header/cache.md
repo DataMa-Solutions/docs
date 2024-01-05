@@ -2,6 +2,7 @@
 title: Prep Caching & Running method
 description: Find information about DataMa Prep caching and running method of your flow
 layout: page
+scope: shiny
 ---
 
 > **Find information about DataMa Prep caching and running method of your flow**

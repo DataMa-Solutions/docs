@@ -2,6 +2,7 @@
 title: Mix and Perf Settings
 description: Settings about how DataMa will act regarding Mix & Performance visualisation.
 layout: page
+scope: shiny
 ---
 
 In the interface left menu, you have settings regarding how DataMa will act regarding Mix & Performance visualisation.

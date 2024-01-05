@@ -2,6 +2,8 @@
 title: DataMa integrations
 description: Extensions allow you to use DataMa within your preferred data tool. It basically unlocks the functionality of DataMa, on top of a tool your already using.
 layout: page
+scope: datama/saas
+keywords: full app integration embed embedded add-on addons addon
 ---
 
 

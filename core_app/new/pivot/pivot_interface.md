@@ -2,6 +2,8 @@
 title: Pivot - Interface
 description: Understand what is in the Dashboard panel of DataMa PIVOT
 layout: page
+scope: datama/saas/pivot
+keywords: full app pivot interface
 ---
 
 > Understand what is in the interface of **DataMa PIVOT**
@@ -13,7 +15,8 @@ Here is the main elements to find in DataMa PIVOT:
 - [MariMekko](#marimekko)
 - [Sankey Diagram](#sankey-diagram)
 - [Simple Test Matrix](#simple-test-matrix)
-- Coming soon: [Decision Tree](#decision-tree)
+- [Decision Tree](#decision-tree)
+- [Market equation tree](#market-equation-tree)
 
 <br><br>
 
@@ -90,11 +93,9 @@ These figures are the percentage of correlation.When you click on one of the fig
 
 ## <b>Decision Tree</b>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
-
 
 The decision tree is based on a Rpart model (Recursive Partitioning and Regression Trees)
-Helps you identify the optimal characteristic of the sample that has the best performance. This decision tree helps you understand your dimensions and the importance they have explaining your performance.
+It helps you identify the optimal characteristic of the sample that has the best performance. This decision tree helps you understand your dimensions and the importance they have in the explanation of your performance.
 The figures in the square is the average KPI for this specific population and the percentage is the ratio of the population having this characteristic.
 
 
@@ -102,7 +103,26 @@ Steps of the decision tree are ordered according to the importance they have on 
 On the right find the more important dimension to follow and the worst on the left.
 In the box, see on the top the value of the KPI for the concerned population and on the bottom the percentage of population concerned by this selection.
 
+Here is what it looks like in Pivot:
+
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_decisionTree.png" style="width:650px; height:auto;"/></center>
 
-
 <br>
+
+## <b>Market equation Tree</b>
+
+The market equation tree is available when you select [Analyse all metrics relation steps]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analyse-all-metrics-relation-steps).
+This tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations, then on your dimensions, and finally on your segments. 
+You can specify your KPIs units in the metrics relations.
+
+Here is what the tree looks like:
+
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_marketequationTree.png" style="width:650px; height:auto;"/></center>
+
+
+Steps of the market equation tree are ordered according to the importance they have on the KPI. The importance of a step is a [criteria]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#step-interest-criteria) you can choose in the settings of Pivot subheader. The options are detailed in the settings of Step interest criteria.
+
+For each step, the mean of each dimension is computed, and the segments are sorted by their value compared to the mean, whether it is above or below the average.
+
+The _Comments_ section sums up the most interesting parts of the tree with a level of analysis that can be changed in [analysis depth]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analysis-depth).
