@@ -31,6 +31,21 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+feed:
+  tip_of_the_week_fr:
+    path: feed_totw_fr.xml
+    output: true
+    title: Tip of the week FR
+    description: Le nouveau conseil de la semaine
+    url: /docs/tips/fr
+
+  tip_of_the_week_en:
+    path: feed_totw_en.xml
+    output: true
+    title: Tip of the week
+    description: The latest tip of the week
+    url: /docs/tips/en
 #  - jekyll-sitemap
 
 # Exclude from processing.

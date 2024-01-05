@@ -2,6 +2,7 @@
 title: Waterfall
 description: The waterfall analysis is the main element of DataMa COMPARE interface. It concatenates all the detailed analysis that appear in other graphs.
 layout: page
+scope: shiny
 ---
 
 > The **waterfall analysis** is the main element of DataMa COMPARE interface. It concatenates all the detailed analysis that appear in other graphs.

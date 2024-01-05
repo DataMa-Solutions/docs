@@ -2,6 +2,8 @@
 title: Homepage - Admin
 description: On this page, find details on the Admin section of the homepage
 layout: page
+scope: datama/saas
+keywords: full app home admin
 ---
 
 >On this page, find details on the **Admin** section of the homepage

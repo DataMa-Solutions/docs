@@ -6,14 +6,11 @@
 #
 # OPTIONAL : type: separated // Add line after the bloc in the aside
 - name: Get Started
-  type: separated
   link: /core_app/new/tutorial/first_use.html #OK
-
-- name: Solutions
+  type: bold
+- name: Full App
+  link: /core_app/new_docs.html
   type: separated
-  link: /web_application.html
-- name: New version of DataMa
-  link: /core_app/new_docs.html #done
   subnav:
     - name: Interface #done
       link: /core_app/new/interface/interface.html
@@ -232,7 +229,6 @@
                       link: /core_app/new/detect/settings.html#comparison
                     - name: KPI #done
                       link: /core_app/new/detect/settings.html#kpi
-
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       subnav:
@@ -242,19 +238,19 @@
           link: /core_app/new/pivot/pivot_interface.html
           subnav:
             - name: Importance Chart #done
-              link: /core_app/new/pivot/settings.html#importance-chart
+              link: /core_app/new/pivot/pivot_interface.html#importance-chart
             - name: Simple chart #done
-              link: /core_app/new/pivot/settings.html#simple-chart
+              link: /core_app/new/pivot/pivot_interface.html#simple-chart
             - name: Clustered Chart #done
-              link: /core_app/new/pivot/settings.html#clustered-chart
+              link: /core_app/new/pivot/pivot_interface.html#clustered-chart
             - name: MariMekko #done
-              link: /core_app/new/pivot/settings.html#marimekko
+              link: /core_app/new/pivot/pivot_interface.html#marimekko
             - name: Sankey Diagram #done
-              link: /core_app/new/pivot/settings.html#sankey-diagram
+              link: /core_app/new/pivot/pivot_interface.html#sankey-diagram
             - name: Simple Test Matrix #done
-              link: /core_app/new/pivot/settings.html#simple-test-matrix
+              link: /core_app/new/pivot/pivot_interface.html#simple-test-matrix
             - name: Decision Tree #done
-              link: /core_app/new/pivot/settings.html#decision-tree
+              link: /core_app/new/pivot/pivot_interface.html#decision-tree
             - name: Pivot subheader
               subnav:
                 - name: Dimension Comparison  #done
@@ -394,8 +390,6 @@
               link: /core_app/new/journey/use_cases_examples/website_intra_page_AB_test.html
             - name: Online acquisition
               link: /core_app/new/journey/use_cases_examples/online_acquisition.html
-#        - name: Model
-#          link: /core_app/new/journey/model.html
     - name: Prep #done
       link: /core_app/new/prep/prep.html
       subnav:
@@ -456,87 +450,89 @@
               link: /core_app/new/integration/PowerBI_demo.html 
         - name: Tableau
           link: /core_app/new/integration/tableau.html
+          subnav:
+            - name: Tableau - Compare - Demo #done
+              link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
-
-- name: Other
-  subnav:
+    - name: DataMa On Premise
+      link: /core_app/new/DataMa_on_premise.html #OK
     - name: Old version of DataMa
       link: /core_app/old_docs.html
       subnav:
         - name: Compare
           link: /core_app/compare.html #OK
           subnav:
-          - name: Model
-            link: /core_app/compare/model.html #OK
-            subnav:
-              - name: Waterfall
-                link: /core_app/compare/model/waterfall.html #OK
-                subnav:
-                  - name: Covariance
-                    link: /core_app/compare/model/waterfall/covariance.html #OK
-                  - name: Summary view
-                    link: /core_app/compare/model/waterfall/summary_view.html #OK
-              - name: Dimension (Mix & Perf)
-                link: /core_app/compare/model/dimensions.html #OK
-              - name: Other important modeling components
-                link: /core_app/compare/model/modeling_components.html #OK
-          - name: Web application
-            link: /core_app/compare/web_application.html #OK
-            subnav:
-              - name: Dashboard
-                link: /core_app/compare/web_application/dashboard.html #OK
-                subnav:
-                  - name: Value boxes
-                    link: /core_app/compare/web_application/dashboard/value_boxes.html #OK
-                  - name: Waterfall
-                    link: /core_app/compare/web_application/dashboard/waterfall.html #OK
-                    subnav:
-                      - name: Chart
-                        link: /core_app/compare/web_application/dashboard/waterfall/chart.html #OK
-                        subnav:
-                          - name: Zoomed View
-                            link: /core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view.html #OK
-                      - name: Summary Chart
-                        link: /core_app/compare/web_application/dashboard/waterfall/summary_chart.html #OK
-                      - name: Funnel
-                        link: /core_app/compare/web_application/dashboard/waterfall/funnel.html #OK
-                  - name: Detailed View
-                    link: /core_app/compare/web_application/dashboard/detailed_view.html #OK
-                    subnav:
-                      - name: Moves
-                        link: /core_app/compare/web_application/dashboard/detailed_view/moves.html #OK
-                      - name: Bridge
-                        link: /core_app/compare/web_application/dashboard/detailed_view/bridge.html #OK
-                  - name: Dimension analysis
-                    link: /core_app/compare/web_application/dashboard/dimension_analysis.html #OK
-                    subnav:
-                      - name: Mix effect
-                        link: /core_app/compare/web_application/dashboard/dimension_analysis/mix_effect.html #OK
-                      - name: Performance effect
-                        link: /core_app/compare/web_application/dashboard/dimension_analysis/performance_effect.html #OK
-              - name: Menu
-                link: /core_app/compare/web_application/menu.html #OK
-                subnav:
-                  - name: Overview
-                    link: /core_app/compare/web_application/menu/overview.html #OK
-                  - name: Settings
-                    link: /core_app/compare/web_application/menu/settings.html #OK
-                    subnav:
-                      - name: Aggregation
-                        link: /core_app/compare/web_application/menu/aggregation.html #OK
-                      - name: Smart Dimension
-                        link: /core_app/compare/web_application/menu/smart_dimension.html #OK
-                      - name: Included steps
-                        link: /core_app/compare/web_application/menu/included_steps.html #unknown file
-                      - name: Compare of Compare
-                        link: /core_app/compare/web_application/menu/compare_of_compare.html #OK
-                      - name: Split Mix and Perf
-                        link: /core_app/compare/web_application/menu/split_mix_and_perf.html #OK
-                      #                            - name: Signifiance test
-                      #                              link: /core_app/compare/web_application/menu/signifiance_test.html
-                      - name: Display Options
-                        link: /core_app/compare/web_application/menu/display_options.html #OK
+            - name: Model
+              link: /core_app/compare/model.html #OK
+              subnav:
+                - name: Waterfall
+                  link: /core_app/compare/model/waterfall.html #OK
+                  subnav:
+                    - name: Covariance
+                      link: /core_app/compare/model/waterfall/covariance.html #OK
+                    - name: Summary view
+                      link: /core_app/compare/model/waterfall/summary_view.html #OK
+                - name: Dimension (Mix & Perf)
+                  link: /core_app/compare/model/dimensions.html #OK
+                - name: Other important modeling components
+                  link: /core_app/compare/model/modeling_components.html #OK
+            - name: Web application
+              link: /core_app/compare/web_application.html #OK
+              subnav:
+                - name: Dashboard
+                  link: /core_app/compare/web_application/dashboard.html #OK
+                  subnav:
+                    - name: Value boxes
+                      link: /core_app/compare/web_application/dashboard/value_boxes.html #OK
+                    - name: Waterfall
+                      link: /core_app/compare/web_application/dashboard/waterfall.html #OK
+                      subnav:
+                        - name: Chart
+                          link: /core_app/compare/web_application/dashboard/waterfall/chart.html #OK
+                          subnav:
+                            - name: Zoomed View
+                              link: /core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view.html #OK
+                        - name: Summary Chart
+                          link: /core_app/compare/web_application/dashboard/waterfall/summary_chart.html #OK
+                        - name: Funnel
+                          link: /core_app/compare/web_application/dashboard/waterfall/funnel.html #OK
+                    - name: Detailed View
+                      link: /core_app/compare/web_application/dashboard/detailed_view.html #OK
+                      subnav:
+                        - name: Moves
+                          link: /core_app/compare/web_application/dashboard/detailed_view/moves.html #OK
+                        - name: Bridge
+                          link: /core_app/compare/web_application/dashboard/detailed_view/bridge.html #OK
+                    - name: Dimension analysis
+                      link: /core_app/compare/web_application/dashboard/dimension_analysis.html #OK
+                      subnav:
+                        - name: Mix effect
+                          link: /core_app/compare/web_application/dashboard/dimension_analysis/mix_effect.html #OK
+                        - name: Performance effect
+                          link: /core_app/compare/web_application/dashboard/dimension_analysis/performance_effect.html #OK
+                - name: Menu
+                  link: /core_app/compare/web_application/menu.html #OK
+                  subnav:
+                    - name: Overview
+                      link: /core_app/compare/web_application/menu/overview.html #OK
+                    - name: Settings
+                      link: /core_app/compare/web_application/menu/settings.html #OK
+                      subnav:
+                        - name: Aggregation
+                          link: /core_app/compare/web_application/menu/aggregation.html #OK
+                        - name: Smart Dimension
+                          link: /core_app/compare/web_application/menu/smart_dimension.html #OK
+                        - name: Included steps
+                          link: /core_app/compare/web_application/menu/included_steps.html #unknown file
+                        - name: Compare of Compare
+                          link: /core_app/compare/web_application/menu/compare_of_compare.html #OK
+                        - name: Split Mix and Perf
+                          link: /core_app/compare/web_application/menu/split_mix_and_perf.html #OK
+                        #                            - name: Signifiance test
+                        #                              link: /core_app/compare/web_application/menu/signifiance_test.html
+                        - name: Display Options
+                          link: /core_app/compare/web_application/menu/display_options.html #OK
         - name: Impact
           link: /core_app/impact.html #OK
           subnav:
@@ -845,12 +841,58 @@
                       link: /home/use_cases/finance_controlling.html #OK
                     - name: Content Square data
                       link: /home/use_cases/Content_CS.html #OK
-- name: DataMa On Premise
-  link: /core_app/new/DataMa_on_premise.html #OK
+- name: Light App
+  link: /extensions/index.html
+  type: bold
+  subnav:
+    - name: Compare
+      link: /extensions/datama-compare/introduction.html
+      subnav:
+        - name: Introduction
+          link: /extensions/datama-compare/introduction.html
+        - name: Concept
+          link: /extensions/datama-compare/concept.html
+        - name: Structure
+          link: /extensions/datama-compare/structure.html
+        - name : Waterfall
+          link: /extensions/datama-compare/waterfall.html
+        - name : Settings
+          link: /extensions/datama-compare/settings/index.html
+          subnav:
+            - name: Analysis
+              link: /extensions/datama-compare/settings/analysis/index.html
+              subnav:
+                - name: Metrics relation
+                  link: /extensions/datama-compare/settings/analysis/metrics-relation.html
+                - name: Comparison
+                  link: /extensions/datama-compare/settings/analysis/comparison.html
+                - name: Advanced
+                  link: /extensions/datama-compare/settings/analysis/advanced.html
+            - name: Plot
+              link: /extension/datama-compare/settings/waterfall/index.html
+              subnav:
+                - name: Display
+                  link: /extensions/datama-compare/settings/waterfall/display.html
+                - name: Labels
+                  link: /extensions/datama-compare/settings/waterfall/labels.html
+    - name : Extensions
+      link: /extensions/how-to-use/index.html
+      subnav:
+        - name: Looker Studio
+          link: /extensions/how-to-use/looker-studio.html
+          subnav:
+            - name: Privacy Policy
+              link: /extensions/how-to-use/looker-studio/privacy-policy.html
+        - name: PowerBI
+          link: /extensions/how-to-use/powerbi.html
+        - name: Tableau
+          link: /extensions/how-to-use/tableau.html
 - name: Licence terms
-  type: separated
   link: /core_app/new/admin/licence_terms.html #OK
+  type: separated
 - name: Privacy policy
   link: /core_app/new/admin/privacy_policy.html #OK
+  type: bold
 - name: Terms of Service
   link: /core_app/new/admin/terms_of_service.html #OK
+  type: bold

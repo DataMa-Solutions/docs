@@ -2,6 +2,7 @@
 title: Google Big Query
 description: Find information about DataMa Prep BigQuery's source
 layout: page
+scope: shiny
 ---
 
 > **You can do an sql query on your Google BigQuery and use it in DataMa PREP.**

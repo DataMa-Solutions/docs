@@ -2,6 +2,8 @@
 title: Help
 description: Find out how you can use the "Help" menu of the header of the DataMa Solutions
 layout: page
+scope: datama/saas
+keywords: full app header menu help
 ---
 
 > Find out how you can use **the Help** menu of the header of the Solution**

@@ -2,6 +2,7 @@
 title: Slack & Email
 description: Receive your analyses directly in your mailbox or on a Slack channel.
 layout: page
+scope: shiny
 ---
 
 > You don't have time to open the DataMa interface ... receive your analyses **directly in your mailbox** or on a **Slack channel**

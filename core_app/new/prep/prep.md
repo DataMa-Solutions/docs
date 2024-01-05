@@ -1,8 +1,9 @@
 ---
 title: DataMa Prep
 description: DataMa PREP is a data manipulation tool. No-code, easy-to-use… Add value to your datasets and use it into DataMa solution for a perfect analysis of your KPIs.
-
 layout: page
+scope: datama/saas/prep
+keywords: full app prep
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/prep_icon.jpg" alt="logo prep" style="height:60px;"/></center>

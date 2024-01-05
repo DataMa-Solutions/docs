@@ -2,6 +2,8 @@
 title: Settings
 description: The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%,  segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default.
 layout: page
+scope: datama/saas
+keywords: full app subheader sub header settings aggregation
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings_agg2percent.jpg"/></center>

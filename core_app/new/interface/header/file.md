@@ -2,6 +2,8 @@
 title: File
 description: Find out how you can use the "File" menu of the header of the DataMa Solutions
 layout: page
+scope: datama/saas
+keywords: full app header menu file
 ---
 
 > Find out how you can use **the File** menu of the header of the Solution**

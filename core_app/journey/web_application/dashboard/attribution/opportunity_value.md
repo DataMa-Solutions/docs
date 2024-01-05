@@ -2,6 +2,7 @@
 title: Opportunity
 description: The Opportunity tab is a graph allowing you to visualize the value attributed to each touch point of the customer journey based on selected attribution model.
 layout: page
+scope: shiny
 ---
 
 The Opportunity tab is a graph allowing you to visualize the value attributed to each touch point of the customer journey based on selected attribution model.

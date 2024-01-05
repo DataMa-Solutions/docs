@@ -2,6 +2,7 @@
 title: PowerBI extension
 description: DataMa can be run as a PowerBI plugin, to use both the R library and the Shiny web app in a PowerBI environment.
 layout: page
+scope: shiny
 ---
 
 > DataMa can be run as a **PowerBI plugin**, to use both the R library and the Shiny web app in a PowerBI environment.

@@ -2,6 +2,7 @@
 title: Ratio Helper
 description: The Ratio Helper tabset helps you understand which ratio you want to analyze. You can display this tabset by clicking on the '÷' sign in the 'definitions' section of Impact/ Pivot or the chart icon in the Settings>Included Steps of Compare.
 layout: page
+scope: shiny
 ---
 
 > The Ratio Helper tabset helps you understand which ratio you want to analyze. You can display this tabset by clicking on the '÷' sign in the 'definitions' section of Impact/ Pivot or the chart icon in the Settings>Included Steps of Compare

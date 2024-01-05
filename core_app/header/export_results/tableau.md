@@ -2,6 +2,7 @@
 title: Export to Tableau
 description: DataMa Compare Tableau template above allows you to visualize the output in Tableau.
 layout: page
+scope: shiny
 ---
 
 > DataMa Compare Tableau template above allows you to **visualize the output in Tableau**.

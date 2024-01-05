@@ -2,6 +2,8 @@
 title: DataMa Assess
 description: DataMa Assess aims at evaluating the difference of a KPI between two populations of interest.
 layout: page
+scope: datama/saas/assess
+keywords: full app assess overview
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/assess_icon.jpg" alt="logo assess" /></center>
