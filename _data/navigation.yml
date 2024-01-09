@@ -852,29 +852,10 @@
           link: /extensions/datama-compare/introduction.html
         - name: Concept
           link: /extensions/datama-compare/concept.html
-        - name: Structure
+        - name: Interface
           link: /extensions/datama-compare/structure.html
-        - name : Waterfall
-          link: /extensions/datama-compare/waterfall.html
         - name : Settings
-          link: /extensions/datama-compare/settings/index.html
-          subnav:
-            - name: Analysis
-              link: /extensions/datama-compare/settings/analysis/index.html
-              subnav:
-                - name: Metrics relation
-                  link: /extensions/datama-compare/settings/analysis/metrics-relation.html
-                - name: Comparison
-                  link: /extensions/datama-compare/settings/analysis/comparison.html
-                - name: Advanced
-                  link: /extensions/datama-compare/settings/analysis/advanced.html
-            - name: Plot
-              link: /extension/datama-compare/settings/waterfall/index.html
-              subnav:
-                - name: Display
-                  link: /extensions/datama-compare/settings/waterfall/display.html
-                - name: Labels
-                  link: /extensions/datama-compare/settings/waterfall/labels.html
+          link: /extensions/datama-compare/settings/settings.html
     - name : Extensions
       link: /extensions/how-to-use/index.html
       subnav:
