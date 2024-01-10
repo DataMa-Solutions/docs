@@ -5,27 +5,29 @@ scope: datama/light
 keywords: Looker LookerStudio get started
 ---
 
+<br/>
 
 > Using DataMa Solutions as a LookerStudio extension is a great way to make your report more insightful with the benefits of both DataMa and LookerStudio.
 
-</br>
+<br/>
 
 Here is what you get on this page:
-    1. [Overview](#1-overview) 
-    2. [Features](#2-features)
-    3. [Installation](#3-add-the-extension-into-your-report)
-    4. [Free trial Period](#4-get-a-free-trial-period)
-    5. [How to use](#5-getting-started)
-    6. [Read your analysis](#6-read-your-analysis)
-    7. [Settings](#7-advanced-usage)
-    8. [Get more insights](#8-get-more-insights)
+1. [Overview](#1-overview) 
+2. [Features](#2-features)
+3. [Installation](#3-add-the-extension-into-your-report)
+4. [Free trial Period](#4-get-a-free-trial-period)
+5. [How to use](#5-getting-started)
+6. [Read your analysis](#6-read-your-analysis)
+7. [Settings](#7-advanced-usage)
+8. [Get more insights](#8-get-more-insights)
+9. [Support and Resources](#9-support-and-resources)
 
-</br>
+<br/>
 
 ## 1. Overview
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for LookerStudio. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
-</br>
+<br/>
 
 ## 2. Features
 - **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
@@ -35,7 +37,7 @@ This document provides detailed documentation for the "Datama Compare - Smart wa
 - **Interactive Charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
 - **Customization Options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
-</br>
+<br/>
 
 
 ## 3. Add the extension into your report
@@ -51,7 +53,7 @@ Follow these steps to add Datama in your report :
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
 
 <br>
 
@@ -69,34 +71,30 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 <br>
 
-## 5. Getting Started
+## 5. Getting started
 
 Once you've imported the extension, here is how you can use it.
 
 **1. First think at your use case**: You need first to consider which KPI you want to analyse and what are the steps that lead to the main KPI.
 
 **2. Prepare your dataset**: 4 steps are needed to properly set your dataset.
-        1. **Main KPI:** Define the main KPI you want to compare (e.g. Revenue, Leads, Margin...)
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_mainKPI.png" align="right" width="200px" />
-        2. **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_Comparison.png" align="right" width="200px" />
-            - by default, Datama will select the first two elements of your dimension, or split a date range in two.
-        3. **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
-            - To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_steps.png" align="right" width="200px" />
-       4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_explanationDimensions.png" align="right" width="200px" />
-    <div style="clear: both;"></div>
+1.  **Main KPI:** Define the main KPI you want to compare (e.g. Revenue, Leads, Margin...)
+2.  **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
+     - by default, Datama will select the first two elements of your dimension, or split a date range in two.
+3.  **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
+     - To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+4.  **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
+<br/>
 
 <span style="color:red;">&gt;&gt; Add here a gif with the dataset preparation</span>
 
->> Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" /></center>
+> Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" /></center>
 
-</br>
+<br/>
 
-## 6. Read Your Analysis
+## 6. Read your Analysis
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
@@ -105,21 +103,23 @@ Once you've imported the extension, here is how you can use it.
 
 To discover more about how to read Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
-</br>
+<br/>
 
 ## 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings/settings.html) to get the full view of the extension Settings. 
 
-</br>
+<br/>
 
 ## 8. Get more insights
 
 Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
-## 8. Support and Resources
+<br/>
+
+## 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.datama.io/lets-talk/), and we'll get back to you promptly.
 
-</br>
+<br/>

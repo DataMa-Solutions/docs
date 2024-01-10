@@ -7,22 +7,22 @@ keywords: PowerBI get started
 
 > Using DataMa Solutions as a PowerBi extension is a great way to make your report more insightful with the benefits of both DataMa and PowerBI.
 
-</br>
+<br/>
 
 Here is what you get on this page:
-    1. [Overview](#1-overview) 
-    2. [Features](#2-features)
-    3. [Installation](#3-add-the-extension-into-your-report)
-    4. [Free trial Period](#4-get-a-free-trial-period)
-    5. [How to use](#5-getting-started)
-    6. [Read your analysis](#6-read-your-analysis)
-    7. [Settings](#7-advanced-usage)
-    8. [Get more insights](#8-get-more-insights)
-    9. [Support and resources](#9-support-and-resources)
-    10. [Release](#10-powerbi-version-history-to-be-updated)
+1. [Overview](#1-overview) 
+2. [Features](#2-features)
+3. [Installation](#3-add-the-extension-into-your-report)
+4. [Free trial Period](#4-get-a-free-trial-period)
+5. [How to use](#5-getting-started)
+6. [Read your analysis](#6-read-your-analysis)
+7. [Settings](#7-advanced-usage)
+8. [Get more insights](#8-get-more-insights)
+9. [Support and resources](#9-support-and-resources)
+10. [Release](#10-powerbi-version-history-to-be-updated)
 
 
-</br>
+<br/>
 
 ## 1. Overview
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for PowerBI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
@@ -35,7 +35,7 @@ This document provides detailed documentation for the "Datama Compare - Smart wa
 - **Interactive Charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
 - **Customization Options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
-</br>
+<br/>
 
 ## 3. Add the extension into your report
 
@@ -46,7 +46,7 @@ Follow one or the other steps to install the Datama plugin:
     2. Search for "Compare - Smart Waterfall".
     3. The visual will appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-</br>
+<br/>
 
 2. **or Install from the Visualization Pane**:
     1. In the visualization pane, click on the ellipsis ("...") to import a custom visual.
@@ -56,7 +56,7 @@ Follow one or the other steps to install the Datama plugin:
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.png" /></center>
 
-</br>
+<br/>
 
 ## 4. Get a free trial period
 
@@ -96,7 +96,7 @@ Once you've imported the extension, here is how you can use it.
 >> Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" /></center>
 
-</br>
+<br/>
 
 ## 6. Read Your Analysis
 
@@ -106,14 +106,14 @@ Once you've imported the extension, here is how you can use it.
 
 - **In-Depth Exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
 
-</br>
+<br/>
 
 ## 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings/settings.html) to get the full view of the extension Settings. 
 
 
-</br>
+<br/>
 
 ## 8. Get more insights
 
@@ -124,7 +124,7 @@ If you require assistance or have any questions, feel free to reach out. We're h
     - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.datama.io/lets-talk/), and we'll get back to you promptly.
 
-</br>
+<br/>
 
 ## 10. PowerBi Version History (to be updated)
 - **1.0.0 (Release Date)**: Initial release.

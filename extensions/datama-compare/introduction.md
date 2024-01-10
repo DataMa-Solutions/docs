@@ -13,7 +13,7 @@ keywords: datama light compare Compare intro introduction
 
 > **Datama Compare is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
-</br>
+<br/>
 
 Serverless & easy to integrate into your tools, Datama Compare makes it easy to explain variations of any KPI between two segments.
 
@@ -31,7 +31,7 @@ This documentation gives you an overview of how it works and how to use it.
 
 ### 1. Quickly understand how Datama Compare can help you in your business analyses by following these links:
 - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
-- [Structure]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
+- [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
 
 <br>
 
@@ -46,6 +46,4 @@ This documentation gives you an overview of how it works and how to use it.
 <!--- [Use other(s) comparison]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/analysis/comparison.html)
 - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/structure.html) -->
 - [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
-- [How to read Waterfall graphs]({{site.url}}/{{site.baseurl}}/core-app/new/tutorial/first_use.html)
-
-
+- [How to read Waterfall graphs]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)

@@ -5,7 +5,11 @@ scope: datama/light/compare
 keywords: light compare structure
 ---
 
+<br/>
+
 > **To guarantee you get started as quickly as possible, Datama has made its experience as intuitive as possible.**
+
+<br/>
 
 ## 1. Overview
 
@@ -14,14 +18,14 @@ Datama Compare extension is composed of One main section (analysis) in Viewer mo
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
 
 
-
-
 <br>
 
 ## 2. Header section 
 
 In Builder mode the header is used for advanced settings to let you configure and refine your analysis. Read the [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
 
+
+<br/>
 
 ## 3. Analysis section
 
@@ -36,11 +40,12 @@ Analysis section is mainly the Waterfall and few icons to change the display of 
 4. **Documentation**: Direct link to this documentation
 5. **Waterfall Settings**: Refine the display of the waterfall. Find more information on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
 
+<br/>
 
 ## 4. Footer Section
 
 Depending on your plan the footer can have different informations: 
-- Link to upgrade your plan, 
-- Documentation 
-- Contact us
+- Link to upgrade your plan,
+- [Documentation]((https://docs.datama.io/)) 
+- [Contact us](https://datama.io/lets-talk/)
 
