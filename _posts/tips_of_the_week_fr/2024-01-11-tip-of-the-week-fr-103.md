@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-Un nouveau bloc a fait son apparition dans Datama Prep: le bloc "Join" qui vous permettra simplement de réaliser une jointure entre deux sources 🥳
+Un nouveau bloc a fait son apparition dans Datama Prep: le bloc "Join" qui vous permettra simplement de réaliser une jointure entre deux sources 🥳  
 
 Très simple d'utilisation, il sera configuré en deux étapes:
 1. Choisissez le type de jointure que vous souhaitez effectuer (Inner, Outer, Left, Right, Cross Join) 🔗
