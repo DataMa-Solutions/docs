@@ -1,6 +1,6 @@
 ---
 feed: totw_fr
-title:  "Tip of the Week 103: New bloc Join dans Datama Prep"
+title:  "Tip of the Week 103: Nouveau bloc Join dans Datama Prep"
 date:   2024-01-11 10:12:00 +0200
 img_url: /assets/images/tip/103.gif
 img_type: image/gif
