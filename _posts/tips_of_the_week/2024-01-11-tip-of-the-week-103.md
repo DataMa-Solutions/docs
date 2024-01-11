@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-A new block has appeared in Datama Prep: the 'Join' block, which lets you simply perform a join between two sources  🥳
+A new block has appeared in Datama Prep: the 'Join' block, which lets you simply perform a join between two sources 🥳  
 
 Very simple to use, it will be configured in two steps:
 1. Choose the type of join you want to perform (Inner, Outer, Left, Right, Cross Join) 🔗
