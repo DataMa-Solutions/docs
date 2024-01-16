@@ -100,7 +100,7 @@ Using metrics relation allows you to change your market equation, add a unit, re
     - Variation relative to average (e.g. “x2.43”) - this is the default value and allows to spot easily “abnormal” variations way above average (i.e. above 1; 1 is the average)
     - Percentage Variation (e.g. “-46%”)
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_SettingsWaterfall.PNG){: style="align: center; width: 500px;"}
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_SettingsWaterfall.png){: style="align: center; width: 500px;"}
 
 
 <br/>
