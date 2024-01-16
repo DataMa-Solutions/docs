@@ -5,4 +5,4 @@ scope: datama/light/compare
 keywords: Tableau get started
 ---
 
-> This page is currently under maintenance
+> This page is currently under construction
