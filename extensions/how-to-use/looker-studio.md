@@ -90,7 +90,7 @@ Once you've imported the extension, here is how you can use it.
 <span style="color:red;">&gt;&gt; Add here a gif with the dataset preparation</span>
 
 > Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.PNG" /></center>
 
 <br/>
 
