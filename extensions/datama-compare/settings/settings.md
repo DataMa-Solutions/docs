@@ -7,7 +7,7 @@ keywords: light compare settings
 
 <br/>
 
-> Datama provides the layer of intelligence needed to explain your performance variations
+> Discover all settings exposed by Datama Compare extension to improve your analysis
 
 <br/>
 
@@ -27,7 +27,6 @@ _Find below how you can customize Datama Compare using the General settings and 
 
 # 1. General Settings
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_GeneralSettings.png){: style="float: right; width: 500px;"}
 
 ### 1.1. Model Configuration
 
@@ -38,11 +37,11 @@ As a global Settings, Level of aggregation, is for now the only one available.
     - When selecting "variation in %" you only have the absolut variation of the segment in %. If desktop is moving of +4%, the label will be 'Desktop (+4)'--->
 - **Level of aggregation:** The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/new/interface/subheader/settings/aggregation.html)
 
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_GeneralSettings.png){: style="align: right; width: 600px;"}
+
 <br/>
 
 ### 1.2. Comparison 
-
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_ComparisonSettings.png){: style="float: right; width: 500px;"}
 
 > This part allow to choose what you want to compare, you can also add others comparison to go deeper
 
@@ -53,13 +52,11 @@ Defining what you want to compare is the very first step of your analysis in Dat
 - **Secondary Comparison**: Add a comparison to duplicate your waterfall with a secondary waterfall on a different scope. (e.g. Compare Week N versus Week N-1 and compare Week N-2 vers Week N-1).
   - Use the Advanced Settings to also select a secondary comparison on a different scope. For example, compare a Week over Week on Category A and also a Week over Week on Category B.
 
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_ComparisonSettings.png" /></center>-->
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_ComparisonSettings.png){: style="align: right; width: 600px;"}
 
 <br/>
 
 ### 1.3. Metrics Relation
-
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.png){: style="float: right; width: 500px;"}
 
 > This part allow you to edit your KPIs and your market equation, it is very useful when you want to fit your analysis with your business
 
@@ -70,15 +67,19 @@ Using metrics relation allows you to change your market equation, add a unit, re
 - In the Metrics Relation definition, you can opt to set a given step to focus on a specific dimension. This action will disable the automatic dimension scoring in the computation result and only display the selected dimension.
 - The excluded dimension will maintain the scoring algorithm but will not consider the excluded dimension in the calculation for this step.
 
-<br/>
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.png){: style="align: center; width: 500px;"}
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_LanguageSettings.png){: style="float: right; width: 500px;"}
+
+<br/>
 
 ### 1.4. Preferences
 
 > These settings allow you to customize the application to fit with your company, you can also change the analysis language !
 
  For now only French and English are available, let's us now if you want a new language to be added. 
+
+
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_LanguageSettings.png){: style="align: right; width: 500px;"}
 
 
 <br/>
@@ -99,7 +100,12 @@ Using metrics relation allows you to change your market equation, add a unit, re
     - Variation relative to average (e.g. “x2.43”) - this is the default value and allows to spot easily “abnormal” variations way above average (i.e. above 1; 1 is the average)
     - Percentage Variation (e.g. “-46%”)
 
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_SettingsWaterfall.png){: style="align: center; width: 500px;"}
+
+
 <br/>
+
+
 
 
 ### 2.2. Fonts & Size
@@ -113,9 +119,15 @@ Using metrics relation allows you to change your market equation, add a unit, re
 
 Documentation under construction
 
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/SettingsLabelIndicator.png){: style="align: center; width: 500px;"}
+
+
+
 <br/>
 
 ---
+
+<br/>
 
 Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) of Datama.
 

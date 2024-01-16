@@ -5,7 +5,7 @@ scope: datama/light/compare
 keywords: light compare concept
 ---
 
-> **Here is what you should now about DataMa to understand what is behind the solution**
+> **Here is what you should know about Datama to understand what is behind the solution**
 
 <br/>
 

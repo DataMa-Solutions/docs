@@ -868,12 +868,12 @@
           link: /extensions/how-to-use/powerbi.html
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
-- name: Licence terms
-  link: /core_app/new/admin/licence_terms.html #OK
-  type: separated
+##- name: Licence terms
+##  link: /core_app/new/admin/licence_terms.html #OK
+##  type: separated
 - name: Privacy policy
   link: /core_app/new/admin/privacy_policy.html #OK
-  type: bold
+  type: separated
 - name: Terms of Service
   link: /core_app/new/admin/terms_of_service.html #OK
   type: bold
