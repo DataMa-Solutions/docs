@@ -65,7 +65,7 @@ Now, I can easily split Revenue that way: <span style="color:#00484A"> *Revenue 
 Why do I want to split those? Well basically because it’s not the same team in charge of volumes and the one in charge of pricing. So, in order to be able to identify where I need to improve, I need to split those two effects.
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.png" style="width: 70%;" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 70%;" /></center>
 
 <br/>
 
@@ -97,7 +97,7 @@ Each waterfall step represents a variance of a ratio of your performance, offeri
 - When the Checkout/ Sessions drops from -26.7% it has an impact of 12,298€ on Revenue 
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Structure_Waterfall.png" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Structure_Waterfall.PNG" /></center>
 
 <br/>
 

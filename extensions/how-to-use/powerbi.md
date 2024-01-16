@@ -65,7 +65,7 @@ Follow one or the other steps to install the Datama plugin:
     3. Choose the Datama visual from the list provided.
     4. The visual will now appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.png" align="center" width="130px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
 <br/>
 
 ## 4. Get a free trial period
@@ -102,7 +102,7 @@ Once you've imported the extension, here is how you can use it.
 
 > Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" align="center" width="600px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.PNG" align="center" width="600px" />
 
 <br/>
 
