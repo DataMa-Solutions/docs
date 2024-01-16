@@ -9,6 +9,10 @@ keywords: PowerBI get started
 
 <br/>
 
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_intropage.png" align="center" width="650px" />
+
+<br/>
+
 Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
@@ -16,7 +20,7 @@ Here is what you get on this page:
 4. [Free trial Period](#4-get-a-free-trial-period)
 5. [How to use](#5-getting-started)
 6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-advanced-usage)
+7. [Settings](#7-settings---advanced-usage)
 8. [Get more insights](#8-get-more-insights)
 9. [Support and resources](#9-support-and-resources)
 10. [Release](#10-powerbi-version-history-to-be-updated)
@@ -27,7 +31,12 @@ Here is what you get on this page:
 ## 1. Overview
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for PowerBI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
+<br/>
+
 ## 2. Features
+
+Here are the main features this extension is providing. These features will be completed step by step with new improvements and functionnalities such as automated comments and title, hypothesis "What if" modelisation...
+
 - **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
 - **Smart Scoring Engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix Effect Analysis:** Assess the specific impact of Mix effect on your performance metrics.
@@ -46,6 +55,8 @@ Follow one or the other steps to install the Datama plugin:
     2. Search for "Compare - Smart Waterfall".
     3. The visual will appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/AddExtensionPBI.gif" align="center" width="650px" />
+
 <br/>
 
 2. **or Install from the Visualization Pane**:
@@ -54,8 +65,7 @@ Follow one or the other steps to install the Datama plugin:
     3. Choose the Datama visual from the list provided.
     4. The visual will now appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.png" /></center>
-
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.png" align="center" width="130px" />
 <br/>
 
 ## 4. Get a free trial period
@@ -78,23 +88,21 @@ Once you've imported the extension, here is how you can use it.
 **1. First think at your use case**: You need first to consider which KPI you want to analyse and what are the steps that lead to the main KPI.
 
 **2. Prepare your dataset**: 4 steps are needed to properly set your dataset.
-        1. **Main KPI:** Define the main KPI you want to compare (e.g. Revenue, Leads, Margin...)
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_mainKPI.png" align="right" width="200px" />
-        2. **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_Comparison.png" align="right" width="200px" />
-        - by default, Datama will select the first two elements of your dimension, or split a date range in two.
-        3. **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
-            - To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_steps.png" align="right" width="200px" />
-       4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
-        <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_dataset_explanationDimensions.png" align="right" width="200px" />
-    <div style="clear: both;"></div>
+1. **Main KPI:** Define the main KPI you want to compare (e.g. Revenue, Leads, Margin...)
+2. **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
+    - by default, Datama will select the first two elements of your dimension, or split a date range in two.
+3. **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
+    - To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 
-<span style="color:red;">&gt;&gt; Add here a gif with the dataset preparation</span>
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/ConfigDatasetPBI.gif" align="center" width="650px" />
 
->> Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" /></center>
+<br/>
+
+> Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.png" align="center" width="600px" />
 
 <br/>
 
@@ -103,12 +111,11 @@ Once you've imported the extension, here is how you can use it.
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
 - By default, the most interesting dimension will be selected for this zoomed step. You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by". You can unzoom by clicking on other steps or clicking on the box again.
-
 - **In-Depth Exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
 
 <br/>
 
-## 7. Advanced Usage
+## 7. Settings - Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings/settings.html) to get the full view of the extension Settings. 
 
@@ -117,15 +124,16 @@ Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//sett
 
 ## 8. Get more insights
 
-Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+
+<br/>
 
 ## 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
-    - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@datama.fr) for any inquiries or support issues.
-    - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.datama.io/lets-talk/), and we'll get back to you promptly.
+- 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@datama.fr) for any inquiries or support issues.
+- 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>
 
 ## 10. PowerBi Version History (to be updated)
-- **1.0.0 (Release Date)**: Initial release.
-- **1.1.0 (Release Date)**: Description of updates in version 1.1.0.
+- **1.0.0 (2024-01-20)**: Initial release.
