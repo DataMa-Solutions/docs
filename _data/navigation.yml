@@ -866,6 +866,9 @@
               link: /extensions/how-to-use/looker-studio/privacy-policy.html
         - name: PowerBI
           link: /extensions/how-to-use/powerbi.html
+          subnav:
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan.html
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
 ##- name: Licence terms

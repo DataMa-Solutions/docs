@@ -15,7 +15,7 @@ keywords: light compare structure
 
 Datama Compare extension is composed of One main section (analysis) in Viewer mode and three sections in Builder mode (header, analysis & footer)
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
 
 
 <br>
