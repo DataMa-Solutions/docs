@@ -31,6 +31,11 @@ Here is what you get on this page:
 ## 1. Overview
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for PowerBI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
+Watch this video to properly understand our extension and how to use it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l9AydNNZw5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 <br/>
 
 ## 2. Features
@@ -76,8 +81,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 2. On the "Full Extension" card, click on **"🚀 Try for free"**
 4. Get your Trial extension key and paste it into the PowerBi Settings
 
-
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
+See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan.html) our different plans.
 
 <br>
 
