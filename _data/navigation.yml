@@ -442,11 +442,11 @@
     - name: Integrations
       link: /core_app/new/integration/integrations.html
       subnav:
-        - name: PowerBI
+        - name: Power BI
           subnav:
-            - name: PowerBI - Full Version #done
+            - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html
-            - name: PowerBI - Demo #done
+            - name: Power BI - Demo #done
               link: /core_app/new/integration/PowerBI_demo.html 
         - name: Tableau
           link: /core_app/new/integration/tableau.html
@@ -864,7 +864,7 @@
           subnav:
             - name: Privacy Policy
               link: /extensions/how-to-use/looker-studio/privacy-policy.html
-        - name: PowerBI
+        - name: Power BI
           link: /extensions/how-to-use/powerbi.html
           subnav:
             - name: Pricing Plan

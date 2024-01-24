@@ -22,7 +22,7 @@ For now only one extension is available on marketPlace.
 
 ### Find Datama in different Markeplace.
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
-- [In PowerBI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerbi.html)
+- [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerbi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
 
 <br>
