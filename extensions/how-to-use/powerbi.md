@@ -1,11 +1,11 @@
 ---
-title: Datama Compare on PowerBI
+title: Datama Compare on Power BI
 layout: page
 scope: datama/light/compare
-keywords: PowerBI get started
+keywords: Power BI get started powerbi
 ---
 
-> Using DataMa Solutions as a PowerBi extension is a great way to make your report more insightful with the benefits of both DataMa and PowerBI.
+> Using DataMa Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both DataMa and Power BI.
 
 <br/>
 
@@ -29,7 +29,7 @@ Here is what you get on this page:
 <br/>
 
 ## 1. Overview
-This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for PowerBI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 Watch this video to properly understand our extension and how to use it.
 
@@ -79,7 +79,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 1. Click on "Trial version" link of Datama footer
 2. On the "Full Extension" card, click on **"🚀 Try for free"**
-4. Get your Trial extension key and paste it into the PowerBi Settings
+4. Get your Trial extension key and paste it into the Power Bi Settings
 
 See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan.html) our different plans.
 
@@ -139,5 +139,5 @@ If you require assistance or have any questions, feel free to reach out. We're h
 
 <br/>
 
-## 10. PowerBi Version History (to be updated)
-- **1.0.0 (2024-01-20)**: Initial release.
+## 10. Power BI Version History (to be updated)
+- **1.0.0.1 (2024-01-20)**: Initial release.

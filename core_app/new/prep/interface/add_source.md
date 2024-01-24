@@ -28,7 +28,7 @@ Here is the available connectors:
 - [Facebook](#facebook)
 - [Piano Analytics (AT Internet)](#piano-analytics)
 
-And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, PowerBI, LookerStudio,...)
+And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
 
 > ## Google Sheet
