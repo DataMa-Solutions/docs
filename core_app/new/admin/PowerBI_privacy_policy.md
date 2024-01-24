@@ -1,20 +1,20 @@
 ---
-title: Datama PowerBi Extension Privacy Policy
+title: Datama Power Bi Extension Privacy Policy
 description: See the privacy policy of the DataMa applications.
 layout: page
 scope: datama/saas
-keywords: full app extension powerbi privacy policy
+keywords: full app extension power bi privacy policy
 ---
 
 
 # Introduction
 
-Thank you for choosing Datama's PowerBi Extension. Located at 7 rue Pierre Ginier, 75018 Paris, Datama is devoted to upholding the confidentiality and security of its users. This Privacy Policy provides a transparent outline of our procedures concerning the collection, usage, and sharing of your data when using our PowerBi extension. Engaging with our extension is an implicit agreement to the terms of this Privacy Policy.
+Thank you for choosing Datama's Power BI Extension. Located at 7 rue Pierre Ginier, 75018 Paris, Datama is devoted to upholding the confidentiality and security of its users. This Privacy Policy provides a transparent outline of our procedures concerning the collection, usage, and sharing of your data when using our Power BI extension. Engaging with our extension is an implicit agreement to the terms of this Privacy Policy.
 
-# PowerBi Extension Privacy Policy
+# Power BI Extension Privacy Policy
 
 ## 1. Information Collection
-When you interact with our PowerBi extension, we may gather specific data categories, notably dataframes shared through PowerBi. This data is aggregated, aiding us in ensuring the extension's seamless functionality and tailoring it to serve users better.
+When you interact with our Power BI extension, we may gather specific data categories, notably dataframes shared through Power BI. This data is aggregated, aiding us in ensuring the extension's seamless functionality and tailoring it to serve users better.
 
 
 ## 2. User Consent
@@ -30,7 +30,7 @@ Your trust is invaluable to us. We stand firm in our commitment not to sell, lea
 
 
 ## 5. Cookies and Tracking Technologies
-In our commitment to user privacy, the DataMa PowerBI Extension refrains from using cookies or other tracking technologies. We do monitor the quantity of calculations executed by the extension, but this data remains entirely anonymous and unlinked to individual users.
+In our commitment to user privacy, the DataMa Power BI Extension refrains from using cookies or other tracking technologies. We do monitor the quantity of calculations executed by the extension, but this data remains entirely anonymous and unlinked to individual users.
 
 
 ## 6. Third-party Access
@@ -58,7 +58,7 @@ As technology and regulations evolve, so might this Privacy Policy. We are commi
 
 
 ## 12. Children
-The design and intention behind our PowerBi extension are not for individuals below the age of 13. We are adamant about not intentionally collecting or maintaining data about these young individuals. Any unintentional data collection of this demographic will be addressed with utmost priority.
+The design and intention behind our Power BI extension are not for individuals below the age of 13. We are adamant about not intentionally collecting or maintaining data about these young individuals. Any unintentional data collection of this demographic will be addressed with utmost priority.
 
 
 ## 13. Contact

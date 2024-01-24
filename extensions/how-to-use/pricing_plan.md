@@ -1,15 +1,15 @@
 ---
-title: Pricing plan of Datama Compare in PowerBI
+title: Pricing plan of Datama Compare in Power BI
 layout: page
 scope: datama/light/compare
-keywords: PowerBI Pricing Plan
+keywords: PowerBI power bi Pricing Plan
 ---
 
 <br/>
 
 # Datama Pricing Plans
 
-Unlock the full potential of your data analysis with Datama's flexible pricing options. Choose the plan that best fits your needs and start transforming your data into actionable insights. Go into the PowerBi [page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/datama1591255760056.datama-compare?tab=overview) to activate a licence
+Unlock the full potential of your data analysis with Datama's flexible pricing options. Choose the plan that best fits your needs and start transforming your data into actionable insights. Go into the Power BI [page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/datama1591255760056.datama-compare?tab=overview) to activate a licence
 
 ## Common Features Across All Licenses
 

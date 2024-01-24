@@ -236,7 +236,7 @@ Envie d’intégrer DataMa directement dans vos dashboards? Vous êtes sur :
 l’image
 * Tableau? Utilisez l’extension DataMa dans Tableau (voir la documentation)
 l’image
-* PowerBI? Suivez ce processus pour utiliser l'extention DataMa
+* Power BI? Suivez ce processus pour utiliser l'extention DataMa
 l’image
 * Pour tout autre solution de datavisualisation en ligne comme DataStudio, vous pouvez utiliser les exports statics, que vous pouvez plannifier (avec l’option «Automatically Schedule») pour que les graphiques s’actualisent avec votre source.
 PS : si vous voulez exporter tous les graphiques exportables d’une solution, faites l’export depuis le bouton d’export à côté du bouton « Save », sinon exporter seulement le graphique voulu avec le bouton au niveau du graphique « Export graph as Public URL »
@@ -367,7 +367,7 @@ Boum 💥
 
 <h2>Tip of the week #34</h2>
 
-Que ce soit dans Tableau ou PowerBi, retrouvez de manière transparente vos graphes DataMa 🤓
+Que ce soit dans Tableau ou Power BI, retrouvez de manière transparente vos graphes DataMa 🤓
 * DataMa vient récupérer directement vos données dans votre outil de dataViz
 * Besoin uniquement de 3 onglets dans Tableau :
  * 1 pour les données

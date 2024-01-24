@@ -18,5 +18,5 @@ keywords: full app integration embed embedded add-on addons addon
 Check the documentation of the tool you’re interested in to see how you can leverage it:
 
 - [Tableau Software]({{site.url}}/{{site.baseurl}}/core_app/new/integration/tableau.html)
-- [PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/powerbi.html)
+- [Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/powerbi.html)
 - [Looker Studio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/looker_studio.html)
