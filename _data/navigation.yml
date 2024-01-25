@@ -865,7 +865,7 @@
             - name: Privacy Policy
               link: /extensions/how-to-use/looker-studio/privacy-policy.html
         - name: Power BI
-          link: /extensions/how-to-use/powerbi.html
+          link: /extensions/how-to-use/power_bi.html
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan.html
