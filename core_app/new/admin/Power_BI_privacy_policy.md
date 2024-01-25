@@ -1,9 +1,9 @@
 ---
-title: Datama Power Bi Extension Privacy Policy
+title: Datama Power BI Extension Privacy Policy
 description: See the privacy policy of the DataMa applications.
 layout: page
 scope: datama/saas
-keywords: full app extension power bi privacy policy
+keywords: full app extension power BI privacy policy
 ---
 
 
