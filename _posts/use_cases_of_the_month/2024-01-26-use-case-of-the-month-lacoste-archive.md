@@ -4,9 +4,7 @@ title:  "🎥 From the archives: A close look at Lacoste 🐊 x Datama"
 date:   2024-01-26 12:00:00 +0200
 layout: post
 ucotm_url : https://www.datama.io/use-case-7-conversion-funnel-monitoring/
-img_url: https://www.youtube.com/watch?v=J9tiRjXF6wY    
-img_width: 1280
-img_height: 720
+video_url: https://www.youtube.com/watch?v=J9tiRjXF6wY    
 ---
 
 
