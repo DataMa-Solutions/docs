@@ -15,7 +15,8 @@
     "img": "{{site.url}}/{{site.baseurl}}{{post.img_url}}",
     "img_type": "{{post.img_type}}",
     "img_height": "{{post.img_height}}",
-    "img_width": "{{post.img_width}}"
+    "img_width": "{{post.img_width}}",
+    "video": "{{site.url}}/{{site.baseurl}}{{post.video_url}}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
