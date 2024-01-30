@@ -2,28 +2,36 @@
 title: Dataset
 description: This section identify the type of data you should load
 layout: page
-scope: app
+scope: datama/saas/prep
+keywords: full app prep dataset metrics dimensions
 ---
 
 
 > This section identify the type of data you should load in **DataMa Prep**
 
 DataMa source is basically a flat table.
-As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a spreadsheet.
+As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a datasource. 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/prep_dataset.jpg"  style="width:550px; height:auto;"/></center>
+For now Datama has a limit of 200 000 rows per analysis (This should evolve soon in 2024!) 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/dataset_DimensionsMetrics.png"  style="width:450px; height:auto;"/></center>
 
 
-DataMa <a href="https://app.datama.io/" target="_blank">demo</a> has a series of saved versions using different sources that you can **get inspired from looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
+DataMa <a href="https://app.datama.io/" target="_blank">demo</a> has a series of saved versions using different sources that you can get inspired from looking at this [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
 
 As for example:
 
 <center> <iframe width=610 height=260 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXRV_yX735skN1XO80vxldchFr5tii0E1mUgk0vdkaZaOGDxHY9yVZEk0wXb1zag0OVIQzxRBm1zuw/pubhtml?gid=1408263987&amp;single=true&amp;widget=true&amp;headers=false"></iframe> </center>
 
+## Order of columns
+
+Start your dataset by Dimensions and then metrics. The Dimensions should start by the comparison dimension (see details below) followed by all the explanatories dimensions. The metrics should end with your main KPI and preceded by all the sub performance indicator that are linked to your KPI. 
 
 ## Metrics
 
-Metrics are always **numeric values**. As an input, you need to put only metrics that can be **aggregated** (i.e. summed). To simplify, this basically means that it has a business sense to sum this Metric. Eg. « Revenues » is something you can sum. However, a ratio like « Revenues/ Purchase » is something that doesn’t have much business sense to sum.
+Metrics are always **numeric values**. 
+
+As an input, you need to put only metrics that can be **aggregated** (i.e. summed). To simplify, this basically means that it has a business sense to sum this Metric. Eg. « Revenues » is something you can sum. However, a ratio like « Revenues/ Purchase » is something that doesn’t have much business sense to sum (Datama will do ratios for you)
 
 To decide which metrics you want in your source, everything depends on your use case. However, it’s safe to say that you want at least the metrics that you need to compute the **KPI** you want to explain. Then you would need all the metrics that are required to compute your « market equation ». Please report to [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) section for more details.
 
@@ -38,6 +46,8 @@ To decide which dimensions you want in your source, you may want to think about 
 If a dimension is continuous (i.e. numeric) and has more than 6 possible values, it will get discrete by a partition algorithm, in order to be able to compute mix effects & performance.
 
 Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
+
+<br/>
 
 > **Tip:** DataMa PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
 

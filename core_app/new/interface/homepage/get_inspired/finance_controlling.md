@@ -2,7 +2,8 @@
 title: Finance Controlling
 description: This financial assessment example differs from standard cases because the metric relation does not represent a conversion funnel, but a business equation.
 layout: page
-scope: app
+scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 
 > This page details the **« Finance – Controlling»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.

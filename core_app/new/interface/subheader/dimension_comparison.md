@@ -2,7 +2,8 @@
 title: Dimension Comparison
 description: Find here how you can use the Comparison menu of the subheader of the DataMa Solutions
 layout: page
-scope: app
+scope: datama/saas
+keywords: full app subheader sub header settings dimension comparison
 ---
 
 <br>

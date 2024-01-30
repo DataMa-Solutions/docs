@@ -2,7 +2,8 @@
 title: Moves
 description: In the Detailed View the graph « Moves » represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
 layout: page
-scope: app
+scope: datama/saas/compare
+keywords: full app compare moves
 ---
 
 > In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension and understand Mix effect and Performance effect.

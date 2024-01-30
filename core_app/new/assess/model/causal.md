@@ -2,7 +2,8 @@
 title: Model - Causal Impact
 description: Causal Impact test allows to assess the significance of a variation pre-post an intervention on a test group.
 layout: page
-scope: app
+scope: datama/saas/assess
+keywords: full app assess model causal
 ---
 
 <br>

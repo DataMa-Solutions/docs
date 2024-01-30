@@ -2,7 +2,8 @@
 title: Metric relation
 description: Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 layout: page
-scope: app
+scope: datama/saas/prep
+keywords: full app prep metrics relation metric mr
 ---
 
 > Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html), in order to compute the **KPI you want to explain**.

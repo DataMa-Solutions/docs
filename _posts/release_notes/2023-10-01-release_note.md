@@ -7,7 +7,7 @@ layout: post
 
 
 * **Extensions:**
-    * Looker Studio, PowerBI and Tableau extensions in the new UI have been improved to leverage cache when useful and now include a "reload" button to refresh the data and the settings
+    * Looker Studio, Power BI and Tableau extensions in the new UI have been improved to leverage cache when useful and now include a "reload" button to refresh the data and the settings
 
 * **Compare:**
     * Performance for large datasets has been improved. As a result, large datasets run 20-30% faster than before

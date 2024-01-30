@@ -2,7 +2,8 @@
 title: Other important modeling components
 description: Here is a list of modeling components available.
 layout: page
-scope: app
+scope: datama/saas/compare
+keywords: full app compare model modeling component
 ---
 
 <br>

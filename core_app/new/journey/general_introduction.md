@@ -2,7 +2,8 @@
 title: General Introduction
 description: DataMa JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.
 layout: page
-scope: app
+scope: datama/saas/journey
+keywords: full app journey introduction
 ---
 
 <br>

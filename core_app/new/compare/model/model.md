@@ -2,7 +2,8 @@
 title: Model
 description: Here is what you should now about DataMa to understand what is behing the solution
 layout: page
-scope: app
+scope: datama/saas/compare
+keywords: full app compare model
 ---
 
 > Here is what you should now about DataMa to understand what is behing the solution
