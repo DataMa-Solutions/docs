@@ -2,7 +2,8 @@
 title: DataMa Compare
 description: DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.
 layout: page
-scope: app
+scope: datama/saas/compare
+keywords: full app compare overview
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/compare_icon.jpg" alt="logo compare" /></center>

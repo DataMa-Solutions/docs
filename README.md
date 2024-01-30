@@ -20,3 +20,4 @@ Followed tutorial : https://docs.github.com/en/pages/setting-up-a-github-pages-s
 `
 bundle exec jekyll serve
 `
+http://127.0.0.1:4000/docs/

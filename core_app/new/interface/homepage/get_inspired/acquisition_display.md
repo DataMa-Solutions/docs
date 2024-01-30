@@ -2,7 +2,8 @@
 title: Media Acquisition Analysis
 description: This use case focuses on analyzing media acquisition data for digital marketing campaigns
 layout: page
-scope: app
+scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 > This use case focuses on analyzing **media acquisition** data for digital marketing campaigns
 

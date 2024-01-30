@@ -2,7 +2,8 @@
 title: Prep - Unit
 description: DataMa allows you to define units for each step of your metric relations, but also for the result of your market equation. 
 layout: page
-scope: app
+scope: datama/saas/prep
+keywords: full app prep dataset unit units
 ---
 
 <br>

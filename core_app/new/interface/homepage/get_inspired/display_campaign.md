@@ -2,7 +2,8 @@
 title: Display Campaign Comparison
 description: This use case presents a display campaign comparison for an eCommerce website to help marketers analyze the performance of two different campaigns
 layout: page
-scope: app
+scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 > This use case presents a display **campaign comparison** for an eCommerce website to help marketers analyze the performance of two different campaigns
 

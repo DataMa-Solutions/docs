@@ -1,3 +1,20 @@
+<!--
+  ~ DATAMA SAS
+  ~ --------------
+  ~ NOTICE:  All information contained herein is, and remains
+  ~ the property of DataMa SAS and/or some open source packages used
+  ~ if any.  The intellectual and technical concepts contained
+  ~ herein are proprietary to DataMa SAS
+  ~ and its suppliers and may be covered by French and Foreign Patents,
+  ~ patents in process, and are protected by trade secret or copyright law.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from DataMa SAS.
+  ~ Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
+  ~ Copyright (c) 2023 DATAMA SAS, All rights reserved.
+  ~ Generated for file : page.html project project-deep-sky
+  -->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -37,10 +54,25 @@
 </main>
 <script src="{{site.url}}/{{site.baseurl}}/assets/js/main.js"></script>
 <script>
+    let groups = {
+        'shiny': 'old-ui full-app',
+        'datama/saas': 'full-app',
+        'datama/saas/compare': 'compare full-app',
+        'datama/saas/assess': 'Assess full-app',
+        'datama/saas/detect': 'Detect full-app',
+        'datama/saas/pivot': 'Pivot full-app',
+        'datama/saas/journey': 'Journey full-app',
+        'datama/light': 'light-app',
+        'datama/light/compare': 'compare light-app'
+    }
     search.listen('search-input-aside', {
         fields: {
+            scope: {
+              weight: 1100
+            },
             title: {
-                weight: 1000
+                weight: 1000,
+                required: true
             },
             keywords: {
                 weight: 500
@@ -49,13 +81,18 @@
                 weight: 250
             },
             body: {
-                weight: 100
+                weight: 100,
+                required: true
             }
         },
         results: {
             template: (element) => {
-                return `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                return {
+                    scope: search.json[element.id].scope,
+                    html: `<li class="search-result" data-score="${element.total}"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><div class="search-tags">${(groups[search.json[element.id].scope] || '').split(' ').filter(e => e).map(e => '<span class="search-group">' + e + '</span>').join('')}</div><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                }
             },
+            groups,
             limit: 15,
             container: 'results-container-aside'
         }

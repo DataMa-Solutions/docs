@@ -2,7 +2,8 @@
 title: Prep - Interface
 description: This section identify the type of data you should load
 layout: page
-scope: app
+scope: datama/saas/prep
+keywords: full app prep interface
 ---
 
 

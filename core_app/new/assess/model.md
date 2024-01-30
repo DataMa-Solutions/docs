@@ -2,7 +2,8 @@
 title: DataMa Assess - Our Models
 description: Statistical models used by DataMa to assess the significance are based on common models for a data scientist. 
 layout: page
-scope: app
+scope: datama/saas/assess
+keywords: full app assess model concept
 ---
 
 

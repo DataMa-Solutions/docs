@@ -2,7 +2,8 @@
 title: Product - A/B test
 description: As for the other examples, the number of dimensions can be extended to all the data available from your A/B Test.
 layout: page
-scope: app
+scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 
 > This page details the **«Product – AB Test»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.

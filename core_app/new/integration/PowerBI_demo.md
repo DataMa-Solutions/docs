@@ -1,19 +1,20 @@
 ---
-title: PowerBI - Demo extension
-description: Using DataMa Solutions as a PowerBI extension is a great way to make your report more insightful with the benefits of both DataMa and PowerBi.
+title: Power BI - Demo extension
+description: Using DataMa Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both DataMa and Power BI.
 layout: page
-scope: app
+scope: datama/saas
+keywords: full app integration embed embedded add-on addons addon power bi demo
 ---
 
 
-> Welcome to the **Datama extension documentation for PowerBI**. Harness the combined strengths of DataMa and PowerBI to make your reports more insightful.
+> Welcome to the **Datama extension documentation for Power BI**. Harness the combined strengths of DataMa and Power BI to make your reports more insightful.
 
 
 <br>
 
 # <b>Why I am here?</b>
 
-You're here because you're exploring the Datama extension in PowerBi and seeking deeper insights on its usage. If the setup of the demo PowerBI dashboard seems unclear, you're in the right place. 
+You're here because you're exploring the Datama extension in Power BI and seeking deeper insights on its usage. If the setup of the demo Power BI dashboard seems unclear, you're in the right place. 
 
 To get a clearer understanding of what the "Compare" extension does, visit this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html).  
 
@@ -32,7 +33,7 @@ We've preloaded several datasets for you, but you're welcome to add your own dat
 
 Load your own data if you want to test the extension even further!
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBI_DatamaExtension_FirstUseCase.gif)
+![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBI_DatamaExtension_FirstUseCase.gif)
 
 <br>
 
@@ -61,7 +62,7 @@ If "Mix effect", "Performance effect", or "Market Equation" sound intricate, exp
 <br>
 <br>
 
-Alternatively, below a 2min video intro to the PowerBI extension:
+Alternatively, below a 2min video intro to the Power BI extension:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nf4IpBErAUk?si=80AXC4m4RoPmhU3n" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

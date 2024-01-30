@@ -2,7 +2,8 @@
 title: Model - Bootstrap model
 description: Bootstrap testing is a very efficient statistical approach for reading out AB test results
 layout: page
-scope: app
+scope: datama/saas/assess
+keywords: full app assess model bootstrap
 ---
 
 <br>

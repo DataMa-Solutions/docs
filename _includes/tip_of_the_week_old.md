@@ -234,7 +234,7 @@ However, you can choose a breakdown by another dimension by right-clicking on th
 ## Tip of the week #50
 You want to integrate DataMa directly into your dashboards? Are you working on :
   * Tableau? Use the DataMa extension in Tableau (see documentation)
-  * PowerBI? Follow this process to use the DataMa extension
+  * Power BI? Follow this process to use the DataMa extension
   * For any other online data visualization solution like DataStudio, you can use static exports, that you can schedule (with the “Automatically Schedule” option) so that the graphs update with your source.
 PS: if you want to export all the exportable graphs of a solution, do the export from the export button next to the "Save" button, otherwise export only the desired graph with the button at the level of the graph "Export graph as Public URL »
 ![Tip 50]({{site.url}}/{{site.baseurl}}/assets/images/tip/50.gif)
@@ -361,7 +361,7 @@ Boom 💥
 
 <h2>Tip of the week #34</h2>
 
-Whether in Tableau or PowerBi, transparently display your DataMa graphs  🤓
+Whether in Tableau or Power BI, transparently display your DataMa graphs  🤓
 * DataMa directly retrieves your data in your dataViz tool
 * You only need 3 tabs in Tableau:
 * 1 for data
