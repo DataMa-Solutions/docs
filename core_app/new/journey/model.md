@@ -3,6 +3,7 @@ title: Model
 description: A pre-requisite is to be able to generate a data source that contains your customer journeys, the volume and the value associated to it.
 layout: page
 scope: datama/saas/journey
+keywords: full app journey model
 ---
 
 A pre-requisite is to be able to generate a data source that contains your customer journeys, the volume and the value associated to it.

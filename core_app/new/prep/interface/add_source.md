@@ -3,6 +3,7 @@ title: Prep - Add Source
 description: This section helps you extract data from your data sources
 layout: page
 scope: datama/saas/prep
+keywords: full app prep add source
 ---
 
 <br>
@@ -27,7 +28,7 @@ Here is the available connectors:
 - [Facebook](#facebook)
 - [Piano Analytics (AT Internet)](#piano-analytics)
 
-And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, PowerBI, LookerStudio,...)
+And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
 
 > ## Google Sheet
@@ -179,11 +180,11 @@ With Google Trend connector, you can enrich your data flow with Google Search re
 
 #### You can cross your data with Google trends data
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:60%"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:70%"/></center>
 
 ### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG" style="width:60%"/></center>
 
 It will enrich your analysis by comparing your own data of your e-commerce website or marketing campaign results with the data and trends of the market. You will be able to compare your evolution with a larger point of view and understand your performance in a more global context.
 

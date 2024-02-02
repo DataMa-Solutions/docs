@@ -3,6 +3,7 @@ title: Retail performance
 description: This use case demonstrates the financial assessment of online and offline retail performance using a business equation instead of a conversion funnel.
 layout: page
 scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 
 > Find below information about the **« Retail Performance** example in our [demo](https://app.datama.io) solution.
@@ -21,13 +22,13 @@ Distinct from other examples, this use case is designed for financial assessment
 
 Our objective is to compare the net margin on a month-over-month basis. The net margin is calculated as follows:
 
-<span style="color:red"> Net Margin = Quantity x (Revenue/ Quantity) x (Net Revenue/ Revenue) x (Growth Margin/ Net Revenue) x (Net Margin/ Growth Margin) </span>
+<span style="color:red"> Net Margin = Quantity x (Revenue/ Quantity) x (Net Revenue/ Revenue) x (Gross Margin/ Net Revenue) x (Net Margin/ Gross Margin) </span>
 
 
 Which will represent the analysis of the following ratio:
 
 
-<span style="color:red"> Net Margin = Number of Qty Sold x Average Price x Discount Rate x Gross profit Margin x Net Profit Margin </span>
+<span style="color:red"> Net Margin = Number of Qty Sold x Average Price x (1-Discount Rate) x Gross profit Margin x Net Profit Margin </span>
 
 
 The equation allows us to dissect various factors affecting business performance, such as the volume of items sold, revenue generated from sales, as well as the discount, gross, and net margins earned. The equation can be further refined to incorporate other variables, like the number of distribution points selling the product, stock levels, costs, and more.

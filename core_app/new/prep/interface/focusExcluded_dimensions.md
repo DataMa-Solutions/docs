@@ -3,6 +3,7 @@ title: Prep - Focused and excluded dimensions
 description: In the Metrics Relation definition, you can choose to set a given step to focus on a specific dimension or exclude a dimension
 layout: page
 scope: datama/saas/prep
+keywords: full app prep focus exclude dimensions focused excluded
 ---
 
 > **In the Metrics Relation definition, you can choose to set a given step to focus on a specific dimension or exclude a dimension**

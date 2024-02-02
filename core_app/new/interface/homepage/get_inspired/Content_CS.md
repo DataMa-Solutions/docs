@@ -3,6 +3,7 @@ title: Content Square data
 description: This example is will show you how to specifically analyze Contentsquare data within DataMa Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 layout: page
 scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 
 > This page details the  **« Content Square»**  example in our demo solution.
