@@ -3,6 +3,7 @@ title: Data Menu
 description: Find out how you can use the "Data" menu of the header of the DataMa Solutions
 layout: page
 scope: datama/saas
+keywords: full app header menu data
 ---
 
 > Find out how you can use **the Data** menu of the header of the Solution**

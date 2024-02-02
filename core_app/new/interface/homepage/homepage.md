@@ -3,6 +3,7 @@ title: Homepage
 description: See in this chapter details how to use the homepage of your account
 layout: page
 scope: datama/saas
+keywords: full app home homepage
 ---
 
 > In this chapter, see details on how to use the **Homepage**  of the DataMa solution

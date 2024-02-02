@@ -2,6 +2,7 @@
 title: Plot settings of Datama Compare
 description: Here you will find how you can personify display of Datama compare plots
 scope: datama/light/compare
+keywords: light compare settings plot waterfall
 ---
 
 > Datama provides the layer of intelligence needed to explain your performance variations

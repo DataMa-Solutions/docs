@@ -3,6 +3,7 @@ title: Subheader
 description: Find here how you can use the subheader of the DataMa Solutions
 layout: page
 scope: datama/saas
+keywords: full app subheader sub header
 ---
 
 > Find here how you can use **the subheader** of the Solution**

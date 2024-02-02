@@ -3,6 +3,7 @@ title: User preferences
 description: Find here how to use the **Settings**
 layout: page
 scope: datama/saas
+keywords: full app home user preferences
 ---
 
 > Find here how to use the **User preferences**

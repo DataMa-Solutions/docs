@@ -3,6 +3,7 @@ title: Settings
 description: Find here how to use the **Settings**
 layout: page
 scope: datama/saas
+keywords: full app subheader sub header settings
 ---
 
 > Find here how to use the **Settings**

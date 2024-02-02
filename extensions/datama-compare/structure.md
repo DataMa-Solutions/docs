@@ -1,57 +1,51 @@
 ---
-title: Structure of Datama Compare
+title: Interface of Datama extension
 layout: page
 scope: datama/light/compare
+keywords: light compare structure
 ---
+
+<br/>
 
 > **To guarantee you get started as quickly as possible, Datama has made its experience as intuitive as possible.**
 
-### Overview
+<br/>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
+## 1. Overview
 
-<br>
+Datama Compare extension is composed of One main section (analysis) in Viewer mode and three sections in Builder mode (header, analysis & footer)
 
-## Settings
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
 
-Datama Compare settings let you analyze your data from any point of view you want :
-
-<br>
-
-### **Comparison**
-
-> This part allow to choose what you want to compare, you can also add others comparison to go deeper
-
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/comparison.png" alt="Analysis settings of Datama Compare" title="Datama Compare - Structure" /></center>
-
-Get more information about [Structure]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/analysis/comparison.html) or [What are we trying to answer]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html#what-we-are-trying-to-answer)
 
 <br>
 
-### **Metrics relation**
+## 2. Header section 
 
-> This part allow you to edit your KPIs and your market equation, it is very useful when you want to fit your analysis with your business
+In Builder mode the header is used for advanced settings to let you configure and refine your analysis. Read the [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/metrics-relation.png" alt="Analysis settings of Datama Compare" title="Datama Compare - Structure" /></center>
 
-Get more information about [Structure]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/analysis/metrics-relation.html) or [Metrics Relation]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html#metrics-relation)
+<br/>
 
-<br>
+## 3. Analysis section
 
-### **Advanced settings**
+Analysis section is mainly the Waterfall and few icons to change the display of the waterfall
 
-> Some others pretty cool features to improve your analysis
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/advanced-settings.png" alt="Analysis settings of Datama Compare" title="Datama Compare - Structure" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Analysis_icons.png" alt="Icons of Datama Compare" title="Icons of Datama Compare" /></center>
 
-Get more information about [Structure]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/analysis/advanced.html)
+1. **Pivot**: rotate your graph of 90°
+2. **Waterfall Display**: this is the graph by default
+3. **Decision tree**: change graphs to Decision tree which represent the same analysis in a different way.
+4. **Documentation**: Direct link to this documentation
+5. **Waterfall Settings**: Refine the display of the waterfall. Find more information on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
 
-<br>
+<br/>
 
-### **Preferences**
+## 4. Footer Section
 
-> These settings allow you to customize the application to fit with your company, you can also change the analysis language !
+Depending on your plan the footer can have different informations: 
+- Link to upgrade your plan,
+- [Documentation]((https://docs.datama.io/)) 
+- [Contact us](https://datama.io/lets-talk/)
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preferences.png" alt="Analysis settings of Datama Compare" title="Datama Compare - Structure" /></center>
-
-<br>

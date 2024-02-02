@@ -18,7 +18,7 @@
 ### 2023-06-31:
 
 * **Extension:**
-    * PowerBI and Looker Studio can now leverage computing cache when available for faster results 
+    * Power BI and Looker Studio can now leverage computing cache when available for faster results 
 
 * **General:**
     * All settings in the new UI have been organized by group for better readibility
@@ -53,13 +53,13 @@
 ### 2023-05-31:
 
 * **Extension:**
-    * [Beta 🧪] **Advanced extension settings** For PowerBI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
+    * [Beta 🧪] **Advanced extension settings** For Power BI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
         * Define a worbook name in the settings of the extension
         * Save in DataMa app using the "..." on the top right corner
         * Find your worbook in app.datama.io and define advanced settings
         * Save your workbook in app.datama.io
-        * Reload your use case in your extension (Looker Studio or PowerBI)
-    * Assess, Pivot and Journey charts are now available within extensions (Looker Studio & PowerBI)
+        * Reload your use case in your extension (Looker Studio or Power BI)
+    * Assess, Pivot and Journey charts are now available within extensions (Looker Studio & Power BI)
 
 * **Compare:**
     * [Beta 🧪] **Drill down by Dimensions then Steps**: Until then, DataMa Compare was analysing a variation first by Steps of the Market equation, then by Dimension within a Step. 
@@ -110,7 +110,7 @@
 * **Extensions:**
     * Looker Studio extension includes "Comparison Period" toggler to facilitate comparison definiton
     * Tableau extension in the new UI is available for testing, but only sharable with Login/ Pwd
-    * PowerBI extension has been improved, with better management of versioning and dates/ timezone handling
+    * Power BI extension has been improved, with better management of versioning and dates/ timezone handling
 
 * **New platform:**
     * Documentation for the new UI has been released check out [here](https://datama-solutions.github.io/docs/core_app/new_docs.html)

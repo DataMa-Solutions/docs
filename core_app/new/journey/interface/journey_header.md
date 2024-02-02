@@ -3,6 +3,7 @@ title: Journey - Settings
 description: The header in DataMa Journey helps you manipulate and refine your Use Cases
 layout: page
 scope: datama/saas/journey
+keywords: full app journey interface header
 ---
 
 <br>

@@ -11,6 +11,6 @@ scope: shiny
 
 Check the documentation of the tool you’re interested in to see how you can leverage it:
 * [Tableau extension]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/tableau)
-* [PowerBI extension]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/PowerBI)
+* [Power BI extension]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/PowerBI)
 * [DataIku extension]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/DataIku)
 * [Alteryx extension]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/Alteryx)
