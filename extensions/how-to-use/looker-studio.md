@@ -7,7 +7,7 @@ keywords: Looker LookerStudio get started
 
 <br/>
 
-> Using DataMa Solutions as a LookerStudio extension is a great way to make your report more insightful with the benefits of both DataMa and LookerStudio.
+> Using DataMa Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both DataMa and Looker Studio.
 
 <br/>
 
@@ -86,8 +86,9 @@ Once you've imported the extension, here is how you can use it.
 4.  **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 <br/>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
 
-<span style="color:red;">&gt;&gt; Add here a gif with the dataset preparation</span>
+<br/>
 
 > Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
 <center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.PNG" /></center>
