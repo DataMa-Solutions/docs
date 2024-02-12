@@ -3,7 +3,7 @@ feed: release_note
 title:  "2024-02-03"
 date:   2024-02-03 12:00:00 +0200
 layout: post
-description: ->
+description: |
     Starting 2024 on good vibes 🎉
     Latest release includes significant performance improvements and Main KPI display in anomaly detection, among other exciting things
     Read the full [release note](https://datama-solutions.github.io/docs/release.html) to learn more!
