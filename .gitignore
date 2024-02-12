@@ -14,3 +14,4 @@ Gemfile
 node_modules
 ruby*
 **/.DS_Store
+.vscode
