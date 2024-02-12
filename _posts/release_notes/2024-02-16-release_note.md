@@ -1,7 +1,7 @@
 ---
 feed: release_note
-title:  "2024-02-03"
-date:   2024-02-03 12:00:00 +0200
+title:  "2024-02-16"
+date:   2024-02-16 12:00:00 +0200
 layout: post
 description: |
     Starting 2024 on good vibes 🎉
