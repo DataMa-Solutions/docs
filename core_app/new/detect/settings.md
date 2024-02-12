@@ -14,7 +14,6 @@ keywords: full app detect settings
 
 <b>Scope for detection:<b><br>
 - [Analyse All Metrics Relation Steps](#analyse-all-metrics-relation-steps)
-- [Display Main KPI Impact](#display-main-kpi-impact)
 - [Inspect Numerator only](#inspect-numerator-only)
 - [Analyse Latest Point Only](#analyse-latest-point-only)
 
@@ -39,6 +38,8 @@ keywords: full app detect settings
 
 <br>
 
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.jpg">
+
 > Find here the details of the main settings DataMa Detect
 
 <br>
@@ -52,19 +53,10 @@ DataMa Detect can analyse one step or all the steps of your funnel. When all ste
 
 <br>
 
-## Display Main KPI Impact
-
-When analysing all metrics relation steps, by default, Datama Detect will display the resulting Main KPI of your market equation on the anomaly detection chart. This allows you to see on the same chart the trend of on of the step of your market equation AND the total step (in dotted lines). <br>
-Since this calculation takes a little bit of time, you can deactivate this setting if you want to optimise for time of computation. <br>
-Also, a "f" icon at the top right of the chart allows to hide/ display the main KPI dotted line without launching another calculation, just for readibility purposes
-> Activating the Main KPI settings also includes the Main KPI impact in the alert messaging at the top: Datama will add a wording on whether or not the Main KPI seems abnormal if one of the step is abnormal.
-
-<br>
-
 ## Inspect Numerator only
 
-When you're NOT analysig all metrics relation steps, you can choose to analyse only the numerator.
-This is useful when your market equation is not important or not relevant and you prefer to analyse only the numerator of the KPI. 
+When you're analysig all metrics relation steps, you can choose to analyse only the numerator.
+This is useful when your market equation is not important or not relevant and you prefer to analyse independently all the Numerator.
 
 ## Analyse Latest Point Only
 

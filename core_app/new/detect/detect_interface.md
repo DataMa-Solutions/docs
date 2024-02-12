@@ -32,14 +32,6 @@ Change the ratio your are analysing by using the dropdown in the title. Within t
 
 By default DataMa Detect is set to analyse each steps of your market equation but you can change it to only a specific step. (in <i>Settings</i>)
 
-#### Show denom ####
-
-On the top right corner of the chart, a graph 📊 icon allows to display as bars the denominators of the ratio you are analysing: this allows you to quickly understand if a abnormal variation of a ratio is due to a sudden variation of its denominator or an actual drop of the performance itself (e.g. Conversion rate of a website could suddenly drop because of a bad budd bringing high traffic on the website, but not because of an actual drop of conversions in volume)
-
-#### Display Main KPI ####
-
-On the top right corner of the chart, a function "f" icon allows to display the main KPI of your market equation in dotted lines. Please refer to the [Main KPI setting doc]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#display-Main-KPI-impact) for more details
-
 
 > ### 2nd Slide ###
 
