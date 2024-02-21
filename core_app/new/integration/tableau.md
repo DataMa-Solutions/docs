@@ -51,7 +51,7 @@ Please refer to the full documentation to learn more about [sources]({{site.url}
 * In Tableau desktop, create a new dashboard 
 * Add your source worksheet to this dashboard. The source worksheet should appear as included in the left side panel. Feel free then to make it a floating object and put that in a small corner (it just needs to be there but doesn't need to be seen!)
 * Drag and drop 'extension' object in the dashboard and select Datama's extension in the [Tableau Gallery](https://extensiongallery.tableau.com/extensions) 
-    - Alternatively download the extension manifest file <a href="https://drive.google.com/file/d/1fEN_SQ3smLI8aC0YPFpV4UP6dKWDC8pT/view?usp=sharing" target="_blank" download> here</a>, you should get a .trex file. Then in Tableau, in the "add an extension" dialog, select "access local extensions" and find the .trex file you just downloaded.
+    - Alternatively download the extension manifest file <a id="download-tableau-full-extension" href="#" target="_blank"> here</a>, you should get a .trex file. Then in Tableau, in the "add an extension" dialog, select "access local extensions" and find the .trex file you just downloaded.
 
 Here is an example of a source from the same dataset as above.
 
