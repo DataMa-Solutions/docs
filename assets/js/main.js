@@ -62,3 +62,40 @@ $('body').on('click', '#gotoDoc', (e) => {
     e.preventDefault();
     $('html, body').animate( { scrollTop: $('#menu').offset().top }, 750 );
 })
+$('body').off('click', '#download-tableau-full-extension', downloadFullTrex).on('click', '#download-tableau-full-extension', downloadFullTrex)
+$('body').off('click', '#download-tableau-light-extension', downloadLightTrex).on('click', '#download-tableau-light-extension', downloadLightTrex)
+
+function downloadFullTrex(e) {
+    console.log("Download Full Extension trex file")
+    e.preventDefault();
+    fetch("https://app.datama.io/tableau/datama.trex")
+        .then((res) => res.text())
+        .then((text) => {
+            let element = document.createElement('a');
+            element.setAttribute('href',
+                'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', "Datama_Tableau_Web_App.trex");
+            document.body.appendChild(element);
+            element.click();
+
+            document.body.removeChild(element);
+        })
+        .catch((e) => console.error(e));
+}
+
+function downloadLightTrex(e) {
+    console.log("Download Light Extension trex file")
+    e.preventDefault();
+    fetch("https://app.datama.io/tableau/light/trex/light_tableau_base_Datama_Tableau_Extension.trex")
+        .then((res) => res.text())
+        .then((text) => {
+            let element = document.createElement('a');
+            element.setAttribute('href',
+                'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
+            element.setAttribute('download', "Datama_Tableau_Extension.trex");
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        })
+        .catch((e) => console.error(e));
+}
