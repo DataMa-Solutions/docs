@@ -38,18 +38,18 @@ Load your own data if you want to test the extension even further!
 <br>
 
 # <b>Setting Up the Datama Extension</b>
-
-1. **Select Your Dataset**: Pick from the list on the right a dataset that meets your interests.
-2. **Choose Your Metrics**: Drag and drop desired metrics from the dataset into the Datama visual metrics entry. 
+1. **[Download the extension](https://storage.googleapis.com/app2.datama.io/powerbi/datama_latest.pbiviz)**: Download the latest Datama PowerBI extension
+2. **Select Your Dataset**: Pick from the list on the right a dataset that meets your interests.
+3. **Choose Your Metrics**: Drag and drop desired metrics from the dataset into the Datama visual metrics entry. 
     - **Note**: Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
 
-3. **Specify the Dimension**: Drag and drop the dimension of your choice into the visual's dimension field. 
+4. **Specify the Dimension**: Drag and drop the dimension of your choice into the visual's dimension field. 
     - The first dimension is the one used for comparison. For example: 
         1. Dates lead Datama to split the period in two.
         2. Lengthy lists use only the last two items.
         3. Adjust your comparison with filters. For complex dimensions, establish a calculated field.
     - The additional dimensions refine our scoring algorithm to pinpoint the most relevant dimension for performance variations in your funnel.
-4. **Launch and Learn**: Post configuration, hit "Launch demo" for a 2-minute interactive tour. For a deeper dive, connect with us at solutions@datama.io.
+5. **Launch and Learn**: Post configuration, hit "Launch demo" for a 2-minute interactive tour. For a deeper dive, connect with us at solutions@datama.io.
 
 <br>
 
