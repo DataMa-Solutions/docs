@@ -12,7 +12,7 @@ keywords: full app prep dataset metrics dimensions
 DataMa source is basically a flat table.
 As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a datasource. 
 
-For now Datama has a limit of 200 000 rows per analysis (This should evolve soon in 2024!) 
+For now Datama has a limit of 400 000 rows per analysis
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/dataset_DimensionsMetrics.png"  style="width:450px; height:auto;"/></center>
 
