@@ -12,6 +12,7 @@ description: |
 * **General:**
     * **Backend uplift**: The backbone of Datama app has been significantly improved to enhance user experience and prepare upcoming development.
       Already available benefits include
+        * Increased max size of datasets: Maximum number of lines for a dataset in prep increases **from 200k lines to 400k lines**
         * Significant **computing time optimization**:
             * In solutions such as Datama Compare, Detect etc, you save up to 2 seconds per compute (which means about -50% of the time for small datasets, -10% for bigger ones)
             * In Datama Prep and on the home page, loading time for credentials verifications, workbook listing etc has also been dramatically reduced
