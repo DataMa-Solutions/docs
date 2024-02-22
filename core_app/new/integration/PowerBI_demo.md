@@ -38,7 +38,7 @@ Load your own data if you want to test the extension even further!
 <br>
 
 # <b>Setting Up the Datama Extension</b>
-1. **[Download the extension](https://storage.googleapis.com/app2.datama.io/powerbi/datama_latest.pbiviz)**: Download the latest Datama PowerBI extension
+1. **[Download the extension](https://storage.googleapis.com/app.datama.io/powerbi/datama_latest.pbiviz)**: Download the latest Datama PowerBI extension
 2. **Select Your Dataset**: Pick from the list on the right a dataset that meets your interests.
 3. **Choose Your Metrics**: Drag and drop desired metrics from the dataset into the Datama visual metrics entry. 
     - **Note**: Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
