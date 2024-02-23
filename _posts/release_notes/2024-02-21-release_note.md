@@ -4,6 +4,10 @@ title:  "2024-02-21"
 date:   2024-02-21 12:00:00 +0200
 layout: post
 description: |
+  This week there was a major release on Datama app 🎉 
+  Max size of datasets has been doubled from 200k to 400k lines, and performance & reactivity has been significantly improved!
+  Also, anomaly detections now include a preview of the main KPI impact and Journey includes cool features on sunburst ☀️
+app_notif: |
   Starting 2024 on good vibes 🎉
   Latest release includes significant performance improvements and Main KPI display in anomaly detection, among other exciting things
   Read the full [release note](https://datama-solutions.github.io/docs/release.html) to learn more!
