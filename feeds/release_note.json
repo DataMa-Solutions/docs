@@ -11,9 +11,9 @@
     "date": "{{post.date}}",
     "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
     {% if post.description %}
-      "description": "{{ post.description | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', "" | strip_newlines | strip_html | strip | escape }}"
+      "description":, "{{ post.description | replace: '\n', 'DATAMA_NEW_LINE' | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', ''  | newline_to_br | strip_newlines | strip_html | strip | escape }}",
     {% else %}
-      "description": "{{ post.content | replace: '\n', 'DATAMA_NEW_LINE' | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', "" | strip_newlines | strip_html | strip | escape }}"
+      "description": "{{ post.content | replace: '\n', 'DATAMA_NEW_LINE' | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', "" | newline_to_br | strip_newlines | strip_html | strip | escape }}"
     {% endif %}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
