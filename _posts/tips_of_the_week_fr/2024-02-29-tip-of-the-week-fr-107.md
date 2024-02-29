@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 107: Afficher la tendance du KPI principal sur Detect"
-date:   2024-02-15 10:12:00 +0200
+date:   2024-02-29 10:12:00 +0200
 img_url: /assets/images/tip/107.png
 img_type: image/png
 img_width: 600
