@@ -1,7 +1,9 @@
 ---
-title: Journey Header
+title: Journey - Settings
 description: The header in DataMa Journey helps you manipulate and refine your Use Cases
 layout: page
+scope: datama/saas/journey
+keywords: full app journey interface header
 ---
 
 <br>
@@ -14,51 +16,46 @@ layout: page
 
 <br>
 
-Find here the main elements of the solution Header in DataMa Journey: 
+Find here the main elements of the solution Header in DataMa Journey:
 
-- [Comparison](#comparison)
-- [Filters](#filters)
-- [KPI](#kpi)
-- [Analysis Sequence](#analyse-sequences)
+<br>
+
+<b>General settings:<b><br>
 - [Journey Separator](#journey-separator)
-- [Maximum Number of Points analysed](#maximum-number-of-points-analysed)
+
+<br>
+<b>Sunburst:<b><br>
+- [Simplify Sunburst](#simplify-sunburst)
 - [Maximum Number of steps in Sunburst](#maximum-number-of-steps-in-sunburst)
+- [Display exits in Sunburst](#display-exits-in-sunburst)
+- [Reverse Journey](#reverse-journey)
+
+<br>
+<b>Attribution:<b><br>
 - [Attribution](#attribution)
 - [Model](#model)
-- [Simplify Sunburst](#simplify-sunburst)
-- [Simple Stat](#simple-stat)
 
 <br>
-
-## Comparison
-
-DataMa Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing. 
-
-<br>
-
-## Filters
-
-Filter any element you want to remove from the data. 
+<b>Advanced settings:<b><br>
+- [Journey Deduping](#journey-deduping)
+- [Maximum Number of Points analysed](#maximum-number-of-points-analysed)
+- [Analyse Sequences](#analyse-sequences)
 
 <br>
-
-## KPI
-
-In DataMa Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).
+<b>Basic settings<b><br>
+- [Comparison](#comparison)
+- [KPI](#kpi)
 
 <br>
-
-## Settings
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.jpg">
 
-### Analyse Sequences
+<br/>
 
-Instead of analysing steps, you can toggle this setting to analyse sequences of steps
+# <b>General settings<b>
+<br>
 
-For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch points: <span style="color:red">Search</span>, <span style="color:red">Product</span> and <span style="color:red">Cart</span>, and when <i>Sequences<i> is activated it will become 2 sequences <span style="color:red">Search-Product</span> and <span style="color:red">Product-Cart</span>
-
-### Journey Separator 
+## Journey Separator
 
 By using the text input, you can change the seperator between steps of your journeys. Initially, the separator is "-".
 
@@ -70,34 +67,87 @@ By using the text input, you can change the seperator between steps of your jour
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_separator_to.png"/></center>
 
+<br>
 
+# <b>Sunburst<b>
+<br>
 
-### Maximum Number of Points analysed
-
-By default, the algorithm will analyse the top 50 steps in your <i>journey</is> column. 
-
-### Maximum Number of steps in Sunburst
-
-By default, only 6 steps of user journeys are represented. This can be changed by modifying this setting.
-
-### Attribution
-
-To accelerate the time to run the analysis, you can deactivate the attribution part.
-
-### Model
-
-By using the dropdown menu, you can choose your attribution model and thus consider various distributions of your money in the various steps of your journeys.
-
-### Simplify Sunburst
+## Simplify Sunburst
 
 By activating the dropdown menu, you can simplify your journeys by removing duplicate journeys and removing duplicate steps in journeys.
 
 This is very useful to simplify your display and decrease computation time.
 
-### Simple Stat
+<br>
 
-The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:
+## Maximum Number of steps in Sunburst
 
-- **Frequency**: number of times your metric appears on average.
-- **Appearance**: presence probability of your metric in journeys.
-- **Length**: Average journey length when your metric appears
+By default, only 6 steps of user journeys are represented. This can be changed by modifying this setting.
+
+<br>
+
+## Display exits in Sunburst
+
+By default, journey exits are displayed. It shows the proportion of people who have exited the journey.
+
+<br>
+
+## Reverse Journey
+
+By activating Reverse Journey, you can display the users' reverse journeys. This is useful to know where they come from.
+
+<br>
+
+# <b>Attribution<b>
+<br>
+
+## Attribution
+
+To accelerate the time to run the analysis, you can deactivate the attribution part.
+
+<br>
+
+## Model
+
+By using the dropdown menu, you can choose your attribution model and thus consider various distributions of your money in the various steps of your journeys.
+
+<br>
+
+# <b>Advanced settings<b>
+<br>
+
+## Journey Deduping
+
+>Attribution must be activated
+
+By using the dropdown menu, you can simplified your journeys by removing duplicates journeys or removing duplicates steps in journeys.
+This is very usefull to simplify your display and decrease computation time.
+
+<br>
+
+## Maximum Number of Points analysed
+
+By default, the algorithm will analyse the top 50 steps in your <i>journey</is> column.
+
+<br>
+
+## Analyse Sequences
+
+Instead of analysing steps, you can toggle this setting to analyse sequences of steps
+
+For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch points: <span style="color:red">Search</span>, <span style="color:red">Product</span> and <span style="color:red">Cart</span>, and when <i>Sequences<i> is activated it will become 2 sequences <span style="color:red">Search-Product</span> and <span style="color:red">Product-Cart</span>
+
+<br>
+
+# <b>Basic settings<b>
+<br>
+
+## Comparison
+
+DataMa Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing.
+
+<br>
+
+## KPI
+
+In DataMa Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).

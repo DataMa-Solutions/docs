@@ -2,6 +2,8 @@
 title: Table
 description: Table is gathering all the figures that helps to understand step variation and dimensions impact 
 layout: page
+scope: datama/saas/compare
+keywords: full app compare detailed table
 ---
 
 > Table is gathering all the figures that helps to understand step variation and dimensions impact.
@@ -20,18 +22,20 @@ The table allows to access a detail view of the data with the ability to refine 
 
 By changing the settings of the table you can choose to display 5 types of information: 
 - **Value**: new value of the ratio. (e.g: 2633 Users in referral for "this year")
-- **Impact**: differece of Value between <i>Start</i> and <i>End</i> (eg.: "this year" - "last year" = 2633)
+- **Impact**: the impact of the change between <i>Start</i> and <i>End</i> on the considered KPI 
+- **Main KPI Impact**: the impact of the change between <i>Start</i> and <i>End</i> on the total KPI in your market equation
 - **%ch**: evolution in percentage between <i>Start</i> and <i>End</i>
 - **Ranking**: Ranking of each element of the dimension by size at the <i>End</i>
 - **Ranking change**: evolution of the Ranking between <i>Start</i> and <i>End</i>
+
+Note that when activating a "Secondary Comparison", the secondary comparison values are displayed in the table in a subline in italic under "2nd comparison"
+
+## How could it look like?
 
 Change Formatting of the table by clicking on the Settings icon:
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg">
 
 <br>
-
-
-## How could it look like?
 
 The display is adaptable according to your needs.
 

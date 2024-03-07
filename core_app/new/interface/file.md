@@ -2,6 +2,8 @@
 title: Input
 description: Find here how you can load data in DataMa
 layout: page
+scope: datama/saas
+keywords: full app subheader sub header file
 ---
 
 > Find here how you can **load data in DataMa**

@@ -2,11 +2,13 @@
 title: DataMa Detect
 description: DataMa DETECT aims at evaluating over time the normality of a variation.
 layout: page
+scope: datama/saas/detect
+keywords: full app detect
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Detect_icon.jpg" alt="logo detect" /></center>
 
-> **DataMa DETECT aims at evaluating over time the normality of a variation.**
+> **DataMa DETECT aims at evaluating over time the normality of a variation and explain it**
 
 
 This module allows to automate outlier identification on a given ratio, and understand the drivers of that anomaly. This is particularly useful in time series for being able to quickly spot issues in your KPIs overtime.

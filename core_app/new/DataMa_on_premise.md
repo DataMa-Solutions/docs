@@ -2,6 +2,8 @@
 title: DataMa on Premise
 description: DataMa could also be installed on premise.
 layout: page
+scope: datama/saas
+keywords: full app on premise
 ---
 
 <br>

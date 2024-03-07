@@ -2,6 +2,7 @@
 title: Definitions
 description: The Definitions Menu (or comparison in DataMa COMPARE) is here to set up your analysis.
 layout: page
+scope: shiny
 ---
 
 > **The Definitions Menu** (or **comparison** in DataMa COMPARE) is here to set up your analysis.

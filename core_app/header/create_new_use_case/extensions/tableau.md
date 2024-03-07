@@ -2,9 +2,12 @@
 title: Tableau extension
 description: Using DataMa Solutions as a Tableau extension is a great way to make your tableau report more insightful with the benefits of both DataMa and Tableau.
 layout: page
+scope: shiny
 ---
 
 > Using DataMa Solutions as a **Tableau extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and Tableau.
+
+<br>
 
 DataMa will basically use the Tableau Extension API to get data from your workbook, and analyze it there. Below example is a good overview.
 
@@ -15,6 +18,8 @@ Below is a step by step video tutorial to get DataMa widget working in Tableau w
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mgcsAiLLp_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can learn more about tableau dashboard extension [here](https://help.tableau.com/current/pro/desktop/en-us/dashboard_extensions.html)
+
+<br>
 
 ## 1. Create you use case in DataMa app
 
@@ -28,12 +33,16 @@ You can learn more about tableau dashboard extension [here](https://help.tableau
 
 ![Login-Tableau-extension]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/images/Login-Tableau-extension.jpg)
 
+<br>
+
 * Login to DataMa, and navigate to the model you need (Compare, Pivot, Impact etc)
 * Once on the web app if launched, click on « Admin > Change Source » and in the extension section, click on « Tableau »
 * Select the Tableau worksheet you want to connect to. This worksheet should contain Dimension and metrics as for DataMa sources in general (see [here]({{site.url}}/{{site.baseurl}}/core_app/header/input/source))
 * Then follow usual steps to create a new analysis in DataMa. **Cautious: the dimensions and metrics are loaded in alphabetical order**, not the order you’re displaying them onto your worksheet, so you might want to define properly your steps by un-ticking the box « My source is in line with DataMa standards »
 * You can save your use case as usual in DataMa, and reload it in the same Tableau environment (but you won’t be able to open it outside of Tableau, since DataMa is only able to get data from Tableau when used as an extension)
 * Once saved, you can also use the refresh icon (next to the « loaded version »)
+
+<br>
 
 ## 2. Export DataMa widget as extensions
 

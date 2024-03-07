@@ -2,6 +2,7 @@
 title: Compare of Compare
 description: This mode allows you to compare 2 waterfalls.
 layout: page
+scope: shiny
 ---
 
 ## What it is:

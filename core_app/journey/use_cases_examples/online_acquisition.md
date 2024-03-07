@@ -2,6 +2,7 @@
 title: Acquisition Journey
 description: This example is showing a dataset for DataMa JOURNEY to analyze acquisition channels contribution to online performance, so to compare their efficiency.
 layout: page
+scope: shiny
 ---
 
 This example is showing a dataset for DataMa JOURNEY to analyze acquisition channels contribution to online performance, so to compare their efficiency.

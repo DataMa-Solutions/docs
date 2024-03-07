@@ -2,6 +2,7 @@
 title: Lost Value
 description: The Lost tab is a graph allowing you to visualize the lost value (simulated) of the various steps of the customer journey.
 layout: page
+scope: shiny
 ---
 
 The Lost tab is a graph allowing you to visualize the lost value (simulated) of the various steps of the customer journey.

@@ -1,3 +1,9 @@
+---
+title: Web performance – Google Analytics - Compare
+description: Find below information about our Web performance – Google Analytics - Compare example use case, [demo](https://solutions.datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Web performance – Google Analytics - Compare
 
 -------------

@@ -2,6 +2,7 @@
 title: Covariance Roll up
 description: Distribute covariance for each segment level before summing up at total level
 layout: page
+scope: shiny
 ---
 
 > **Distribute covariance for each segment level before summing up at total level
@@ -18,4 +19,4 @@ To use it
 
 See an example below:
 
-![overview]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/covariance_rollup.gif)
+![overview]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/covariance_rollup.png)

@@ -1,11 +1,13 @@
 ---
-title: PowerBI extension
-description: Using DataMa Solutions as a PowerBI extension is a great way to make your tableau report more insightful with the benefits of both DataMa and PowerBi.
+title: Power BI extension
+description: Using DataMa Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both DataMa and Power BI.
 layout: page
+scope: datama/saas
+keywords: full app integration embed embedded add-on addons addon Power BI powerbi
 ---
 
 
-> Using DataMa Solutions as a **PowerBi extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and PowerBI.
+> Using DataMa Solutions as a **Power BI extension** is a great way to make your report more insightful with the benefits of both DataMa and Power BI.
 
 <br>
 
@@ -15,15 +17,15 @@ As soon as you received the extension from your DataMa point of contact, you can
 - Select "..." in the visualizations part then <i>"import visual from a file"</i> 
 - and <i>"Import"</i> your extension
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_loadingExtension.gif)
+![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_loadingExtension.gif)
 
 <br>
 
 # <b>How to use the DataMa Extension?</b>
 
-DataMa will be basically like a PowerBi graph embedded in the visualisation. You will have to configure it as a basic graph. 
+DataMa will be basically like a Power BI graph embedded in the visualisation. You will have to configure it as a basic graph. 
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_extension.gif)
+![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
 
 <br>
 
@@ -34,7 +36,7 @@ DataMa will be basically like a PowerBi graph embedded in the visualisation. You
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerbi_advancedSettings.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_advancedSettings.jpg"/></center>
 
 <br>
 
@@ -44,7 +46,7 @@ DataMa will be basically like a PowerBi graph embedded in the visualisation. You
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerbi_licenceKey.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_licenceKey.jpg"/></center>
 
 <br>
 

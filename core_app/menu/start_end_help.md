@@ -2,6 +2,7 @@
 title: Start End Helper
 description: The Start End Helper tabset helps you understand what you should define as Start and End for your analysis, when comparing a starting point to an end point.
 layout: page
+scope: shiny
 ---
 
 > The Start End Helper tabset helps you understand what you should define as Start and End for your analysis, when comparing a starting point to an end point

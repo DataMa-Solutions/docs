@@ -2,6 +2,7 @@
 title: Settings
 description: See below details about the Settings menu in the left menu of DataMa interface.
 layout: page
+scope: shiny
 ---
 
 > See below details about the **Settings menu** in the left menu of DataMa interface:

@@ -2,15 +2,17 @@
 title: Mix Effect
 description: This chapter will describe Mix effect to allow you to properly understand the underlying composition of your performance.
 layout: page
+scope: datama/saas/compare
+keywords: full app compare model mix effect
 ---
 
-Each performance is composed of a [Mix effect](#mix-effet) and a [Performance effect](#performance-effect).
+Each performance is composed of a [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and a [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html).
 
 This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
 
 <br>
 
-# <b> Mix Effet</b>
+# <b> Mix Effect</b>
 
 
 **In the Web App**
@@ -26,7 +28,7 @@ This graph represents the sum of the Mix impact of each dimension at each step o
 
 ![mix_effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-effect-dash.png)
 
-**Model of Mix effet**
+**Model of Mix effect**
 
 Impact of the evolution of the volume breakdown in input.
 

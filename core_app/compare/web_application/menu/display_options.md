@@ -2,6 +2,7 @@
 title: Display options
 description: Show the options.
 layout: page
+scope: shiny
 ---
 
 * **Text size :** text size of the waterfall graph (by default at 12)

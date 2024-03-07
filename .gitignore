@@ -11,4 +11,6 @@ Gemfile
 .Rhistory
 .RData
 .Ruserdata
+node_modules
+ruby*
 **/.DS_Store
