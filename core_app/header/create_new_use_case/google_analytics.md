@@ -2,6 +2,7 @@
 title: Google analytics
 description : In this section you will find how to load your GA from your Google Account
 layout: page
+scope: shiny
 ---
 
 > In this section you will find how to load your **GA  from your Google Account**

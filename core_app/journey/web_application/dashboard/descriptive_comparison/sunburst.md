@@ -2,6 +2,7 @@
 title: Sunburst
 description: Sunburst are commonly used to represent sequential data, such as customer journey.
 layout: page
+scope: shiny
 ---
 
 Sunburst are commonly used to represent sequential data, such as customer journey.

@@ -2,6 +2,7 @@
 title: DataMa Impact
 description: DataMa IMPACT aims at evaluating the difference of a KPI between two populations of interest.
 layout: page
+scope: shiny
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/DataMaIMPACT2-300x187.png" alt="logo impact" /></center>

@@ -2,6 +2,8 @@
 title: Moves
 description: In the Detailed View the graph « Moves » represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
 layout: page
+scope: datama/saas/compare
+keywords: full app compare moves
 ---
 
 > In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension and understand Mix effect and Performance effect.
@@ -22,9 +24,9 @@ Read more [details]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensi
 
 ![moves2]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_movesExplanation.png)
 
-**Abscissa** of this graph is the Denominator of the Step, what we call the mix effect. It represents the evolution of the breakdown in input and in output (e.g. in the picture above, the abcissa is the % of Session by type of Medium. The purple arrow « Referral » goes from 37% of the Session in input to 31% at the End. This will have a mix effect. There is a decreased in % of this type of traffic)
+**Abscissa** of this graph is the Denominator of the Step, what we call the mix effect. It represents the evolution of the breakdown in input and in output (e.g. in the picture above, the abcissa is the % of Session by type of Medium. The purple arrow « Referral » goes from 37% of the Session in input to 31% at the End. This will have a mix effect. There is a decreased in % of this type of traffic).
 
-**Ordinate** of the graph shows the ratio of this step Numerator / Denominator (e.g. in that case: Checkout/ Sessions). This is the performance effect of your analysis. (e.g. in the picture above, the ordinate is the performance of the Checkout/ Session as if the Session was equal betwen Start and End. The purple arrow « Referral » goes from 0.0743 Checkout per Session in Start to 0.0678 at the End. This have a negative performance effect)
+**Ordinate** of the graph shows the ratio of this step Numerator / Denominator (e.g. in that case: Checkout/ Sessions). This is the performance effect of your analysis. (e.g. in the picture above, the ordinate is the performance of the Checkout/ Session as if the Session was equal betwen Start and End. The purple arrow « Referral » goes from 0.0743 Checkout per Session in Start to 0.0678 at the End. This have a negative performance effect).
 
 ### Help on the read of this graph
 

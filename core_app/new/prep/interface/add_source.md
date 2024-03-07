@@ -2,7 +2,15 @@
 title: Prep - Add Source
 description: This section helps you extract data from your data sources
 layout: page
+scope: datama/saas/prep
+keywords: full app prep add source
 ---
+
+<br>
+
+Our tools allow you to enrich your local data with external data like Google Trend and others. Allowing you to understand all your kpi variation
+
+<br>
 
 Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions
 
@@ -14,12 +22,16 @@ Here is the available connectors:
 - [Google Analytics 3](#google-analytics-3)
 - [Google Analytics 4 (beta)](#google-analytics-4-beta)
 - [Google Google BigQuery](#google-google-bigquery)
-- [Snowflake](#mail)
+- [Mail](#mail)
+- [Snowflake](#snowflake)
+- [Google trends](#google-trends)
+- [Facebook](#facebook)
+- [Piano Analytics (AT Internet)](#piano-analytics)
 
-And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/inegration.html) (Tableau, PowerBI, LookerStudio,...)
+And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
 
-> ### Google Sheet ###
+> ## Google Sheet
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_googleSheet.jpg"/></center>
 
@@ -37,7 +49,7 @@ When those steps are completed, you just have to select the sheet you would like
 
 <br>
 
-> ### Excel File ###
+> ## Excel File
 
 If you want to analyze your excel file, it’s easy. Click on the Excel connector, drop (or click) your excel file in the box given, and upload. You will be asked which sheet you want to use, and that’s it. Click on load and continue building your flow with more blocks.
 
@@ -45,7 +57,7 @@ If you want to analyze your excel file, it’s easy. Click on the Excel connecto
 
 <br>
 
-> ### csv File ###
+> ## csv File
 
 If you want to analyze your csv file, it’s easy. Click on the csv connector, drop your csv file in the box given, and upload. You will be asked which csv separator you want to use, and that’s it. 
 Click on load and continue building your flow with more blocks.
@@ -54,7 +66,7 @@ Click on load and continue building your flow with more blocks.
 
 <br>
 
-> ### Google Analytics 3 ###
+> ## Google Analytics 3 
 
 You can upload your Google Analytics datasets in DataMa PREP.
 Click on the Analytics 3 connector in Datama prep, you might need to give authorization to your google analytics by clicking on [Connect] button. You can also use service account to connect to Google Analytics. Learn more on [Service Accounts]("https://developers.google.com/analytics/devguides/reporting/core/v4/authorization#service_accounts") here
@@ -81,7 +93,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 <br>
 
-> ### Google Analytics 4 (beta) ###
+> ## Google Analytics 4 (beta) 
 
 You can upload your Google Analytics 4 datasets in DataMa PREP.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
@@ -99,7 +111,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 <br>
 
-> ### Google Google BigQuery ###
+> ## Google Google BigQuery
 
 You can do an sql query on your Google BigQuery and use it in DataMa PREP.
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
@@ -118,7 +130,7 @@ It is then displayed the amount of data it will use in Google BigQuery.
 
 <br>
 
-> ### mail ###
+> ## Mail
 
 The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into DataMa and have a scheduled analysis.
 
@@ -136,19 +148,78 @@ For ex. if your reports are always downloaded through Amazon's server, urls will
 
 <br>
 
-> ### Snowflake ###
+> ## Snowflake
 
-When using the snowflake connector, you’ll need the following information to configure the Snowflake source:
+When using the snowflake connector, you’ll need the following information to configure the Snowflake source :
 - Organization link which is the link https://XXX-XXX.snowflakecomputing.com
-- You can copy the organization url in your Snowflake Admin > Accounts and hover on the account you would like to connect to, and a link icon should appear next to account name, copy the url. It’ll be the XXX-XXX (Account ID) in the url.
+  - In this link you'll need the Account ID which is XXX-XXX part of the url.
+  - You can find it by going in your Snowflake Admin > Accounts.
+  - Hover the account you would like to connect to, and a link icon should appear next to account name, copy the url.
+  - Cut the Account ID from the url.
+  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake_account_id.png"/></center>
 - Warehouse (optional)
 - Database (optional)
-With those information, you will need to put the Account ID in the account field, your credentials and hit connect
+
+With those information, you will need to fill your credentials and the Account ID in the account field. Once finished, hit connect.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake.png"/></center>
 
+When connected, you can select a warehouse and a database in advanced settings if needed, and input your query. 
 
-When connected, you can select a warehouse and a database if needed, and input your query. 
-
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake_advanced_settings.png"/></center>
 
 ⚠️ **Important information** :<i> Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your snowflake dataset, within the hour, you will refresh your data using the button on the header.</i>
+
+<br>
+
+> ## Google Trends
+
+**Google Trend is most of the time a dataset that needs to be appended with another dataset.**
+
+With Google Trend connector, you can enrich your data flow with Google Search result in a given date range
+
+#### You can cross your data with Google trends data
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:70%"/></center>
+
+### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG" style="width:60%"/></center>
+
+It will enrich your analysis by comparing your own data of your e-commerce website or marketing campaign results with the data and trends of the market. You will be able to compare your evolution with a larger point of view and understand your performance in a more global context.
+
+<br>
+
+To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/sidebar/actions/Append.html)
+
+
+<br>
+
+> ## Facebook
+
+**You can upload your Facebook Analytics datasets in DataMa PREP.**
+
+When opening the Facebook block you can see which account is connected and you can disconnect it if you want to use another one.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB1.PNG"/></center>
+
+After selecting an AdAccount you are able to create a report by selecting fields, breakdowns, metrics and a preiod.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB2.PNG"/></center>
+
+Since reporting is by default at the level of Adsets, it is not mandatory to select fields or breakdowns.
+
+If no field or breakdown is selected the chosen metrics will then be applied to the Adsets available for the selected AdAccount.
+
+> ## Piano Analytics
+
+**You can import data from the data query explorer of Piano (ex AT-Internet) in DataMa**
+
+When opening the Piano Analytics block in DataMa prep, you first need to upload an API key. This API key can be generated on your profile section in Piano [learn more](https://support.piano.io/hc/en-us/articles/4466006444306-API-Keys). Download the API key (.csv) from Piano on your computer, then upload it in DataMa Prep in the API key section
+
+Once done, you then need to paste an "API body" content. This will be generated in the data query interface of Piano Analytics: create a report containing the properties and metrics that you want in DataMa and then hit "Copy API body (POST)" on the top right of the report and then copy the Body block
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataQuery.png"/></center>
+
+Then Paste the API body in DataMa prep in the appropriate field
+
+Lastly, define your dates for the report in DataMa Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date) 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataResults.png"/></center>

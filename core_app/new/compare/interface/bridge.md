@@ -2,6 +2,8 @@
 title: Bridge
 description: For the selected step and dimension this graph shows the Mix effect and the performance effect.
 layout: page
+scope: datama/saas/compare
+keywords: full app compare bridge
 ---
 
 <br>
@@ -10,7 +12,7 @@ layout: page
 
 <br>
 
-The bridge focuses on one KPI at a time. It shows the impact that each dimension has on the value of the KPI (whilst on the main waterfall the impact is on the overall KPI)
+The bridge focuses on one KPI at a time. It shows the impact that each dimension has on the value of the KPI (whilst on the main waterfall the impact is on the overall KPI).
 
 <br>
 

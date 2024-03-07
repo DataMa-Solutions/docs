@@ -2,6 +2,7 @@
 title: Covariance
 description: Basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
 layout: page
+scope: shiny
 ---
 
 In general, **Covariance** is a statistic measure of joint variability between two variables. You can learn more statistical docs on the [web](https://en.wikipedia.org/wiki/Covariance), but this article focuses on the business usage in DataMa Compare.

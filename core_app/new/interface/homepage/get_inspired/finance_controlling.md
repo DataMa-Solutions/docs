@@ -2,6 +2,8 @@
 title: Finance Controlling
 description: This financial assessment example differs from standard cases because the metric relation does not represent a conversion funnel, but a business equation.
 layout: page
+scope: datama/saas
+keywords: full app get inspired flow demo 
 ---
 
 > This page details the **« Finance – Controlling»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
@@ -22,4 +24,4 @@ We are comparing the amount of margin, in this case, the margin is the product o
 
 This would split the different effects of your business performance: the volume of items sold, the revenue made with these items sold, and the margin earned.  This equation could be modified to be much more complicated (integrating, for example, the number of distribution points selling the product, etc.)
 
-To better understand Metric Relation [read our article]({{site.url}}/{{site.baseurl}}/core-app/header/input/metric-relation).
+To better understand Metric Relation [read our article]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation.html).

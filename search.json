@@ -5,6 +5,7 @@
     {% if page.url != '/search.json' and page.url != '/tip_of_the_week.html' %}
       {
         "title": "{{ page.title | escape }}",
+        "scope": "{{ page.scope }}",
         "tags": "{{ page.tags }}",
         "keywords": "{{page.keywords}}",
         "description": "{{page.description | strip | escape}}",

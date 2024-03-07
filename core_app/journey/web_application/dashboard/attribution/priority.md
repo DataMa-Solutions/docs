@@ -2,6 +2,7 @@
 title: Priority
 description: The Priority tab  is a graph allowing you to visualize the steps of your customers' journeys to improve first.
 layout: page
+scope: shiny
 ---
 
 The Priority tab  is a graph allowing you to visualize the steps of your customers' journeys to improve first.

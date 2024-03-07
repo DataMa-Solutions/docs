@@ -2,6 +2,7 @@
 title: Admin header
 description: See in this chapter details on the Admin header available on top of DataMa interface
 layout: page
+scope: shiny
 ---
 
 > See in this chapter details on the **Admin header**  available on top of DataMa interface

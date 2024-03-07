@@ -1,3 +1,9 @@
+---
+title: Marketing Campaign
+description: This page details the **« Marketing – Campaign »**  example in our [demo](https://solutions.datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Marketing Campaign
 
 > This page details the **« Marketing – Campaign »**  example in our [demo](https://solutions.datama.fr/) solution.

@@ -2,6 +2,8 @@
 title: Use cases examples
 description: DataMa JOURNEY can be used from a wide variety of use case, from online product analysis to cross-channel customer experience.
 layout: page
+scope: datama/saas/journey
+keywords: full app journey examples use cases case
 ---
 
 ------------------

@@ -2,6 +2,8 @@
 title: User onboarding
 description: Successfully Run your 1st DataMa report
 layout: page
+scope: datama/saas
+keywords: full app prep get started 1st first uses use
 ---
 
 <br>
@@ -73,7 +75,7 @@ If your dataset is properly split between dimensions and metrics, and the metric
 
 <br>
 
-# <b>Bonus:</b> Check your Column and define your steps
+# <b>Bonus:</b> Intro to waterfall analysis
 
 ## What is a waterfall graph ? 
 

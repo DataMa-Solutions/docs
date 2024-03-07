@@ -2,6 +2,7 @@
 title: DataMa Compare
 description: DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.
 layout: page
+scope: shiny
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/Datama_compare_logo.png" alt="logo compare" /></center>
