@@ -4,7 +4,7 @@ title:  "💡 Use Case of the Month #9 - happn Subscription Performance"
 date:   2024-03-07 12:00:00 +0200
 layout: post
 ucotm_url : https://datama.io/see-how-datama-helps-following-the-app-subscription-kpis/
-img_url: https://datama.io/wp-content/uploads/2024/03/happnSuscriptionPerformance.png
+img_url: /assets/images/ucotm/ucotm_happn.png
 img_width: 1280
 img_height: 720
 ---
