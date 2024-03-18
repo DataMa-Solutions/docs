@@ -14,7 +14,7 @@ keywords: full app compare coc compare of compare secondary comparison
 
 Previously known as Compare of Compare, this mode allows you to compare 2 waterfalls. The secondary waterfall is defined by turning the secondary comparison on (on any available dimensions) and then defining the start of your secondary waterfall and the end of your secondary waterfall. 
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_secondaryComparison.png"></center>
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/Compare_secondaryComparison.png"></center>
 
 In the background, Datama will then run the same analysis for the 2 definitions of start and end, and then display the results of the secondary analysis in the background. Main output is :
 

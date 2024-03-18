@@ -6,7 +6,7 @@ layout: page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
-> This page details the  **« Marketing Campaign – Continous dimension»**  example in our <a href="https://app.Datama.io/" target="_blank">demo</a> solution.
+> This page details the  **« Marketing Campaign – Continous dimension»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
 
 Read our [article](https://Datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
 

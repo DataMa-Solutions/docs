@@ -6,7 +6,7 @@ scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
-> This page details the **« Finance – Controlling»**  example in our <a href="https://app.Datama.io/" target="_blank">demo</a> solution.
+> This page details the **« Finance – Controlling»**  example in our <a href="https://app.datama.io/" target="_blank">demo</a> solution.
 
 Here is a sample of the data:
 

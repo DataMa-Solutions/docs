@@ -10,7 +10,7 @@ keywords: full app home user preferences
 
 Here is the panel of the user preferences for workbook style.
 <br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/user_preferences.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.jpg"/></center>
 <br>
 
 

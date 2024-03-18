@@ -21,7 +21,7 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/Datama-compare/assets/gif/introduction.gif" alt="Video introduction" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/introduction.gif" alt="Video introduction" /></center>
 
 <br>
 

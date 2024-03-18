@@ -6,7 +6,7 @@ scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
-> Find below information about the **« Retail Performance** example in our [demo](https://app.Datama.io) solution.
+> Find below information about the **« Retail Performance** example in our [demo](https://app.datama.io) solution.
 
 Take a look at the data:
 

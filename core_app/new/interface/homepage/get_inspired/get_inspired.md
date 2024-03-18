@@ -13,7 +13,7 @@ Most use cases today are in the web analytics, marketing, transactional, financi
 
 To help you get inspired with your own data, we provide a set of example workbooks.
 
-Please check all live examples on <a href="https://app.Datama.io/" target="_blank">app.Datama.io</a>, and pick the one closest to your current working field.
+Please check all live examples on <a href="https://app.datama.io/" target="_blank">app.datama.io</a>, and pick the one closest to your current working field.
 
 <br>
 
