@@ -2,7 +2,7 @@
 title: Mix Effect
 description: This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
 layout: page
-scope: datama/saas/compare
+scope: Datama/saas/compare
 keywords: full app compare dimension analysis
 ---
 

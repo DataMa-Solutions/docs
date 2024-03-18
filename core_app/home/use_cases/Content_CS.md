@@ -1,6 +1,6 @@
 ---
 title: Content Square data
-description: This example is especially made to show how to analyze Content Square data within DataMa Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
+description: This example is especially made to show how to analyze Content Square data within Datama Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
 layout: page
 scope: shiny
 ---
@@ -11,8 +11,8 @@ scope: shiny
 
 You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1740449585)
 
-## In DataMa Compare
+## In Datama Compare
 
-This example is especially made to show how to analyze Content Square data within DataMa Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
+This example is especially made to show how to analyze Content Square data within Datama Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
 
 You could as well add a lot more dimensions, and a lot more steps in your conversion funnel.

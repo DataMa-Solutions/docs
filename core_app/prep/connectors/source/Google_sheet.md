@@ -1,11 +1,11 @@
 ---
 title: Google Sheet
-description: DataMa Prep include a Google Sheet connector.
+description: Datama Prep include a Google Sheet connector.
 layout: page
 scope: shiny
 ---
 
-> **You can upload your Google sheet in DataMa PREP.**
+> **You can upload your Google sheet in Datama PREP.**
 
 <br>
 

@@ -10,5 +10,5 @@ layout: post
 ---
 
 
-A new view of your workbooks is available on the DataMa Home page. By clicking on the list icon at the top right, you can switch from a "Grid" view with the workbooks in the form of a map to a "Detailed" view in the synthetic form of a table
+A new view of your workbooks is available on the Datama Home page. By clicking on the list icon at the top right, you can switch from a "Grid" view with the workbooks in the form of a map to a "Detailed" view in the synthetic form of a table
 Your choice of view will be saved for future sessions 😉

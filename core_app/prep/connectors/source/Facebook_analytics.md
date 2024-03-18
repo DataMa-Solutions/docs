@@ -1,11 +1,11 @@
 ---
 title: Facebook Analytics
-description: DataMa Prep include a FB connector.
+description: Datama Prep include a FB connector.
 layout: page
 scope: shiny
 ---
 
-**You can upload your Facebook Analytics datasets in DataMa PREP.**
+**You can upload your Facebook Analytics datasets in Datama PREP.**
 
 
 When opening the Facebook block you can see which account is connected and you can disconnect it if you want to use another one.

@@ -2,14 +2,14 @@
 title: Dataset
 description: This section identify the type of data you should load
 layout: page
-scope: datama/saas/prep
+scope: Datama/saas/prep
 keywords: full app prep dataset metrics dimensions
 ---
 
 
-> This section identify the type of data you should load in **DataMa Prep**
+> This section identify the type of data you should load in **Datama Prep**
 
-DataMa source is basically a flat table.
+Datama source is basically a flat table.
 As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a datasource. 
 
 For now Datama has a limit of 200 000 rows per analysis (This should evolve soon in 2024!) 
@@ -17,7 +17,7 @@ For now Datama has a limit of 200 000 rows per analysis (This should evolve soon
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/dataset_DimensionsMetrics.png"  style="width:450px; height:auto;"/></center>
 
 
-DataMa <a href="https://app.datama.io/" target="_blank">demo</a> has a series of saved versions using different sources that you can get inspired from looking at this [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
+Datama <a href="https://app.Datama.io/" target="_blank">demo</a> has a series of saved versions using different sources that you can get inspired from looking at this [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
 
 As for example:
 
@@ -35,7 +35,7 @@ As an input, you need to put only metrics that can be **aggregated** (i.e. summe
 
 To decide which metrics you want in your source, everything depends on your use case. However, it’s safe to say that you want at least the metrics that you need to compute the **KPI** you want to explain. Then you would need all the metrics that are required to compute your « market equation ». Please report to [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) section for more details.
 
-For more information, you can also read our [article](https://datama.fr/how-to-build-my-business-metric-relation/) about metric relation.
+For more information, you can also read our [article](https://Datama.fr/how-to-build-my-business-metric-relation/) about metric relation.
 
 ## Dimensions
 
@@ -49,9 +49,9 @@ Number of dimension are theoretically unlimited. However, as your data set get b
 
 <br/>
 
-> **Tip:** DataMa PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+> **Tip:** Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
 
-> **Warning:** DataMa JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
+> **Warning:** Datama JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
 
 
-🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) you need to first configure your flow (using a variety of sources and action blocks) and then click on the DataMa block there you will be able to define Metrics and relations
+🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) you need to first configure your flow (using a variety of sources and action blocks) and then click on the Datama block there you will be able to define Metrics and relations

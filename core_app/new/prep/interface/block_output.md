@@ -2,20 +2,20 @@
 title: Prep - Output
 description: This section helps you to prepare your data to be analysed in the Output block
 layout: page
-scope: datama/saas/prep
+scope: Datama/saas/prep
 keywords: full app prep output block
 ---
 
 <br>
 
 
-In DataMa Prep, the DataMa block allows you to interface the resulting data source from your stream with our augmented analysis solutions.
+In Datama Prep, the Datama block allows you to interface the resulting data source from your stream with our augmented analysis solutions.
 
 This block allows you to set the following options:
 - Your metrics and dimensions
 - Your metrics relationship (market equation)
 
-In order to facilitate your work, DataMa automatically detects the metrics and dimensions of your data source.
+In order to facilitate your work, Datama automatically detects the metrics and dimensions of your data source.
 
 To do this we proceed as follows: 
 By reading the columns from left to right, we detect which is the last column to have the type 'Text', all the columns that precede this one will be defined as dimensions, all those following will be defined as metrics. 
@@ -40,4 +40,4 @@ Learn more on this by reading details on:
 
 <br>
 
-> Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions
+> Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions

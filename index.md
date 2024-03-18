@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Smart Analytics, Documented
-description: This documentation gives you an overview of how DataMa works and how to use it. You can explore the different articles to get an overall explanation of the app, or to check detailed features for a specific solution.
+description: This documentation gives you an overview of how Datama works and how to use it. You can explore the different articles to get an overall explanation of the app, or to check detailed features for a specific solution.
 ---
 
-**This documentation gives you an overview of how DataMa works and how to use it. You can explore the different articles to have an overall explanation of the app, or to check detailed features for a specific solution.**
+**This documentation gives you an overview of how Datama works and how to use it. You can explore the different articles to have an overall explanation of the app, or to check detailed features for a specific solution.**
 
 <br>
 
-## DataMa Solutions 
+## Datama Solutions 
 
-Jump into the documentation to quickly get up to speed on DataMa.
+Jump into the documentation to quickly get up to speed on Datama.
 
-You can get started with your first Use Case by reading the: <i>[How to start with DataMa]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)</i> or quickly access the solutions documentation : 
+You can get started with your first Use Case by reading the: <i>[How to start with Datama]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)</i> or quickly access the solutions documentation : 
 
 - [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare.html)
 - [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html)
@@ -25,7 +25,7 @@ You can get started with your first Use Case by reading the: <i>[How to start wi
 
 <br>
 
-## Understand DataMa in Motion 
+## Understand Datama in Motion 
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/JTZAJJUR9xc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -33,6 +33,6 @@ You can get started with your first Use Case by reading the: <i>[How to start wi
 
 ## Reach out to us!
 
-[Stay in touch with us](https://DataMa.io/lets-talk/): if you have any issues or ideas to improve the solution, we would love to talk with you!
+[Stay in touch with us](https://Datama.io/lets-talk/): if you have any issues or ideas to improve the solution, we would love to talk with you!
 
 <br>

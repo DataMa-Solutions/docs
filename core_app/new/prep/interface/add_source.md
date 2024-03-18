@@ -2,7 +2,7 @@
 title: Prep - Add Source
 description: This section helps you extract data from your data sources
 layout: page
-scope: datama/saas/prep
+scope: Datama/saas/prep
 keywords: full app prep add source
 ---
 
@@ -12,7 +12,7 @@ Our tools allow you to enrich your local data with external data like Google Tre
 
 <br>
 
-Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions
+Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions
 
 
 Here is the available connectors:
@@ -40,7 +40,7 @@ And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integra
 When adding a google sheet block to your flow, it’ll require a small configuration.
 - First you need to have the url of your google sheet. 
 Copy/ past the URL or select it with the <b>"Share"</b> Button on the top right (next to your account name) inside google sheet and <b>"Copy link"</b>
-- Share your Gsheet with DataMa
+- Share your Gsheet with Datama
 When your spreadsheet is public, you have nothing else to do.
 If you have a private spreadsheet we will need to have your authorization to access it. You can give access to your spreadsheet with the <b>Connect</b> or the <b>Give access to Datama</b> button on the connector.
 When those steps are completed, you just have to select the sheet you would like to load and click <b>Load</b>
@@ -68,7 +68,7 @@ Click on load and continue building your flow with more blocks.
 
 > ## Google Analytics 3 
 
-You can upload your Google Analytics datasets in DataMa PREP.
+You can upload your Google Analytics datasets in Datama PREP.
 Click on the Analytics 3 connector in Datama prep, you might need to give authorization to your google analytics by clicking on [Connect] button. You can also use service account to connect to Google Analytics. Learn more on [Service Accounts]("https://developers.google.com/analytics/devguides/reporting/core/v4/authorization#service_accounts") here
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_googleAnalytics3.png"/></center>
@@ -95,7 +95,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 > ## Google Analytics 4 (beta) 
 
-You can upload your Google Analytics 4 datasets in DataMa PREP.
+You can upload your Google Analytics 4 datasets in Datama PREP.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
 
 Select your property, metrics and dimensions. You can choose only one property and only 9 dimensions and up to 10 metrics.
@@ -113,7 +113,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 > ## Google Google BigQuery
 
-You can do an sql query on your Google BigQuery and use it in DataMa PREP.
+You can do an sql query on your Google BigQuery and use it in Datama PREP.
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/GoogleBigQuery1.png"/></center>
@@ -132,9 +132,9 @@ It is then displayed the amount of data it will use in Google BigQuery.
 
 > ## Mail
 
-The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into DataMa and have a scheduled analysis.
+The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into Datama and have a scheduled analysis.
 
-Instead of using your inbox to send the reports, DataMa will generate one for you. Select DataMa email generated in the first selector, this will generate a unique email address to use when making your scheduled reports. Copy this email address and when you are building your scheduled reports on your ads provider, use this email.
+Instead of using your inbox to send the reports, Datama will generate one for you. Select Datama email generated in the first selector, this will generate a unique email address to use when making your scheduled reports. Copy this email address and when you are building your scheduled reports on your ads provider, use this email.
 
 In order for us to know which mails we are getting data from, you will be required to put the ads provider’s email in the email sender (who is sending the report usually something like noreply@acme.io ) OR an email subject (like “Your scheduled report by Acme, Inc”)
 
@@ -197,7 +197,7 @@ To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl
 
 > ## Facebook
 
-**You can upload your Facebook Analytics datasets in DataMa PREP.**
+**You can upload your Facebook Analytics datasets in Datama PREP.**
 
 When opening the Facebook block you can see which account is connected and you can disconnect it if you want to use another one.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/FB1.PNG"/></center>
@@ -211,15 +211,15 @@ If no field or breakdown is selected the chosen metrics will then be applied to 
 
 > ## Piano Analytics
 
-**You can import data from the data query explorer of Piano (ex AT-Internet) in DataMa**
+**You can import data from the data query explorer of Piano (ex AT-Internet) in Datama**
 
-When opening the Piano Analytics block in DataMa prep, you first need to upload an API key. This API key can be generated on your profile section in Piano [learn more](https://support.piano.io/hc/en-us/articles/4466006444306-API-Keys). Download the API key (.csv) from Piano on your computer, then upload it in DataMa Prep in the API key section
+When opening the Piano Analytics block in Datama prep, you first need to upload an API key. This API key can be generated on your profile section in Piano [learn more](https://support.piano.io/hc/en-us/articles/4466006444306-API-Keys). Download the API key (.csv) from Piano on your computer, then upload it in Datama Prep in the API key section
 
-Once done, you then need to paste an "API body" content. This will be generated in the data query interface of Piano Analytics: create a report containing the properties and metrics that you want in DataMa and then hit "Copy API body (POST)" on the top right of the report and then copy the Body block
+Once done, you then need to paste an "API body" content. This will be generated in the data query interface of Piano Analytics: create a report containing the properties and metrics that you want in Datama and then hit "Copy API body (POST)" on the top right of the report and then copy the Body block
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataQuery.png"/></center>
 
-Then Paste the API body in DataMa prep in the appropriate field
+Then Paste the API body in Datama prep in the appropriate field
 
-Lastly, define your dates for the report in DataMa Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date) 
+Lastly, define your dates for the report in Datama Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date) 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataResults.png"/></center>

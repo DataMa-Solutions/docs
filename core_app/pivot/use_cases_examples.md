@@ -5,7 +5,7 @@ layout: page
 scope: shiny
 ---
 
-Please check all live examples on [solutions.datama.fr](https://solutions.datama.fr) !
+Please check all live examples on [solutions.Datama.fr](https://solutions.Datama.fr) !
 
 Here is how to change use case:
 
@@ -13,6 +13,6 @@ Here is how to change use case:
 2. Select the version you want to load »
 3. Click on « compare » or « done » to get results
 
-Examples used for DataMa PIVOT are coming from the exact same sources as for DataMa COMPARE
+Examples used for Datama PIVOT are coming from the exact same sources as for Datama COMPARE
 
 All the data used in the different use cases are available in [this Google spreadsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)

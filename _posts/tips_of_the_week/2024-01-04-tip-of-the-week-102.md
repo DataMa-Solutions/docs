@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-The DataMa team wishes you a happy new year 2024 🎉
+The Datama team wishes you a happy new year 2024 🎉
 Datama Pivot now lets you analyse all your KPIs at once! The "Check All steps" functionality is available as an option in the Datama Pivot menu:
   * it allows you to explore a visual "market equation tree" for an overview in the first slide 🕵️‍♀️
   * a new "KPI Interest Score" prioritises impactful steps based on distribution and standard deviation 🤓

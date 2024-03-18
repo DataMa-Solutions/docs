@@ -1,11 +1,11 @@
 ---
 title: Definitions
-description: The Definitions Menu (or comparison in DataMa COMPARE) is here to set up your analysis.
+description: The Definitions Menu (or comparison in Datama COMPARE) is here to set up your analysis.
 layout: page
 scope: shiny
 ---
 
-> **The Definitions Menu** (or **comparison** in DataMa COMPARE) is here to set up your analysis.
+> **The Definitions Menu** (or **comparison** in Datama COMPARE) is here to set up your analysis.
 
 ## Define what you are comparing (Compare, Impact & Journey).
 
@@ -35,7 +35,7 @@ scope: shiny
 ## Specify which ratio you want to assess (Pivot & Impact)
 
 *  Define the **Numerator** and the **Denominator** of your ratio (Revenue/ Users | Purchase/ Clients | Margin/ Products...)
-* In DataMa IMPACT & PIVOT, The Impact Metric is your main KPI. It will be the assessment metric that DataMa will calculated to make you understand the gain or the lost you’ve made.
+* In Datama IMPACT & PIVOT, The Impact Metric is your main KPI. It will be the assessment metric that Datama will calculated to make you understand the gain or the lost you’ve made.
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/menu/images/MenuDefinitions2.jpg"/></center>
 

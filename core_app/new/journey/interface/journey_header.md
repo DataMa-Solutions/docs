@@ -1,14 +1,14 @@
 ---
 title: Journey - Settings
-description: The header in DataMa Journey helps you manipulate and refine your Use Cases
+description: The header in Datama Journey helps you manipulate and refine your Use Cases
 layout: page
-scope: datama/saas/journey
+scope: Datama/saas/journey
 keywords: full app journey interface header
 ---
 
 <br>
 
-> The header in DataMa Journey helps you manipulate and refine your Use Cases
+> The header in Datama Journey helps you manipulate and refine your Use Cases
 
 <br>
 
@@ -16,7 +16,7 @@ keywords: full app journey interface header
 
 <br>
 
-Find here the main elements of the solution Header in DataMa Journey:
+Find here the main elements of the solution Header in Datama Journey:
 
 <br>
 
@@ -130,10 +130,10 @@ For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch
 
 ## Comparison
 
-DataMa Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing.
+Datama Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing.
 
 <br>
 
 ## KPI
 
-In DataMa Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).
+In Datama Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).

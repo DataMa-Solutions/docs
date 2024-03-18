@@ -1,11 +1,11 @@
 ---
 title: Admin header
-description: See in this chapter details on the Admin header available on top of DataMa interface
+description: See in this chapter details on the Admin header available on top of Datama interface
 layout: page
 scope: shiny
 ---
 
-> See in this chapter details on the **Admin header**  available on top of DataMa interface
+> See in this chapter details on the **Admin header**  available on top of Datama interface
 
 ![admin]({{site.url}}/{{site.baseurl}}/core_app/images/compare_home_admin.png)
 

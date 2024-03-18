@@ -16,8 +16,8 @@ scope: shiny
 
 The Excel template above allows you to visualize the output in Excel for a use case example in [Compare]({{site.url}}/{{site.baseurl}}/core_app/compare).
 
-Just activate the macro (Ctrl + Shift + U) in the Excel DataMa Compare, either downloading it through the Shiny Web app (see detailed explanations [here]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/excel_file)) or using the R code with the <span style="color:red"> Excel_extract </span> function.
+Just activate the macro (Ctrl + Shift + U) in the Excel Datama Compare, either downloading it through the Shiny Web app (see detailed explanations [here]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/excel_file)) or using the R code with the <span style="color:red"> Excel_extract </span> function.
 
 ![Excel_extract]({{site.url}}/{{site.baseurl}}/core_app/header/export_results/images/Excel-extract.jpg)
 
-[Excel extract](https://www.docs.datama.fr/wp-content/uploads/2018/11/2018-11-28-15-56-29-Excel-extract.xlsm)
+[Excel extract](https://www.docs.Datama.fr/wp-content/uploads/2018/11/2018-11-28-15-56-29-Excel-extract.xlsm)

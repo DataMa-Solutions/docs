@@ -1,12 +1,12 @@
 ---
 title: Model
-description: Here is what you should now about DataMa to understand what is behing the solution
+description: Here is what you should now about Datama to understand what is behing the solution
 layout: page
-scope: datama/saas/compare
+scope: Datama/saas/compare
 keywords: full app compare model
 ---
 
-> Here is what you should now about DataMa to understand what is behing the solution
+> Here is what you should now about Datama to understand what is behing the solution
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Model-300x266.jpg"/></center>
 

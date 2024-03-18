@@ -455,9 +455,9 @@
               link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
-    - name: DataMa On Premise
-      link: /core_app/new/DataMa_on_premise.html #OK
-#    - name: Old version of DataMa
+    - name: Datama On Premise
+      link: /core_app/new/Datama_on_premise.html #OK
+#    - name: Old version of Datama
 #      link: /core_app/old_docs.html
 #      subnav:
 #        - name: Compare
@@ -846,16 +846,16 @@
   type: bold
   subnav:
     - name: Compare
-      link: /extensions/datama-compare/introduction.html
+      link: /extensions/Datama-compare/introduction.html
       subnav:
         - name: Introduction
-          link: /extensions/datama-compare/introduction.html
+          link: /extensions/Datama-compare/introduction.html
         - name: Concept
-          link: /extensions/datama-compare/concept.html
+          link: /extensions/Datama-compare/concept.html
         - name: Interface
-          link: /extensions/datama-compare/structure.html
+          link: /extensions/Datama-compare/structure.html
         - name : Settings
-          link: /extensions/datama-compare/settings/settings.html
+          link: /extensions/Datama-compare/settings/settings.html
     - name : Extensions
       link: /extensions/how-to-use/index.html
       subnav:

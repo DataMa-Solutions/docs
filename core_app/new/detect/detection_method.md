@@ -2,17 +2,17 @@
 title: Detect - Detection methods
 description: This page explains the existing methods for anomaly detection
 layout: page
-scope: datama/saas/detect
+scope: Datama/saas/detect
 keywords: full app detect detection method 
 ---
 
 <br>
 
-> **Anomaly detection can be based on different methods available on the shelves in DataMa Detect**
+> **Anomaly detection can be based on different methods available on the shelves in Datama Detect**
 
 <br>
 
-You have basically two type of methods existing in DataMa detect to spot anomalies in your data:
+You have basically two type of methods existing in Datama detect to spot anomalies in your data:
 
 1. Methods based on estimated confidence interval
     - [Forecast](#forecast)
