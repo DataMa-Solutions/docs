@@ -1,6 +1,6 @@
 ---
 title: News
-description: Find here the **latest releases** of DataMa Solutions
+description: Find here the **latest releases** of Datama Solutions
 ---
 
 > {{ page.description }}

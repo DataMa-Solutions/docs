@@ -1,13 +1,13 @@
 ---
-title: DataMa Prep
-description: DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.
+title: Datama Prep
+description: Datama PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into Datama Core solution for a perfect analysis of your KPIs.
 layout: page
 scope: shiny
 ---
 
-> **DataMa PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into DataMa Core solution for a perfect analysis of your KPIs.**
+> **Datama PREP is a data manipulation tool. No-code, easy-to-use... Add value to your datasets and use it into Datama Core solution for a perfect analysis of your KPIs.**
 
-If you're already familiar with DataMa Solutions, you will obviously need DataMa PREP one day. It will help you create a dataset compatible with DataMA's market equation.
+If you're already familiar with Datama Solutions, you will obviously need Datama PREP one day. It will help you create a dataset compatible with Datama's market equation.
 
 This documentation gives you an overview of how it works and how to use it.
 
@@ -16,4 +16,4 @@ This documentation gives you an overview of how it works and how to use it.
 
 Hope you enjoy it.
 
-Please visit DataMa generic [website](https://datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
+Please visit Datama generic [website](https://Datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.

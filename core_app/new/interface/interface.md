@@ -1,14 +1,14 @@
 ---
 title: Interface
-description: In this chapter, see details on how to use the main features of the DataMa interface
+description: In this chapter, see details on how to use the main features of the Datama interface
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app interface
 ---
 
 <br>
 
-> In this chapter, see details on how to use the **Interface**  of the DataMa solution
+> In this chapter, see details on how to use the **Interface**  of the Datama solution
 
 <br>
 

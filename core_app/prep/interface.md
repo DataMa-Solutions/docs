@@ -1,11 +1,11 @@
 ---
 title: Structure of Prep
-description: Get it started with DataMa Prep solution's structure
+description: Get it started with Datama Prep solution's structure
 layout: page
 scope: shiny
 ---
 
-**DataMa PREP is a data aggregation tool that allows you to prepare your dataset and enrich your flow before analyzing it.**
+**Datama PREP is a data aggregation tool that allows you to prepare your dataset and enrich your flow before analyzing it.**
 
 <br>
 
@@ -14,7 +14,7 @@ After you have logged in, you will find this home page:
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/prep/images/Homepage.png"/></center>
 
 
-**DataMa PREP's structure is made of 4 parts:**
+**Datama PREP's structure is made of 4 parts:**
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/prep/images/Capturen1.png"/></center>
 

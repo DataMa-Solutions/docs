@@ -1,13 +1,13 @@
 ---
 title: Excel file
-description: Drag and drop your Excel source and choose which sheet you want to use, click on Load button to load DataMa Prep sample and start use it as flow.
+description: Drag and drop your Excel source and choose which sheet you want to use, click on Load button to load Datama Prep sample and start use it as flow.
 layout: page
 scope: shiny
 ---
 
-**You can upload your Excel files in DataMa PREP**
+**You can upload your Excel files in Datama PREP**
 
 ![Excel Step 1](images/ExcelStep1.png)
 
-Drag and drop your Excel source and choose which sheet you want to use, click on Load button to load DataMa Prep sample and start use it as flow.
+Drag and drop your Excel source and choose which sheet you want to use, click on Load button to load Datama Prep sample and start use it as flow.
 

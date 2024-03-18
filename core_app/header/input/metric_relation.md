@@ -7,7 +7,7 @@ scope: shiny
 
 > Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/header/input/source.md), in order to compute the **KPI you want to explain**.
 
-At DataMa, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
 
 Building it can be a little bit tricky, but generally you have it behind your business KPIs. All you need to do is come back to basics and try to write down how your metrics are related.
 
@@ -29,10 +29,10 @@ Steps gets multiplied together in order to get your KPIs. So, if your file has 5
 
  <center> <span style="color:red"> Metric5 = Metric1 * Metric2/Metric1 * Metric3/Metric2 * Metric4/Metric3 * Metric5/Metric4 </span> </center>
 
-Don’t be afraid of putting too many PIs in that equation: with DataMa Compare, you can always zoom in to part of the equation, or aggregate some components using the « Skip steps » functionality.
+Don’t be afraid of putting too many PIs in that equation: with Datama Compare, you can always zoom in to part of the equation, or aggregate some components using the « Skip steps » functionality.
 
 ## Get inspired
 
-DataMa Demo can help you get idea of Metric Relation you may want to build.
+Datama Demo can help you get idea of Metric Relation you may want to build.
 
-Just look at [demo sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0), and related [demo use cases](http://solutions.datama.fr/) you get an idea of how it could look.
+Just look at [demo sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0), and related [demo use cases](http://solutions.Datama.fr/) you get an idea of how it could look.

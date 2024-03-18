@@ -1,13 +1,13 @@
 ---
 title: Power BI - Demo extension
-description: Using DataMa Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both DataMa and Power BI.
+description: Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon power bi demo
 ---
 
 
-> Welcome to the **Datama extension documentation for Power BI**. Harness the combined strengths of DataMa and Power BI to make your reports more insightful.
+> Welcome to the **Datama extension documentation for Power BI**. Harness the combined strengths of Datama and Power BI to make your reports more insightful.
 
 
 <br>
@@ -66,4 +66,4 @@ Alternatively, below a 2min video intro to the Power BI extension:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nf4IpBErAUk?si=80AXC4m4RoPmhU3n" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Reach out to us at [solutions@datama.io](mailto:solutions@datama.io) for further testing or to inquire about licensing options.
+Reach out to us at [solutions@Datama.io](mailto:solutions@Datama.io) for further testing or to inquire about licensing options.

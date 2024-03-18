@@ -10,5 +10,5 @@ layout: post
 ---
 
 
-Une nouvelle vue de vos workbooks est disponible sur la Home page de DataMa, en cliquant sur l'icône liste en haut à droite, vous pourrez passer d'une vue "Grille" avec les workbooks sous forme de carte à une vue "Détaillée" sous la forme synthétique d'un tableau
+Une nouvelle vue de vos workbooks est disponible sur la Home page de Datama, en cliquant sur l'icône liste en haut à droite, vous pourrez passer d'une vue "Grille" avec les workbooks sous forme de carte à une vue "Détaillée" sous la forme synthétique d'un tableau
 Le choix de visualisation pour lequel vous opterez sera sauvegardé pour vos prochaines sessions 😉

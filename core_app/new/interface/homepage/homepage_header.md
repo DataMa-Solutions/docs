@@ -2,7 +2,7 @@
 title: Header
 description: See in this chapter details how to use the homepage header of your account
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app home homepage header
 ---
 

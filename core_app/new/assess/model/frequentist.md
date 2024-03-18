@@ -2,7 +2,7 @@
 title: Assess - Frequentist model
 description: In the Bernoulli frequentist approach, the outcome has to be binary
 layout: page
-scope: datama/saas/assess
+scope: Datama/saas/assess
 keywords: full app assess model frequentist 
 ---
 
@@ -27,7 +27,7 @@ Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SA
 ### Frequentist/ Other
 
 
-In the frequentist (non bernoulli) approach, the outcome can be any variable. However, the data should be either unaggregated, or aggregated in comparable groups, so that DataMa can compute the actual variance of the success metric.
+In the frequentist (non bernoulli) approach, the outcome can be any variable. However, the data should be either unaggregated, or aggregated in comparable groups, so that Datama can compute the actual variance of the success metric.
 
 For instance, if you are measuring the statistical significance of the difference between two variants on a Average Basket Value, you need to have one line per transaction in your data source. 
 

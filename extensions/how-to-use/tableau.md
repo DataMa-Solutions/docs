@@ -1,7 +1,7 @@
 ---
 title: Datama Compare on Tableau
 layout: page
-scope: datama/light/compare
+scope: Datama/light/compare
 keywords: Tableau get started
 ---
 

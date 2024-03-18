@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-Want to check the data source you've created or imported into DataMa Prep? ️🕵️
+Want to check the data source you've created or imported into Datama Prep? ️🕵️
 Here's how to do it in two simple steps:
 1. Go to the Prep tab of the Use Case you are interested in
 2. Click on the Excel logo at the top right of the table 🖱️

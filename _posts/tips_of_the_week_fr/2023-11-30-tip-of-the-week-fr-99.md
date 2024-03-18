@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-Envie de vérifier la source de donnée que vous avez créée ou importée dans DataMa Prep ? ️🕵️
+Envie de vérifier la source de donnée que vous avez créée ou importée dans Datama Prep ? ️🕵️
 Voici comment procéder en deux étapes simples:
 1. Accédez à l'onglet Prep du Use Case qui vous intéresse
 2. Cliquez sur le logo Excel situé en haut à droite de la table 🖱️

@@ -2,7 +2,7 @@
 title: Journey - Interface
 description: The solution JOURNEY is split in four main parts.
 layout: page
-scope: datama/saas/journey
+scope: Datama/saas/journey
 keywords: full app journey interface
 ---
 
@@ -15,7 +15,7 @@ keywords: full app journey interface
 * **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/journey_header.html):** the subheader of the window manage the settings of the solution
 * **Sidebar:** The left part of the web page, which allows you to switch from one solution to another
 
-> Overall **interface** is split into 3 steps, that are the backbone of DataMa JOURNEY
+> Overall **interface** is split into 3 steps, that are the backbone of Datama JOURNEY
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/journey/images/model.png"/></center>
 

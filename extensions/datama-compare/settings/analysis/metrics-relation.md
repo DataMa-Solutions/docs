@@ -1,7 +1,7 @@
 ---
 title: Metrics Relation
 layout: page
-scope: datama/light/compare
+scope: Datama/light/compare
 keywords: light compare settings analysis metrics relation mr market equation
 ---
 
@@ -9,6 +9,6 @@ keywords: light compare settings analysis metrics relation mr market equation
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/metrics-relation.png" alt="Analysis settings of Datama Compare" title="Datama Compare - Structure" /></center>
 
-To get more information about [Metrics relation, click here]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/analysis/metrics-relation.html)
+To get more information about [Metrics relation, click here]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/settings/analysis/metrics-relation.html)
 
 <br>

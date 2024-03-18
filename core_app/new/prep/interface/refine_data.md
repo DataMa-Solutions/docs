@@ -1,18 +1,18 @@
 ---
 title: Prep - Refine data
-description: This section helps you to refine your data in DataMa Prep
+description: This section helps you to refine your data in Datama Prep
 layout: page
-scope: datama/saas/prep
+scope: Datama/saas/prep
 keywords: full app prep refine data
 ---
 
 
-> **This section helps you to refine your data in DataMa Prep**
+> **This section helps you to refine your data in Datama Prep**
 
-Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions.
+Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions.
 <br>
 
-Here is the available actions you can do so far in DataMa Prep to refine your dataset:
+Here is the available actions you can do so far in Datama Prep to refine your dataset:
 - [Clean](#clean)
 - [Append](#append)
 - [Filter](#filter)
@@ -27,7 +27,7 @@ Here is the available actions you can do so far in DataMa Prep to refine your da
 
 <b> Why ?</b>
 
-Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of DataMa's solutions.
+Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of Datama's solutions.
 
 
 <b> How to use it ?</b>
@@ -52,7 +52,7 @@ You'll also be able to edit a column type by using the select contain on items. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/clean_types.png"/></center>
 
-In addition, DataMa prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
+In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/create_calculated_field.png"/></center>
 
@@ -75,7 +75,7 @@ Once you're done make sure to click on the "Ok" button to validate the creation 
 
 <b>  Why ? </b> 
 
-DataMa Prep allow you to import data from multiple source to a single output ready for DataMa Core's solutions. In order to join our multiple source we need an Append action.
+Datama Prep allow you to import data from multiple source to a single output ready for Datama Core's solutions. In order to join our multiple source we need an Append action.
 
 
 <b>  How to use it ?</b> 
@@ -132,7 +132,7 @@ A filter action holds a single filter condition on each field and works by apply
 Once you have some filters applied you can see them by their column name. By clicking on it you open it and see a description of the filter.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/show_filters.png"/></center>
 
-Sometimes you can see the following error message "It seems that there are too many unique values" it means that the number of unique values in the dataset is higher than the limit set by DataMa.
+Sometimes you can see the following error message "It seems that there are too many unique values" it means that the number of unique values in the dataset is higher than the limit set by Datama.
 
 This was implemented to avoid application performance problems.
 
@@ -143,7 +143,7 @@ It has the effect of not offering the unique values in the filter value selector
 
 > ### Pivot & Unpivot ###
 
-**You might want to pivot and unpivot your dataset in DataMa PREP.**
+**You might want to pivot and unpivot your dataset in Datama PREP.**
 
 
 What is that for?
@@ -167,6 +167,6 @@ For example, this unpivot configuration creates two columns {Sessions.female and
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivoted_column.png"/></center>
 
 
-Congrats! Your dataset is ready to be uploaded in DataMa's solution!
+Congrats! Your dataset is ready to be uploaded in Datama's solution!
 
 To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)

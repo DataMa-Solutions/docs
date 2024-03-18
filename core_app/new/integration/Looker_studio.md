@@ -1,13 +1,13 @@
 ---
 title: Looker Studio extension
-description: Using DataMa Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both DataMa and Looker Studio.
+description: Using Datama Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both Datama and Looker Studio.
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon LookerStudio Looker
 ---
 
 
-> Using DataMa Solutions as a **Looker Studio extension** is a great way to make your report more insightful with the benefits of both DataMa and Looker Studio.
+> Using Datama Solutions as a **Looker Studio extension** is a great way to make your report more insightful with the benefits of both Datama and Looker Studio.
 
 <br>
 
@@ -22,19 +22,19 @@ From Looker Studio you can load new vizualisation from the community, and retrie
 
 <br>
 
-# <b>How to Use the DataMa Extension?</b>
+# <b>How to Use the Datama Extension?</b>
 
-DataMa will be basically like a Looker Studio graph embedded in the visualisation. You will have to configure it as a basic graph. 
+Datama will be basically like a Looker Studio graph embedded in the visualisation. You will have to configure it as a basic graph. 
 
 ![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/lookerstudio_extension.gif)
 
 <br>
 
-# <b>How to set up the DataMa extension?</b>
+# <b>How to set up the Datama extension?</b>
 
 - the first <i>Dimension</i> will be considered as the Start & End Comparison dimension
-- the metrics will be the step of your [market equation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) in the order of the metrics. (by default it will be a "prod" equation, this can be changed in the settings: Style > DataMa Global Settings)
-- Add your licence key in the Settings: Style > DataMa Global Settings > Licence Key
+- the metrics will be the step of your [market equation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) in the order of the metrics. (by default it will be a "prod" equation, this can be changed in the settings: Style > Datama Global Settings)
+- Add your licence key in the Settings: Style > Datama Global Settings > Licence Key
 - in <i>object to display</i>, select the elements your want to view. 
 - use as many element as you want in your page. 
 
@@ -44,5 +44,5 @@ DataMa will be basically like a Looker Studio graph embedded in the visualisatio
 
 <br>
 
-Contact us (contact@datama.fr) to get a licence key and install the extension.
+Contact us (contact@Datama.fr) to get a licence key and install the extension.
 

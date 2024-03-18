@@ -1,6 +1,6 @@
 ---
 title: PRIVACY POLICY
-description: See the privacy policy of the DataMa applications.
+description: See the privacy policy of the Datama applications.
 layout: page
 scope: shiny
 ---
@@ -10,13 +10,13 @@ BETWEEN THE UNDERSIGNED:
 
 
 
-This CONFIDENTIALITY AGREEMENT (“ Agreement ”) is executed by and between The Client and DATAMA , a company organized and existing under the laws of France, having its principal place of business at 20 bis rue Louis Philippe – 92200 NEUILLY-SUR-SEINE, FRANCE (“ DATAMA ”) Hereinafter referred to as “the Provider”
+This CONFIDENTIALITY AGREEMENT (“ Agreement ”) is executed by and between The Client and Datama , a company organized and existing under the laws of France, having its principal place of business at 20 bis rue Louis Philippe – 92200 NEUILLY-SUR-SEINE, FRANCE (“ Datama ”) Hereinafter referred to as “the Provider”
 
 
 
 
 
-DATAMA and The Client will be hereinafter individually or collectively designated by
+Datama and The Client will be hereinafter individually or collectively designated by
 
 the « Party » or the « Parties ».
 
@@ -24,11 +24,11 @@ the « Party » or the « Parties ».
 
 
 
-WHEREAS The Client and The Provider are discussing the opportunity to use DATAMA SOLUTIONS as an analytics tool for business purposes (the “ Relationship ”); and
+WHEREAS The Client and The Provider are discussing the opportunity to use Datama SOLUTIONS as an analytics tool for business purposes (the “ Relationship ”); and
 
 
 
-WHEREAS during these presales test, The Client may furnish DATAMA SOLUTIONS
+WHEREAS during these presales test, The Client may furnish Datama SOLUTIONS
 
 confidential and proprietary information, for to be able to test and show results; and
 
@@ -93,7 +93,7 @@ As part of the execution of this Contract, the Licensor is required to collect a
 
 The processing implemented in this context is based on the legitimate interest of the Licensor, insofar as this processing is necessary for the proper performance of the contractual relationship and for compliance with its legal obligations. Personal Data and the entire file associated with the Licensee will be kept for the duration of the contractual relationship and for the applicable limitation period.
 
-In accordance with the applicable regulations, the Licensee and/ or the employees and managers of the Licensee have a right of access, rectification, erasure of Personal Data concerning them, a right to limit processing, as well as a right of opposition to the processing of Data concerning them. The Licensee and/ or employees of the Licensee also have the right to send the Company special instructions relating to the fate of their Personal Data after their death. To exercise these rights, the Licensee may send a request by mail to the Licensor at the following address: DataMa, 20Bis rue Louis Philippe, 92200 Neuilly-Sur-Seine. Finally, the Licensee and / or the employees of the Licensee can lodge a complaint with the personal data protection authority.
+In accordance with the applicable regulations, the Licensee and/ or the employees and managers of the Licensee have a right of access, rectification, erasure of Personal Data concerning them, a right to limit processing, as well as a right of opposition to the processing of Data concerning them. The Licensee and/ or employees of the Licensee also have the right to send the Company special instructions relating to the fate of their Personal Data after their death. To exercise these rights, the Licensee may send a request by mail to the Licensor at the following address: Datama, 20Bis rue Louis Philippe, 92200 Neuilly-Sur-Seine. Finally, the Licensee and / or the employees of the Licensee can lodge a complaint with the personal data protection authority.
 
 
 

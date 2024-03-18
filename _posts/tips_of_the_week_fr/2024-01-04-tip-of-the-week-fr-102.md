@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-L'équipe DataMa vous souhaite une excellente année 2024 🎉
+L'équipe Datama vous souhaite une excellente année 2024 🎉
 Datama Pivot vous permet maintenant d'analyser tous les KPIs en une seule fois ! La fonctionnalité "Check All steps" est disponible en tant qu'option dans le menu de Datama Pivot:
   * cela vous permet d'explorer un "arbre d'équation de marché" visuel pour une vue d'ensemble dans la première diapositive 🕵️‍♀️
   * un nouveau "KPI Interest Score" hiérarchise les étapes impactantes en fonction de la distribution et de l'écart-type 🤓

@@ -1,15 +1,15 @@
 ---
-title: DataMa Assess - Our Models
-description: Statistical models used by DataMa to assess the significance are based on common models for a data scientist. 
+title: Datama Assess - Our Models
+description: Statistical models used by Datama to assess the significance are based on common models for a data scientist. 
 layout: page
-scope: datama/saas/assess
+scope: Datama/saas/assess
 keywords: full app assess model concept
 ---
 
 
-> Statistical models used by DataMa to assess the significance are based on common models for a data scientist. 
+> Statistical models used by Datama to assess the significance are based on common models for a data scientist. 
 
-By default, DataMa will select the most appropriate model based on the data you are comparing. It will likely be a Welch t test if you are comparing two discrete segments, and a forecasting approach if you are comparing two -long enough- periods.
+By default, Datama will select the most appropriate model based on the data you are comparing. It will likely be a Welch t test if you are comparing two discrete segments, and a forecasting approach if you are comparing two -long enough- periods.
 
 However, you can select the test you want within model settings, under Test to Compute input (add link)
 

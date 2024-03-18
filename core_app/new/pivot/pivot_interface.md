@@ -1,14 +1,14 @@
 ---
 title: Pivot - Interface
-description: Understand what is in the Dashboard panel of DataMa PIVOT
+description: Understand what is in the Dashboard panel of Datama PIVOT
 layout: page
-scope: datama/saas/pivot
+scope: Datama/saas/pivot
 keywords: full app pivot interface
 ---
 
-> Understand what is in the interface of **DataMa PIVOT**
+> Understand what is in the interface of **Datama PIVOT**
 
-Here is the main elements to find in DataMa PIVOT:
+Here is the main elements to find in Datama PIVOT:
 - [Importance Chart](#importance-chart)
 - [Simple chart](#simple-chart)
 - [Clustered Chart](#clustered-chart)
@@ -22,7 +22,7 @@ Here is the main elements to find in DataMa PIVOT:
 
 ## <b>Importance Chart </b>
 
-The dimension importance is the first element of the DataMa PIVOT interface. **It sorts all the dimensions by importance from left to right**, regarding the KPI you are following.
+The dimension importance is the first element of the Datama PIVOT interface. **It sorts all the dimensions by importance from left to right**, regarding the KPI you are following.
 - Dimensions are sorted according to the Standard deviation which is weighted according to the volume. This basically means that **dimensions on the left of the charts have segments that differ a lot on the selected KPIs**. Depending on the dimension you’re looking at, one could then identify business opportunities in increasing the performance of low bubbles on this chart, if that is feasible.
 - Size of the bubble represents ***the volume*** and height of the bubble represents ***the value*** of your KPI for that specific segment.
 
