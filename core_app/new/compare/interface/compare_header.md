@@ -1,15 +1,15 @@
 ---
 title: Compare (Sub)Header
-description: The header in DataMa Compare helps you manipulate and refine your Use Cases
+description: The header in Datama Compare helps you manipulate and refine your Use Cases
 layout: page
-scope: datama/saas/compare
+scope: Datama/saas/compare
 keywords: full app compare header
 ---
 
 
 <br>
 
-> The header in DataMa Compare helps you manipulate and refine your Use Cases.
+> The header in Datama Compare helps you manipulate and refine your Use Cases.
 
 <br>
 

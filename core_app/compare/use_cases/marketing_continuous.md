@@ -1,16 +1,16 @@
 ---
 title: Marketing Campaign – Continuous dimensions
-description: This page details the **« Marketing Campaign – Continuous dimensions »**  example in our [demo](https://solutions.datama.fr/) solution.
+description: This page details the **« Marketing Campaign – Continuous dimensions »**  example in our [demo](https://solutions.Datama.fr/) solution.
 layout: page
 scope: shiny
 ---
 # Marketing Campaign – Continuous dimensions
 
-> This page details our  **« Marketing Campaign – Continous dimensions»**  example in our [demo](https://solutions.datama.fr/) solution.
+> This page details our  **« Marketing Campaign – Continous dimensions»**  example in our [demo](https://solutions.Datama.fr/) solution.
 
 
 
-Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
+Read our [article](https://Datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
 
 
 

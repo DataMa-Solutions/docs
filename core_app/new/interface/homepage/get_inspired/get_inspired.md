@@ -1,26 +1,26 @@
 ---
 title: Get inspired
-description: You can use DataMa Solutions to help you create the right dataset on any type of use case
+description: You can use Datama Solutions to help you create the right dataset on any type of use case
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
-You can use DataMa Solutions to help you create the right dataset on any type of use case.
+You can use Datama Solutions to help you create the right dataset on any type of use case.
 Most use cases today are in the web analytics, marketing, transactional, financial domains.
 
 <br>
 
 To help you get inspired with your own data, we provide a set of example workbooks.
 
-Please check all live examples on <a href="https://app.datama.io/" target="_blank">app.datama.io</a>, and pick the one closest to your current working field.
+Please check all live examples on <a href="https://app.Datama.io/" target="_blank">app.Datama.io</a>, and pick the one closest to your current working field.
 
 <br>
 
 All the data used in the different use cases are available in public Google sheets:
-* DataMa Compare & Pivot & Assess & Detect [sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)
-* DataMa Assess specific [sources](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
-* DataMa Journey specific [sources](https://docs.google.com/spreadsheets/d/1Z2JovUx_q7uLR2iy_fukiJWpIrA1o5wfvfnaHQUgBE4/edit#gid=0)
+* Datama Compare & Pivot & Assess & Detect [sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)
+* Datama Assess specific [sources](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
+* Datama Journey specific [sources](https://docs.google.com/spreadsheets/d/1Z2JovUx_q7uLR2iy_fukiJWpIrA1o5wfvfnaHQUgBE4/edit#gid=0)
 
 <br>
 

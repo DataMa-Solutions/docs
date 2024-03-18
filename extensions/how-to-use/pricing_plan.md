@@ -1,7 +1,7 @@
 ---
 title: Pricing plan of Datama Compare in Power BI
 layout: page
-scope: datama/light/compare
+scope: Datama/light/compare
 keywords: PowerBI power bi Pricing Plan
 ---
 
@@ -9,7 +9,7 @@ keywords: PowerBI power bi Pricing Plan
 
 # Datama Pricing Plans
 
-Unlock the full potential of your data analysis with Datama's flexible pricing options. Choose the plan that best fits your needs and start transforming your data into actionable insights. Go into the Power BI [page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/datama1591255760056.datama-compare?tab=overview) to activate a licence
+Unlock the full potential of your data analysis with Datama's flexible pricing options. Choose the plan that best fits your needs and start transforming your data into actionable insights. Go into the Power BI [page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/Datama1591255760056.Datama-compare?tab=overview) to activate a licence
 
 ## Common Features Across All Licenses
 
@@ -18,7 +18,7 @@ Regardless of the license you choose, you will benefit from the following featur
 2. **Mix Effect**: Discover how volume effects impact your key metrics.
 3. **Dimension Scoring**: Understand which dimensions drive your performance
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/PricingPlan.png" style="width:80%"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/Datama-compare/assets/img/PricingPlan.png" style="width:80%"/></center>
 
 
 ## 1. Free Trial Version
@@ -36,7 +36,7 @@ The Free Trial version is ideal for individual users and small teams looking to 
 
 ## 2. Viewer License
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Viewer.png" style="width:20%"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/Datama-compare/assets/img/Viewer.png" style="width:20%"/></center>
 
 
 The **Viewer License** is designed for simplicity and ease of use for business users who need to consume dashboards.
@@ -51,7 +51,7 @@ The Viewer License is perfect for stakeholders and decision-makers who require q
 
 ## 3. Builder License
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Builder.png" style="width:20%"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/Datama-compare/assets/img/Builder.png" style="width:20%"/></center>
 
 
 For those who need to set up detailed analyses and customize graphs, the **Builder License** is the right choice.
@@ -66,4 +66,4 @@ The Builder License is suited for analysts and data professionals who require co
 
 ---
 
-**Note:** For more information on each plan's features and to determine which is the best fit for your organization, please [contact](https://DataMa.io/lets-talk/){:target="_blank"} our team.
+**Note:** For more information on each plan's features and to determine which is the best fit for your organization, please [contact](https://Datama.io/lets-talk/){:target="_blank"} our team.

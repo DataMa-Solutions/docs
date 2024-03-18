@@ -1,7 +1,7 @@
 ---
-title: Privacy Policy of Datama Light in Looker Studio
+title: Privacy Policy of Datama Extension in Looker Studio
 layout: page
-scope: datama/light/compare
+scope: Datama/light/compare
 keywords: Looker LookerStudio privacy policy
 ---
 # Introduction
@@ -23,7 +23,7 @@ User data is managed exclusively within your own infrastructure. There is no tra
 We adhere to strict privacy standards and do not sell, lease, or distribute any personal data. Our policy ensures complete confidentiality of your information.
 
 ## 5. Cookies and Tracking Technologies
-The DataMa LookerStudio Extension does not utilize cookies or any tracking technologies, and we do not monitor any aspect of your usage.
+The Datama LookerStudio Extension does not utilize cookies or any tracking technologies, and we do not monitor any aspect of your usage.
 
 ## 6. Third-party Access
 Our policy prohibits third-party access to your data. This includes refraining from sharing, leasing, or selling data to external entities.
@@ -47,4 +47,4 @@ Any changes to this policy will be communicated to users who have provided their
 Our LookerStudio extension is not designed for individuals below the age of 13. We do not intentionally collect data from this demographic.
 
 ## 13. Contact
-For any questions or feedback regarding this Privacy Policy, please contact us at contact@datama.fr.
+For any questions or feedback regarding this Privacy Policy, please contact us at contact@Datama.fr.

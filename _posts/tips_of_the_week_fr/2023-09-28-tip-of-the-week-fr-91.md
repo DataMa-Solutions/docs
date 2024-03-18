@@ -10,5 +10,5 @@ layout: post
 ---
 
 
-Pour préparer votre donnée dans DataMa, vous avez la possibilité de brancher votre source de donnée et de la transformer dans DataMa Prep.
+Pour préparer votre donnée dans Datama, vous avez la possibilité de brancher votre source de donnée et de la transformer dans Datama Prep.
 De nombreux connecteurs étaient déjà disponibles comme GA4, Facebook Ads, Bigquery ... et maintenant un nouveau connecteur les rejoint: Piano Analytics 🤩

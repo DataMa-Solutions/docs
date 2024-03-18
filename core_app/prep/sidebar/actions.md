@@ -1,6 +1,6 @@
 ---
 title: Prep's actions
-description: DataMa Prep solution come with a lot of actions allowing you to manipulate easily your datasets.
+description: Datama Prep solution come with a lot of actions allowing you to manipulate easily your datasets.
 layout: page
 scope: shiny
 ---

@@ -6,10 +6,10 @@ img_type: image/gif
 img_width: 600
 img_height: 300
 description: |
-  Practical DataMa use cases from real clients
+  Practical Datama use cases from real clients
   
 ---
-> Every month, DataMa publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
+> Every month, Datama publishes a practical use case from a real client, to get others inspired and share knowledge and learnings
 
 {% for post in site.posts %}
 {% if post.feed == "ucotm" %}

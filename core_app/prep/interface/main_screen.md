@@ -1,6 +1,6 @@
 ---
 title: Prep Main Screen
-description: Find information about DataMa Prep Main Screen
+description: Find information about Datama Prep Main Screen
 layout: page
 scope: shiny
 ---

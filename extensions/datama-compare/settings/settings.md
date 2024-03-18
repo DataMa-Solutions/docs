@@ -1,7 +1,7 @@
 ---
 title: Settings of Datama Compare
 description: Discover all settings exposed by Datama Compare to improve your analysis
-scope: datama/light/compare
+scope: Datama/light/compare
 keywords: light compare settings
 ---
 
@@ -45,7 +45,7 @@ As a global Settings, Level of aggregation, is for now the only one available.
 
 > This part allow to choose what you want to compare, you can also add others comparison to go deeper
 
-Defining what you want to compare is the very first step of your analysis in DataMa Compare as in DataMa Assess In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions
+Defining what you want to compare is the very first step of your analysis in Datama Compare as in Datama Assess In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions
 1. First you need to select the dimension you want to choose for comparison, and the 2nd step is to select 2 segment within the dimension. For exemple (select Category as a Dimension and Category A and Category B as the 2 segments)
 2. You can refine the selection with Advanced settings by filtering your selection 
 
@@ -62,7 +62,7 @@ Defining what you want to compare is the very first step of your analysis in Dat
 
 Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension. Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 
-- By default, DataMa creates a product of ratios (prod) with all the steps defined in the metrics relation. However, you can change this to “sum” to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
+- By default, Datama creates a product of ratios (prod) with all the steps defined in the metrics relation. However, you can change this to “sum” to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
 - When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100. The other 
 - In the Metrics Relation definition, you can opt to set a given step to focus on a specific dimension. This action will disable the automatic dimension scoring in the computation result and only display the selected dimension.
 - The excluded dimension will maintain the scoring algorithm but will not consider the excluded dimension in the calculation for this step.
@@ -92,7 +92,7 @@ Using metrics relation allows you to change your market equation, add a unit, re
 ### 2.1. Configuration 
 
 - **Number of bar before aggregation**: Number of elements you want to display in an opening step. 4 elements is the number by default.
-- **Y axis auto scaling**: Start the Y scale at zero or let datama adjust the best Y scale for you. This help to better display small variations.
+- **Y axis auto scaling**: Start the Y scale at zero or let Datama adjust the best Y scale for you. This help to better display small variations.
 - **Open biggest/focused element by default**:Let the extension directly open the step with the main variation at each loading of the graph. 
 - **Draw links between elements**: Make appears a thin links between each step of the waterfall
 - **Reverse axis**: Rotate the graph from 90°
@@ -129,6 +129,6 @@ Documentation under construction
 
 <br/>
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) of Datama.
+Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/concept.html) of Datama.
 
 <br>

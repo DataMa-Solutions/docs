@@ -23,7 +23,7 @@ Once the data and the settings is done you are not able to modify them (load the
 * [.csv file]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/csv_file.md)
 * [Google analytics]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/google_analytics.md)
 
-Or directly within a DataMa extension :
+Or directly within a Datama extension :
 
 * [Tableau]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_tableau.md)
 * [Power BI]({{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/extensions/extension_powerBI.md)

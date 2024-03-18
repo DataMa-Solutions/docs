@@ -1,8 +1,8 @@
 ---
 title: Datama Power BI Extension Privacy Policy
-description: See the privacy policy of the DataMa applications.
+description: See the privacy policy of the Datama applications.
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app extension power BI privacy policy
 ---
 
@@ -30,7 +30,7 @@ Your trust is invaluable to us. We stand firm in our commitment not to sell, lea
 
 
 ## 5. Cookies and Tracking Technologies
-In our commitment to user privacy, the DataMa Power BI Extension refrains from using cookies or other tracking technologies. We do monitor the quantity of calculations executed by the extension, but this data remains entirely anonymous and unlinked to individual users.
+In our commitment to user privacy, the Datama Power BI Extension refrains from using cookies or other tracking technologies. We do monitor the quantity of calculations executed by the extension, but this data remains entirely anonymous and unlinked to individual users.
 
 
 ## 6. Third-party Access
@@ -62,6 +62,6 @@ The design and intention behind our Power BI extension are not for individuals b
 
 
 ## 13. Contact
-Open communication is key. Should you have any queries, concerns, or feedback regarding this Privacy Policy or any other aspect of our operations, we're eager to hear from you. Please reach out to us at contact@datama.fr.
+Open communication is key. Should you have any queries, concerns, or feedback regarding this Privacy Policy or any other aspect of our operations, we're eager to hear from you. Please reach out to us at contact@Datama.fr.
 
 

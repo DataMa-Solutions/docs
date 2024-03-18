@@ -1,20 +1,20 @@
 ---
 title: Tableau extension demo
-description: Tableau extension demo is an introduction to DataMa analysis limited in time and capacity. You may want to contact us for getting fully up to speed
+description: Tableau extension demo is an introduction to Datama analysis limited in time and capacity. You may want to contact us for getting fully up to speed
 layout: page
 scope: shiny
 ---
 
-> Tableau extension demo is an introduction to DataMa analysis limited in time and capacity. You may want to contact us for getting fully up to speed
+> Tableau extension demo is an introduction to Datama analysis limited in time and capacity. You may want to contact us for getting fully up to speed
 
 <br>
 
-DataMa helps you do the job of an advanced data analyst faster, in Tableau.
+Datama helps you do the job of an advanced data analyst faster, in Tableau.
 It's particularly helpful for marketing analysis, such has gap/ root cause analysis.
 Using this extension you will have access to
-* Waterfall analysis using [DataMa Compare]({{site.url}}/{{site.baseurl}}/core_app/compare)
-* Significance analysis using [DataMa Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
-* Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
+* Waterfall analysis using [Datama Compare]({{site.url}}/{{site.baseurl}}/core_app/compare)
+* Significance analysis using [Datama Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
+* Driver analysis using [Datama Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
 Below is a step by step on how to get it working in tableau
 
@@ -22,14 +22,14 @@ Below is a step by step on how to get it working in tableau
 
 ## 1. Create a source worksheet
 
-In Tableau Desktop, create a new worksheet a source for DataMa.
+In Tableau Desktop, create a new worksheet a source for Datama.
 
-A source worksheet should have all the metrics and dimensions you want to analyse in DataMa.
-Typically a source for DataMa will have
+A source worksheet should have all the metrics and dimensions you want to analyse in Datama.
+Typically a source for Datama will have
 * A set of dimensions in Rows
   * The dimension you want to compare on should come first
 * A set of metrics in columns
-  * The metrics should come in alphabetical order, so that DataMa automatically creates the right [Metric relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation).
+  * The metrics should come in alphabetical order, so that Datama automatically creates the right [Metric relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation).
     Adding a "1_..", "2_.." in the naming of your metrics should help in that regard
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
@@ -42,9 +42,9 @@ Please refer to the full documentation to learn more about [sources]({{site.url}
 
 <br>
 
-## 2. Insert the DataMa extension in a dashboard
+## 2. Insert the Datama extension in a dashboard
 
-* Download the DataMa demo Tableau extension .trex file. It is available on the [Tableau Gallery](https://extensiongallery.tableau.com/extensions).
+* Download the Datama demo Tableau extension .trex file. It is available on the [Tableau Gallery](https://extensiongallery.tableau.com/extensions).
 * In Tableau desktop, create a dashboard, and add your worksheet to this dashboard
 * Drag and drop 'extension' Object in your dashboard and select the .trex file you just downloaded
 * Click 'Start' at the bottom of the welcome modal when it appears
@@ -55,13 +55,13 @@ Here is an example of a source from The SuperStore default dataset of Tableau.
 
 ## 3. Get insights
 
-By default, DataMa brings you in DataMa compare and shows a waterfall analysis, which is interactive (by clicking on the steps of the funnel)
-You can switch DataMa solution and visualisation using the top left menu
+By default, Datama brings you in Datama compare and shows a waterfall analysis, which is interactive (by clicking on the steps of the funnel)
+You can switch Datama solution and visualisation using the top left menu
 We encourage that you read the documentation about each solution to understand what's in there and how it works.
 
-* Waterfall analysis using [DataMa Compare]({{site.url}}/{{site.baseurl}}/core_app/compare)
-* Significance analysis using [DataMa Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
-* Driver analysis using [DataMa Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
+* Waterfall analysis using [Datama Compare]({{site.url}}/{{site.baseurl}}/core_app/compare)
+* Significance analysis using [Datama Impact]({{site.url}}/{{site.baseurl}}/core_app/impact)
+* Driver analysis using [Datama Pivot]({{site.url}}/{{site.baseurl}}/core_app/pivot)
 
 <br>
 

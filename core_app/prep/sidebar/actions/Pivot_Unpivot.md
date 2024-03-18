@@ -5,7 +5,7 @@ layout: page
 scope: shiny
 ---
 
-**You might want to pivot and unpivot your dataset in DataMa PREP.**
+**You might want to pivot and unpivot your dataset in Datama PREP.**
 
 
 What is that for?

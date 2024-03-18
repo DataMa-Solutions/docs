@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-Un raccourci de recherche a été mis en place sur toutes les pages de DataMa en appuyant sur CTRL + F, lorsque vous ferez une recherche 🔍 les résultats seront répartis dans les sections suivantes:
+Un raccourci de recherche a été mis en place sur toutes les pages de Datama en appuyant sur CTRL + F, lorsque vous ferez une recherche 🔍 les résultats seront répartis dans les sections suivantes:
 * Settings: (uniquement quand vous êtes dans un workbook) qui vous permet d'éditer un paramètre du workbook ⚙️
 * Workbooks: pour retrouver vos workbooks sans passer par la page d'accueil 📂
 * Documentation: pour avoir les liens vers la documentation 📄

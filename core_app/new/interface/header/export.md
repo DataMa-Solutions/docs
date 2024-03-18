@@ -2,7 +2,7 @@
 title: Export
 description: Find here how you can export your analysis
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app header menu export
 ---
 

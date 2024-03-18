@@ -1,10 +1,10 @@
 ---
 title: Web application
-description: DataMa easier usage is in a DataMa web interface.
+description: Datama easier usage is in a Datama web interface.
 layout: page
 ---
 
-The straightest way of using DataMa is to use the solution in a [Web App]({{site.url}}/{{site.baseurl}}/core_app.html), hosted on our servers as a SaaS ([solutions.datama.fr](https://solutions.datama.fr/)).
+The straightest way of using Datama is to use the solution in a [Web App]({{site.url}}/{{site.baseurl}}/core_app.html), hosted on our servers as a SaaS ([solutions.Datama.fr](https://solutions.Datama.fr/)).
 
 The web app is split into two main windows:
 * A Home page, that represents your saved workbook, and also gives you some inspiration for use cases. [Home]({{site.url}}/{{site.baseurl}}/home.html)
