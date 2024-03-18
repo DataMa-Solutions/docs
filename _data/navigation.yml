@@ -846,16 +846,16 @@
   type: bold
   subnav:
     - name: Compare
-      link: /extensions/Datama-compare/introduction.html
+      link: /extensions/datama-compare/introduction.html
       subnav:
         - name: Introduction
-          link: /extensions/Datama-compare/introduction.html
+          link: /extensions/datama-compare/introduction.html
         - name: Concept
-          link: /extensions/Datama-compare/concept.html
+          link: /extensions/datama-compare/concept.html
         - name: Interface
-          link: /extensions/Datama-compare/structure.html
+          link: /extensions/datama-compare/structure.html
         - name : Settings
-          link: /extensions/Datama-compare/settings/settings.html
+          link: /extensions/datama-compare/settings/settings.html
     - name : Extensions
       link: /extensions/how-to-use/index.html
       subnav:

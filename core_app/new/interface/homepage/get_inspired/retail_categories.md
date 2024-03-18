@@ -6,7 +6,7 @@ scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
-> Explore the **« Category Performance Analysis** example in our [demo](https://app.Datama.io) solution.
+> Explore the **« Category Performance Analysis** example in our [demo](https://app.datama.io) solution.
 
 <br>
 

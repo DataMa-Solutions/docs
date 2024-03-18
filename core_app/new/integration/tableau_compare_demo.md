@@ -58,7 +58,7 @@ Here is an example of a source from the same dataset as above.
 
 ## If you are a Datama Client
 
-* Enter your licence key by clicking on the appropriate link (or top right corner "..." then "Configure"). Your licence key is available on [Datama Platform](https://app.Datama.io) under "Security" page on the home page. Ask your customer success manager if you don't see a licence key here.
+* Enter your licence key by clicking on the appropriate link (or top right corner "..." then "Configure"). Your licence key is available on [Datama Platform](https://app.datama.io) under "Security" page on the home page. Ask your customer success manager if you don't see a licence key here.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/licence_key_tableau.png"/></center>
 * Set up additional settings if need be: if default settings doesn't suit your use case (e.g. you have a custom market equation or you want to refine model settings), you can refine those settings as for any other Datama use case    
     * Click on the top right "..." and then "Configure" and give a name to your workbook

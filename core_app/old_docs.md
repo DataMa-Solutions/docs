@@ -13,7 +13,7 @@ Welcome in our documentation !
 
 This version of the solution is going to be replaced with an all new version of the solutions.
 - Visit our [new documentation]({{site.url}}/{{site.baseurl}}/core_app/new_docs)
-- Access the new version of the [solution](www.app.Datama.io)
+- Access the new version of the [solution](www.app.datama.io)
 
 This version of the solution is going to be suspended July 2023.
 

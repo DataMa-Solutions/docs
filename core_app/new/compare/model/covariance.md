@@ -50,4 +50,4 @@ The % of Covariance that we display in Datama Compare charts is the ratio betwee
 We put a flag (!) when Covariance gets high (>30%), but the analysis remains true. Just think that the effects you’re trying to sort out are not fully independent, so sometimes it’s not one effect (e.g. Price) or the other (e.g. Volume) that affects your overall KPI (e.g. Revenue), but both at the same time. And that’s your Covariance!
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/covariance.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/compare_covariance.png"/></center>

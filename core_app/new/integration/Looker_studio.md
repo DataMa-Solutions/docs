@@ -14,7 +14,7 @@ keywords: full app integration embed embedded add-on addons addon LookerStudio L
 # <b>How to load the extension?</b>
 
 
-From Looker Studio you can load new vizualisation from the community, and retrieve our manifesto : <i>gs://app.Datama.io/looker-studio</i>
+From Looker Studio you can load new vizualisation from the community, and retrieve our manifesto : <i>gs://app.datama.io/looker-studio</i>
 
 <br>
 

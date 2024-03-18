@@ -53,11 +53,11 @@
 ### 2023-05-31:
 
 * **Extension:**
-    * [Beta 🧪] **Advanced extension settings** For Power BI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.Datama.io. To do so:
+    * [Beta 🧪] **Advanced extension settings** For Power BI and LookerStudio extension, you can now make advanced settings (e.g. change color palette, or custom metric relation) of any extension use case in app.datama.io. To do so:
         * Define a worbook name in the settings of the extension
         * Save in Datama app using the "..." on the top right corner
-        * Find your worbook in app.Datama.io and define advanced settings
-        * Save your workbook in app.Datama.io
+        * Find your worbook in app.datama.io and define advanced settings
+        * Save your workbook in app.datama.io
         * Reload your use case in your extension (Looker Studio or Power BI)
     * Assess, Pivot and Journey charts are now available within extensions (Looker Studio & Power BI)
 
@@ -154,7 +154,7 @@
 ### 2023-01-27:
 
 * **General:**
-    * Datama's new platform is now accessible for all clients in beta. Try it out on [app.Datama.io](https://app.Datama.io) (see below on the 2022-12-15 release for included features)
+    * Datama's new platform is now accessible for all clients in beta. Try it out on [app.datama.io](https://app.datama.io) (see below on the 2022-12-15 release for included features)
     * Google Looker Studio (ex Data Studio) extension is now available for testing. Contact your customer success manager to get early access
     * Multiple bug fixes and UI improvements (incl. including default rounding of $.* Units to two decimals)
 
@@ -177,7 +177,7 @@
 
 ### 2022-12-15: New app beta release
 
-Datama v2 has been released for beta testers on <a href="https://app.Datama.io/" target="_blank">app.Datama.io</a> ! 
+Datama v2 has been released for beta testers on <a href="https://app.datama.io/" target="_blank">app.datama.io</a> ! 
 
 This is an important step on a major migration process scheduled for 2023.You can ask to your Customer Success Manager to get a tour on the new platform, which is a beta version for now.
 

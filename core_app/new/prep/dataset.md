@@ -17,7 +17,7 @@ For now Datama has a limit of 400 000 rows per analysis
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/dataset_DimensionsMetrics.png"  style="width:450px; height:auto;"/></center>
 
 
-Datama <a href="https://app.Datama.io/" target="_blank">demo</a> has a series of saved versions using different sources that you can get inspired from looking at this [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
+Datama <a href="https://app.datama.io/" target="_blank">demo</a> has a series of saved versions using different sources that you can get inspired from looking at this [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
 
 As for example:
 
