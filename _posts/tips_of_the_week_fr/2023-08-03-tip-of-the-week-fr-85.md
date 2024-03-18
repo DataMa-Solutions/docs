@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-La nouvelle version du menu des paramètres est disponible dans DataMa, pour y accéder il faut de cliquer sur le bouton "Settings" dans la barre du haut.
+La nouvelle version du menu des paramètres est disponible dans Datama, pour y accéder il faut de cliquer sur le bouton "Settings" dans la barre du haut.
 La nouvelle structure est la suivante:
 1. « Solutions Model » : qui regroupe tous les paramètres propres à la solutions (Compare, Detect, Journey …)
 2. « Workbook Style » vous permet de modifier des paramètres qui sont globaux au workbook quelque soit la solution tel que la palette de couleur 🎨, la langue ou les caractéristiques d’affichage des nombres

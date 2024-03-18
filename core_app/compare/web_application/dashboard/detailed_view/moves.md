@@ -24,5 +24,5 @@ Read more [details]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensi
 To have keys to read this graph, you should know few tips:
 
 * **The higher the arrow the higher the performance.** In our example, the purple arrow is higher than the others, which tell us that the Checkout/ Session of the referral traffic is the best among all the type of medium. If the volume of referral traffic decrease, there will be a direct negative mix impact on your activities, you will have more traffic coming from type of medium with a lower conversion rate than the referral traffic.
-* **Others (<2%) grouped:** DataMa aggregates within a dimension, elements that represent less than 2% of the total. This will appear as a row in the graph, but you can change the aggregation level from 2% to 0% or whatever you want, depending on the details you want to display.
+* **Others (<2%) grouped:** Datama aggregates within a dimension, elements that represent less than 2% of the total. This will appear as a row in the graph, but you can change the aggregation level from 2% to 0% or whatever you want, depending on the details you want to display.
 * **Show average ratio:** This allows to show the weighted average of all segments on horizontal lines, for both start and end. It helps you understand which segments are above or below the total average.

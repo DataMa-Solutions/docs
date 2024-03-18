@@ -12,7 +12,7 @@ For instance, you are a large website and you want to test a new strategy in SEO
 
 > Here is an example of a compatible [dataset](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=365429622). Note that CausalImpact is a time serie approach so requires a "date" column.
 
-Once uploaded in DataMa Impact, you then need to define what you are comparing (in that case, pre-post the change, on the 30th of Jan 2022)
+Once uploaded in Datama Impact, you then need to define what you are comparing (in that case, pre-post the change, on the 30th of Jan 2022)
 ![Comparison Defiition](images/CI_StartEnd_Definition.png)
 
 You also need to optin for Causal Impact test in the "settings" section.
@@ -29,7 +29,7 @@ Once settings are properly defined, you can hit "Impact" and results will show y
 ![Causal Impact test](images/Causal_Impact_results.png)
 _In the example above, the Click/ Impression for the test group has increased quite a bit after the change (30th of Jan 2022), but the control group also increased by the same range, hence the causal impact is not significant: We don't think that the observed variation of the KPI was actually due to the applied change, but to another reason._
 
-Note: DataMa Causal Impact is based on the work from Kay H. Brodersen, Alain Hauser at Google released through the [CausalImpact R package](https://google.github.io/CausalImpact/CausalImpact.html)
+Note: Datama Causal Impact is based on the work from Kay H. Brodersen, Alain Hauser at Google released through the [CausalImpact R package](https://google.github.io/CausalImpact/CausalImpact.html)
 See also: [CausalImpact](https://research.google/pubs/pub41854/)
 
 Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=365429622)

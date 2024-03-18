@@ -31,7 +31,7 @@ e.g. If you are selling several products, and if the share of an individual prod
 
 For instance, say mobile users generally convert much lower than desktop users (which is often the case). If last week you had much more desktop users than this week, then the conversion this week will be mathematically lower, just because of that change in device mix.
 
-Well, what DataMa Mix effect analysis does is just replicating that logic but for each step of the funnel and for each dimension provided in the data set. As long as those dimensions are not interdependent, you come up with a share of the gap on each step that can be attributed to mix effects on a given dimension.
+Well, what Datama Mix effect analysis does is just replicating that logic but for each step of the funnel and for each dimension provided in the data set. As long as those dimensions are not interdependent, you come up with a share of the gap on each step that can be attributed to mix effects on a given dimension.
 
 In another way, Mix effect is the impact due to the change of proportion in entrance.
 

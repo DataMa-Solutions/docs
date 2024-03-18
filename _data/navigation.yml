@@ -455,9 +455,9 @@
               link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
-    - name: DataMa On Premise
-      link: /core_app/new/DataMa_on_premise.html #OK
-#    - name: Old version of DataMa
+    - name: Datama On Premise
+      link: /core_app/new/Datama_on_premise.html #OK
+#    - name: Old version of Datama
 #      link: /core_app/old_docs.html
 #      subnav:
 #        - name: Compare

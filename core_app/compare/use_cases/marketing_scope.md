@@ -1,14 +1,14 @@
 ---
 title: Marketing Campaign – Scope
-description: This page details the **« Marketing Campaign – Scope »**  example in our [demo](https://solutions.datama.fr/) solution.
+description: This page details the **« Marketing Campaign – Scope »**  example in our [demo](https://solutions.Datama.fr/) solution.
 layout: page
 scope: shiny
 ---
 # Marketing Campaign – Scope
 
-> This page details the **« Marketing Campaign – Scope»**  example in our [demo](https://solutions.datama.fr/) solution.
+> This page details the **« Marketing Campaign – Scope»**  example in our [demo](https://solutions.Datama.fr/) solution.
 
-Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
+Read our [article](https://Datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
 
 As presented in the data, a column called « Scope » allows us to remove part of the data in the analysis, but still consider this amount in the total (dark blue and light blue blocks). The waterfall assessment will not consider the out-of-scope data.
 

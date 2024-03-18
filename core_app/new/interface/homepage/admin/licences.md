@@ -2,7 +2,7 @@
 title: Licence
 description: On this page, find details on the Licence section of the homepage
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app home admin licenses
 ---
 

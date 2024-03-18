@@ -1,6 +1,6 @@
 <!-- todo : create some use cases examples & add to the sidebar -->
 
-Please check all live examples on [demo.datama.fr](http://solutions.datama.fr/) !
+Please check all live examples on [demo.Datama.fr](http://solutions.Datama.fr/) !
 
 Here is how to change use case:
 

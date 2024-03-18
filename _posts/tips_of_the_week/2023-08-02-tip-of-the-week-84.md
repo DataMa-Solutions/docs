@@ -10,5 +10,5 @@ layout: post
 ---
 
 
-A new version of Waterfall is available as an experimental version 🧪, how it works is explained in this [short youtube video](https://youtu.be/8CeyzFoaznQ) where you'll discover the new capabilities of the famous DataMa waterfall, which can now be transformed into a decision tree to further simplify the explanation of variations to your customers, while comments are generated automatically.
-To activate it you need to access the Waterfall settings and, at the top right of the window that appears, activate the "New Waterfall" toggle. If this button is not available, contact DataMa to be granted the experimental role 🥼 to discover the new features in advance 😉
+A new version of Waterfall is available as an experimental version 🧪, how it works is explained in this [short youtube video](https://youtu.be/8CeyzFoaznQ) where you'll discover the new capabilities of the famous Datama waterfall, which can now be transformed into a decision tree to further simplify the explanation of variations to your customers, while comments are generated automatically.
+To activate it you need to access the Waterfall settings and, at the top right of the window that appears, activate the "New Waterfall" toggle. If this button is not available, contact Datama to be granted the experimental role 🥼 to discover the new features in advance 😉

@@ -1,13 +1,13 @@
 ---
 title: Assess - Settings
-description: Here is the different settings available in DataMa Assess
+description: Here is the different settings available in Datama Assess
 layout: page
-scope: datama/saas/assess
+scope: Datama/saas/assess
 keywords: full app assess settings
 ---
 
 
-> **Here is the different settings available in DataMa Assess**
+> **Here is the different settings available in Datama Assess**
 
 
 Here's what you going to find in this chapter:
@@ -61,7 +61,7 @@ Depending on the test you are performing, this input can be used in different wa
 
 The Frequentist Weight parameter allows you to select a metric that will multiply the number of occurrences of a given line by that metric.
 
-For instance, if you’re analyzing the significance of a variation of Average Basket value in an AB test, you would need to have 1 line per transaction, so that DataMa can compute the standard deviation of that Revenues generated per transaction. However, since you have many transactions, you could end up with a too large dataset. To avoid handling large datasets, DataMa allows you to define a “weight” for each line, and in that example you could group transactions by bucket of Revenues. This [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1483851606) is a good example of that transformation from this other [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1115355265), where “Lines” will be used as denominator for the KPI and “Weight” column as the weightening for Revenue/ Lines ratio. Note that the second data set is significantly smaller than the first one, and gives the same results.
+For instance, if you’re analyzing the significance of a variation of Average Basket value in an AB test, you would need to have 1 line per transaction, so that Datama can compute the standard deviation of that Revenues generated per transaction. However, since you have many transactions, you could end up with a too large dataset. To avoid handling large datasets, Datama allows you to define a “weight” for each line, and in that example you could group transactions by bucket of Revenues. This [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1483851606) is a good example of that transformation from this other [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1115355265), where “Lines” will be used as denominator for the KPI and “Weight” column as the weightening for Revenue/ Lines ratio. Note that the second data set is significantly smaller than the first one, and gives the same results.
 
 <br>
 
@@ -152,7 +152,7 @@ This is interesting when you are mesuring the significance for <i>date</i>, it w
 
 ## Comparison
 
-First thing you need to do in DataMa Assess is to define the comparison on which you want to assess the significance.
+First thing you need to do in Datama Assess is to define the comparison on which you want to assess the significance.
 
 Please refer to the [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html) section
 
@@ -160,7 +160,7 @@ Please refer to the [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_ap
 
 ## KPI
 
-In DataMa Assess, you can assess the significance of a variation only on one given KPI. Hence, you need to select one of the step of your metric relation for that KPI. By default, DataMa selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
+In Datama Assess, you can assess the significance of a variation only on one given KPI. Hence, you need to select one of the step of your metric relation for that KPI. By default, Datama selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsKPI.png"/></center>
 

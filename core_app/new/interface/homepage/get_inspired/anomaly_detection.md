@@ -1,12 +1,12 @@
 ---
 title: Anomaly Detection
-description: This use case is an example of our DataMa Detect module where you can detect anomalies in your web conversion funnel.
+description: This use case is an example of our Datama Detect module where you can detect anomalies in your web conversion funnel.
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
-This use case is an example of our DataMa Detect module where you can detect anomalies in your web conversion funnel.
+This use case is an example of our Datama Detect module where you can detect anomalies in your web conversion funnel.
 
 In this use case, the data is coming from Google Analytics, and we are checking for anomalies over 4 steps of the funnel(Session, Baskets per session, Checkouts per Basket, and Revenue per Checkout).
 
@@ -14,6 +14,6 @@ In this use case, the data is coming from Google Analytics, and we are checking 
 
 Access to the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=33769454)
 
-## In DataMa Detect (learn more about [DataMa Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html))
+## In Datama Detect (learn more about [Datama Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html))
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_AnomalyDetection.gif"/></center>

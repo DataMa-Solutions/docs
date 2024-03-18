@@ -1,14 +1,14 @@
 ---
 title: Detect - Settings
-description: Here is the different settings available in DataMa detect
+description: Here is the different settings available in Datama detect
 layout: page
-scope: datama/saas/detect
+scope: Datama/saas/detect
 keywords: full app detect settings
 ---
 
 <br>
 
-> **Here is the different settings available in DataMa Detect**
+> **Here is the different settings available in Datama Detect**
 
 <br>
 
@@ -40,7 +40,7 @@ keywords: full app detect settings
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.jpg">
 
-> Find here the details of the main settings DataMa Detect
+> Find here the details of the main settings Datama Detect
 
 <br>
 
@@ -49,7 +49,7 @@ keywords: full app detect settings
 
 ## Analyse All Metrics Relation Steps
 
-DataMa Detect can analyse one step or all the steps of your funnel. When all step are selected, you will be able to see in a dropdown menu every step with an anomaly.
+Datama Detect can analyse one step or all the steps of your funnel. When all step are selected, you will be able to see in a dropdown menu every step with an anomaly.
 
 <br>
 
@@ -70,7 +70,7 @@ In run mode (i.e. when sending alerts on a daily basis for instance), we recomma
 
 ## Detection Method
 
-Detection method defines which algorithm DataMa uses to flag anomalies.
+Detection method defines which algorithm Datama uses to flag anomalies.
 Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 <br>
@@ -143,12 +143,12 @@ Segments are now aggregated at the requested level
 
 ## Comparison
 
-DataMa Pivot can be used with a comparison. To activate this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
+Datama Pivot can be used with a comparison. To activate this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
 
 <br>
 
 ## KPI
 
-In DataMa Detect, you can detect the anomaly of only one KPI or all metric relation.
+In Datama Detect, you can detect the anomaly of only one KPI or all metric relation.
 
-By default, DataMa selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation.
+By default, Datama selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation.

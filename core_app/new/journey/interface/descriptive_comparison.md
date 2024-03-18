@@ -2,7 +2,7 @@
 title: Descriptive Comparison
 description: Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab.
 layout: page
-scope: datama/saas/journey
+scope: Datama/saas/journey
 keywords: full app journey interface descriptive comparison
 ---
 
@@ -39,7 +39,7 @@ Two parameters are used in order to build this graph:
 ## <b>Sunburst</b>
 
 Sunbursts are commonly used to represent sequential data, such as customer journeys.
-You can learn more on sunbursts and how to use them [here](https://datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
+You can learn more on sunbursts and how to use them [here](https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
 
 **Start End Sunbursts:**
 
@@ -64,7 +64,7 @@ This sunburst represents the differences in appearance of the various journeys b
 ## <b>Sunburst difference</b>
 
 
-This view is only available when Compare mode toggle is activated on DataMa Journey
+This view is only available when Compare mode toggle is activated on Datama Journey
 
 **Similarity Sunburst:**
 

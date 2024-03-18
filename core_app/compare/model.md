@@ -1,11 +1,11 @@
 ---
 title: Model
-description: Overall model is split in 3 steps, that are the back bone of DataMa Compare.
+description: Overall model is split in 3 steps, that are the back bone of Datama Compare.
 layout: page
 scope: shiny
 ---
 
-> Overall **model** is split in 3 steps, that are the back bone of DataMa Compare
+> Overall **model** is split in 3 steps, that are the back bone of Datama Compare
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/compare/images/Model-300x266.jpg"/></center>
 

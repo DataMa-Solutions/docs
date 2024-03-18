@@ -1,18 +1,18 @@
 ---
 title: General Introduction
-description: DataMa JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.
+description: Datama JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.
 layout: page
-scope: datama/saas/journey
+scope: Datama/saas/journey
 keywords: full app journey introduction
 ---
 
 <br>
 
-> **DataMa JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.**
+> **Datama JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.**
 
 <br>
 
-DataMa JOURNEY allows you to understand your customer experience, using the data you're already collecting.
+Datama JOURNEY allows you to understand your customer experience, using the data you're already collecting.
 Ultimately, it will allow you to improve your customer experience through data-driven insights.
 More precisely, you will be able to:
 
@@ -23,4 +23,4 @@ More precisely, you will be able to:
 
 <br>
 
- To learn more about sunburst models and how to maximize insights in DataMa JOURNEY, get started with [this article](https://datama.fr/2020/05/12/getting-value-out-of-a-sunburst/) 
+ To learn more about sunburst models and how to maximize insights in Datama JOURNEY, get started with [this article](https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/) 

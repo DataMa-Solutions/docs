@@ -2,7 +2,7 @@
 title: Model - Forecast model
 description: Used with time series to compare realized values against forecasted values.
 layout: page
-scope: datama/saas/assess
+scope: Datama/saas/assess
 keywords: full app assess model forecast
 ---
 
@@ -19,7 +19,7 @@ If the Start period contains too little data, the forecasted values will not be 
 
 
 
-Behind the scenes: DataMa Impact chooses the ETS or STLM model which best fits the Start period data, taking seasonality into account, and then computes predictions for the End period. This allows us to test whether realized (a posteriori) values significantly differ from what could be expected a priori.
+Behind the scenes: Datama Impact chooses the ETS or STLM model which best fits the Start period data, taking seasonality into account, and then computes predictions for the End period. This allows us to test whether realized (a posteriori) values significantly differ from what could be expected a priori.
 
 See also: [wikipedia](https://en.wikipedia.org/wiki/Exponential_smoothing)
 

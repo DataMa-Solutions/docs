@@ -7,14 +7,14 @@ scope: shiny
 
 > This section identify the **type of data** you should load
 
-DataMa  source is basically a flat table.
+Datama  source is basically a flat table.
 
 As in other well known analytics software (e.g. Tableau), we differentiate Metrics and Dimensions. Think Metrics & Dimensions as columns of a spreadsheet.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/input/images/SourceDimensionMetrics.jpg"/></center>
 
 
-DataMa [demo](http://solutions.datama.fr/) has a series of saved versions using different sources that you can **get inspired from looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
+Datama [demo](http://solutions.Datama.fr/) has a series of saved versions using different sources that you can **get inspired from looking at this** [Google Sheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0).
 
 As for example:
 
@@ -27,7 +27,7 @@ Metrics are always **numeric values**. As an input, you need to put only metrics
 
 To decide which metrics you want in your source, everything depends on your use case. However, it’s safe to say that you want at least the metrics that you need to compute the **KPI** you want to explain. Then you would need all the metrics that are required to compute your « market equation ». Please report to [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation.md) section for more details.
 
-For more information, you can also read our [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/) about metric relation.
+For more information, you can also read our [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/) about metric relation.
 
 ## Dimensions
 
@@ -39,6 +39,6 @@ If a dimension is continuous (i.e. numeric) and has more than 6 possible values,
 
 Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
-> **Tip:** DataMa PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+> **Tip:** Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
 
-> **Warning:** DataMa JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
+> **Warning:** Datama JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
