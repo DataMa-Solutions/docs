@@ -49,7 +49,7 @@ app_notif: |
 
 * **Journey:**
     * Reverse sunburst: you can now display the journey flow, but in reverse, from external to the center of the sunburst. This allows to understand what people do before reaching a touch point, instead of after, like you usually do in sunbursts
-    * Display exits: now activated by default, this allows to display the "exit" of journeys on the sunburst, so that you can hover your mouse on it and get the share of volume exiting your journeys for a given path
+    * Display exits: this allows to display the "exit" of journeys on the sunburst, so that you can hover your mouse on it and get the share of volume exiting your journeys for a given path
 
 * **Prep:**
     * Along with the backend uplift, most of the blocks of Datama Prep have been improved, which should result in more stable experience and enhanced capabiliies (e.g. new join options). However, for now, we have disabled the source connection to Gtrends, Facebook and Mail attachments, but these should come back in the next release
