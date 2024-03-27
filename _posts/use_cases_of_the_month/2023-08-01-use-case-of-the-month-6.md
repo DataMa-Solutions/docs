@@ -4,6 +4,9 @@ title:  "💡 Use Case of the Month #6 - Actual vs. Funnel A/B Testing Analysis"
 date:   2023-08-01 12:00:00 +0200
 layout: post
 ucotm_url : https://www.Datama.io/use-case-6-funnel-a-b-testing-analysis/
+img_url: /assets/images/ucotm/UCOTM6.png
+img_width: 1280
+img_height: 720
 ---
 
 
@@ -13,5 +16,3 @@ Generating leads is essential for the growth of most businesses, but it can be c
 * ✅ Validate the significance and confirm the random distribution of their A/B tests
 * 🚀 Enhance their analysis by easily visualizing customer behavior with waterfall and customer journey graphs
 
-
- ![Use Case Month 6]({{site.url}}/{{site.baseurl}}/_posts/use_cases_of_the_month/images/UCOTM6.webp)
