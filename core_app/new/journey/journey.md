@@ -15,8 +15,22 @@ If you're already familiar with Datama Solutions, Datama JOURNEY is a slightly d
 
 This documentation gives you an overview of how it works and how to use it.
 
+<br>
+<ul>
+    <li><strong>Customer Journey Visualization:</strong> Get a view of your customer's navigation, spotlighting critical interactions.</li>
+    <li><strong>Value Attribution:</strong> Assess and allocate value to each touchpoint, giving you insights into high-impact areas.</li>
+    <li><strong>Improvement Prioritization:</strong> Utilize data-driven insights to prioritize enhancements, ensuring resources are directed for maximum effect.</li>
+</ul>
+
+
+<br>
+
 ![journey_homepage]({{site.url}}/{{site.baseurl}}/core_app/new/journey/images/journey_introduction.jpg)
 
-Hope you enjoy it.
+<br>
+
+Hope you enjoy it!
+
+<br>
 
 Please visit Datama generic [website](https://Datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
