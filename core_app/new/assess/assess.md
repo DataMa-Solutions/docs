@@ -17,6 +17,16 @@ A number of alternative statistical tests are proposed. The preferred procedure 
 
 <br>
 
+<ul>
+    <li><strong>Significance Analysis:</strong> Conduct comprehensive analyses to determine the statistical significance of changes in your data.</li>
+    <li><strong>Automated Statistical Test Detection:</strong> Ensure you're always using the right tests with our system's ability to automatically detect the best-fit statistical tests for your data.</li>
+    <li><strong>Time Series Forecasting:</strong> Anticipate future trends and patterns with our advanced temporal analysis features.</li>
+</ul>
+
+
+
+<br>
+
 Here's what you going to find in this chapter:
 - [Introduction]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess_introduction.html)
 - [Interface presentation]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess_interface.html)

@@ -23,7 +23,9 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" /></center>
+<center>
+    <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" width="70%" />
+</center>
 
 This analysis is possible thanks to **2 main types** of data collected from your business:
 
