@@ -15,7 +15,7 @@ description: |
       * You can now access to tips and uses cases from the home page, as well as this release note
       * Data visualization extensions are available in the "Products" section - ask your CSM if you need to get a licence
     * Freemium access: all Datama Solutions are now available for free test, with datasets limited to 2 dimensions, 2 metrics and 1k lines. 
-    *  [Beta 🧪] **Hourly schedule** is now available for Beta testers. This means that you can get notified by Datama on an hourly basis, which unlock use cases such as anomaly detection on KPIs on which you need to act quickly. We recommend to keep 
+    *  [Beta 🧪] **Hourly schedule** is now available for Beta testers. This means that you can get notified by Datama on an hourly basis, which unlock use cases such as anomaly detection on KPIs on which you need to act quickly. We recommend to keep datasets for hourly detection relatively small (<10k lines) while we are in beta phase.  
     * "Reverse palette" toggle is available in the Settings > Workbook Style > Language and colors section. This allow to switch up and downs colors, in case of "negative" KPIs, were an increase is not a good news so should be displayed in red instead of green. (such has cost) 
 
 * **Marketplace extension** (aka "Datama Light")
