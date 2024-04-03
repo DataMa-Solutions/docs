@@ -17,13 +17,14 @@ With Datama PIVOT, you can simplify your analysis by identifying among your many
 * Clustering of continuous dimensions
 * Identification of interdependencies between dimensions
 * Identification of optimal dimensions
+* Decision tree of the most important dimensions
 * And many other features …
 
 Datama PIVOT is a dataset analysis tool that allows you to identify and understand the dimensions that have the greatest impact on the performance indicator you want to track
 
 This documentation gives you an overview of how it works and how to use it.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_interface.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_interface.png"/></center>
 <br>
 <br>
 You will optimize the preparation of your data analysis

@@ -41,7 +41,7 @@ This example is will show you how to specifically analyze Contentsquare data wit
 
 You can add many additional dimensions and steps in your conversion funnel.
 
-## Content – Contentsquare data
+## Contentsquare data
 
 By analyzing the ContentSquare data and evaluating user behavior across different pages, zones, and devices, you can gain valuable insights into user engagement patterns and optimize content placement to improve the user experience. This documentation provides a step-by-step guide to perform the analysis, identify user engagement patterns, and generate insightful reports for content optimization. Remember to regularly update the dataset and monitor user behavior to ensure continuous improvement in user engagement and website performance.
 

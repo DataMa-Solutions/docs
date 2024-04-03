@@ -8,7 +8,7 @@ keywords: full app header menu
 
 > Find out how you can use **the header of the Solution**
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
 
 

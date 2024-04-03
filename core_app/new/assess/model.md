@@ -13,10 +13,11 @@ By default, Datama will select the most appropriate model based on the data you 
 
 However, you can select the test you want within model settings, under Test to Compute input (add link)
 
+<br>
 
 We have two main types of models:
 
-### <b>AB Test tests:</b>
+## <b>AB Test tests:</b>
 
 Those are classic AB test significance calculation:
 
@@ -26,7 +27,9 @@ Those are classic AB test significance calculation:
 
 In case you’re wondering which test is best to use for your AB test, you may want to report to this [article](https://www.linkedin.com/pulse/ab-test-optimisation-earlier-decisions-new-readout-de-b%C3%A9naz%C3%A9/) which compares the accuracy and reliability of each test
 
-### <b>Time Series tests:</b>
+<br>
+
+## <b>Time Series tests:</b>
  
 Those are tests that you want to use when comparing two periods:
 

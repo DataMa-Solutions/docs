@@ -25,7 +25,7 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-![journey_homepage]({{site.url}}/{{site.baseurl}}/core_app/new/journey/images/journey_introduction.jpg)
+![journey_homepage]({{site.url}}/{{site.baseurl}}/core_app/new/journey/images/journey_introduction.png)
 
 <br>
 

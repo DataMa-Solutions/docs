@@ -16,4 +16,4 @@ Access the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff
 
 ## In Datama Compare
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_WebAnalyticsGA.jpg "/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_WebAnalyticsGA.png "/></center>
