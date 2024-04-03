@@ -43,8 +43,8 @@
                   link: /core_app/new/interface/homepage/get_inspired/marketing_campaign.html
                 - name: Marketing continuous #done
                   link: /core_app/new/interface/homepage/get_inspired/marketing_continuous.html
-                - name: Marketing scope
-                  link: /core_app/new/interface/homepage/get_inspired/marketing_scope.html
+#                - name: Marketing scope
+#                  link: /core_app/new/interface/homepage/get_inspired/marketing_scope.html
                 - name: Product AB test #done
                   link: /core_app/new/interface/homepage/get_inspired/product_AB_test.html
                 - name: Content Square
@@ -191,11 +191,10 @@
           link: /core_app/new/detect/detect_interface.html
           subnav:
             - name: Detect subheader
+              link: /core_app/new/detect/detect_header.html
               subnav:
-                - name: Dimension Comparison  #done
-                  link: /core_app/new/interface/subheader/dimension_comparison.html
-                - name: Secondary Comparison  #done
-                  link: /core_app/new/compare/interface/subheader/secondary_comparison.html
+                - name: Anomaly  #done
+                  link: /core_app/new/detect/detect_introduction.html#anomaly
                 - name: Dimension Helper  #done
                   link: /core_app/new/interface/subheader/dimension_helper.html
                 - name: Filters  #done
@@ -229,6 +228,8 @@
                       link: /core_app/new/detect/settings.html#comparison
                     - name: KPI #done
                       link: /core_app/new/detect/settings.html#kpi
+        - name: Detection Method #done
+          link: /core_app/new/detect/detection_method.html
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       subnav:
@@ -283,6 +284,7 @@
           link: /core_app/new/assess/assess_interface.html
           subnav:
             - name: Assess subheader
+              link: /core_app/new/assess/assess_header.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html

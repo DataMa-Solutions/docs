@@ -6,13 +6,16 @@ scope: Datama/saas/assess
 keywords: full app assess interface
 ---
 
+<br>
+
 > **Datama Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points**
 
 <br>
 
-> Datama Assess dashboard is made of two slides: 
+Datama Assess dashboard is made of two slides: 
 
-Overall Significance and Significance by Sub Segment
+* Overall Significance
+* and Significance by Sub Segment
 
 <br>
 
