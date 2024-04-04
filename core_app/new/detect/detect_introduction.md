@@ -17,8 +17,9 @@ Datama DETECT is a data analysis tool that allows you to not only to detect pote
 
 You can use Datama DETECT to monitor your dataset and set up automatic monitoring of your main KPIs. If your dataset is big enough, Datama DETECT will show you potential outliers as well as give you the opportunity to further investigate your data. 
 
+<br>
 
-**Interface of Datama DETECT** 
+## **Interface of Datama DETECT** 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/Example_AnomalyDetection.gif"/></center>
 
@@ -31,7 +32,24 @@ By default, the most relevant outlier is selected, but you can also choose any p
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_anomalyExplanation.jpg"/></center>
 
+<br>
 
-**Dataset needed for Datama DETECT** 
+## **Dataset needed for Datama DETECT** 
 
 <i>Datama Detect</i> needs at least 30 days in a the [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) to be able to evaluate a normality. Otherwise the dataset needs to have Dimensions and Metrics as for all solutions in Datama. A dataset used in <i>Datama Detect</i> could be used in the other solution as well. 
+
+<br>
+
+## **Anomaly**
+
+In Detect, the dimension should be selected for assessing normality within your data. This dimension can be a date, category, or any other relevant data point.
+
+**Note**: The chosen dimension should have at least 30 elements to ensure statistical significance and reliability in the analysis.
+
+**Baseline Establishment**: Our system analyzes the volatility of the selected dimension by establishing a baseline. This baseline consists of 'X' number of previous data points.
+
+**Weighted Standard Deviation and Average:** Using this baseline, the system calculates the weighted standard deviation and average for the specified KPI. This process involves giving different weights to the data points, typically placing more importance on recent data.
+
+**Confidence Interval Calculation:** The system then uses these calculations to establish a confidence interval. This interval is based on the rules of normal distribution. It helps in identifying values that deviate significantly from what's expected or normal, flagging them as anomalies.
+
+<br>

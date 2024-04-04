@@ -4,7 +4,7 @@ description: is page details the **« Contentsquare»**  example in our demo sol
 layout: page
 scope: shiny
 ---
-# Content – Contentsquare data
+# Contentsquare data
 
 > This page details the **« Contentsquare»**  example in our demo solution.
 

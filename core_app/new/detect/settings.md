@@ -38,7 +38,7 @@ keywords: full app detect settings
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.jpg">
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_settings.png">
 
 > Find here the details of the main settings Datama Detect
 

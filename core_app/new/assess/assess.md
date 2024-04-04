@@ -35,5 +35,5 @@ Here's what you going to find in this chapter:
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_interface.jpg" alt="assess interface" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_interface.png" alt="assess interface" /></center>
 

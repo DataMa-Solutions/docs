@@ -39,7 +39,7 @@ In the “Get inspired” section you will find examples of workbooks in multipl
 
 Here is the Homepage of Datama with all the workbooks saved by you or your team
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.png"/></center>
 
 Click "Add new workbook" to access Datama Prep and connect (or load) your data.
 
@@ -47,7 +47,7 @@ Click "Add new workbook" to access Datama Prep and connect (or load) your data.
 
 # <b>Step 3:</b> Add your source to Datama Prep
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.png"/></center>
 
 <br>
 
@@ -69,7 +69,7 @@ In the Datama output block:
 
 <br>
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.png"/></center>
 
 If your dataset is properly split between dimensions and metrics, and the metrics relations makes sense, you can select a Datama solution.
 

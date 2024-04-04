@@ -25,6 +25,7 @@ You have basically two type of methods existing in Datama detect to spot anomali
 The default value and more generic approach is the [Observed volatilty](#Observed-volatility). 
 However, depending on your  use case, you may want to change that input
 
+<br>
 
 # 1. Methods based on confidence interval
 
@@ -34,6 +35,8 @@ This assumes the definition of a [confidence interval]({{site.url}}/{{site.baseu
 We will use the following dataset for example on those methods
 
 <center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=33769454&amp;single=true&amp;widget=true&amp;headers=false" width="720" height="270"></iframe></center>
+
+<br>
 
 ## Forecast
 
@@ -47,6 +50,8 @@ In the output slide, the forecast line is displayed in orange, and the confidenc
 
 > Note that Forecast method is available only when analysing [latest point only]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#analyse-latest-point-only)
 
+<br>
+
 ## Observed volatility
 
 The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#number-of-points-for-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
@@ -57,6 +62,7 @@ The confidence interval is in light blue. Points outside the confidence interval
 
 In the above screenshot, note that the number of points in baseline is set to 20, which is obvious for instance when looking as the spike of the 9th of June impact makes the confidence interval narrow down starting on the 29th of June, i.e. 20 days later. 
 
+<br>
 
 # 2. Methods based on manually configured thresholds
 
@@ -65,6 +71,8 @@ Methods based on manually configured thresholds take into account a
 We will use the following dataset for example on those methods
 
 <center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=33769454&amp;single=true&amp;widget=true&amp;headers=false" width="720" height="270"></iframe></center>
+
+<br>
 
 ## Relative variation threshold
 
@@ -79,6 +87,8 @@ For instance, in the screenshot below, we compare each point to the previous sam
 <br>
 > Also note that you might want to use more than one point in your base line, to smooth the expected value
 
+<br>
+
 ## Absolute variation threshold
 
 This methods flags as anomaly any absolute variation that is higher or lower than the defined threshold by difference vs. the defined base line.
@@ -89,6 +99,8 @@ For instance, in the screenshot below, we compare each point to the previous sam
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_absolute_var_output.png"/></center>
 
 > Note that the flagged outliers are not the same as in the previous relative method, which comes from the fact that there is a weekly seasonlity in the data and low values (typically weekends) have less chance to get flagged since the threshold is absolute
+
+<br>
 
 ## Absolute value threshold
 
