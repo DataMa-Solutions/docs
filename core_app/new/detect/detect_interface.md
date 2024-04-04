@@ -22,7 +22,7 @@ keywords: full app detect interface
 
 Datama DETECT is composed of two different pages. One which shows the variation overtime and one which represents the detail on a specific anomaly. 
 
-> ### 1st Slide ###
+## 1st Slide
 
 This slide represents a time series with all the anomalies (settings by default) or only a check on the latest available point in your dataset. Change this settings in the Subheader (<i>Analyse Latest Point Only</i>)
 
@@ -33,7 +33,7 @@ Change the ratio your are analysing by using the dropdown in the title. Within t
 By default Datama Detect is set to analyse each steps of your market equation but you can change it to only a specific step. (in <i>Settings</i>)
 
 
-> ### 2nd Slide ###
+## 2nd Slide
 
 The 2nd slide is the explanation of a selected point in the graph above. 
 The bars represents the denominator and the line represents the ratio of your KPI.

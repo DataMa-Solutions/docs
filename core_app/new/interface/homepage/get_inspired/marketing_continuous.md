@@ -22,9 +22,9 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <br>
 
-## In Datama Comapare 
+## In Datama Compare 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous.jpg "/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous.png "/></center>
 
 We can look at this dimension in further detail
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingContinuous-moves.jpg "/></center>
