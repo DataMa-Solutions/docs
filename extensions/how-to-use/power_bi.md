@@ -73,7 +73,7 @@ Follow one or the other steps to install the Datama plugin:
 <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
 <br/>
 
-## 4. Get a free trial period
+## 3. Get a free trial period
 
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
@@ -85,7 +85,7 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan.html
 
 <br>
 
-## 5. Getting Started
+## 4. Getting Started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -110,7 +110,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 6. Read Your Analysis
+## 5. Read Your Analysis
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.

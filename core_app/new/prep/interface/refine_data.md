@@ -167,6 +167,56 @@ For example, this unpivot configuration creates two columns {Sessions.female and
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivoted_column.png"/></center>
 
 
+> ### What if ###
+
+**What if allows to create scenarios with simulated data based on simple assumptions**
+
+"What if" block allows to create scenarios on your existing data, taking assumptions on variations of KPIs on a given scope. This is particularly useful for Compare usage, when trying to get an idea of an the impact of a simulated change on a total KPI.
+
+> Note that the simulated impact on total KPI is purely linear and doesn't take into account the potential elasticity petween KPIs. For instance, doubling your price in "What if" block will likely double your revenues, while it's obviously not the case in reality. So What if scenario should be kept for high level sizing or small changes. 
+
+For the following documentation, we will take an example of an ecommerce website that has 3 steps in its market equation: 
+Purchase = Session x Checkout/ Session x Purchase/ Checkout
+The team wants to understand what would be the impact of increasing the Checkout/ Session average of Mobile users by +1pt on the total volume of purchases, based on Last Year data. 
+The initial dataset is as follows:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_init.png"/></center>
+
+What if scenarios are made of 2 main parts
+- The Baseline
+- The impacted KPI(s)
+
+#### Baseline
+
+Define the baseline of your simulation, i.e. the part of your dataset that will be used as starting point. 
+
+In our example, since the simulation is based on "Last Year" data, the baseline will be defined as follows: 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_baseline.png"/></center>
+
+#### Impacted KPI(s)
+
+Define the KPIs (within the metric relation) on which your taking assumptions in your simulation, on which scope, and the actual impact you want to size (absolute or relative)
+
+In our example, we want the Checkout/ Session to increase by +1pt (+0.01) on Mobile, so it's an absolute change of +0.01
+Note that we want the total average of Mobile users to increase by +1pt and not for each line of your dataset, so we keep the "aggregation level computation" activated
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_KPIsim.png"/></center>
+
+#### Results
+
+Once applied your changes, Datama Prep will automatically create a new column "Scenario" with 3 values: your baseline, the scenario itself, and other data "out of scope" that was not in the baseline
+
+In our example, this results in the following dataset
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_resultdata.png"/></center>
+
+You will likely visualize your scenarios in Datama Compare, to size the impact of your simulations. 
+Our example gives the following waterfall:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_result.png"/></center>
+
+
 Congrats! Your dataset is ready to be uploaded in Datama's solution!
 
 To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)

@@ -122,7 +122,8 @@ Segment text complement allows to decide on what to display behind Segment name 
 As a reminder, a segment is a attribute within a dimension of your dataset.
 Options for this input are:
 - Variation relative to average (e.g. “x2.43”) - this is the default value and allows to spot easily "abnormal" variations way above average (i.e. above 1)
-- Percentage Variation (e.g. “-46%”)
+- Percentage Variation (e.g. “-46%”) - this is the % difference between start and end values
+- Variation absolute change (e.g. "-3pts") - this is the absolute difference between start and end values, displayed in the unit of the considered KPI
 - Nothing
 
 <br>
