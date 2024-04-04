@@ -34,7 +34,7 @@ Learn more on this by reading details on:
 
 <br>
 
-<center><img style="width:60%" src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_blockOutput.jpg"/></center>
+<center><img style="width:60%" src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_blockOutput.png"/></center>
 
 
 

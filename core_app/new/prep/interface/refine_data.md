@@ -17,11 +17,11 @@ Here is the available actions you can do so far in Datama Prep to refine your da
 - [Append](#append)
 - [Filter](#filter)
 - [Pivot & Unpivot](#pivot--unpivot)
-- [Unpivot](#unpivot)
+- [What if](#what-if)
 
 <br>
 
-> ### Clean ###
+> ## <b>Clean</b>
 
 **Clean action allows you to edit order and types of your columns.**
 
@@ -69,7 +69,7 @@ Once you're done make sure to click on the "Ok" button to validate the creation 
 
 <br>
 
-> ### Append ###
+> ## <b>Append</b>
 
 **Append action allow you to merge two source flow in one.**
 
@@ -100,9 +100,7 @@ This is not a JOIN, it acts like puting one dataset below the other.
 
 <br>
 
-
-> ### Filter ###
-
+> ## <b>Filter</b>
 
 **Filter action allow you to filter data in columns.**
 
@@ -140,8 +138,7 @@ It has the effect of not offering the unique values in the filter value selector
 
 <br>
 
-
-> ### Pivot & Unpivot ###
+> ## <b>Pivot & Unpivot</b>
 
 **You might want to pivot and unpivot your dataset in Datama PREP.**
 
@@ -160,20 +157,22 @@ A **pivot table** is a table of grouped values that aggregates the individual it
 
 We have a column gender containing only two unique values, {males, females}.
 We want to split sessions according to those values. To do so, we will unpivot the column gender using sessions as an aggregates column.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivot.png" style="width:500px;"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivot.png" style="width:15%;"/></center>
 
 
 For example, this unpivot configuration creates two columns {Sessions.female and Sessions.males} containing the same values but in two distinct columns.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivoted_column.png"/></center>
 
 
-> ### What if ###
+> ## <b>What if</b>
 
 **What if allows to create scenarios with simulated data based on simple assumptions**
 
 "What if" block allows to create scenarios on your existing data, taking assumptions on variations of KPIs on a given scope. This is particularly useful for Compare usage, when trying to get an idea of an the impact of a simulated change on a total KPI.
 
-> Note that the simulated impact on total KPI is purely linear and doesn't take into account the potential elasticity petween KPIs. For instance, doubling your price in "What if" block will likely double your revenues, while it's obviously not the case in reality. So What if scenario should be kept for high level sizing or small changes. 
+> Important: Note that the simulated impact on total KPI is purely linear and doesn't take into account the potential elasticity between KPIs. For instance, doubling your price in "What if" block will likely double your revenues, while it's obviously not the case in reality. So What if scenario should be kept for high level sizing or small changes. 
+
+<br>
 
 For the following documentation, we will take an example of an ecommerce website that has 3 steps in its market equation: 
 Purchase = Session x Checkout/ Session x Purchase/ Checkout
@@ -185,6 +184,8 @@ The initial dataset is as follows:
 What if scenarios are made of 2 main parts
 - The Baseline
 - The impacted KPI(s)
+
+<br>
 
 #### Baseline
 
