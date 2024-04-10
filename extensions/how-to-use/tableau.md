@@ -49,7 +49,7 @@ Follow these steps to add Datama in your report :
 1. On Tableau Desktop, create a source worksheet [See getting started to know how](#5-getting-started)
 2. Create a new dashboard page, and add the source worksheet to the dashboard
 3. Add an extension object to that same dashboard
-4. Use the .trex file provided by Datama, or [download it here](https://app.datama.io/tableau/light/compare/datama_light.trex)
+4. Use the .trex file provided by Datama, or <a id="download-tableau-light-extension" href="#" target="_blank"> download it here</a>
 
 <br>
 
