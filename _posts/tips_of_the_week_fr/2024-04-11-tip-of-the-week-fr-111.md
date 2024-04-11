@@ -12,7 +12,7 @@ layout: post
 
 Une nouvelle page est à votre disposition sur la Home de Datama 😀  
 
-En allant dans "My Account" puis "Products" dans le menu de gauche, vous arriverez sur la page avec toutes les intégrations dans les outils de data visualisations que sont Tableau, Power BI et Looker Studio  
+En allant dans "My Account" puis "Products" dans le menu de gauche, vous arriverez sur la page avec toutes les intégrations dans les outils de data visualisations que sont Tableau, Power BI et Looker Studio 📊  
 
 Vous pourrez y retrouvez les informations suivantes:
   * vos clés de licence 🗝️, qui sont copiables en un clic
