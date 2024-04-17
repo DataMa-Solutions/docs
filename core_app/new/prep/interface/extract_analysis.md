@@ -16,7 +16,7 @@ By using the menu “export result” you can schedule an export directly to a m
 
 Here's what it's going like to be in Datama Prep: 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_export.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_export.png"/></center>
 
 but you can also access the export menu within each solution.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportToggle.jpg"/></center>
@@ -85,7 +85,7 @@ Your graph wil be updated according to your data. As soon as you load the URL th
 
 ## <b>Teams</b>
 
-This connector is under development and will be available soon. (coming in March 2023)
+This connector is under development and will be available soon. (coming in June 2024)
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
 

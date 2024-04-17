@@ -6,7 +6,7 @@ layout: post
 ---
 
 * **Extensions:**
-    * Power BI extension is now officially listed on [Microsoft AppSource store](https://appsource.microsoft.com/en-us/product/power-bi-visuals/Datama1591255760056.Datama-compare?tab=Overview) - check it out and refer a friend to benefit from the Datama sponsorship offer!
+    * Power BI extension is now officially listed on [Microsoft AppSource store](https://appsource.microsoft.com/en-us/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) - check it out and refer a friend to benefit from the Datama sponsorship offer!
     * Looker Studio now offers a "manual calculation" input: when activated, this allows to pause updates and avoid mutliple calculation trigerring while editing the extension or activating multiple filters. 
 
 * **General:**
