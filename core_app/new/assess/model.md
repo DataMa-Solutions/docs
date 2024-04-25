@@ -1,22 +1,23 @@
 ---
-title: DataMa Assess - Our Models
-description: Statistical models used by DataMa to assess the significance are based on common models for a data scientist. 
+title: Datama Assess - Our Models
+description: Statistical models used by Datama to assess the significance are based on common models for a data scientist. 
 layout: page
-scope: datama/saas/assess
+scope: Datama/saas/assess
 keywords: full app assess model concept
 ---
 
 
-> Statistical models used by DataMa to assess the significance are based on common models for a data scientist. 
+> Statistical models used by Datama to assess the significance are based on common models for a data scientist. 
 
-By default, DataMa will select the most appropriate model based on the data you are comparing. It will likely be a Welch t test if you are comparing two discrete segments, and a forecasting approach if you are comparing two -long enough- periods.
+By default, Datama will select the most appropriate model based on the data you are comparing. It will likely be a Welch t test if you are comparing two discrete segments, and a forecasting approach if you are comparing two -long enough- periods.
 
 However, you can select the test you want within model settings, under Test to Compute input (add link)
 
+<br>
 
 We have two main types of models:
 
-### <b>AB Test tests:</b>
+## <b>AB Test tests:</b>
 
 Those are classic AB test significance calculation:
 
@@ -26,7 +27,9 @@ Those are classic AB test significance calculation:
 
 In case you’re wondering which test is best to use for your AB test, you may want to report to this [article](https://www.linkedin.com/pulse/ab-test-optimisation-earlier-decisions-new-readout-de-b%C3%A9naz%C3%A9/) which compares the accuracy and reliability of each test
 
-### <b>Time Series tests:</b>
+<br>
+
+## <b>Time Series tests:</b>
  
 Those are tests that you want to use when comparing two periods:
 

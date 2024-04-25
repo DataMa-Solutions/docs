@@ -2,7 +2,7 @@
 title: Helpers
 description: Find here how you can use the Dimension helper overview
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app subheader sub header settings helpers ratio start end dimension
 ---
 

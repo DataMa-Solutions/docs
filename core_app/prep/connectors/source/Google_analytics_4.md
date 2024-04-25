@@ -1,11 +1,11 @@
 ---
 title: Google Analytics 4
-description: DataMa Prep includes a GA4 connector.
+description: Datama Prep includes a GA4 connector.
 layout: page
 scope: shiny
 ---
 
-> **You can upload your Google Analytics 4 datasets in DataMa PREP.**
+> **You can upload your Google Analytics 4 datasets in Datama PREP.**
 
 <br>
 

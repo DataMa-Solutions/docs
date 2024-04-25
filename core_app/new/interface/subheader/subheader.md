@@ -1,8 +1,8 @@
 ---
 title: Subheader
-description: Find here how you can use the subheader of the DataMa Solutions
+description: Find here how you can use the subheader of the Datama Solutions
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app subheader sub header
 ---
 
@@ -12,7 +12,7 @@ keywords: full app subheader sub header
 
 <br>
 
-For all DataMa Solution tools (Prep, Compare, Assess and Pivot), a contextual subheader gives you access to several options for managing your work. In this part, we give a brief overview of these common option menus : Comparison, filters, KPIs, Settings,...
+For all Datama Solution tools (Prep, Compare, Assess and Pivot), a contextual subheader gives you access to several options for managing your work. In this part, we give a brief overview of these common option menus : Comparison, filters, KPIs, Settings,...
 
 <br>
 

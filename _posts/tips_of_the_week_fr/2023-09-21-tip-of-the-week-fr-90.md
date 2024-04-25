@@ -10,5 +10,5 @@ layout: post
 ---
 
 
-Dans DataMa Pivot, lorsque vous êtes sur le graphique "Importance Chart", vous pouvez chercher à savoir quelles sont les possibilités d'optimisation d'un KPI 🤔
-C'est maintenant possible en cliquant avec le bouton droit de la souris sur une des bulles du graphique en sélectionnant "Compare this", vous pouvez facilement basculer vers DataMa Compare pour expliquer la sur-/sous-performance d'un segment donné par rapport aux autres 🤩
+Dans Datama Pivot, lorsque vous êtes sur le graphique "Importance Chart", vous pouvez chercher à savoir quelles sont les possibilités d'optimisation d'un KPI 🤔
+C'est maintenant possible en cliquant avec le bouton droit de la souris sur une des bulles du graphique en sélectionnant "Compare this", vous pouvez facilement basculer vers Datama Compare pour expliquer la sur-/sous-performance d'un segment donné par rapport aux autres 🤩

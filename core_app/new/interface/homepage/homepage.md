@@ -2,11 +2,11 @@
 title: Homepage
 description: See in this chapter details how to use the homepage of your account
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app home homepage
 ---
 
-> In this chapter, see details on how to use the **Homepage**  of the DataMa solution
+> In this chapter, see details on how to use the **Homepage**  of the Datama solution
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/homepage.png"/></center>

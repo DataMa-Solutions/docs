@@ -1,15 +1,15 @@
 ---
 title: DataIku extension
-description: DataMa can be run as a DataIku plugin
+description: Datama can be run as a DataIku plugin
 layout: page
 scope: shiny
 ---
 
-> DataMa can be run as a DataIku plugin (see https://www.dataiku.com/product/plugins/)
+> Datama can be run as a DataIku plugin (see https://www.dataiku.com/product/plugins/)
 
 Both the Shiny Web app and R library can work in a DSS dataflow.
 
-Ask DataMa (contact@datama.fr) for a demo on DataIku and get a licence key
+Ask Datama (contact@Datama.fr) for a demo on DataIku and get a licence key
 
 Below images give you a good idea of what to expect, either in a dataflow, as a Shiny web app, or within DSS insights
 

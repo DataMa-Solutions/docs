@@ -11,21 +11,22 @@
   ~ is strictly forbidden unless prior written permission is obtained
   ~ from DataMa SAS.
   ~ Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
-  ~ Copyright (c) 2023 DATAMA SAS, All rights reserved.
+  ~ Copyright (c) 2024 DATAMA SAS, All rights reserved.
   ~ Generated for file : default.html project project-deep-sky
   -->
 
 <!doctype html>
 <html lang="en">
 <head>
-    <title>DataMa documentation - {{ page.title }}</title>
-    <link rel="icon" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon.ico" />
+    <title>Datama documentation - {{ page.title }}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-16x16.png" />
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="DataMa documentation - {{ page.description }}"/>
-    <meta name="og:title" content="DataMa documentation - {{ page.title }}">
+    <meta name="description" content="Datama documentation - {{ page.description }}"/>
+    <meta name="og:title" content="Datama documentation - {{ page.title }}">
     <meta name="og:type" content="website">
     <meta name="google-site-verification" content="TUNtfUemY95_1kk74l6s9zMJE_bHp3SxLHcbu5eiow0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,7 +39,7 @@
 <div class="welcome">
     {% include header.html %}
     <div>
-        <p><img src="{{site.url}}/{{site.baseurl}}/assets/images/aside/Datama_logo_horizontal2.png" data-origin="images/Datama_logo_horizontal2.png" alt="logo2"></p>
+        <p><img src="{{site.url}}/{{site.baseurl}}/assets/images/aside/Logo_NewDatama.svg" data-origin="images/Datama_logo_horizontal2.png" alt="logo2"></p>
         <h1> Smart analytics. Documented </h1>
         <a id="gotoDoc" href="#menu" class="btn btn-primary">Get Started</a>
     </div>
@@ -54,14 +55,14 @@
 <script>
     let groups = {
         'shiny': 'old-ui full-app',
-        'datama/saas': 'full-app',
-        'datama/saas/compare': 'compare full-app',
-        'datama/saas/assess': 'Assess full-app',
-        'datama/saas/detect': 'Detect full-app',
-        'datama/saas/pivot': 'Pivot full-app',
-        'datama/saas/journey': 'Journey full-app',
-        'datama/light': 'light-app',
-        'datama/light/compare': 'compare light-app'
+        'Datama/saas': 'full-app',
+        'Datama/saas/compare': 'compare full-app',
+        'Datama/saas/assess': 'Assess full-app',
+        'Datama/saas/detect': 'Detect full-app',
+        'Datama/saas/pivot': 'Pivot full-app',
+        'Datama/saas/journey': 'Journey full-app',
+        'Datama/light': 'light-app',
+        'Datama/light/compare': 'compare light-app'
     }
     search.listen('search-input-aside', {
         fields: {

@@ -2,7 +2,7 @@
 title: Prep - Export Analysis
 description: This section helps you automatise the export of your analysis
 layout: page
-scope: datama/saas/prep
+scope: Datama/saas/prep
 keywords: full app prep report export schedule extract analysis
 ---
 <br>
@@ -11,12 +11,12 @@ keywords: full app prep report export schedule extract analysis
 
 <br>
 
-You don’t have time to open the DataMa interface … receive your analyses directly in your mailbox or on a Slack channel
+You don’t have time to open the Datama interface … receive your analyses directly in your mailbox or on a Slack channel
 By using the menu “export result” you can schedule an export directly to a mailbox at the frequency you want.
 
-Here's what it's going like to be in DataMa Prep: 
+Here's what it's going like to be in Datama Prep: 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_export.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_export.png"/></center>
 
 but you can also access the export menu within each solution.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportToggle.jpg"/></center>
@@ -64,11 +64,11 @@ Here are the available connectors to extract your analysis:
 
 ## <b>Static URL</b>
 
-This extraction allows to create URL accessible to every user without login to DataMa.
+This extraction allows to create URL accessible to every user without login to Datama.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/export_URLCreateNew.jpg"/></center>
 
-Activate <i>Public URL</i> to make the URL accessible to user without login to the DataMa account, when deactivated user will need to be logged-in. 
+Activate <i>Public URL</i> to make the URL accessible to user without login to the Datama account, when deactivated user will need to be logged-in. 
 
 - Arrange your extraction depending on your needs : 
     - **Slides**: Each slide is coming with title + graph + comment (except alert wich is just a message). <i>Bridge</i> is representing the detail on the step with the main variation.
@@ -85,7 +85,7 @@ Your graph wil be updated according to your data. As soon as you load the URL th
 
 ## <b>Teams</b>
 
-This connector is under development and will be available soon. (coming in March 2023)
+This connector is under development and will be available soon. (coming in June 2024)
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
 

@@ -10,5 +10,5 @@ layout: post
 ---
 
 
-In DataMa Pivot, when you are on the "Importance Chart" graph, you can look to see what opportunities there are for optimising a KPI 🤔
-This is now possible by right-clicking on one of the bubbles in the graph and selecting "Compare this", you can easily switch to DataMa Compare to explain the over-/under-performance of a given segment compared to others 🤩
+In Datama Pivot, when you are on the "Importance Chart" graph, you can look to see what opportunities there are for optimising a KPI 🤔
+This is now possible by right-clicking on one of the bubbles in the graph and selecting "Compare this", you can easily switch to Datama Compare to explain the over-/under-performance of a given segment compared to others 🤩

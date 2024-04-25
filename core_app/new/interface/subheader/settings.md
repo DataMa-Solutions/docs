@@ -2,7 +2,7 @@
 title: Settings
 description: Find here how to use the **Settings**
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app subheader sub header settings
 ---
 
@@ -24,5 +24,5 @@ The settings is detailed separately for each solution :
 <br>
 
 > **User Preferences**
-In order to customize your analysis to your needs, DataMa allows you to save user preferences at Use Case level or at your profile level.
+In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level.

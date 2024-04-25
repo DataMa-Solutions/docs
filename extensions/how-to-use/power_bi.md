@@ -1,11 +1,11 @@
 ---
 title: Datama Compare on Power BI
 layout: page
-scope: datama/light/compare
+scope: Datama/light/compare
 keywords: Power BI get started powerbi
 ---
 
-> Using DataMa Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both DataMa and Power BI.
+> Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 
 <br/>
 
@@ -29,7 +29,7 @@ Here is what you get on this page:
 <br/>
 
 ## 1. Overview
-This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://appsource.microsoft.com/fr-fr/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 Watch this video to properly understand our extension and how to use it.
 
@@ -73,7 +73,7 @@ Follow one or the other steps to install the Datama plugin:
 <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
 <br/>
 
-## 4. Get a free trial period
+## 3. Get a free trial period
 
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
@@ -85,7 +85,7 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan.html
 
 <br>
 
-## 5. Getting Started
+## 4. Getting Started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -96,7 +96,7 @@ Once you've imported the extension, here is how you can use it.
 2. **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
     - by default, Datama will select the first two elements of your dimension, or split a date range in two.
 3. **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
-    - To better defined your steps (or metric equation), you can read our dedicated [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+    - To better defined your steps (or metric equation), you can read our dedicated [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
 4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 
@@ -110,7 +110,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 6. Read Your Analysis
+## 5. Read Your Analysis
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
@@ -121,21 +121,21 @@ Once you've imported the extension, here is how you can use it.
 
 ## 7. Settings - Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare//settings/settings.html) to get the full view of the extension Settings. 
 
 
 <br/>
 
 ## 8. Get more insights
 
-Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/introduction.html)
 
 <br/>
 
 ## 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
-- 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@datama.fr) for any inquiries or support issues.
-- 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.datama.io/lets-talk/), and we'll get back to you promptly.
+- 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
+- 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>
 

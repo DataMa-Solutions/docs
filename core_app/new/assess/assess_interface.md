@@ -1,18 +1,21 @@
 ---
 title: Assess - General Interface
-description: DataMa Assess aims at evaluating the difference of a KPI between two populations of interest.
+description: Datama Assess aims at evaluating the difference of a KPI between two populations of interest.
 layout: page
-scope: datama/saas/assess
+scope: Datama/saas/assess
 keywords: full app assess interface
 ---
 
-> **DataMa Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points**
+<br>
+
+> **Datama Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points**
 
 <br>
 
-> DataMa Assess dashboard is made of two slides: 
+Datama Assess dashboard is made of two slides: 
 
-Overall Significance and Significance by Sub Segment
+* Overall Significance
+* and Significance by Sub Segment
 
 <br>
 
@@ -24,7 +27,7 @@ This is where you can see the output of the statistical analysis :
 - a comment explaining the outcome in plain language.
 
 Please refer to each [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) documentation to better understand how to read it. 
-By default, DataMa will select the model that best fits the type of data you’ve connected, but you can force it to a certain test using the <i>test to compute</i> (add link) parameter
+By default, Datama will select the model that best fits the type of data you’ve connected, but you can force it to a certain test using the <i>test to compute</i> (add link) parameter
 
 <br>
 

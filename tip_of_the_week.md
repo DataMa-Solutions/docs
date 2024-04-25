@@ -3,9 +3,9 @@ title: Tips of the week !
 layout: feed
 feed_name: totw_en
 description: |
-  Tips & Tricks on how to take the most out of DataMa
+  Tips & Tricks on how to take the most out of Datama
 ---
-> Every week, DataMa publishes a tip or a trick on how to best take advantage of the software
+> Every week, Datama publishes a tip or a trick on how to best take advantage of the software
 
 {% for post in site.posts %}
 {% if post.feed == "totw_en" %} 

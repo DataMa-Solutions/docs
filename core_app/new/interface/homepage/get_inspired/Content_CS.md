@@ -1,8 +1,8 @@
 ---
 title: Content Square data
-description: This example is will show you how to specifically analyze Contentsquare data within DataMa Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
+description: This example is will show you how to specifically analyze Contentsquare data within Datama Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
@@ -35,13 +35,13 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 <br>
 
-## In DataMa Compare
+## In Datama Compare
 
-This example is will show you how to specifically analyze Contentsquare data within DataMa Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
+This example is will show you how to specifically analyze Contentsquare data within Datama Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 
 You can add many additional dimensions and steps in your conversion funnel.
 
-## Content – Contentsquare data
+## Contentsquare data
 
 By analyzing the ContentSquare data and evaluating user behavior across different pages, zones, and devices, you can gain valuable insights into user engagement patterns and optimize content placement to improve the user experience. This documentation provides a step-by-step guide to perform the analysis, identify user engagement patterns, and generate insightful reports for content optimization. Remember to regularly update the dataset and monitor user behavior to ensure continuous improvement in user engagement and website performance.
 

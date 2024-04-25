@@ -1,4 +1,4 @@
-# Welcome on Jekyll DataMa Documentation
+# Welcome on Jekyll Datama Documentation
 
 # Requirements on local to start server
 - Ruby

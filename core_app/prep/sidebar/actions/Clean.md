@@ -9,7 +9,7 @@ scope: shiny
 
 ### Why ?
 
-Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of DataMA's solutions.
+Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of Datama's solutions.
 
 
 ### How to use it ?
@@ -32,7 +32,7 @@ When you click on the Clean action block, you'll be able to see the configuratio
 You'll also be able to edit a column type by using the select contain on items. If the conversion is not possible, for example converting a product name such as "hair dryer" to a date type, the clean action will show a warning.
 ![image](images/clean_types.png)
 
-In addition, DataMa prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
+In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
 
 ![image](images/create_calculated_field.png)
 

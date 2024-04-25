@@ -11,7 +11,7 @@
   ~ is strictly forbidden unless prior written permission is obtained
   ~ from DataMa SAS.
   ~ Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
-  ~ Copyright (c) 2023 DATAMA SAS, All rights reserved.
+  ~ Copyright (c) 2024 DATAMA SAS, All rights reserved.
   ~ Generated for file : feed.html project project-deep-sky
   -->
 
@@ -20,14 +20,15 @@
 <head>
     {% assign lastPost = site.posts | where_exp: "item", "item.feed == page.feed_name" | first %}
     <meta charset="utf-8">
-    <title>DataMa documentation - {{ page.title }}</title>
-    <link rel="icon" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon.ico"/>
+    <title>Datama documentation - {{ page.title }}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-16x16.png" />
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="DataMa documentation - Tips & Tricks on how to take the most out of DataMa"/>
-    <meta name="og:title" content="DataMa documentation - {{ lastPost.title }}">
+    <meta name="description" content="Datama documentation - Tips & Tricks on how to take the most out of Datama"/>
+    <meta name="og:title" content="Datama documentation - {{ lastPost.title }}">
     <meta name="og:type" content="website">
     {% if lastPost.img_url != null %}
     <meta name="og:image" content="{{site.url}}/{{site.baseurl}}{{ lastPost.img_url }}">
@@ -59,14 +60,14 @@
 <script>
     let groups = {
         'shiny': 'old-ui full-app',
-        'datama/saas': 'full-app',
-        'datama/saas/compare': 'compare full-app',
-        'datama/saas/assess': 'Assess full-app',
-        'datama/saas/detect': 'Detect full-app',
-        'datama/saas/pivot': 'Pivot full-app',
-        'datama/saas/journey': 'Journey full-app',
-        'datama/light': 'light-app',
-        'datama/light/compare': 'compare light-app'
+        'Datama/saas': 'full-app',
+        'Datama/saas/compare': 'compare full-app',
+        'Datama/saas/assess': 'Assess full-app',
+        'Datama/saas/detect': 'Detect full-app',
+        'Datama/saas/pivot': 'Pivot full-app',
+        'Datama/saas/journey': 'Journey full-app',
+        'Datama/light': 'light-app',
+        'Datama/light/compare': 'compare light-app'
     }
     search.listen('search-input-aside', {
         fields: {

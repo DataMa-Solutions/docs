@@ -12,7 +12,7 @@ The secondary waterfall is defined by turning Compare of Compare on (in settings
 
 
 
-In the backstage, DataMa will then run the same analysis for the 2 definitions of start and end, and then display the results of the secondary analysis in the background. Main output is :
+In the backstage, Datama will then run the same analysis for the 2 definitions of start and end, and then display the results of the secondary analysis in the background. Main output is :
 
 * In the Waterfall « Chart », the secondary waterfall is displayed in the background
 * In the Executive summary, the trend between secondary and primary analysis will be worded
@@ -23,7 +23,7 @@ Compare of Compare mode is particularly useful when you run regularly the same a
 
 We can take the example of this [dataset](https://docs.google.com/spreadsheets/d/1srtMlrShuK28z-ryDbn8dzpuaGJs_cXO5BLVT4Zyy7w/edit#gid=1243203565).
 
-You’re in Week 3 2019, and you want to compare to Week 3 2018. Using DataMa Compare, you get this:
+You’re in Week 3 2019, and you want to compare to Week 3 2018. Using Datama Compare, you get this:
 
 ![Coc]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/images/Fist-step.jpg)
 

@@ -2,7 +2,7 @@
 title: Security
 description: On this page, find details on the Security section of the homepage
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app home admin security
 ---
 
