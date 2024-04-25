@@ -1,33 +1,33 @@
 ---
 title: Prep - Refine data
-description: This section helps you to refine your data in DataMa Prep
+description: This section helps you to refine your data in Datama Prep
 layout: page
-scope: datama/saas/prep
+scope: Datama/saas/prep
 keywords: full app prep refine data
 ---
 
 
-> **This section helps you to refine your data in DataMa Prep**
+> **This section helps you to refine your data in Datama Prep**
 
-Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for DataMa solutions.
+Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions.
 <br>
 
-Here is the available actions you can do so far in DataMa Prep to refine your dataset:
+Here is the available actions you can do so far in Datama Prep to refine your dataset:
 - [Clean](#clean)
 - [Append](#append)
 - [Filter](#filter)
 - [Pivot & Unpivot](#pivot--unpivot)
-- [Unpivot](#unpivot)
+- [What if](#what-if)
 
 <br>
 
-> ### Clean ###
+> ## <b>Clean</b>
 
 **Clean action allows you to edit order and types of your columns.**
 
 <b> Why ?</b>
 
-Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of DataMa's solutions.
+Because you might need to append later on this dataset with another one, and you will have to coordinate both of their characteristics (such as the name of the metrics and dimensions, their format etc) so that they match in your dataflow afterwards. This is necessary to create a functionnal and interesting market equation, which is the foundation of Datama's solutions.
 
 
 <b> How to use it ?</b>
@@ -52,7 +52,7 @@ You'll also be able to edit a column type by using the select contain on items. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/clean_types.png"/></center>
 
-In addition, DataMa prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
+In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/create_calculated_field.png"/></center>
 
@@ -69,13 +69,13 @@ Once you're done make sure to click on the "Ok" button to validate the creation 
 
 <br>
 
-> ### Append ###
+> ## <b>Append</b>
 
 **Append action allow you to merge two source flow in one.**
 
 <b>  Why ? </b> 
 
-DataMa Prep allow you to import data from multiple source to a single output ready for DataMa Core's solutions. In order to join our multiple source we need an Append action.
+Datama Prep allow you to import data from multiple source to a single output ready for Datama Core's solutions. In order to join our multiple source we need an Append action.
 
 
 <b>  How to use it ?</b> 
@@ -100,9 +100,7 @@ This is not a JOIN, it acts like puting one dataset below the other.
 
 <br>
 
-
-> ### Filter ###
-
+> ## <b>Filter</b>
 
 **Filter action allow you to filter data in columns.**
 
@@ -132,7 +130,7 @@ A filter action holds a single filter condition on each field and works by apply
 Once you have some filters applied you can see them by their column name. By clicking on it you open it and see a description of the filter.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/show_filters.png"/></center>
 
-Sometimes you can see the following error message "It seems that there are too many unique values" it means that the number of unique values in the dataset is higher than the limit set by DataMa.
+Sometimes you can see the following error message "It seems that there are too many unique values" it means that the number of unique values in the dataset is higher than the limit set by Datama.
 
 This was implemented to avoid application performance problems.
 
@@ -140,10 +138,9 @@ It has the effect of not offering the unique values in the filter value selector
 
 <br>
 
+> ## <b>Pivot & Unpivot</b>
 
-> ### Pivot & Unpivot ###
-
-**You might want to pivot and unpivot your dataset in DataMa PREP.**
+**You might want to pivot and unpivot your dataset in Datama PREP.**
 
 
 What is that for?
@@ -160,13 +157,67 @@ A **pivot table** is a table of grouped values that aggregates the individual it
 
 We have a column gender containing only two unique values, {males, females}.
 We want to split sessions according to those values. To do so, we will unpivot the column gender using sessions as an aggregates column.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivot.png" style="width:500px;"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivot.png" style="width:15%;"/></center>
 
 
 For example, this unpivot configuration creates two columns {Sessions.female and Sessions.males} containing the same values but in two distinct columns.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivoted_column.png"/></center>
 
 
-Congrats! Your dataset is ready to be uploaded in DataMa's solution!
+> ## <b>What if</b>
+
+**What if allows to create scenarios with simulated data based on simple assumptions**
+
+"What if" block allows to create scenarios on your existing data, taking assumptions on variations of KPIs on a given scope. This is particularly useful for Compare usage, when trying to get an idea of an the impact of a simulated change on a total KPI.
+
+> Important: Note that the simulated impact on total KPI is purely linear and doesn't take into account the potential elasticity between KPIs. For instance, doubling your price in "What if" block will likely double your revenues, while it's obviously not the case in reality. So What if scenario should be kept for high level sizing or small changes. 
+
+<br>
+
+For the following documentation, we will take an example of an ecommerce website that has 3 steps in its market equation: 
+Purchase = Session x Checkout/ Session x Purchase/ Checkout
+The team wants to understand what would be the impact of increasing the Checkout/ Session average of Mobile users by +1pt on the total volume of purchases, based on Last Year data. 
+The initial dataset is as follows:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_init.png"/></center>
+
+What if scenarios are made of 2 main parts
+- The Baseline
+- The impacted KPI(s)
+
+<br>
+
+#### Baseline
+
+Define the baseline of your simulation, i.e. the part of your dataset that will be used as starting point. 
+
+In our example, since the simulation is based on "Last Year" data, the baseline will be defined as follows: 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_baseline.png"/></center>
+
+#### Impacted KPI(s)
+
+Define the KPIs (within the metric relation) on which your taking assumptions in your simulation, on which scope, and the actual impact you want to size (absolute or relative)
+
+In our example, we want the Checkout/ Session to increase by +1pt (+0.01) on Mobile, so it's an absolute change of +0.01
+Note that we want the total average of Mobile users to increase by +1pt and not for each line of your dataset, so we keep the "aggregation level computation" activated
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_KPIsim.png"/></center>
+
+#### Results
+
+Once applied your changes, Datama Prep will automatically create a new column "Scenario" with 3 values: your baseline, the scenario itself, and other data "out of scope" that was not in the baseline
+
+In our example, this results in the following dataset
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_resultdata.png"/></center>
+
+You will likely visualize your scenarios in Datama Compare, to size the impact of your simulations. 
+Our example gives the following waterfall:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_result.png"/></center>
+
+
+Congrats! Your dataset is ready to be uploaded in Datama's solution!
 
 To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)

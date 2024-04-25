@@ -1,14 +1,14 @@
 ---
 title: Dimensions (Mix & Perf)
-description: Dimensions and metrics are the two elements coming from your data that allow DataMa COMPARE to properly work.
+description: Dimensions and metrics are the two elements coming from your data that allow Datama COMPARE to properly work.
 layout: page
-scope: datama/saas/compare
+scope: Datama/saas/compare
 keywords: full app compare dimensions contribution mix perf
 ---
 
-> **Dimensions and metrics** are the two elements coming from your data that allow **DataMa COMPARE** to properly work.
+> **Dimensions and metrics** are the two elements coming from your data that allow **Datama COMPARE** to properly work.
 
-DataMa COMPARE analyses the contribution of each dimension in the performance and split this contribution in **performance effect** and **mix effect**.
+Datama COMPARE analyses the contribution of each dimension in the performance and split this contribution in **performance effect** and **mix effect**.
 
 The below diagram helps you to understand the type of contribution we are analyzing when the performance evolves.
 

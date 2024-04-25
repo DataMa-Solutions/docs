@@ -2,7 +2,7 @@
 title: Bridge
 description: For the selected step and dimension this graph shows the Mix effect and the performance effect.
 layout: page
-scope: datama/saas/compare
+scope: Datama/saas/compare
 keywords: full app compare bridge
 ---
 

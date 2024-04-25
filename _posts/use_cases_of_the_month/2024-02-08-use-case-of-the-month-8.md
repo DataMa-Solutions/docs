@@ -5,7 +5,7 @@ date:   2024-02-08 12:00:00 +0200
 layout: post
 ucotm_url : https://datama.io/use-case-8-exec-weekly-business-monitoring/
 video_url: https://www.youtube.com/watch?v=vOALgySxUGo
-img_url: /assets/images/ucotm/ucotm_thefork.png
+img_url: /assets/images/ucotm/UCOTM8.png
 img_width: 1280
 img_height: 720
 ---

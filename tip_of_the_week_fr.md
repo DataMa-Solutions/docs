@@ -3,9 +3,9 @@ title: Tips of the week ! In French
 layout: feed
 feed_name: totw_fr
 description: |
-  Tips & tricks sur DataMa, mais en français 🐓
+  Tips & tricks sur Datama, mais en français 🐓
 ---
-> Chaque semaine, DataMa publie un conseil ou une astuce sur la manière de tirer le meilleur parti du logiciel.
+> Chaque semaine, Datama publie un conseil ou une astuce sur la manière de tirer le meilleur parti du logiciel.
 
 {% for post in site.posts %}
 {% if post.feed == "totw_fr" %}

@@ -2,11 +2,11 @@
 title: Workbook Management
 description: In this chapter, see details on how to use the Folders of your account
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app home workbooks management
 ---
 
-> This chapter explains how to use the "folders" in the DataMa solution to manage your workbooks.
+> This chapter explains how to use the "folders" in the Datama solution to manage your workbooks.
 
 <br>
 

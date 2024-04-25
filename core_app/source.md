@@ -1,13 +1,13 @@
 ---
-title: DataMa Source
-description: DataMa Source aims at checking your source and see distribution of one KPI over different segments.
+title: Datama Source
+description: Datama Source aims at checking your source and see distribution of one KPI over different segments.
 layout: page
 scope: shiny
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/database_icon.png" alt="logo Source" /></center>
 
-> **DataMa Source aims at checking your source and see distribution of one KPI over different segments**
+> **Datama Source aims at checking your source and see distribution of one KPI over different segments**
 
 ## Aggregated table
 

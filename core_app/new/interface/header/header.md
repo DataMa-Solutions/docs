@@ -1,18 +1,18 @@
 ---
 title: Header
-description: Find out how you can use the header of the DataMa Solutions
+description: Find out how you can use the header of the Datama Solutions
 layout: page
-scope: datama/saas
+scope: Datama/saas
 keywords: full app header menu
 ---
 
 > Find out how you can use **the header of the Solution**
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
 
 
-For all DataMa Solution tools (Prep, Compare, Assess and Pivot), a contextual menu gives you access to several options for managing your work. In this part, we give a brief overview of these option menus : File, Edit, Data and Help.
+For all Datama Solution tools (Prep, Compare, Assess and Pivot), a contextual menu gives you access to several options for managing your work. In this part, we give a brief overview of these option menus : File, Edit, Data and Help.
 
 
 - [File]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/file.html)

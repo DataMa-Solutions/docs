@@ -1,6 +1,6 @@
 ---
 title: Prep's header
-description: Get information about the DataMa Prep header functionalities
+description: Get information about the Datama Prep header functionalities
 layout: page
 scope: shiny
 ---
@@ -11,7 +11,7 @@ In this section, you will find global settings and information such as your user
 
 ## Application's action
 
-First part of our header is for DataMa Logo and application switch, if you click on, you will be redirected on our home page 
+First part of our header is for Datama Logo and application switch, if you click on, you will be redirected on our home page 
 
 ## Flow Action
 

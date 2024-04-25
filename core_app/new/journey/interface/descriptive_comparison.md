@@ -2,7 +2,7 @@
 title: Descriptive Comparison
 description: Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab.
 layout: page
-scope: datama/saas/journey
+scope: Datama/saas/journey
 keywords: full app journey interface descriptive comparison
 ---
 
@@ -14,6 +14,7 @@ Descriptive Comparison is a group of 4 tabs. See articles below for details on e
 * Distribution (the volume of each touch point)
 * [Sunburst](#sunburst)
 * [Sunburst difference](#sunburst-difference) (available in Compare mode only)
+* [Sankey](#sankey)
 
 <br>
 
@@ -39,7 +40,7 @@ Two parameters are used in order to build this graph:
 ## <b>Sunburst</b>
 
 Sunbursts are commonly used to represent sequential data, such as customer journeys.
-You can learn more on sunbursts and how to use them [here](https://datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
+You can learn more on sunbursts and how to use them [here](https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
 
 **Start End Sunbursts:**
 
@@ -64,7 +65,7 @@ This sunburst represents the differences in appearance of the various journeys b
 ## <b>Sunburst difference</b>
 
 
-This view is only available when Compare mode toggle is activated on DataMa Journey
+This view is only available when Compare mode toggle is activated on Datama Journey
 
 **Similarity Sunburst:**
 
@@ -77,3 +78,11 @@ On the left part of the sunburst (starting with the negative) are the journeys t
 Obviously, as this is a 0 sum game, you have as many decreasing journeys as increasing ones,due to the left part and right part (negative and positive) having exactly the same share (50/50)
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width:1000px;">
+
+## <b>Sankey</b>
+
+Sankey chart is another way to display flows between touch points which is convenient in particular to visualize repetitive loops on a given point. 
+
+You can move the nodes of the Sankey by drag and dropping the nodes with your moves
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/images/sankey.png" style="width:1000px;">

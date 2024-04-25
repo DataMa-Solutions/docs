@@ -1,13 +1,13 @@
 ---
 title: Pivot - Settings
-description: Here is the different settings available in DataMa Pivot
+description: Here is the different settings available in Datama Pivot
 layout: page
-scope: datama/saas/pivot
+scope: Datama/saas/pivot
 keywords: full app pivot settings subheader sub header
 ---
 
 
-> Here is the different settings available in DataMa **Pivot**
+> Here is the different settings available in Datama **Pivot**
 
 <br>
 
@@ -35,7 +35,7 @@ keywords: full app pivot settings subheader sub header
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.jpg">
 
-> Find here the details of the main settings DataMa Pivot
+> Find here the details of the main settings Datama Pivot
 
 <br/>
 
@@ -64,7 +64,7 @@ For continuous elements, multiple clusters are created aggregating elements havi
 
 ## Maximum Depth Of Decision Tree
 
-**The Decision Tree is not yet avalaible in the latest version of DataMa Pivot**
+**The Decision Tree is not yet avalaible in the latest version of Datama Pivot**
 
 By increasing the tree depth you increase the detail of the decision tree. It will be more detailed.
 
@@ -75,13 +75,13 @@ By increasing the tree depth you increase the detail of the decision tree. It wi
 
 ## Comparison
 
-DataMa Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
+Datama Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
 
 <br>
 
 ## KPI
 
-In DataMa Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.
+In Datama Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.
 
 <br/>
 
@@ -95,7 +95,7 @@ When the toggle is checked, Pivot is focusing on the numerator of the step you a
 
 ## Analyse all metrics relation steps
 
-DataMa Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
+Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
 
 ## Step interest criteria
 

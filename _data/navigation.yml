@@ -12,93 +12,98 @@
   link: /core_app/new_docs.html
   type: separated
   subnav:
-    - name: Interface #done
-      link: /core_app/new/interface/interface.html
-      subnav:
-        - name: Homepage #done
-          link: /core_app/new/interface/homepage/homepage.html
+    - name: General #done
+      link: /core_app/new/interface/general.html
+      subnav  :
+        - name: Interface #done
+          link: /core_app/new/interface/interface.html
           subnav:
-            - name: Header #done
-              link: /core_app/new/interface/homepage/homepage_header.html
+            - name: Homepage #done
+              link: /core_app/new/interface/homepage/homepage.html
               subnav:
-                - name: User preferences
-                  link: /core_app/new/interface/homepage/user_preferences.html
+                - name: Header #done
+                  link: /core_app/new/interface/homepage/homepage_header.html
                   subnav:
-                    - name: Analysis Language
-                      link: /core_app/new/interface/homepage/user_preferences.html#analysis-language
-                    - name: Colors Palette For Plots
-                      link: /core_app/new/interface/homepage/user_preferences.html#colors-palette-for-plots
-                    - name: Compact Numbers
-                      link: /core_app/new/interface/homepage/user_preferences.html#compact-numbers
-                    - name: Force Rounding
-                      link: /core_app/new/interface/homepage/user_preferences.html#force-rounding
-            - name: Workbooks Management #done
-              link: /core_app/new/interface/homepage/workbooks_management.html
-            - name: Get Inspired #done
-              link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
+                    - name: User preferences
+                      link: /core_app/new/interface/homepage/user_preferences.html
+                      subnav:
+                        - name: Analysis Language
+                          link: /core_app/new/interface/homepage/user_preferences.html#analysis-language
+                        - name: Colors Palette For Plots
+                          link: /core_app/new/interface/homepage/user_preferences.html#colors-palette-for-plots
+                        - name: Compact Numbers
+                          link: /core_app/new/interface/homepage/user_preferences.html#compact-numbers
+                        - name: Force Rounding
+                          link: /core_app/new/interface/homepage/user_preferences.html#force-rounding
+                - name: Workbooks Management #done
+                  link: /core_app/new/interface/homepage/workbooks_management.html
+                - name: Get Inspired #done
+                  link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
+                  subnav:
+                    - name: Web performance (Google Analytics) #done
+                      link: /core_app/new/interface/homepage/get_inspired/web_performance_GA.html
+                    - name: Marketing campaign #done
+                      link: /core_app/new/interface/homepage/get_inspired/marketing_campaign.html
+                    - name: Marketing continuous #done
+                      link: /core_app/new/interface/homepage/get_inspired/marketing_continuous.html
+                    - name: Product AB test #done
+                      link: /core_app/new/interface/homepage/get_inspired/product_AB_test.html
+                    - name: Content Square
+                      link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
+                    - name: Finance Control
+                      link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
+                    - name: Retail Performance
+                      link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
+                    - name: Retail Categories
+                      link: /core_app/new/interface/homepage/get_inspired/retail_categories.html
+                    - name: Anomaly Detection
+                      link: /core_app/new/interface/homepage/get_inspired/anomaly_detection.html
+                    - name: Display Campaign Comparison
+                      link: /core_app/new/interface/homepage/get_inspired/display_campaign.html
+                    - name: Churn Rate
+                      link: /core_app/new/interface/homepage/get_inspired/churn_rate.html
+                    - name: Display acquisition
+                      link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
+                - name: Admin #done
+                  link: /core_app/new/interface/homepage/admin/admin.html
+                  subnav:
+                    - name: Licences
+                      link: /core_app/new/interface/homepage/admin/admin.html#licences
+                    - name: Security
+                      link: /core_app/new/interface/homepage/admin/admin.html#security
+                    - name: Statistics
+                      link: /core_app/new/interface/homepage/admin/admin.html#statistics
+            - name: Solutions header #done
+              link: /core_app/new/interface/header/header.html
               subnav:
-                - name: Web performance (Google Analytics) #done
-                  link: /core_app/new/interface/homepage/get_inspired/web_performance_GA.html
-                - name: Marketing campaign #done
-                  link: /core_app/new/interface/homepage/get_inspired/marketing_campaign.html
-                - name: Marketing continuous #done
-                  link: /core_app/new/interface/homepage/get_inspired/marketing_continuous.html
-                - name: Marketing scope
-                  link: /core_app/new/interface/homepage/get_inspired/marketing_scope.html
-                - name: Product AB test #done
-                  link: /core_app/new/interface/homepage/get_inspired/product_AB_test.html
-                - name: Content Square
-                  link: /core_app/new/interface/homepage/get_inspired/Content_CS.html
-                - name: Finance Control
-                  link: /core_app/new/interface/homepage/get_inspired/finance_controlling.html
-                - name: Retail Performance
-                  link: /core_app/new/interface/homepage/get_inspired/retail_performance.html
-                - name: Retail Categories
-                  link: /core_app/new/interface/homepage/get_inspired/retail_categories.html
-                - name: Anomaly Detection
-                  link: /core_app/new/interface/homepage/get_inspired/anomaly_detection.html
-                - name: Display Campaign Comparison
-                  link: /core_app/new/interface/homepage/get_inspired/display_campaign.html
-                - name: Churn Rate
-                  link: /core_app/new/interface/homepage/get_inspired/churn_rate.html
-                - name: Display acquisition
-                  link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
-
-            - name: Admin #done
-              link: /core_app/new/interface/homepage/admin/admin.html
+                - name: File #done
+                  link: /core_app/new/interface/header/file.html
+                #- name: 1.2.a. Edit
+                #  link: /core_app/new/interface/edit.html
+                - name: Data #done
+                  link: /core_app/new/interface/header/data.html
+                - name: Help #done
+                  link: /core_app/new/interface/header/help.html
+                - name: Export #done
+                  link: /core_app/new/interface/header/export.html
+            - name: Solutions subheader #done
+              link: /core_app/new/interface/subheader/subheader.html
               subnav:
-                - name: Licences
-                  link: /core_app/new/interface/homepage/admin/admin.html#licences
-                - name: Security
-                  link: /core_app/new/interface/homepage/admin/admin.html#security
-                - name: Statistics
-                  link: /core_app/new/interface/homepage/admin/admin.html#statistics
-        - name: Solutions header #done
-          link: /core_app/new/interface/header/header.html
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics relation
+                  link: /core_app/new/interface/subheader/metrics_relation.html
+                - name: Settings #done
+                  link: /core_app/new/interface/subheader/settings.html
+        - name: Type of account #under construction
+          link: /core_app/new/interface/account.html
           subnav:
-            - name: File #done
-              link: /core_app/new/interface/header/file.html
-            #- name: 1.2.a. Edit
-            #  link: /core_app/new/interface/edit.html
-            - name: Data #done
-              link: /core_app/new/interface/header/data.html
-            - name: Help #done
-              link: /core_app/new/interface/header/help.html
-            - name: Export #done
-              link: /core_app/new/interface/header/export.html
-        - name: Solutions subheader #done
-          link: /core_app/new/interface/subheader/subheader.html
-          subnav:
-            - name: Dimension Comparison  #done
-              link: /core_app/new/interface/subheader/dimension_comparison.html
-            - name: Dimension Helper  #done
-              link: /core_app/new/interface/subheader/dimension_helper.html
-            - name: Filters  #done
-              link: /core_app/new/interface/subheader/filters.html
-            - name: Metrics relation
-              link: /core_app/new/interface/subheader/metrics_relation.html
-            - name: Settings #done
-              link: /core_app/new/interface/subheader/settings.html
+            - name: Plan and Payment  #done
+              link: /core_app/new/interface/payment.html
     - name: Compare #done
       link: /core_app/new/compare/compare.html
       subnav:
@@ -191,11 +196,10 @@
           link: /core_app/new/detect/detect_interface.html
           subnav:
             - name: Detect subheader
+              link: /core_app/new/detect/detect_header.html
               subnav:
-                - name: Dimension Comparison  #done
-                  link: /core_app/new/interface/subheader/dimension_comparison.html
-                - name: Secondary Comparison  #done
-                  link: /core_app/new/compare/interface/subheader/secondary_comparison.html
+                - name: Anomaly  #done
+                  link: /core_app/new/detect/detect_introduction.html#anomaly
                 - name: Dimension Helper  #done
                   link: /core_app/new/interface/subheader/dimension_helper.html
                 - name: Filters  #done
@@ -229,6 +233,8 @@
                       link: /core_app/new/detect/settings.html#comparison
                     - name: KPI #done
                       link: /core_app/new/detect/settings.html#kpi
+        - name: Detection Method #done
+          link: /core_app/new/detect/detection_method.html
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       subnav:
@@ -283,6 +289,7 @@
           link: /core_app/new/assess/assess_interface.html
           subnav:
             - name: Assess subheader
+              link: /core_app/new/assess/assess_header.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
@@ -455,9 +462,9 @@
               link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
-    - name: DataMa On Premise
-      link: /core_app/new/DataMa_on_premise.html #OK
-#    - name: Old version of DataMa
+    - name: Datama On Premise
+      link: /core_app/new/Datama_on_premise.html #OK
+#    - name: Old version of Datama
 #      link: /core_app/old_docs.html
 #      subnav:
 #        - name: Compare

@@ -2,7 +2,7 @@
 title: Covariance
 description: Basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
 layout: page
-scope: datama/saas/compare
+scope: Datama/saas/compare
 keywords: full app compare model covariance
 ---
 
@@ -10,7 +10,7 @@ keywords: full app compare model covariance
 
 <br>
 
-In general, **Covariance** is a statistic measure of joint variability between two variables. You can learn more statistical docs on the [web](https://en.wikipedia.org/wiki/Covariance), but this article focuses on the business usage in DataMa Compare.
+In general, **Covariance** is a statistic measure of joint variability between two variables. You can learn more statistical docs on the [web](https://en.wikipedia.org/wiki/Covariance), but this article focuses on the business usage in Datama Compare.
 
 In our case, covariance is basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
 
@@ -45,9 +45,9 @@ The above maths is great, but hard to show and explain to a business man that ju
 
 So, in order to display this in a waterfall, with just volume and price effect -or whatever steps you’ve defined-, we just re attribute the covariance to each other effect, proportionally to its size.
 
-The % of Covariance that we display in DataMa Compare charts is the ratio between the Covariance and the overall gap you’re trying to explain.
+The % of Covariance that we display in Datama Compare charts is the ratio between the Covariance and the overall gap you’re trying to explain.
 
 We put a flag (!) when Covariance gets high (>30%), but the analysis remains true. Just think that the effects you’re trying to sort out are not fully independent, so sometimes it’s not one effect (e.g. Price) or the other (e.g. Volume) that affects your overall KPI (e.g. Revenue), but both at the same time. And that’s your Covariance!
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/covariance.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/compare_covariance.png"/></center>

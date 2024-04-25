@@ -1,11 +1,11 @@
 ---
 title: Extensions
-description: Extensions allow you to use DataMa within your preferred data tool. It basically unlocks the functionality of DataMa, on top of a tool your already using.
+description: Extensions allow you to use Datama within your preferred data tool. It basically unlocks the functionality of Datama, on top of a tool your already using.
 layout: page
 scope: shiny
 ---
 
-> **Extensions** allow you to use DataMa within your preferred data tool. It basically unlocks the functionality of DataMa, on top of a tool your already using.
+> **Extensions** allow you to use Datama within your preferred data tool. It basically unlocks the functionality of Datama, on top of a tool your already using.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/header/create_new_use_case/images/extensions.png"/></center>
 

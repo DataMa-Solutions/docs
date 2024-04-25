@@ -1,29 +1,30 @@
 ---
-title: DataMa Pivot
-description: DataMa PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.
+title: Datama Pivot
+description: Datama PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.
 layout: page
-scope: datama/saas/pivot
+scope: Datama/saas/pivot
 keywords: full app pivot
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Pivot_icon.jpg " alt="logo pivot" style="height:60px;"/></center>
 
-> **DataMa PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.**
+> **Datama PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.**
 
-With DataMa PIVOT, you can simplify your analysis by identifying among your many dimensions those that really have an impact on your performance:
+With Datama PIVOT, you can simplify your analysis by identifying among your many dimensions those that really have an impact on your performance:
 
 * Comparison of the weight of the dimensions
 * Analysis of correlations between dimensions
 * Clustering of continuous dimensions
 * Identification of interdependencies between dimensions
 * Identification of optimal dimensions
+* Decision tree of the most important dimensions
 * And many other features …
 
-DataMa PIVOT is a dataset analysis tool that allows you to identify and understand the dimensions that have the greatest impact on the performance indicator you want to track
+Datama PIVOT is a dataset analysis tool that allows you to identify and understand the dimensions that have the greatest impact on the performance indicator you want to track
 
 This documentation gives you an overview of how it works and how to use it.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_interface.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_interface.png"/></center>
 <br>
 <br>
 You will optimize the preparation of your data analysis
@@ -36,4 +37,4 @@ Hope you enjoy it.
 
 <br>
 
-Please visit DataMa generic [website](https://datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
+Please visit Datama generic [website](https://Datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
