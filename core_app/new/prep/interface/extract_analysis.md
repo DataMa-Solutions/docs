@@ -47,6 +47,21 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
+## <b>Teams</b>
+
+- connect your Teams account
+- Specify the frequency you want to receive your message (this setting is deactivated when the export is sync with a flow scheduler).
+- Choose a team from the teams you joined. Then you may choose a channel in which the export will be sent.
+- Select <i>Send on Alert only</i> if you only want to receive the analysis when you KPIs reached a certain [threshold]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/threshold.html")
+- Arrange your extraction depending on your needs :
+    - **Slides**: Each slide is coming with title + graph + comment (except alert wich is just a message). <i>Bridge</i> is representing the detail on the step with the main variation.
+    - **List**: Give you the ability to select at a lower lever the detail you want to display in your message.
+    - **Dropdown**: see only one graph and select with a drowdown the graph or the comment to display
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportTeams.jpg"/></center>
+
+<br>
+
 ## <b>Email</b>
 
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
@@ -80,14 +95,6 @@ Activate <i>Public URL</i> to make the URL accessible to user without login to t
 Export part or full view of the solution : "alert message", "Waterfall" or "Detailed step view". 
 
 Your graph wil be updated according to your data. As soon as you load the URL the graph will be updated with the freshest data. 
-
-<br>
-
-## <b>Teams</b>
-
-This connector is under development and will be available soon. (coming in June 2024)
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
 
 <br>
 
