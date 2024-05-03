@@ -1,7 +1,7 @@
 ---
 feed: release_note
-title:  "2024-05-02"
-date:   2024-05-02 12:00:00 +0200
+title:  "2024-05-03"
+date:   2024-05-03 12:00:00 +0200
 layout: post
 description: |
   🌸Spring is there with new features!<br>
