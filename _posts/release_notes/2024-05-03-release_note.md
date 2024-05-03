@@ -4,9 +4,9 @@ title:  "2024-05-03"
 date:   2024-05-03 12:00:00 +0200
 layout: post
 description: |
-  🌸Spring is there with new features!<br>
-  Datama now allows Microsoft Teams export, AI comments enhancement and organisation accounts in beta <br>
-  Anomaly detection algorithms have also been improved among other cool things
+  Spring 🌸 is there with new features!<br>
+  Datama now allows Microsoft Teams export, AI comments enhancement and organisation accounts in beta<br>
+  Anomaly detection algorithms have also been improved among other cool things<br>
 ---
 
 * **General**
