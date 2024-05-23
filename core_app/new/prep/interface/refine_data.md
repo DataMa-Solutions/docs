@@ -199,7 +199,11 @@ In our example, since the simulation is based on "Last Year" data, the baseline 
 
 Define the KPIs (within the metric relation) on which your taking assumptions in your simulation, on which scope, and the actual impact you want to size (absolute or relative)
 
-In our example, we want the Checkout/ Session to increase by +1pt (+0.01) on Mobile, so it's an absolute change of +0.01
+
+- **Relative**:This approach allows you to simulate the impact of percentage-based changes on your KPIs. For instance, you can specify a 10% increase or decrease in a particular steps of your market equation. Relative variations adjust the KPI based on its existing value to explore effects on scaling changes proportionally.
+- **Absolute**: In contrast, absolute variation involves specifying a fixed amount by which the KPI will change, regardless of its original value. For example, adding two dollars to your average price or reducing it. Absolute variations provide a straightforward way to simulate impacts of concrete changes that are not percentage-based.
+
+In our example, we want an "absolute" increase of the Checkout/ Session to increase by +1pt (+0.01) on Mobile, so it's an absolute change of +0.01
 Note that we want the total average of Mobile users to increase by +1pt and not for each line of your dataset, so we keep the "aggregation level computation" activated
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_KPIsim.png"/></center>

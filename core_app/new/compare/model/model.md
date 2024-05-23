@@ -27,14 +27,14 @@ See details here for [Mix Effects]({{site.url}}/{{site.baseurl}}/core_app/new/co
 ### Mix effect
 For each step, analyze how much mix effects on each dimension contributes to the observed gap
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimensions_analysis_mix.html)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
 
 <br>
 
 ### Segment performance
 For each step and each dimension, identify which specific segment performance is driving the observed gap
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimensions_analysis_performance.html)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
 
 <br>
 
