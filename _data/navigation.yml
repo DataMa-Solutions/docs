@@ -876,8 +876,10 @@
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan.html
-        - name: Tableau
-          link: /extensions/how-to-use/tableau.html
+        - name: Tableau Dashboard
+          link: /extensions/how-to-use/tableau_dashboard.html
+        - name: Tableau Viz
+          link: /extensions/how-to-use/tableau_viz.html
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
 ##  type: separated
