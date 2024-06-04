@@ -93,7 +93,7 @@ function downloadLightDashboardTrex(e) {
             let element = document.createElement('a');
             element.setAttribute('href',
                 'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
-            element.setAttribute('download', "Datama_Tableau_Extension.trex");
+            element.setAttribute('download', "Datama_Tableau_Dashboard_Extension.trex");
             document.body.appendChild(element);
             element.click();
             document.body.removeChild(element);
@@ -110,7 +110,7 @@ function downloadLightVizTrex(e) {
             let element = document.createElement('a');
             element.setAttribute('href',
                 'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
-            element.setAttribute('download', "Datama_Tableau_Extension.trex");
+            element.setAttribute('download', "Datama_Tableau_Viz_Extension.trex");
             document.body.appendChild(element);
             element.click();
             document.body.removeChild(element);
