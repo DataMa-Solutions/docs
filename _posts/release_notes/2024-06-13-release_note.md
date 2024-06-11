@@ -30,6 +30,6 @@ description: |
     You can always opt out from this automatic transformation when the notification pops in.
 
 **Marketplace extension** (aka "Datama Light")
-    * [Beta 🧪] Tableau Viz extension is now available
+    * [Beta 🧪] Tableau Viz extension is now available: for users of Tableau 2024.2 (currently in preview), you can have Datama Compare directly available in a worksheet as a viz extension [Learn more]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
     * On Looker Studio, the default style background input is now taken into account
     * Bugs fix includes improvement of complex market equation logic and relative saving of comparison inputs
