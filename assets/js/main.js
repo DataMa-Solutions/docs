@@ -63,7 +63,8 @@ $('body').on('click', '#gotoDoc', (e) => {
     $('html, body').animate( { scrollTop: $('#menu').offset().top }, 750 );
 })
 $('body').off('click', '#download-tableau-full-extension', downloadFullTrex).on('click', '#download-tableau-full-extension', downloadFullTrex)
-$('body').off('click', '#download-tableau-light-extension', downloadLightTrex).on('click', '#download-tableau-light-extension', downloadLightTrex)
+$('body').off('click', '#download-tableau-dashboard-light-extension', downloadLightDashboardTrex).on('click', '#download-tableau-dashboard-light-extension', downloadLightDashboardTrex)
+$('body').off('click', '#download-tableau-viz-light-extension', downloadLightVizTrex).on('click', '#download-tableau-viz-light-extension', downloadLightVizTrex)
 
 function downloadFullTrex(e) {
     console.log("Download Full Extension trex file")
@@ -83,8 +84,8 @@ function downloadFullTrex(e) {
         .catch((e) => console.error(e));
 }
 
-function downloadLightTrex(e) {
-    console.log("Download Light Extension trex file")
+function downloadLightDashboardTrex(e) {
+    console.log("Download Light Extension trex file for Tableau dashboard")
     e.preventDefault();
     fetch("https://app.datama.io/tableau/light/trex/light_tableau_base_Datama_Tableau_Extension.trex")
         .then((res) => res.text())
@@ -92,7 +93,24 @@ function downloadLightTrex(e) {
             let element = document.createElement('a');
             element.setAttribute('href',
                 'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
-            element.setAttribute('download', "Datama_Tableau_Extension.trex");
+            element.setAttribute('download', "Datama_Tableau_Dashboard_Extension.trex");
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        })
+        .catch((e) => console.error(e));
+}
+
+function downloadLightVizTrex(e) {
+    console.log("Download Light Extension trex file for Tableau viz")
+    e.preventDefault();
+    fetch("https://app.datama.io/tableauViz/light_tableau_base_Datama_Tableau_viz_Extension.trex")
+        .then((res) => res.text())
+        .then((text) => {
+            let element = document.createElement('a');
+            element.setAttribute('href',
+                'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
+            element.setAttribute('download', "Datama_Tableau_Viz_Extension.trex");
             document.body.appendChild(element);
             element.click();
             document.body.removeChild(element);

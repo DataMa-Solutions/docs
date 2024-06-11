@@ -1,13 +1,13 @@
 ---
-title: Datama Compare on Tableau
+title: Datama Compare on Tableau Dashboard
 layout: page
 scope: Datama/light/compare
-keywords: Tableau get started
+keywords: Tableau Dashboard get started
 ---
 
 <br/>
 
-> Using Datama Solutions as a Tableau extension is a great way to make your report more insightful with the benefits of both Datama and Tableau.
+> Using Datama Solutions as a Tableau dashboard extension is a great way to make your report more insightful with the benefits of both Datama and Tableau.
 
 <br/>
 
@@ -25,7 +25,7 @@ Here is what you get on this page:
 <br/>
 
 ## 1. Overview
-This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Tableau. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Tableau dashboard. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 <br/>
 
@@ -42,18 +42,18 @@ This document provides detailed documentation for the "Datama Compare - Smart wa
 
 ## 3. How to use it
 
-In order to use Datama in your report, you need to add a dashboard visualization extension using a custom trex file. 
+In order to use Datama in your report, you need to add a dashboard extension using a custom trex file. 
 
 Follow these steps to add Datama in your report : 
 
 1. On Tableau Desktop, create a source worksheet [See getting started to know how](#5-getting-started)
 2. Create a new dashboard page, and add the source worksheet to the dashboard
 3. Add an extension object to that same dashboard
-4. Use the .trex file provided by Datama, or <a id="download-tableau-light-extension" href="#" target="_blank"> download it here</a>
+4. Use the .trex file provided by Datama, or <a id="download-tableau-dashboard-light-extension" href="#" target="_blank"> download it here</a>
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/tableau_light_add.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/tableau_dashboard_light_add.gif" /></center>
 
 <br>
 
@@ -67,7 +67,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Select your plan and get your licence key
 5. Add the licence key to the "configuration" of the extension by clicking on the "configure" in the top corner
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/tableau_configure_licence.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/tableau_dashboard_configure_licence.gif" /></center>
 
 
 <br>
