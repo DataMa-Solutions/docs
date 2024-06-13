@@ -24,7 +24,9 @@ _Find below how to quick start with Datama Compare on visualization tools_
 ### 2. Embed Datama Compare in your reports quickly by following these links:
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
+- In Tableau
+    * As a [Worksheet Viz Extension]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
+    * As a [Dashboard Extension]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_dashboard.html)
 
 <br>
 
