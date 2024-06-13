@@ -38,7 +38,7 @@ Click on the generate button to see some examples, and if you are satisfied, acc
 
 <br>
 
-To use this service, you'll need to accept OpenAi [Terms and conditions](http://sada)
+To use this service, you'll need to accept OpenAi [Terms and conditions](https://openai.com/policies/)
 
 
 <br>
