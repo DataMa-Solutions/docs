@@ -13,12 +13,12 @@ keywords: openai ai enhance
 
 # 1. Contextualized comments
 
-DataMa generates an analysis and provides sentences that explain variations in KPIs. By leveraging the power of AI, DataMa enhances these explanations with contextualized comments, improving the depth and clarity of the analysis.
+Datama generates an analysis and provides sentences that explain variations in KPIs. By leveraging the power of AI, Datama enhances these explanations with contextualized comments, improving the depth and clarity of the analysis.
 
 ## How it works
 
 ### 1. Initial comments
-DataMa initially processes the raw data to identify and quantify variations in key performance indicators (KPIs).
+Datama initially processes the raw data to identify and quantify variations in key performance indicators (KPIs).
 The system generates insights that explain these variations.
 
 ### 2. Integration with OpenAI:
