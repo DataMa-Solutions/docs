@@ -14,3 +14,4 @@ Vous avez modifié votre équation de marché et vous voulez revenir à celle de
 Dans le menu de définition de l'équation de marché, que ce soit dans Datama Prep ou dans les paramètres avancées ⚙️ des solutions, vous avez en bas de ce tableau deux options de paramétrage rapide avec:
   * le Π pour faire une équation de marché sur la base d'un produit de toutes les métriques dans l'ordre du dataset (solution la plus couramment utilisée sur un funnel)
   * le Σ pour une équation de marché qui sommera toutes les métriques ➕
+
