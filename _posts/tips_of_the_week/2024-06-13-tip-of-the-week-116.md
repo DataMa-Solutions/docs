@@ -1,6 +1,6 @@
 ---
 feed: totw_en
-title:  "Tip of the Week 116: Reverse waterfall colors for "negative" KPIs"
+title:  "Tip of the Week 116: Reverse waterfall colors for 'negative' KPIs"
 date:   2024-06-13 10:12:00 +0200
 img_url: /assets/images/tip/116.gif
 img_type: image/gif
