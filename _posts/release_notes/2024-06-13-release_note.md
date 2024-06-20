@@ -7,7 +7,6 @@ description: |
   ☀️ June release!<br>
   We're happy to share the latest features in Datama: <br>
   Comparison & Filters UI & UX reshape, Workbook preset templates, AI enhanced comments... <br>
-  Read the full [release note](https://datama-solutions.github.io/docs/release.html) to learn more!
 ---
 
 * **General**
