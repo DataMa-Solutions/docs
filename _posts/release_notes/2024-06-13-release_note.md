@@ -22,13 +22,13 @@ description: |
       * The user interface has been made clearer with a selection of the type of action you're applying to a column
       * New functionalities have been added: you can now filter using actions as "Is", "Is not", "start with", "end with", "contains" or use "Regular expresion", as well as filter between values for continuous metric, 
       * Exclusion of a dimension is also a separate action type, which is applied by default when you filter on one single segment
-    * Exports can include Filter and Comparison different
+    * Exports can now include different settings for filter and comparison within the same workbook
 
 * **Datama Prep**
     * Dataset with one single metric will be automatically unpivoted on the first dimension to create a more interesting analysis: For instance, if you upload a dataset containing Revenues by Year, Country and Product, it will be automatically transformed to a dataset with one column of revenue for each country, and the market equation will be defined as the sum of revenues for each country. This will allow for instance in Compare to analyse drivers of variations within a Country by Product.
     You can always opt out from this automatic transformation when the notification pops in.
 
-**Marketplace extension** (aka "Datama Light")
+* **Marketplace extension** (aka "Datama Light")
     * [Beta 🧪] Tableau Viz extension is now available: for users of Tableau 2024.2 (currently in preview), you can have Datama Compare directly available in a worksheet as a viz extension [Learn more]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
     * On Looker Studio, the default style background input is now taken into account
     * Bugs fix includes improvement of complex market equation logic and relative saving of comparison inputs
