@@ -49,7 +49,7 @@ Follow these steps to add Datama in your report :
 1. Edit your report
 2. In the toolbar, click _Community visualizations and components Community visualization icon_
 3. Click on "_Explore more_"
-4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file"
+4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file" (by default you can copy paste this path: `gs://app.datama.io/looker-datama-light` )
 
 <br>
 
