@@ -2,6 +2,7 @@
 title: Attribution
 description: Attribution is a group of 5 tabs. See below articles for details on each tab.
 layout: page
+scope: shiny
 ---
 
 ![attribution]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/images/attribution.png)

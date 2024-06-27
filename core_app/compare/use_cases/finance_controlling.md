@@ -1,6 +1,12 @@
+---
+title: Finance Controlling
+description: Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.Datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Finance Controlling
 
-> Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.datama.fr/) solution.
+> Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.Datama.fr/) solution.
 
 This example made for financial assessment is different from the previous examples because the metric relation is not representing a conversion funnel but a business equation.
 

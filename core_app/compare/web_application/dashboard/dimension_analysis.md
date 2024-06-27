@@ -2,6 +2,7 @@
 title: Dimension analysis
 description: This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
 layout: page
+scope: shiny
 ---
 
 Each performance is composed of a [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect) and a [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect).
@@ -32,7 +33,7 @@ e.g. <i>If you are selling several products, and if the share of an individual p
 **Example in eCommerce**
 
 For instance, say mobile users convert much lower than desktop users (which is often the case). If last week you had much more desktop users than this week, then the conversion this week will be mathematically lower, just because of that change in device mix.
-What DataMa Mix effect analysis does is just replicating that logic but for each step of the funnel and for each dimension provided in the data set. As long as those dimensions are not interdependent, you come up with a share of the gap on each step that can be attributed to mix effects on a given dimension.
+What Datama Mix effect analysis does is just replicating that logic but for each step of the funnel and for each dimension provided in the data set. As long as those dimensions are not interdependent, you come up with a share of the gap on each step that can be attributed to mix effects on a given dimension.
 In another way, the Mix effect is the impact due to the change of proportion in entrance.
 As in the example below, when your proportion of Purchase between Devices change, that automatically changes your Average Basket. In 2018 70% of purchases were made via Desktop, compared to only 50% in 2019, with a stable average basket of 35€ 
 ●   If the proportion changes it’s a Mix effect

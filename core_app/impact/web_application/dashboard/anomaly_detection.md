@@ -1,5 +1,5 @@
 
-> **Anomaly Detection allows you not only to detect potential outliers in your dataset but also to explain them using DataMa Compare algorithm.**
+> **Anomaly Detection allows you not only to detect potential outliers in your dataset but also to explain them using Datama Compare algorithm.**
 
 You can enable Anomaly Detection by switching the 'Anomaly Detection' toggle in the menu.
 

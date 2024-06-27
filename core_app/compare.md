@@ -1,18 +1,19 @@
 ---
-title: DataMa Compare
-description: DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.
+title: Datama Compare
+description: Datama COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.
 layout: page
+scope: shiny
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/images/Datama_compare_logo.png" alt="logo compare" /></center>
 
-> **DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
+> **Datama COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
-DataMa COMPARE makes it easy to explain variations of any KPI between two segments.
+Datama COMPARE makes it easy to explain variations of any KPI between two segments.
 
 This documentation gives you an overview of how it works and how to use it.
 
-Below is a video of the main functionnalities of DataMa Compare:
+Below is a video of the main functionnalities of Datama Compare:
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/SfPdIoKUFdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,8 +30,8 @@ Its data comes from management ERP, Excel spreadsheet or even **data collection 
 
 ---------------------
 
-Follow this [link](https://datama.fr/wp-content/uploads/2019/02/DataMaCompare_BrochureEN_2019.pdf), to get access to a more commercial presentation.
+Follow this [link](https://Datama.fr/wp-content/uploads/2019/02/DatamaCompare_BrochureEN_2019.pdf), to get access to a more commercial presentation.
 
 Hope you enjoy it.
 
-Please visit DataMa generic [website](https://datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
+Please visit Datama generic [website](https://Datama.fr/lets-talk/) for any other question and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.

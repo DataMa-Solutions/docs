@@ -2,6 +2,7 @@
 title: Included steps
 description: See included steps and how to exclude them or not
 layout: page
+scope: shiny
 ---
 
 **Included steps** (selected): the steps that are kept within your overall [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation) definition. This allows you to change your overall « Market Equation » and the KPI you’re following, as well as grouping/ expanding the steps you’ve defined

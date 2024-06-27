@@ -2,6 +2,8 @@
 title: Other important modeling components
 description: Here is a list of modeling components available.
 layout: page
+scope: Datama/saas/compare
+keywords: full app compare model modeling component
 ---
 
 <br>
@@ -41,7 +43,7 @@ Combined dimension is created by concatenating all clustered dimensions into one
 ## <b>Significance</b>
 
 In 'Safe Mode', simple check of minimal volume (manually inputted) for given metric in Start and End
-You can also use DataMa Impact to assess properly signifiance of variations
+You can also use Datama Impact to assess properly signifiance of variations
 
 <br>
 

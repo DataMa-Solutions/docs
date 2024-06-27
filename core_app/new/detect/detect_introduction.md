@@ -1,22 +1,25 @@
 ---
-title: DataMa Detect
-description: DataMa DETECT aims at evaluating over time the normality of a variation.
+title: Datama Detect
+description: Datama DETECT aims at evaluating over time the normality of a variation.
 layout: page
+scope: Datama/saas/detect
+keywords: full app detect introduction
 ---
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Detect_icon.jpg" alt="logo detect" /></center>
 
-> **DataMa DETECT aims at evaluating over time the normality of a variation.**
+> **Datama DETECT aims at evaluating over time the normality of a variation.**
 
 
 This module allows to automate outlier identification on a given ratio, and understand the drivers of that anomaly. This is particularly useful in time series for being able to quickly spot issues in your KPIs overtime.
 
-DataMa DETECT is a data analysis tool that allows you to not only to detect potential outliers in your dataset but also to explain them using the DataMa Compare algorithm.
+Datama DETECT is a data analysis tool that allows you to not only to detect potential outliers in your dataset but also to explain them using the Datama Compare algorithm.
 
-You can use DataMa DETECT to monitor your dataset and set up automatic monitoring of your main KPIs. If your dataset is big enough, DataMa DETECT will show you potential outliers as well as give you the opportunity to further investigate your data. 
+You can use Datama DETECT to monitor your dataset and set up automatic monitoring of your main KPIs. If your dataset is big enough, Datama DETECT will show you potential outliers as well as give you the opportunity to further investigate your data. 
 
+<br>
 
-**Interface of DataMa DETECT** 
+## **Interface of Datama DETECT** 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/Example_AnomalyDetection.gif"/></center>
 
@@ -29,7 +32,24 @@ By default, the most relevant outlier is selected, but you can also choose any p
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_anomalyExplanation.jpg"/></center>
 
+<br>
 
-**Dataset needed for DataMa DETECT** 
+## **Dataset needed for Datama DETECT** 
 
-<i>DataMa Detect</i> needs at least 30 days in a the [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) to be able to evaluate a normality. Otherwise the dataset needs to have Dimensions and Metrics as for all solutions in DataMa. A dataset used in <i>DataMa Detect</i> could be used in the other solution as well. 
+<i>Datama Detect</i> needs at least 30 days in a the [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) to be able to evaluate a normality. Otherwise the dataset needs to have Dimensions and Metrics as for all solutions in Datama. A dataset used in <i>Datama Detect</i> could be used in the other solution as well. 
+
+<br>
+
+## **Anomaly**
+
+In Detect, the dimension should be selected for assessing normality within your data. This dimension can be a date, category, or any other relevant data point.
+
+**Note**: The chosen dimension should have at least 30 elements to ensure statistical significance and reliability in the analysis.
+
+**Baseline Establishment**: Our system analyzes the volatility of the selected dimension by establishing a baseline. This baseline consists of 'X' number of previous data points.
+
+**Weighted Standard Deviation and Average:** Using this baseline, the system calculates the weighted standard deviation and average for the specified KPI. This process involves giving different weights to the data points, typically placing more importance on recent data.
+
+**Confidence Interval Calculation:** The system then uses these calculations to establish a confidence interval. This interval is based on the rules of normal distribution. It helps in identifying values that deviate significantly from what's expected or normal, flagging them as anomalies.
+
+<br>

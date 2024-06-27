@@ -2,6 +2,7 @@
 title: Waterfall
 description: Introducing the waterfall histogram in dashboard
 layout: page
+scope: shiny
 ---
 
 ![waterfall]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/images/waterfall.png )

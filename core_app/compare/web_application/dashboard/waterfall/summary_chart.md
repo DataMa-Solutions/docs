@@ -2,6 +2,7 @@
 title: Summary chart
 description: This analysis is made using the metrics and the dimensions appearing in your dataset.
 layout: page
+scope: shiny
 ---
 
 ![summary_chart]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/dashboard/waterfall/images/CompareSummaryWaterfall-1024x383.jpg)

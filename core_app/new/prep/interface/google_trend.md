@@ -1,12 +1,14 @@
 ---
 title: Google Trend
-description: With DataMa Prep enrich your datasets with Google Trends data.
+description: With Datama Prep enrich your datasets with Google Trends data.
 layout: page
+scope: Datama/saas/prep
+keywords: full app prep enrich google trend
 ---
 
 > **Google Trend is most of the time a dataset that needs to be appended with another dataset.**
 
-**With DataMa Prep add value to your dataset**
+**With Datama Prep add value to your dataset**
 
 Our tools allow you to enrich your local data with external data like Google Trend and others. Allowing you to understand all your kpi variation
 

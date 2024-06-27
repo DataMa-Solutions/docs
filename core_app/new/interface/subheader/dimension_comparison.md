@@ -1,23 +1,25 @@
 ---
 title: Dimension Comparison
-description: Find here how you can use the Comparison menu of the subheader of the DataMa Solutions
+description: Find here how you can use the Comparison menu of the subheader of the Datama Solutions
 layout: page
+scope: Datama/saas
+keywords: full app subheader sub header settings dimension comparison
 ---
 
 <br>
 
-> Find here how you can use **the Dimension Comparison** of the subheader of the DataMa solution**
+> Find here how you can use **the Dimension Comparison** of the subheader of the Datama solution**
 
 <br>
 
-Defining what you want to compare is the very first step of your analysis in DataMa Compare as in DataMa Assess
+Defining what you want to compare is the very first step of your analysis in Datama Compare as in Datama Assess
 In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions
 
 <br>
 
 ## **Select Dimension used for comparison**
 
-By default, DataMa selects the first column of your dimensions as the comparison dimension.
+By default, Datama selects the first column of your dimensions as the comparison dimension.
 You can change the comparison dimension by two manners:
 - Click on the comparison icon on the top left corner and then click on the balance icon on the dimension you want to use for comparison
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison.png"/></center>
@@ -30,9 +32,9 @@ You can change the comparison dimension by two manners:
 
 ## **Select segments for comparison**
 
-By default, DataMa selects values for comparison as follows:
-- If the comparison dimension is a date, then DataMa splits the total range of time in two periods of equal size and use the first part as definition for Starting point of your comparison, and the second part of the time range as the end point of your comparison
-- If the comparison dimension is anything other than a date (string or int), then DataMa uses the last value (in alphabetical order) as the end point and the pre-last value as the starting point.
+By default, Datama selects values for comparison as follows:
+- If the comparison dimension is a date, then Datama splits the total range of time in two periods of equal size and use the first part as definition for Starting point of your comparison, and the second part of the time range as the end point of your comparison
+- If the comparison dimension is anything other than a date (string or int), then Datama uses the last value (in alphabetical order) as the end point and the pre-last value as the starting point.
 You can choose what you want to Compare by selecting the appropriate value for the end point (on the top part) and the starting point of your comparison (on the bottom part)
 
 Here is an example for a date:

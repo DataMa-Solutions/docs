@@ -2,6 +2,7 @@
 title: Filters
 description: The filters menu is composed of 2 main options for each dimension of your dataset.
 layout: page
+scope: shiny
 ---
 
 The **filters menu** is composed of 2 main options for each dimension of your dataset:

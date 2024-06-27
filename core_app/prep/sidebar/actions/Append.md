@@ -2,13 +2,14 @@
 title: Append action
 description: Append action allow you to merge two source flow in one.
 layout: page
+scope: shiny
 ---
 
 **Append action allow you to merge two source flow in one.**
 
 ### Why ? 
 
-DataMa Prep allow you to import data from multiple source to a single output ready for DataMa Core's solutions. In order to join our multiple source we need an Append action.
+Datama Prep allow you to import data from multiple source to a single output ready for Datama Core's solutions. In order to join our multiple source we need an Append action.
 
 
 ### How to use it ?
@@ -26,6 +27,6 @@ If there are some columns shared between both dataset, it will merge them instea
 
 ![Append ui](images/Appendstep1.png)
 
-Congrats! Your dataset is ready to be uploaded in DataMa's solution!
+Congrats! Your dataset is ready to be uploaded in Datama's solution!
 
 To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)

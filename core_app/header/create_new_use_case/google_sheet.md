@@ -2,6 +2,7 @@
 title: Google sheet
 description: In this section you will find how to load your Gsheet Data
 layout: page
+scope: shiny
 ---
 
 > In this section you will find how to load your **Gsheet Data**

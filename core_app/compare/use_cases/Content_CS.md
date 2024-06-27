@@ -1,8 +1,14 @@
-# Content – Contentsquare data
+---
+title: Content Square
+description: is page details the **« Contentsquare»**  example in our demo solution.
+layout: page
+scope: shiny
+---
+# Contentsquare data
 
 > This page details the **« Contentsquare»**  example in our demo solution.
 
-This example is will show you how to specifically analyze Contentsquare data within DataMa Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
+This example is will show you how to specifically analyze Contentsquare data within Datama Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 
 You can add many additional dimensions and steps in your conversion funnel.
 

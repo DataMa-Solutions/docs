@@ -2,6 +2,7 @@
 title: Models
 description: Models you can use to compute significance test.
 layout: page
+scope: shiny
 ---
 
 > **Models** you can use to compute significance test.

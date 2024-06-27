@@ -2,6 +2,7 @@
 title: Flow
 description: The Flow tab is a graph allowing you to visualize previous point and next point for a choosen touch point (Point in Detailed View Filter) on a choosen metric (Metric in Detailed View Filter).
 layout: page
+scope: shiny
 ---
 
 The Flow tab is a graph allowing you to visualize previous point and next point for a choosen touch point (Point in Detailed View Filter) on a choosen metric (Metric in Detailed View Filter).

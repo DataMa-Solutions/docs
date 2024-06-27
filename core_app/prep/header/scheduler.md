@@ -1,15 +1,16 @@
 ---
 title: Using the scheduler
-description: When enabled, the scheduler will allow you to pre-compute making DataMa Analysis faster.
+description: When enabled, the scheduler will allow you to pre-compute making Datama Analysis faster.
 layout: page
+scope: shiny
 ---
 
-> **When enabled, the scheduler will allow you to pre-compute making DataMa Analysis faster.**
+> **When enabled, the scheduler will allow you to pre-compute making Datama Analysis faster.**
 
 ## Scheduler
 
 ### What is Datama scheduler
-When enabled, the scheduler will allow you to pre-compute making DataMa Analysis faster.
+When enabled, the scheduler will allow you to pre-compute making Datama Analysis faster.
 
 It's a good practice to use schedulers when you have a scheduled export (on slack or by email etc...) because it'll pre-compute your data and the analysis will be faster.
 

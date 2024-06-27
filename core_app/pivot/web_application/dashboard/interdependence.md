@@ -2,6 +2,7 @@
 title: Interdependence
 description: The calculation is made using a simple correlation rate to determine whether dimensions are independent.
 layout: page
+scope: shiny
 ---
 
 ### Simple test Matrix – Correlation

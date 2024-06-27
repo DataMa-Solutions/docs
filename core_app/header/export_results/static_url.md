@@ -1,14 +1,15 @@
 ---
 title: Export as a static URL
-description: DataMa outcomes can be extracted as a secured URL and embedded in different tools (Tableau, Data Studio, web browser,…).
+description: Datama outcomes can be extracted as a secured URL and embedded in different tools (Tableau, Data Studio, web browser,…).
 layout: page
+scope: shiny
 ---
 
-> DataMa outcomes can be extracted as a secured URL and embedded in different tools (Tableau, Data Studio, web browser,…)
+> Datama outcomes can be extracted as a secured URL and embedded in different tools (Tableau, Data Studio, web browser,…)
 
-_Make sure you have the licence rights to share your content. If not, contact your DataMa Customer success rep._
+_Make sure you have the licence rights to share your content. If not, contact your Datama Customer success rep._
 
-To export DataMa outcomes as public URL, click on « Export results » in the admin header and select « URL » option.
+To export Datama outcomes as public URL, click on « Export results » in the admin header and select « URL » option.
 
 You need to tick « enable sharing as public URL » to go further.
 
