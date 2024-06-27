@@ -12,7 +12,7 @@ layout: post
 La dernière release a amené son lot de nouveautés dont une nouvelle approche des filtres et de la comparaison ! 🎉
 Comment ça marche ? 🤔  
 
-D'abord accédez à la comparaison :cliquez sur “Comparison” puis sélectionnez la dimension sur laquelle vous souhaitez comparer. (Optionnel : sélectionnez “Secondary Comparison” pour ajouter une comparaison supplémentaire).  
+D'abord accédez à la comparaison : cliquez sur “Comparison” puis sélectionnez la dimension sur laquelle vous souhaitez comparer. (Optionnel : sélectionnez “Secondary Comparison” pour ajouter une comparaison supplémentaire).  
 Ensuite sélectionnez vos segments : choisissez les segments pour chacune de vos comparaisons pour affiner aux mieux votre analyse.  
 
 Nouveautés:
