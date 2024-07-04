@@ -1,5 +1,5 @@
 ---
-title: Tips of the week ! In French
+title: Tips of the week! In French
 layout: feed
 feed_name: totw_fr
 description: |
