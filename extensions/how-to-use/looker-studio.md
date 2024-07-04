@@ -49,7 +49,7 @@ Follow these steps to add Datama in your report :
 1. Edit your report
 2. In the toolbar, click _Community visualizations and components Community visualization icon_
 3. Click on "_Explore more_"
-4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file"
+4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file" (by default you can copy paste this path: `gs://app.datama.io/looker-datama-light` )
 
 <br>
 
@@ -82,7 +82,7 @@ Once you've imported the extension, here is how you can use it.
 2.  **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
      - by default, Datama will select the first two elements of your dimension, or split a date range in two.
 3.  **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
-     - To better defined your steps (or metric equation), you can read our dedicated [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+     - To better define your steps (or metric equation), you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
 4.  **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 <br/>
