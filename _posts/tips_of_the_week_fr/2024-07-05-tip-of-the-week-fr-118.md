@@ -9,9 +9,9 @@ img_height: 300
 layout: post
 ---
 
-Dans Datama Compare, vous pouvez facilement voir comment différents segments d'une dimension affectent vos indicateurs clés. En ajoutant « Ranking» et « Ranking change» à votre vue tableau, vous pouvez facilement voir le classement d'un segment sur un KPI et le changement de classement entre les deux valeurs que vous comparez. 🥇🏆
+Dans Datama Compare, vous pouvez facilement voir comment différents segments d'une dimension affectent vos indicateurs clés. En ajoutant « Ranking» et « Ranking change» à votre vue tableau, vous pouvez facilement voir le classement d'un segment sur un KPI et le changement de classement entre les deux valeurs que vous comparez. 🥇🏆  
 
-Par exemple, vous pouvez voir que pour la dimension device, le “ mobile ” est passé du rang 2 lors de la période précédente au rang 1 lors de la période actuelle. Cela équivaut à un 'Changement de Classement' de +1.
+Par exemple, vous pouvez voir que pour la dimension device, le “ mobile ” est passé du rang 2 lors de la période précédente au rang 1 lors de la période actuelle. Cela équivaut à un 'Changement de Classement' de +1 ⬆️  
 
 Pour utiliser cette fonctionnalité, cliquez sur l'onglet « Table », cliquez sur l'icône d'engrenage ⚙️ en haut à droite, et cochez les cases « Ranking » et «Ranking change». Essayez-le maintenant et analysez facilement les tendances de performance ! 🚀
 Bon classement ! 🎉
