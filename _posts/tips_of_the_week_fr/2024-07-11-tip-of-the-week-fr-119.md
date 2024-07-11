@@ -9,11 +9,11 @@ img_height: 300
 layout: post
 ---
 
-En créant votre propre organisation, vous pouvez désormais disposer d'un espace collaboratif où vous pouvez travailler et partager vos cas d'usage avec plusieurs utilisateurs 🤝
+En créant votre propre organisation, vous pourrez désormais disposer d'un espace collaboratif où vous pourrez travailler et partager vos "Use Cases" avec plusieurs utilisateurs 🤝
 
 En quelques clics :
 - Créez votre organisation 🏢
 - Invitez les membres de votre équipe 📧
-- Gérer tous les accès 🔐
+- Gérez tous les accès 🔐
 
 La fonctionnalité est en bêta pour l'instant, alors demandez un accès bêta à votre CSM et cliquez ensuite sur "Organisation > Information" pour commencer à créer votre organisation ! 👥
