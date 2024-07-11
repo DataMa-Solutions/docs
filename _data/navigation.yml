@@ -876,6 +876,8 @@
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan.html
+        - name: Qlik
+          link: /extensions/how-to-use/qlik.html
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
           subnav:
