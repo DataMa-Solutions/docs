@@ -1,31 +1,32 @@
 ---
-title: How to use Datama Light in Looker Studio
+title: How to use Datama Light in Qlik
 layout: page
 scope: Datama/light
-keywords: Looker LookerStudio get started
+keywords: Looker Qlik get started
 ---
 
 <br/>
 
-> Using Datama Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both Datama and Looker Studio.
+> Using Datama Solutions as a Qlik extension is a great way to make your report more insightful with the benefits of both Datama and Qlik.
 
 <br/>
 
 Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-advanced-usage)
-8. [Get more insights](#8-get-more-insights)
-9. [Support and Resources](#9-support-and-resources)
+3. [Import Extension](#3-add-the-extension-to-your-list-of-qlik-extensions)
+4. [Installation](#4-add-the-extension-into-your-app)
+5. [Free trial Period](#5-get-a-free-trial-period)
+6. [How to use](#6-getting-started)
+7. [Read your analysis](#7-read-your-analysis)
+8. [Settings](#8-advanced-usage)
+9. [Get more insights](#9-get-more-insights)
+10. [Support and Resources](#10-support-and-resources)
 
 <br/>
 
 ## 1. Overview
-This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for LookerStudio. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Qlik. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 <br/>
 
@@ -39,25 +40,43 @@ This document provides detailed documentation for the "Datama Compare - Smart wa
 
 <br/>
 
+## 3. Add the extension to your list of Qlik extensions
 
-## 3. Add the extension into your report
+In order to use Datama in your report, you first need to add a new extension to your Management Console. 
 
-In order to use Datama in your report, you need to add a new visualization from the community. 
+To add the Datama extension to Qlik Sense Online, follow these steps : 
 
-Follow these steps to add Datama in your report : 
-
-1. Edit your report
-2. In the toolbar, click _Community visualizations and components Community visualization icon_
-3. Click on "_Explore more_"
-4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file" (by default you can copy paste this path: `gs://app.datama.io/looker-datama-light` )
-
-<br>
-
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+1. Open your _Management console_
+2. On the left side panel, click _Extensions_
+3. Click on the _Add_ button on the top right of the page
+4. Then browse your file and add the extension
+5. Finally, click _Upload_
 
 <br>
 
-## 4. Get a free trial period
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_upload_extension.gif" /></center>
+
+<br/>
+
+## 4. Add the extension into your app
+
+Follow these steps to add Datama in your app : 
+
+1. From the _Analytics Services_ page, open your App
+2. Click on the sheet you want to use Datama on
+3. If you are not in edit mode, click on _Edit sheet_
+4. Make sure _Advanced options_ is turned on
+5. On the _Assets_ panel on the left, click _Custom objects_
+6. Click on _Extension_
+7. Drag and drop the Datama extension in your sheet
+
+<br>
+
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
+
+<br>
+
+## 5. Get a free trial period
 
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
@@ -66,12 +85,9 @@ You can get a free trial period of 7 days allowing you to test the full version 
 3. Create your Datama account
 4. Get your Trial extension
 
-
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
-
 <br>
 
-## 5. Getting started
+## 6. Getting started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -82,11 +98,12 @@ Once you've imported the extension, here is how you can use it.
 2.  **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
      - by default, Datama will select the first two elements of your dimension, or split a date range in two.
 3.  **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
-     - To better define your steps (or metric equation), you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
+     - To better defined your steps (or metric equation), you can read our dedicated [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
 4.  **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 <br/>
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
+
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_add_dimensions_and_metrics.gif" /></center>
 
 <br/>
 
@@ -95,7 +112,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 6. Read your Analysis
+## 7. Read your Analysis
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
@@ -106,19 +123,19 @@ To discover more about how to read Waterfall, you can read our [dedicated sectio
 
 <br/>
 
-## 7. Advanced Usage
+## 8. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare//settings/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 
-## 8. Get more insights
+## 9. Get more insights
 
 Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/introduction.html)
 
 <br/>
 
-## 9. Support and Resources
+## 10. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
