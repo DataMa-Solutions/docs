@@ -2,6 +2,7 @@
 title: Journey Separator
 description: By using the text input, you can change the seperator between steps of your journeys.
 layout: page
+scope: shiny
 ---
 
 > **Attribution must be activated**

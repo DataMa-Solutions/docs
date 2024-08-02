@@ -1,10 +1,11 @@
 ---
 title: Mail
-description: DataMa Prep include a mail connector allowing to you to use data from mail reports.
+description: Datama Prep include a mail connector allowing to you to use data from mail reports.
 layout: page
+scope: shiny
 ---
 
-**You can plug to your Mail reports in DataMa PREP.**
+**You can plug to your Mail reports in Datama PREP.**
 
 <br>
 

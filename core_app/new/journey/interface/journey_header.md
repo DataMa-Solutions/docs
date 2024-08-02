@@ -1,12 +1,14 @@
 ---
 title: Journey - Settings
-description: The header in DataMa Journey helps you manipulate and refine your Use Cases
+description: The header in Datama Journey helps you manipulate and refine your Use Cases
 layout: page
+scope: Datama/saas/journey
+keywords: full app journey interface header
 ---
 
 <br>
 
-> The header in DataMa Journey helps you manipulate and refine your Use Cases
+> The header in Datama Journey helps you manipulate and refine your Use Cases
 
 <br>
 
@@ -14,7 +16,7 @@ layout: page
 
 <br>
 
-Find here the main elements of the solution Header in DataMa Journey:
+Find here the main elements of the solution Header in Datama Journey:
 
 <br>
 
@@ -25,6 +27,8 @@ Find here the main elements of the solution Header in DataMa Journey:
 <b>Sunburst:<b><br>
 - [Simplify Sunburst](#simplify-sunburst)
 - [Maximum Number of steps in Sunburst](#maximum-number-of-steps-in-sunburst)
+- [Display exits in Sunburst](#display-exits-in-sunburst)
+- [Reverse Journey](#reverse-journey)
 
 <br>
 <b>Attribution:<b><br>
@@ -82,6 +86,18 @@ By default, only 6 steps of user journeys are represented. This can be changed b
 
 <br>
 
+## Display exits in Sunburst
+
+By default, journey exits are displayed. It shows the proportion of people who have exited the journey.
+
+<br>
+
+## Reverse Journey
+
+By activating Reverse Journey, you can display the users' reverse journeys. This is useful to know where they come from.
+
+<br>
+
 # <b>Attribution<b>
 <br>
 
@@ -128,10 +144,10 @@ For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch
 
 ## Comparison
 
-DataMa Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing.
+Datama Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing.
 
 <br>
 
 ## KPI
 
-In DataMa Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).
+In Datama Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).

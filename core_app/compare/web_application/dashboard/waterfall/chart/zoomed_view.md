@@ -2,6 +2,7 @@
 title: Zoomed view
 description: Zoomed view is opened when clicking on one step of the overall waterfall chart.
 layout: page
+scope: shiny
 ---
 
 **Zoomed view** is opened when clicking on one step of the overall waterfall chart

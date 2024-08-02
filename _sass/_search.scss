@@ -1,4 +1,23 @@
+/*!
+ * Datama SAS
+ * --------------
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Datama SAS and/or some open source packages used
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Datama SAS
+ * and its suppliers and may be covered by French and Foreign Patents,
+ * patents in process, and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Datama SAS.
+ * Notice created by Django <django@Datama.fr>, Wazhabits <anatole@Datama.fr> updated by Anatole Piveteau
+ * Copyright (c) 2023 Datama SAS, All rights reserved.
+ * Generated for file : _search.scss project project-deep-sky
+ */
+
 .search-result {
+  list-style: none;
+  margin-bottom: 0.75rem;
   & > a {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +35,24 @@
       font-weight: 300;
       color: #333;
     }
+    &  > .search-group {
+      &::before {
+        content: unset;
+      }
+      width: fit-content;
+      height: fit-content;
+      max-width: unset;
+      margin-left: 0;
+      margin-right: auto;
+      font-size: 10px;
+      text-transform: capitalize;
+      font-weight: 500;
+      transform: unset;
+      background: $datagreen;
+      color: white;
+      padding: 2px;
+      border-radius: 10px;
+    }
     &:hover {
       text-decoration: none;
       & > strong {
@@ -26,15 +63,14 @@
       }
     }
   }
-  margin-bottom: 0.5rem;
 }
-
 .search-group {
   display: inline-block;
   position: relative;
   width: 100%;
   max-width: 800px;
   margin-left: 50%;
+  margin-right: -50%;
   transform: translateX(-50%);
   .search-bar {
     width: 100%;
@@ -60,7 +96,6 @@
     color: #333;
   }
 }
-
 .search-bar+.search-result:empty {
   display: none;
 }
@@ -69,7 +104,7 @@
   display: block;
 }
 .search-result>button {
-  background: #149588;
+  background: $datagreen;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -81,4 +116,25 @@
 }
 .search-pages {
   display: none;
+}
+.search-tags {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: left;
+  padding: 5px 0;
+  & * {
+    width: fit-content;
+    font-size: 10px;
+    text-transform: capitalize;
+    border: 1px solid $datagreen;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin: 0;
+    margin-right: 5px;
+    transform: unset;
+    &::before {
+      content: unset;
+    }
+  }
 }

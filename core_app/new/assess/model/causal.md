@@ -2,6 +2,8 @@
 title: Model - Causal Impact
 description: Causal Impact test allows to assess the significance of a variation pre-post an intervention on a test group.
 layout: page
+scope: Datama/saas/assess
+keywords: full app assess model causal
 ---
 
 <br>
@@ -16,7 +18,7 @@ For instance, you are a large website and you want to test a new strategy in SEO
 
 <i>Here is an example of a compatible dataset. Note that CausalImpact is a time series approach so requires a “date” column.</i>
 
-Once uploaded in DataMa Impact, you then need to define what you are comparing (in that case, pre-post the change, on the 30th of Jan 2022)
+Once uploaded in Datama Impact, you then need to define what you are comparing (in that case, pre-post the change, on the 30th of Jan 2022)
 
 
 <br>
@@ -42,7 +44,7 @@ Once settings are properly defined, you can hit “Compute” and results will s
 
 <br>
 
-Note: DataMa Causal Impact is based on the work from Kay H. Brodersen, Alain Hauser at Google released through the [CausalImpact R package](https://google.github.io/CausalImpact/CausalImpact.html) 
+Note: Datama Causal Impact is based on the work from Kay H. Brodersen, Alain Hauser at Google released through the [CausalImpact R package](https://google.github.io/CausalImpact/CausalImpact.html) 
 
 
 See also: [Causal Impact](https://research.google/pubs/pub41854/)

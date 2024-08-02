@@ -1,8 +1,14 @@
+---
+title: Use cases examples
+description: Find below information about our example use cases, [demo](https://solutions.Datama.fr/) solution.
+layout: page
+scope: shiny
+---
 # Use cases examples
 
 ------------------
 
-Please check all live examples on [demo.datama.fr](http://solutions.datama.fr/) !
+Please check all live examples on [demo.Datama.fr](http://solutions.Datama.fr/) !
 
 Here is how to change use case:
 

@@ -2,9 +2,10 @@
 title: Product - AB test
 description: As for the other examples, number of dimension could be extended to all the data available from your AB Test.
 layout: page
+scope: shiny
 ---
 
-> Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.datama.fr/) solution.
+> Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.Datama.fr/) solution.
 
 {{ page.description }}
 

@@ -2,6 +2,7 @@
 title: Clustering
 description: The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator).
 layout: page
+scope: shiny
 ---
 
 ## Simple Chart

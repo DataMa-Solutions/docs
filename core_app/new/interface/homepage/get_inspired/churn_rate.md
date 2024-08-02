@@ -2,6 +2,8 @@
 title: Churn rate Comparison analysis
 description: This use case presents a churn rate comparison analysis from last year to this year
 layout: page
+scope: Datama/saas
+keywords: full app get inspired flow demo 
 ---
 > This use case presents a **churn rate** comparison analysis from last year to this year
 
@@ -43,7 +45,7 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=2097497440&amp;single=true&amp;widget=true&amp;headers=false" width="860" height="500"></iframe>
 
-## In DataMa Compare
+## In Datama Compare
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_ChurnRate.JPG "/></center>
 

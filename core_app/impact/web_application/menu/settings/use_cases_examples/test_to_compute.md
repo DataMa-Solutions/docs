@@ -2,6 +2,7 @@
 title: Test to compute
 description: By using the dropdown menu, you can choose different way to compute your significance test, which will have a different display in the interface.
 layout: page
+scope: shiny
 ---
 
 By using the dropdown menu, you can choose different way to compute your significance test, which will have a different display in the interface.

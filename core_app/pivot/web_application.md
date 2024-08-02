@@ -2,6 +2,7 @@
 title: Web application
 description: Here is the description of the main part of the web application.
 layout: page
+scope: shiny
 ---
 
 The interface is split in three main parts:

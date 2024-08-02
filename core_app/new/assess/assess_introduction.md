@@ -1,17 +1,19 @@
 ---
 title: Assess - General Introduction
-description: DataMa Assess aims at evaluating the difference of a KPI between two populations of interest.
+description: Datama Assess aims at evaluating the difference of a KPI between two populations of interest.
 layout: page
+scope: Datama/saas/assess
+keywords: full app assess introduction
 ---
 
 <br>
 
-> **DataMa Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points**
+> **Datama Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points**
 
 <br>
 
 
-DataMa Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points
+Datama Assess allows you to quickly assess the statistical significance of a difference on any KPI between two points
 
 The significance of the difference can be assessed between two variants of an AB test, two periods of time, or basically anything you would like to compare. 
 

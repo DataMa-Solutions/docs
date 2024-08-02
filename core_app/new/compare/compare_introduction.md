@@ -1,16 +1,18 @@
 ---
-title: DataMa Compare
-description: DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors causing your performance indicators to increase or decrease.
+title: Datama Compare
+description: Datama COMPARE is a data analysis tool that allows you to quickly identify and understand the factors causing your performance indicators to increase or decrease.
 layout: page
+scope: Datama/saas/compare
+keywords: full app compare introduction
 ---
 
 <br>
 
-> **DataMa COMPARE is a data analysis tool that allows you to quickly identify and understand the factors causing your performance indicators to increase or decrease.**
+> **Datama COMPARE is a data analysis tool that allows you to quickly identify and understand the factors causing your performance indicators to increase or decrease.**
 
 <br>
 
-DataMa COMPARE makes it easy to explain variations of any KPI between two segments.
+Datama COMPARE makes it easy to explain variations of any KPI between two segments.
 
 This documentation gives you an overview of how it works and how to use it.
 
@@ -21,7 +23,9 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" /></center>
+<center>
+    <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" width="70%" />
+</center>
 
 This analysis is possible thanks to **2 main types** of data collected from your business:
 
@@ -33,8 +37,8 @@ But it can also come from other third party players, such as market data or publ
 
 ---------------------
 
-Follow this [link](https://www.datama.io/datama_compare/), to get access to a more commercial presentation.
+Follow this [link](https://www.Datama.io/Datama_compare/), to get access to a more commercial presentation.
 
 Hope you enjoy it.
 
-Please feel free to send any [feedback](https://datama.io/lets-talk/) and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
+Please feel free to send any [feedback](https://Datama.io/lets-talk/) and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.

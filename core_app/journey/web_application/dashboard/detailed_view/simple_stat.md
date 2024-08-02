@@ -2,6 +2,7 @@
 title: Simple Stat
 description: The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys.
 layout: page
+scope: shiny
 ---
 
 The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:

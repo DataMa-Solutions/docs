@@ -2,6 +2,7 @@
 title: Dashboard
 description: Find in the menu below some details on each part of the dashboard.
 layout: page
+scope: shiny
 ---
 
 > *Find* in the menu below some details on each part of the **dashboard.**

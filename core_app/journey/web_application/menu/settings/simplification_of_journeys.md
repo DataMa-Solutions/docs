@@ -2,6 +2,7 @@
 title: Simplification of journey
 description: By using the dropdown menu, you can simplified your journeys by removing duplicates journeys or removing duplicates steps in journeys.
 layout: page
+scope: shiny
 ---
 
 > **Attribution must be activated**

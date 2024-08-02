@@ -2,6 +2,7 @@
 title: Web application
 description: The interface is split in three main parts.
 layout: page
+scope: shiny
 ---
 
 The interface is split in three main parts:

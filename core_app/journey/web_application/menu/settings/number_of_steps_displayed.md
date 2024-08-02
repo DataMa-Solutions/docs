@@ -2,6 +2,7 @@
 title: Number of steps displayed
 description: By using the dropdown menu, you can choose to display only a part of your journeys' steps or all of them.
 layout: page
+scope: shiny
 ---
 
 >**Attribution must be activated**

@@ -2,6 +2,7 @@
 title: Frequentist (other)
 description: In the frequentist approach, the outcome can be any variable. However, the data should be either unaggregated, or aggregated in comparable groups.
 layout: page
+scope: shiny
 ---
 
 In the frequentist approach, the outcome can be any variable. However, the data should be either unaggregated, or aggregated in comparable groups.

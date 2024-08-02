@@ -2,6 +2,7 @@
 title: Data
 description: The Data Tab is the table used to generate the others tabs of Attribution.
 layout: page
+scope: shiny
 ---
 
 > The **Data Tab** is the table used to generate the others tabs of Attribution

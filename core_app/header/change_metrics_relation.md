@@ -2,6 +2,7 @@
 title: Change metrics relation
 description: Using metrics relation allows you to change your market equation, rename your step or even indicate a threshold.
 layout: page
+scope: shiny
 ---
 
 > Using **metrics relation** allows you to change your market equation, rename your step or even indicate a threshold

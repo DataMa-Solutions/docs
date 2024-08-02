@@ -2,6 +2,7 @@
 title: Other important modeling components
 description: Here is a list of modeling components available.
 layout: page
+scope: shiny
 ---
 
 ## Clustering
@@ -23,7 +24,7 @@ Combined dimension is created by concatenating all clustered dimensions into one
 ## Significance
 
 In 'Safe Mode', simple check of minimal volume (manually inputted) for given metric in Start and End
-You can also use DataMa Impact to assess properly signifiance of variations
+You can also use Datama Impact to assess properly signifiance of variations
 
 ## Scope
 
