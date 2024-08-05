@@ -428,6 +428,8 @@
                   link: /core_app/new/prep/interface/add_source.html#google-trends
                 - name: Facebook
                   link: /core_app/new/prep/interface/add_source.html#facebook
+                - name: Amazon Redshift
+                  link: /core_app/new/prep/interface/add_source.html#amazon-redshift
 
             - name: Extensions #done
               link: /core_app/new/integration/integrations.html
