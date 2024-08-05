@@ -90,7 +90,7 @@ Main element of the extension is the waterfall graph.
 
 > Datama reveals the impact of each data variation on your Key Performance Indicators (KPIs):
 
-Each waterfall step represents a variance of a ratio of your performance, offering insights into their individual contributions.
+Each waterfall step represents a variance of a ratio of your performance, offering insights into their individual contributions
 
 - The waterfall below is explaining the gap of -28,1% in Revenue from last year (45,549€) to this year (32,747€)
 - Each step is a variation that explains the gap of -28.1% (mainly due to -11.7% of Users and -26.7% of Checkout/ Session)
@@ -101,7 +101,7 @@ Each waterfall step represents a variance of a ratio of your performance, offeri
 
 <br/>
 
-- After seeing the quantitative variation of your Revenue, it’s time to understand what causes this variation.
+- After seeing the quantitative variation of your Revenue, it’s time to understand what causes this variation. To do so :
 - By clicking on a step, the graph displays the dimension that best explains your variations and give the impact each element of this dimension has on that variation. (by clicking right then "Split by" you can see the interest score of other dimension and choose to modify the dimension that appears.) 
 - Each variation is split between mix and performance (see article or the next section to understand the difference)
 
