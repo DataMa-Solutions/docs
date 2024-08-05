@@ -101,7 +101,7 @@ Each waterfall step represents a variance of a ratio of your performance, offeri
 
 <br/>
 
-- After seeing the quantitative variation of your Revenue, it’s time to understand what causes this variation :
+- After seeing the quantitative variation of your Revenue, it’s time to understand what causes this variation.
 - By clicking on a step, the graph displays the dimension that best explains your variations and give the impact each element of this dimension has on that variation. (by clicking right then "Split by" you can see the interest score of other dimension and choose to modify the dimension that appears.) 
 - Each variation is split between mix and performance (see article or the next section to understand the difference)
 
