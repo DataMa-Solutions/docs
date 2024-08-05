@@ -21,7 +21,8 @@ Datama <a href="https://app.datama.io/" target="_blank">demo</a> has a series of
 
 As for example:
 
-<center> <iframe width=610 height=260 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXRV_yX735skN1XO80vxldchFr5tii0E1mUgk0vdkaZaOGDxHY9yVZEk0wXb1zag0OVIQzxRBm1zuw/pubhtml?gid=1408263987&amp;single=true&amp;widget=true&amp;headers=false"></iframe> </center>
+<center> <iframe width=610 height=260 src="https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/pubhtml?gid=1408263987&single=true&widget=true&headers=false
+"></iframe> </center>
 
 ## Order of columns
 
@@ -45,7 +46,7 @@ To decide which dimensions you want in your source, you may want to think about 
 
 If a dimension is continuous (i.e. numeric) and has more than 6 possible values, it will get discrete by a partition algorithm, in order to be able to compute mix effects & performance.
 
-Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
+Number of dimension are theoretically unlimited. However, as your dataset get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
 <br/>
 
@@ -54,4 +55,4 @@ Number of dimension are theoretically unlimited. However, as your data set get b
 > **Warning:** Datama JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
 
 
-🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) you need to first configure your flow (using a variety of sources and action blocks) and then click on the Datama block there you will be able to define Metrics and relations
+🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) you need to first configure your flow (using a variety of sources and action blocks) and then click on the Datama block there you will be able to define Metrics and relations

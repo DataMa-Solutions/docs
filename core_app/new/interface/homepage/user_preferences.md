@@ -10,7 +10,7 @@ keywords: full app home user preferences
 
 Here is the panel of the user preferences for workbook style.
 <br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.png"/></center>
 <br>
 
 
@@ -42,6 +42,7 @@ Graphs colors are customizable, in 3 different ways.
 Grayscale, scattered and Custom.
 The custom method allows to refine color by color all the graphs available in the solution.
 
+
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/colors_palette.png"/></center>
 
 - Select <i>>custom</i> in the dropdown meny : "Colors Palette for plots"
@@ -50,6 +51,12 @@ The custom method allows to refine color by color all the graphs available in th
 - Select the color you want to change by clicking on the part of the graph
 - Select a new color and close the popup (no apply or OK button...it's automatically saved)
 - Datama is going the refresh the graph with the new color
+
+<br/>
+
+### **Reverse palette**
+
+ Reverse palette function allows to reverse the colors used to express growth or loss.
 
 <br/>
 
