@@ -27,6 +27,7 @@ Here is the available connectors:
 - [Google trends](#google-trends)
 - [Facebook](#facebook)
 - [Piano Analytics (AT Internet)](#piano-analytics)
+- [Amazon Redshift](#amanzon-redshift)
 
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 

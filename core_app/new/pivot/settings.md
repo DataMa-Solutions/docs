@@ -1,5 +1,5 @@
 ---
-title: Pivot - Settings
+title: Pivot - Settings 1
 description: Here is the different settings available in Datama Pivot
 layout: page
 scope: Datama/saas/pivot

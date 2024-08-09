@@ -32,4 +32,6 @@ Statistical significance is assessed using Statistical tests, and you can play w
  
  <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_interface.jpg" alt="assess interface" /></center>
+<!-- <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_interface.jpg" alt="assess interface" /></center> -->
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_interface.png" alt="assess interface" /></center>
