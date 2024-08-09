@@ -13,30 +13,29 @@ The filters menu is composed of 2 main options for each dimension of your datase
 - run the analysis on 1 or multiple segments of the dimensions  
 - exclude some dimensions/segments from the analysis.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filter_new.png"/></center>
 <br>
 
 ## **Filter:**
-Segment within a given dimension that you want to filter on. Just click on the button and select what you want to filter on.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_segment.jpg"/></center>
+Segment within a given dimension that you want to filter on. Just click on "Filter" and "Add a new filter".
 
-Segment can also be filtered with a right click on the segment in the waterfall. The calculation will re-run automatically.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_exclude.jpg"/></center>
-<br>
+Then, you can to tick the different choices available.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filter_selection.png"/></center>
+
+According to your selection, the calculation will re-run automatically.
 
 
 ## **Filters options:**
 
 - **Compare:** Activate this dimension as the comparison dimension (start and end definition)
-- **Use reguler expresion:** Filter by using reguler expression
-- **Exclude this dimension:** This dimension will be ignore from the analysis and is not going to be raised as an explanation factory.
+- **Use regular expresion:** Select an operator in the filters to refine your searches (by inclusion or exclusion criteria, “contains”, etc.) 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_advanced.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filter_operator.png"/></center>
 <br>
 
-## **Excluded dimension:**
-Dimension (column of your dataset) you want to exclude from the analysis. Click on the cross of the pill to exclude the dimension.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_Cross_exclude.jpg"/></center>
+## **Exclude / Re-include dimension:**
+Dimension (column of your dataset) could be excluded or re-included from the analysis. Click on the cross of the pill to exclude the dimension.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/exclude_dimension.png"/></center>
 
-You then need to click on the bin to re-include the dimension.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_excludedDim.jpg"/></center>
+You then need to click on the tick to re-include the dimension.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/include_dimension.png"/></center>
