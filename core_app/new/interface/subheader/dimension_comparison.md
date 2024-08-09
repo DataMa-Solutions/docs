@@ -20,27 +20,26 @@ In the waterfall you can either compare dates (start period vs end period) or se
 ## **Select Dimension used for comparison**
 
 By default, Datama selects the first column of your dimensions as the comparison dimension.
-You can change the comparison dimension by two manners:
-- Click on the comparison icon on the top left corner and then click on the balance icon on the dimension you want to use for comparison
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison.png"/></center>
+To change it : 
+- Click on "Comparison"
 
-- Click on the filter section and then on a pill of the dimension you want to use for comparison, and then toggle the “Compare” button
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_config.png"/></centre>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison2.png"/></center>
+- And select the dimension you want to compare on : 
 
-<br>
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/dimension_selection.png"/></centre>
 
-## **Select segments for comparison**
+- Then select your segments for each of your comparisons. If needed, you can refine your analysis as much as possible.
 
-By default, Datama selects values for comparison as follows:
-- If the comparison dimension is a date, then Datama splits the total range of time in two periods of equal size and use the first part as definition for Starting point of your comparison, and the second part of the time range as the end point of your comparison
-- If the comparison dimension is anything other than a date (string or int), then Datama uses the last value (in alphabetical order) as the end point and the pre-last value as the starting point.
-You can choose what you want to Compare by selecting the appropriate value for the end point (on the top part) and the starting point of your comparison (on the bottom part)
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/segment_selection.png"/></centre>
 
-Here is an example for a date:
-<left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_date.png"/></left>
+- You will get a graph like this :
 
-Here is an example for a string:
-<left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_text.png"/></left>
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/result.png"/></centre>
 
-[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html) chart can help you to understand what you want to compare, in case you don’t know 😅
+- Note you can also activate/deactivate  “Open comparison helper by default” and choose the view that suits you best
+
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_helper.png"/></centre>
+
+
+[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html) chart can also help you to understand what you want to compare, in case you don’t know 😅
