@@ -14,11 +14,25 @@ Helper charts can help you to understand what you want to compare and what you h
 
 ## 1. Dimension Helper
 The dimension helper helps visualise the start and end point of each dimension at each step of the waterfall.
-Change your selection by using the carret in the title of the graph. The graph represents in blue and orange what is selected as a comparison (start and end) in your analysis and in gray the value of the part that are not selected in the scope of your analysis (part of the data filtered or ignored in the start/ end definition).
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/dimension_helper.png"/></center>
+You can access to Helper by clicking "Expand Comparison configuration" when you land to Compare section.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/Expand_Comparison_configuration.png"/></center>
+
+Then, open the comparison helper by default as shown on the screenshot.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/open_comparison_helper_bydefault.png"/></center>
+
+Change your selection by using the carret in the title of the graph. 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/compare_helper_dimensions.png"/></center>
+
+The graph represents in blue and orange what is selected as a comparison (start and end) in your analysis and in gray the value of the part that are not selected in the scope of your analysis (part of the data filtered or ignored in the start/ end definition).
 
 > Tip: click on the legend to remove some bars (orange, blue or gray)
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/compare_helper_tip.png"/></center>
+
 
 ## 2. Start/ End helper
 The Dimension helper allows to visually see the performance of each period in the dataset.

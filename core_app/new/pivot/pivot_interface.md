@@ -26,13 +26,14 @@ The dimension importance is the first element of the Datama PIVOT interface. **I
 - Dimensions are sorted according to the Standard deviation which is weighted according to the volume. This basically means that **dimensions on the left of the charts have segments that differ a lot on the selected KPIs**. Depending on the dimension you’re looking at, one could then identify business opportunities in increasing the performance of low bubbles on this chart, if that is feasible.
 - Size of the bubble represents ***the volume*** and height of the bubble represents ***the value*** of your KPI for that specific segment.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_importanceChart.png"/></center>
-
+ <br>
 
 **Example:**
 The AB Test example below shows the importance of 3 dimensions to measure the rate of transition to the next stage.
 Browser is the most important dimension and Test_variant is the least important.
 Each bubble of browser, represents a type of browser (Chrome, Firefox, Safari …), the gray bar represents the value of the Weighted Standard deviation used to sort the dimension.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/importance_chart.png"/></center>
 
 <br>
 
@@ -41,7 +42,7 @@ Each bubble of browser, represents a type of browser (Chrome, Firefox, Safari �
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide. This is a non-aggregated view of the data.
 The black line is the average KPI of this element (ratio: numerator / denominator)
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_simpleChart.png" style="width:450px; height:auto;"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_simpleChart.png" /></center>
 
 <br>
 

@@ -21,10 +21,10 @@ In the waterfall you can either compare dates (start period vs end period) or se
 
 By default, Datama selects the first column of your dimensions as the comparison dimension.
 You can change the comparison dimension by two manners:
-- Click on the comparison icon on the top left corner and then click on the balance icon on the dimension you want to use for comparison
+- Click on the comparison icon on the top left corner and then click on the gear icon to access the dimension you want to use for comparison
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison.png"/></center>
 
-- Click on the filter section and then on a pill of the dimension you want to use for comparison, and then toggle the “Compare” button
+- Click the drop-down list do choose the dimension you want to compare.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison2.png"/></center>
 

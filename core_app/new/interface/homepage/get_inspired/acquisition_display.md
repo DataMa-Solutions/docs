@@ -18,7 +18,7 @@ This use case focuses on analyzing media acquisition data for marketing campaign
 
 ## Objective
 
-The objective of this use case is to compare the churn rate of different client types, genders, and products between the last year and this year. The analysis will help the business identify patterns and trends in customer retention and attrition, allowing them to make data-driven decisions to enhance customer satisfaction and loyalty.
+The objective of this use case is to compare the revenue composed by budgets, costs, impression, clics etc. between the last month and this month. The analysis will help the business identify patterns and trends in customer retention and attrition, allowing them to make data-driven decisions to enhance customer satisfaction and loyalty.
 
 <br>
 

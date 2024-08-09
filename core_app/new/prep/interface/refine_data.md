@@ -15,9 +15,10 @@ Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how yo
 Here is the available actions you can do so far in Datama Prep to refine your dataset:
 - [Clean](#clean)
 - [Append](#append)
+- [Join](#join)
 - [Filter](#filter)
 - [Pivot & Unpivot](#pivot--unpivot)
-- [What if](#what-if)
+<!-- - [What if](#what-if) -->
 
 <br>
 
@@ -56,18 +57,13 @@ In addition, Datama prep gives you the possibility to create Calculated Field us
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/create_calculated_field.png"/></center>
 
+Then, you edit like:
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/edit_calculated_field.png"/></center>
 
-This a powerfull tool to create columns using conditionals or aggregation functions without the need to manually edit your dataset.
+This a powerfull tool to create columns using conditionals or aggregation functions without the need to manually edit your dataset. Once you're done make sure to click on the "Ok" button to validate the creation of the calculated column.
+
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/calculated_field_preview1.png"/></center>
-
-
-Once you're done make sure to click on the "Ok" button to validate the creation of the calculated column.
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/calculated_field_preview2.png"/></center>
-
-
-<br>
 
 > ## <b>Append</b>
 

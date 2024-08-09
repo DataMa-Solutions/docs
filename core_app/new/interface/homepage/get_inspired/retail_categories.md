@@ -60,4 +60,4 @@ By conducting a category management performance analysis, businesses can gain va
 
 <br>
 
-To gain a deeper understanding of Metric Relation, [read our article]({{site.url}}/{{site.baseurl}}/core-app/header/input/metric-relation).
+To gain a deeper understanding of Metric Relation, [read our article]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html).

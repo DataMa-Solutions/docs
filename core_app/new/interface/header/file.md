@@ -8,7 +8,7 @@ keywords: full app header menu file
 
 > Find out how you can use **the File** menu of the header of the Solution**
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/file_menu.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/file_menu.png"/></center>
 
 Here are the options available in the "File" header menu:
 

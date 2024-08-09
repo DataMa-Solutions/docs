@@ -25,10 +25,10 @@ Find here the main elements of the solution Header in Datama Journey:
 
 <br>
 <b>Sunburst:<b><br>
+- [Reverse Journey](#reverse-journey)
+- [Display exits in Sunburst](#display-exits-in-sunburst)
 - [Simplify Sunburst](#simplify-sunburst)
 - [Maximum Number of steps in Sunburst](#maximum-number-of-steps-in-sunburst)
-- [Display exits in Sunburst](#display-exits-in-sunburst)
-- [Reverse Journey](#reverse-journey)
 
 <br>
 <b>Attribution:<b><br>
@@ -48,7 +48,7 @@ Find here the main elements of the solution Header in Datama Journey:
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.jpg">
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.png">
 
 <br/>
 
@@ -72,17 +72,9 @@ By using the text input, you can change the seperator between steps of your jour
 # <b>Sunburst<b>
 <br>
 
-## Simplify Sunburst
+## Reverse Journey
 
-By activating the dropdown menu, you can simplify your journeys by removing duplicate journeys and removing duplicate steps in journeys.
-
-This is very useful to simplify your display and decrease computation time.
-
-<br>
-
-## Maximum Number of steps in Sunburst
-
-By default, only 6 steps of user journeys are represented. This can be changed by modifying this setting.
+By activating Reverse Journey, you can display the users' reverse journeys. This is useful to know where they come from.
 
 <br>
 
@@ -92,9 +84,15 @@ By default, journey exits are displayed. It shows the proportion of people who h
 
 <br>
 
-## Reverse Journey
+## Simplify Sunburst
 
-By activating Reverse Journey, you can display the users' reverse journeys. This is useful to know where they come from.
+By activating the dropdown menu, you can simplify your journeys by removing duplicate journeys and removing duplicate steps in journeys.
+
+This is very useful to simplify your display and decrease computation time.
+
+## Maximum Number of steps in Sunburst
+
+By default, only 6 steps of user journeys are represented. This can be changed by modifying this setting.
 
 <br>
 

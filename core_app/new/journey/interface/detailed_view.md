@@ -14,30 +14,15 @@ keywords: full app journey detailed view detail details
 
 Detailed View is a group of 4 tabs. See the articles below for details on each tab:
 
-* [Simple Stat](#simple-stat)
 * [Flow](#flow)
 * [Relative](#relative)
+* [Simple Stat](#simple-stat)
 * [Data](#data)  <span style="color:red"> (Chapter in construction)</span>
 
 <br>
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/detailed_view.png"  style="width:1000px;">
 
-
-
-<br>
-
-## <b>Simple Stat</b>
-
-The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:
-
-* Frequency: number of time your metric appears on average.
-* Appearance: presence probability of your metric in journey.
-* Length: Average journey length when your metric appears
-
-**<u>Example:</u>**
-
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Simple_stat.png"  style="width:1000px;">
 
 
 <br>
@@ -65,6 +50,20 @@ Relative is another way to display the [Flow]({{site.url}}/{{site.baseurl}}/core
 **Example:**
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Relative.png"  style="width:1000px;">
+
+<br>
+
+## <b>Simple Stat</b>
+
+The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:
+
+* Frequency: number of time your metric appears on average.
+* Appearance: presence probability of your metric in journey.
+* Length: Average journey length when your metric appears
+
+**<u>Example:</u>**
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Simple_stat.png"  style="width:1000px;">
 
 <br>
 

@@ -11,14 +11,27 @@ keywords: full app home admin
 >On this page, find details on the **Admin** section of the homepage
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.png"/></center>
 
 <br>
 
 This chapter gathers different features shared amongst the homepage, such as:
+
+- [Products](#products)
 - [Security](#security)
 - [Statistics](#statistics)
-- [Licences](#licences)
+
+
+<br>
+
+# <b>Products</b>
+
+This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
+
+<br>
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/products.png"/></center>
+
 
 <br>
 
@@ -48,11 +61,11 @@ At Datama, the consumption of the solution is made according to the number of co
 
 <br>
 
-# <b>Licences</b>
+<!-- # <b>Licences</b>
 
-
+(DOES NOT EXIST IN ADMIN SECTION)
 This is a menu specific to administrators. It allows you to manage different license keys. Three options are possible for each user :
 
 - **Refresh Key** : update the user's license key
 - **Revoke** : remove the rights of a user linked to their license key
-- **Copy** : copy a user's license key
+- **Copy** : copy a user's license key -->

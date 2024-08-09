@@ -13,7 +13,7 @@ When using the solution, you can access the definition of your metric relation i
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/Edit_metricsrel.jpg"/></center>
 
-Included steps (selected): are the steps that are kept within your overall Metric Relation definition. This allows you to change your overall « Market Equation » and the KPI you’re following, as well as grouping/ expanding the steps you’ve defined
+Included steps (selected) are the steps that are kept within your overall Metric Relation definition. This allows you to change your overall « Market Equation » and the KPI you’re following, as well as grouping/ expanding the steps you’ve defined
 
 In the Subheader, the steps included will be indicated by a green outline.
 
@@ -38,7 +38,7 @@ But you can change it with "sum" to add each steps. e.g: <span style="color:red"
 
 When customising your metrics relation you should write it as below using each step between brackets (e.g. [1]) :
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/custom_metricsRel.jpg"/></center>
-When modifying a market equation make sure your calculation is still correct. in your dataset your market equation of a specific row should be equal to the last column of your dataset.
+When modifying a market equation make sure your calculation is still correct. In your dataset your market equation of a specific row should be equal to the last column of your dataset (only for default market equation).
 <br>
 
 ## What's mathematically a market equation
