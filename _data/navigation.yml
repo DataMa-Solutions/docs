@@ -258,6 +258,7 @@
             - name: Decision Tree #done
               link: /core_app/new/pivot/pivot_interface.html#decision-tree
             - name: Pivot subheader
+              link: /core_app/new/interface/subheader/dimension_comparison.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
@@ -450,6 +451,7 @@
       link: /core_app/new/integration/integrations.html
       subnav:
         - name: Power BI
+          link: /core_app/new/integration/PowerBI.html
           subnav:
             - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html

@@ -1,5 +1,5 @@
 ---
-title: Descriptive Comparison
+title: Descriptive Comparison (Journey)
 description: Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab.
 layout: page
 scope: Datama/saas/journey

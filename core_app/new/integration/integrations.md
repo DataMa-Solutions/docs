@@ -11,7 +11,7 @@ keywords: full app integration embed embedded add-on addons addon
 
 <br>
 
-![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/prep_extensionDataSet.jpg)
+![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/prep_extensionDataSet.png)
 
 <br>
 
