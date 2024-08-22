@@ -1,10 +1,12 @@
 ---
 title: Model
-description: Here is what you should now about DataMa to understand what is behing the solution
+description: Here is what you should now about Datama to understand what is behing the solution
 layout: page
+scope: Datama/saas/compare
+keywords: full app compare model
 ---
 
-> Here is what you should now about DataMa to understand what is behing the solution
+> Here is what you should now about Datama to understand what is behing the solution
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Model-300x266.jpg"/></center>
 
@@ -25,14 +27,14 @@ See details here for [Mix Effects]({{site.url}}/{{site.baseurl}}/core_app/new/co
 ### Mix effect
 For each step, analyze how much mix effects on each dimension contributes to the observed gap
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimensions_analysis_mix.html)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
 
 <br>
 
 ### Segment performance
 For each step and each dimension, identify which specific segment performance is driving the observed gap
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimensions_analysis_performance.html)
+See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
 
 <br>
 

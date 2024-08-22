@@ -2,6 +2,7 @@
 title: Decision tree
 description: The decision tree is based on a Rpart model (Recursive Partitioning and Regression Trees). Helps you identifying the optimal characteristic of the sample that has the best performance.
 layout: page
+scope: shiny
 ---
 
 The decision tree is based on a Rpart model (Recursive Partitioning and Regression Trees)

@@ -1,7 +1,9 @@
 ---
 title: Help
-description: Find out how you can use the "Help" menu of the header of the DataMa Solutions
+description: Find out how you can use the "Help" menu of the header of the Datama Solutions
 layout: page
+scope: Datama/saas
+keywords: full app header menu help
 ---
 
 > Find out how you can use **the Help** menu of the header of the Solution**
@@ -12,7 +14,7 @@ layout: page
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/search_bar.png"/></center>
 
 - **Tutorials** : launch the dynamic tutorials to help you use the solutions
-- **Documentation** : access the DataMa documentation
+- **Documentation** : access the Datama documentation
 
 
 Don't hesitate to contact us if you need any other connections to your data.

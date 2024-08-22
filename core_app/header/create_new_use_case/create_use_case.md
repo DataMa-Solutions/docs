@@ -1,3 +1,9 @@
+---
+title: Create new use case
+description: In this section you will find how to create a new use case
+layout: page
+scope: shiny
+---
 # Create new use case
 
 > The **Create new use case** menu allows to change the data source.
@@ -18,7 +24,7 @@ Once the data and the settings is done you are not able to modify them (load the
 * [.csv file](general/admin/create_use_case/csv_file.md)
 * [Google analytics](general/admin/create_use_case/google_analytics.md)
 
-Or directly within a DataMa extension :
+Or directly within a Datama extension :
 
 * [Tableau](general/admin/create_use_case/extensions/extension_tableau.md)
 * [Power BI](general/admin/create_use_case/extensions/extension_powerBI.md)

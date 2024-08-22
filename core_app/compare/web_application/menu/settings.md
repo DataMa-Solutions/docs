@@ -1,10 +1,11 @@
 ---
 title: Settings
-description: See below details about the Settings menu in the left menu of DataMa interface.
+description: See below details about the Settings menu in the left menu of Datama interface.
 layout: page
+scope: shiny
 ---
 
-> See below details about the **Settings menu** in the left menu of DataMa interface:
+> See below details about the **Settings menu** in the left menu of Datama interface:
 
 * [Aggregation]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/aggregation)
 * [Smart Dimension]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/smart_dimension)

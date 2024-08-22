@@ -1,10 +1,11 @@
 ---
 title: Export results
-description: DataMa graphs and executive summary can be extracted to documents or other tools (data visualization).
+description: Datama graphs and executive summary can be extracted to documents or other tools (data visualization).
 layout: page
+scope: shiny
 ---
 
-> DataMa graphs and executive summary can be **extracted to documents or other tools** (data visualization).
+> Datama graphs and executive summary can be **extracted to documents or other tools** (data visualization).
 
 By using the export button, you can access different ways of extracting results of your analyse.
 

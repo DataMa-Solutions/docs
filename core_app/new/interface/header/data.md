@@ -1,7 +1,9 @@
 ---
 title: Data Menu
-description: Find out how you can use the "Data" menu of the header of the DataMa Solutions
+description: Find out how you can use the "Data" menu of the header of the Datama Solutions
 layout: page
+scope: Datama/saas
+keywords: full app header menu data
 ---
 
 > Find out how you can use **the Data** menu of the header of the Solution**

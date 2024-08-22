@@ -1,14 +1,15 @@
 ---
-title: DataMa Journey
-description: DataMa JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.
+title: Datama Journey
+description: Datama JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.
 layout: page
+scope: shiny
 ---
 
-![journey logo]({{site.url}}/{{site.baseurl}}/core_app/images/DataMa-JOURNEY-Logo-2.png)
+![journey logo]({{site.url}}/{{site.baseurl}}/core_app/images/Datama-JOURNEY-Logo-2.png)
 
-> **DataMa JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.**
+> **Datama JOURNEY is a data analysis tool that allows you to quickly visualize user journeys and simulate attribution models on your customer touch points.**
 
-If you're already familiar with DataMa Solutions, DataMa JOURNEY is a slightly different animal: the expectations and minimum size of the data source are not the same. This is primarily because DataMa JOURNEY expects a "Journey" column to be able to analyse Journeys.
+If you're already familiar with Datama Solutions, Datama JOURNEY is a slightly different animal: the expectations and minimum size of the data source are not the same. This is primarily because Datama JOURNEY expects a "Journey" column to be able to analyse Journeys.
 
 This documentation gives you an overview of how it works and how to use it.
 
@@ -16,4 +17,4 @@ This documentation gives you an overview of how it works and how to use it.
 
 Hope you enjoy it.
 
-Please visit DataMa's [website](https://datama.fr/lets-talk/) for any other questions. Do not hesitate to reach out to us if you have any questions about the solution, your analyses, or the documentation. 
+Please visit Datama's [website](https://Datama.fr/lets-talk/) for any other questions. Do not hesitate to reach out to us if you have any questions about the solution, your analyses, or the documentation. 

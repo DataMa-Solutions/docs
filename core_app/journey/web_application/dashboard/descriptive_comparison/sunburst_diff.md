@@ -1,10 +1,11 @@
 ---
 title: Sunburst difference
-description: This view is only available when Compare mode toggle is activated on DataMa Journey.
+description: This view is only available when Compare mode toggle is activated on Datama Journey.
 layout: page
+scope: shiny
 ---
 
-This view is only available when Compare mode toggle is activated on DataMa Journey
+This view is only available when Compare mode toggle is activated on Datama Journey
 
 **Similarity Sunburst:**
 

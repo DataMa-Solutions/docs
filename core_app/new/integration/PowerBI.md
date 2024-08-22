@@ -1,35 +1,37 @@
 ---
-title: PowerBI extension
-description: Using DataMa Solutions as a PowerBI extension is a great way to make your tableau report more insightful with the benefits of both DataMa and PowerBi.
+title: Power BI extension
+description: Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 layout: page
+scope: Datama/saas
+keywords: full app integration embed embedded add-on addons addon Power BI powerbi
 ---
 
 
-> Using DataMa Solutions as a **PowerBi extension** is a great way to make your tableau report more insightful with the benefits of both DataMa and PowerBI.
+> Using Datama Solutions as a **Power BI extension** is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 
 <br>
 
 # <b>How to load the extension?</b>
 
-As soon as you received the extension from your DataMa point of contact, you can load the extension to get access to the DataMa graphs. 
+As soon as you received the extension from your Datama point of contact, you can load the extension to get access to the Datama graphs. 
 - Select "..." in the visualizations part then <i>"import visual from a file"</i> 
 - and <i>"Import"</i> your extension
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_loadingExtension.gif)
+![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_loadingExtension.gif)
 
 <br>
 
-# <b>How to use the DataMa Extension?</b>
+# <b>How to use the Datama Extension?</b>
 
-DataMa will be basically like a PowerBi graph embedded in the visualisation. You will have to configure it as a basic graph. 
+Datama will be basically like a Power BI graph embedded in the visualisation. You will have to configure it as a basic graph. 
 
-![PowerBI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
+![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
 
 <br>
 
-# <b>How to set up the DataMa extension?</b>
+# <b>How to set up the Datama extension?</b>
 
-- Add your licence key in the Settings: Format your visual > DataMa Global Settings > Licence Key
+- Add your licence key in the Settings: Format your visual > Datama Global Settings > Licence Key
 - in <i>object to display</i>, select the elements your want to view. 
 
 <br>
@@ -48,4 +50,4 @@ DataMa will be basically like a PowerBi graph embedded in the visualisation. You
 
 <br>
 
-Contact us (contact@datama.fr) to get a licence key and install the extension.
+Contact us (contact@Datama.fr) to get a licence key and install the extension.

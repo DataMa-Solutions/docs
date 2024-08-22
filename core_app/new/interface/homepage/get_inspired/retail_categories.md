@@ -2,6 +2,8 @@
 title: Retail Categories
 description: This use case focuses on assisting category managers in analyzing category performance using a tailored business equation to evaluate revenue generation.
 layout: page
+scope: Datama/saas
+keywords: full app get inspired flow demo 
 ---
 
 > Explore the **« Category Performance Analysis** example in our [demo](https://app.datama.io) solution.
@@ -34,7 +36,7 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 <br>
 
-## In DataMa Compare
+## In Datama Compare
 
 This use case is specifically designed to help category managers analyze category performance using a customized business equation that assesses revenue generation.
 

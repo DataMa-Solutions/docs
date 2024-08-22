@@ -1,10 +1,11 @@
 ---
 title: Available Prep's connectors
-description: DataMa Prep include a lot of connectors. It allows you to join data from multiple source.
+description: Datama Prep include a lot of connectors. It allows you to join data from multiple source.
 layout: page
+scope: shiny
 ---
 
-> **DataMa Prep allow you to connect all your datasets for a better analysis**
+> **Datama Prep allow you to connect all your datasets for a better analysis**
 
 <br>
 

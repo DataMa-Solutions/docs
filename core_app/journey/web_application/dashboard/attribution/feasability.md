@@ -2,6 +2,7 @@
 title: Feasability
 description: The Feasability tab is a graph allowing you to visualize the Value/ Volume of the various touch points of the customer journey.
 layout: page
+scope: shiny
 ---
 
 The Feasability tab is a graph allowing you to visualize the Value/ Volume of the various touch points of the customer journey.

@@ -1,7 +1,9 @@
 ---
 title: Filters
-description: Find here how you can use the filtes in DataMa
+description: Find here how you can use the filtes in Datama
 layout: page
+scope: Datama/saas
+keywords: full app subheader sub header settings filters filter filtering
 ---
 
 > Find here how you can use **Filters**

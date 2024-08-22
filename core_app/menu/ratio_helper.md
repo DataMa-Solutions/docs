@@ -2,6 +2,7 @@
 title: Ratio Helper
 description: The Ratio Helper tabset helps you understand which ratio you want to analyze. You can display this tabset by clicking on the '÷' sign in the 'definitions' section of Impact/ Pivot or the chart icon in the Settings>Included Steps of Compare.
 layout: page
+scope: shiny
 ---
 
 > The Ratio Helper tabset helps you understand which ratio you want to analyze. You can display this tabset by clicking on the '÷' sign in the 'definitions' section of Impact/ Pivot or the chart icon in the Settings>Included Steps of Compare
@@ -10,7 +11,7 @@ layout: page
 
 The Ratio view displays the value of each ratio defined as steps in your [metric relation]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation?id=metric-relation)
 The ratio defined by the Primary Numerator and Denominator appears in orange (if matching)
-Note that you can skip/ merge some ratios using the [included steps]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/included_steps) setting in DataMa Compare.
+Note that you can skip/ merge some ratios using the [included steps]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/included_steps) setting in Datama Compare.
 > This chart should help you understand which ratio is high/ low relative to others, so that you can focus on analysing the right one
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/menu/images/ratio_helper_ratios.png"/></center>

@@ -1,12 +1,14 @@
 ---
 title: User onboarding
-description: Successfully Run your 1st DataMa report
+description: Successfully Run your 1st Datama report
 layout: page
+scope: Datama/saas
+keywords: full app prep get started 1st first uses use
 ---
 
 <br>
 
-> Successfully Run your 1st DataMa report and learn how to use DataMa Compare (and DataMa Prep)
+> Successfully Run your 1st Datama report and learn how to use Datama Compare (and Datama Prep)
 
 <br>
 
@@ -35,17 +37,17 @@ In the “Get inspired” section you will find examples of workbooks in multipl
 
 # <b>Step 2:</b> Create a new Workbook
 
-Here is the Homepage of DataMa with all the workbooks saved by you or your team
+Here is the Homepage of Datama with all the workbooks saved by you or your team
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.png"/></center>
 
-Click "Add new workbook" to access DataMa Prep and connect (or load) your data.
+Click "Add new workbook" to access Datama Prep and connect (or load) your data.
 
 <br>
 
 # <b>Step 3:</b> Add your source to Datama Prep
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.png"/></center>
 
 <br>
 
@@ -57,7 +59,7 @@ From the list of available connectors, select the one that matches your data sou
 
 # <b>Step 4:</b> Check your Column and define your steps
 
-In the DataMa output block:
+In the Datama output block:
 - Select the columns that should be considered as Dimensions and Metrics
 - Define the steps of your metric relations and refine your case  (adapt name, define a unit, or a threshold,…)
 
@@ -67,9 +69,9 @@ In the DataMa output block:
 
 <br>
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.png"/></center>
 
-If your dataset is properly split between dimensions and metrics, and the metrics relations makes sense, you can select a DataMa solution.
+If your dataset is properly split between dimensions and metrics, and the metrics relations makes sense, you can select a Datama solution.
 
 <br>
 
@@ -109,4 +111,4 @@ Each variation is split between mix and performance (see [article]({{site.url}}/
 
 <br>
 
-If you have any further questions to create your Workbook, <a href="https://DataMa.fr/lets-talk/" target="_blank">please contact us</a>
+If you have any further questions to create your Workbook, <a href="https://Datama.fr/lets-talk/" target="_blank">please contact us</a>

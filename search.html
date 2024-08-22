@@ -1,8 +1,25 @@
 ---
 layout: search
 title: Search on Datama Documentation
-description: here you can find all result you want from DataMa Documentation page
+description: here you can find all result you want from Datama Documentation page
 ---
+<!--
+  ~ Datama SAS
+  ~ --------------
+  ~ NOTICE:  All information contained herein is, and remains
+  ~ the property of Datama SAS and/or some open source packages used
+  ~ if any.  The intellectual and technical concepts contained
+  ~ herein are proprietary to Datama SAS
+  ~ and its suppliers and may be covered by French and Foreign Patents,
+  ~ patents in process, and are protected by trade secret or copyright law.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Datama SAS.
+  ~ Notice created by Django <django@Datama.fr>, Wazhabits <anatole@Datama.fr> updated by Anatole Piveteau
+  ~ Copyright (c) 2023 Datama SAS, All rights reserved.
+  ~ Generated for file : search.html project project-deep-sky
+  -->
+
 <!-- Html Elements for Search -->
 <div id="search-container">
     <div class="search-group">
@@ -19,10 +36,25 @@ description: here you can find all result you want from DataMa Documentation pag
     //    resultsContainer: document.getElementById('results-container'),
     //    json: '{{site.url}}/{{site.baseurl}}/search.json'
     //})
+    let groups = {
+        'shiny': 'old-ui full-app',
+        'Datama/saas': 'full-app',
+        'Datama/saas/compare': 'compare full-app',
+        'Datama/saas/assess': 'Assess full-app',
+        'Datama/saas/detect': 'Detect full-app',
+        'Datama/saas/pivot': 'Pivot full-app',
+        'Datama/saas/journey': 'Journey full-app',
+        'Datama/light': 'light-app',
+        'Datama/light/compare': 'compare light-app'
+    }
     search.listen('search-input', {
         fields: {
+            scope: {
+                weight: 1100
+            },
             title: {
-                weight: 1000
+                weight: 1000,
+                required: true
             },
             keywords: {
                 weight: 500
@@ -31,13 +63,18 @@ description: here you can find all result you want from DataMa Documentation pag
                 weight: 250
             },
             body: {
-                weight: 100
+                weight: 100,
+                required: true
             }
         },
         results: {
             template: (element) => {
-                return `<li class="search-result"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                return {
+                    scope: search.json[element.id].scope,
+                    html: `<li class="search-result" data-score="${element.total}"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><div class="search-tags">${(groups[search.json[element.id].scope] || '').split(' ').filter(e => e).map(e => '<span class="search-group">' + e + '</span>').join('')}</div><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
+                }
             },
+            groups,
             limit: 15,
             container: 'results-container'
         }

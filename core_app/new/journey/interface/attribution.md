@@ -2,6 +2,8 @@
 title: Attribution
 description: Attribution is a group of 5 tabs. See articles below for details on each tab.
 layout: page
+scope: Datama/saas/journey
+keywords: full app journey interface attribution
 ---
 
 <br>

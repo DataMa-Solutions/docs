@@ -1,7 +1,8 @@
 ---
 title: Filter
-description: Find information about filtering action on DataMa Prep
+description: Find information about filtering action on Datama Prep
 layout: page
+scope: shiny
 ---
 
 **Filter action allow you to filter data in columns.**
@@ -29,7 +30,7 @@ Once you have some filters applied you can see them by their column name. By cli
 
 ![Filter](images/show_filters.png)
 
-Sometimes you can see the following error message "It seems that there are too many unique values" it means that the number of unique values in the dataset is higher than the limit set by DataMa.
+Sometimes you can see the following error message "It seems that there are too many unique values" it means that the number of unique values in the dataset is higher than the limit set by Datama.
 
 This was implemented to avoid application performance problems.
 

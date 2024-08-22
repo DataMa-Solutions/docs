@@ -2,6 +2,7 @@
 title: Table
 description: The Table Tab is the calculation made to represent the Dimension comparison Tab.
 layout: page
+scope: shiny
 ---
 
 > The **Table Tab** is the calculation made to represent the Dimension comparison Tab
@@ -18,4 +19,4 @@ With :
 * **StdDev:** Value of the standard deviation
 * **StdDev_Wt:** Value of the standard deviation weighted according to the Primary denominator
 
-![table]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/dimension_importance/images/DataMaPIVOT_Table-1024x301.png)
+![table]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/dimension_importance/images/DatamaPIVOT_Table-1024x301.png)

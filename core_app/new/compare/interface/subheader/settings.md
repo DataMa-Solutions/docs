@@ -2,6 +2,8 @@
 title: Compare - Settings
 description: Find here how to use the **Settings**
 layout: page
+scope: Datama/saas/compare
+keywords: full app compare settings
 ---
 
 > Find here how to use the **Settings**
@@ -9,7 +11,7 @@ layout: page
 <br>
 
 <b>Methodology:<b><br>
-  - [Drill Down Hierarchy]({{site.url}}/{{site.baseurl}}/docs/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+  - [Drill Down Hierarchy]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
   - [Split Mix and Perf](#split-mix-and-perf)
   - [Negative Driver First](#negative-driver-first)
 
@@ -45,7 +47,7 @@ The settings is detailed below.
 <br>
 
 > **User Preferences**
-In order to customize your analysis to your needs, DataMa allows you to save user preferences at Use Case level or at your profile level.
+In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level.
 
 <br>
@@ -56,16 +58,16 @@ Color palette and default language for example can be modified at both level.
 
 ## **Split Mix and Perf**
 
-This settings sets how DataMa will act regarding Mix & Performance visualisation.
-By default DataMa will automatically choose to split or not the Mix and Performance effect. If the Mix is too small, only Negative and Positive Segments will be displayed.
+This settings sets how Datama will act regarding Mix & Performance visualisation.
+By default Datama will automatically choose to split or not the Mix and Performance effect. If the Mix is too small, only Negative and Positive Segments will be displayed.
 
-But you can disable this auto choice, and choose to always split the Mix and the Performance effects or Never split Mix and Perf. If so DataMa will only make a split by Positive and Negative Segments.
+But you can disable this auto choice, and choose to always split the Mix and the Performance effects or Never split Mix and Perf. If so Datama will only make a split by Positive and Negative Segments.
 
 <br>
 
 ## **Negative Driver First**
 
-By default DataMa automatically choose to display the segment that are following the variation. If your step is increasing, the segments displayed will be the one that drive this increase. On the contrary, when your step variation is going down, datama will choose to display segments that are explaining the decrease.
+By default Datama automatically choose to display the segment that are following the variation. If your step is increasing, the segments displayed will be the one that drive this increase. On the contrary, when your step variation is going down, Datama will choose to display segments that are explaining the decrease.
 
 This could be changed by activating the “Negative Driver First”. Negative Segments will be displayed first in the waterfall whatever the variation. Because you more often will need to improve what’s driving your business down!
 
@@ -77,13 +79,13 @@ This could be changed by activating the “Negative Driver First”. Negative Se
 
 ## **Comparable Dates**
 
-Comparable Date: When comparing two ranges of dates with same number of days, DataMa now automatically creates a “Comparable_date” dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
+Comparable Date: When comparing two ranges of dates with same number of days, Datama now automatically creates a “Comparable_date” dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 
 <br>
 
 ## **Combined Dimensions**
 
-By default <i>Combined Dimensions</i> is activated. DataMa creates an additional Dimension in your analyse which is the combination of all your dimension.
+By default <i>Combined Dimensions</i> is activated. Datama creates an additional Dimension in your analyse which is the combination of all your dimension.
 
 You can't change the selection of the combination, but you can concatenat two columns in your dataset if you want a specific combination.
 
@@ -96,7 +98,7 @@ For each step of the waterfall analysis, the Smart dimension identifies the pair
 
 <b>Example</b>
 
-Consider the scenario in which your performance is entirely explained by a performance decline on mobile users with the Firefox browser. When turning on Smart dimension, DataMa Compare will identify the Device*Browser dimension as the most relevant dimension. However, when leaving the Smart dimension option off, DataMa Compare will attribute the performance variation to either the Device or Mobile dimension.
+Consider the scenario in which your performance is entirely explained by a performance decline on mobile users with the Firefox browser. When turning on Smart dimension, Datama Compare will identify the Device*Browser dimension as the most relevant dimension. However, when leaving the Smart dimension option off, Datama Compare will attribute the performance variation to either the Device or Mobile dimension.
 
 <br>
 
@@ -127,7 +129,8 @@ Segment text complement allows to decide on what to display behind Segment name 
 As a reminder, a segment is a attribute within a dimension of your dataset.
 Options for this input are:
 - Variation relative to average (e.g. “x2.43”) - this is the default value and allows to spot easily "abnormal" variations way above average (i.e. above 1)
-- Percentage Variation (e.g. “-46%”)
+- Percentage Variation (e.g. “-46%”) - this is the % difference between start and end values
+- Variation absolute change (e.g. "-3pts") - this is the absolute difference between start and end values, displayed in the unit of the considered KPI
 - Nothing
 
 <br/>
@@ -159,7 +162,7 @@ Segments are now aggregated at the requested level
 
 ## **Covariance roll up**
 
-By default in DataMa Compare, the covariance between each step of the market equation is distributed on total computation level.
+By default in Datama Compare, the covariance between each step of the market equation is distributed on total computation level.
 
 However in some cases, you might want this distribution to be done at a lower level within a given dimension, so that when summing up the impact of each steps for each segment of that dimension at total level, you end up with the exact same total. This is particularly true when you systematically deep dive on each segment of a dimension (e.g. by Country) and also display to your end users the sum of all those segments (e.g. worldwide)
 
@@ -182,8 +185,8 @@ By default this parameter is set at '4'.
 
 ## **Significance test**
 
-When owning a license of DataMa Assess (aka DataMa Impact), you can activate the significance test.
-Switch on to compute significance of steps variations, using DataMa Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
+When owning a license of Datama Assess (aka Datama Impact), you can activate the significance test.
+Switch on to compute significance of steps variations, using Datama Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
 The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/frequentist.html).
 <br>
 
@@ -194,4 +197,4 @@ The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_ap
 ## **Include 0 for Y axis**
 
 By default active, this makes the 0 line appear on the waterfall
-When deactivated DataMa will adapt the Axis to your dataset. This help to better display small variations.
+When deactivated Datama will adapt the Axis to your dataset. This help to better display small variations.

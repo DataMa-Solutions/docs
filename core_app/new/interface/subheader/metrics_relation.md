@@ -1,12 +1,14 @@
 ---
 title: Metrics relation
-description: Find here how you can build a market equation in DataMa
+description: Find here how you can build a market equation in Datama
 layout: page
+scope: Datama/saas
+keywords: full app subheader sub header metrics relation mr metric
 ---
 
 > **Metric relation** describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 
-When using the solution, you can access the definition of your metric relation in the Subheader > KPI > Settings. Otherwise metrics relation are available in the Output block of DataMa Prep.
+When using the solution, you can access the definition of your metric relation in the Subheader > KPI > Settings. Otherwise metrics relation are available in the Output block of Datama Prep.
 <br>
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/Edit_metricsrel.jpg"/></center>
@@ -31,7 +33,7 @@ To re-include a step, click on KPI to access all the steps from the metric relat
 
 ## Prod, Sum and Custom
 
-By default DataMa create a product of ratio (prod) with all the steps defined in the metrics relation.
+By default Datama create a product of ratio (prod) with all the steps defined in the metrics relation.
 But you can change it with "sum" to add each steps. e.g: <span style="color:red">Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1) </span>.
 
 When customising your metrics relation you should write it as below using each step between brackets (e.g. [1]) :
@@ -43,7 +45,7 @@ When modifying a market equation make sure your calculation is still correct. in
 
 > Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/header/input/source.html), in order to compute the **KPI you want to explain**.
 
-At DataMa, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.io/how-to-build-my-business-metric-relation/).
 
 Building it can be a little bit tricky, but generally you have it behind your business KPIs. All you need to do is come back to basics and try to write down how your metrics are related.
 <br>
@@ -67,11 +69,11 @@ Steps gets multiplied together in order to get your KPIs. So, if your file has 5
 
  <center> <span style="color:red"> Metric5 = Metric1 * Metric2/Metric1 * Metric3/Metric2 * Metric4/Metric3 * Metric5/Metric4 </span> </center>
 
-Don’t be afraid of putting too many PIs in that equation: with DataMa Compare, you can always zoom in to part of the equation, or aggregate some components using the « Skip steps » functionality.
+Don’t be afraid of putting too many PIs in that equation: with Datama Compare, you can always zoom in to part of the equation, or aggregate some components using the « Skip steps » functionality.
 <br>
 
 ## Get inspired
 
-DataMa Demo can help you get idea of Metric Relation you may want to build.
+Datama Demo can help you get idea of Metric Relation you may want to build.
 
-Just look at [demo sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0), and related [demo use cases](https://app2.datama.io/a/dashboard/home) you get an idea of how it could look.
+Just look at [demo sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0), and related [demo use cases](https://app2.Datama.io/a/dashboard/home) you get an idea of how it could look.

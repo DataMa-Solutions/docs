@@ -2,6 +2,7 @@
 title: Forecasting
 description: Used with time series to compare realized values against forecasted values.
 layout: page
+scope: shiny
 ---
 
 Used with time series to compare realized values against forecasted values.
@@ -12,7 +13,7 @@ If the *Start period* contains too little data, the forecasted values will not b
 
 ![graph]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/models/images/forecasting.png)
 
-**Behind the scenes:** DataMa Impact chooses the ETS or STLM model which best fits the *Start period* data, taking seasonality into account, and then computes predictions for the *End period*. This allows to test whether realized (a *posteriori*) values significantly differ from what could be expected a *priori*.
+**Behind the scenes:** Datama Impact chooses the ETS or STLM model which best fits the *Start period* data, taking seasonality into account, and then computes predictions for the *End period*. This allows to test whether realized (a *posteriori*) values significantly differ from what could be expected a *priori*.
 
 See also: [wikipedia](https://en.wikipedia.org/wiki/Exponential_smoothing)
 

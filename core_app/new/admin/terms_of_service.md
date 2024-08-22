@@ -1,14 +1,16 @@
 ---
 title: TERMS OF SERVICE
-description: See the terms of service of the DataMa applications.
+description: See the terms of service of the Datama applications.
 layout: page
+scope: Datama/saas
+keywords: full app terms of service
 ---
 
-Thank you for signing up for an account with DataMa  Solutions, property of  DataMa SAS, a company incorporated in France, having its registered office at 20bis rue Louis-Philippe, 92200 Neuilly-Sur-Seine, FRANCE, registered established under the laws of France under the number 832 573 281, taking into the person of his legal representative, Mr. Guillaume DE BÉNAZÉ;
+Thank you for signing up for an account with Datama  Solutions, property of  Datama SAS, a company incorporated in France, having its registered office at 7 rue Pierre Ginier 75018 Paris, FRANCE, registered established under the laws of France under the number 832 573 281, taking into the person of his legal representative, Mr. Guillaume DE BÉNAZÉ;
 
 
 
-By placing an order or by clicking to accept this Agreement or using or accessing any DataMa Solutions or related services, you agree to all the terms and conditions of this Terms of Service Agreement (“Agreement”). If you are using a DataMa Solutions or related services on behalf of a company or other entity, then “Client” or “you” means that entity, and you are binding that entity to this Agreement. You represent and warrant that you have the legal power and authority to enter into this Agreement and that, if the Client is an entity, this Agreement and each Order Form is entered into by an employee or agent with all necessary authority to bind that entity to this Agreement. This Agreement includes any Order Forms and Service-Specific Terms (as defined below) as well as any policies or exhibits accepted by You.
+By placing an order or by clicking to accept this Agreement or using or accessing any Datama Solutions or related services, you agree to all the terms and conditions of this Terms of Service Agreement (“Agreement”). If you are using a Datama Solutions or related services on behalf of a company or other entity, then “Client” or “you” means that entity, and you are binding that entity to this Agreement. You represent and warrant that you have the legal power and authority to enter into this Agreement and that, if the Client is an entity, this Agreement and each Order Form is entered into by an employee or agent with all necessary authority to bind that entity to this Agreement. This Agreement includes any Order Forms and Service-Specific Terms (as defined below) as well as any policies or exhibits accepted by You.
 
 
 
@@ -32,7 +34,7 @@ The Licensor’s activities include the development, programming and marketing o
 
 
 
-The software DataMa (hereinafter  » the Software « ) is a computer program whose function is to analyse the data transmitted by a user to derive information in the form of graphical visualizations or tables. It is described in the appendix to this document (Appendix 1 – Software Features).
+The software Datama (hereinafter  » the Software « ) is a computer program whose function is to analyse the data transmitted by a user to derive information in the form of graphical visualizations or tables. It is described in the appendix to this document (Appendix 1 – Software Features).
 
 
 
@@ -290,7 +292,7 @@ As part of the execution of this Contract, the Licensor is required to collect a
 
 The processing implemented in this context is based on the legitimate interest of the Licensor, insofar as this processing is necessary for the proper performance of the contractual relationship and for compliance with its legal obligations. Personal Data and the entire file associated with the Licensee will be kept for the duration of the contractual relationship and for the applicable limitation period.
 
-In accordance with the applicable regulations, the Licensee and/ or the employees and managers of the Licensee have a right of access, rectification, erasure of Personal Data concerning them, a right to limit processing, as well as a right of opposition to the processing of Data concerning them. The Licensee and/ or employees of the Licensee also have the right to send the Company special instructions relating to the fate of their Personal Data after their death. To exercise these rights, the Licensee may send a request by mail to the Licensor at the following address: DataMa, 20Bis rue Louis Philippe, 92200 Neuilly-Sur-Seine. Finally, the Licensee and / or the employees of the Licensee can lodge a complaint with the personal data protection authority.
+In accordance with the applicable regulations, the Licensee and/ or the employees and managers of the Licensee have a right of access, rectification, erasure of Personal Data concerning them, a right to limit processing, as well as a right of opposition to the processing of Data concerning them. The Licensee and/ or employees of the Licensee also have the right to send the Company special instructions relating to the fate of their Personal Data after their death. To exercise these rights, the Licensee may send a request by mail to the Licensor at the following address: Datama, 20Bis rue Louis Philippe, 92200 Neuilly-Sur-Seine. Finally, the Licensee and / or the employees of the Licensee can lodge a complaint with the personal data protection authority.
 
 
 
