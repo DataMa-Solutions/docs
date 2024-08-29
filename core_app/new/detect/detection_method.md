@@ -64,6 +64,22 @@ In the above screenshot, note that the number of points in baseline is set to 20
 
 <br>
 
+### Smart Interval
+
+By default, when "Observed Volatility" is selected, the Smart Interval button is enabled.  
+Smart Interval calculates a theoretical confidence interval instead of an observed interval, using the Wilson method ([click here to learn more](https://corpus.ulaval.ca/server/api/core/bitstreams/aecd68a4-0d76-45da-b2e3-d6e0e7547a9c/content)). This applies only to ratios between 0 and 1 since Wilson method relies on a Binomial distribution. Smart Interval only calculates the Lower Bound of the interval with the Wilson method, allowing for better detection of values close to 0.
+
+Below is an example of anomaly detection with and without Smart Interval.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_wo_smart_interval.png"/></center>
+<p align="center"><em>Without Smart Interval</em></p>
+
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_with_smart_interval.png"/></center>
+<p align="center"><em>With Smart Interval</em></p>
+
+<br>
+
 # 2. Methods based on manually configured thresholds
 
 Methods based on manually configured thresholds take into account a 
