@@ -2,8 +2,8 @@
 feed: totw_fr
 title:  "Tip of the Week 121: 🛠️ Personnalisez les paramètres une fois pour tous vos workbooks 🌟📊"
 date:   2024-08-29 10:12:00 +0200
-img_url: /assets/images/tip/121.png
-img_type: image/png
+img_url: /assets/images/tip/121.gif
+img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
