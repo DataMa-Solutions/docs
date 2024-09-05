@@ -125,13 +125,13 @@ To discover more about how to read Waterfall, you can read our [dedicated sectio
 
 ## 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare//settings/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 
 ## 9. Get more insights
 
-Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/introduction.html)
+Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 
