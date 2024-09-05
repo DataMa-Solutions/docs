@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Whether it's Slack, Teams or email exports, you can customize each export with parameters that are independent of the use case backup.  
+Whether it's Slack, Teams or email exports, you can customise each export with parameters that are independent of the use case backup.  
 
 Here are a few examples of what you can change:
   * Change the comparison dimensions to send a Compare in Month over Month and an other in Week over Week 🗓️
