@@ -1,7 +1,7 @@
 ---
 feed: release_note
-title:  "2024-07-22"
-date:   2024-07-22 12:00:00 +0200
+title:  "2024-09-04"
+date:   2024-09-04 12:00:00 +0200
 layout: post
 description: |
   🎒Back to school!<br>
