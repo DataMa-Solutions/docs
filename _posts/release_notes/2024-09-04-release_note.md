@@ -4,7 +4,7 @@ title:  "2024-09-04"
 date:   2024-09-04 12:00:00 +0200
 layout: post
 description: |
-  🎒Back to school!<br>
+  🎒 Back to school!<br>
   Olympic games in Paris were cool. But we have almost cooler things to share: <br>
   Credentials sharing, radar chart, smart interval... don't miss latest features! <br>
 ---
