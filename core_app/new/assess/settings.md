@@ -43,6 +43,10 @@ Here's what you going to find in this chapter:
 
 You can decide which test  to perform depending by selecting the appropriate model. Please refer to the [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) section for more details
 
+Go to the advanced setting:
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/to_advanced_setting.png"/></center>
+
+Find your model here:
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsTestCompute.png"/></center>
 
 <br>
@@ -59,25 +63,35 @@ Depending on the test you are performing, this input can be used in different wa
 
 ## Frequentist Weight
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/frequentist_model.png"/></center>
+
 The Frequentist Weight parameter allows you to select a metric that will multiply the number of occurrences of a given line by that metric.
 
-For instance, if you’re analyzing the significance of a variation of Average Basket value in an AB test, you would need to have 1 line per transaction, so that Datama can compute the standard deviation of that Revenues generated per transaction. However, since you have many transactions, you could end up with a too large dataset. To avoid handling large datasets, Datama allows you to define a “weight” for each line, and in that example you could group transactions by bucket of Revenues. This [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1483851606) is a good example of that transformation from this other [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1115355265), where “Lines” will be used as denominator for the KPI and “Weight” column as the weightening for Revenue/ Lines ratio. Note that the second data set is significantly smaller than the first one, and gives the same results.
+For instance, if you’re analyzing the significance of a variation of Average Basket value in an AB test, you would need to have 1 line per transaction, so that Datama can compute the standard deviation of that Revenues generated per transaction. However, since you have many transactions, you could end up with a too large dataset. To avoid handling large datasets, Datama allows you to define a “weight” for each line, and in that example you could group transactions by bucket of Revenues. This [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1483851606) is a good example of that transformation from this other [dataset](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1115355265), where “Lines” will be used as denominator for the KPI and “Weight” column as the weightening for Revenue/ Lines ratio. Note that the second data set is smaller than the first one, and gives the same results.
 
 <br>
 
-## Impacted Dimension
+## Causal Impact
 
-Causal Impact test allows to assess the significance of a variation pre-post an intervention on a test group. To read more about the Causal Impact
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/causal_impact.png"/></center>
 
-Define the dimension impacted by the change, that were you have you "Control" and "Variant".
+The Causal Impact test allows for the assessment of the significance of a variation between pre- and post-intervention periods on a test group. To read more about the Causal Impact test, please refer to the relevant literature.
+
+<br>
+
+## Impacted Diemnsion
+
+ Impacted dimension refers to the specific metric or variable that you are evaluating to determine the effect of an intervention. This could be any quantifiable measure that you believe is influenced by the intervention, such as sales figures, website traffic, customer satisfaction scores, or any other key performance indicator (KPI).
+
+To conduct this test in datama assess, first define the dimensions impacted by the change. In this context, you will have a "Control" group and a "Variant" group.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/impacted_dimension_segment.png"/></center>
 
 <br>
 
 ## Impacted Segment
 
-Causal Impact test allows to assess the significance of a variation pre-post an intervention on a test group. To read more about the Causal Impact
-
-Define which is the "Variant" segment within the Dimension selected above. This segment is the one impacted by the change
+Impacted Segment refers to the specific part of your data or population that is affected by the intervention being studied. This is usually the "Variant" group, which is subject to the change or treatment, as opposed to the "Control" group, which remains unaffected. (see the screenshot above)
 
 <br>
 
@@ -113,6 +127,8 @@ Therefore, if we see words such as “increased, greater, larger, improved and s
 # <b>Advanced settings<b>
 <br>
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_advanced_setting.png" alt="assess interface" /></center>
+
 ## Aggregation in %
 
 Level of aggregation: The level of aggregation that the model is using
@@ -125,7 +141,11 @@ e.g. if Level of aggregation is set at X%, segment within each dimension that re
 
 - Click on the drop-down arrow to display the settings menu
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_setting.png" alt="assess interface" /></center>
+
 - Move the cursor to the right to increase the level of aggregation
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_aggre_level.png" alt="assess interface" /></center>
 
 - Segments are now aggregated at the requested level
 
@@ -162,9 +182,9 @@ Please refer to the [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_ap
 
 In Datama Assess, you can assess the significance of a variation only on one given KPI. Hence, you need to select one of the step of your metric relation for that KPI. By default, Datama selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsKPI.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_kpi.png"/></center>
 
 
 If you want to assess the significance for a KPI that is not explicitly in your metric relation, you can still edit the numerator and denominator manually by clicking on the KPI pill. See specific section for more details on the KPI pill
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsKPI2.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_kpi2.png"/></center>

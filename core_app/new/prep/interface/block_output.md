@@ -30,7 +30,7 @@ Learn more on this by reading details on:
 - [Metrics Relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html)
 - [Unit]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/unit.html)
 - [Threshold]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/threshold.html)
-- [Focused and excluded dimensions]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/included-excluded_dimensions.html)
+- [Focused and excluded dimensions]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/focusExcluded_dimensions.html)
 
 <br>
 
