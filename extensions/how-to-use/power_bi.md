@@ -42,12 +42,12 @@ Watch this video to properly understand our extension and how to use it.
 
 Here are the main features this extension is providing. These features will be completed step by step with new improvements and functionnalities such as automated comments and title, hypothesis "What if" modelisation...
 
-- **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
-- **Smart Scoring Engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
-- **Mix Effect Analysis:** Assess the specific impact of Mix effect on your performance metrics.
+- **Waterfall & tree analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
+- **Smart scoring engine:** Automatically identifies and displays key factors that best explain performance variations, simplifying complex multi factors variations.
+- **Mix effect analysis:** Assess the specific impact of Mix effect on your performance metrics.
 <!--- **Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format. --->
-- **Interactive Charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
-- **Customization Options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
+- **Interactive charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
+- **Customization options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
 <br/>
 
@@ -57,10 +57,10 @@ Follow one or the other steps to install the Datama plugin:
 
 1. **Download the Plugin from the Marketplace**:
     1. Navigate to "Insert" > "More Visuals" > "From appSource".
-    2. Search for "Compare - Smart Waterfall".
+    2. Search for "Compare - What's driving my variation".
     3. The visual will appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/AddExtensionPBI.gif" align="center" width="650px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/LoadExtension_PowerBI.gif" align="center" width="650px" />
 
 <br/>
 
@@ -110,12 +110,12 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 5. Read Your Analysis
+## 5. Read your analysis
 
-- **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
-- **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
+- **Performance overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
+- **Intermediary step analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
 - By default, the most interesting dimension will be selected for this zoomed step. You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by". You can unzoom by clicking on other steps or clicking on the box again.
-- **In-Depth Exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
+- **In-Depth exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
 
 <br/>
 
@@ -139,5 +139,7 @@ If you require assistance or have any questions, feel free to reach out. We're h
 
 <br/>
 
-## 10. Power BI Version History (to be updated)
+## 10. Power BI Version History
 - **1.0.0.1 (2024-01-20)**: Initial release.
+- **1.3.14.0 (2024-07-01)**: Beta for comments, multiple fix.
+
