@@ -21,7 +21,7 @@ Segment within a given dimension that you want to filter on. Just click on the b
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_segment.jpg"/></center>
 
 Segment can also be filtered with a right click on the segment in the waterfall. The calculation will re-run automatically.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_exclude.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_exclude.png"/></center>
 <br>
 
 
