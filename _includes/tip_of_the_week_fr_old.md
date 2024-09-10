@@ -690,7 +690,7 @@ Par ces temps troublés 😷, vous avez une partie de vos données qui est « no
 
 ➢ Datama excluera automatiquement le « Out » de l’analyse et le fera apparaître dans un bloc à part de la waterfall, en bleu clair « Out of Scope »
 
-Voir un exemple concret [ici](https://www.docs.Datama.fr/docs/Datama-compare/general-introduction/use-cases-examples/marketing-campaign/marketing-campaign-scope/) !
+Voir un exemple concret [ici](https://www.docs.Datama.fr/docs/datama-compare/general-introduction/use-cases-examples/marketing-campaign/marketing-campaign-scope/) !
 
 Préparé avec ❤️ depuis chez nous, on pense à vous et on vous accompagne sur tous vos sujets à distance!
 

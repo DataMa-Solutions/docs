@@ -428,6 +428,8 @@
                   link: /core_app/new/prep/interface/add_source.html#google-trends
                 - name: Facebook
                   link: /core_app/new/prep/interface/add_source.html#facebook
+                - name: Amazon Redshift
+                  link: /core_app/new/prep/interface/add_source.html#amazon-redshift
 
             - name: Extensions #done
               link: /core_app/new/integration/integrations.html
@@ -876,8 +878,15 @@
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan.html
+        - name: Qlik
+          link: /extensions/how-to-use/qlik.html
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
+          subnav:
+            - name: Tableau Dashboard
+              link: /extensions/how-to-use/tableau_dashboard.html
+            - name: Tableau Viz
+              link: /extensions/how-to-use/tableau_viz.html
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
 ##  type: separated

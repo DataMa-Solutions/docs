@@ -12,7 +12,7 @@ description: This documentation gives you an overview of how Datama works and ho
 
 Jump into the documentation to quickly get up to speed on Datama.
 
-You can get started with your first Use Case by reading the: <i>[How to start with Datama]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)</i> or quickly access the solutions documentation : 
+You can get started with your first Use Case by reading the: <i>[How to start with Datama]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)</i> or quickly access the solutions documentation: 
 
 - [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare.html)
 - [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html)

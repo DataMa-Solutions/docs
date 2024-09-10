@@ -13,7 +13,7 @@ scope: shiny
 * Need to distribute co-variance proportionally to abs(gap) to 'make it match'. Co-variance has to be monitored in final output. See [Covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance.html) page
 * Last step ("End") is considered as a step by itself when doing dimension calculations
 
-To better defined your steps (or metric equation), you can read our dedicated [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/)
+To better define your steps (or metric equation), you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/)
 
 ![waterfall1]({{site.url}}/{{site.baseurl}}/core_app/compare/model/images/waterfall2.png)
 
