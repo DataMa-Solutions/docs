@@ -131,6 +131,6 @@ Documentation under construction
 
 <br/>
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/concept.html) of Datama.
+Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) of Datama.
 
 <br>

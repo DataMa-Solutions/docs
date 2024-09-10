@@ -11,9 +11,9 @@ _Find below how you can customize rendering of Datama Compare_
 
 ### Chart
 
-- [Display]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/settings/waterfall/display.html)
-- [Labels]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/settings/waterfall/labels.html)
+- [Display]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/waterfall/display.html)
+- [Labels]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/waterfall/labels.html)
 
 ### Application
 
-- [Theme]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/settings/application/theme.html)
+- [Theme]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/application/theme.html)
