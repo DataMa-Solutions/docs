@@ -27,7 +27,7 @@ Here is the available connectors:
 - [Google trends](#google-trends)
 - [Facebook](#facebook)
 - [Piano Analytics (AT Internet)](#piano-analytics)
-- [Amazon Redshift](#amanzon-redshift)
+- [Amazon Redshift](#amazon-redshift)
 
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
@@ -224,3 +224,20 @@ Then Paste the API body in Datama prep in the appropriate field
 Lastly, define your dates for the report in Datama Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date) 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataResults.png"/></center>
+
+> ## Amazon Redshift
+
+When using the Amazon Redshift connector, you’ll need the following information to configure the source :
+- Host (ex. redshift-cluster-1.abc123xyz.us-west-2.redshift.amazonaws.com)
+- Port (ex. 5439)
+- Database (ex. mydatabase)
+- Username (ex. myuser)
+- Password (ex. mypassword)
+
+With those information, you will need to fill your credentials in the Connector to log into your Redshift. Once finished, hit Login.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AmazonRedshiftConnection.png"/></center>
+
+When connected, you can enter your query and click Load to apply it.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AmazonRedshiftQuery.png"/></center>
