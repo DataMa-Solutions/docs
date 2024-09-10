@@ -8,7 +8,7 @@ keywords: full app pivot interface
 
 > Understand what is in the interface of **Datama PIVOT**
 
-Here is the main elements to find in Datama PIVOT:
+Here are the main elements to find in Datama PIVOT:
 - [Importance Chart](#importance-chart)
 - [Simple chart](#simple-chart)
 - [Clustered Chart](#clustered-chart)
@@ -17,6 +17,7 @@ Here is the main elements to find in Datama PIVOT:
 - [Simple Test Matrix](#simple-test-matrix)
 - [Decision Tree](#decision-tree)
 - [Market equation tree](#market-equation-tree)
+- [Radar Chart](#radar-chart)
 
 <br><br>
 
@@ -126,3 +127,17 @@ Steps of the market equation tree are ordered according to the importance they h
 For each step, the mean of each dimension is computed, and the segments are sorted by their value compared to the mean, whether it is above or below the average.
 
 The _Comments_ section sums up the most interesting parts of the tree with a level of analysis that can be changed in [analysis depth]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analysis-depth).
+
+<br>
+
+## <b>Radar Chart</b>
+
+The Radar chart is available when you select [Analyse all metrics relation steps]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analyse-all-metrics-relation-steps). 
+The chart is based on your market equation. It decomposes the selected dimension on all the steps of your metric relations, for each segment of the dimension.
+
+Here is what the Radar chart looks like: 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_radarchart.png" style="width:650px; height:auto;"/></center>
+ 
+You can choose which dimension to decompose and decide whether to analyze it by value (showing the value of each segment at each step) or by rank (displaying the rank of each segment at each step).
+In the chart, each line represents a segment of the selected dimension, while each axis corresponds to a step in the metric relation.
