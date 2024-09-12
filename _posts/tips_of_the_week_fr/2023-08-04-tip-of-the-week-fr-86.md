@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 86: Envoi d’export uniquement quand il y a des alertes"
-date:   2023-08-04 10:12:00 +0200
+date:   2023-08-04 12:00:00 +0200
 img_url: /assets/images/tip/86.gif
 img_type: image/gif
 img_width: 600
