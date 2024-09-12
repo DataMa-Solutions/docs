@@ -13,6 +13,6 @@ Vous avez remarqué des différences entre vos rapports GA4 et les exportations 
 
 L'une des raisons pourrait être que vous utilisez des données intraday incomplètes, avant qu'elles ne transitent vers les tables interday 📊  
 
-Pour obtenir des notifications Datama précises, vous pouvez soit reporter vos programmes plus tard dans la journée, soit passer à l'option "fresh daily" ⏲️
+Pour obtenir des notifications Datama précises, vous pouvez soit reporter vos programmes plus tard dans la journée, soit passer à l'option "fresh daily" ⏲️  
 
 Besoin de vérifier quand vos tableaux sont entièrement mis à jour ?
