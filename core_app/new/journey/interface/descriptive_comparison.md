@@ -1,17 +1,15 @@
 ---
-title: Descriptive Comparison
+title: Descriptive Comparison (Journey)
 description: Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab.
 layout: page
 scope: Datama/saas/journey
 keywords: full app journey interface descriptive comparison
 ---
 
-![descriptive comparison]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/images/descriptive_comparison.png" style="width:550px;">
-
 Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab:
 
 * [Pareto](#pareto)
-* Distribution (the volume of each touch point)
+* [Distribution](#the volume of each touch point)
 * [Sunburst](#sunburst)
 * [Sunburst difference](#sunburst-difference) (available in Compare mode only)
 * [Sankey](#sankey)
@@ -46,19 +44,11 @@ You can learn more on sunbursts and how to use them [here](https://Datama.fr/202
 
 We use sunbursts to represent the various customer journeys and their frequency of appearance (size of slices) in your data source.
 
-The left one is your Start segment.
+The left one is your Desktop segment.
 
-The right one is your End segment.
+The right one is your Mobile segment.
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/start_end_sunbursts.png" style="width:1000px;">
-
-**Similarity Sunburst:**
-
-This sunburst represents the differences in appearance of the various journeys between Start and End dimensions
-
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width1000px;">
-
-
 
 <br>
 
@@ -69,13 +59,13 @@ This view is only available when Compare mode toggle is activated on Datama Jour
 
 **Similarity Sunburst:**
 
-This sunburst represents the differences in appearance of the various journeys between Start and End segments.
+This sunburst represents the differences in appearance of the various journeys between Desktop and Mobile segments.
 
-On the right part of the sunburst (starting by "positive") are the journeys that have increased in % between start and end. You have more of this type of journeys in your End segment than what you had in your Start segment
+On the left part of the sunburst (starting by "positive") are the journeys that have increased in % between start and end. You have more of this type of journeys in your Mobile segment than what you had in your Desktop segment
 
-On the left part of the sunburst (starting with the negative) are the journeys that have decreased in %
+On the right part of the sunburst (starting with the negative) are the journeys that have decreased in %
 
-Obviously, as this is a 0 sum game, you have as many decreasing journeys as increasing ones,due to the left part and right part (negative and positive) having exactly the same share (50/50)
+Obviously, as this is a 0 sum game, you have as many decreasing journeys as increasing ones,due to the left part and right part (positive and negative) having exactly the same share (50/50)
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width:1000px;">
 
