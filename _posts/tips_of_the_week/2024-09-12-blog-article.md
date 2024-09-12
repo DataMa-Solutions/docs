@@ -2,7 +2,7 @@
 feed: totw_en
 title:  "New article on blog: GA4 & BigQuery - Mind the Data Gaps!🚦"
 date:   2024-09-12 10:12:00 +0200
-img_url: /assets/images/tip/120.png
+img_url: /assets/images/tip/123.png
 img_type: image/png
 img_width: 600
 img_height: 300
