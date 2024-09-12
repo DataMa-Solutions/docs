@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 90: Exploring in Compare from Pivot"
-date:   2023-09-21 10:12:00 +0200
+date:   2023-09-21 12:00:00 +0200
 img_url: /assets/images/tip/90.gif
 img_type: image/gif
 img_width: 600

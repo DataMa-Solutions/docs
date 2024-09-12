@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 98: Dupliquer vos blocs sources dans Datama Prep"
-date:   2023-11-23 10:12:00 +0200
+date:   2023-11-23 12:00:00 +0200
 img_url: /assets/images/tip/98.gif
 img_type: image/gif
 img_width: 600

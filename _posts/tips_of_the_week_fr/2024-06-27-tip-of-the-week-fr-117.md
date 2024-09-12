@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 117: Découvrez le nouveau design des filtres et de la comparaison !"
-date:   2024-06-27 10:12:00 +0200
+date:   2024-06-27 12:00:00 +0200
 img_url: /assets/images/tip/117.gif
 img_type: image/gif
 img_width: 600
