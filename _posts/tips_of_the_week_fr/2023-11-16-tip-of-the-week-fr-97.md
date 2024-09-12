@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 97: Attacher à vos workbooks des liens vers une documentation"
-date:   2023-11-16 10:12:00 +0200
+date:   2023-11-16 12:00:00 +0200
 img_url: /assets/images/tip/97.gif
 img_type: image/gif
 img_width: 600

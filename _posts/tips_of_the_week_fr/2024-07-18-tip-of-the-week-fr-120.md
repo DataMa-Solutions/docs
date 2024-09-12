@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 120: Nouveau menu 'Dimension' dans les paramètres"
-date:   2024-07-18 10:12:00 +0200
+date:   2024-07-18 12:00:00 +0200
 img_url: /assets/images/tip/120.png
 img_type: image/png
 img_width: 600
