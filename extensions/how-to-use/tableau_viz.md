@@ -28,6 +28,11 @@ Here is what you get on this page:
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Tableau viz. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 <br/>
+Please watch the below video to get a quick view on how this works:
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h-434yts75c?si=wlGYHJWzJ5hc326z" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## 2. Features
 - **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
@@ -92,13 +97,13 @@ To discover more about how to read Waterfall, you can read our [dedicated sectio
 
 ## 6. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare//settings/settings.html) to get the full view of the extension Settings.
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings/settings.html) to get the full view of the extension Settings.
 
 <br/>
 
 ## 87 Get more insights
 
-Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/introduction.html)
+Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 

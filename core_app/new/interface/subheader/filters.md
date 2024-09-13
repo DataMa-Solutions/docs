@@ -19,11 +19,12 @@ The filters menu is composed of 2 main options for each dimension of your datase
 ## **Filter:**
 Segment within a given dimension that you want to filter on. Just click on "Filter" and "Add a new filter".
 
-Then, you can to tick the different choices available.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filter_selection.png"/></center>
 
 According to your selection, the calculation will re-run automatically.
-
+=======
+Segment can also be filtered with a right click on the segment in the waterfall. The calculation will re-run automatically.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/filters_exclude.png"/></center>
+<br>
 
 ## **Filters options:**
 

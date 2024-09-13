@@ -258,6 +258,7 @@
             - name: Decision Tree #done
               link: /core_app/new/pivot/pivot_interface.html#decision-tree
             - name: Pivot subheader
+              link: /core_app/new/interface/subheader/dimension_comparison.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
@@ -428,6 +429,8 @@
                   link: /core_app/new/prep/interface/add_source.html#google-trends
                 - name: Facebook
                   link: /core_app/new/prep/interface/add_source.html#facebook
+                - name: Amazon Redshift
+                  link: /core_app/new/prep/interface/add_source.html#amazon-redshift
 
             - name: Extensions #done
               link: /core_app/new/integration/integrations.html
@@ -450,6 +453,7 @@
       link: /core_app/new/integration/integrations.html
       subnav:
         - name: Power BI
+          link: /core_app/new/integration/PowerBI.html
           subnav:
             - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html
@@ -876,6 +880,8 @@
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan.html
+        - name: Qlik
+          link: /extensions/how-to-use/qlik.html
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
           subnav:

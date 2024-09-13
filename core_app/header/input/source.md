@@ -37,7 +37,7 @@ To decide which dimensions you want in your source, you may want to think about 
 
 If a dimension is continuous (i.e. numeric) and has more than 6 possible values, it will get discrete by a partition algorithm, in order to be able to compute mix effects & performance. See [Clustering]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering.md) methodology.
 
-Number of dimension are theoretically unlimited. However, as your data set get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
+Number of dimension are theoretically unlimited. However, as your dataset get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
 > **Tip:** Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
 

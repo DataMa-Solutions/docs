@@ -35,9 +35,9 @@ As a global Settings, Level of aggregation, is for now the only one available.
 <!--- **Segment text complement:** "variation relative to avg" or "variation in %" this is a display option in the label of each segment when clicking a waterfall step. 
     - each segment is written like "desktop (x...)" this x is a variation relative to average (e.g if the variation at this step is +2% and the variation of Desktop is +4% the parenthesis will "x2" which the relative variation of the segment 'Desktop' compare to the average variation). 
     - When selecting "variation in %" you only have the absolut variation of the segment in %. If desktop is moving of +4%, the label will be 'Desktop (+4)'--->
-- **Level of aggregation:** The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/new/interface/subheader/settings/aggregation.html)
+- **Level of aggregation:** The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.[See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_GeneralSettings.PNG){: style="align: right; width: 600px;"}
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/asses_aggre_level.PNG){: style="align: right; width: 600px;"}
 
 <br/>
 
@@ -52,7 +52,7 @@ Defining what you want to compare is the very first step of your analysis in Dat
 - **Secondary Comparison**: Add a comparison to duplicate your waterfall with a secondary waterfall on a different scope. (e.g. Compare Week N versus Week N-1 and compare Week N-2 vers Week N-1).
   - Use the Advanced Settings to also select a secondary comparison on a different scope. For example, compare a Week over Week on Category A and also a Week over Week on Category B.
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_ComparisonSettings.PNG){: style="align: right; width: 600px;"}
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.PNG){: style="align: right; width: 600px;"}
 
 <br/>
 
@@ -131,6 +131,6 @@ Documentation under construction
 
 <br/>
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/concept.html) of Datama.
+Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) of Datama.
 
 <br>

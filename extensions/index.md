@@ -16,7 +16,12 @@ _Find below documentation related to each extensions_
 For now only one extension is available on marketPlace. 
 
 
-1. [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/Datama-compare/introduction.html)
+1. [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+
+**Coming soon :**
+- Assess : significance test
+- Detect : Anomaly Detection 
+- Dimension Helpers : Bars graphs with integrated drop down
 
 <br/>
 

@@ -8,7 +8,8 @@ scope: Datama/saas/journey
 This example is showing a dataset for Datama JOURNEY to analyze web pages' contribution to website value by page category.
 Datasets typically come from tools like Google Analytics / Big Query
 
-Please [read this article](https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/) to understand the full business context
+Please [read our article](https://datama.io/getting-value-out-of-a-sunburst/) to have the full business context
+<!-- https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/ ne fonctionne plus -->
 
 <center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGH2q-ug3Pn-QjYmDDPDUR0u2Kzy2YOo_btZBfOgIc5J56FiJA8QbfHtuSFV2NuiOKhBtR5ZrK6mFk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="610" height="260"></iframe></center>
 
