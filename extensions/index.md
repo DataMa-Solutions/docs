@@ -17,6 +17,7 @@ For now only one extension is available on marketPlace.
 
 
 1. [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+2. [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
 
 <br/>
 
@@ -24,7 +25,3 @@ For now only one extension is available on marketPlace.
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
-
-<br>
-
-More to come soon with our Anomaly Detection extension. 

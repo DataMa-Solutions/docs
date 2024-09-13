@@ -6,7 +6,7 @@ scope: Datama/saas/detect
 keywords: full app detect
 ---
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Detect_icon.jpg" alt="logo detect" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/detect_icon.jpg" alt="logo detect" /></center>
 
 > **Datama DETECT aims at evaluating over time the normality of a variation and explain it**
 
