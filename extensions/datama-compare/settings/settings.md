@@ -37,7 +37,7 @@ As a global Settings, Level of aggregation, is for now the only one available.
     - When selecting "variation in %" you only have the absolut variation of the segment in %. If desktop is moving of +4%, the label will be 'Desktop (+4)'--->
 - **Level of aggregation:** The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.[See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/asses_aggre_level.PNG){: style="align: right; width: 600px;"}
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/asses_aggre_level.png){: style="align: right; width: 600px;"}
 
 <br/>
 
@@ -52,7 +52,7 @@ Defining what you want to compare is the very first step of your analysis in Dat
 - **Secondary Comparison**: Add a comparison to duplicate your waterfall with a secondary waterfall on a different scope. (e.g. Compare Week N versus Week N-1 and compare Week N-2 vers Week N-1).
   - Use the Advanced Settings to also select a secondary comparison on a different scope. For example, compare a Week over Week on Category A and also a Week over Week on Category B.
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.PNG){: style="align: right; width: 600px;"}
+![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.png){: style="align: right; width: 600px;"}
 
 <br/>
 
