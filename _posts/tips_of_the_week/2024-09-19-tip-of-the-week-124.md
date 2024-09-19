@@ -7,7 +7,7 @@ img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
----
+--
 
 Not familiar with Datama Solution? Looking to explore existing features or discover new ones? 🤔    
 
