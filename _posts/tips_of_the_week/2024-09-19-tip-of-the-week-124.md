@@ -1,4 +1,4 @@
---
+---
 feed: totw_en
 title:  "Tip of the Week 124: Leverage our tips to simplify your analysis🌟"
 date:   2024-09-19 12:00:00 +0200
@@ -7,7 +7,7 @@ img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
---
+---
 
 Not familiar with Datama Solution? Looking to explore existing features or discover new ones? 🤔    
 
