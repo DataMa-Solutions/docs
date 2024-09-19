@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 124: Exploitez “tip of the week” pour simplifier votre analyse 🌟"
-date:   2024-09-05 12:00:00 +0200
+date:   2024-09-19 12:00:00 +0200
 img_url: /assets/images/tip/122.gif
 img_type: image/gif
 img_width: 600
