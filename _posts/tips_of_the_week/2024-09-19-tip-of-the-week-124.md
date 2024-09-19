@@ -9,17 +9,12 @@ img_height: 300
 layout: post
 ---
 
-Not familiar with Datama Solution? Looking to explore existing features or discover new ones? 🤔    
-
+Not familiar with Datama Solution? Looking to explore existing features or discover new ones? 🤔
 Every week, Datama sends out a "tip of the week" to help you make the best out of the software.  
-
 Don't hesitate to browse our “tip of the week” section to find valuable insights! Here's how you can access them:
-  * 🌐 Home page: Scroll down to find "Our tips".   
-  * 🔍 Search tips: Type "tip of the week" in the documentation on the left-hand side of the home page.  
-  * 📧 Email updates: Receive tips regularly via email/ slack/ gchat/ linkedin!  
-
+  * 🌐 Home page: Scroll down to find "Our tips".
+  * 🔍 Search tips: Type "tip of the week" in the documentation on the left-hand side of the home page.
+  * 📧 Email updates: Receive tips regularly via email/ slack/ gchat/ linkedin!
 🆘 Need help?  
 If you're unable to find the tips you're looking for, give us feedback for additional support.  
-
-📊 Empower Your Analysis with Expert Tips! 🧠  
-
+📊 Empower Your Analysis with Expert Tips! 🧠
