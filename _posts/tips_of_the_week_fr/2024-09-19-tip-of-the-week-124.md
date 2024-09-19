@@ -11,7 +11,7 @@ layout: post
 
 Pas encore familier avec Datama Solution ? Vous cherchez à explorer les fonctionnalités existantes ou à découvrir les nouvelles ? 🤔   
 
-Chaque semaine, Datama envoie une " tip of week " pour vous aider à tirer le meilleur parti du logiciel.  
+Chaque semaine, Datama envoie une "tip of the week" pour vous aider à tirer le meilleur parti du logiciel.  
 
 N'hésitez pas à parcourir notre section tip of the week pour trouver des idées précieuses! Voici comment y accéder:
   * 🌐 Page d'accueil : Faites défiler vers le bas pour trouver "Our tips".  
