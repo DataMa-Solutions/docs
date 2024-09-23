@@ -5,9 +5,11 @@ scope: Datama/light/compare
 keywords: light compare concept
 ---
 
+<br> 
+
 > **Here is what you should know about Datama to understand what is behind the solution**
 
-<br/>
+<br>
 
 Here is what you get on this page:
 1. [What we are trying to answer](#1-what-we-are-trying-to-answer) 
@@ -19,16 +21,14 @@ Here is what you get on this page:
 
 ## 1. What we are trying to answer?
 
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" style="width: 70%;" /></center>
-
- <br/>
-
 The Compare extension offers insightful analysis to pinpoint the exact causes behind performance variations. 
 
 Whether you're comparing two different timeframes or two countries, this tool helps shed light on the reasons.
 
 The results would be via a smart waterfall chart. 
+
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" style="width: 70%;" /></center>
 
 <br>
 
@@ -48,13 +48,11 @@ To go more in detail, you will need to consider these dimensions and metrics in 
     - To better define your steps (or metric equation), you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
 4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
-<br/>
+<br>
 
 ## 3. Metrics relation
 
-<br/>
-
-> **Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.**
+**Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.**
 
 ### Simplistic example
 
@@ -105,8 +103,11 @@ Each waterfall step represents a variance of a ratio of your performance, offeri
 - By clicking on a step, the graph displays the dimension that best explains your variations and give the impact each element of this dimension has on that variation. (by clicking right then "Split by" you can see the interest score of other dimension and choose to modify the dimension that appears.) 
 - Each variation is split between mix and performance (see article or the next section to understand the difference)
 
+<br>
 
 ---
+
+<br>
 
 ## Hope you enjoy it. 
 

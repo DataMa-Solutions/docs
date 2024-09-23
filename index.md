@@ -21,7 +21,7 @@ You can get started with your first Use Case by reading the: <i>[How to start wi
 - [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html)
 - [Prep]({{site.url}}/{{site.baseurl}}/core_app/new/prep/prep.html)
 - [Extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html)
-
+- [Data Viz Plugin]({{site.url}}/{{site.baseurl}}/extensions/index.html)
 
 <br>
 

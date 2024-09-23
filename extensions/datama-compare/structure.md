@@ -1,5 +1,5 @@
 ---
-title: Interface of Datama extension
+title: Interface of Datama Compare extension
 layout: page
 scope: Datama/light/compare
 keywords: light compare structure
@@ -15,14 +15,14 @@ keywords: light compare structure
 
 Datama Compare extension is composed of One main section (analysis) in Viewer mode and three sections in Builder mode (header, analysis & footer)
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
 
 
 <br>
 
 ## 2. Header section 
 
-In Builder mode the header is used for advanced settings to let you configure and refine your analysis. Read the [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
+In Builder mode the header is used for advanced settings to let you configure and refine your analysis. Read the dedicated section about [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 
 
 <br/>
@@ -35,10 +35,10 @@ Analysis section is mainly the Waterfall and few icons to change the display of 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Analysis_icons.png" alt="Icons of Datama Compare" title="Icons of Datama Compare" /></center>
 
 1. **Pivot**: rotate your graph of 90°
-2. **Waterfall Display**: this is the graph by default
+2. **Waterfall Display**: this is the waterfall graph (selection by default)
 3. **Decision tree**: change graphs to Decision tree which represent the same analysis in a different way.
 4. **Documentation**: Direct link to this documentation
-5. **Waterfall Settings**: Refine the display of the waterfall. Find more information on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
+5. **Waterfall Settings**: Refine the display of the waterfall. Find more information on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 
 <br/>
 

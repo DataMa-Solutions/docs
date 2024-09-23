@@ -6,6 +6,8 @@ scope: Datama/saas/compare
 keywords: full app compare drill down hierarchy
 ---
 
+<br>
+
 > Drill down hierarchy is in beta 🧪 right now and unactivated by default. Please send us any feedback to get this improved!
 
 <br>
@@ -21,21 +23,29 @@ It allows to define the methodology to break down main KPI variation.
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_setting.png"></center>
 
-Once activated (i.e. not defined to "Steps then Dimensions"), Datama uses what is calculated as the most interesting drill down. 
+Once activated (i.e. default value is "Steps then Dimensions"), Datama uses what is calculated as the most interesting drill down. 
 Yet, you can manually change the drill down by right clicking on a total bar of the waterfall and selecting the desired drill down 
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_right_click.png"></center>
 
 # Available drill down hierarchy
 
-## **Steps then Dimension (default setting)**
+## **1. Steps then Dimension** <i>(default setting)</i>
 
 By default, the main entry point for Compare analysis are the steps of your market equation, a.k.a. [metric relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html). 
+
+<center> <img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/stepthendimension.png"></center>
+
 Then, within each step, Datama helps you find what is the most interesting dimension to explain the gap of a given steps. This is the default way of working of Datama Compare, as specified in (Model details)[{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html]
 
-## **Dimension then steps**
+<br>
+
+## **2. Dimension then steps**
 
 When your main KPI is the result of a simple computation (i.e.  product or sum of metrics steps), Datama is able to breakdown the impact of each segment of each dimensionon the main KPI. 
+
+<center> <img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/dimensionthenstep.png"></center>
+
 
 This is particularly interesting in cases like
 * your final customers want to see a split by segment first on main KPI before having the details by sub-PI (e.g. breakdown by country when it fits with different entities/ targets/ incentives of your organisation)
@@ -50,7 +60,9 @@ Few tips to consider
 * You can force Datama to consider the most interesting dimension (hence, the first dimension displayed) to be a given dimension by defining it as "Focus dimension" for the total step in the Metric Relation definition
 * When looking at a ratio for the Main KPI, Datama might find useful and necessary to separate mix effect before splitting by segment. You can avoid this by setting the "Split Mix and Performance" setting to "Never"
 
-## Auto
+<br>
+
+## 3. Auto
 
 Auto mode lets Datama score the interest of splitting by "Steps then Dimension" vs. all the different variants of "Dimensions then Steps" using an interest score.
 You can see the interest score by right clicking on the total bar and reading the contextual menu.

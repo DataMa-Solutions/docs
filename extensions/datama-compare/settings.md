@@ -37,7 +37,11 @@ As a global Settings, Level of aggregation, is for now the only one available.
     - When selecting "variation in %" you only have the absolut variation of the segment in %. If desktop is moving of +4%, the label will be 'Desktop (+4)'--->
 - **Level of aggregation:** The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.[See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/asses_aggre_level.PNG){: style="align: right; width: 600px;"}
+<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/asses_aggre_level.PNG){: style="align: right; width: 600px;"} -->
+
+
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/asses_aggre_level.PNG"/></center>
+
 
 <br/>
 
@@ -52,7 +56,10 @@ Defining what you want to compare is the very first step of your analysis in Dat
 - **Secondary Comparison**: Add a comparison to duplicate your waterfall with a secondary waterfall on a different scope. (e.g. Compare Week N versus Week N-1 and compare Week N-2 vers Week N-1).
   - Use the Advanced Settings to also select a secondary comparison on a different scope. For example, compare a Week over Week on Category A and also a Week over Week on Category B.
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.PNG){: style="align: right; width: 600px;"}
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.PNG"/></center>
+
+
+<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.PNG){: style="align: right; width: 600px;"} -->
 
 <br/>
 
@@ -63,11 +70,14 @@ Defining what you want to compare is the very first step of your analysis in Dat
 Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension. Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 
 - By default, Datama creates a product of ratios (prod) with all the steps defined in the metrics relation. However, you can change this to “sum” to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
-- When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100. The other 
+- When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100.
 - In the Metrics Relation definition, you can opt to set a given step to focus on a specific dimension. This action will disable the automatic dimension scoring in the computation result and only display the selected dimension.
 - The excluded dimension will maintain the scoring algorithm but will not consider the excluded dimension in the calculation for this step.
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"}
+
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG"/></center>
+
+<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
 
 
 <br/>
@@ -79,8 +89,9 @@ Using metrics relation allows you to change your market equation, add a unit, re
  For now only French and English are available, let's us now if you want a new language to be added. 
 
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_LanguageSettings.PNG){: style="align: right; width: 500px;"}
+<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_LanguageSettings.PNG){: style="align: right; width: 500px;"} -->
 
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_LanguageSettings.PNG"/></center>
 
 <br/>
 <br/>
@@ -102,7 +113,9 @@ Using metrics relation allows you to change your market equation, add a unit, re
     - Variation absolute change (e.g. "-3pts") - this is the absolute difference between start and end values, displayed in the unit of the considered KPI
     - Nothing
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_SettingsWaterfall.png){: style="align: center; width: 500px;"}
+<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_SettingsWaterfall.png){: style="align: center; width: 500px;"} -->
+
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_SettingsWaterfall.png"/></center>
 
 
 <br/>
@@ -121,8 +134,9 @@ Using metrics relation allows you to change your market equation, add a unit, re
 
 Documentation under construction
 
-![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/SettingsLabelIndicator.png){: style="align: center; width: 500px;"}
+<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/SettingsLabelIndicator.png){: style="align: center; width: 500px;"} -->
 
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/SettingsLabelIndicator.png"/></center>
 
 
 <br/>

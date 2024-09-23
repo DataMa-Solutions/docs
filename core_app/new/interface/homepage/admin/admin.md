@@ -11,7 +11,7 @@ keywords: full app home admin
 >On this page, find details on the **Admin** section of the homepage
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.png"/></center>
+<center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.png"/></center>
 
 <br>
 
@@ -20,22 +20,25 @@ This chapter gathers different features shared amongst the homepage, such as:
 - [Products](#products)
 - [Security](#security)
 - [Statistics](#statistics)
+- [Manage Licence](#manage-licence)
+- [Extensions](#extensions)
 
 
 <br>
 
-# <b>Products</b>
+# Products
 
-This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
+Discover the products available in your plan and active modules. 
+You can choose between: 
+- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare.html)
+- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html)
+- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot.html)
+- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess.html)
+- [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html)
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/products.png"/></center>
-
-
-<br>
-
-# <b>Security</b>
+# Security
 
 
 This menu gives you access to a configuration panel for your account. You can add a license key or change your login information.
@@ -48,7 +51,13 @@ Administrator accounts are also able to manage the activity of other company acc
 
 <br>
 
-# <b>Statistics</b>
+# Manage Licence
+
+This menu is one way to retrieve your licence key for Datama extensions. 
+
+<br>
+
+# Statistics
 
 In Statistics, find a summary of the number of <i>computations</i> made.
 
@@ -60,6 +69,15 @@ At Datama, the consumption of the solution is made according to the number of co
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/statistic.png"/></center>
 
 <br>
+
+# Extensions 
+
+This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
+
+<br>
+
+<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/products.png"/></center>
+
 
 <!-- # <b>Licences</b>
 
