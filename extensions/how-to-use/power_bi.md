@@ -81,7 +81,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 2. On the "Full Extension" card, click on **"🚀 Try for free"**
 4. Get your Trial extension key and paste it into the Power Bi Settings
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan.html) our different plans.
+See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
 <br>
 

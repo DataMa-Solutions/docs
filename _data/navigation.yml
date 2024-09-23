@@ -21,20 +21,20 @@
             - name: Homepage #done
               link: /core_app/new/interface/homepage/homepage.html
               subnav:
-                - name: Header #done
-                  link: /core_app/new/interface/homepage/homepage_header.html
-                  subnav:
-                    - name: User preferences
-                      link: /core_app/new/interface/homepage/user_preferences.html
-                      subnav:
-                        - name: Analysis Language
-                          link: /core_app/new/interface/homepage/user_preferences.html#analysis-language
-                        - name: Colors Palette For Plots
-                          link: /core_app/new/interface/homepage/user_preferences.html#colors-palette-for-plots
-                        - name: Compact Numbers
-                          link: /core_app/new/interface/homepage/user_preferences.html#compact-numbers
-                        - name: Force Rounding
-                          link: /core_app/new/interface/homepage/user_preferences.html#force-rounding
+                # - name: Header #done
+                #   link: /core_app/new/interface/homepage/homepage_header.html
+                #   subnav:
+                - name: User preferences
+                  link: /core_app/new/interface/homepage/user_preferences.html
+                      # subnav:
+                        # - name: Analysis Language
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#11-analysis-language
+                        # - name: Colors Palette For Plots
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#12-colors-palette-for-plots
+                        # - name: Compact Numbers
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#13-compact-numbers
+                        # - name: Force Rounding
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#22-force-rounding
                 - name: Workbooks Management #done
                   link: /core_app/new/interface/homepage/workbooks_management.html
                 - name: Get Inspired #done
@@ -66,26 +66,26 @@
                       link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
                 - name: Admin #done
                   link: /core_app/new/interface/homepage/admin/admin.html
-                  subnav:
-                    - name: Licences
-                      link: /core_app/new/interface/homepage/admin/admin.html#licences
-                    - name: Security
-                      link: /core_app/new/interface/homepage/admin/admin.html#security
-                    - name: Statistics
-                      link: /core_app/new/interface/homepage/admin/admin.html#statistics
+                  # subnav:
+                  #   - name: Licences
+                  #     link: /core_app/new/interface/homepage/admin/admin.html#licences
+                  #   - name: Security
+                  #     link: /core_app/new/interface/homepage/admin/admin.html#security
+                  #   - name: Statistics
+                  #     link: /core_app/new/interface/homepage/admin/admin.html#statistics
             - name: Solutions header #done
               link: /core_app/new/interface/header/header.html
-              subnav:
-                - name: File #done
-                  link: /core_app/new/interface/header/file.html
-                #- name: 1.2.a. Edit
-                #  link: /core_app/new/interface/edit.html
-                - name: Data #done
-                  link: /core_app/new/interface/header/data.html
-                - name: Help #done
-                  link: /core_app/new/interface/header/help.html
-                - name: Export #done
-                  link: /core_app/new/interface/header/export.html
+              # subnav:
+              #   - name: File #done
+              #     link: /core_app/new/interface/header/file.html
+              #   #- name: 1.2.a. Edit
+              #   #  link: /core_app/new/interface/edit.html
+              #   - name: Data #done
+              #     link: /core_app/new/interface/header/data.html
+              #   - name: Help #done
+              #     link: /core_app/new/interface/header/help.html
+                # - name: Export #done
+                #   link: /core_app/new/interface/header/export.html
             - name: Solutions subheader #done
               link: /core_app/new/interface/subheader/subheader.html
               subnav:
@@ -99,11 +99,11 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/interface/subheader/settings.html
-        - name: Type of account #under construction
+        - name: Type of Account and Plan #under construction
           link: /core_app/new/interface/account.html
-          subnav:
-            - name: Plan and Payment  #done
-              link: /core_app/new/interface/payment.html
+          # subnav:
+          #   - name: Plan and Payment  #done
+          #     link: /core_app/new/interface/payment.html
     - name: Compare #done
       link: /core_app/new/compare/compare.html
       subnav:
@@ -114,26 +114,26 @@
           subnav:
             - name: Waterfall #done
               link: /core_app/new/compare/interface/waterfall.html
-              subnav:
-                - name: Waterfall chart
-                  link: /core_app/new/compare/interface/waterfall.html#waterfall-chart
-                - name: Funnel
-                  link: /core_app/new/compare/interface/waterfall.html#funnel
-                - name: Dimension Comparison
-                  link: /core_app/new/compare/interface/waterfall.html#dimension-comparison
-                - name: Mix Effect
-                  link: /core_app/new/compare/interface/waterfall.html#mix-effect
-                - name: Performance Effect
-                  link: /core_app/new/compare/interface/waterfall.html#performance-effect-max
+              # subnav:
+              #   - name: Waterfall chart
+              #     link: /core_app/new/compare/interface/waterfall.html#waterfall-chart
+              #   - name: Funnel
+              #     link: /core_app/new/compare/interface/waterfall.html#funnel
+              #   - name: Dimension Comparison
+              #     link: /core_app/new/compare/interface/waterfall.html#dimension-comparison
+              #   - name: Mix Effect
+              #     link: /core_app/new/compare/interface/waterfall.html#mix-effect
+              #   - name: Performance Effect
+              #     link: /core_app/new/compare/interface/waterfall.html#performance-effect-max
             - name: Detailed View #done
               link: /core_app/new/compare/interface/detailed_view.html
-              subnav:
-                - name: Moves #done
-                  link: /core_app/new/compare/interface/moves.html
-                - name: Bridge #done
-                  link: /core_app/new/compare/interface/bridge.html
-                - name: Table #done
-                  link: /core_app/new/compare/interface/table.html
+              # subnav:
+              #   - name: Moves #done
+              #     link: /core_app/new/compare/interface/moves.html
+              #   - name: Bridge #done
+              #     link: /core_app/new/compare/interface/bridge.html
+              #   - name: Table #done
+              #     link: /core_app/new/compare/interface/table.html
             - name: Compare subheader #done
               link: /core_app/new/compare/interface/compare_header.html
               subnav:
@@ -859,27 +859,39 @@
     - name: Compare
       link: /extensions/datama-compare/introduction.html
       subnav:
-        - name: Introduction
-          link: /extensions/datama-compare/introduction.html
+        # - name: Introduction
+        #   link: /extensions/datama-compare/introduction.html
         - name: Concept
           link: /extensions/datama-compare/concept.html
         - name: Interface
           link: /extensions/datama-compare/structure.html
         - name : Settings
-          link: /extensions/datama-compare/settings/settings.html
+          link: /extensions/datama-compare/settings.html
+    - name: Detect
+      link: /extensions/datama-detect/introduction.html
+      subnav:
+        - name: Concept
+          link: /extensions/datama-detect/concept.html
+        - name: Interface
+          link: /extensions/datama-detect/structure.html
+        - name : Settings
+          link: /extensions/datama-detect/settings.html
     - name : Extensions
       link: /extensions/how-to-use/index.html
       subnav:
         - name: Looker Studio
           link: /extensions/how-to-use/looker-studio.html
           subnav:
-            - name: Privacy Policy
-              link: /extensions/how-to-use/looker-studio/privacy-policy.html
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_looker.html
+          # subnav:
+          #   - name: Privacy Policy
+          #     link: /extensions/how-to-use/looker-studio/privacy-policy.html
         - name: Power BI
           link: /extensions/how-to-use/power_bi.html
           subnav:
             - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan.html
+              link: /extensions/how-to-use/pricing_plan_pbi.html
         - name: Qlik
           link: /extensions/how-to-use/qlik.html
         - name: Tableau
@@ -889,6 +901,9 @@
               link: /extensions/how-to-use/tableau_dashboard.html
             - name: Tableau Viz
               link: /extensions/how-to-use/tableau_viz.html
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_tableau.html
+
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
 ##  type: separated

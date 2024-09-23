@@ -20,7 +20,7 @@ Regardless of the license you choose, you will benefit from the following featur
 1. **Deep dive analysis**: Understand the nuances behind performance variations.
 2. **Mix effect**: Discover how volume effects impact your key metrics.
 3. **Dimension scoring**: Understand which dimensions drive your performance
-
+4. **Smart comments and much more...**
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/PricingPlan.png" style="width:50%"/></center>

@@ -7,7 +7,7 @@ keywords: Looker LookerStudio get started
 
 <br/>
 
-> Using Datama Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both Datama and Looker Studio.
+> Using Datama Solutions as a Looker Studio extension is a great way to make your report more insightful with the benefits of both.
 
 <br/>
 
@@ -25,10 +25,10 @@ Here is what you get on this page:
 
 <br/>
 
-<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Lookerstudio_Wireframe.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Lookerstudio_Wireframe.png" /></center>
 
 ## 1. Overview
-This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for LookerStudio. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+This document provides detailed documentation for the "Datama Compare - What's driving my variation?" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data waterfall graph.
 
 <br/>
 
@@ -47,7 +47,7 @@ This document provides detailed documentation for the "Datama Compare - Smart wa
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/CopyPath_lookerstudio.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/CopyPath_lookerstudio.png" /></center>
 
 
 And then, follow these steps to add Datama in your Looker Studio report : 
@@ -72,6 +72,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 3. Create your Datama account
 4. Get your Trial extension
 
+When ready, you can [buy the plan]({{site.url}}/{{site.baseurl}}/core_app/new/interface/account.html) that best fits your needs.
 
 <!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
 

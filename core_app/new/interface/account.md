@@ -12,13 +12,15 @@ keywords: full app interface
 
 <br>
 
-# <b>Datama User Accounts</b>
+# Datama User Accounts
 
-Datama provides two main categories of user accounts to cater to different user needs: **Web App** accounts for full application access, and **Extension** accounts for users who require plugin to data visualization tools only.
+Datama provides two main categories of user accounts to cater to different user needs: 
+- **Web App** accounts for full application access, 
+- and **Extension** accounts for users who require plugin to data visualization tools only.
 
 <br>
 
-## <b>Web App Accounts</b>
+## Web App Accounts
 
 Web App accounts are designed for users who need comprehensive access to the Datama application and benefits from the extension as well.
 
@@ -30,7 +32,11 @@ Web App accounts are designed for users who need comprehensive access to the Dat
 <br>
 
 ### Free
-- For people who register: access to standard features with limited capabilities (2 metrics, 2 dimensions, 1k rows)
+- For people who register: access to standard features with limited capabilities (2 metrics, 2 dimensions, 1 000 rows)
+
+<center><img style="width:40%;"  src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/FreeUser.png" alt="anoymous" /></center>
+
+
 
 ### Premium (Admin)
 - Full access to all features.
@@ -38,7 +44,7 @@ Web App accounts are designed for users who need comprehensive access to the Dat
 
 ### Premium (Non-admin)
 - Full access to all features without administrative privileges.
-- Can share use cases with other members or the group.
+- Can share use cases with other members of the group.
 
 <br>
 
@@ -50,7 +56,7 @@ Extension accounts are specifically for users who utilize Datama's data visualiz
 - No access to visualization tools without registration, only access to demo use case. Register is needed to access the Free features.
 
 ### Free
-- Access to standard visualization tools with some limitations.
+- Access to standard visualization tools with some limitations (2 metrics, 2 dimensions, 1 000 rows, only desktop usage)
 
 ### Premium
 - Full access to all advanced visualization tools.

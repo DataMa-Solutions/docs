@@ -29,9 +29,14 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-### 1. Quickly understand how Datama Compare can help you in your business analyses by following these links:
-- [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
-- [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
+### 1. Quickly understand how extension can help you in your business analyses by following these links:
+
+- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+    - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
+    - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
+- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+    - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) Understand theory behing the graphs
+    - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html): Deep dive into the interface
 
 <br>
 
@@ -39,11 +44,11 @@ This documentation gives you an overview of how it works and how to use it.
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
-
+- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
 <br>
 
 ### 3. Going further:
 <!--- [Use other(s) comparison]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/analysis/comparison.html)
 - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/structure.html) -->
-- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings/settings.html)
+- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 - [How to read Waterfall graphs]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)

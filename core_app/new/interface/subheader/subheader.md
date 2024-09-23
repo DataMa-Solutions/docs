@@ -6,7 +6,11 @@ scope: Datama/saas
 keywords: full app subheader sub header
 ---
 
+<br>
+
 > Find here how you can use **the subheader** of the Solution**
+
+<br>
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.jpg"/></center>
 

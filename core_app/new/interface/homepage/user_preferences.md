@@ -8,27 +8,31 @@ keywords: full app home user preferences
 
 > Find here how to use the **User preferences**
 
-Here is the panel of the user preferences for workbook style.
-<br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.png"/></center>
 <br>
 
+**Here is the panel of the user preferences for workbook style.**
 
-<br>
-
-> **User Preferences**
-<br> In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
+In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level.
 
-<br/>
-# <b>Workbook style<b>
+<br>
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.png"/></center>
+
+
+<br>
+
+# Workbook style
+
 <br/>
 
-## Language and colors
+## 1. Language and colors
+
+[Analysis](#)
 
 <br/>
 
-### **Analysis Language**
+### **1.1 Analysis Language**
 
 For now, Datama is only available in English and in French. By default Datama is in english.
 - You can change the language for a specific Use Case (Settings > Analysis Language)
@@ -36,7 +40,7 @@ For now, Datama is only available in English and in French. By default Datama is
 
 <br/>
 
-### **Colors Palette For Plots**
+### **1.2 Colors Palette For Plots**
 
 Graphs colors are customizable, in 3 different ways.
 Grayscale, scattered and Custom.
@@ -54,28 +58,32 @@ The custom method allows to refine color by color all the graphs available in th
 
 <br/>
 
-### **Reverse palette**
+### **1.3 Reverse palette**
 
  Reverse palette function allows to reverse the colors used to express growth or loss.
 
 <br/>
 
-## Number display
+## 2. Number display
 
 <br/>
 
-### **Compact Numbers**
+### **2.1 Compact Numbers**
 
 When activated, this toggle allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k).
 
-### **Force Rounding**
+<br>
+
+### **2.2 Force Rounding**
 
 The rounding setting will bypass the smart rounding available in Datama which adapts the number of decimals according to each number.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
 
 <br/>
-# <b>Solution models<b>
+
+# Custom settings per solution
+
 <br/>
 
 The settings is detailed separately for each solution :

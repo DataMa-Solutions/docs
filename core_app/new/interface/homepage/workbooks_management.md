@@ -18,13 +18,13 @@ You can access your workbooks from the home page in the "Recent" section or in f
 The "Recent" section shows the workbooks you've worked on recently. You can edit, delete, or move them to a folder using the contextual menu.
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_management.png"/></center>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_management.png"/></center>
 
 
 
 You can also manage your workbooks in the "Workbooks" page.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
 
 <br>
 
