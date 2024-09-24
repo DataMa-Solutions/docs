@@ -5,6 +5,23 @@ const search = new Sws('{{site.url}}/{{site.baseurl}}/search.json')
 
 let expanded = [];
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sidebarMenu = document.querySelector('#menu')
+    // Restaure la position de défilement si elle a été sauvegardée
+    const savedScrollPosition = localStorage.getItem('menuScrollPosition')
+    if (savedScrollPosition && sidebarMenu) {
+        sidebarMenu.scrollTop = savedScrollPosition
+    }
+    // Sauvegarde la position de défilement lors d'un clic
+    sidebarMenu.addEventListener('click', function(event) {
+        if (event.target.tagName === 'A') {
+            localStorage.setItem('menuScrollPosition', sidebarMenu.scrollTop)
+        }
+    })
+})
+
+
 if (Cookies.get('menu') != null) {
     expanded = Cookies.get('menu').split(',')
     let i = 0;

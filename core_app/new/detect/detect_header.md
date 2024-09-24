@@ -1,5 +1,5 @@
 ---
-title: Detect (Sub)Header
+title: Detect Subheader
 description: The header in Datama Detect helps you manipulate and refine your Use Cases
 layout: page
 scope: Datama/saas/detect

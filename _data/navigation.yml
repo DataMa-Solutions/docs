@@ -18,6 +18,7 @@
       subnav  :
         - name: Interface #done
           link: /core_app/new/interface/interface.html
+          type: h4
           subnav:
             - name: Homepage #done
               link: /core_app/new/interface/homepage/homepage.html
@@ -102,6 +103,7 @@
                   link: /core_app/new/interface/subheader/settings.html
         - name: Type of Account and Plan #under construction
           link: /core_app/new/interface/account.html
+          type: h4
           # subnav:
           #   - name: Plan and Payment  #done
           #     link: /core_app/new/interface/payment.html
@@ -111,8 +113,10 @@
       subnav:
         - name: General Introduction #done
           link: /core_app/new/compare/compare_introduction.html
+          type: h4
         - name: Compare interface #done
           link: /core_app/new/compare/compare_interface.html
+          type: h4
           subnav:
             - name: Waterfall #done
               link: /core_app/new/compare/interface/waterfall.html
@@ -180,6 +184,7 @@
                       link: /core_app/new/compare/interface/subheader/settings.html#include-0-for-y-axis
         - name: Model
           link: /core_app/new/compare/model/model.html
+          type: h4
           subnav:
             - name: Covariance
               link: /core_app/new/compare/model/covariance.html
@@ -195,8 +200,10 @@
       subnav:
         - name: General Introduction #done
           link: /core_app/new/detect/detect_introduction.html
+          type: h4
         - name: Detect interface #done
           link: /core_app/new/detect/detect_interface.html
+          type: h4
           subnav:
             - name: Detect subheader
               link: /core_app/new/detect/detect_header.html
@@ -211,41 +218,44 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/detect/settings.html
-                  subnav:
-                    - name: Analyse All Metrics Relation Steps #done
-                      link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
-                    - name: Inspect Numerator only #done
-                      link: /core_app/new/detect/settings.html#inspect-numerator-only
-                    - name: Analyse Latest Point Only #done
-                      link: /core_app/new/detect/settings.html#analyse-latest-point-only
-                    - name: Detection Method #done
-                      link: /core_app/new/detect/settings.html#detection-method
-                    - name: Treshold Value
-                      link: /core_app/new/detect/settings.html#threshold-value
-                    - name: Confidence Interval #done
-                      link: /core_app/new/detect/settings.html#confidence-interval
-                    - name: Points Included in Baseline
-                      link: /core_app/new/detect/settings.html#points-included-in-baseline
-                    - name: Number of points in Baseline #done
-                      link: /core_app/new/detect/settings.html#number-of-points-in-baseline
-                    - name: Analysis Depth #done
-                      link: /core_app/new/detect/settings.html#analysis-depth
-                    - name: Aggregation in % #done
-                      link: /core_app/new/detect/settings.html#aggregation-in-
-                    - name: Comparison #done
-                      link: /core_app/new/detect/settings.html#comparison
-                    - name: KPI #done
-                      link: /core_app/new/detect/settings.html#kpi
+                  # subnav:
+                  #   - name: Analyse All Metrics Relation Steps #done
+                  #     link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
+                  #   - name: Inspect Numerator only #done
+                  #     link: /core_app/new/detect/settings.html#inspect-numerator-only
+                  #   - name: Analyse Latest Point Only #done
+                  #     link: /core_app/new/detect/settings.html#analyse-latest-point-only
+                  #   - name: Detection Method #done
+                  #     link: /core_app/new/detect/settings.html#detection-method
+                  #   - name: Treshold Value
+                  #     link: /core_app/new/detect/settings.html#threshold-value
+                  #   - name: Confidence Interval #done
+                  #     link: /core_app/new/detect/settings.html#confidence-interval
+                  #   - name: Points Included in Baseline
+                  #     link: /core_app/new/detect/settings.html#points-included-in-baseline
+                  #   - name: Number of points in Baseline #done
+                  #     link: /core_app/new/detect/settings.html#number-of-points-in-baseline
+                  #   - name: Analysis Depth #done
+                  #     link: /core_app/new/detect/settings.html#analysis-depth
+                  #   - name: Aggregation in % #done
+                  #     link: /core_app/new/detect/settings.html#aggregation-in-
+                  #   - name: Comparison #done
+                  #     link: /core_app/new/detect/settings.html#comparison
+                  #   - name: KPI #done
+                  #     link: /core_app/new/detect/settings.html#kpi
         - name: Detection Method #done
           link: /core_app/new/detect/detection_method.html
+          type: h4
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
       type: h3
       subnav:
         - name: General Introduction #done
           link: /core_app/new/pivot/pivot_introduction.html
+          type: h4
         - name: Pivot interface #done
           link: /core_app/new/pivot/pivot_interface.html
+          type: h4
           subnav:
             - name: Importance Chart #done
               link: /core_app/new/pivot/pivot_interface.html#importance-chart
@@ -291,8 +301,10 @@
       subnav:
         - name: General Introduction #done
           link: /core_app/new/assess/assess_introduction.html
+          type: h4
         - name: Assess interface #done
           link: /core_app/new/assess/assess_interface.html
+          type: h4
           subnav:
             - name: Assess subheader
               link: /core_app/new/assess/assess_header.html
@@ -334,6 +346,7 @@
                       link: /core_app/new/assess/settings.html#kpi
         - name: Model #done
           link: /core_app/new/assess/model.html
+          type: h4
           subnav:
             - name: Frequentist #done
               link: /core_app/new/assess/model/frequentist.html
@@ -353,8 +366,10 @@
       subnav:
         - name: General introduction #done
           link: /core_app/new/journey/general_introduction.html
+          type: h4
         - name: Interface # mettre les images à jour
           link: /core_app/new/journey/interface/journey_interface.html
+          type: h4
           subnav:
             - name: Attribution # mettre les images à jour
               link: /core_app/new/journey/interface/attribution.html
@@ -363,6 +378,7 @@
             - name: Detailed View # mettre les images à jour
               link: /core_app/new/journey/interface/detailed_view.html
             - name: Journey subheader
+              link: /core_app/new/interface/subheader/subheader.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
@@ -397,6 +413,7 @@
                       link: /core_app/new/journey/interface/journey_header.html#kpi
         - name: Use cases examples #done
           link: /core_app/new/journey/use_cases_examples.html
+          type: h4
           subnav:
             - name: Website cross page journeys
               link: /core_app/new/journey/use_cases_examples/website_cross_page_journeys.html
@@ -410,8 +427,10 @@
       subnav:
         - name: Dataset #done
           link: /core_app/new/prep/dataset.html
+          type: h4
         - name: Prep interface #done
           link: /core_app/new/prep/prep_interface.html
+          type: h4
           subnav:
             - name: Add Source #done
               link: /core_app/new/prep/interface/add_source.html
@@ -462,6 +481,7 @@
       subnav:
         - name: Power BI
           link: /core_app/new/integration/PowerBI.html
+          type: h4
           subnav:
             - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html
@@ -469,11 +489,13 @@
               link: /core_app/new/integration/PowerBI_demo.html 
         - name: Tableau
           link: /core_app/new/integration/tableau.html
+          type: h4
           subnav:
             - name: Tableau - Compare - Demo #done
               link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
+          type: h4
     - name: Datama On-Premise
       link: /core_app/new/Datama_on_premise.html #OK
       type: h3
@@ -873,26 +895,33 @@
         #   link: /extensions/datama-compare/introduction.html
         - name: Concept
           link: /extensions/datama-compare/concept.html
+          type: h4
         - name: Interface
           link: /extensions/datama-compare/structure.html
+          type: h4
         - name : Settings
           link: /extensions/datama-compare/settings.html
+          type: h4
     - name: Detect
       link: /extensions/datama-detect/introduction.html
       type: h3
       subnav:
         - name: Concept
           link: /extensions/datama-detect/concept.html
+          type: h4
         - name: Interface
           link: /extensions/datama-detect/structure.html
+          type: h4
         - name : Settings
           link: /extensions/datama-detect/settings.html
+          type: h4
     - name : Extensions
       link: /extensions/how-to-use/index.html
       type: h3
       subnav:
         - name: Looker Studio
           link: /extensions/how-to-use/looker-studio.html
+          type: h4
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_looker.html
@@ -901,13 +930,16 @@
           #     link: /extensions/how-to-use/looker-studio/privacy-policy.html
         - name: Power BI
           link: /extensions/how-to-use/power_bi.html
+          type: h4
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_pbi.html
         - name: Qlik
           link: /extensions/how-to-use/qlik.html
+          type: h4
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
+          type: h4
           subnav:
             - name: Tableau Dashboard
               link: /extensions/how-to-use/tableau_dashboard.html
