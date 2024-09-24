@@ -197,15 +197,20 @@ body {
       }
     }
     & > nav {
-      margin-top: 20px;
+      margin-top: 10px;
       padding: 20px 0;
       border-top: 1px rgba(0,0,0,0.075) solid;
       & a {
         color: #333 !important;
       }
       & h2 {
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 700;
+        font-size: 22px;
+      }
+      & h3 {
+        font-weight: 550;
+        font-size: 18px;
+        padding-top: 6px;
       }
       &>ul>li:first-child>hr:first-of-type {
         display: none;
@@ -237,6 +242,7 @@ body {
             box-sizing: border-box;
             line-height: 30px;
             font-weight: 400;
+            margin-top: -5px;
             &:hover {
               text-decoration: none;
               & > .collapser {
