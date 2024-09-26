@@ -26,8 +26,8 @@
                 # - name: Header #done
                 #   link: /core_app/new/interface/homepage/homepage_header.html
                 #   subnav:
-                - name: User preferences
-                  link: /core_app/new/interface/homepage/user_preferences.html
+                # - name: User preferences
+                #   link: /core_app/new/interface/homepage/user_preferences.html
                       # subnav:
                         # - name: Analysis Language
                         #   link: /core_app/new/interface/homepage/user_preferences.html#11-analysis-language
@@ -37,8 +37,8 @@
                         #   link: /core_app/new/interface/homepage/user_preferences.html#13-compact-numbers
                         # - name: Force Rounding
                         #   link: /core_app/new/interface/homepage/user_preferences.html#22-force-rounding
-                - name: Workbooks Management #done
-                  link: /core_app/new/interface/homepage/workbooks_management.html
+                # - name: Workbooks Management #done
+                #   link: /core_app/new/interface/homepage/workbooks_management.html
                 - name: Get Inspired #done
                   link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
                   subnav:
@@ -271,6 +271,10 @@
               link: /core_app/new/pivot/pivot_interface.html#simple-test-matrix
             - name: Decision Tree #done
               link: /core_app/new/pivot/pivot_interface.html#decision-tree
+            - name: Market Equation Tree #done
+              link: /core_app/new/pivot/pivot_interface.html#market-equation-tree
+            - name: Radar Chart #done
+              link: /core_app/new/pivot/pivot_interface.html#radar-chart
             - name: Pivot subheader
               link: /core_app/new/interface/subheader/dimension_comparison.html
               subnav:

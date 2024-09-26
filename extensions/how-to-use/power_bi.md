@@ -5,6 +5,8 @@ scope: Datama/light/compare
 keywords: Power BI get started powerbi
 ---
 
+<br>
+
 > Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 
 <br/>

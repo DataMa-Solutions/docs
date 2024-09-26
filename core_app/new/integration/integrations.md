@@ -6,6 +6,7 @@ scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon
 ---
 
+<br>
 
 > Extensions allow you to use Datama within your preferred data tool. It basically unlocks the functionality of Datama, on top of a tool your already using.
 
