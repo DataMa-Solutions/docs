@@ -13,4 +13,4 @@ Le graphique en radar est disponible dans Datama Pivot lors de l'analyse de tout
 
 En un coup d'œil 👀, vous pouvez voir comment chaque segment d'une dimension se comporte sur chaque KPI de votre équation de marché et comparer cette performance à d'autres segments à l'aide d'un graphique en radar 🕸️ (alias « Spider Chart »). Il suffit de cliquer sur le deuxième onglet de la première diapositive de Datama Pivot pour le tester ! 🧪  
 
-Attention faites bien attention qu'aucune comparaison ne soit active sinon la slide n'apparaitra pas 😉
+Notez bien qu'aucune comparaison n'est active sinon la slide n'apparaitra pas 😉

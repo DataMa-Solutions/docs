@@ -13,4 +13,4 @@ The radar chart is available in Datama Pivot when analysing all stages of the ma
 
 At a glance 👀, you can see how each segment of a dimension is performing on each KPI in your market equation and compare that performance to other segments using a radar chart 🕸️ (aka ‘Spider Chart’). Just click on the second tab of the first Datama Pivot slide to try it out! 🧪  
 
-Be careful that no comparison is active, otherwise the slide won't appear 😉
+Make sure that no comparison is active, otherwise the slide will not appear. 😉
