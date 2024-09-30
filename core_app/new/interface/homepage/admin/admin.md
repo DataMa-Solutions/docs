@@ -17,16 +17,15 @@ keywords: full app home admin
 
 This chapter gathers different features shared amongst the homepage, such as:
 
-- [Products](#products)
-- [Security](#security)
-- [Statistics](#statistics)
-- [Manage Licence](#manage-licence)
-- [Extensions](#extensions)
-
+1. [Products](#products)
+2. [Security](#security)
+3. [Statistics](#statistics)
+4. [Manage Licence](#manage-licence)
+5. [Extensions](#extensions)
 
 <br>
 
-# Products
+# 1. Products
 
 Discover the products available in your plan and active modules. 
 You can choose between: 
@@ -38,7 +37,7 @@ You can choose between:
 
 <br>
 
-# Security
+# 2. Security
 
 
 This menu gives you access to a configuration panel for your account. You can add a license key or change your login information.
@@ -51,13 +50,7 @@ Administrator accounts are also able to manage the activity of other company acc
 
 <br>
 
-# Manage Licence
-
-This menu is one way to retrieve your licence key for Datama extensions. 
-
-<br>
-
-# Statistics
+# 3. Statistics
 
 In Statistics, find a summary of the number of <i>computations</i> made.
 
@@ -70,7 +63,14 @@ At Datama, the consumption of the solution is made according to the number of co
 
 <br>
 
-# Extensions 
+# 4. Manage Licence
+
+This menu is one way to retrieve your licence key for Datama extensions. 
+
+<br>
+
+
+# 5. Extensions 
 
 This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
 

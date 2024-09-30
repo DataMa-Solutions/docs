@@ -6,9 +6,13 @@ scope: Datama/saas/compare
 keywords: full app compare interface
 ---
 
+<br>
+
 > Overall **interface** is split in 4 elements, that are the back bone of Datama Compare
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_interface.png"/></center>
+<br>
+
+<center><img style="weight:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_interface.png"/></center>
 
 <br>
 

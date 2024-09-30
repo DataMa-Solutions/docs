@@ -6,6 +6,7 @@ scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon Power BI powerbi
 ---
 
+<br>
 
 > Using Datama Solutions as a **Power BI extension** is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 

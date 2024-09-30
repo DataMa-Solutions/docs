@@ -8,9 +8,6 @@ keywords: full app detect interface
 
 > Datama DETECT aims at evaluating over time the normality of a variation.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_interface.png"/></center>
-
-<br><br>
 
 **Interface of Datama DETECT:** 
 
@@ -19,8 +16,16 @@ keywords: full app detect interface
 - [1st Slide](#1st-slide)
 - [2nd Slide](#2nd-slide)
 
+<br>
+
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_interface.png"/></center>
+
+<br>
+
 
 Datama DETECT is composed of two different pages. One which shows the variation overtime and one which represents the detail on a specific anomaly. 
+
+<br>
 
 ## 1st Slide
 
@@ -32,6 +37,7 @@ Change the ratio your are analysing by using the dropdown in the title. Within t
 
 By default Datama Detect is set to analyse each steps of your market equation but you can change it to only a specific step. (in <i>Settings</i>)
 
+<br>
 
 ## 2nd Slide
 

@@ -20,9 +20,15 @@ You can get started with your first Use Case by reading the: <i>[How to start wi
 - [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess.html)
 - [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html)
 - [Prep]({{site.url}}/{{site.baseurl}}/core_app/new/prep/prep.html)
-- [Extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html)
-- [Data Viz Plugin]({{site.url}}/{{site.baseurl}}/extensions/index.html)
 
+
+Discover also Datama through your favorit Data visualisation solutions : 
+<!-- - [Extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) -->
+- [Data Viz Plugin]({{site.url}}/{{site.baseurl}}/extensions/index.html)
+    - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+    - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
+    - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
+    - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
 <br>
 
 ## Understand Datama in Motion 
