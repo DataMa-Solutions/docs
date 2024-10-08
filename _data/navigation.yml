@@ -14,29 +14,31 @@
   subnav:
     - name: General #done
       link: /core_app/new/interface/general.html
+      type: h3
       subnav  :
         - name: Interface #done
           link: /core_app/new/interface/interface.html
+          type: h4
           subnav:
             - name: Homepage #done
               link: /core_app/new/interface/homepage/homepage.html
               subnav:
-                - name: Header #done
-                  link: /core_app/new/interface/homepage/homepage_header.html
-                  subnav:
-                    - name: User preferences
-                      link: /core_app/new/interface/homepage/user_preferences.html
-                      subnav:
-                        - name: Analysis Language
-                          link: /core_app/new/interface/homepage/user_preferences.html#analysis-language
-                        - name: Colors Palette For Plots
-                          link: /core_app/new/interface/homepage/user_preferences.html#colors-palette-for-plots
-                        - name: Compact Numbers
-                          link: /core_app/new/interface/homepage/user_preferences.html#compact-numbers
-                        - name: Force Rounding
-                          link: /core_app/new/interface/homepage/user_preferences.html#force-rounding
-                - name: Workbooks Management #done
-                  link: /core_app/new/interface/homepage/workbooks_management.html
+                # - name: Header #done
+                #   link: /core_app/new/interface/homepage/homepage_header.html
+                #   subnav:
+                # - name: User preferences
+                #   link: /core_app/new/interface/homepage/user_preferences.html
+                      # subnav:
+                        # - name: Analysis Language
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#11-analysis-language
+                        # - name: Colors Palette For Plots
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#12-colors-palette-for-plots
+                        # - name: Compact Numbers
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#13-compact-numbers
+                        # - name: Force Rounding
+                        #   link: /core_app/new/interface/homepage/user_preferences.html#22-force-rounding
+                # - name: Workbooks Management #done
+                #   link: /core_app/new/interface/homepage/workbooks_management.html
                 - name: Get Inspired #done
                   link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
                   subnav:
@@ -66,26 +68,26 @@
                       link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
                 - name: Admin #done
                   link: /core_app/new/interface/homepage/admin/admin.html
-                  subnav:
-                    - name: Licences
-                      link: /core_app/new/interface/homepage/admin/admin.html#licences
-                    - name: Security
-                      link: /core_app/new/interface/homepage/admin/admin.html#security
-                    - name: Statistics
-                      link: /core_app/new/interface/homepage/admin/admin.html#statistics
+                  # subnav:
+                  #   - name: Licences
+                  #     link: /core_app/new/interface/homepage/admin/admin.html#licences
+                  #   - name: Security
+                  #     link: /core_app/new/interface/homepage/admin/admin.html#security
+                  #   - name: Statistics
+                  #     link: /core_app/new/interface/homepage/admin/admin.html#statistics
             - name: Solutions header #done
               link: /core_app/new/interface/header/header.html
-              subnav:
-                - name: File #done
-                  link: /core_app/new/interface/header/file.html
-                #- name: 1.2.a. Edit
-                #  link: /core_app/new/interface/edit.html
-                - name: Data #done
-                  link: /core_app/new/interface/header/data.html
-                - name: Help #done
-                  link: /core_app/new/interface/header/help.html
-                - name: Export #done
-                  link: /core_app/new/interface/header/export.html
+              # subnav:
+              #   - name: File #done
+              #     link: /core_app/new/interface/header/file.html
+              #   #- name: 1.2.a. Edit
+              #   #  link: /core_app/new/interface/edit.html
+              #   - name: Data #done
+              #     link: /core_app/new/interface/header/data.html
+              #   - name: Help #done
+              #     link: /core_app/new/interface/header/help.html
+                # - name: Export #done
+                #   link: /core_app/new/interface/header/export.html
             - name: Solutions subheader #done
               link: /core_app/new/interface/subheader/subheader.html
               subnav:
@@ -99,41 +101,45 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/interface/subheader/settings.html
-        - name: Type of account #under construction
+        - name: Type of Account and Plan #under construction
           link: /core_app/new/interface/account.html
-          subnav:
-            - name: Plan and Payment  #done
-              link: /core_app/new/interface/payment.html
+          type: h4
+          # subnav:
+          #   - name: Plan and Payment  #done
+          #     link: /core_app/new/interface/payment.html
     - name: Compare #done
       link: /core_app/new/compare/compare.html
+      type: h3
       subnav:
         - name: General Introduction #done
           link: /core_app/new/compare/compare_introduction.html
+          type: h4
         - name: Compare interface #done
           link: /core_app/new/compare/compare_interface.html
+          type: h4
           subnav:
             - name: Waterfall #done
               link: /core_app/new/compare/interface/waterfall.html
-              subnav:
-                - name: Waterfall chart
-                  link: /core_app/new/compare/interface/waterfall.html#waterfall-chart
-                - name: Funnel
-                  link: /core_app/new/compare/interface/waterfall.html#funnel
-                - name: Dimension Comparison
-                  link: /core_app/new/compare/interface/waterfall.html#dimension-comparison
-                - name: Mix Effect
-                  link: /core_app/new/compare/interface/waterfall.html#mix-effect
-                - name: Performance Effect
-                  link: /core_app/new/compare/interface/waterfall.html#performance-effect-max
+              # subnav:
+              #   - name: Waterfall chart
+              #     link: /core_app/new/compare/interface/waterfall.html#waterfall-chart
+              #   - name: Funnel
+              #     link: /core_app/new/compare/interface/waterfall.html#funnel
+              #   - name: Dimension Comparison
+              #     link: /core_app/new/compare/interface/waterfall.html#dimension-comparison
+              #   - name: Mix Effect
+              #     link: /core_app/new/compare/interface/waterfall.html#mix-effect
+              #   - name: Performance Effect
+              #     link: /core_app/new/compare/interface/waterfall.html#performance-effect-max
             - name: Detailed View #done
               link: /core_app/new/compare/interface/detailed_view.html
-              subnav:
-                - name: Moves #done
-                  link: /core_app/new/compare/interface/moves.html
-                - name: Bridge #done
-                  link: /core_app/new/compare/interface/bridge.html
-                - name: Table #done
-                  link: /core_app/new/compare/interface/table.html
+              # subnav:
+              #   - name: Moves #done
+              #     link: /core_app/new/compare/interface/moves.html
+              #   - name: Bridge #done
+              #     link: /core_app/new/compare/interface/bridge.html
+              #   - name: Table #done
+              #     link: /core_app/new/compare/interface/table.html
             - name: Compare subheader #done
               link: /core_app/new/compare/interface/compare_header.html
               subnav:
@@ -178,6 +184,7 @@
                       link: /core_app/new/compare/interface/subheader/settings.html#include-0-for-y-axis
         - name: Model
           link: /core_app/new/compare/model/model.html
+          type: h4
           subnav:
             - name: Covariance
               link: /core_app/new/compare/model/covariance.html
@@ -189,11 +196,14 @@
               link: /core_app/new/compare/model/modeling_components.html
     - name: Detect #done
       link: /core_app/new/detect/detect.html
+      type: h3
       subnav:
         - name: General Introduction #done
           link: /core_app/new/detect/detect_introduction.html
+          type: h4
         - name: Detect interface #done
           link: /core_app/new/detect/detect_interface.html
+          type: h4
           subnav:
             - name: Detect subheader
               link: /core_app/new/detect/detect_header.html
@@ -208,40 +218,44 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/detect/settings.html
-                  subnav:
-                    - name: Analyse All Metrics Relation Steps #done
-                      link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
-                    - name: Inspect Numerator only #done
-                      link: /core_app/new/detect/settings.html#inspect-numerator-only
-                    - name: Analyse Latest Point Only #done
-                      link: /core_app/new/detect/settings.html#analyse-latest-point-only
-                    - name: Detection Method #done
-                      link: /core_app/new/detect/settings.html#detection-method
-                    - name: Treshold Value
-                      link: /core_app/new/detect/settings.html#threshold-value
-                    - name: Confidence Interval #done
-                      link: /core_app/new/detect/settings.html#confidence-interval
-                    - name: Points Included in Baseline
-                      link: /core_app/new/detect/settings.html#points-included-in-baseline
-                    - name: Number of points in Baseline #done
-                      link: /core_app/new/detect/settings.html#number-of-points-in-baseline
-                    - name: Analysis Depth #done
-                      link: /core_app/new/detect/settings.html#analysis-depth
-                    - name: Aggregation in % #done
-                      link: /core_app/new/detect/settings.html#aggregation-in-
-                    - name: Comparison #done
-                      link: /core_app/new/detect/settings.html#comparison
-                    - name: KPI #done
-                      link: /core_app/new/detect/settings.html#kpi
+                  # subnav:
+                  #   - name: Analyse All Metrics Relation Steps #done
+                  #     link: /core_app/new/detect/settings.html#analyse-all-metrics-relation-steps
+                  #   - name: Inspect Numerator only #done
+                  #     link: /core_app/new/detect/settings.html#inspect-numerator-only
+                  #   - name: Analyse Latest Point Only #done
+                  #     link: /core_app/new/detect/settings.html#analyse-latest-point-only
+                  #   - name: Detection Method #done
+                  #     link: /core_app/new/detect/settings.html#detection-method
+                  #   - name: Treshold Value
+                  #     link: /core_app/new/detect/settings.html#threshold-value
+                  #   - name: Confidence Interval #done
+                  #     link: /core_app/new/detect/settings.html#confidence-interval
+                  #   - name: Points Included in Baseline
+                  #     link: /core_app/new/detect/settings.html#points-included-in-baseline
+                  #   - name: Number of points in Baseline #done
+                  #     link: /core_app/new/detect/settings.html#number-of-points-in-baseline
+                  #   - name: Analysis Depth #done
+                  #     link: /core_app/new/detect/settings.html#analysis-depth
+                  #   - name: Aggregation in % #done
+                  #     link: /core_app/new/detect/settings.html#aggregation-in-
+                  #   - name: Comparison #done
+                  #     link: /core_app/new/detect/settings.html#comparison
+                  #   - name: KPI #done
+                  #     link: /core_app/new/detect/settings.html#kpi
         - name: Detection Method #done
           link: /core_app/new/detect/detection_method.html
+          type: h4
     - name: Pivot #done
       link: /core_app/new/pivot/pivot.html
+      type: h3
       subnav:
         - name: General Introduction #done
           link: /core_app/new/pivot/pivot_introduction.html
+          type: h4
         - name: Pivot interface #done
           link: /core_app/new/pivot/pivot_interface.html
+          type: h4
           subnav:
             - name: Importance Chart #done
               link: /core_app/new/pivot/pivot_interface.html#importance-chart
@@ -257,7 +271,12 @@
               link: /core_app/new/pivot/pivot_interface.html#simple-test-matrix
             - name: Decision Tree #done
               link: /core_app/new/pivot/pivot_interface.html#decision-tree
+            - name: Market Equation Tree #done
+              link: /core_app/new/pivot/pivot_interface.html#market-equation-tree
+            - name: Radar Chart #done
+              link: /core_app/new/pivot/pivot_interface.html#radar-chart
             - name: Pivot subheader
+              link: /core_app/new/interface/subheader/dimension_comparison.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
@@ -282,11 +301,14 @@
                       link: /core_app/new/pivot/interface/subheader/settings.html#kpi
     - name: Assess #done
       link: /core_app/new/assess/assess.html
+      type: h3
       subnav:
         - name: General Introduction #done
           link: /core_app/new/assess/assess_introduction.html
+          type: h4
         - name: Assess interface #done
           link: /core_app/new/assess/assess_interface.html
+          type: h4
           subnav:
             - name: Assess subheader
               link: /core_app/new/assess/assess_header.html
@@ -328,6 +350,7 @@
                       link: /core_app/new/assess/settings.html#kpi
         - name: Model #done
           link: /core_app/new/assess/model.html
+          type: h4
           subnav:
             - name: Frequentist #done
               link: /core_app/new/assess/model/frequentist.html
@@ -343,11 +366,14 @@
               link: /core_app/new/assess/model/causal.html
     - name: Journey
       link: /core_app/new/journey/journey.html
+      type: h3
       subnav:
         - name: General introduction #done
           link: /core_app/new/journey/general_introduction.html
+          type: h4
         - name: Interface # mettre les images à jour
           link: /core_app/new/journey/interface/journey_interface.html
+          type: h4
           subnav:
             - name: Attribution # mettre les images à jour
               link: /core_app/new/journey/interface/attribution.html
@@ -356,6 +382,7 @@
             - name: Detailed View # mettre les images à jour
               link: /core_app/new/journey/interface/detailed_view.html
             - name: Journey subheader
+              link: /core_app/new/interface/subheader/subheader.html
               subnav:
                 - name: Dimension Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
@@ -390,6 +417,7 @@
                       link: /core_app/new/journey/interface/journey_header.html#kpi
         - name: Use cases examples #done
           link: /core_app/new/journey/use_cases_examples.html
+          type: h4
           subnav:
             - name: Website cross page journeys
               link: /core_app/new/journey/use_cases_examples/website_cross_page_journeys.html
@@ -399,11 +427,14 @@
               link: /core_app/new/journey/use_cases_examples/online_acquisition.html
     - name: Prep #done
       link: /core_app/new/prep/prep.html
+      type: h3
       subnav:
         - name: Dataset #done
           link: /core_app/new/prep/dataset.html
+          type: h4
         - name: Prep interface #done
           link: /core_app/new/prep/prep_interface.html
+          type: h4
           subnav:
             - name: Add Source #done
               link: /core_app/new/prep/interface/add_source.html
@@ -428,6 +459,8 @@
                   link: /core_app/new/prep/interface/add_source.html#google-trends
                 - name: Facebook
                   link: /core_app/new/prep/interface/add_source.html#facebook
+                - name: Amazon Redshift
+                  link: /core_app/new/prep/interface/add_source.html#amazon-redshift
 
             - name: Extensions #done
               link: /core_app/new/integration/integrations.html
@@ -448,8 +481,11 @@
               link: /core_app/new/prep/interface/extract_analysis.html
     - name: Integrations
       link: /core_app/new/integration/integrations.html
+      type: h3
       subnav:
         - name: Power BI
+          link: /core_app/new/integration/PowerBI.html
+          type: h4
           subnav:
             - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html
@@ -457,13 +493,16 @@
               link: /core_app/new/integration/PowerBI_demo.html 
         - name: Tableau
           link: /core_app/new/integration/tableau.html
+          type: h4
           subnav:
             - name: Tableau - Compare - Demo #done
               link: /core_app/new/integration/tableau_compare_demo.html
         - name: Looker Studio
           link: /core_app/new/integration/Looker_studio.html
-    - name: Datama On Premise
+          type: h4
+    - name: Datama On-Premise
       link: /core_app/new/Datama_on_premise.html #OK
+      type: h3
 #    - name: Old version of Datama
 #      link: /core_app/old_docs.html
 #      subnav:
@@ -854,37 +893,65 @@
   subnav:
     - name: Compare
       link: /extensions/datama-compare/introduction.html
+      type: h3
       subnav:
-        - name: Introduction
-          link: /extensions/datama-compare/introduction.html
+        # - name: Introduction
+        #   link: /extensions/datama-compare/introduction.html
         - name: Concept
           link: /extensions/datama-compare/concept.html
+          type: h4
         - name: Interface
           link: /extensions/datama-compare/structure.html
+          type: h4
         - name : Settings
-          link: /extensions/datama-compare/settings/settings.html
+          link: /extensions/datama-compare/settings.html
+          type: h4
+    - name: Detect
+      link: /extensions/datama-detect/introduction.html
+      type: h3
+      subnav:
+        - name: Concept
+          link: /extensions/datama-detect/concept.html
+          type: h4
+        - name: Interface
+          link: /extensions/datama-detect/structure.html
+          type: h4
+        - name : Settings
+          link: /extensions/datama-detect/settings.html
+          type: h4
     - name : Extensions
       link: /extensions/how-to-use/index.html
+      type: h3
       subnav:
         - name: Looker Studio
           link: /extensions/how-to-use/looker-studio.html
-          subnav:
-            - name: Privacy Policy
-              link: /extensions/how-to-use/looker-studio/privacy-policy.html
-        - name: Power BI
-          link: /extensions/how-to-use/power_bi.html
+          type: h4
           subnav:
             - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan.html
+              link: /extensions/how-to-use/pricing_plan_looker.html
+          # subnav:
+          #   - name: Privacy Policy
+          #     link: /extensions/how-to-use/looker-studio/privacy-policy.html
+        - name: Power BI
+          link: /extensions/how-to-use/power_bi.html
+          type: h4
+          subnav:
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_pbi.html
         - name: Qlik
           link: /extensions/how-to-use/qlik.html
+          type: h4
         - name: Tableau
           link: /extensions/how-to-use/tableau.html
+          type: h4
           subnav:
             - name: Tableau Dashboard
               link: /extensions/how-to-use/tableau_dashboard.html
             - name: Tableau Viz
               link: /extensions/how-to-use/tableau_viz.html
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_tableau.html
+
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
 ##  type: separated

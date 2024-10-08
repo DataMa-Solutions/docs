@@ -33,7 +33,7 @@ keywords: full app pivot settings subheader sub header
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.jpg">
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png">
 
 > Find here the details of the main settings Datama Pivot
 
@@ -46,10 +46,17 @@ keywords: full app pivot settings subheader sub header
 
 The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.
 
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_2per_chart.png">
+
 Click on the drop-down arrow to display the settings menu
-Move the cursor to the right to increase the level of aggregation
-Click on « Pivot » to get results
+Move the cursor to the right to increase the level of aggregation.
+Click on « Apply » to get results.
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/5per_pivot_set.png">
+
 Segments are now aggregated at the requested level
+
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_5per_chart.png">
 
 <br>
 

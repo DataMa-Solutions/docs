@@ -6,7 +6,11 @@ scope: Datama/saas
 keywords: full app subheader sub header settings
 ---
 
+<br>
+
 > Find here how to use the **Settings**
+
+<br>
 
 Here is the panel of the Settings for Compare.
 <br>

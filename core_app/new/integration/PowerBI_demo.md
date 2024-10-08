@@ -6,6 +6,7 @@ scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon power bi demo
 ---
 
+<br>
 
 > Welcome to the **Datama extension documentation for Power BI**. Harness the combined strengths of Datama and Power BI to make your reports more insightful.
 

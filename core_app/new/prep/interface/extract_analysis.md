@@ -73,7 +73,7 @@ Here are the available connectors to extract your analysis:
     - **List**: Give you the ability to select at a lower lever the detail you want to display in your message.
     - **Dropdown**: see only one graph and select with a drowdown the graph or the comment to display 
 
-    <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportEmail.jpg"/></center>
+    <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportEmail.png"/></center>
 
 <br>
 

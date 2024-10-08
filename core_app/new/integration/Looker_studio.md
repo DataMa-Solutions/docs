@@ -7,7 +7,7 @@ keywords: full app integration embed embedded add-on addons addon LookerStudio L
 ---
 
 
-> Using Datama Solutions as a **Looker Studio extension** is a great way to make your report more insightful with the benefits of both Datama and Looker Studio.
+> Using Datama Solutions as a **Looker Studio extension** is a great way to make your report more insightful with the benefits of both.
 
 <br>
 

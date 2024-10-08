@@ -9,6 +9,11 @@ keywords: Tableau Dashboard get started
 
 > Using Datama Solutions as a Tableau dashboard extension is a great way to make your report more insightful with the benefits of both Datama and Tableau.
 
+<br>
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/tableau_light.png" /></center>
+
+
 <br/>
 
 Here is what you get on this page:

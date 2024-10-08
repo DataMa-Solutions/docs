@@ -6,16 +6,16 @@ scope: Datama/saas/compare
 keywords: full app compare model mix effect
 ---
 
-Each performance is composed of a [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and a [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html).
+<br>
+
+> Each performance is composed of a [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and a [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html).
 
 This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
 
 <br>
 
-# <b> Mix Effect</b>
 
-
-**In the Web App**
+## **In the Web App**
 
 Effect of the change in the mix in input.
 
@@ -28,7 +28,7 @@ This graph represents the sum of the Mix impact of each dimension at each step o
 
 ![mix_effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-effect-dash.png)
 
-**Model of Mix effect**
+## **Model of Mix effect**
 
 Impact of the evolution of the volume breakdown in input.
 
@@ -40,7 +40,7 @@ e.g. If you are selling several products, and if the share of an individual prod
 * While each different segment of one dimension is contributing differently to the mix effect, we represent the sum of them
 
 
-**Example in a eCommerce**
+## **Example in a eCommerce**
 
 For instance, say mobile users generally convert much lower than desktop users (which is often the case). If last week you had much more desktop users than this week, then the conversion this week will be mathematically lower, just because of that change in device mix.
 

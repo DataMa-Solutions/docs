@@ -8,39 +8,51 @@ keywords: full app subheader sub header settings dimension comparison
 
 <br>
 
-> Find here how you can use **the Dimension Comparison** of the subheader of the Datama solution**
+> Find here how you can use **the Dimension Comparison** of the subheader of the Datama solution
 
 <br>
 
-Defining what you want to compare is the very first step of your analysis in Datama Compare as in Datama Assess
-In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions
+Defining what you want to compare is the very first step of your analysis in Datama Compare. In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions.
 
 <br>
 
-## **Select Dimension used for comparison**
+## Select Dimension used for comparison
 
-By default, Datama selects the first column of your dimensions as the comparison dimension.
-You can change the comparison dimension by two manners:
-- Click on the comparison icon on the top left corner and then click on the balance icon on the dimension you want to use for comparison
+By default, Datama selects the first column of your dataset as the comparison dimension.
+
+You can change the comparison dimension by:
+- Click on the comparison icon on the top left corner and then click on the gear icon to access the dimension you want to use for comparison
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison.png"/></center>
 
-- Click on the filter section and then on a pill of the dimension you want to use for comparison, and then toggle the “Compare” button
+<br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison2.png"/></center>
+- Click the drop-down list do choose the dimension you want to compare.
+
+- And select the dimension you want to compare on : 
+
+<centre><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/dimension_selection.png"/></centre>
 
 <br>
 
-## **Select segments for comparison**
+- Then select your segments for each of your comparisons.
 
-By default, Datama selects values for comparison as follows:
-- If the comparison dimension is a date, then Datama splits the total range of time in two periods of equal size and use the first part as definition for Starting point of your comparison, and the second part of the time range as the end point of your comparison
-- If the comparison dimension is anything other than a date (string or int), then Datama uses the last value (in alphabetical order) as the end point and the pre-last value as the starting point.
-You can choose what you want to Compare by selecting the appropriate value for the end point (on the top part) and the starting point of your comparison (on the bottom part)
+<centre><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/segment_selection.png"/></centre>
 
-Here is an example for a date:
-<left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_date.png"/></left>
+<br>
 
-Here is an example for a string:
-<left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_text.png"/></left>
+- The graph will appear with in the subheader the selected comparison.
 
-[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html) chart can help you to understand what you want to compare, in case you don’t know 😅
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/result.png"/></centre>
+
+<br>
+
+<br>
+
+
+
+[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html) chart can also help you to understand what you want to compare, in case you don’t know 😅
+
+<!-- **Note:** you can also activate/deactivate  “Open comparison helper by default” and choose the view that suits you best
+
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_helper.png"/></centre> -->
+
