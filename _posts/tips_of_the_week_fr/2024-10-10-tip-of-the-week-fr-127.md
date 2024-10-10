@@ -21,4 +21,4 @@ Cette fonctionnalité est disponible avec n'importe quel ensemble de données �
 
 Pour ceux qui veulent tester avec GA4, cliquez sur le lien ci-dessous pour en savoir plus : https://github.com/DataMa-Solutions/GA4-Hourly 🔗
 
-📈Restez proactif et renforcez vos analyses avec des alertes plus rapides! 🚀
+📈 Restez proactif et renforcez vos analyses avec des alertes plus rapides! 🚀
