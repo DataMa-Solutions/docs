@@ -17,9 +17,9 @@ You can now get notified 📩 within just a few hours of an anomaly occurring, r
 
 🔧 How it works  
 
-This feature is available for any dataset📊 with hourly updates, making it ideal for users working with tools like GA4, ERP, CRM, CDP, DMP and more. 🖥️
+This feature is available for any dataset 📊 with hourly updates, making it ideal for users working with tools like GA4, ERP, CRM, CDP, DMP and more. 🖥️
 
 For those who wanna test with GA4, click the link below to explore more: https://github.com/DataMa-Solutions/GA4-Hourly 🔗
 
-📈Stay proactive and empower your analysis with faster alerts! 🚀
+📈 Stay proactive and empower your analysis with faster alerts! 🚀
 
