@@ -7,15 +7,13 @@ keywords: extensions light viz tools
 
 <br/>
 
-> Datama provides the layer of intelligence needed to explain your performance variations
+> Datama provides the layer of business intelligence missing in data visualization tools
 
 <center> <img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_list.png"></center>
 
 <br/>
 
 Find below documentation related to each extensions
-
-For now only one extension is available on marketPlace. 
 
 
 - [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
@@ -25,7 +23,6 @@ For now only one extension is available on marketPlace.
 
 **Coming soon :**
 - Assess : Significance test
-- Detect : Anomaly Detection 
 - Dimension Helpers : Bars graphs with integrated drop down
 
 <br/>
@@ -43,5 +40,3 @@ Our extensions exists in two differents models for each data visualisation platf
 - **Light extension**: complete on premise version with no link to our web interface and servers. 
 
 <br>
-
-More to come soon with our Anomaly Detection extension. 
