@@ -16,18 +16,18 @@ keywords: extensions light viz tools
 Find below documentation related to each extensions
 
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
-- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html): Explain variations
+- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html): Detect anomalies
+- [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html): Assess statistical significance
 
 <br>
 
 **Coming soon :**
-- Assess : Significance test
 - Dimension Helpers : Bars graphs with integrated drop down
 
 <br/>
 
-### Find Datama in different Markeplace.
+### Find Datama in different markeplaces:
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)

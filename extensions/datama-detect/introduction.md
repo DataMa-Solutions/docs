@@ -48,4 +48,3 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 
 ### 3. Going further:
 - [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
-- [How to read Waterfall graphs]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
