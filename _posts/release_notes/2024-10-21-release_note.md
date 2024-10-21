@@ -1,11 +1,12 @@
 ---
 feed: release_note
-title:  "2024-10-08"
-date:   2024-10-08 12:00:00 +0200
+title:  "2024-10-21"
+date:   2024-10-21 12:00:00 +0200
 layout: post
 description: |
   More extensions!<br>
   October release puts in beta first versions of Detect and Assess as Marketplace extensions <br>
+  You can now compute statistical significance and detect anomalies straight into Looker Studio, Power BI, Qlik and Tableau, with no computation time leveraging "Datama light" technology. <br>
   You may want to try it out! 🚀 <br>
 ---
 
