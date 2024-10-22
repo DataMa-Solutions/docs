@@ -940,6 +940,12 @@
           link: /extensions/how-to-use/looker-studio.html
           type: h4
           subnav:
+            - name: Compare
+              link: /extensions/how-to-use/looker-studio_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/looker-studio_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/looker-studio_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_looker.html
           # subnav:

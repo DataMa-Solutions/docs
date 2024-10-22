@@ -21,12 +21,9 @@ Find below how to quick start with Datama Compare extension on visualization too
 
 ### 1. Quickly understand how extension can help you in your business analyses by following these links:
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
-    - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
-    - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
-- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
-    - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) Understand theory behing the graphs
-    - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html): Deep dive into the interface
+
+- [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
+- [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
 
 
 <br>
