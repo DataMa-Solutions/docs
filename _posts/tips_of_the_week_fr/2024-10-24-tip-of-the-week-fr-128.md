@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-En tant qu'admin de votre organisation, il est désormais possible de partager les identifiants des sources de données que vous avez connectées avec tous les autres utilisateurs de l'organisation 🧑‍💻  
+En tant qu'admin de votre organisation, il est désormais possible de partager les identifiants des sources de données que vous avez connectées avec tous les autres utilisateurs de l'organisation. 🤝  
 
 Comment procéder ?
   * Sur la page d'accueil, sélectionnez dans "Organization" la page "Credentials" 🔐
