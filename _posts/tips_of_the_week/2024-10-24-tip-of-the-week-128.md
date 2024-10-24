@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-As an admin of your organization, you can now share the identifiers of the data sources you have connected with all other users in the organization. 🧑‍💻  
+As an admin of your organization, you can now share the identifiers of the data sources you have connected with all other users in the organization. 🤝  
 
 What to do?
   * On the home page, select the "Credentials" page in "Organization" 🔐
