@@ -967,13 +967,15 @@
           link: /extensions/how-to-use/qlik.html
           type: h4
         - name: Tableau
-          link: /extensions/how-to-use/tableau.html
+          link: /extensions/how-to-use/tableau_viz.html
           type: h4
           subnav:
-            - name: Tableau Dashboard
-              link: /extensions/how-to-use/tableau_dashboard.html
-            - name: Tableau Viz
-              link: /extensions/how-to-use/tableau_viz.html
+            - name: Compare
+              link: /extensions/how-to-use/tableau-viz_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/tableau-viz_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/tableau-viz_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_tableau.html
 

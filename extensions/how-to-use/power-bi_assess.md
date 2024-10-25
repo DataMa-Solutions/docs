@@ -2,7 +2,7 @@
 title: How to use Datama Assess (Light) in Power BI
 layout: page
 scope: Datama/light
-keywords: Looker LookerStudio assess get started
+keywords: Power Power BI assess get started
 ---
 
 <br/>
@@ -26,7 +26,7 @@ Here is what you get on this page:
 
 
 ## 1. Overview
-This document provides detailed documentation for the "Datama Assess" plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
+This document provides detailed documentation for the "Datama Assess" plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by computing statistical significance of variations;
 
 Below is a short intro video
 <br/>
