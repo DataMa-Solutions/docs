@@ -955,6 +955,12 @@
           link: /extensions/how-to-use/power_bi.html
           type: h4
           subnav:
+            - name: Compare
+              link: /extensions/how-to-use/power-bi_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/power-bi_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/power-bi_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_pbi.html
         - name: Qlik
