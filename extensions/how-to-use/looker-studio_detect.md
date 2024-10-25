@@ -20,14 +20,18 @@ Here is what you get on this page:
 6. [Read your analysis](#6-read-your-analysis)
 7. [Looker Studio examples](#7-looker-studio-guide)
 8. [Settings](#8-advanced-usage)
-9. [Get more insights](#9-get-more-insights)
-10. [Support and Resources](#10-support-and-resources)
+9. [Support and Resources](#9-support-and-resources)
 
 <br/>
 
 
 ## 1. Overview
 This document provides detailed documentation for the "Datama Detect" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
+
+Below is a short intro video: 
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ulYi-09w_u0?si=U8EBgFGEQaDbh7Do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br/>
 
@@ -88,12 +92,19 @@ Once you've imported the extension, here is how you can use it.
 
 **1. Anomaly dimension**: Drag and drop the dimension on which you want to detect anomalies in the appropriate field. This would typically be a Date column
 <br>
+
 **2. KPIs definition**: Drag and drop the metrics you want to monitor in the appropriate field. Make sure that you add summable metrics: Datama will compute ratios based on the market equation that you define in the extension settings
 <br/>
 
+**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for anomaly detection and define which metric you want to analyse in the market equation pane
+
+**4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+
+**5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
 ## 6. Read your Analysis
 
-To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
 
 <br/>
 
@@ -110,13 +121,10 @@ Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settin
 
 <br/>
 
-## 9. Get more insights
-
-Explore related documentation to understand how to generate insights in [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
 
 <br/>
 
-## 10. Support and Resources
+## 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.

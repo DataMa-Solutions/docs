@@ -20,17 +20,19 @@ Here is what you get on this page:
 6. [Read your analysis](#6-read-your-analysis)
 7. [Looker Studio examples](#7-looker-studio-guide)
 8. [Settings](#8-advanced-usage)
-9. [Get more insights](#9-get-more-insights)
-10. [Support and Resources](#10-support-and-resources)
+9. [Support and Resources](#9-support-and-resources)
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BEI7y9JVoyc?si=-FqCo8FAkr_4ClEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## 1. Overview
 This document provides detailed documentation for the "Datama Assess" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
 
+Below is a short intro video
 <br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BEI7y9JVoyc?si=-FqCo8FAkr_4ClEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2. Features
 
@@ -88,12 +90,20 @@ Once you've imported the extension, here is how you can use it.
 
 **1. Comparison Dimension**: Drag and drop the dimension on which you want to compare in the appropriate field. This would typically be a AB test variant column
 <br>
+
 **2. KPIs definition**: Drag and drop the metrics you want to monitor in the appropriate field. Make sure that you add summable metrics: Datama will compute ratios based on the market equation that you define in the extension settings
 <br/>
 
+**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for significance assessment and define which metric you want to analyse in the market equation pane
+
+**4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+
+**5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
+
 ## 6. Read your Analysis
 
-To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
 
@@ -106,12 +116,10 @@ Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b1
 
 ## 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assessyou
-Explore related documentation to understand how to generate insights in [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
-
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
 <br/>
 
-## 10. Support and Resources
+## 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.

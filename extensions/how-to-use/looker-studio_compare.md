@@ -100,10 +100,14 @@ Once you've imported the extension, here is how you can use it.
 <br/>
 <center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
 
+**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for anomaly detection and define which metric you want to analyse in the market equation pane
+
+**4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+
+**5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
 <br/>
 
-> Below is an example of a funnel with the metrics relation between each steps of the eCommerce funnel. 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/FunnelKPI.PNG" /></center>
 
 <br/>
 
