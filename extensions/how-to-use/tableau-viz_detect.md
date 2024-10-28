@@ -27,6 +27,11 @@ Here is what you get on this page:
 ## 1. Overview
 This document provides detailed documentation for the "Datama Detect" plugin, a powerful extension for Tableau Viz. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
 
+Below is a short intro video
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vIVgYRogYhw?si=NlkCR_tsZ6loAv-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 <br/>
