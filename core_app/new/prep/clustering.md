@@ -22,6 +22,9 @@ As you can see above, there is an input **Choose clustering method**. Here, you 
 
 
 When **Choose clustering method** is on **Manual**, different methods and settings for clustering are available, depending on the type of your data. 
+
+> # <b>Clustering Methods</b>
+
 <br>Basically, there are 3 categories of clustering:
 
 - [For discrete dimensions](#for-discrete-dimensions)

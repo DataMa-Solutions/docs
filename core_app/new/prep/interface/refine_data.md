@@ -76,9 +76,9 @@ Below an example of what the form looks like:
 As you can see in the example shown above, you can configure several parameters in the clustering form:
 - Enter a name for the new column in the "Column name" field.
 - Select the column you want to cluster from your dataset in the "Column" field.
-- Choose the clustering method to apply in the "Clustering Method" field (for more details, click here).
+- Choose the clustering method to apply in the "Clustering Method" field (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/clustering#clustering-methods)).
 - Select the metric for the computation in the "Metric used for clustering" field.
-- Adjust the clustering settings (for more details, click here).
+- Adjust the clustering settings (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/clustering#clustering-methods)).
 
 
 > ## <b>Append</b>
