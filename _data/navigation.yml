@@ -985,6 +985,8 @@
               link: /extensions/how-to-use/qlik_detect.html
             - name: Assess
               link: /extensions/how-to-use/qlik_assess.html
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_qlik.html
 
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
