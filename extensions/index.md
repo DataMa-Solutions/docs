@@ -16,9 +16,9 @@ keywords: extensions light viz tools
 Find below documentation related to each extensions
 
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html): Explain variations
-- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html): Detect anomalies
-- [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html): Assess statistical significance
+- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html): Explain variations through dynamic waterfall and KPI tree
+- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html): Detect anomalies in trend lines
+- [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html): Assess statistical significance of variations
 
 <br>
 

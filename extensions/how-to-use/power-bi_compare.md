@@ -86,8 +86,9 @@ On top of this, the paid version allows you to
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
 1. Click on "Trial version" link of Datama footer
-2. On the "Full Extension" card, click on **"🚀 Try for free"**
-4. Get your Trial extension key and paste it into the Power Bi Settings
+2. Click on "Upgrade"
+3. Create your Datama account
+4. Get your Trial extension with no engagement, and no credit card required
 
 See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
