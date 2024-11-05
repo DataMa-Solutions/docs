@@ -30,7 +30,7 @@ This document provides detailed documentation for the "Datama Detect" plugin, a 
 Below is a short intro video
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yK54Ttej7gI?si=U_Tx2y6ZbsJ_E4jj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7B9uLZSt-6Y?si=AsB4gMu34VtUxpHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br/>
 

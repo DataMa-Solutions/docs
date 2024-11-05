@@ -29,7 +29,7 @@ This document provides detailed documentation for the "Datama Compare - Smart wa
 
 Watch this video to properly understand our extension and how to use it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdwzOix7u6c?si=m3jb5y8v65NMl4sP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6xmeIALMQc?si=tyYrWaKoTqObeYun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
 ## 2. Features
