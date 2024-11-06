@@ -7,7 +7,7 @@ keywords: TableauViz Tableau get started
 
 <br/>
 
-> Using Datama Solutions as a Tableau Custom Visuals is a great way to make your report more insightful with the benefits of both.
+> Using Datama Solutions as a Tableau Viz Extension is a great way to make your report more insightful with the benefits of both.
 
 <br/>
 

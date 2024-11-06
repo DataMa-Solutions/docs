@@ -966,9 +966,6 @@
               link: /extensions/how-to-use/power-bi_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_pbi.html
-        - name: Qlik
-          link: /extensions/how-to-use/qlik.html
-          type: h4
         - name: Tableau
           link: /extensions/how-to-use/tableau_viz.html
           type: h4
@@ -981,6 +978,18 @@
               link: /extensions/how-to-use/tableau-viz_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_tableau.html
+        - name: Qlik
+          link: /extensions/how-to-use/qlik.html
+          type: h4
+          subnav:
+            - name: Compare
+              link: /extensions/how-to-use/qlik_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/qlik_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/qlik_assess.html
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_qlik.html
 
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK

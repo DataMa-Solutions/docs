@@ -34,7 +34,7 @@ This document provides detailed documentation for the ["Datama Compare - What's 
 
 Watch this video to properly understand our extension and how to use it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h-434yts75c?si=DV3aUouGhwxpcr4S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V-m7iSVn7ko?si=A2EKCiqlm1GGObJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br/>
 

@@ -30,6 +30,12 @@ Here is what you get on this page:
 ## 1. Overview
 This document provides detailed documentation for the "Datama Compare - What's driving my variation?" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data waterfall graph.
 
+Below is a short intro video
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZijKMvDDhv8?si=PWFB3yF8chkO-Jz6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 <br/>
 
 ## 2. Features

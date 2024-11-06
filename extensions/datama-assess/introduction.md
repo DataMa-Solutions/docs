@@ -33,7 +33,7 @@ You can compute significance for multiple ratios at the same time.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BEI7y9JVoyc?si=-FqCo8FAkr_4ClEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0O60LRRuhc4?si=YoixClIn3psOzqid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
+- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pibKmIaFMcM?si=ldIhDzH9frq2S7VV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
 <br>

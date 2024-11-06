@@ -35,7 +35,7 @@ This document provides detailed documentation for the ["Datama Compare - What's 
 
 Watch this video to properly understand our extension and how to use it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l9AydNNZw5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/brh3JdXCHkk?si=GxDUV8bCfm9tW8YX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <br/>
@@ -86,8 +86,9 @@ On top of this, the paid version allows you to
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
 1. Click on "Trial version" link of Datama footer
-2. On the "Full Extension" card, click on **"🚀 Try for free"**
-4. Get your Trial extension key and paste it into the Power Bi Settings
+2. Click on "Upgrade"
+3. Create your Datama account
+4. Get your Trial extension with no engagement, and no credit card required
 
 See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
