@@ -65,6 +65,22 @@ This a powerfull tool to create columns using conditionals or aggregation functi
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/calculated_field_preview1.png"/></center>
 
+Finally, prep also gives you the possibility to cluster some columns of your dataset using the **Create a clustering field** button.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/create_clustering_field.png"/></center>
+
+Below an example of what the form looks like:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/clustering_field_preview1.png"/></center>
+
+As you can see in the example shown above, you can configure several parameters in the clustering form:
+- Enter a name for the new column in the "Column name" field.
+- Select the column you want to cluster from your dataset in the "Column" field.
+- Choose the clustering method to apply in the "Clustering Method" field (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/clustering#clustering-methods)).
+- Select the metric for the computation in the "Metric used for clustering" field.
+- Adjust the clustering settings (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/clustering#clustering-methods)).
+
+
 > ## <b>Append</b>
 
 **Append action allow you to merge two source flow in one.**
