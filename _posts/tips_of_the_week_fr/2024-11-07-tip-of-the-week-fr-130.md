@@ -2,8 +2,8 @@
 feed: totw_fr
 title:  "Tip of the Week 130 : Personnalisez les commentaires dans votre extension Datama !"
 date:   2024-11-07 12:00:00 +0200
-img_url: /assets/images/tip/130.png
-img_type: image/png
+img_url: /assets/images/tip/130.gif
+img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
