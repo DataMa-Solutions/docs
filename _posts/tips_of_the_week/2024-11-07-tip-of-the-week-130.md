@@ -9,16 +9,16 @@ img_height: 300
 layout: post
 ---
 
-✨ Want to add your personal touch to comments while interpreting comparison analytics from the Datama extension in Looker Studio, PowerBI, or Tableau? 🤔 Yes, you can! 🌈 Say goodbye to default comments and hello to your custom insights below the waterfall chart! 🎉
+✨ Want to add your personal touch to comments while interpreting comparison analytics from the Datama extension in Looker Studio, PowerBI, or Tableau? 🤔 Yes, you can! 🌈 Say goodbye to default comments and hello to your custom insights below the waterfall chart! 🎉 
 
 Only 4 steps to get it done:
 
   1.	Right-click on the sentence you’d like to modify and select "Edit Sentence" to open the settings panel. 
   2.	📝 Edit the relevant text in the left coding panel. Check out your changes with a 📺 live preview on the right! 
   3.	When ready, ✅ click “Apply” at the bottom right to save your changes and see the update instantly. 
-  4.	♻️Need to Reset? Click “Reset” (left of “Apply”) to return to the default style if you want to start over or if an error pops up. 
+  4.	Need to Reset? Click “Reset” (left of “Apply”) to return to the default style if you want to start over or if an error pops up. 
   
-Advanced customization: Click “➕Available Variables” for even more options! 
+Advanced customization: Click “+Available Variables” for even more options! 
 
 🎥 See below our GIF guide for a step-by-step walkthrough. 
 
