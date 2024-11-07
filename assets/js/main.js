@@ -81,7 +81,9 @@ $('body').on('click', '#gotoDoc', (e) => {
 })
 $('body').off('click', '#download-tableau-full-extension', downloadFullTrex).on('click', '#download-tableau-full-extension', downloadFullTrex)
 $('body').off('click', '#download-tableau-dashboard-light-extension', downloadLightDashboardTrex).on('click', '#download-tableau-dashboard-light-extension', downloadLightDashboardTrex)
-$('body').off('click', '#download-tableau-viz-light-extension', downloadLightVizTrex).on('click', '#download-tableau-viz-light-extension', downloadLightVizTrex)
+$('body').off('click', '#download-tableau-viz-light-extension-compare', (e) => downloadLightVizTrex(e, 'compare')).on('click', '#download-tableau-viz-light-extension-compare', (e) => downloadLightVizTrex(e, 'compare'))
+$('body').off('click', '#download-tableau-viz-light-extension-detect', (e) => downloadLightVizTrex(e, 'detect')).on('click', '#download-tableau-viz-light-extension-detect', (e) => downloadLightVizTrex(e, 'detect'))
+$('body').off('click', '#download-tableau-viz-light-extension-assess', (e) => downloadLightVizTrex(e, 'assess')).on('click', '#download-tableau-viz-light-extension-assess', (e) => downloadLightVizTrex(e, 'assess'))
 
 function downloadFullTrex(e) {
     console.log("Download Full Extension trex file")
@@ -118,16 +120,16 @@ function downloadLightDashboardTrex(e) {
         .catch((e) => console.error(e));
 }
 
-function downloadLightVizTrex(e) {
-    console.log("Download Light Extension trex file for Tableau viz")
+function downloadLightVizTrex(e, solution='compare') {
+    console.log("Download Light Extension trex file for Tableau viz "+solution)
     e.preventDefault();
     fetch("https://app.datama.io/tableauViz/light_tableau_base_Datama_Tableau_viz_Extension.trex")
         .then((res) => res.text())
         .then((text) => {
             let element = document.createElement('a');
             element.setAttribute('href',
-                'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
-            element.setAttribute('download', "Datama_Tableau_Viz_Extension.trex");
+                'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none').replace("£ORIGIN£", 'https://app.datama.io').replace("£SOLUTION£", solution)));
+            element.setAttribute('download', "Datama_Tableau_Viz_"+solution+"_Extension.trex");
             document.body.appendChild(element);
             element.click();
             document.body.removeChild(element);
