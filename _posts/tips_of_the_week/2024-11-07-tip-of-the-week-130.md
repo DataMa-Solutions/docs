@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-✨ Want to add your personal touch to comments while interpreting comparison analytics from the Datama extension in Looker Studio, PowerBI, or Tableau? 🤔 Yes, you can! 🌈 Say goodbye to default comments and hello to your custom insights below the waterfall chart! 🎉 
+✨ Want to add your personal touch to comments while interpreting comparison analytics from the Datama extension in Looker Studio, PowerBI, or Tableau? 🤔 Yes, you can! 🌈 Say goodbye to default comments and hello to your custom insights below the waterfall chart ! 🎉 
 
 Only 4 steps to get it done:
 
