@@ -20,6 +20,6 @@ Seulement 4 étapes pour y parvenir:
 
 Personnalisation avancée: Cliquez sur "+Available Variables" pour encore plus d'options !
 
-🎥Découvrez ci-dessous notre guide en GIF pour un tutoriel étape par étape.
+🎥 Découvrez ci-dessous notre guide en GIF pour un tutoriel étape par étape.
 
 📊 Faites de votre Datama extension  un outil qui vous ressemble ! Humanisez vos outils d’analyse et clarifiez vos insights !
