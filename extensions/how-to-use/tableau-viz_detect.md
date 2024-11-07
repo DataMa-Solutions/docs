@@ -54,7 +54,7 @@ Follow these steps to add Datama in your report :
 
 1. On Tableau Desktop, create worksheet 
 2. In the “Marks” block, pull down the selector and choose “Add extension”
-3. Use the .trex file provided by Datama, or <a id="download-tableau-viz-light-extension" href="#" target="_blank"> download it here</a>
+3. Use the .trex file provided by Datama, or <a id="download-tableau-viz-light-extension-detect" href="#" target="_blank"> download it here</a>
 4. Drag and drop columns into each proper mark type [See getting started to learn more](#5-getting-started)
     * Detection "D" dimension (the dimension on which you want to detect anomalies, typically Date)
     * Metrics "M" fields (the metrics that will be used to create your market equation for instance Quantity and Sales to create Sales = Qty x Avg Price)
