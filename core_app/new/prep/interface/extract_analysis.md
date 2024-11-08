@@ -9,6 +9,25 @@ keywords: full app prep report export schedule extract analysis
 
 > **This section helps you automatise the export of your analysis**
 
+# Trigger exports with webhooks or time based exports
+<center><img style="border:1px solid lightgray; border-radius:30px;" src="./images/webhooks_time.png"/></center>
+
+
+## What are webhooks ?
+Webhooks are a way for one application to send information to our application automatically when something happens. 
+Think of it as a notification system, but instead of sending a message to a person, it sends data to another system.
+Creating an incoming webhook gives you a unique URL to which you send a request.
+
+### How to use webhooks ?
+It's simple, when exporting, just select webhooks, and then you configure your exports, and copy the given url
+When making an HTTP GET request to that URL, it'll automatically trigger the job.
+
+## What are time-based exports ?
+
+Time based exports are a way for your flow to be run at a given time (which is different from webhooks that run _WHEN_ a
+request is made on the given url)
+By default, exports are time based and you can select the scheduled time.
+# Exports
 <br>
 
 You don’t have time to open the Datama interface … receive your analyses directly in your mailbox or on a Slack channel
