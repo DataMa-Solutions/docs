@@ -59,7 +59,7 @@ Follow these steps to add Datama in your report :
 
 1. On Tableau Desktop, create worksheet 
 2. In the “Marks” block, pull down the selector and choose “Add extension”
-3. Use the .trex file provided by Datama, or <a id="download-tableau-viz-light-extension" href="#" target="_blank"> download it here</a>
+3. Use the .trex file provided by Datama, or <a id="download-tableau-viz-light-extension-compare" href="#" target="_blank"> download it here</a>
 4. Drag and drop columns into each proper mark type [See getting started to learn more](#5-getting-started)
     * Comparison "C" dimension (the dimension on which you want to compare, typically Year, Months, or Variant of AB test for instance)
         * Note: By default, Datama will compare the last 2 values for discrete dimensions or split in two the dates dimensions. Makes sure to leverage Tableau parameters or filters to get the right comparison.
