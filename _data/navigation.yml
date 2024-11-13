@@ -101,6 +101,9 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/interface/subheader/settings.html
+                  subnav:
+                    - name: Clustering Settings
+                      link: /core_app/new/interface/subheader/settings/clustering.html
         - name: Type of Account and Plan #under construction
           link: /core_app/new/interface/account.html
           type: h4
