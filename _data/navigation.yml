@@ -23,8 +23,14 @@
             - name: Homepage #done
               link: /core_app/new/interface/homepage/homepage.html
               subnav:
-                # - name: Header #done
-                #   link: /core_app/new/interface/homepage/homepage_header.html
+                - name: Header
+                  link: /core_app/new/interface/homepage/homepage.html#header
+                - name: Preferences
+                  link: /core_app/new/interface/homepage/homepage.html#user-preferences
+                - name: Workbook Management
+                  link: /core_app/new/interface/homepage/homepage.html#workbook-management
+                - name: Preset Workbook
+                  link: /core_app/new/interface/homepage/homepage.html#preset-workbook
                 #   subnav:
                 # - name: User preferences
                 #   link: /core_app/new/interface/homepage/user_preferences.html
@@ -37,8 +43,6 @@
                         #   link: /core_app/new/interface/homepage/user_preferences.html#13-compact-numbers
                         # - name: Force Rounding
                         #   link: /core_app/new/interface/homepage/user_preferences.html#22-force-rounding
-                # - name: Workbooks Management #done
-                #   link: /core_app/new/interface/homepage/workbooks_management.html
                 - name: Get Inspired #done
                   link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
                   subnav:
