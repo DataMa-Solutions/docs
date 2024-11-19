@@ -18,6 +18,7 @@ Here is the available actions you can do so far in Datama Prep to refine your da
 - [Join](#join)
 - [Filter](#filter)
 - [Pivot & Unpivot](#pivot--unpivot)
+- [Aggregate](#aggregate)
 <!-- - [What if](#what-if) -->
 
 <br>
@@ -76,9 +77,9 @@ Below an example of what the form looks like:
 As you can see in the example shown above, you can configure several parameters in the clustering form:
 - Enter a name for the new column in the "Column name" field.
 - Select the column you want to cluster from your dataset in the "Column" field.
-- Choose the clustering method to apply in the "Clustering Method" field (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/clustering#clustering-methods)).
+- Choose the clustering method to apply in the "Clustering Method" field (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/clustering#clustering-methods)).
 - Select the metric for the computation in the "Metric used for clustering" field.
-- Adjust the clustering settings (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/clustering#clustering-methods)).
+- Adjust the clustering settings (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/clustering#clustering-methods)).
 
 
 > ## <b>Append</b>
@@ -237,3 +238,34 @@ Our example gives the following waterfall:
 Congrats! Your dataset is ready to be uploaded in Datama's solution!
 
 To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)
+
+<br>
+
+> ## <b>Aggregate</b>
+
+The Aggregate block lets you aggregate the values of columns by the values of one or more keys, making it particularly useful for reducing the size of a dataset. It is the equivalent of **Group by** clause in SQL.
+
+Let's consider an example with the following dataset:
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_dataset_before.png"/></center>
+
+In the **Keys** section, you select all the columns that will serve as group keys. The output dataset will have the same number of rows as unique combinations of values in the group key columns. In the following example, "Device" and "Country" columns were group keys.
+
+In the **Aggregation** section, you select all the aggregations. Basically: for each unique combination of values in the group key columns, what do you want to calculate? In the following example, this was the sum of "Session" and the mean of "Revenue" for each combination of group keys.
+
+You can also remove some columns using the **cross** button ("Date" and "Transaction" in this example have been removed).
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_settings_example.png"/></center>
+
+In our example, this results in the following dataset:
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_dataset_after.png"/></center>
+
+By default, some columns are in the **Keys** section and the others in the **Aggregation** section. It is possible to reorganize those sections, either by **drag and dropping** the columns at the place you want or by using the **arrow** buttons. 
+<div style="display: flex; justify-content: space-around;">
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_arrow_down.png"/>
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_arrow_up.png"/>
+</div>
+
+Finally, you can select the aggregation function to apply on each column in the drop down menu:
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_functions.png"/></center>
+
+By default, the aggregation functions selected in the menu are **sum** for numeric columns and **count** for other types of columns.
