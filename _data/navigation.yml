@@ -497,7 +497,13 @@
             - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html
             - name: Power BI - Demo #done
-              link: /core_app/new/integration/PowerBI_demo.html 
+              link: /core_app/new/integration/PowerBI_demo.html
+        - name: Open Ai
+          link: /core_app/new/integration/AI/Introduction.html
+          type: h4
+          subnav:
+            - name: How to connect
+              link: /core_app/new/integration/AI/OpenAi-connect.html
         - name: Tableau
           link: /core_app/new/integration/tableau.html
           type: h4
