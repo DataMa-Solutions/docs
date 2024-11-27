@@ -473,6 +473,8 @@
               link: /core_app/new/integration/integrations.html
             - name: Refine Data #done
               link: /core_app/new/prep/interface/refine_data.html
+            - name: Table connect (Direct query) #done
+              link: /core_app/new/prep/interface/direct_query.html
             - name: Block Output #done
               link: /core_app/new/prep/interface/block_output.html
               subnav:
