@@ -10,6 +10,7 @@ layout: post
 ---
 
 Datama is continuing its efforts to integrate with your visualization tools (Tableau, Power BI, Looker Studio, Qlik), and this week we're delighted to announce that we've been certified on the Power BI 🎊
+
 What does this mean for you?
 
   * 🌟 Our certification attests to the quality of our code and the relevance of our solution.
