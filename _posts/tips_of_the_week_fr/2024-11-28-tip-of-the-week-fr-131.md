@@ -9,7 +9,8 @@ img_height: 300
 layout: post
 ---
 
-Datama poursuit ses efforts d'intégration dans vos outils visualisations (Tableau, Power BI, Looker Studio, Qlik), cette semaine nous sommes heureux de vous annoncer que nous avons été certifié sur la marketplace Power BI :confetti:
+Datama poursuit ses efforts d'intégration dans vos outils visualisations (Tableau, Power BI, Looker Studio, Qlik), cette semaine nous sommes heureux de vous annoncer que nous avons été certifié sur la marketplace Power BI 🎊
+
 Qu’est-ce que cela signifie pour vous ?
 
   * 🌟 Notre certification atteste de la qualité de notre code et de la pertinence de notre solution.
