@@ -15,7 +15,7 @@ Vous souhaitez ajuster le clustering dans votre dataset avant l’analyse ? Par 
 Vous pouvez désormais créer des Clustering Fields dans Datama Prep à l’aide de l’objet "Clean". Cette fonctionnalité vous permet de regrouper les valeurs uniques de n’importe quelle colonne dimensionnelle en catégories, grâce à des méthodologies comme l’agrégation en long tail ou le partitionnement par régression. C’est particulièrement utile pour les grands ensembles de données !  
 
 🛠️3 étapes simples pour y parvenir:
-  * Après avoir uploadé votre dataset dans Datama Prep, cliquez sur l’icône “+” en haut à droite de l’objet “Source”, puis sélectionnez “Clean” 🖱️
+  * Après avoir uploadé votre dataset dans Datama Prep, cliquez sur l’icône “+” en haut à droite de l’objet “Source”, puis sélectionnez “Clean” 🧹️
   * Personnalisez votre Clustering Field : Modifiez le nom de la colonne de regroupement, choisissez la colonne de base et définissez la méthode d’agrégation dans le panneau à gauche 📝
   * Appliquez et enregistrez les modifications : Cliquez sur “Appliquer” en bas à droite pour visualiser instantanément la nouvelle colonne agrégée ✅
 
