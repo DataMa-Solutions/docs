@@ -9,8 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Struggling with massive datasets? Want to reduce them without losing key insights? ✂️
-
+Struggling with massive datasets? Want to reduce them without losing key insights? ✂️ 
 Discover the Datama Aggregation block! 
 
 This tool in Datama Prep lets you group by one or more keys (dimensions) and apply aggregations like sum, mean, or max… to your metrics. 

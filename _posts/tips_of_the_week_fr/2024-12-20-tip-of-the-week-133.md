@@ -9,8 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Vous voulez les réduire sans perdre d'informations clés ? ✂️
-
+Vous voulez les réduire sans perdre d'informations clés ? ✂️ 
 Découvrez le Datama Aggregation block! 
 
 Cet outil dans Datama Prep vous permet de regrouper par une ou plusieurs keys (dimensions) et d'appliquer des agrégations comme somme, moyenne ou maximum …sur vos métriques. 
