@@ -1,6 +1,6 @@
 ---
 feed: totw_fr
-title:  "Tip of the week 133: Optimiser vos données avec le Datama Aggregation block ! 🌟"
+title:  "Tip of the week 133: Optimiser vos données avec le block Aggregation de Datama 🌟"
 date:   2024-12-20 10:00:00 +0200
 img_url: /assets/images/tip/133.gif
 img_type: image/gif
@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Vous voulez les réduire sans perdre d'informations clés ? ✂️ 
+Vous voulez les réduire sans perdre d'informations clés ? ✂️
 
 Découvrez le Datama Aggregation block! 
 
