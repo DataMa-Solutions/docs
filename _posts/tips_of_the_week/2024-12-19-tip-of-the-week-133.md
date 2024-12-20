@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Struggling with massive datasets? Want to reduce them without losing key insights? ✂️ 
+Struggling with massive datasets? Want to reduce them without losing key insights? ✂️
 
 Discover the Datama Aggregation block! 
 
