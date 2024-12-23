@@ -106,10 +106,42 @@ On the sidebar, you can also notice the summary of each of the dataset's columns
 If there are some columns shared between both dataset, it will merge them instead of duplicate them (careful it's case sensitive). All non-shared columns of each 
 dataset will be seed with NULL value.
 
-This is not a JOIN, it acts like puting one dataset below the other. 
+This is not a JOIN, it acts like putting one dataset below the other. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_appendQuery.png"   style="width:450px;"/></center>
 
+<b>  Filling NULL values</b> 
+
+To ensure consistency and enrich your data, Datama Prep provides an option to fill these null values. Let's see how it works using the following example:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/append_fill_null_values_dataset.png"/></center>
+
+After appending the datasets, activate the **Fill in null values** toggle.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/append_fill_null_values_config.png"/></center>
+
+By default, a menu appears showing pre-matched metrics between Dataset 1 and Dataset 2. These pairings serve as key-value pairs to guide how missing dimensions are filled.
+
+- You can modify existing pairs to better fit your requirements.
+- You can add or remove pairs to ensure all relevant data is accounted for.
+
+In our example, "Traffic IT" is paired with "Session GA", and "Transaction IT" with "Transaction GA", meaning for example that "Traffic IT" will be distributed on missing dimensions "Country" and "Device" using the values of "Session GA". It is important to note that the sum of each column **does not** change, we just distribute each metric according to the values in its pair. <br>
+The result with our example is the following (each color corresponds to the same sum):
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/append_without_fill_null_values.png"/></center>
+<center>↓</center>
+<center>Fill in null values</center>
+<center>↓</center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/append_with_fill_null_values.png"/></center>
+
+<b> Distribute missing segments</b>
+
+Finally, if one segment is missing from one dataset to another, let's say that in our example, Dataset 1 has an additional row:
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/append_fill_missing_segments.png"/></center>
+
+You have the possibility to distribute this missing segment as well, by activating **Distribute missing segments** toggle (deactivated by default). To distribute this segment, we divide the initial value (40 for "Traffic IT") by the number of rows to distribute (here 4). It follows: 
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/append_fill_missing_segments_table.png"/></center>
 
 <br>
 
