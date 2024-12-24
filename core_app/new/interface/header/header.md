@@ -36,6 +36,10 @@ With Views, you can set up several configurations in your use case. This can be 
 
 <center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/view_menu.png"/></center>
 
+For instance, you might want to compare revenue growth between Quarter 1 and Quarter 2 in one view, and then switch to another view to analyze the performance of Product A versus Product B over the same period.
+
+<center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/view_example_1.png"/><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/view_example_2.png"/></center>
+
 When you create a new View, you duplicate the View you are currently working on.
 
 These Views can be used during export configuration.
