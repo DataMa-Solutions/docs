@@ -25,12 +25,26 @@ description: here you can find all result you want from Datama Documentation pag
     <div class="search-group">
         <input type="text" id="search-input" class="search-bar" name="q" placeholder="Search...">
     </div>
-    <h2>Result(s)</h2>
-    <div id="results-container" class="search-result"></div>
+    <h2 style="display: flex; align-items: center; justify-content: space-between"><span>Result(s)</span><span>
+            <button class="btn btn-primary" id="filter-button">
+                <i class="fas fa-filter"></i> Filter
+            </button>
+        </span></h2>
+    <div id="filter-container"
+         style="display: none; margin-top: 1em; border: 1px solid rgba(0,0,0,0.1); border-radius: 15px; min-height: 50px; padding: 5px">
+        <label for="tag-filter">Filter by Tag:</label>
+        <select id="tag-filter" class="form-select">
+            <option value="">All Tags</option>
+            <!-- Dynamically populate this -->
+        </select>
+    </div>
+    <div style="min-height: 70vh" id="results-container" class="search-result"></div>
 </div>
 <!-- Configuration -->
 <script>
-    const urlParams = new URLSearchParams(window.location.search);
+    /*const urlParams = new URLSearchParams(window.location.search);
+    const uniqueTags = new Set(); // Set to store unique tags dynamically
+
     //SimpleJekyllSearch({
     //    searchInput: document.getElementById('search-input'),
     //    resultsContainer: document.getElementById('results-container'),
@@ -76,7 +90,11 @@ description: here you can find all result you want from Datama Documentation pag
             },
             groups,
             limit: 15,
-            container: 'results-container'
+            container: 'results-container',
+            onResultsRendered: () => {
+                // Update the filter dropdown with unique tags after rendering results
+                populateFilterDropdown();
+            }
         }
     })
     let interval = setInterval(() => {
@@ -88,4 +106,135 @@ description: here you can find all result you want from Datama Documentation pag
             clearInterval(interval)
         }
     })
+
+    // Function to populate the filter dropdown with unique tags
+    function populateFilterDropdown() {
+        const filterDropdown = document.getElementById('tag-filter');
+
+        // Clear existing options
+        filterDropdown.innerHTML = '<option value="">All Tags</option>';
+
+        // Add unique tags as options
+        uniqueTags.forEach(tag => {
+            const option = document.createElement('option');
+            option.value = tag;
+            option.textContent = tag;
+            filterDropdown.appendChild(option);
+        });
+    }
+
+    // Toggle filter visibility
+    document.getElementById('filter-button').addEventListener('click', () => {
+        const filterContainer = document.getElementById('filter-container');
+        filterContainer.style.display = filterContainer.style.display === 'none' ? 'block' : 'none';
+    });
+
+    // Filter results by selected tag
+    document.getElementById('tag-filter').addEventListener('change', () => {
+        const selectedTag = document.getElementById('tag-filter').value;
+        const allResults = document.querySelectorAll('.search-result');
+        allResults.forEach(result => {
+            const tags = Array.from(result.querySelectorAll('.search-group')).map(el => el.textContent);
+            if (selectedTag === '' || tags.includes(selectedTag)) {
+                result.style.display = '';
+            } else {
+                result.style.display = 'none';
+            }
+        });
+    });
+    */
+    const urlParams = new URLSearchParams(window.location.search);
+    const uniqueTags = new Set(); // Set to store unique tags dynamically
+
+    let groups = {
+        'shiny': 'old-ui full-app',
+        'Datama/saas': 'full-app',
+        'Datama/saas/compare': 'compare full-app',
+        'Datama/saas/assess': 'Assess full-app',
+        'Datama/saas/detect': 'Detect full-app',
+        'Datama/saas/pivot': 'Pivot full-app',
+        'Datama/saas/journey': 'Journey full-app',
+        'Datama/light': 'light-app',
+        'Datama/light/compare': 'compare light-app'
+    }
+
+    // Listen to the search input
+    search.listen('search-input', {
+        fields: {
+            scope: {weight: 1100},
+            title: {weight: 1000, required: true},
+            keywords: {weight: 500},
+            tags: {weight: 250},
+            body: {weight: 100, required: true},
+        },
+        results: {
+            template: (element) => {
+                const itemTags = (groups[search.json[element.id].scope] || '').split(' ').filter(tag => tag);
+                itemTags.forEach(tag => uniqueTags.add(tag)); // Add tags to the Set
+                return {
+                    scope: search.json[element.id].scope,
+                    html: `
+                <li class="search-result" data-score="${element.total}">
+                    <a href="${search.json[element.id].url}" title="${search.json[element.id].title}">
+                        <strong>${search.json[element.id].title}</strong>
+                        <div class="search-tags">
+                            ${itemTags.map(tag => `<span class="search-group">${tag}</span>`).join('')}
+                        </div>
+                        <small>${search.json[element.id].body.substr(0, 50)}</small>
+                    </a>
+                </li>`
+                };
+            },
+            groups,
+            limit: 15,
+            container: 'results-container',
+        },
+    });
+
+    // Function to populate the filter dropdown with unique tags
+    function populateFilterDropdown() {
+        const filterDropdown = document.getElementById('tag-filter');
+
+        // Clear existing options
+        filterDropdown.innerHTML = '<option value="">All Tags</option>';
+
+        // Add unique tags as options
+        uniqueTags.forEach(tag => {
+            const option = document.createElement('option');
+            option.value = tag;
+            option.textContent = tag;
+            filterDropdown.appendChild(option);
+        });
+    }
+
+    // Toggle filter visibility
+    document.getElementById('filter-button').addEventListener('click', () => {
+        const filterContainer = document.getElementById('filter-container');
+        filterContainer.style.display = filterContainer.style.display === 'none' ? 'block' : 'none';
+    });
+
+    // Filter results by selected tag
+    document.getElementById('tag-filter').addEventListener('change', () => {
+        const selectedTag = document.getElementById('tag-filter').value;
+        const allResults = document.querySelectorAll('.search-result');
+        allResults.forEach(result => {
+            const tags = Array.from(result.querySelectorAll('.search-group')).map(el => el.textContent);
+            if (selectedTag === '' || tags.includes(selectedTag)) {
+                result.style.display = '';
+            } else {
+                result.style.display = 'none';
+            }
+        });
+    });
+
+    // Handle search input initialization
+    let interval = setInterval(() => {
+        if (jsonLoaded) {
+            if (urlParams.get('q') != null) {
+                document.getElementById('search-input').value = urlParams.get('q');
+                document.getElementById('search-input').dispatchEvent(new Event('input'));
+            }
+            clearInterval(interval);
+        }
+    });
 </script>
