@@ -13,4 +13,4 @@ Alors que nous faisons le bilan de 2024, nous sommes fiers d'avoir atteint ici l
 
 🎯 En 2025, nous serons ravis de vous apporter encore plus d'informations et de mises à jour sur nos solutions, afin de vous permettre de libérer tout le potentiel de vos données. Ensemble, continuons de grandir et d'explorer les possibilités infinies de l'analyse de données. 🚀  
 
-Voici une nouvelle année placée sous le signe de l'innovation, du succès et de la collaboration!🥂✨  
+Voici une nouvelle année placée sous le signe de l'innovation, du succès et de la collaboration!🥂✨ 
