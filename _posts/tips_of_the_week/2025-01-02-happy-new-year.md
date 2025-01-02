@@ -1,8 +1,8 @@
 ---
 feed: totw_en
-title:  "Datama wishes you a happy new year 2025! 🎇🎊"
-date:   2025-01-02 10:00:00 +0200
-img_url: /assets/images/tip/impage_new_year.png
+title: "Datama wishes you a happy new year 2025! 🎇🎊"
+date: 2025-01-02 10:00:00 +0200
+img_url: /assets/images/tip/image_new_year.png
 img_type: image/png
 img_width: 600
 img_height: 300
