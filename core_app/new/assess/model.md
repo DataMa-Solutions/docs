@@ -11,7 +11,7 @@ keywords: full app assess model concept
 
 By default, Datama will select the most appropriate model based on the data you are comparing. It will likely be a Welch t test if you are comparing two discrete segments, and a forecasting approach if you are comparing two -long enough- periods.
 
-However, you can select the test you want within model settings, under Test to Compute input (add link)
+However, you can select the test you want within model settings, under [Test to Compute]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html#test-to-compute) input. 
 
 <br>
 
