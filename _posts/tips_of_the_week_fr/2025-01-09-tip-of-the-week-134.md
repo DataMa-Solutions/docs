@@ -16,8 +16,8 @@ Cet outil vous propose de dé-pivoter votre indicateur unique sur la deuxième d
 Vous pouvez ensuite analyser facilement par "Dimension then Dimension" dans Datama Compare ! 
 
 Comment l’utiliser : 🔧 
-  * •	Importez votre source de données et cliquez sur Appliquer dans le pop-up en bas à droite. ➕ 
-  * •	Sélectionnez le bloc Datama, puis cliquez sur "Define steps" pour vérifier l'équation de marché créée par Datama dans le panneau de gauche. 📂 
-  * •	Cliquez en dessous sur "Open in Compare" pour analyser selon les segments de la dimension dépivotée ! ✅ 
+  * Importez votre source de données et cliquez sur Appliquer dans le pop-up en bas à droite. ➕ 
+  * Sélectionnez le bloc Datama, puis cliquez sur "Define steps" pour vérifier l'équation de marché créée par Datama dans le panneau de gauche. 📂 
+  * Cliquez en dessous sur "Open in Compare" pour analyser selon les segments de la dimension dépivotée ! ✅ 
 
 📊 Faites parler vos données limitées et obtenez plus d’informations que prévu !
