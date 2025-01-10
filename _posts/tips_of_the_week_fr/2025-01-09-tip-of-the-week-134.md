@@ -11,9 +11,9 @@ layout: post
 
 Vous n’avez qu’un seul KPI dans votre source sans équation de marché apparente ? Exploitez tout son potentiel avec la fonction Datama Unpivot block! 🌟 
 
-Cet outil vous propose de dé-pivoter votre indicateur unique sur une dimension votre dataset et de créer automatiquement l’équation de marché pour qu’elle corresponde à la somme de chaque segment de cette dimension. 📐 
+Cet outil vous propose de dé-pivoter votre indicateur unique sur une dimension votre dataset et de créer automatiquement l’équation de marché pour qu’elle corresponde à la somme de chaque segment de cette dimension. 👇 
 
-Vous pouvez ensuite analyser facilement par "Dimension then Dimension" dans Datama Compare!  
+Vous pouvez ensuite analyser facilement par "Dimension then Dimension" dans Datama Compare! 👇 
 
 Comment l’utiliser : 🔧 
   * Importez votre source de données avec une seule métrique et cliquez sur “Appliquer” dans le pop-up en bas à droite. ➕ 
