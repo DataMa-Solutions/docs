@@ -11,9 +11,9 @@ layout: post
 
 Got a single summable metric in your table without an suggested market equation? Unlock its full potential with the Datama Unpivot function! 🌟 
 
-This tool suggests you unpivoting your unique metric on a dimension of the dataset and automatically create the market equation to match the sum of each segment of that dimension. 📐 
+This tool suggests you unpivoting your unique metric on a dimension of the dataset and automatically create the market equation to match the sum of each segment of that dimension. 👇 
 
-You can then easily analyse by "Dimension then Dimension" in Datama Compare!  
+You can then easily analyse by "Dimension then Dimension" in Datama Compare! 👇 
 
 How to use it: 🔧 
   * Upload your data source with a single metric, and click “Apply”  of the pop-up at the bottom right. ➕ 
