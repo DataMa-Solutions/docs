@@ -1,7 +1,7 @@
 ---
 feed: totw_en
 title:  "Tip of the week 134: See how far the analysis of just one metric can take you with Datama auto unpivot function! 🌟"
-date:   2025-01-09 10:00:00 +0200
+date:   2025-01-10 12:00:00 +0200
 img_url: /assets/images/tip/134.gif
 img_type: image/gif
 img_width: 600
