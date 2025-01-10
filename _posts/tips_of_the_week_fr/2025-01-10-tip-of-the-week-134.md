@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Découvrez jusqu'où l'analyse d'une seule métrique peut vous emmener grâce à la function Datama Unpivot! 🌟"
-date:   2025-01-09 10:00:00 +0200
+date:   2025-01-10 12:00:00 +0200
 img_url: /assets/images/tip/134.gif
 img_type: image/gif
 img_width: 600
