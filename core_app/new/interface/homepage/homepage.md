@@ -1,4 +1,4 @@
----
+~~---
 title: Homepage
 description: See in this chapter details how to use the homepage of your account
 layout: page
@@ -14,9 +14,10 @@ keywords: full app home homepage
 
 This chapter gathers different features shared amongst the homepage, such as:
 
-1. [Header](#1header)
-2. [Preferences](#user-preferences)
-3. [Workbook Management](#workbook-management)
+- [Header](#header)
+- [Preferences](#user-preferences)
+- [Workbook Management](#workbook-management)
+- [Preset workbook](#preset-workbook)
 
 <br>
 
@@ -26,7 +27,7 @@ This chapter gathers different features shared amongst the homepage, such as:
 <br>
 
 
-# 1. Header 
+# Header 
 
 The header will follow you all along your experience in the platform letting you coming back to the homepage and access your profile account.
 
@@ -45,7 +46,7 @@ This chapter gathers different features shared amongst the homepage, such as:
 
 <br>
 
-# 2. User Preferences 
+# User Preferences 
 
 **Below is the description of the global user preferences that you can set at your account level.**
 
@@ -125,7 +126,7 @@ The settings is detailed separately for each solution :
 
 <br>
 
-# 3. Workbook Management
+# Workbook Management
 
 **This chapter explains how to use the "folders" in the Datama solution to manage your workbooks.**
 
@@ -150,3 +151,20 @@ You can also manage your workbooks in the "Workbooks" page.
 To organize your workbooks, you can create folders in the "Workbooks" page. Simply give the folder a name and an optional icon.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/folders_icon.png"/></center>
+
+<br>
+
+# Preset Workbook
+
+**This chapter will introduce you to preset workbooks.**
+
+
+If you never created a workbook before you can easily create a default workbook with your data using the preset workbook feature.
+
+To start you have to choose your data source and then follow the steps.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/homepage_preset_workbook.png"/></center>
+
+Then you can choose to open advanced settings or just compute in Compare
+
+<center><img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/homepage_preset_workbook_inside.png"/></center>
