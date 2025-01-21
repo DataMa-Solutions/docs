@@ -1,7 +1,7 @@
 ---
 feed: release_note
 title:  "2025-01-15"
-date:   2024-01-15 12:00:00 +0200
+date:   2025-01-15 12:00:00 +0200
 layout: post
 description: |
   Let's go for 2025! 🍾 <br>
