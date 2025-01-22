@@ -25,124 +25,69 @@ description: here you can find all result you want from Datama Documentation pag
     <div class="search-group">
         <input type="text" id="search-input" class="search-bar" name="q" placeholder="Search...">
     </div>
-    <h2 style="display: flex; align-items: center; justify-content: space-between"><span>Result(s)</span><span>
-            <button class="btn btn-primary" id="filter-button">
-                <i class="fas fa-filter"></i> Filter
-            </button>
-        </span></h2>
-    <div id="filter-container"
-         style="display: none; margin-top: 1em; border: 1px solid rgba(0,0,0,0.1); border-radius: 15px; min-height: 50px; padding: 5px">
-        <label for="tag-filter">Filter by Tag:</label>
-        <select id="tag-filter" class="form-select">
-            <option value="">All Tags</option>
-            <!-- Dynamically populate this -->
-        </select>
+    <div class="results-header">
+        <h2>Result(s)</h2>
+        <button class="btn btn-primary" id="filter-button">
+            <i class="fas fa-filter"></i> Filter
+        </button>
+    </div>
+    <div id="filter-container" class="filter-panel">
+        <div class="filter-content">
+            <label for="tag-filter">Filter by Tag:</label>
+            <select id="tag-filter" class="form-select">
+                <option value="">All Tags</option>
+            </select>
+        </div>
     </div>
     <div style="min-height: 70vh" id="results-container" class="search-result"></div>
 </div>
+
+<style>
+.results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.filter-panel {
+    display: none;
+    margin: 1em 0;
+    background: #f8f9fa;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.filter-panel.active {
+    display: block;
+}
+
+.filter-content {
+    padding: 1rem;
+}
+
+.filter-content label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background-color: white;
+}
+
+.search-tags {
+    margin-top: 0.5rem;
+}
+</style>
+
 <!-- Configuration -->
 <script>
-    /*const urlParams = new URLSearchParams(window.location.search);
-    const uniqueTags = new Set(); // Set to store unique tags dynamically
-
-    //SimpleJekyllSearch({
-    //    searchInput: document.getElementById('search-input'),
-    //    resultsContainer: document.getElementById('results-container'),
-    //    json: '{{site.url}}/{{site.baseurl}}/search.json'
-    //})
-    let groups = {
-        'shiny': 'old-ui full-app',
-        'Datama/saas': 'full-app',
-        'Datama/saas/compare': 'compare full-app',
-        'Datama/saas/assess': 'Assess full-app',
-        'Datama/saas/detect': 'Detect full-app',
-        'Datama/saas/pivot': 'Pivot full-app',
-        'Datama/saas/journey': 'Journey full-app',
-        'Datama/light': 'light-app',
-        'Datama/light/compare': 'compare light-app'
-    }
-    search.listen('search-input', {
-        fields: {
-            scope: {
-                weight: 1100
-            },
-            title: {
-                weight: 1000,
-                required: true
-            },
-            keywords: {
-                weight: 500
-            },
-            tags: {
-                weight: 250
-            },
-            body: {
-                weight: 100,
-                required: true
-            }
-        },
-        results: {
-            template: (element) => {
-                return {
-                    scope: search.json[element.id].scope,
-                    html: `<li class="search-result" data-score="${element.total}"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><div class="search-tags">${(groups[search.json[element.id].scope] || '').split(' ').filter(e => e).map(e => '<span class="search-group">' + e + '</span>').join('')}</div><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
-                }
-            },
-            groups,
-            limit: 15,
-            container: 'results-container',
-            onResultsRendered: () => {
-                // Update the filter dropdown with unique tags after rendering results
-                populateFilterDropdown();
-            }
-        }
-    })
-    let interval = setInterval(() => {
-        if (jsonLoaded) {
-            if (urlParams.get('q') != null) {
-                document.getElementById('search-input').value = urlParams.get('q')
-                document.getElementById('search-input').dispatchEvent(new Event('input'))
-            }
-            clearInterval(interval)
-        }
-    })
-
-    // Function to populate the filter dropdown with unique tags
-    function populateFilterDropdown() {
-        const filterDropdown = document.getElementById('tag-filter');
-
-        // Clear existing options
-        filterDropdown.innerHTML = '<option value="">All Tags</option>';
-
-        // Add unique tags as options
-        uniqueTags.forEach(tag => {
-            const option = document.createElement('option');
-            option.value = tag;
-            option.textContent = tag;
-            filterDropdown.appendChild(option);
-        });
-    }
-
-    // Toggle filter visibility
-    document.getElementById('filter-button').addEventListener('click', () => {
-        const filterContainer = document.getElementById('filter-container');
-        filterContainer.style.display = filterContainer.style.display === 'none' ? 'block' : 'none';
-    });
-
-    // Filter results by selected tag
-    document.getElementById('tag-filter').addEventListener('change', () => {
-        const selectedTag = document.getElementById('tag-filter').value;
-        const allResults = document.querySelectorAll('.search-result');
-        allResults.forEach(result => {
-            const tags = Array.from(result.querySelectorAll('.search-group')).map(el => el.textContent);
-            if (selectedTag === '' || tags.includes(selectedTag)) {
-                result.style.display = '';
-            } else {
-                result.style.display = 'none';
-            }
-        });
-    });
-    */
     const urlParams = new URLSearchParams(window.location.search);
     const uniqueTags = new Set(); // Set to store unique tags dynamically
 
@@ -169,20 +114,34 @@ description: here you can find all result you want from Datama Documentation pag
         },
         results: {
             template: (element) => {
-                const itemTags = (groups[search.json[element.id].scope] || '').split(' ').filter(tag => tag);
-                itemTags.forEach(tag => uniqueTags.add(tag)); // Add tags to the Set
+                // Format tags: capitalize first letter and remove hyphens
+                const itemTags = (groups[search.json[element.id].scope] || '')
+                    .split(' ')
+                    .filter(tag => tag)
+                    .map(tag => tag
+                        .split('-')
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .join(' ')
+                    );
+
+                // Add tags to the Set and trigger filter dropdown update
+                itemTags.forEach(tag => {
+                    uniqueTags.add(tag);
+                    populateFilterDropdown();
+                });
+                
                 return {
                     scope: search.json[element.id].scope,
                     html: `
-                <li class="search-result" data-score="${element.total}">
-                    <a href="${search.json[element.id].url}" title="${search.json[element.id].title}">
-                        <strong>${search.json[element.id].title}</strong>
-                        <div class="search-tags">
-                            ${itemTags.map(tag => `<span class="search-group">${tag}</span>`).join('')}
-                        </div>
-                        <small>${search.json[element.id].body.substr(0, 50)}</small>
-                    </a>
-                </li>`
+                        <li class="search-result" data-scope="${search.json[element.id].scope}">
+                            <a href="${search.json[element.id].url}" title="${search.json[element.id].title}">
+                                <strong>${search.json[element.id].title}</strong>
+                                <div class="search-tags">
+                                    ${itemTags.map(tag => `<span class="search-group">${tag}</span>`).join('')}
+                                </div>
+                                <small>${search.json[element.id].body.substr(0, 50)}...</small>
+                            </a>
+                        </li>`
                 };
             },
             groups,
@@ -191,42 +150,50 @@ description: here you can find all result you want from Datama Documentation pag
         },
     });
 
-    // Function to populate the filter dropdown with unique tags
+    document.getElementById('search-input').addEventListener('input', () => this.populateFilterDropdown)
+
+    // Improved filter dropdown population
     function populateFilterDropdown() {
         const filterDropdown = document.getElementById('tag-filter');
-
-        // Clear existing options
+        const currentValue = filterDropdown.value;
+        
         filterDropdown.innerHTML = '<option value="">All Tags</option>';
-
-        // Add unique tags as options
-        uniqueTags.forEach(tag => {
-            const option = document.createElement('option');
-            option.value = tag;
-            option.textContent = tag;
-            filterDropdown.appendChild(option);
-        });
+        
+        Array.from(uniqueTags)
+            .sort()
+            .forEach(tag => {
+                const option = document.createElement('option');
+                option.value = tag;
+                option.textContent = tag;
+                if (tag === currentValue) {
+                    option.selected = true;
+                }
+                filterDropdown.appendChild(option);
+            });
     }
 
-    // Toggle filter visibility
+    // Toggle filter visibility with animation
     document.getElementById('filter-button').addEventListener('click', () => {
         const filterContainer = document.getElementById('filter-container');
-        filterContainer.style.display = filterContainer.style.display === 'none' ? 'block' : 'none';
+        filterContainer.classList.toggle('active');
     });
 
-    // Filter results by selected tag
-    document.getElementById('tag-filter').addEventListener('change', () => {
-        const selectedTag = document.getElementById('tag-filter').value;
+    // Enhanced filter functionality
+    document.getElementById('tag-filter').addEventListener('change', (e) => {
+        const selectedTag = e.target.value;
         const allResults = document.querySelectorAll('.search-result');
+        
         allResults.forEach(result => {
-            const tags = Array.from(result.querySelectorAll('.search-group')).map(el => el.textContent);
-            if (selectedTag === '' || tags.includes(selectedTag)) {
+            const resultTags = Array.from(result.querySelectorAll('.search-group'))
+                .map(el => el.textContent.trim());
+            
+            if (selectedTag === '' || resultTags.includes(selectedTag)) {
                 result.style.display = '';
             } else {
                 result.style.display = 'none';
             }
         });
     });
-
     // Handle search input initialization
     let interval = setInterval(() => {
         if (jsonLoaded) {
