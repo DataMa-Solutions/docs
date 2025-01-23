@@ -5,10 +5,10 @@ date:   2025-01-15 12:00:00 +0200
 layout: post
 description: |
   Let's go for 2025! 🍾 <br>
-  There is a lot going on this month, with great new features such as:
-    * Dimension helpers as a new free extension
-    * Workbook views allowing to save multiple versions of the same workbook
-    * Missing fields auto distribution to combine any dataset <br>
+  There is a lot going on this month, with great new features such as: <br>
+  \t• Dimension helpers as a new free extension <br>
+  \t• Workbook views allowing to save multiple versions of the same workbook <br>
+  \t• Missing fields auto distribution to combine any dataset <br>
   Read the details of the release note to learn more. <br>
 ---
 
