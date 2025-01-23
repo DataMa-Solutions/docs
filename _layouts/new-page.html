@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+<div class="page-container">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="post-content-wrapper">
+      <div class="post-content">
+        {{ content }}
+      </div>
+
+      <aside class="page-toc">
+        <div class="toc-container">
+          <h3>On this page</h3>
+          <nav class="toc-nav">
+            <ul id="toc-list"></ul>
+          </nav>
+        </div>
+      </aside>
+    </div>
+  </article>
+</div>
+
+<style>
+  .page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .post-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+  }
+
+  .page-toc {
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+    padding: 1rem;
+    border-left: 1px solid #e1e4e8;  /* Light gray border like GitHub's style */
+    margin-left: 1rem;  /* Add some space between content and border */
+  }
+
+  .toc-container {
+    font-size: 0.9rem;
+  }
+
+  .toc-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .toc-nav li {
+    margin: 0.5rem 0;
+  }
+
+  .toc-nav a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 2px 0;
+    display: block;
+  }
+
+  .toc-nav a:hover,
+  .toc-nav a.active {
+    color: #000;
+  }
+
+  .toc-nav a.active {
+    color: #0969da;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .post-content-wrapper {
+      grid-template-columns: 1fr;
+    }
+    
+    .page-toc {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all headings in the content
+  const headings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3');
+  const tocList = document.getElementById('toc-list');
+  const tocLinks = [];
+
+  // Create TOC items
+  headings.forEach(heading => {
+    const link = document.createElement('a');
+    link.textContent = heading.textContent;
+    link.href = `#${heading.id}`;
+    
+    const listItem = document.createElement('li');
+    listItem.appendChild(link);
+    tocList.appendChild(listItem);
+    tocLinks.push(link);
+  });
+
+  // Highlight current section while scrolling
+  function updateActiveSection() {
+    const viewportHeight = window.innerHeight;
+    const middleOfViewport = window.scrollY - (viewportHeight / 1.25);
+
+    // Remove active class from all links first
+    tocLinks.forEach(link => link.classList.remove('active'));
+
+    // Find the last heading that is above the middle of the viewport
+    let activeIndex = -1;
+
+    headings.forEach((heading, index) => {
+      if (heading.offsetTop <= middleOfViewport) {
+        activeIndex = index;
+      }
+    });
+
+    // Add active class to the appropriate link
+    if (activeIndex >= 0 && tocLinks[activeIndex]) {
+      tocLinks[activeIndex].classList.add('active');
+    }
+  }
+
+  // Update active section on scroll and hash change
+  window.addEventListener('scroll', updateActiveSection);
+  window.addEventListener('hashchange', updateActiveSection);
+  
+  // Initial update
+  updateActiveSection();
+});
+</script> 
