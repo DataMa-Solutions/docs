@@ -20,8 +20,10 @@
 <head>
     <meta charset="utf-8">
     <title>Datama documentation - {{ page.title }}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-16x16.png"/>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -36,17 +38,19 @@
     <meta name="og:image:width" content="{{ page.img_width }}">
     <meta name="og:image:height" content="{{ page.img_height }}">
     <meta property="og:image:type" content="{{ page.img_type }}"/>
-    <meta content="video.other" property="og:type" />
+    <meta content="video.other" property="og:type"/>
     {% endif %}
-    <meta name="google-site-verification" content="TUNtfUemY95_1kk74l6s9zMJE_bHp3SxLHcbu5eiow0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="google-site-verification" content="TUNtfUemY95_1kk74l6s9zMJE_bHp3SxLHcbu5eiow0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="{{site.url}}/{{site.baseurl}}/assets/css/style.css">
     <script src="{{site.url}}/{{site.baseurl}}/assets/js/jquery.js"></script>
     <script src="{{site.url}}/{{site.baseurl}}/assets/js/cookies.js"></script>
     <script src="{{site.url}}/{{site.baseurl}}/assets/js/sws.js" type="text/javascript"></script>
 </head>
 <body>
-{% include navigation.html nav=site.data.navigation  search=1 %}
+{% include navigation.html nav=site.data.navigation search=1 %}
 <main>
     {% include header.html %}
     <h1>{{ page.title }}</h1>
@@ -69,7 +73,7 @@
     search.listen('search-input-aside', {
         fields: {
             scope: {
-              weight: 1100
+                weight: 1100
             },
             title: {
                 weight: 1000,
