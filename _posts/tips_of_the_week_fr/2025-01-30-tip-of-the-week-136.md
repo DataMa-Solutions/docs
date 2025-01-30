@@ -11,7 +11,7 @@ layout: post
 
 Vous souhaitez analyser l’impact des changements d’attributs sur vos KPIs ❓ 
 
-Le Datama What if block dans Datama Prep vous permet de de créer des scénarios sur vos données, en émettant des hypothèses sur les variations des KPIs dans un périmètre donné (par exemple +10% sur le taux de conversion mobile par rapport au mois dernier). ✨ 
+Le Datama What if block dans Datama Prep vous permet de créer des scénarios sur vos données, en émettant des hypothèses sur les variations des KPIs dans un périmètre donné (par exemple +10% sur le taux de conversion mobile par rapport au mois dernier). ✨ 
 
 Résultat ? Trouvez les leviers qui contribueront le plus à vos objectifs! ✨ 
 
