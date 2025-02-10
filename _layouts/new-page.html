@@ -1,141 +1,198 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Datama documentation - {{ page.title }}</title>
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-16x16.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Datama documentation - {{ page.description }}"/>
+    <meta name="og:title" content="Datama documentation - {{ page.title }}">
+    <meta name="og:type" content="website">
+    {% if page.img_url != null %}
+    <meta name="og:image" content="{{site.url}}/{{site.baseurl}}{{ page.img_url }}">
+    <meta name="og:video" content="{{site.url}}/{{site.baseurl}}{{ page.img_url }}">
+    <meta name="og:url" content="{{site.url}}/{{site.baseurl}}{{ page.img_url }}">
+    <meta name="og:image:width" content="{{ page.img_width }}">
+    <meta name="og:image:height" content="{{ page.img_height }}">
+    <meta property="og:image:type" content="{{ page.img_type }}"/>
+    <meta content="video.other" property="og:type"/>
+    {% endif %}
+    <meta name="google-site-verification" content="TUNtfUemY95_1kk74l6s9zMJE_bHp3SxLHcbu5eiow0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="{{site.url}}/{{site.baseurl}}/assets/css/style.css">
+    <script src="{{site.url}}/{{site.baseurl}}/assets/js/jquery.js"></script>
+    <script src="{{site.url}}/{{site.baseurl}}/assets/js/cookies.js"></script>
+    <script src="{{site.url}}/{{site.baseurl}}/assets/js/sws.js" type="text/javascript"></script>
+</head>
+<body>
+{% include navigation.html nav=site.data.navigation search=1 %}
+<main>
+    <div class="page-container">
+        <article class="post">
+            <header class="post-header">
+                <h1 style="font-size: 2rem">{{ page.title }}</h1>
+            </header>
 
-<div class="page-container">
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header>
+            <div class="post-content-wrapper">
+                <div class="post-content">
+                    {{ content }}
+                </div>
 
-    <div class="post-content-wrapper">
-      <div class="post-content">
-        {{ content }}
-      </div>
-
-      <aside class="page-toc">
-        <div class="toc-container">
-          <h3>On this page</h3>
-          <nav class="toc-nav">
-            <ul id="toc-list"></ul>
-          </nav>
-        </div>
-      </aside>
+                <aside class="page-toc">
+                    <div class="toc-container">
+                        <h3>On this page</h3>
+                        <nav class="toc-nav">
+                            <ul id="toc-list"></ul>
+                        </nav>
+                    </div>
+                </aside>
+            </div>
+        </article>
     </div>
-  </article>
-</div>
+</main>
 
 <style>
-  .page-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .post-content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 2rem;
-  }
+    .page-container {
+        max-width: 1400px;
+        margin: 0;
+    }
 
-  .page-toc {
-    position: sticky;
-    top: 2rem;
-    height: fit-content;
-    padding: 1rem;
-    border-left: 1px solid #e1e4e8;  /* Light gray border like GitHub's style */
-    margin-left: 1rem;  /* Add some space between content and border */
-  }
-
-  .toc-container {
-    font-size: 0.9rem;
-  }
-
-  .toc-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .toc-nav li {
-    margin: 0.5rem 0;
-  }
-
-  .toc-nav a {
-    color: #666;
-    text-decoration: none;
-    transition: color 0.2s;
-    padding: 2px 0;
-    display: block;
-  }
-
-  .toc-nav a:hover,
-  .toc-nav a.active {
-    color: #000;
-  }
-
-  .toc-nav a.active {
-    color: #0969da;
-    font-weight: 500;
-  }
-
-  @media (max-width: 768px) {
     .post-content-wrapper {
-      grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 2rem;
     }
-    
+
     .page-toc {
-      display: none;
+        position: sticky;
+        top: 2rem;
+        height: fit-content;
+        padding: 1rem;
+        border-left: 1px solid #e1e4e8; /* Light gray border like GitHub's style */
+        margin-left: 1rem; /* Add some space between content and border */
     }
-  }
+
+    .toc-container {
+        font-size: 0.9rem;
+    }
+
+    .toc-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .toc-nav li {
+        margin: 0.5rem 0;
+    }
+
+    .toc-nav a {
+        color: #666;
+        text-decoration: none;
+        transition: color 0.2s;
+        padding: 2px 0;
+        display: block;
+    }
+
+    .toc-nav a:hover,
+    .toc-nav a.active {
+        color: #000;
+    }
+
+    .toc-nav a.active {
+        color: #0969da;
+        font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+        .post-content-wrapper {
+            grid-template-columns: 1fr;
+        }
+
+        .page-toc {
+            display: none;
+        }
+    }
+
+    .breadcrumb-nav {
+        margin-bottom: 20px;
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    .breadcrumb-path {
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .breadcrumb-separator {
+        margin: 0 8px;
+        color: #999;
+    }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Get all headings in the content
-  const headings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3');
-  const tocList = document.getElementById('toc-list');
-  const tocLinks = [];
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get all headings in the content
+        const headings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3');
+        const tocList = document.getElementById('toc-list');
+        const tocLinks = [];
 
-  // Create TOC items
-  headings.forEach(heading => {
-    const link = document.createElement('a');
-    link.textContent = heading.textContent;
-    link.href = `#${heading.id}`;
-    
-    const listItem = document.createElement('li');
-    listItem.appendChild(link);
-    tocList.appendChild(listItem);
-    tocLinks.push(link);
-  });
+        // Create TOC items
+        headings.forEach(heading => {
+            const link = document.createElement('a');
+            link.textContent = heading.textContent;
+            link.href = `#${heading.id}`;
 
-  // Highlight current section while scrolling
-  function updateActiveSection() {
-    const viewportHeight = window.innerHeight;
-    const middleOfViewport = window.scrollY - (viewportHeight / 1.25);
+            const listItem = document.createElement('li');
+            listItem.appendChild(link);
+            tocList.appendChild(listItem);
+            tocLinks.push(link);
+        });
 
-    // Remove active class from all links first
-    tocLinks.forEach(link => link.classList.remove('active'));
+        // Highlight current section while scrolling
+        function updateActiveSection() {
+            const viewportHeight = window.innerHeight;
+            const middleOfViewport = window.scrollY - (viewportHeight / 1.25);
 
-    // Find the last heading that is above the middle of the viewport
-    let activeIndex = -1;
+            // Remove active class from all links first
+            tocLinks.forEach(link => link.classList.remove('active'));
 
-    headings.forEach((heading, index) => {
-      if (heading.offsetTop <= middleOfViewport) {
-        activeIndex = index;
-      }
+            // Find the last heading that is above the middle of the viewport
+            let activeIndex = -1;
+
+            headings.forEach((heading, index) => {
+                if (heading.offsetTop <= middleOfViewport) {
+                    activeIndex = index;
+                }
+            });
+
+            // Add active class to the appropriate link
+            if (activeIndex >= 0 && tocLinks[activeIndex]) {
+                tocLinks[activeIndex].classList.add('active');
+            }
+        }
+
+        // Update active section on scroll and hash change
+        window.addEventListener('scroll', updateActiveSection);
+        window.addEventListener('hashchange', updateActiveSection);
+
+        // Initial update
+        updateActiveSection();
     });
-
-    // Add active class to the appropriate link
-    if (activeIndex >= 0 && tocLinks[activeIndex]) {
-      tocLinks[activeIndex].classList.add('active');
-    }
-  }
-
-  // Update active section on scroll and hash change
-  window.addEventListener('scroll', updateActiveSection);
-  window.addEventListener('hashchange', updateActiveSection);
-  
-  // Initial update
-  updateActiveSection();
-});
-</script> 
+</script>
+</body>
+</html>
