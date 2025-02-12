@@ -33,6 +33,8 @@ Below is a short intro video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn8EDxuZfu4?si=MRyy4qBKW5DqFTh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<br/>
+
 ## 2. Features
 
 - **Significance calculation:** Assess the statistical significance of KPI variations with customizable level of confidence, using Welch T test method
@@ -41,7 +43,6 @@ Below is a short intro video
 - **Smart comments:** Title and comments are automatically written, and you can define their structure 
 
 <br/>
-
 
 ## 3. Add the extension into your report
 
@@ -59,8 +60,6 @@ Follow these steps to add Datama in your report :
         * Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. 
 
 Please refer to the full documentation to learn more about [source structure]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
-
-<br>
 
 <br>
 
@@ -84,7 +83,6 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_tabl
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Licence_key_VizExt.png" /></center>
 
-
 <br>
 
 ## 5. Getting started
@@ -101,16 +99,13 @@ Once you've imported the extension, here is how you can use it.
 
 **4. Leave edit mode**: In the "Format extension" panel (under the marks on the left hand side) untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-
+<br/>
 
 ## 6. Read your Analysis
 
 To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
-
-
-
 
 ## 7. Advanced Usage
 

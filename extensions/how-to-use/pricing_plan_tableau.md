@@ -9,12 +9,13 @@ keywords: Tableau dashboard Pricing Plan
 
 > What to get in the different Datama plan and how to active it?
 
+<br/>
 
 Unlock the full potential of your data analysis with Datama's flexible pricing options. Choose the plan that best fits your needs and start transforming your data into actionable insights. Go into your datama account [page](https://app.datama.io/a/dashboard/subscribe) to activate a licence
 
 <br>
 
-<center><img style="width:70%" src="{{site.url}}/{{site.baseurl}}/extensions/assets/plan_datama.png" /></center>
+<center><img style="width:50%" src="{{site.url}}/{{site.baseurl}}/extensions/assets/plan_datama.png" /></center>
 
 ## 1. Free trial version
 
@@ -36,7 +37,7 @@ The **Extension Solution** is designed for simplicity and ease of use for busine
 - **Avoid Ads and Disclaimer**: Your extension will be free from Ads and Datama logo, you can hide header and footer.
 - **Share with viewers**: Allow members of your organisation to view Datama's widget in their browser on published workbooks, without a Tableau builder licence
 
-The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the complexity of the in-app advanced setting.
+The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the advanced settings of the in-app.
 
 <br/>
 

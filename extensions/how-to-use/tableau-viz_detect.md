@@ -28,10 +28,10 @@ Here is what you get on this page:
 This document provides detailed documentation for the "Datama Detect" plugin, a powerful extension for Tableau Viz. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
 
 Below is a short intro video
+
 <br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F1upvKyZQxE?si=1_07ffSyA-aDcemg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 <br/>
 
@@ -44,7 +44,6 @@ Below is a short intro video
 - **Smart title:** Title is automatically written, and you can define the structure. 
 
 <br/>
-
 
 ## 3. Add the extension into your report
 
@@ -98,7 +97,7 @@ Once you've imported the extension, here is how you can use it.
 
 **4. Leave edit mode**: In the "Format extension" panel (under the marks on the left hand side) untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-
+<br/>
 
 ## 6. Read your Analysis
 
@@ -106,16 +105,9 @@ To discover more about how to use Datama Detect, you can read our [dedicated sec
 
 <br/>
 
-
-<br/>
-
-
 ## 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
-
-<br/>
-
 
 <br/>
 

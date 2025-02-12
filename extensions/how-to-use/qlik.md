@@ -14,15 +14,21 @@ keywords: Qlik QlikSense Qlik Sense get started
 Datama extensions for Qlik Sense are called Extensions, as custom objects
 You can add them to your report as any other type of chart, and bring in your data as you would do for any other widget.
 
-Here are the currently existing extensions, and related documentation
+Here are the currently existing extensions, and related documentation. Follow the link for each extension to have more detail.
+<br/>
+
 - [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_compare.html): Explain variations through dynamic waterfall and KPI tree
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Qlik.gif" align="center" width="650px" />
+
+<br/>
 
 - [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_detect.html): Detect anomalies in trend lines
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Detect_Qlik.gif" align="center" width="650px" />
 
+<br/>
+
 - [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_assess.html): Assess statistical significance of variations
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Assess_Qlikz.gif" align="center" width="650px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Assess_Qlik.gif" align="center" width="650px" />

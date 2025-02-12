@@ -105,6 +105,7 @@ Once you've imported the extension, here is how you can use it.
 
 **5. Leave edit mode**: In the Power BI side panel, in the "Format your visual" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
+<br/>
 
 ## 6. Read your Analysis
 
@@ -112,16 +113,9 @@ To discover more about how to use Datama Detect, you can read our [dedicated sec
 
 <br/>
 
-
-<br/>
-
-
 ## 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
-
-<br/>
-
 
 <br/>
 

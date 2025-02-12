@@ -63,7 +63,6 @@ Follow one or the other steps to install the Datama plugin:
     4. The visual will now appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
-<br/>
 
 <br>
 
@@ -105,7 +104,7 @@ Once you've imported the extension, here is how you can use it.
 
 **5. Leave edit mode**: In the Power BI side panel, in the "Format your visual" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-
+<br/>
 
 ## 6. Read your Analysis
 
@@ -114,11 +113,10 @@ To discover more about how to use Datama Assess, you can read our [dedicated sec
 <br/>
 
 
-
-
 ## 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
+
 <br/>
 
 ## 8. Support and Resources
