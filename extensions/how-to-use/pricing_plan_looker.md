@@ -39,7 +39,7 @@ The **Extension Solution** is designed for simplicity and ease of use for busine
 - **Avoid Ads and Disclaimer**: Your extension will be free from Ads and Datama logo, you can hide header and footer.
 - **Settings Saving**: Custom settings can be saved along your use case using the appropriate input in the side panel
 
-The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the complexity of the in-app advanced setting.
+The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the advanced settings the in-app.
 
 <br/>
 
@@ -52,6 +52,8 @@ For those who has a whole analytics team dedicated to the subject, this plan is 
 - **Stand alone web app access**: Connect Datama directly to your data without any data visualization tool through our web app
 - **Alert and notifications in messaging app**: Datama web app can send notifications through slack/ teams/ mail or even be triggered on webhooks. 
 - **Analytical & technical support**: Get the help you need with dedicated support from our team with training, monthly call, chat....
+
+<br/>
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Compare - Settings
 description: Find here how to use the **Settings**
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare settings
 ---
@@ -16,31 +16,45 @@ keywords: full app compare settings
   - [Negative Driver First](#negative-driver-first)
 
 <br>
-<b>Auto-generated dimension:<b><br>
+
+<b>Auto-generated dimension:<b>
+
+<br/>
+
   - [Comparable Dates](#comparable-dates)
   - [Combined Dimensions](#combined-dimensions)
   - [Smart dimension](#smart-dimension)
 
-<br>
-<b>Text and comment:<b><br>
+<br/>
+
+<b>Text and comment:<b>
+
+<br/>
+
   - [Analyse Depth](#analyse-depth)
   - [Segment text complement](#segment-text-complement)
 
-<br>
-<b>Advanced settings:<b><br>
+<br/>
+
+<b>Advanced settings:<b>
+
+<br/>
+
   - [Aggregation in %](#aggregation-in-)
   - [Covariance roll up](#covariance-roll-up)
   - [Max segment displayed](#max-segment-displayed)
   - [Significance test](#significance-test)
   - [Include 0 for Y axis](#include-0-for-y-axis)
 
-<br>
+<br/>
 
 Here is the panel of the Settings
-<br>
+
+<br/>
+
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
 
-<br>
+<br/>
 
 The settings is detailed below.
 

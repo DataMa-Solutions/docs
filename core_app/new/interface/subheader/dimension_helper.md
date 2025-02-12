@@ -1,7 +1,7 @@
 ---
 title: Helpers
 description: Find here how you can use the Dimension helper overview
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app subheader sub header settings helpers ratio start end dimension
 ---
@@ -41,7 +41,7 @@ The graph represents in blue and orange what is selected as a comparison (start 
 
 <br>
 
-### Hide or display some element
+**Hide or display some element**
 
  click on the legend to remove some bars (orange, blue or gray)
 

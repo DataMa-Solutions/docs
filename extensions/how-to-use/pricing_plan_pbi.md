@@ -14,7 +14,6 @@ Unlock the full potential of your data analysis with Datama's flexible pricing o
 
 <br/>
 
-
 ## 1. Free trial version
 
 Get started with our **Free** version, the default option that provides a perfect assessment of Datama's capabilities.
@@ -36,7 +35,7 @@ The **Extension Solution** is designed for simplicity and ease of use for busine
 - **Avoid Ads and Disclaimer**: Your extension will be free from Ads and Datama logo, you can hide header and footer.
 - **Share with viewers**: Allow members of your organisation to view Datama's widget in their browser on published workbooks, without a Power BI builder licence
 
-The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the complexity of the in-app advanced setting.
+The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the complexity of advanced settings the in-app.
 
 <br/>
 
@@ -49,6 +48,8 @@ For those who has a whole analytics team dedicated to the subject, this plan is 
 - **Stand alone web app access**: Connect Datama directly to your data without any data visualization tool through our web app
 - **Alert and notifications in messaging app**: Datama web app can send notifications through slack/ teams/ mail or even be triggered on webhooks. 
 - **Analytical & technical support**: Get the help you need with dedicated support from our team with training, monthly call, chat....
+
+<br/>
 
 ---
 
