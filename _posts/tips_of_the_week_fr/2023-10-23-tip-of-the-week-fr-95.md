@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 95: Nouvelles méthodes pour la détection d'anomalies"
-date:   2023-10-23 10:12:00 +0200
+date:   2023-10-23 12:00:00 +0200
 img_url: /assets/images/tip/95.gif
 img_type: image/gif
 img_width: 600

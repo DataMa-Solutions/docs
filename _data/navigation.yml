@@ -23,8 +23,14 @@
             - name: Homepage #done
               link: /core_app/new/interface/homepage/homepage.html
               subnav:
-                # - name: Header #done
-                #   link: /core_app/new/interface/homepage/homepage_header.html
+                - name: Header
+                  link: /core_app/new/interface/homepage/homepage.html#header
+                - name: Preferences
+                  link: /core_app/new/interface/homepage/homepage.html#user-preferences
+                - name: Workbook Management
+                  link: /core_app/new/interface/homepage/homepage.html#workbook-management
+                - name: Preset Workbook
+                  link: /core_app/new/interface/homepage/homepage.html#preset-workbook
                 #   subnav:
                 # - name: User preferences
                 #   link: /core_app/new/interface/homepage/user_preferences.html
@@ -37,8 +43,6 @@
                         #   link: /core_app/new/interface/homepage/user_preferences.html#13-compact-numbers
                         # - name: Force Rounding
                         #   link: /core_app/new/interface/homepage/user_preferences.html#22-force-rounding
-                # - name: Workbooks Management #done
-                #   link: /core_app/new/interface/homepage/workbooks_management.html
                 - name: Get Inspired #done
                   link: /core_app/new/interface/homepage/get_inspired/get_inspired.html
                   subnav:
@@ -101,6 +105,9 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/interface/subheader/settings.html
+                  subnav:
+                    - name: Clustering Settings
+                      link: /core_app/new/interface/subheader/settings/clustering.html
         - name: Type of Account and Plan #under construction
           link: /core_app/new/interface/account.html
           type: h4
@@ -466,6 +473,8 @@
               link: /core_app/new/integration/integrations.html
             - name: Refine Data #done
               link: /core_app/new/prep/interface/refine_data.html
+            - name: Table connect (Direct query) #done
+              link: /core_app/new/prep/interface/direct_query.html
             - name: Block Output #done
               link: /core_app/new/prep/interface/block_output.html
               subnav:
@@ -490,7 +499,13 @@
             - name: Power BI - Full Version #done
               link: /core_app/new/integration/PowerBI.html
             - name: Power BI - Demo #done
-              link: /core_app/new/integration/PowerBI_demo.html 
+              link: /core_app/new/integration/PowerBI_demo.html
+        - name: Open Ai
+          link: /core_app/new/integration/AI/Introduction.html
+          type: h4
+          subnav:
+            - name: How to connect
+              link: /core_app/new/integration/AI/OpenAi-connect.html
         - name: Tableau
           link: /core_app/new/integration/tableau.html
           type: h4
@@ -919,6 +934,19 @@
         - name : Settings
           link: /extensions/datama-detect/settings.html
           type: h4
+    - name: Assess
+      link: /extensions/datama-assess/introduction.html
+      type: h3
+      subnav:
+        - name: Concept
+          link: /extensions/datama-assess/concept.html
+          type: h4
+        - name: Interface
+          link: /extensions/datama-assess/structure.html
+          type: h4
+        - name : Settings
+          link: /extensions/datama-assess/settings.html
+          type: h4
     - name : Extensions
       link: /extensions/how-to-use/index.html
       type: h3
@@ -927,6 +955,12 @@
           link: /extensions/how-to-use/looker-studio.html
           type: h4
           subnav:
+            - name: Compare
+              link: /extensions/how-to-use/looker-studio_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/looker-studio_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/looker-studio_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_looker.html
           # subnav:
@@ -936,21 +970,38 @@
           link: /extensions/how-to-use/power_bi.html
           type: h4
           subnav:
+            - name: Compare
+              link: /extensions/how-to-use/power-bi_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/power-bi_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/power-bi_assess.html
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_pbi.html
+        - name: Tableau
+          link: /extensions/how-to-use/tableau_viz.html
+          type: h4
+          subnav:
+            - name: Compare
+              link: /extensions/how-to-use/tableau-viz_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/tableau-viz_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/tableau-viz_assess.html
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_tableau.html
         - name: Qlik
           link: /extensions/how-to-use/qlik.html
           type: h4
-        - name: Tableau
-          link: /extensions/how-to-use/tableau.html
-          type: h4
           subnav:
-            - name: Tableau Dashboard
-              link: /extensions/how-to-use/tableau_dashboard.html
-            - name: Tableau Viz
-              link: /extensions/how-to-use/tableau_viz.html
+            - name: Compare
+              link: /extensions/how-to-use/qlik_compare.html
+            - name: Detect
+              link: /extensions/how-to-use/qlik_detect.html
+            - name: Assess
+              link: /extensions/how-to-use/qlik_assess.html
             - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan_tableau.html
+              link: /extensions/how-to-use/pricing_plan_qlik.html
 
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK

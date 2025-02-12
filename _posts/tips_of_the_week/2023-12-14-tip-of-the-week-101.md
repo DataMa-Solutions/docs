@@ -1,7 +1,7 @@
 ---
 feed: totw_en
 title:  "Tip of the Week 101: New Clustering Tree in Pivot"
-date:   2023-12-14 10:12:00 +0200
+date:   2023-12-14 12:00:00 +0200
 img_url: /assets/images/tip/101.png
 img_type: image/png
 img_width: 600

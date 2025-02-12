@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 119: Créez votre organisation et invitez les membres de votre équipe !"
-date:   2024-07-11 10:12:00 +0200
+date:   2024-07-11 12:00:00 +0200
 img_url: /assets/images/tip/119.gif
 img_type: image/gif
 img_width: 600

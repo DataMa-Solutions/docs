@@ -1,7 +1,7 @@
 ---
 feed: totw_en
 title:  "Tip of the Week 112: Set automatic opening of waterfall steps"
-date:   2024-04-18 10:12:00 +0200
+date:   2024-04-18 12:00:00 +0200
 img_url: /assets/images/tip/112.gif
 img_type: image/gif
 img_width: 600

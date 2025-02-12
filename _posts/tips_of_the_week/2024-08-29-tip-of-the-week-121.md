@@ -1,7 +1,7 @@
 ---
 feed: totw_en
 title:  "Tip of the Week 121: 🛠️ Customize parameters once for all future workbooks 📊"
-date:   2024-08-29 10:12:00 +0200
+date:   2024-08-29 12:00:00 +0200
 img_url: /assets/images/tip/121.gif
 img_type: image/gif
 img_width: 600

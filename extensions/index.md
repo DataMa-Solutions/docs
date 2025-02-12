@@ -7,7 +7,7 @@ keywords: extensions light viz tools
 
 <br/>
 
-> Datama provides the layer of intelligence needed to explain your performance variations
+> Datama provides the layer of business intelligence missing in data visualization tools
 
 <center> <img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_list.png"></center>
 
@@ -15,22 +15,19 @@ keywords: extensions light viz tools
 
 Find below documentation related to each extensions
 
-For now only one extension is available on marketPlace. 
 
-
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
-- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html): Explain variations through dynamic waterfall and KPI tree
+- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html): Detect anomalies in trend lines
+- [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html): Assess statistical significance of variations
 
 <br>
 
 **Coming soon :**
-- Assess : Significance test
-- Detect : Anomaly Detection 
 - Dimension Helpers : Bars graphs with integrated drop down
 
 <br/>
 
-### Find Datama in different Markeplace.
+### Find Datama in different markeplaces:
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
@@ -43,5 +40,3 @@ Our extensions exists in two differents models for each data visualisation platf
 - **Light extension**: complete on premise version with no link to our web interface and servers. 
 
 <br>
-
-More to come soon with our Anomaly Detection extension. 
