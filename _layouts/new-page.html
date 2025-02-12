@@ -58,7 +58,7 @@
         </article>
     </div>
 </main>
-
+<script src="{{site.url}}/{{site.baseurl}}/assets/js/main.js"></script>
 <style>
     .page-container {
         max-width: 1400px;
@@ -166,16 +166,17 @@
         // Highlight current section while scrolling
         function updateActiveSection() {
             const viewportHeight = window.innerHeight;
-            const middleOfViewport = window.scrollY - (viewportHeight / 1.25);
+            const tenPercentOfViewport = viewportHeight * 0.1;
+            const scrollPosition = window.scrollY + tenPercentOfViewport;
 
             // Remove active class from all links first
             tocLinks.forEach(link => link.classList.remove('active'));
 
-            // Find the last heading that is above the middle of the viewport
+            // Find the last heading that is above the 10% mark of the viewport
             let activeIndex = -1;
 
             headings.forEach((heading, index) => {
-                if (heading.offsetTop <= middleOfViewport) {
+                if (heading.offsetTop <= scrollPosition) {
                     activeIndex = index;
                 }
             });

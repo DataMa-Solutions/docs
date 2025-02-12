@@ -1,4 +1,4 @@
-~~---
+---
 title: Homepage
 description: See in this chapter details how to use the homepage of your account
 layout: page
