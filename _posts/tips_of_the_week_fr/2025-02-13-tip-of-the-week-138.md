@@ -14,11 +14,11 @@ Voulez-vous comprendre l'impact de l’effet de mix sur l'un de vos KPIs ❓
 
 Facile à découvrir avec Datama Compare! ⭐  
 
-Par exemple, un client dont le business est sensible aux variations de températures a voulu comprendre l'effet de mix lié à la température sur la performance de son site. 🔍  
+Dans cet article, un de nos clients dont le business est sensible à la météo a voulu comprendre l'impact de la température extérieur sur la performance de son site. 🔍  
 
-Nous avons écrit un use case permettant de comprendre comment:
+Cet article vous permettra de comprendre comment:
   * Corréler le nombre de sessions par jour sur le site à la météo 📈  
   * Calculer l'effet de mix sur le trafic entre deux années 🧮  
   * Ramener tout ça en impact sur le revenue 💰  
 
-👉 Lisez cet article pour en savoir plus ! 
+👉 Lisez notre <a href="https://datama.io/mix-effect-of-weather-on-sales-revenue/">article</a> pour en savoir plus ! 
