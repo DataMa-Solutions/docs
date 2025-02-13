@@ -12,7 +12,7 @@ layout: post
 
 Want to understand the mix effect on one of your KPIs ❓  
 
-It's easy to discover with Datama Compare! ⭐  
+It's easy to discover with Datama Compare! ✨  
 
 In this article, one of our clients, whose business is sensitive to weather, wanted to understand the impact of outside temperature on their website's performance. 🔍  
 
@@ -21,4 +21,4 @@ This article helps understand how to:
   * Calculate the mix effect on traffic between two years 🧮  
   * Convert all that into revenue impact 💰  
 
-👉 Read our <a href="https://datama.io/mix-effect-of-weather-on-sales-revenue/">article</a> to learn more!
+👉 Read our [article](https://datama.io/mix-effect-of-weather-on-sales-revenue/) to learn more!
