@@ -1,6 +1,6 @@
 ---
 feed: totw_fr
-title:  "Tip of the week 138: (Re)découvrez l’effet de mix avec Datama Compare!"
+title:  "Nouvel article sur le blog : (Re)découvrez l’effet de mix avec Datama Compare!"
 date:   2025-02-13 12:00:00 +0200
 img_url: /assets/images/tip/138.gif
 img_type: image/gif
