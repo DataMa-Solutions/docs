@@ -14,16 +14,16 @@ description: |
 
 
 * **Marketplace extension** (aka "Datama Light")
-  * Datama **Detect** now offers the ability to **identify outliers within any sub segment of multiple dimensions**. For instance using a location dimension, Datama could find an anomaly on a given KPI for a specific country, while the overall average is not abnormal. Datama will score the interest of each anomaly and show you the most impacting ones first. 
-  * Dimension helper extension has been improved, with clarified labelling and enhanced experience when switch from one type of viz to another. As a reminder, the "Dimension helper" extension provides the final user to decide autonomously the dimensions and metrics he wants to analyse and the type of vizualisation that makes sense for his story. 
+  * Datama **Detect** now offers the ability to **identify outliers within any sub segment of multiple dimensions**. For instance, using a location dimension, Datama could find an anomaly on a given KPI for a specific country, while the overall average is not abnormal. Datama will score the interest of each anomaly and show you the most impacting ones first.
+  * The Dimension helper extension has been improved with clearer labeling and enhanced experience when switching from one type of visualization to another. As a reminder, the "Dimension helper" extension allows the final user to decide autonomously which dimensions and metrics they want to analyze and the type of visualization that makes sense for their story.
 
 * **Datama Prep** on the Web app
-  * **"Table Connect" mode is now available for Snowflake** on top of Big Query. This means that you can now connect Datama directly to a full table in Snowflake, and let Datama pull the appropriate data for your analysis, depending on your inputs of dates, filters, market equation and clustering settings
-  * [Beta 🧪] **"Optimized clustering"** is now activated by default for beta users. This allows to create the "Other" buckets on "Prep" side instead of computing it on every solution computation, which typically **saves about ~20% of run time on large datasets**
+  * **"Table Connect" mode is now available for Snowflake** in addition to BigQuery. This means that you can now connect Datama directly to a full table in Snowflake, and let Datama pull the appropriate data for your analysis, depending on your inputs of dates, filters, market equation and clustering settings.
+  * [Beta 🧪] **"Optimized clustering"** is now activated by default for beta users. This allows to create the "Other" buckets on "Prep" side instead of computing it on every solution computation, which typically **saves about ~20% of run time on large datasets**.
 
 * **Datama Solutions**
-  * In Datama Compare, multiple improvements have been implemented, including a better display of KPI tree text
-  * In Datama Journey, the colors are now better aligned between slides and "Journey" column is not required any more to access the analysis. Make sure you have the proper structure of data so that it is relevant. 
+  * In Datama Compare, multiple improvements have been implemented, including a better display of KPI tree text.
+  * In Datama Journey, the colors are now better aligned between slides, and the "Journey" column is no longer required to access the analysis. Make sure you have the proper structure of data so that it is relevant.
 
 * **Documentation**
-  * The documentation has now a proper table of content for long pages and navigation pane is pre-opened on current page
+  * The documentation now has a proper table of contents for long pages, and the navigation pane is automatically opened on the current page.
