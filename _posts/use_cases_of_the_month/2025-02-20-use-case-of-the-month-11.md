@@ -15,7 +15,7 @@ Read this story 📖 about how Lingoda, a popular online language school, built 
 Follow their step-by-step tutorial to learn how to:
 * Let dashboard users interact with the metrics analyzed by Datama
 * Dynamically modify the definition of comparisons 🔁
-* Make "Compare" analysis flexible & accessible for any end user
+* Make "Compare" analysis flexible & accessible for any end user 💻  
 
 The article includes a sample Tableau dashboard for demo, but the logic applies to any BI tool! 💡  
 
