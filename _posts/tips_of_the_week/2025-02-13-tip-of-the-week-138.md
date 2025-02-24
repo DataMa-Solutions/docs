@@ -7,6 +7,7 @@ img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
+article_link: https://datama.io/mix-effect-of-weather-on-sales-revenue/
 ---
 
 
@@ -19,6 +20,4 @@ In this article, one of our clients, whose business is sensitive to weather, wan
 This article helps understand how to:
   * Correlate the number of sessions per day on the website with the weather 📈  
   * Calculate the mix effect on traffic between two years 🧮  
-  * Convert all that into revenue impact 💰  
-
-👉 Read our [article](https://datama.io/mix-effect-of-weather-on-sales-revenue/) to learn more!
+  * Convert all that into revenue impact 💰
