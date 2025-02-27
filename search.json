@@ -2,16 +2,42 @@
 ---
 [
   {% for page in site.pages %}
-    {% if page.url != '/search.json' and page.url != '/tip_of_the_week.html' %}
-      {
-        "title": "{{ page.title | escape }}",
-        "scope": "{{ page.scope }}",
-        "tags": "{{ page.tags }}",
-        "keywords": "{{page.keywords}}",
-        "description": "{{page.description | strip | escape}}",
-        "url": "{{site.url}}/{{site.baseurl}}{{page.url}}",
-        "body": "{{page.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
-      } {% unless forloop.last %},{% endunless %}
+    {% if page.url contains '.js' %}
+      JS
+      {% continue %}
     {% endif %}
+    {% if page.url contains '.json' %}
+      JSON
+      {% continue %}
+    {% endif %}
+    {% if page.url contains '.xml' %}
+      "{{site.url}}/{{site.baseurl}}{{page.url}}",
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'totw' %}
+      TOT
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'ucotm' %}
+      UC
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'release' %}
+      RE
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'tip_of_' %}
+      TI
+      {% continue %}
+    {% endif %}
+    {
+      "title": "{{ page.title | escape }}",
+      "scope": "{{ page.scope }}",
+      "tags": "{{ page.tags }}",
+      "keywords": "{{page.keywords}}",
+      "description": "{{page.description | strip | escape}}",
+      "url": "{{site.url}}/{{site.baseurl}}{{page.url}}",
+      "body": "{{page.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
+    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
