@@ -7,7 +7,6 @@ img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
-article_link: https://datama.io/mix-effect-of-weather-on-sales-revenue/
 ---
 
 Hey there! Juste un petit mot pour vous dire que le Datama chat, votre lien direct avec notre équipe support, est là pour répondre à toutes vos questions, recueillir vos retours et écouter vos idées pendant votre navigation sur le Datama APP.  
