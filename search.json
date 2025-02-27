@@ -3,31 +3,24 @@
 [
   {% for page in site.pages %}
     {% if page.url contains '.js' %}
-      JS
       {% continue %}
     {% endif %}
     {% if page.url contains '.json' %}
-      JSON
       {% continue %}
     {% endif %}
     {% if page.url contains '.xml' %}
-      "{{site.url}}/{{site.baseurl}}{{page.url}}",
       {% continue %}
     {% endif %}
     {% if page.url contains 'totw' %}
-      TOT
       {% continue %}
     {% endif %}
     {% if page.url contains 'ucotm' %}
-      UC
       {% continue %}
     {% endif %}
     {% if page.url contains 'release' %}
-      RE
       {% continue %}
     {% endif %}
     {% if page.url contains 'tip_of_' %}
-      TI
       {% continue %}
     {% endif %}
     {
