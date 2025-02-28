@@ -1,7 +1,7 @@
 ---
 feed: release_note
-title:  "2025-03-27"
-date:   2025-03-27 12:00:00 +0200
+title:  "2025-02-27"
+date:   2025-02-27 12:00:00 +0200
 layout: post
 description: |
   Check out what's new in February in Datama 🌟!
