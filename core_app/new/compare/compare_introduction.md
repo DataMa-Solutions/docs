@@ -8,14 +8,13 @@ keywords: full app compare introduction
 
 <br>
 
-> **Datama COMPARE is a data analysis tool that allows you to quickly identify and understand the factors causing your performance indicators to increase or decrease.**
+> **Datama Compare is an advanced analysis tool that quickly and accurately identifies the factors driving changes in your performance indicators.**
 
 <br>
 
-Datama COMPARE makes it easy to explain variations of any KPI between two segments.
+With an automated and actionable approach, Datama Compare makes it easy to analyze KPI variations between two segments—whether comparing time periods, acquisition channels, audiences, or any other strategic dimension.
 
-This documentation gives you an overview of how it works and how to use it.
-
+This documentation provides an overview of how Datama Compare works and guides you through its use to generate clear, data-driven insights.
 <br>
 
 
@@ -27,13 +26,14 @@ This documentation gives you an overview of how it works and how to use it.
     <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" width="70%" />
 </center>
 
-This analysis is possible thanks to **2 main types** of data collected from your business:
 
-* **Business Metrics data of the company** (revenue, sales volume, number of users impacted by a marketing campaign, etc.)
-* and the **dimensions associated** with these volumes (customer segment, type of product sold, country, vendors, age, gender, device, year, models, …)
+This analysis is powered by **two key data components** collected from your business:
 
-The data used can be first party data, collected by your company : ERP, Excel spreadsheet or even data collection tools (like Google Analytics, ContentSquare, …)
-But it can also come from other third party players, such as market data or public data
+- **Business Metrics** – Core performance indicators such as revenue, sales volume, number of users impacted by a marketing campaign, and other key figures that define your success.
+- **Associated Dimensions** – The contextual attributes that help break down and explain these metrics, such as customer segment, product type, country, vendor, age, gender, device, year, model, and more.
+
+
+Datama Compare works with first-party data collected directly by your company, whether from your ERP, spreadsheets, or analytics tools like Google Analytics, ContentSquare, and others. It can also integrate third-party data from external sources, such as market reports or public datasets, to enrich the analysis and provide a broader perspective.
 
 ---------------------
 

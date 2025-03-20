@@ -1,7 +1,7 @@
 ---
 title: Detailed View
 description: This detailed View »** allows you to deep dive on each step and each dimension.
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare detail detailed view
 ---
@@ -17,7 +17,7 @@ keywords: full app compare detail detailed view
 
 <!-- ![detailed_view]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/moves.jpg) -->
 
-By default, the drop-down menus are selected in both main step and main dimension of your analysis. You can change the selection of either a step or a dimension. Each time you run the calculation, the default selection in the drop-down menu will be reactivated.
+By default, the drop-down menus are automatically selected in both main step and main dimension of your analysis. You can change the selection of either a step or a dimension. Each time you run the calculation, the default selection in the drop-down menu will be reactivated.
 
 
 <center> <img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/carret_moves.png"></center>
@@ -26,14 +26,14 @@ By default, the drop-down menus are selected in both main step and main dimensio
 
 The selection is dynamic: selection made on the « Detailed view – filter » will affect the waterfall above and vice & versa.
 
-3 different views are available for this « detailed view »:
-* [Moves](#moves)
+3 different tabs are available for this « detailed view ».
+<!--* [Moves](#moves)
 * [Bridge](#bridge)
-* [Table](#table)
+* [Table](#table) -->
 
 <br>
 
-# Moves
+# 1. Moves
 
 In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension and understand Mix effect and Performance effect with arrows.
 
@@ -44,7 +44,7 @@ This graph shows the performance effect and the mix effect within a single serie
 
 <br>
 
-## How to understand this graph?
+## 1.1 How to understand this graph?
 
 <br>
 
@@ -62,7 +62,7 @@ Read more [details]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensi
 
 <br>
 
-## Help on the read of this graph
+## 1.2 Help on the read of this graph
 
 To have keys to read this graph, you should know few tips:
 
@@ -74,7 +74,7 @@ To have keys to read this graph, you should know few tips:
 <br>
 
 
-# Bridge
+# 2. Bridge
 
 For the selected step and dimension the <i>Bridge</i> shows the Mix effect and the performance effect via a Waterfall.
 
@@ -101,7 +101,7 @@ Some key elements:
 <br>
 
 
-# Table
+# 3. Table
 
 Table is gathering all the figures that helps to understand step variation and dimensions impact.
 
@@ -114,7 +114,7 @@ The table allows to access a detail view of the data with the ability to refine 
 
 <br>
 
-## What's available on the table?
+## 3.1 What's available on the table?
 
 By changing the settings of the table you can choose to display 5 types of information: 
 - **Value**: new value of the ratio. (e.g: 2633 Users in referral for "this year")
@@ -126,7 +126,7 @@ By changing the settings of the table you can choose to display 5 types of infor
 
 Note that when activating a "Secondary Comparison", the secondary comparison values are displayed in the table in a subline in italic under "2nd comparison"
 
-## How could it look like?
+## 3.2 How could it look like?
 
 Change Formatting of the table by clicking on the Settings icon:
 
