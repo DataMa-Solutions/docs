@@ -1,0 +1,63 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+title: Cursor Rules
+description: Guidelines for interpreting and interacting with cursors in Datama Compare.
+layout: new-page
+scope: Datama/saas/compare
+keywords: cursor rules, interactions, visualization
+---
+
+# Cursor Rules  
+
+In **Datama Compare**, cursors play a crucial role in enhancing interactivity and providing contextual insights within the **Waterfall Analysis** and other visualizations. The following rules define how cursors behave and how users can interact with them to extract key insights.  
+
+## General Behavior  
+- **langage**
+  All answers will be provided in englis markdown even if the question is provided in french.
+
+- **Hovering Over Elements**  
+  When hovering over a bar, segment, or value in the waterfall, a tooltip appears displaying precise information about the selected element, including:  
+  - The associated metric change (increase or decrease).  
+  - The percentage contribution to the total variation.  
+  - Additional details related to filters or applied breakdowns.  
+
+- **Clicking on Elements**  
+  Clicking on a specific element allows users to:  
+  - **Drill down** into more granular details, revealing subcategories or further segmentations.  
+  - Open **dimension scoring** insights, highlighting the key drivers behind the variation.  
+  - Apply filters dynamically to refine the current view.  
+
+- **Cursor Synchronization**  
+  The cursor position is synchronized across multiple visual components. Hovering over an element in one chart will highlight corresponding data points in other linked views, ensuring a seamless analytical experience.  
+
+## Waterfall-Specific Interactions  
+
+- **Step Transition Cursor**  
+  - Moving the cursor along the waterfall steps shows how each factor contributes to the total variation.  
+  - Hovering near transition points between two bars highlights the connection between them, making it easier to track dependencies.  
+
+- **Covariance Handling**  
+  - If a step is affected by covariance, the tooltip will indicate the shared effect distribution and how it impacts multiple factors.  
+
+## Drag and Selection Rules  
+
+- **Custom Range Selection**  
+  - Users can **click and drag** to select a custom range within the waterfall, enabling focused analysis on specific periods or segments.  
+  - The selection updates all dependent graphs accordingly.  
+
+- **Context Menu Activation**  
+  - Right-clicking on an element opens a **context menu** with options to:  
+    - Export data related to the selection.  
+    - Apply or remove filters.  
+    - Compare different segments side by side.  
+
+- **tips_of_the_week file**
+  - don't look at the element in these file, they are not relevant for my coding
+
+---
+
+These **cursor rules** are designed to make navigation and interaction intuitive, helping users explore KPI variations with precision. For additional details on visualization controls, refer to [this section](mdc:{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/visualization_controls.html).  

@@ -150,10 +150,10 @@
             - name: Compare subheader #done
               link: /core_app/new/compare/interface/compare_header.html
               subnav:
-                - name: Dimension Comparison  #done
+                - name: Comparison  #done
                   link: /core_app/new/interface/subheader/dimension_comparison.html
-                - name: Secondary Comparison  #done
-                  link: /core_app/new/compare/interface/subheader/secondary_comparison.html
+                #- name: Secondary Comparison  #done
+                #  link: /core_app/new/compare/interface/subheader/secondary_comparison.html
                 - name: Dimension Helper  #done
                   link: /core_app/new/interface/subheader/dimension_helper.html
                 - name: Filters  #done
@@ -162,33 +162,33 @@
                   link: /core_app/new/interface/subheader/metrics_relation.html
                 - name: Settings #done
                   link: /core_app/new/compare/interface/subheader/settings.html
-                  subnav:
-                    - name: Drill down hierarchy  #done
-                      link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
-                    - name: Split Mix and Perf
-                      link: /core_app/new/compare/interface/subheader/settings.html#split-mix-and-perf
-                    - name: Negative Driver First
-                      link: /core_app/new/compare/interface/subheader/settings.html#negative-driver-first
-                    - name: Comparable Dates
-                      link: /core_app/new/compare/interface/subheader/settings.html#comparable-dates
-                    - name: Combined Dimensions
-                      link: /core_app/new/compare/interface/subheader/settings.html#combined-dimensions
-                    - name: Smart dimension
-                      link: /core_app/new/compare/interface/subheader/settings.html#smart-dimension
-                    - name: Analyse Depth
-                      link: /core_app/new/compare/interface/subheader/settings.html#analyse-depth
-                    - name: Segment text complement
-                      link: /core_app/new/compare/interface/subheader/settings.html#segment-text-complement
-                    - name: Aggregation in %
-                      link: /core_app/new/compare/interface/subheader/settings.html#aggregation-in-
-                    - name: Covariance roll up
-                      link: /core_app/new/compare/interface/subheader/settings.html#covariance-roll-up
-                    - name: Max segment displayed
-                      link: /core_app/new/compare/interface/subheader/settings.html#max-segment-displayed
-                    - name: Significance test
-                      link: /core_app/new/compare/interface/subheader/settings.html#significance-test
-                    - name: Include 0 for Y axis
-                      link: /core_app/new/compare/interface/subheader/settings.html#include-0-for-y-axis
+#                  subnav:
+#                    - name: Drill down hierarchy  #done
+#                      link: /core_app/new/compare/interface/subheader/drill_down_hierarchy.html
+#                    - name: Split Mix and Perf
+#                      link: /core_app/new/compare/interface/subheader/settings.html#split-mix-and-perf
+#                    - name: Negative Driver First
+#                      link: /core_app/new/compare/interface/subheader/settings.html#negative-driver-first
+#                    - name: Comparable Dates
+#                      link: /core_app/new/compare/interface/subheader/settings.html#comparable-dates
+#                    - name: Combined Dimensions
+#                      link: /core_app/new/compare/interface/subheader/settings.html#combined-dimensions
+#                    - name: Smart dimension
+#                      link: /core_app/new/compare/interface/subheader/settings.html#smart-dimension
+#                    - name: Analyse Depth
+#                      link: /core_app/new/compare/interface/subheader/settings.html#analyse-depth
+#                    - name: Segment text complement
+#                      link: /core_app/new/compare/interface/subheader/settings.html#segment-text-complement
+#                    - name: Aggregation in %
+#                      link: /core_app/new/compare/interface/subheader/settings.html#aggregation-in-
+#                    - name: Covariance roll up
+#                      link: /core_app/new/compare/interface/subheader/settings.html#covariance-roll-up
+#                    - name: Max segment displayed
+#                      link: /core_app/new/compare/interface/subheader/settings.html#max-segment-displayed
+#                    - name: Significance test
+#                     link: /core_app/new/compare/interface/subheader/settings.html#significance-test
+#                  - name: Include 0 for Y axis
+#                    link: /core_app/new/compare/interface/subheader/settings.html#include-0-for-y-axis
         - name: Model
           link: /core_app/new/compare/model/model.html
           type: h4

@@ -102,6 +102,28 @@
         display: block;
     }
 
+    /* Indentation pour les différents niveaux de titres */
+    .toc-nav li[data-level="h1"] {
+        padding-left: 0;
+        padding-top: 6px;
+    }
+
+    .toc-nav li[data-level="h2"] {
+        padding-left: 1rem;
+        padding-top: 1px;
+    }
+    .toc-nav li[data-level="h2"] a {
+        font-weight: 450 !important; /* Force le font-weight */
+    }
+
+    .toc-nav li[data-level="h3"] {
+        padding-left: 2rem;
+        margin-bottom: -7px;
+    }
+    .toc-nav li[data-level="h3"] a {
+        font-weight: 300 !important; /* Force le font-weight */
+    }
+
     .toc-nav a:hover,
     .toc-nav a.active {
         color: #000;
@@ -147,7 +169,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         // Get all headings in the content
-        const headings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3');
+        const headings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3, .post-content h4');
         const tocList = document.getElementById('toc-list');
         const tocLinks = [];
 
@@ -158,6 +180,8 @@
             link.href = `#${heading.id}`;
 
             const listItem = document.createElement('li');
+            // Ajouter l'attribut data-level pour l'indentation
+            listItem.setAttribute('data-level', heading.tagName.toLowerCase());
             listItem.appendChild(link);
             tocList.appendChild(listItem);
             tocLinks.push(link);

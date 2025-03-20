@@ -8,7 +8,9 @@ keywords: full app compare interface
 
 <br>
 
-> Overall **interface** is split in 4 elements, that are the back bone of Datama Compare
+> The **Datama Compare** interface is structured into **four key elements**, forming the backbone of the solution.
+
+
 
 <br>
 
@@ -16,12 +18,12 @@ keywords: full app compare interface
 
 <br>
 
-* **[Admin Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html):** the header of the window manage your account and your use cases
-* **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/compare_header.html):** the subheader of the window manage the settings of the solution
-* **Sidebar:** The left part of the web page, which allows you to switch from one solution to another
+* **[Admin Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html):** Located at the top of the interface, this section allows you to manage your account and use cases.
+* **[Solutions Header]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/compare_header.html):** A subheader that provides access to solution-specific settings.
+* **Sidebar:** Positioned on the left, this menu lets you switch between different Datama solutions.
 * **Interface:** This is essentially an interactive dashboard including two main "slides":
-    * [Waterfall]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/waterfall.html)
-    * [Detail View]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/detailed_view.html)
+    * [Waterfall]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/waterfall.html): waterfall vision of your overall performance variation
+    * [Detail View]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/detailed_view.html): A deeper analysis of each step of the waterfall explaining the factors influencing performance changes.
 
 <br>
 
