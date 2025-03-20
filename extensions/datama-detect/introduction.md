@@ -47,4 +47,4 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 <br>
 
 ### 3. Going further:
-- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
+- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)

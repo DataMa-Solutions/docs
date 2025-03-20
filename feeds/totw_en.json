@@ -7,12 +7,13 @@
     {% if forloop.first %}
     "latest": "True",
     {% endif %}
-    "title": "{{ post.title | escape }}",
-    "date": "{{post.date}}",
-    "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
-    "img": "{{site.url}}/{{site.baseurl}}{{post.img_url}}",
-    "img_type": "{{post.img_type}}",
-    "description": "{{ post.content | replace: '"', "'" | replace: '<li>', "* " | strip_newlines | strip_html | strip | escape }}"
+    "title": {{ post.title | jsonify }},
+    "date": "{{ post.date }}",
+    "article_link": "{{ post.article_link }}",
+    "url": "{{ site.url }}/{{ site.baseurl }}{{ post.url }}",
+    "img": "{{ site.url }}/{{ site.baseurl }}{{ post.img_url }}",
+    "img_type": "{{ post.img_type }}",
+    "description": {{ post.content | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
