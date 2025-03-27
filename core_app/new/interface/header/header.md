@@ -1,7 +1,7 @@
 ---
 title: Header
 description: Find out how you can use the header of the Datama Solutions
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app header menu
 ---
@@ -14,23 +14,13 @@ keywords: full app header menu
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
-
+<br/>
 
 For all Datama Solution tools (Prep, Compare, Assess and Pivot), a contextual menu gives you access to several options for managing your work. 
 
-Find below a brief overview of these option menus:
-- [Views](#views)
-- [File](#file)
-- [Data](#data)
-- [Help](#help)
-- [Present](#start-presentation)
-- [Play](#play)
-- [Share](#share)
-- [Schedule](#schedule)
-
 <br>
 
-# Views 
+# 1. Views 
 
 With Views, you can set up several configurations in your use case. This can be used to perform multiple analyses on the same input data.
 
@@ -48,7 +38,7 @@ These Views can be used during export configuration.
 
 <br>
 
-# File 
+# 2. File 
 
 Find out how you can use **the File** menu of the header of the Solution
 
@@ -67,7 +57,7 @@ Here are the options available in the "File" header menu:
 
 <br>
 
-# Data
+# 3. Data
 
  Find out how you can use **the Data** menu of the header of the Solution
 
@@ -81,7 +71,7 @@ Here are the options available in the "File" header menu:
 
 <br>
 
-# Help
+# 4. Help
 
 Find out how you can use **the Help** menu of the header of the Solution
 
@@ -96,28 +86,30 @@ Find out how you can use **the Help** menu of the header of the Solution
 <center><img style="width:20%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/feedback.png"/></center>
 
 
-# Start Presentation
+# 5. Start Presentation
 
 Allow to put the analysis in full mode, with limited settings but full interaction with the graph. You can switch to the second page to display the steps analysis. This mode is especially usefull during meeting. 
 
 <br>
 
-# Play
+# 6. Play
 
 This button allows to reset the calculation. 
 
 <br>
 
-# Share
+# 7. Share
 
 Share this workbook with your team or certain colleagues only. 
 
 <br>
 
-# Schedule
+# 8. Schedule
 
 Export this analysis to be sent on a regular basis via Slack, Teams, email....
 
 <br>
+
+---
 
 Don't hesitate to contact us if you need any other connections to your data.

@@ -119,9 +119,8 @@ Once you've imported the extension, here is how you can use it.
 **4. Save settings**: If you have a paid licence, settings will be automatically saved along with your dashboard. 
 
 **5. Leave edit mode**: In the Qlik side panel, in the "Datama Setting" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
 <br/>
-
-
 
 ## 6. Read your Analysis
 
@@ -129,12 +128,10 @@ To discover more about how to use Datama Assess, you can read our [dedicated sec
 
 <br/>
 
-
-
-
 ## 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
+
 <br/>
 
 ## 8. Support and Resources

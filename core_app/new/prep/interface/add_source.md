@@ -1,7 +1,7 @@
 ---
 title: Prep - Add Source
 description: This section helps you extract data from your data sources
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app prep add source
 ---
@@ -183,7 +183,7 @@ With Google Trend connector, you can enrich your data flow with Google Search re
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:70%"/></center>
 
-### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
+#### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG" style="width:60%"/></center>
 

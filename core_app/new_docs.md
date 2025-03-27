@@ -7,11 +7,11 @@ scope: shiny
 
 <br>
 
-> **Welcome in the documentation of the Datama interface & our extensions**
+> **Welcome to the Datama documentation**
 
 <br>
 
-This documentation aims to explain all the practical and theoritical aspects of the Datama Solutions.
+This documentation provides both practical and theoretical insights into Datama Solutions, helping you navigate our interface and extensions effectively.
 
 <br/>
 
@@ -19,10 +19,10 @@ This documentation aims to explain all the practical and theoritical aspects of 
 
 <br/>
 
-We are very happy to present our new version of Datama accessible via: <a href="https://app.datama.io/" target="_blank">app.datama.io</a>.
+We are excited to introduce the latest version of Datama, accessible at: <a href="https://app.datama.io/" target="_blank">app.datama.io</a>.
 
 Stay updated on our monthly release by visiting [the release note]({{site.url}}/{{site.baseurl}}/release)
-This documentation is in progress, so don't hesitate to let us know if you have any questions not answered in these pages.
+This documentation is continuously evolving, so feel free to reach out if you have any unanswered questions.
 
 <br/>
 
@@ -32,5 +32,5 @@ If you are still using the old version of Datama, follow this [link]({{site.url}
 
 ---
 
-**Contact us via : contact@Datama.fr**
+**Need help? Contact us at: contact@datama.fr**
 

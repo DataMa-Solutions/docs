@@ -9,12 +9,13 @@ keywords: Qlik Pricing Plan
 
 > What to get in the different Datama plan and how to active it?
 
+<br/>
 
 Unlock the full potential of your data analysis with Datama's flexible pricing options. Choose the plan that best fits your needs and start transforming your data into actionable insights. Go into your datama account [page](https://app.datama.io/a/dashboard/subscribe) to activate a licence
 
 <br>
 
-<center><img style="width:70%" src="{{site.url}}/{{site.baseurl}}/extensions/assets/plan_datama.png" /></center>
+<center><img style="width:50%" src="{{site.url}}/{{site.baseurl}}/extensions/assets/plan_datama.png" /></center>
 
 <br>
 
@@ -38,7 +39,7 @@ The **Extension Solution** is designed for simplicity and ease of use for busine
 - **Avoid Ads and Disclaimer**: Your extension will be free from Ads and Datama logo, you can hide header and footer.
 - **Settings Saving**: Custom settings can be saved along your use case automatically
 
-The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the complexity of the in-app advanced setting.
+The Extension Solution is perfect for companies who require quick access to insights through dashboard and data without our support and the advanced settings of the in-app.
 
 <br/>
 
@@ -51,6 +52,8 @@ For those who has a whole analytics team dedicated to the subject, this plan is 
 - **Stand alone web app access**: Connect Datama directly to your data without any data visualization tool through our web app
 - **Alert and notifications in messaging app**: Datama web app can send notifications through slack/ teams/ mail or even be triggered on webhooks. 
 - **Analytical & technical support**: Get the help you need with dedicated support from our team with training, monthly call, chat....
+
+<br/>
 
 ---
 

@@ -1,17 +1,17 @@
 /*
- * Datama SAS
+ * DATAMA SAS
  * --------------
  * NOTICE:  All information contained herein is, and remains
- * the property of Datama SAS and/or some open source packages used
+ * the property of DataMa SAS and/or some open source packages used
  * if any.  The intellectual and technical concepts contained
- * herein are proprietary to Datama SAS
+ * herein are proprietary to DataMa SAS
  * and its suppliers and may be covered by French and Foreign Patents,
  * patents in process, and are protected by trade secret or copyright law.
  * Dissemination of this information or reproduction of this material
  * is strictly forbidden unless prior written permission is obtained
- * from Datama SAS.
- * Notice created by Django <django@Datama.fr>, Wazhabits <anatole@Datama.fr> updated by Anatole Piveteau
- * Copyright (c) 2023 Datama SAS, All rights reserved.
+ * from DataMa SAS.
+ * Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
+ * Copyright (c) 2025 DATAMA SAS, All rights reserved.
  * Generated for file : sws.js project project-deep-sky
  */
 
@@ -19,7 +19,7 @@
  * Simple Weighted Search
  * (c) 2021 - by Anatole Piveteau
  */
-SwsDebug = false;
+SwsDebug = true;
 
 class Sws {
     constructor(jsonUrl) {
@@ -37,6 +37,7 @@ class Sws {
             .catch(error => {
                 if (SwsDebug) {
                     console.error("SWS > Fail to get data\n\t->\t" + jsonUrl)
+                    console.error(error)
                 }
             });
     }
@@ -50,6 +51,7 @@ class Sws {
         this.configuration[input] = configuration
     }
     getWeights(value, configuration) {
+        console.log(this.json)
         if (this.json && !this.filtered) {
             let required = Object.keys(configuration.fields).filter(f => configuration.fields[f].required);
             this.json = this.json.filter(r => {

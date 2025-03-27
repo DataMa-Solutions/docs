@@ -1,19 +1,23 @@
 ---
 title: Clustering Settings
 description: This section helps you understand the clustering methods proposed by Datama.
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app clustering
 ---
 
+<br/>
+
 > **This section helps you understand the different clustering methods**
+
+<br/>
 
 Within Datama, it is possible to cluster your data directly in Prep ([see here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/refine_data.html#clean)) or in the settings of the app. To find it, go to the settings in the top right hand corner of each solution:  
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/clustering_in_app.png"/></center>
+<center><img  style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/clustering_in_app.png"/></center>
 
 Then in **Dimensions** section you will find a menu **Clustering settings**:
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/clustering_settings.png"/></center>
+<center><img  style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/clustering_settings.png"/></center>
 
 As you can see above, there is an input **Choose clustering method**. Here, you have 3 options:
 - **Auto**: clustering will be done using the [Other (<X%)](#for-discrete-dimensions) method (for discrete dimensions) or the [Regression](#for-continuous-dimensions) method (for continuous dimensions).
@@ -23,7 +27,9 @@ As you can see above, there is an input **Choose clustering method**. Here, you 
 
 When **Choose clustering method** is on **Manual**, different methods and settings for clustering are available, depending on the type of your data. 
 
-> # <b>Clustering Methods</b>
+<br/>
+
+## 1. Clustering Methods
 
 <br>Basically, there are 3 categories of clustering:
 
@@ -34,9 +40,9 @@ When **Choose clustering method** is on **Manual**, different methods and settin
 <br>
 <br>
 
-> ## <b>For discrete dimensions</b>
+### 1.1 For discrete dimensions
 
-<b>Other (< X%)</b>
+**Other (< X%)**
 
 With this method, any segments representing less than X% of the KPI numerator will be grouped into a 'Other' cluster. You can adjust the **Aggregation level** of the clustering. 
 <br> Here is an example of this method with an aggregation level of 2:
@@ -47,7 +53,7 @@ With this method, any segments representing less than X% of the KPI numerator wi
 </div>
 
 <br>
-<b>Long tail</b>
+**Long tail**
 
 With this method, segments will be clustered into an 'Other' group such that the total sum of the segments in this bucket represents less than X% of the KPI numerator. Similarly to the <nobr>"Other (< X%)" method</nobr>, you can adjust the **Aggregation level**.
 <br> Here is an example of this method with an aggregation level of 10: 
@@ -58,7 +64,8 @@ With this method, segments will be clustered into an 'Other' group such that the
 </div>
 
 <br>
-<b>Binning based on rank</b>
+
+**Binning based on rank**
 
 With this method, segments will be first ranked by value on the KPI numerator, and then divided into X bins. You can adjust the number of bins created in the **Number of bins** input.
 <br> Here is an example of this method with 2 bins: 
@@ -71,9 +78,9 @@ With this method, segments will be first ranked by value on the KPI numerator, a
 <br>
 <br>
 
-> ## <b>For continuous dimensions</b>
+### 1.2 For continuous dimensions
 
-<b>Regression</b>
+**Regression**
 
 This method cluster continuous dimensions using a recursive partioning regression tree. You can adjust the tree's depth with the **Maximum depth for continuous grouping** input, which defines the granularity of the clustering. If you are not familiar with this concept, here is a brief explanation :
 <br> The tree's depth controls how many times the data can be split into smaller groups. A shallow tree (low depth) creates fewer, larger groups, giving a more general overview of the data. A deeper tree (higher depth) makes more splits, creating smaller, more detailed groups. However, if the tree is too deep, it might overfit, meaning it could capture noise or random patterns in the data instead of the important trends.
@@ -86,7 +93,8 @@ Here is an example of this method:
 </div>
 
 <br>
-<b>Bins</b>
+
+**Bins**
 
 With this method, segments will be divided into X bins. You can adjust the number of bins created in the **Number of bins** input.
 <br> Here is an example of this method with 2 bins: 
@@ -99,9 +107,9 @@ With this method, segments will be divided into X bins. You can adjust the numbe
 <br>
 <br>
 
-> ## <b>For dates</b>
+### 1.3 For dates
 
-<b>Regression & Bins</b>
+**Regression & Bins**
 
 Those two methods are available both for continuous dimensions and dates. 
 Here is an example with the [Regression](#for-continuous-dimensions) method: 
@@ -117,7 +125,8 @@ Here is an example with the [Bins](#for-continuous-dimensions) method:
 </div>
 
 <br>
-<b>Truncation by Period</b>
+
+**Truncation by Period**
 
 This method is only available for dates, truncating them by time periods such as day, week, month, or year. You can select the time period in the **Period for clustering** input. 
 <br> Here is an example of this method used on "Month":

@@ -11,6 +11,9 @@ description: |
 {% if post.feed == "totw_fr" %}
 <h2>{{ post.title }}</h2>
 {{ post.content }}
+{% if post.article_link != null %}
+👉 Lisez notre [article]({{page.article_link}}) pour en savoir plus !
+{% endif %}
 <img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
 {% endif %}
 {% endfor %}

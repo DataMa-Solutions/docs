@@ -570,7 +570,7 @@ Thanks to all contributors for their ideas and your constant feedback on the too
 
 Stay tune, there's a lot more to come... 🚀
 
-![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.JPG)
+![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.jpg)
 
 <h2>Tip of the week #19</h2>
 

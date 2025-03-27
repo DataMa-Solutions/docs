@@ -7,6 +7,7 @@ img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
+article_link : link_to_article if needed
 ---
 
 
