@@ -14,7 +14,7 @@ keywords: full app subheader sub header settings
 
 Here is the panel of the Settings for Compare.
 <br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/detect_settings.png"/></center>
 <br>
 
 The settings is detailed separately for each solution :

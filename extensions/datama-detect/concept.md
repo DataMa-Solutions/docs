@@ -29,7 +29,7 @@ Datama Detect is based on a method to spot anomalies called [Observed volatilty]
 
 ## Observed volatility
 
-The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#number-of-points-for-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
+The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
 
 The confidence interval is in light blue. Points outside the confidence interval will be considered as anomalies.
 
@@ -39,7 +39,7 @@ In the above screenshot, note that the number of points in baseline is set to 20
 
 <br>
 
-Details of the [settings]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#number-of-points-for-baseline) are available in the dedicated page
+Details of the [settings]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) are available in the dedicated page
 
 <!-- 
 ### Smart Interval
