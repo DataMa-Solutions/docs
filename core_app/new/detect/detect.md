@@ -37,8 +37,8 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 ## Main Sections
 
 <ul>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/general_introduction">General Introduction:</a></strong> Overview of Datama Detect's capabilities and basic concepts</li>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/interface">Interface:</a></strong> Detailed explanation of the Detect interface components and their usage
+    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_introduction">General Introduction:</a></strong> Overview of Datama Detect's capabilities and basic concepts</li>
+    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_interface">Interface:</a></strong> Detailed explanation of the Detect interface components and their usage
         <ul>
             <li>Detect subheader with anomaly detection, dimension helper, filters, metrics relation, and settings</li>
         </ul>

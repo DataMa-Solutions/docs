@@ -14,7 +14,7 @@ keywords: full app compare interface
 
 <br>
 
-<center><img style="weight:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_interface.png"/></center>
+<center><img style="weight:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_interface.png"/></center>
 
 <br>
 

@@ -6,6 +6,12 @@ scope: Datama/saas
 keywords: full app interface
 ---
 
+<br>
+
+> In this section, discover the different types of accounts available in Datama and their respective features.
+
+<br>
+
 # **Datama User Accounts**
 
 Datama offers two main types of accounts to accommodate different user needs:  
