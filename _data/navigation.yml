@@ -108,7 +108,7 @@
                   subnav:
                     - name: Clustering Settings
                       link: /core_app/new/interface/subheader/settings/clustering.html
-        - name: Type of Account and Plan #under construction
+        - name: Type of account and plan #under construction
           link: /core_app/new/interface/account.html
           type: h4
           # subnav:
