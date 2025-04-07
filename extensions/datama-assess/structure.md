@@ -23,7 +23,7 @@ Datama Assess extension is composed of three sections (header, analysis & footer
 
 ## 2. Header section 
 
-The header is used for global advanced settings to let you configure and refine your analysis. Read the dedicated section about [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings/settings.html)
+The header is used for global advanced settings to let you configure and refine your analysis. Read the dedicated section about [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/settings.html)
 
 - **Documentation**: Direct link to this documentation
 - **Settings**: Refine the settings of the analysis. Find more information on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings/settings.html)

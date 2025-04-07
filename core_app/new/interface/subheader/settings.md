@@ -12,9 +12,9 @@ keywords: full app subheader sub header settings
 
 <br>
 
-Here is the panel of the Settings for Compare.
+Here is an example of the Settings panel.
 <br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.png"/></center>
 <br>
 
 The settings is detailed separately for each solution :

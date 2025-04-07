@@ -139,4 +139,4 @@ In the **Waterfall analysis**, covariance is managed by distributing shared effe
 
 Understanding **covariance effects** is key to accurately interpreting results, especially when analyzing complex datasets with interdependent variables.  
 
-For a deeper dive into how covariance is handled within the waterfall model, refer to [this detailed explanation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/covariance_effect.html).  
+For a deeper dive into how covariance is handled within the waterfall model, refer to [this detailed explanation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html).  

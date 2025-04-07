@@ -2,6 +2,7 @@
 title: Settings of Datama Detect
 description: Discover all settings exposed by Datama Detect to improve your analysis
 scope: Datama/light/detect
+layout: new-page
 keywords: light compare settings detect extension plugin
 ---
 
@@ -15,7 +16,7 @@ keywords: light compare settings detect extension plugin
 
 <br>
 
-_Find below how you can customize Datama Detect using the General settings_
+<!-- _Find below how you can customize Datama Detect using the General settings_
 
 - [1. General Settings](#1-general-settings)
     - 1.1. [Confidence interval](#11-confidence-interval)
@@ -23,7 +24,7 @@ _Find below how you can customize Datama Detect using the General settings_
     - 1.3. [Latest point only](#13-latest-point-only)
     - 1.4. [above or below confidence interval](#14-above-or-below-confidence-interval)
 - [2. Metrics Relation](#2-metrics-relation)
-- [3. Preferences](#3-preferences)
+- [3. Preferences](#3-preferences) -->
 
 <br>
 
@@ -88,7 +89,7 @@ Using metrics relation allows you to change your market equation, add a unit, re
 
 These settings allow you to customize the application to fit with your company, you can also change the analysis language !
 
-### Language
+### 3.1. Language
 
  For now only French and English are available, let's us now if you want a new language to be added. 
 
@@ -97,7 +98,7 @@ These settings allow you to customize the application to fit with your company, 
 
 <br/>
 
-### Fonts & Size
+### 3.2. Fonts & Size
 
 - **Family**: Choose amongst the Font the one that best match your current dashboard
 - **Text Size**: Ajdust the visibility of your waterfall by choosin the best size of the text. 
