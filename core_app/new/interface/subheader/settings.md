@@ -14,7 +14,7 @@ keywords: full app subheader sub header settings
 
 Here is an example of the Settings panel.
 <br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.png"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.jpg"/></center>
 <br>
 
 The settings is detailed separately for each solution :
