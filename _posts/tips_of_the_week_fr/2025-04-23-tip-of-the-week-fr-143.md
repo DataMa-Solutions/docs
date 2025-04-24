@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the week 143: Nouveau bloc source dans Prep: Table Connect"
-date:   2025-04-24 12:00:00 +0200
+date:   2025-04-23 12:00:00 +0200
 img_url: /assets/images/tip/143.gif
 img_type: image/gif
 img_width: 600
