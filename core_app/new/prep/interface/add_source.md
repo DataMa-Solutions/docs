@@ -19,6 +19,7 @@ Here is the available connectors:
 - [Google Sheet](#google-sheet)
 - [Excel File](#excel-file)
 - [csv File](#csv-file)
+- [Calendar](#calendar)
 - [Google Analytics 3](#google-analytics-3)
 - [Google Analytics 4 (beta)](#google-analytics-4-beta)
 - [Google Google BigQuery](#google-google-bigquery)
@@ -66,6 +67,22 @@ Click on load and continue building your flow with more blocks.
 ⚠️ **Important information :** <i>Note that for performance reasons, we cache every source blocks. So if you have made changes on your csv, you will need to upload it again.</i>
 
 <br>
+
+> ## Calendar
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_calendar1.png"/>
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_calendar2.png"/>
+</div>
+
+
+There are two possibilities. You either choose a suggested calendar from our team, or you can use one of your own.
+If you choose to use one of your own, you'll need to have the url of your calendar, it can be a .ics, a public Google Calendar or an Outlook URL. Else you can the source URL we use printed (these calendars come directly from Google).
+In case you want to use a private Google Calendar, you can use the secret link at iCal format from calendar parameters in Google Calendar interface.
+Now you simply have to click on <b>Load</b>
+
+⚠️ **Important information** : <i>Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your calendar, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.</i>
+
 
 > ## Google Analytics 3 
 
