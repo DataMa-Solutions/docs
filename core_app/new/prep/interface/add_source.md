@@ -78,6 +78,11 @@ Click on load and continue building your flow with more blocks.
 
 There are two possibilities. You either choose a suggested calendar from our team, or you can use one of your own.
 If you choose to use one of your own, you'll need to have the url of your calendar, it can be a .ics, a public Google Calendar or an Outlook URL. Else you can the source URL we use printed (these calendars come directly from Google).
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_google_calendar.png"/>
+</div>
+
 In case you want to use a private Google Calendar, you can use the secret link at iCal format from calendar parameters in Google Calendar interface.
 Now you simply have to click on <b>Load</b>
 
