@@ -179,11 +179,11 @@ When connected, you can select a warehouse and a database in advanced settings i
 
 With Google Trend connector, you can enrich your data flow with Google Search result in a given date range
 
-#### You can cross your data with Google trends data
+You can cross your data with Google trends data
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:70%"/></center>
 
-#### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
+Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG" style="width:60%"/></center>
 
