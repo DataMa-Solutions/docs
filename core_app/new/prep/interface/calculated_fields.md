@@ -91,6 +91,11 @@ The following **functions** are also available:
     <td><i>CONCAT([firstName], [lastName]) => Johny , Bravo => Johny Bravo</i></td>
   </tr>
   <tr>
+    <td><b>CASE</b>(Condition_1, val_1, ...., Condition_n, val_n, else_val)</td>
+    <td>When a condition is true, fill a new column with the value associated with that condition. else_val default value is None, and the priority is fixed by the order.</td>
+    <td><i>CASE([Value] > 150, "Very good value", [Value] > 100, "Good value", [Value] < 50, "Bad value", "Normal") => 230, 42, 89, 142, 123 => "Very good value", "Bad value", "Normal", "Good value", "Good value"</i></td>
+  </tr>
+  <tr>
     <td><b>REGEX_REPLACE</b>([col], MatchRegex, 'Replacement')</td>
     <td>Replaces column string data that matches 'MatchRegex' with a constant string.</td>
     <td><i>REGEX_REPLACE([badspacing],'\\s*',' ') => badspacing(extra      space) -> extra space</i></td>
@@ -99,6 +104,11 @@ The following **functions** are also available:
     <td><b>REGEX_EXTRACT</b>([col], '(pattern)')</td>
     <td>Extracts a regex pattern from column string data. Set to null if match is null.</td>
     <td><i>REGEX_EXTRACT([names], '(star)') => names(Loic Joestar , Dio Mistar) -> star , star</i></td>
+  </tr>
+  <tr>
+    <td><b>REGEX_CONTAINS</b>([col], '(pattern)')</td>
+    <td>Tells if a certain pattern is in a string data.</td>
+    <td><i>REGEX_CONTAINS([names], 'star') => names(Loic Joestar , Dio Mistar, Jhon Doe) -> true , true, false</i></td>
   </tr>
 </table>
 
