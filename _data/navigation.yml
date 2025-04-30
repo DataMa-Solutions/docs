@@ -452,6 +452,8 @@
                   link: /core_app/new/prep/interface/add_source.html#excel-file
                 - name: csv File
                   link: /core_app/new/prep/interface/add_source.html#csv-file
+                - name: Calendar
+                  link: /core_app/new/prep/interface/add_source.html#calendar
                 - name: Google Analytics 3
                   link: /core_app/new/prep/interface/add_source.html#google-analytics-3
                 - name: Google Analytics 4 (beta)
