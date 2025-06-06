@@ -12,8 +12,10 @@ keywords: light assess significance method
 
 <br>
 
-Datama Assess is based on a method to compute significance anomalies called [Frequentist Bernouilli Welch's T test](#Frequentist-Bernoulli). 
-
+Datama Assess is based on multiples methods to compute significance anomalies :
+- [Frequentist Bernoulli Welch's T test](#Frequentist-Bernoulli).
+- [Bayesian Bernoulli](#Bayesian-Bernoulli)
+- [Volatility](#Voatility)
 
 <br>
 
@@ -34,3 +36,21 @@ See also: [wikipedia](https://en.wikipedia.org/wiki/Welch%27s_t-test)
 Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
 
 <br>
+
+<br>
+## Bayesian Bernoulli
+
+In the Bernoulli frequentist approach, the outcome also has to be binary (1 or 0, e.g. Transactions). As long as this is true, any aggregation of the data can be used.
+The resulting chart shows the probability than the end ratio outperform the start one and vice-versa. 
+
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_bayesian.png" alt="assess - Bayesian model" /></center>
+
+
+Behind the scenes : We model the ratios with beta laws that we parameterize using the data provided. From this modeling we obtain the probabilities that in the long term one will outperform the other one.
+
+See also : [wikipedia](https://www.evanmiller.org/bayesian-ab-testing.html)
+Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
+
+
+
