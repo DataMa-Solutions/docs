@@ -39,23 +39,29 @@ Defining what you want to compare is the very first step of your analysis in Dat
 
 <br>
 
-## 1.2. Modeling
+## 1.2 Modeling
 
-### 1.2.1 Group values representation less than (%)
-Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
+### 1.2.1 Test type
 
-### 1.2.2 Metric to use for grouping
-Impact are calculated regarding this metric.
+Select the type of analysis you want to perform. Use an A/B test to compare groups, or time series analysis to examine how comparisons evolves over time.
 
+### 1.2.2 Test to do
 
-### 1.2.3 Test to do
+For now Datama allows a few tests, 
 
-For now Datama allows only Frequentist t test approach - see [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html)  to learn more.
+A/B tests :
+- Frequentist t test approach
+- Bayesian approach
 
-Since this assumes that observed variable are Bernoulli variables, this means that observed average ratios should always be between 0 and 1. 
+Since this assumes that observed variable are Bernoulli variables, this means that observed average ratios should always be between 0 and 1.
+
+Time series :
+- Volatility 
+
+See [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) to learn more.
 <br>
 
-### 1.2.4. Level of confidence
+### 1.2.3 Level of confidence
 
 Confidence interval is set in % to decide the level of confidence, or statistical power of your assessment. It ranges from 50% to 99%.
 
@@ -74,10 +80,18 @@ whereas a two-tailed test looks for a “change” (could be increase or decreas
 Therefore, if we see words such as “increased, greater, larger, improved and so on”, or
 “decreased, less, smaller and so on” in the original claim of a question (>,'<'are used in H1), a one-tail test is applied. If words such as “change, the same, different/difference and so on” are used in the claim of the question (≠is used in H1), a two-tailed test is applied.
 
-
 <br>
 
+## 1.3 Grouping
 
+### 1.3.1 Group values representation less than (%)
+Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
+
+### 1.3.2 Metric to use for grouping
+Impact are calculated regarding this metric.
+
+
+<br>
 
 ## 2. Metrics Relation
 
@@ -103,10 +117,7 @@ These settings allow you to customize the application to fit with your company, 
 ### 3.1. Language
 
  For now only French and English are available, let's us now if you want a new language to be added. 
-
-
 <!-- <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/preferences_assess.png"/></center> -->
-
 <br/>
 
 ### 3.2. Fonts & Size
