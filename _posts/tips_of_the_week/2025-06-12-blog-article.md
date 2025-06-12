@@ -1,8 +1,8 @@
 ---
 feed: totw_en
-title:  "💡 New article: Handle missing values with Datama Fill-in!"
-date:   2025-06-12 12:00:00 +0200
-img_url: /assets/images/tip/Fill in null value article.png
+title: "💡 New article: Handle missing values with Datama Fill-in!"
+date: 2025-06-12 12:00:00 +0200
+img_url: /assets/images/tip/145.png
 img_type: image/png
 img_width: 600
 img_height: 300

@@ -1,8 +1,8 @@
 ---
 feed: totw_fr
-title: "Nouvel article sur le blog : Traitez les valeurs manquantes avec Datama Fill-in ! "
+title: "💡 Nouvel article sur le blog : Traitez les valeurs manquantes avec Datama Fill-in ! "
 date: 2025-06-12 12:00:00 +0200
-img_url: /assets/images/tip/123.png
+img_url: /assets/images/tip/145.png
 img_type: image/png
 img_width: 600
 img_height: 300
