@@ -27,7 +27,7 @@ In the Bernoulli frequentist approach, the outcome has to be binary (1 or 0, e.g
 The resulting chart shows the probability of distribution of the average value of the considered KPI.
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_frequentist.png" alt="assess - Frequentist model" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_density_of_mean_view.png" alt="assess - Frequentist model" /></center>
 
 
 Behind the scenes: A frequentist Welch t-test is computed to test whether the mean outcome is significantly different between the Start and the End values of your comparison. 
@@ -44,7 +44,7 @@ In the Bernoulli frequentist approach, the outcome also has to be binary (1 or 0
 The resulting chart shows the probability than the end ratio outperform the start one and vice-versa. 
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_bayesian.png" alt="assess - Bayesian model" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_outperforming_chances_view.png" alt="assess - Bayesian model" /></center>
 
 
 Behind the scenes: We model the ratios with beta laws that we parameterize using the data provided. From this modeling we obtain the probabilities that in the long term one will outperform the other one.
@@ -62,7 +62,7 @@ Datama uses normal distribution quantiles to identify outliers and spot “abnor
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_volatility.png" alt="assess - forecast model" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_volatility_time_series_view.png" alt="assess - forecast model" /></center>
 
 
 
