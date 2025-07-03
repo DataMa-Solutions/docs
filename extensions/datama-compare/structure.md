@@ -15,9 +15,10 @@ keywords: light compare structure interface
 
 The Datama Compare extension has different layouts depending on your mode:
 - **Viewer Mode**: Single analysis section
+<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/viewer_view.png" alt="viewer_view of Datama Compare" title="Datama Compare - viewer_view" /></center>
 - **Builder Mode**: Three sections (header for advanced settings, analysis, and footer)
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_structure.png" alt="Structure of Datama Compare" title="Datama Compare - Structure" /></center>
+<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/builder_view.png" alt="builder_view of Datama Compare" title="Datama Compare - builder_view" /></center>
 
 <br/>
 
@@ -38,7 +39,7 @@ The analysis section features the main waterfall visualization along with a tool
 3. **Decision Tree**: Alternative visualization showing the analysis as a decision tree
 4. **Documentation**: Quick access to user documentation
 5. **Waterfall Settings**: Customize visualization options (see [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html))
-
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Analysis_features.gif" alt="Analysis features interface of Datama Compare" title="Analysis features interface of Datama Compare" /></center>
 <br/>
 
 ## 4. Footer Section
