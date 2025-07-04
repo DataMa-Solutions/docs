@@ -1,6 +1,6 @@
 ---
-title: Settings of Datama Compare
-description: Discover all settings exposed by Datama Compare to improve your analysis
+title: Settings of Datama Compare Extension
+description: Discover all settings exposed by Datama Compare extension to improve your analysis
 scope: Datama/light/compare
 layout: new-page
 keywords: light compare settings
@@ -8,35 +8,70 @@ keywords: light compare settings
 
 <br/>
 
-> Discover all settings exposed by Datama Compare extension to improve your analysis
+> Datama compare extension interface contains 2 settings. 
 
 <br/>
 
-<!-- _Find below how you can customize Datama Compare using the General settings and the waterfall Settings_ -->
-<!-- 
-- [1. General Settings](#1-general-settings)
-    - 1.1. [Configuration](#11-model-configuration)
-    - 1.2. [Comparison](#12-comparison)
-    - 1.3. [Metrics Relation](#13-metrics-relation)
-    - 1.4. [Preferences](#14-preferences)
-- [2. Waterfall Settings](#2-waterfall-settings)
-    - 2.1. [Configuration](#21-configuration)
-    - 2.2. [Font & size](#22-fonts--size)
-    - 2.3. [Label & Indicator](#33-label--indicators) -->
+**Compare structural setting** allows you to **modify the market equation, adjust the comparison dimension or add a second comparison, sort values, change modeling settings, change language preferences, and enable or disable comments or plots..**. 
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/general_settings.png"/></center>
+You can access the general setting as shown below:
+
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_extension_general_setting.gif"/></center>
+
+Below are the detailed functions you can click on for a quick preview:
+1. [Comparison definition](###11-Comparison-definition)
+* First and seconde comparison
+* Use indices instead of values
+* Order for relative values
+2. [Modelling](#2-required-data-types)
+* Group values representing less than (%)
+* Analysis depth
+* Split Mix and Perf effects
+3. [Market Equation](#2) 
+4. [Preferences](#4)
+* Allow Datama to execute actions on data to improve your analysis
+* Language
+* Smart title
+* Plot (waterfall graph)
+* Smart comment
 
 <br/>
 
-# Global extension Settings
+**Waterfall format setting** allows **formatting waterfall bars, labels, text size ...**
 
+You can access the waterfall setting as shown below:
+
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/comapre_extnsion_waterfall_setting.gif"/></center>
+
+Below are the detailed functions you can click on for a quick preview:
+1. [Configuration](#1-what-problems-we-solve)
+* Segment text complement
+* Number of bars before aggregation
+* Exploration Method (Tree view only)
+* Number of bar included in Top exploration method (Tree view only)
+* Y axis auto scaling
+* Open biggest/focused element by default
+* Draw links between elements
+* Reverse axis
+2. [Fonts](#2-required-data-types)
+* Family
+* Text Size
+3. [Labels & Indicators](#3-metric-relations) 
+
+Let's explain option by option.
+<br/>
+# Compare structural setting
 ## 1. General Settings
 
 ### 1.1. Comparison Definition
 
 > This section allows you to choose what you want to compare and add additional comparisons for deeper analysis
 
-Defining what you want to compare is the very first step of your analysis in the Compare extension. In the waterfall, you can either compare dates (start period vs end period) or segments of other dimensions:
+Defining what you want to compare is the very first step of your analysis in the Compare extension. In the waterfall, you can either compare dates (start period vs end period) or segments of other dimensions. For example:
+
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/compare mindset.png"/></center>
+
+If you use Tableau, PowerBI, Looker studio or Qlik, you can start your comparison as suggested below:
 
 1. First, add the dimension you want to use for comparison to the comparison field. By default, this will be the dimension selected for comparison.
 2. Then, select 2 segments within the dimension. For example, select Month as the comparison dimension and choose January and February as the 2 segments to be compared.
@@ -45,7 +80,7 @@ Defining what you want to compare is the very first step of your analysis in the
 - **Secondary Comparison**: Add a comparison to duplicate your waterfall with a secondary waterfall on a different scope (e.g., Compare Week N versus Week N-1 and compare Week N-2 versus Week N-1).
   - Use the Advanced Settings to select a secondary comparison on a different scope. For example, compare Week over Week on Category A and also Week over Week on Category B.
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/comparison.png"/></center>
+<center><img style="align: right; width: 1000px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/comparison.png"/></center>
 
 <!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/choose_comparison.PNG){: style="align: right; width: 600px;"} -->
 
@@ -86,7 +121,7 @@ Using metrics relation allows you to modify your market equation, add units, ren
 - In the Metrics Relation definition, you can set a step to focus on a specific dimension. This disables the automatic dimension scoring and only displays the selected dimension.
 - Excluded dimensions maintain the scoring algorithm but are not considered in the calculation for that step.
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.PNG"/></center>
 
 <!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
 
