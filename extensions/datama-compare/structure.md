@@ -15,10 +15,10 @@ keywords: light compare structure interface
 
 The Datama Compare extension has different layouts depending on your mode:
 - **Viewer Mode**: Single analysis section
-<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/viewer_view.png" alt="viewer_view of Datama Compare" title="Datama Compare - viewer_view" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/viewer_view.png" alt="viewer_view of Datama Compare" title="Datama Compare - viewer_view" /></center>
 - **Builder Mode**: Three sections (header for advanced settings, analysis, and footer)
 
-<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/builder_view.png" alt="builder_view of Datama Compare" title="Datama Compare - builder_view" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/builder_view.png" alt="builder_view of Datama Compare" title="Datama Compare - builder_view" /></center>
 
 <br/>
 
