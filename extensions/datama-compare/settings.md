@@ -8,17 +8,17 @@ keywords: light compare settings
 
 <br/>
 
-> Datama compare extension interface contains 2 settings. 
+> Datama compare extension interface contains 2 setting panels: General Settings and Waterfall Settings. 
 
 <br/>
 
-**Compare structural setting** allows you to **modify the market equation, adjust the comparison dimension or add a second comparison, sort values, change modeling settings, change language preferences, and enable or disable comments or plots..**. 
+**General Settings** allows you to **modify the market equation, adjust the comparison dimension or add a second comparison, sort values, change modeling settings, change language preferences, and enable or disable comments or plots..**. 
 
 You can access the general setting as shown below:
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_extension_general_setting.gif"/></center>
 
-Below are the detailed functions you can click on for a quick preview:
+<!-- Below are the detailed functions you can click on for a quick preview:
 1. [Comparison definition](###11-Comparison-definition)
 * First and seconde comparison
 * Use indices instead of values
@@ -33,7 +33,7 @@ Below are the detailed functions you can click on for a quick preview:
 * Language
 * Smart title
 * Plot (waterfall graph)
-* Smart comment
+* Smart comment -->
 
 <br/>
 
@@ -43,7 +43,7 @@ You can access the waterfall setting as shown below:
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/comapre_extnsion_waterfall_setting.gif"/></center>
 
-Below are the detailed functions you can click on for a quick preview:
+<!-- Below are the detailed functions you can click on for a quick preview:
 1. [Configuration](#1-what-problems-we-solve)
 * Segment text complement
 * Number of bars before aggregation
@@ -56,14 +56,16 @@ Below are the detailed functions you can click on for a quick preview:
 2. [Fonts](#2-required-data-types)
 * Family
 * Text Size
-3. [Labels & Indicators](#3-metric-relations) 
+3. [Labels & Indicators](#3-metric-relations)  -->
 
 Let's explain option by option.
 <br/>
-# Compare structural setting
-## 1. General Settings
 
-### 1.1. Comparison Definition
+# General Settings
+
+# 1. General Settings
+
+## 1.1.1 Comparison Definition
 
 > This section allows you to choose what you want to compare and add additional comparisons for deeper analysis
 
@@ -94,35 +96,47 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/add_funnel.gif"/></center>
 
-- **Secondary Comparison**: Add a comparison to duplicate your waterfall chart with a secondary one based on a different scope. For example, in addition to comparing USA and UK, you can also compare Mobile and Desktop within the 'Device' dimension.
+## 1.1.2. Secondary Comparison
+
+ Add a comparison to duplicate your waterfall chart with a secondary one based on a different scope. For example, in addition to comparing USA and UK, you can also compare Mobile and Desktop within the 'Device' dimension.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/secondary_comparison_setting.gif"/></center>
 
 
-- **Use indices instead of values**: Choose between relative (dynamic) or absolute comparisons:
+## 1.1.3. Use indices instead of values
+
+Choose between relative (dynamic) or absolute comparisons:
     - When enabled (default): The analysis is dynamic and uses relative indices that change based on the newest entries in the datasource
     - When disabled: Uses absolute values fixed to your initial selection, providing a static comparison baseline
 
-- **Order for relative values**: Configure the dynamic comparison order:
+## 1.1.4. Order for relative values
+
+Configure the dynamic comparison order:
     - Descending (default): Takes the most recent value
     - Ascending: Takes the oldest value
 
 <br/>
 
 
-### 1.2. Modelling
+# 1.2. Modelling
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/modelling.png"/></center>
 
-- **Group values representing less than (%):** Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
+## 1.2.1. Group values representing less than (%)
 
-- **Metric to use for grouping:** This is to customize the "Primary Numerator" mentioned just above, based on which the system caculates X% (2% by default) when grouping.
+Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
-- **Analysis depth:** Adjust the level of detail available in the comment section.
+## 1.2.2. Metric to use for grouping
 
-- **Split Mix and Perf effects:** Choose whether to display mix effect contribution. "Never" split by mix effect is the default value. Select "auto" to let the tool decide when to display the Mix effect (when the mix contribution reaches a threshold).
+This is to customize the "Primary Numerator" mentioned just above, based on which the system caculates X% (2% by default) when grouping.
 
+## 1.2.3. Analysis depth
 
+Adjust the level of detail available in the comment section.
+
+## 1.2.4. Split Mix and Perf effects
+
+Choose whether to display mix effect contribution. "Never" split by mix effect is the default value. Select "auto" to let the tool decide when to display the Mix effect (when the mix contribution reaches a threshold).
 
 <br/>
 
@@ -130,9 +144,9 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 > This section allows you to edit your KPIs and market equation to align with your business needs
 
-Using metrics relation allows you to modify your market equation, add units, rename steps, set thresholds, and exclude or focus on dimensions. Metric relation describes the equation between metrics of your source to compute the KPI you want to explain.
+Market ralation describes the equation between metrics of your source to compute the KPI you want to explain. It allows you to modify your market equation, add units, rename steps, set thresholds, and exclude or focus on dimensions.
 
-- By default, Datama creates a product of ratios (prod) with all steps defined in the metrics relation. You can change this to "sum" to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
+- By default, Datama creates a product of ratios (prod) with all steps defined in the market equation. You can change this to "sum" to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/sum_marketequation.gif"/></center>
 
@@ -140,7 +154,7 @@ Using metrics relation allows you to modify your market equation, add units, ren
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
 
-- In the Metrics Relation definition, you can set a step to focus on a specific dimension. This disables the automatic dimension scoring and only displays the selected dimension.
+- In the market equation definition, you can set a step to focus on a specific dimension. This disables the automatic dimension scoring and only displays the selected dimension.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
 
@@ -159,26 +173,31 @@ Using metrics relation allows you to modify your market equation, add units, ren
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preference.PNG"/></center>
 
-- **Allow Datama to execute actions on data to improve your analysis:** In certain cases, Datama will propose adapted displays of the Waterfall to provide more insights.
+### 3.1.1 Allow Datama to execute actions on data to improve your analysis
+
+In certain cases, Datama will propose adapted displays of the Waterfall to provide more insights.
     - For example, if your waterfall has only one step, Datama will unpivot your data to display all segments of a dimension replacing the single step.
 
-- **Language:** Currently, only French and English are available. Let us know if you would like additional languages to be added.
+### 3.1.2 Language
+
+Currently, only French and English are available. Let us know if you would like additional languages to be added.
 
 <br/>
 
 ## 3.2 Displayed Widgets
 
 Choose to hide or display:
-- Smart title
-- Plot (waterfall graph)
-- Smart comment
+
+### 3.2.1 Smart title
+### 3.2.2 Plot (waterfall graph)
+### 3.2.3 Smart comment
 
 You can customize plot color by setting:
-- Application 
+### 3.2.4 Application 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.PNG"/></center>
 
-- Waterfall
+### 3.2.5 Waterfall
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.PNG"/></center>
 
@@ -189,62 +208,121 @@ You can customize plot color by setting:
 
 # Waterfall Settings 
 
-## 2. General
-
-### 2.1. Configuration 
+## 1. General
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall_general_settings.PNG"/></center>
 
-- **Segment text complement**: Choose what to display after the Segment name in waterfall labels:
+### 1.1.1. Segment text complement 
+
+Choose what to display after the Segment name in waterfall labels:
     - Variation relative to average (e.g., "x2.43") - default value to easily spot "abnormal" variations above average
     - Percentage Variation (e.g., "-46%") - percentage difference between start and end values
     - Variation absolute change (e.g., "-3pts") - absolute difference between start and end values in the KPI's unit
     - Nothing
-- **Number of bars before aggregation**: Number of elements to display in an opening step (default is 4).
-- **Exploration Method (Tree view only):** in the Tree chart, only display the main segments accross the dimension. Allow to display only the most interesting element. 
-- **Number of bar included in Top exploration method (Tree view only):** Choose number of card to display when zoomed in into a KPI. 
-- **Y axis auto scaling**: Start the Y scale at zero or let Datama adjust the optimal Y scale for better visualization of small variations.
-- **Open biggest/focused element by default**: Have the extension automatically open the step with the main variation when loading the graph.
-- **Draw links between elements**: Display thin links between each waterfall step.
-- **Reverse axis**: Rotate the graph 90 degrees.
-- **Share scales between primary and secondary comparison**: keep the same scale for two waterfall plots
+### 1.1.2. Number of bars before aggregation
+
+Number of elements to display in an opening step (default is 4).
+
+### 1.1.3. Exploration Method (Tree view only)
+
+In the Tree chart, only display the main segments accross the dimension. Allow to display only the most interesting element. 
+
+### 1.1.4. Number of bar included in Top exploration method (Tree view only)
+
+Choose number of card to display when zoomed in into a KPI.
+
+### 1.1.5. Y axis auto scaling
+
+Start the Y scale at zero or let Datama adjust the optimal Y scale for better visualization of small variations.
+
+### 1.1.6. Open biggest/focused element by default
+
+Have the extension automatically open the step with the main variation when loading the graph.
+
+### 1.1.7. Draw links between elements
+
+Display thin links between each waterfall step.
+
+### 1.1.8. Reverse axis
+
+Rotate the graph 90 degrees.
+
+### 1.1.9. Share scales between primary and secondary comparison
+
+keep the same scale for two waterfall plots
 
 <br/>
 
-### 2.2. Fonts
+## 2. Fonts
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Fonts.PNG"/></center>
 
-- **Family**: Choose from available fonts to best match your current dashboard (for now only Montserrat and Arial)
-- **Module Title**: Adjust text size of module title
-- **Comments**: Adjust text size of comments
-- **Plot Title**: Adjust text size of Plot title
-- **Subtitle Title**: Adjust text size of subtitle
-- **Tree view cards name**: Adjust text size of cards name of tree view
-- **Main values**: Adjust text size of main values
-- **Additional values**: Adjust text size of additional values
+### 2.1. Family
+
+Choose from available fonts to best match your current dashboard (for now only Montserrat and Arial)
+
+### 2.2. Module Title
+
+Adjust text size of module title
+
+### 2.3. Comments
+
+Adjust text size of comments
+
+### 2.4. Plot Title
+
+Adjust text size of Plot title
+
+### 2.5. Subtitle Title
+
+Adjust text size of subtitle
+
+### 2.6. Tree view cards name
+
+Adjust text size of cards name of tree view
+
+### 2.7. Main values
+
+Adjust text size of main values
+
+### 2.8. Additional values
+
+Adjust text size of additional values
 
 <br/>
-### 3.3. Labels & Indicators
+
+## 3 Labels & Indicators
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/SettingsLabelIndicator.png"/></center>
 
 These settings allow you to customize how information is displayed on the waterfall chart.
 
-- The first line controls elements shown in yellow in the picture below, while the second line controls elements shown in green in
-- For each element, you can choose what information to display:
-    - **Impact in points (pts):** Variation in percentage points
-    - **Impact in volume:** Contribution to the main KPI (e.g. impact on Revenue)
-    - **Percent change:** Evolution in %
-    - **Start:** Initial value (blue bar on the left)
-    - **End:** Final value (blue bar on the right)
+The first line controls elements shown in yellow in the picture below, while the second line controls elements shown in green in
 
-- For each configuration, you can customize the display format:
-    - **Gauge:** Show a gauge visualization
-    - **Arrows:** Display directional arrows indicating positive/negative variations
-    - **Colors:** Color-code values in green (increase) or red (decrease)
-    - **Hover Only:** Only show values when hovering with the mouse
-    - **Hide:** Hide the element completely
+For each element, you can choose what information to display:
+
+### 3.1. Impact in points (pts)
+Variation in percentage points
+### 3.2. Impact in volume
+Contribution to the main KPI (e.g. impact on Revenue)
+### 3.3. Percent change 
+Evolution in %
+### 3.4. Start
+Initial value (blue bar on the left)
+### 3.5. End
+Final value (blue bar on the right)
+
+For each configuration, you can customize the display format:
+### 3.6. Gauge
+Show a gauge visualization
+### 3.7. Arrows
+Display directional arrows indicating positive/negative variations
+### 3.8. Colors
+Color-code values in green (increase) or red (decrease)
+### 3.9. Hover Only
+Only show values when hovering with the mouse
+### 3.10. Hide
+Hide the element completely
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/label.png"/></center>
 
