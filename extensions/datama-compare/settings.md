@@ -37,7 +37,7 @@ You can access the general setting as shown below:
 
 <br/>
 
-**Waterfall format setting** allows **formatting waterfall bars, labels, text size ...**
+**Waterfall settings** allows **formatting waterfall bars, labels, text size ...**
 
 You can access the waterfall setting as shown below:
 
@@ -73,7 +73,7 @@ Defining what you want to compare is the very first step of your analysis in the
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/compare mindset.png"/></center>
 
-If you use Tableau, PowerBI, Looker studio or Qlik, you can start your comparison as suggested below:
+You can start your comparison as suggested below: (here's a quick demonstration to use Compare extension in looker studio, you can also find detailed guide by clicking [Looker studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_compare.html), [Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau-viz_compare.html), [PowerBI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_compare.html), [Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_compare.html))
 
 * First, add Datama light compare extension into your platform. See the example in looker studio shown as below:
 
