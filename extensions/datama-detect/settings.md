@@ -67,7 +67,7 @@ It's to determine how many past data points are used to calculate the baseline (
 
 A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
 
-<center> <img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/images/ConfidenceIntervall-Concept.jpg"/></center>
+<center> <img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/images/ConfidenceIntervall-Concept.jpg"/></center>
 
 By changing the confidence interval you can modify the precision expected from the significance.
 
@@ -137,45 +137,98 @@ Using metrics relation allows you to change your market equation, add a unit, re
 ### 3.1. Behavior
 
 #### 3.1.1. Hide dimensions and segments panel
+
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/hidedimensionsandsegmentspanel.gif"/></center>
+
+If you activate this parameter, a small copy icon will appear at the left side of KPI option, allowing you to download the data source used for this plot.
+
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/copy data in the plot.png"/></center>
+
 #### 3.1.2. Display shortcut on hover only
+
+Only show values when hovering with the mouse.
+
 #### 3.1.3. Display axis markers
+
+Display or hid axis markers.
+
 #### 3.1.2. Highlight element using primary dimension
+
+By activating this option, the detection system will visually highlight the data point (element) that triggered the anomaly, based on the primary dimension of your report or chart
+
 #### 3.1.2. Highlight element using secondary dimension
+
+With this option, the detection system will visually highlight the data point (element) that triggered the anomaly, based on the secondary dimension of your report or chart
+
 #### 3.1.2. Function for line rendering
 
+This option controls how the line is drawn between data points in a line chart.
+
+| Option            | Description                                                              |
+| ----------------- | ------------------------------------------------------------------------ |
+| **Default**       | Uses the system's default line rendering (linear)                  |
+| **Linear**        | Straight lines between each point                                        |
+| **Linear closed** | Like linear, but closes the path (back to the first point) – for areas   |
+| **Step**          | Draws a horizontal line, then a vertical step – ideal for step functions |
+| **Step before**   | Step occurs **before** the data point                                    |
+| **Step after**    | Step occurs **after** the data point                                     |
+
+
 ### 3.2. Legends
+
 #### 3.2.1. Display legends
+
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/displaylegends.gif"/></center>
+
 #### 3.2.2. Position
 
-### 3.3. Aix
+Choose left or right to display legends.
+
+### 3.3. Axis 
 #### 3.3.1. Separator Color
 #### 3.3.2. Separator Opacity
 #### 3.3.3. Ticks Color
 #### 3.3.4. Ticks Opacity
-
+Comming soon
 
 ## 4. Preferences
 
 These settings allow you to customize the application to fit with your company, you can also change the analysis language !
 
-### 4.1. Language
+### 4.1 Global
+#### 4.1.1 Allow Datama to execute actions on data to improve your analysis
 
- For now only French and English are available, let's us now if you want a new language to be added. 
+In certain cases, Datama will propose adapted displays of the detect to provide more insights. - For example, if your detect has only one step, Datama will unpivot your data to display all segments of a dimension replacing the single step.
 
+#### 4.1.1 Language
+
+ For now only French and English are available, let's us know if you want a new language to be added. 
 
 <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/preferences_detect.png"/></center>
 
-<br/>
+### 4.2. Displayed Widgets
 
-### 3.2. Fonts & Size
+Choose to hide or display:
 
-- **Family**: Choose amongst the Font the one that best match your current dashboard
-- **Text Size**: Ajdust the visibility of your waterfall by choosin the best size of the text. 
+#### 4.2.1 Smart title
 
-<br>
+#### 4.2.2 Plot (detect graph)
+
+#### 4.2.3 Smart comment
+
+### 4.3. Chart colors
+
+#### 4.3.1 Application color
+#### 4.3.2 Waterfall (Detect) color
+
+## 5. Calendar
+
+You can now display Calendar Events right in Datama detect trend lines. For now, this works only if you have your events available in your extension dataset, with at least a Date column, and an event label. By activating the Calendar capabilities in the settings, you will be able to see the events or periods annotated on your trend lines. This is particularly useful for storytelling, to explain why a KPI behaves differently. In the medium term, Datama will allow you to create new events directly in the extension, and explain variations or spot anomalies based on these events.
 
 
----
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/calendar detect.png"/></center>
+
+
 
 <br/>
 
