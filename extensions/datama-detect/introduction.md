@@ -36,7 +36,7 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 ### 1. Quickly understand how Datama Detect can help you in your business analyses by following these links:
 - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) Understand theory behing the graphs
 - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html): Deep dive into the interface
-- [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)
+
 
 <br>
 
@@ -48,3 +48,5 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 
 <br>
 
+### 3. Going further:
+- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)

@@ -1,7 +1,7 @@
 ---
 title: Assess - Significance methods
 description: This page explains the existing methods for assess significance
-layout: page
+layout: new-page
 scope: Datama/light/assess
 keywords: light assess significance method
 ---
@@ -13,15 +13,14 @@ keywords: light assess significance method
 <br>
 
 Datama Assess is based on multiples methods to compute significance anomalies :
-- [Frequentist Bernoulli Welch's T test](#Frequentist-Bernoulli).
-- [Bayesian Bernoulli](#Bayesian-Bernoulli)
-- [Volatility](#Volatility)
-
-<br>
+1. [Frequentist Bernoulli Welch's T test](#1-frequentist-bernoulli).
+2. [Bayesian Bernoulli](#2-bayesian-bernoulli)
+3. [Volatility](#3--volatility)
 
 
 <br>
-## Frequentist Bernoulli
+
+## 1. Frequentist Bernoulli
 
 In the Bernoulli frequentist approach, the outcome has to be binary (1 or 0, e.g. Transactions). As long as this is true, any aggregation of the data can be used.
 The resulting chart shows the probability of distribution of the average value of the considered KPI.
@@ -38,7 +37,8 @@ Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SA
 <br>
 
 <br>
-## Bayesian Bernoulli
+
+## 2. Bayesian Bernoulli
 
 In the Bernoulli frequentist approach, the outcome also has to be binary (1 or 0, e.g. Transactions). As long as this is true, any aggregation of the data can be used.
 The resulting chart shows the probability than the end ratio outperform the start one and vice-versa. 
@@ -53,7 +53,8 @@ See also : [wikipedia](https://www.evanmiller.org/bayesian-ab-testing.html)
 Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
 
 <br>
-## Volatility
+
+## 3.  Volatility
 
 <br>
 Volatility test applies when you compare two periods of time with the same number of days, and you have other historical data in your data source to compare the variation you have between your two periods vs. historical variations between same time ranges.

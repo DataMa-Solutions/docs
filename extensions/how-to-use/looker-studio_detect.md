@@ -62,7 +62,7 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_detect_extension_looker.gif" /></center>
 
 <br>
 
@@ -100,7 +100,12 @@ Once you've imported the extension, here is how you can use it.
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/JSONsavedetect.gif" /></center>
+
+
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmoredetect.gif" /></center>
 
 ## 6. Read your Analysis
 
