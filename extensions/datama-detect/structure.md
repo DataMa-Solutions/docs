@@ -16,7 +16,7 @@ keywords: Datama light detect Detect anomaly structure
 
 The Datama Detect extension consists of three main sections: header, analysis, and footer.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_structure.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_structure_new.png"/></center>
 
 <br>
 
@@ -36,16 +36,32 @@ This section displays a time series showing either all anomalies (default settin
 
 Select different ratios to analyze using the dropdown menu in the title. KPIs are categorized into two groups: "KPIs with Anomalies" and "Other KPIs".
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_dropdown.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_dropdown.png"/></center>
 
 By default, Datama Detect analyzes each step of your market equation, but you can focus on specific steps through the Settings menu.
 
 The visualization includes several display options:
+
+<center><img style="width: 30%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/selected step.png"/></center>
+
 1. **Selected Step**: Choose which KPI to analyze
+
+<center><img style="width: 30%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Toggle Denominator.png"/></center>
+
 2. **Toggle Denominator**: Show denominator as a bar graph
-3. **Toggle Main KPI**: Display the main KPI line to assess how variations in other KPIs affect it
-4. **Pivot**: Rotate the graph 90 degrees
-5. **Stack Traces**: Overlay multiple data traces
+
+<center><img style="width: 30%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Toggle Main KPI.png"/></center>
+
+3. **Toggle Main KPI**: Show or hide the main KPI line to assess how variations in other KPIs affect it
+
+<center><img style="width: 30%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Toggle Confidence interval.png"/></center>
+
+4. **Toggle Confidence interval**: Show or hide the blue band (confidence interval) in the background
+
+<center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Table View.png"/></center>
+
+
+5. **Table View**: Allows selection of one or several KPIs by segment, enabling more customized monitoring.
 
 <br>
 

@@ -63,7 +63,7 @@ We can break Revenue down as: <span style="color:#00484A">Revenue = Volume * Rev
 
 This breakdown helps separate effects managed by different teams (sales volume vs. pricing strategy).
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 70%;" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 100%;" /></center>
 
 <br/>
 
@@ -98,9 +98,13 @@ Example interpretation:
 
 <br/>
 
-To dive deeper:
-- Click any step to see which dimension best explains its variations
+To dive deeper(demonstration with another use cas but the logic is the same):
+- Click any step to see which dimension best explains its variations (In this case, we can see that Canada contributes most nagatively for the performance of transactions in this year compared to last year.)
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.GIF" /></center>
+By default, the waterfall will group segments with smaller effects into the ‘Remaining’ category to simplify the view. However, you can easily examine these categories more closely by simply clicking to expand any bars labeled ‘Remaining’, like below
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.GIF" /></center>
 - Use "Split by" (right-click) to view interest scores of other dimensions and change the display
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.GIF" /></center>
 - Each variation breaks down into mix and performance effects (explained in the next section)
 
 <br>
