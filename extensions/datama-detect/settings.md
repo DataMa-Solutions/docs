@@ -97,7 +97,7 @@ This is to customize X% mentioned just above.
 
 ## 2. Metrics Relation
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/metrics_relation.PNG"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/metrics_relation.png"/></center>
 
 This part allow you to edit your KPIs and market equation, when you want to fit your analysis with your business.
 
@@ -117,7 +117,7 @@ Using metrics relation allows you to change your market equation, add a unit, re
 
 - The excluded dimension will maintain the scoring algorithm but will not consider the excluded dimension in the calculation for this step.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.PNG"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center>
 
 
 

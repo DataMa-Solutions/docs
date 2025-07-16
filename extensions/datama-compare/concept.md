@@ -100,11 +100,11 @@ Example interpretation:
 
 To dive deeper(demonstration with another use cas but the logic is the same):
 - Click any step to see which dimension best explains its variations (In this case, we can see that Canada contributes most nagatively for the performance of transactions in this year compared to last year.)
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.GIF" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.gif" /></center>
 By default, the waterfall will group segments with smaller effects into the ‘Remaining’ category to simplify the view. However, you can easily examine these categories more closely by simply clicking to expand any bars labeled ‘Remaining’, like below
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.GIF" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.gif" /></center>
 - Use "Split by" (right-click) to view interest scores of other dimensions and change the display
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.GIF" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.gif" /></center>
 - Each variation breaks down into mix and performance effects (explained in the next section)
 
 <br>
