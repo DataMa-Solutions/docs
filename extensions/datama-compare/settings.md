@@ -162,7 +162,7 @@ Market ralation describes the equation between metrics of your source to compute
 
 - Excluded dimensions maintain the scoring algorithm but are not considered in the calculation for that step.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center>
 
 
 <br/>   
@@ -173,7 +173,7 @@ Market ralation describes the equation between metrics of your source to compute
 
 ## 3.1 Global
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preference.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preference.png"/></center>
 
 ### 3.1.1 Allow Datama to execute actions on data to improve your analysis
 
@@ -197,11 +197,11 @@ Choose to hide or display:
 You can customize plot color by setting:
 ### 3.2.4 Application 
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
 
 ### 3.2.5 Waterfall
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.png"/></center>
 
 
 <br/>
@@ -212,7 +212,7 @@ You can customize plot color by setting:
 
 ## 1. General
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall_general_settings.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall_general_settings.png"/></center>
 
 ### 1.1.1. Segment text complement 
 
@@ -257,7 +257,7 @@ keep the same scale for two waterfall plots
 
 ## 2. Fonts
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Fonts.PNG"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Fonts.png"/></center>
 
 ### 2.1. Family
 
