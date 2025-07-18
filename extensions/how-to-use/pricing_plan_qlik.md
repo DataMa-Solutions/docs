@@ -1,6 +1,6 @@
 ---
 title: Pricing plan of Datama Compare in Qlik
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: Qlik Pricing Plan
 ---

@@ -1,7 +1,7 @@
 ---
 title: Interface of Datama Assess extension
 description: Datama Assess plugin aims at assessing statistical significance of observed variations
-layout: page
+layout: new-page
 scope: Datama/light/assess
 keywords: Datama light assess Assess anomaly structure
 ---
@@ -18,9 +18,9 @@ Datama Assess extension is composed of three sections:
 
 <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_structure.png"/></center>
 
-1. [Header Section](#1-Header-Section).
+<!-- 1. [Header Section](#1-Header-Section).
 2. [Analysis panel](#2-Analysis-section)
-3. [Footer](#3-Footer-Section)
+3. [Footer](#3-Footer-Section) -->
 
 <br>
 

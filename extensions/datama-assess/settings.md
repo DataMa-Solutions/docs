@@ -1,5 +1,5 @@
 ---
-title: Settings of Datama Assess
+title: Settings of Datama Assess Extension
 description: Discover all settings exposed by Datama Assess to improve your analysis
 scope: Datama/light/Assess
 layout: new-page
@@ -15,6 +15,7 @@ keywords: light compare settings assess extension plugin
 <center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_settings.png"/></center>
 
 <br>
+
 <!-- 
 _Find below how you can customize Datama Assess using the General settings_
 
@@ -22,7 +23,7 @@ _Find below how you can customize Datama Assess using the General settings_
     - 1.1. [Comparison](#11-comparison)
     - 1.2. [Modeling](#12-Modeling)(#14-above-or-below-confidence-interval)
 - [2. Metrics Relation](#2-metrics-relation)
-- [3. Preferences](#3-preferences) --> -->
+- [3. Preferences](#3-preferences) -->
 
 <br>
 
@@ -103,7 +104,7 @@ Using metrics relation allows you to change your market equation, add a unit, re
 - When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100.
 
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/metrics_relation.PNG"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/metrics_relation.png"/></center>
 
 <!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
 

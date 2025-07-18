@@ -1,6 +1,6 @@
 ---
 title: Datama Compare on Power BI
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: Power BI get started powerbi
 ---
@@ -15,7 +15,7 @@ keywords: Power BI get started powerbi
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -28,7 +28,7 @@ Here is what you get on this page:
 10. [Release](#10-powerbi-version-history-to-be-updated)
 
 
-<br/>
+<br/> -->
 
 ## 1. Overview
 This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://appsource.microsoft.com/fr-fr/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.

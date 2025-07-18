@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Compare (Light) in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Looker LookerStudio compare get started
 ---
@@ -11,7 +11,7 @@ keywords: Looker LookerStudio compare get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -23,7 +23,7 @@ Here is what you get on this page:
 9. [Get more insights](#9-get-more-insights)
 10. [Support and Resources](#10-support-and-resources)
 
-<br/>
+<br/> -->
 
 <center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Lookerstudio_Wireframe.png" /></center>
 
