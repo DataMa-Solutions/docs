@@ -1,6 +1,6 @@
 ---
 title: Pricing plan of Datama Compare in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: Looker Studio Pricing Plan
 ---

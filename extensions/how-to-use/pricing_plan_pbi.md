@@ -1,6 +1,6 @@
 ---
 title: Pricing plan of Datama Compare in Power BI
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: PowerBI power bi Pricing Plan
 ---

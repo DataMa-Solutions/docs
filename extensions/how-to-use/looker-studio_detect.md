@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Detect (Light) in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Looker LookerStudio detect get started
 ---
@@ -11,7 +11,7 @@ keywords: Looker LookerStudio detect get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -22,7 +22,7 @@ Here is what you get on this page:
 8. [Settings](#8-advanced-usage)
 9. [Support and Resources](#9-support-and-resources)
 
-<br/>
+<br/> -->
 
 
 ## 1. Overview
@@ -115,7 +115,7 @@ To discover more about how to use Datama Detect, you can read our [dedicated sec
 
 ## 7. Looker Studio Guide
 
-Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
+Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_cl0g8ssgud) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
 
 <br/>
 

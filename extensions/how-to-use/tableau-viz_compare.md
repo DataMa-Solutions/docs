@@ -1,6 +1,6 @@
 ---
 title: Datama Compare on Tableau Viz
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: Tableau Viz get started Tableau
 ---
@@ -15,7 +15,7 @@ keywords: Tableau Viz get started Tableau
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -27,7 +27,7 @@ Here is what you get on this page:
 9. [Support and resources](#9-support-and-resources)
 
 
-<br/>
+<br/> -->
 
 ## 1. Overview
 This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://exchange.tableau.com/fr-FR/products/1024) Plugin, a Tableauful extension for Tableau as a viz extension. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.

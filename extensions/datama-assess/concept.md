@@ -12,10 +12,10 @@ keywords: light assess significance method
 
 <br>
 
-Datama Assess is based on multiples methods to compute significance anomalies :
+<!-- Datama Assess is based on multiples methods to compute significance anomalies :
 1. [Frequentist Bernoulli Welch's T test](#1-frequentist-bernoulli).
 2. [Bayesian Bernoulli](#2-bayesian-bernoulli)
-3. [Volatility](#3--volatility)
+3. [Volatility](#3-volatility) -->
 
 
 <br>
