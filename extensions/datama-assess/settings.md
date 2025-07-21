@@ -68,9 +68,9 @@ Confidence interval is set in % to decide the level of confidence, or statistica
 
 Depending on the test you are performing, this input can be used in different ways. Please refer to the [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) section for more details
 
-### 1.2.5 Test Side:
+### 1.2.4 Test side
 
-Long story short, for a typical AB test, 1-sided test readouts allows you to be confident that B is higher than A, and not that B is lower than A
+Long story short, for a typical AB test, 1-sided test readouts allows you to be confident that B is higher than A, and not that B is lower than A (Only available for A/B testing)
 
 [Learn More here](https://www.nipissingu.ca/sites/default/files/One-tailed-Test-or-Two-tailed-Test.pdf):
 
@@ -80,6 +80,10 @@ How can we tell whether it is a one-tailed or a two-tailed test? It depends on t
 whereas a two-tailed test looks for a “change” (could be increase or decrease) in the parameter.
 Therefore, if we see words such as “increased, greater, larger, improved and so on”, or
 “decreased, less, smaller and so on” in the original claim of a question (>,'<'are used in H1), a one-tail test is applied. If words such as “change, the same, different/difference and so on” are used in the claim of the question (≠is used in H1), a two-tailed test is applied.
+
+### 1.2.5 Max comparisons
+
+Only available for Volatility test, this input affords the possibility to limit the number of similar comparisons created which are the basis of Volatility calculation.
 
 <br>
 
