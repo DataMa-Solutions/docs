@@ -57,7 +57,8 @@ A/B tests :
 Since this assumes that observed variable are Bernoulli variables, this means that observed average ratios should always be between 0 and 1.
 
 Time series :
-- Volatility 
+- Volatility
+- Forecast
 
 See [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) to learn more.
 <br>
