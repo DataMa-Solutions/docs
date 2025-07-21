@@ -73,7 +73,7 @@ See also: [wikipedia](https://en.wikipedia.org/wiki/Normal_distribution)
 Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=925605184)
 
 <br>
-## 4.  SForecast
+## 4.  Forecast
 
 <br>
 In the Forecast approach, our goal is to predict the normal behavior of a KPI for the selected end dates, so as to see significant differences in relative variation with start dates. We first make an STL decomposition and then apply ARMA models to compute a prediction. Then, we compute confidence intervals based on normal distributions.
