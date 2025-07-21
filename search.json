@@ -2,16 +2,35 @@
 ---
 [
   {% for page in site.pages %}
-    {% if page.url != '/search.json' and page.url != '/tip_of_the_week.html' %}
-      {
-        "title": "{{ page.title | escape }}",
-        "scope": "{{ page.scope }}",
-        "tags": "{{ page.tags }}",
-        "keywords": "{{page.keywords}}",
-        "description": "{{page.description | strip | escape}}",
-        "url": "{{site.url}}/{{site.baseurl}}{{page.url}}",
-        "body": "{{page.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
-      } {% unless forloop.last %},{% endunless %}
+    {% if page.url contains '.js' %}
+      {% continue %}
     {% endif %}
+    {% if page.url contains '.json' %}
+      {% continue %}
+    {% endif %}
+    {% if page.url contains '.xml' %}
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'totw' %}
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'ucotm' %}
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'release' %}
+      {% continue %}
+    {% endif %}
+    {% if page.url contains 'tip_of_' %}
+      {% continue %}
+    {% endif %}
+    {
+      "title": "{{ page.title | escape }}",
+      "scope": "{{ page.scope }}",
+      "tags": "{{ page.tags }}",
+      "keywords": "{{page.keywords}}",
+      "description": "{{page.description | strip | escape}}",
+      "url": "{{site.url}}/{{site.baseurl}}{{page.url}}",
+      "body": "{{page.content | strip_newlines | replace: '"', "'" | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}"
+    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

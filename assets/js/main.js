@@ -5,66 +5,150 @@ const search = new Sws('{{site.url}}/{{site.baseurl}}/search.json')
 
 let expanded = [];
 
-if (Cookies.get('menu') != null) {
-    expanded = Cookies.get('menu').split(',')
-    let i = 0;
-    while (i < expanded.length) {
-        $('aside a[href="' + expanded[i] + '"] .collapser').addClass('active')
-        $('aside a[href="' + expanded[i] + '"] + ul').addClass('open')
-        i++;
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sidebarMenu = document.querySelector('#menu')
+    // Restore scroll position if saved
+    const savedScrollPosition = localStorage.getItem('menuScrollPosition')
+    if (savedScrollPosition && sidebarMenu) {
+        sidebarMenu.scrollTop = savedScrollPosition
     }
-} else {
+    
+    // Save scroll position on click
+    sidebarMenu.addEventListener('click', function(event) {
+        if (event.target.tagName === 'A') {
+            localStorage.setItem('menuScrollPosition', sidebarMenu.scrollTop)
+        }
+    })
+
+    // Reset expanded array
     expanded = []
-    Cookies.set('menu', '')
-}
-$('a[href$="' + location.pathname + '"').addClass('active');
-if (window.innerWidth < 700) {
- $('body').addClass('menu-close')
-}
-/**
- * Aside open/close
- */
-$('#burger').on('click', (e) => {
-    e.preventDefault();
-    $('body').toggleClass('menu-close')
-})
-$('aside>nav li>a').on('click', e => {
-    if ($(e.target).find('.collapser').length) {
-        $(e.target).find('.collapser').click()
+
+    // Set active state for current page and open only its parent menus
+    const currentPath = location.pathname
+    const currentLink = document.querySelector(`a[href$="${currentPath}"]`)
+    if (currentLink) {
+        currentLink.classList.add('active')
+        // Open parent menus
+        let parent = currentLink.parentElement
+        while (parent) {
+            if (parent.tagName === 'UL') {
+                parent.classList.add('open')
+                const parentLink = parent.previousElementSibling
+                if (parentLink && parentLink.tagName === 'A') {
+                    const collapser = parentLink.querySelector('.collapser')
+                    if (collapser) {
+                        collapser.classList.add('active')
+                        const path = parentLink.getAttribute('href')
+                        if (path && !expanded.includes(path)) {
+                            expanded.push(path)
+                        }
+                    }
+                }
+            }
+            parent = parent.parentElement
+        }
+        // Save only the current page's open sections
+        Cookies.set('menu', expanded.join(','))
     }
-})
-$('aside>nav .collapser').on('click', (e) => {
-    $(e.target).toggleClass('active');
-    $(e.target).parent().next().toggleClass('open');
-    e.preventDefault();
-    if (expanded.indexOf($(e.target).parent().attr('href')) === -1) {
-        expanded.push($(e.target).parent().attr('href'))
-    } else {
-        expanded.splice(expanded.indexOf($(e.target).parent().attr('href')), 1)
+
+    if (window.innerWidth < 700) {
+        document.body.classList.add('menu-close')
     }
-    Cookies.set('menu', expanded.join(','))
+
+    /**
+     * Aside open/close
+     */
+    document.getElementById('burger').addEventListener('click', (e) => {
+        e.preventDefault()
+        document.body.classList.toggle('menu-close')
+    })
+
+    document.querySelectorAll('aside>nav li>a').forEach(link => {
+        link.addEventListener('click', e => {
+            const collapser = e.target.querySelector('.collapser')
+            if (collapser) {
+                collapser.click()
+            }
+        })
+    })
+
+    document.querySelectorAll('aside>nav .collapser').forEach(collapser => {
+        collapser.addEventListener('click', (e) => {
+            e.preventDefault()
+            e.stopPropagation()
+            
+            const link = e.target.parentElement
+            const subMenu = link.nextElementSibling
+            
+            e.target.classList.toggle('active')
+            if (subMenu) subMenu.classList.toggle('open')
+            
+            const path = link.getAttribute('href')
+            const index = expanded.indexOf(path)
+            
+            if (index === -1) {
+                expanded.push(path)
+            } else {
+                expanded.splice(index, 1)
+            }
+            
+            Cookies.set('menu', expanded.join(','))
+        })
+    })
 })
-$(window).on('scroll', (e) => {
-    if ($(window).scrollTop() < $('body')[0].offsetHeight / 3) {
-        $('.welcome>.bounce').fadeIn(500)
+
+window.addEventListener('scroll', () => {
+    const welcomeBounce = document.querySelector('.welcome>.bounce')
+    const aside = document.querySelector('body>aside')
+    
+    if (window.scrollY < document.body.offsetHeight / 3) {
+        if (welcomeBounce) {
+            welcomeBounce.style.display = 'block'
+            welcomeBounce.style.opacity = '1'
+        }
     } else {
-        $('.welcome>.bounce').fadeOut(500)
+        if (welcomeBounce) {
+            welcomeBounce.style.opacity = '0'
+            setTimeout(() => {
+                welcomeBounce.style.display = 'none'
+            }, 500)
+        }
     }
-    if ($(window).scrollTop() > $('body>aside').offset().top && !$('body>aside').hasClass('fixed')) {
-        $('body>aside').attr('data-offset', $('body>aside').offset().top).addClass('fixed')
-    } else {
-        if ($(window).scrollTop() < $('body>aside').offset().top || ($('body>aside').attr('data-offset') != undefined && $(window).scrollTop() < $('body>aside').attr('data-offset'))) {
-            $('body>aside').removeClass('fixed')
+
+    if (aside) {
+        if (window.scrollY > aside.offsetTop && !aside.classList.contains('fixed')) {
+            aside.dataset.offset = aside.offsetTop
+            aside.classList.add('fixed')
+        } else if (window.scrollY < aside.offsetTop || 
+                  (aside.dataset.offset && window.scrollY < parseInt(aside.dataset.offset))) {
+            aside.classList.remove('fixed')
         }
     }
 })
-$('body').on('click', '#gotoDoc', (e) => {
-    e.preventDefault();
-    $('html, body').animate( { scrollTop: $('#menu').offset().top }, 750 );
+
+document.getElementById('gotoDoc')?.addEventListener('click', (e) => {
+    e.preventDefault()
+    const menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollIntoView({ behavior: 'smooth' })
+    }
 })
-$('body').off('click', '#download-tableau-full-extension', downloadFullTrex).on('click', '#download-tableau-full-extension', downloadFullTrex)
-$('body').off('click', '#download-tableau-dashboard-light-extension', downloadLightDashboardTrex).on('click', '#download-tableau-dashboard-light-extension', downloadLightDashboardTrex)
-$('body').off('click', '#download-tableau-viz-light-extension', downloadLightVizTrex).on('click', '#download-tableau-viz-light-extension', downloadLightVizTrex)
+
+const downloadButtons = {
+    'download-tableau-full-extension': downloadFullTrex,
+    'download-tableau-dashboard-light-extension': downloadLightDashboardTrex,
+    'download-tableau-viz-light-extension-compare': (e) => downloadLightVizTrex(e, 'compare'),
+    'download-tableau-viz-light-extension-detect': (e) => downloadLightVizTrex(e, 'detect'),
+    'download-tableau-viz-light-extension-assess': (e) => downloadLightVizTrex(e, 'assess')
+}
+
+Object.entries(downloadButtons).forEach(([id, handler]) => {
+    const button = document.getElementById(id)
+    if (button) {
+        button.addEventListener('click', handler)
+    }
+})
 
 function downloadFullTrex(e) {
     console.log("Download Full Extension trex file")
@@ -101,16 +185,16 @@ function downloadLightDashboardTrex(e) {
         .catch((e) => console.error(e));
 }
 
-function downloadLightVizTrex(e) {
-    console.log("Download Light Extension trex file for Tableau viz")
+function downloadLightVizTrex(e, solution='compare') {
+    console.log("Download Light Extension trex file for Tableau viz "+solution)
     e.preventDefault();
     fetch("https://app.datama.io/tableauViz/light_tableau_base_Datama_Tableau_viz_Extension.trex")
         .then((res) => res.text())
         .then((text) => {
             let element = document.createElement('a');
             element.setAttribute('href',
-                'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none')));
-            element.setAttribute('download', "Datama_Tableau_Viz_Extension.trex");
+                'data:text/plain;charset=utf-8,' + encodeURIComponent(text.replace("£USER_HASH£", 'none').replace("£ORIGIN£", 'https://app.datama.io').replace("£SOLUTION£", solution)));
+            element.setAttribute('download', "Datama_Tableau_Viz_"+solution+"_Extension.trex");
             document.body.appendChild(element);
             element.click();
             document.body.removeChild(element);

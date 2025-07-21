@@ -11,18 +11,33 @@ keywords: full app home admin
 >On this page, find details on the **Admin** section of the homepage
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.jpg"/></center>
+<center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.png"/></center>
 
 <br>
 
 This chapter gathers different features shared amongst the homepage, such as:
-- [Security](#security)
-- [Statistics](#statistics)
-- [Licences](#licences)
+
+1. [Products](#products)
+2. [Security](#security)
+3. [Statistics](#statistics)
+4. [Manage Licence](#manage-licence)
+5. [Extensions](#extensions)
 
 <br>
 
-# <b>Security</b>
+# 1. Products
+
+Discover the products available in your plan and active modules. 
+You can choose between: 
+- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare.html)
+- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html)
+- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot.html)
+- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess.html)
+- [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html)
+
+<br>
+
+# 2. Security
 
 
 This menu gives you access to a configuration panel for your account. You can add a license key or change your login information.
@@ -35,7 +50,7 @@ Administrator accounts are also able to manage the activity of other company acc
 
 <br>
 
-# <b>Statistics</b>
+# 3. Statistics
 
 In Statistics, find a summary of the number of <i>computations</i> made.
 
@@ -48,11 +63,27 @@ At Datama, the consumption of the solution is made according to the number of co
 
 <br>
 
-# <b>Licences</b>
+# 4. Manage Licence
+
+This menu is one way to retrieve your licence key for Datama extensions. 
+
+<br>
 
 
+# 5. Extensions 
+
+This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
+
+<br>
+
+<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/products.png"/></center>
+
+
+<!-- # <b>Licences</b>
+
+(DOES NOT EXIST IN ADMIN SECTION)
 This is a menu specific to administrators. It allows you to manage different license keys. Three options are possible for each user :
 
 - **Refresh Key** : update the user's license key
 - **Revoke** : remove the rights of a user linked to their license key
-- **Copy** : copy a user's license key
+- **Copy** : copy a user's license key -->

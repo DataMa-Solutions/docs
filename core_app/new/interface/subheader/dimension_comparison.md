@@ -1,46 +1,103 @@
 ---
-title: Dimension Comparison
+title: Comparison
 description: Find here how you can use the Comparison menu of the subheader of the Datama Solutions
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app subheader sub header settings dimension comparison
 ---
 
 <br>
 
-> Find here how you can use **the Dimension Comparison** of the subheader of the Datama solution**
+> Find here how you can use **the Dimension Comparison** of the subheader of the Datama solution
 
 <br>
 
-Defining what you want to compare is the very first step of your analysis in Datama Compare as in Datama Assess
-In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions
+Defining what you want to compare is the very first step of your analysis in Datama Compare. In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions. This menu will also allo to compare a comparison. 
 
 <br>
 
-## **Select Dimension used for comparison**
+# 1. Start/ End Comparison
 
-By default, Datama selects the first column of your dimensions as the comparison dimension.
-You can change the comparison dimension by two manners:
-- Click on the comparison icon on the top left corner and then click on the balance icon on the dimension you want to use for comparison
+<br>
+
+## 1.1 Select Dimension used for comparison
+
+By default, Datama selects the first column of your dataset as the comparison dimension.
+
+You can change the comparison dimension by:
+- Click on the comparison icon on the top left corner and then click on the gear icon to access the dimension you want to use for comparison
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison.png"/></center>
 
-- Click on the filter section and then on a pill of the dimension you want to use for comparison, and then toggle the “Compare” button
+<br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison2.png"/></center>
+- Click the drop-down list do choose the dimension you want to compare.
+
+- And select the dimension you want to compare on : 
+
+<centre><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/dimension_selection.png"/></centre>
 
 <br>
 
-## **Select segments for comparison**
+- Then select your segments for each of your comparisons.
 
-By default, Datama selects values for comparison as follows:
-- If the comparison dimension is a date, then Datama splits the total range of time in two periods of equal size and use the first part as definition for Starting point of your comparison, and the second part of the time range as the end point of your comparison
-- If the comparison dimension is anything other than a date (string or int), then Datama uses the last value (in alphabetical order) as the end point and the pre-last value as the starting point.
-You can choose what you want to Compare by selecting the appropriate value for the end point (on the top part) and the starting point of your comparison (on the bottom part)
+<centre><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/segment_selection.png"/></centre>
 
-Here is an example for a date:
-<left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_date.png"/></left>
+<br>
 
-Here is an example for a string:
-<left><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_text.png"/></left>
+- The graph will appear with in the subheader the selected comparison.
 
-[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html) chart can help you to understand what you want to compare, in case you don’t know 😅
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/result.png"/></centre>
+
+<br>
+
+<br>
+
+
+
+[Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html) chart can also help you to understand what you want to compare, in case you don’t know 😅
+
+<!-- **Note:** you can also activate/deactivate  “Open comparison helper by default” and choose the view that suits you best
+
+<centre><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison_helper.png"/></centre> -->
+
+<br>
+
+# 2. Secondary comparison
+
+Previously known as "Compare of Compare", this mode allows you to compare two waterfalls. The secondary waterfall is defined by turning the secondary comparison on (on any available dimensions) and then defining the start and end of your secondary waterfall. 
+
+<center> <img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/secondary_comparison.png"></center>
+
+<center> <img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/secondary_comparison_selection.png"></center>
+
+In the background, Datama will then run the same analysis for the two defined start and end points, then display secondary analysis results. Main output is :
+
+*  In the Waterfall « Chart », the secondary waterfall is displayed in the background.
+*  In the Comments, the trend between secondary and primary analysis will be described.
+
+<br>
+
+## 2.1 When to use it
+
+The secondary comparison mode is particularly useful when you regularly run the same analysis for different time periods.
+We can take the example of this [dataset](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1243203565).
+
+You’re in Week 3 of 2022, and want to compare it to Week 3 2021. Using Datama Compare, you'll get the following result:
+
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_2ComparisonSimple.png"></center>
+
+
+Now, the key question that you’re asking when you run this every week (so you ran this also in week 2) is: how does this differ from last week?
+
+This is where you activate Compare of Compare, and add Week 2 YoY analysis as a secondary waterfall (assuming you've also kept the data for week 2 in the source you’re analyzing).
+
+
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_2ComparisonDouble.png"></center>
+
+## 2.2 Specific display
+
+The second graph can either be displayed in overlay (by default), below or right close to the first comparison. To change the display click right > Display > secondary comparison > Right / below or overlay.
+
+<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/secondarycomparison_layer-right.png"></center>
+
+

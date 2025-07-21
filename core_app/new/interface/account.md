@@ -1,58 +1,82 @@
 ---
 title: Account
-description: In this chapter, see details on type of account into the Datama interface
-layout: page
+description: Learn about the different types of accounts available in Datama.
+layout: new-page
 scope: Datama/saas
 keywords: full app interface
 ---
 
 <br>
 
-> In this chapter, see details on the **type of account** available in Datama
+> In this section, discover the different types of accounts available in Datama and their respective features.
 
 <br>
 
-# <b>Datama User Accounts</b>
+# **Datama User Accounts**
 
-Datama provides two main categories of user accounts to cater to different user needs: **Web App** accounts for full application access, and **Extension** accounts for users who require plugin to data visualization tools only.
+Datama offers two main types of accounts to accommodate different user needs:  
+- **Web App Accounts**: For users who require full access to the Datama platform.  
+- **Extension Accounts**: For users who only need access to Datama’s data visualization tools via extensions.
 
-<br>
+<br/>
 
-## <b>Web App Accounts</b>
+## **1. Web App Accounts**  
 
-Web App accounts are designed for users who need comprehensive access to the Datama application and benefits from the extension as well.
+Web App accounts provide access to the full Datama application, including its extensions.
 
-### Anonymous
-- Access to demo use cases without registration (no ability to create use case). Register is needed to access the Free features
+### **1.1 Anonymous**
+- Access to **demo use cases** without registration.  
+- **Registration required** to unlock free features.  
 
-<center><img style="width:40%;"  src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/anonymous.png" alt="anoymous" /></center>
+<center><img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/anonymous.png" alt="Anonymous User" /></center>
 
-<br>
+<br/>
 
-### Free
-- For people who register: access to standard features with limited capabilities (2 metrics, 2 dimensions, 1k rows)
+### **1.2 Free**
+- Available to **registered users**.  
+- Access to standard features with **some limitations**:  
+  - **2 metrics**, **2 dimensions**, **1,000 rows**.  
 
-### Premium (Admin)
-- Full access to all features.
-- Can manage organizational settings and invite members.
+<center><img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/FreeUser.png" alt="Free User" /></center>
 
-### Premium (Non-admin)
-- Full access to all features without administrative privileges.
-- Can share use cases with other members or the group.
+<br/>
 
-<br>
+### **1.3 Premium (Admin)**
+- **Full access** to all features.  
+- Can **manage organization settings** and **invite members**.  
 
-## <b>Extension Accounts</b>
+<br/>
 
-Extension accounts are specifically for users who utilize Datama's data visualization tools via extensions.
+### **1.4 Premium (Non-admin)**
+- **Full access** to all features except administrative settings.  
+- Can **share use cases** with other group members.  
 
-### Anonymous
-- No access to visualization tools without registration, only access to demo use case. Register is needed to access the Free features.
+<br/>
 
-### Free
-- Access to standard visualization tools with some limitations.
+## **2. Extension Accounts**  
 
-### Premium
-- Full access to all advanced visualization tools.
-- Can manage settings for the extension users within the organization.
+Extension accounts are designed for users who only use Datama’s data visualization tools via extensions.
 
+### **2.1 Anonymous**
+- No access to visualization tools without registration.  
+- **Demo use cases** available.  
+- **Registration required** to unlock free features.  
+
+<br/>
+
+### **2.2 Free**
+- Access to standard visualization tools with limitations:  
+  - **2 metrics**, **2 dimensions**, **1,000 rows**.  
+  - Available only on **desktop**.  
+
+<br/>
+
+### **2.3 Premium**
+- **Full access** to advanced visualization tools.  
+- Can manage settings for extension users within the organization.  
+
+<br/>
+
+---
+
+This documentation is regularly updated. If you have any questions, feel free to reach out! 🚀

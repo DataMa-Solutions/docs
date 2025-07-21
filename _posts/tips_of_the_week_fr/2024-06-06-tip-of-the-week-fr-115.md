@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the Week 115: Paramétrage rapide de l'équation de marché"
-date:   2024-06-06 10:12:00 +0200
+date:   2024-06-06 12:00:00 +0200
 img_url: /assets/images/tip/115.gif
 img_type: image/gif
 img_width: 600

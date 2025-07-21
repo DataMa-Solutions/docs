@@ -6,11 +6,15 @@ scope: Datama/saas
 keywords: full app subheader sub header settings
 ---
 
+<br>
+
 > Find here how to use the **Settings**
 
-Here is the panel of the Settings for Compare.
 <br>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
+
+Here is an example of the Settings panel.
+<br>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.jpg"/></center>
 <br>
 
 The settings is detailed separately for each solution :

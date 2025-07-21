@@ -570,7 +570,7 @@ Thanks to all contributors for their ideas and your constant feedback on the too
 
 Stay tune, there's a lot more to come... 🚀
 
-![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.JPG)
+![Tip 20]({{site.url}}/{{site.baseurl}}/assets/images/tip/20.jpg)
 
 <h2>Tip of the week #19</h2>
 
@@ -694,7 +694,7 @@ In these troubled times 😷, you have some of your data that is "non-comparable
 
 ➢ Datama will automatically exclude the "Out" from the analysis and make it appear in a separate block of the waterfall, in light blue "Out of Scope"
 
-See a concrete example [ici](https://www.docs.Datama.fr/docs/Datama-compare/general-introduction/use-cases-examples/marketing-campaign/marketing-campaign-scope/) !
+See a concrete example [ici](https://www.docs.Datama.fr/docs/datama-compare/general-introduction/use-cases-examples/marketing-campaign/marketing-campaign-scope/) !
 
 Prepared with ❤️ from home, we think of you and accompany you on all your subjects from a distance!
 

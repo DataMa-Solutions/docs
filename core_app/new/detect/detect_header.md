@@ -1,7 +1,7 @@
 ---
-title: Detect (Sub)Header
+title: Detect Subheader
 description: The header in Datama Detect helps you manipulate and refine your Use Cases
-layout: page
+layout: new-page
 scope: Datama/saas/detect
 keywords: full app detect header
 ---
@@ -17,10 +17,19 @@ keywords: full app detect header
 
 <br>
 
-## What you will find in this chapter:
+# Main Sections
 
-- [Anomaly]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
-- [Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html)
-- [Filters]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/filters.html)
-- [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html)
-- [Settings]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
+## 1. Anomaly Detection
+The anomaly detection feature helps identify and analyze unusual patterns in your data. See details in the [Anomaly section]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html).
+
+## 2. Dimension Helper
+The dimension helper provides guidance on working with different data dimensions. Learn more in the [Dimension Helper section]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html).
+
+## 3. Filters
+Use filters to refine and focus your analysis on specific data segments. Explore the [Filters section]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/filters.html).
+
+## 4. Metric Relation
+Understand how different metrics relate to each other in your analysis. Visit the [Metric Relation section]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).
+
+## 5. Settings
+Configure and customize your Detect experience. Check out the [Settings section]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html).

@@ -7,14 +7,10 @@
     {% if forloop.first %}
     "latest": "True",
     {% endif %}
-    "title": "{{ post.title | escape }}",
-    "date": "{{post.date}}",
-    "url": "{{site.url}}/{{site.baseurl}}{{post.url}}",
-    {% if post.description %}
-      "description": "{{ post.description | replace: '\n', 'DATAMA_NEW_LINE' | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', ''  | newline_to_br | strip_newlines | strip | escape }}"
-    {% else %}
-      "description": "{{ post.content | replace: '\n', 'DATAMA_NEW_LINE' | replace: '"', "'" | replace: '<li>', "* " | replace: '<strong>', "**" | replace: '</strong>', "**" | replace: '<ul>', "" | newline_to_br | strip_newlines | strip | escape }}"
-    {% endif %}
+    "title": {{ post.title | jsonify }},
+    "date": "{{ post.date }}",
+    "url": "{{ site.url }}/{{ site.baseurl }}{{ post.url }}",
+    "description": {% if post.description %}{{ post.description | jsonify }}{% else %}{{ post.content | jsonify }}{% endif %}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

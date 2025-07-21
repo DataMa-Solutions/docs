@@ -1,7 +1,7 @@
 ---
-title: Detect - Detection methods
+title: Detection methods
 description: This page explains the existing methods for anomaly detection
-layout: page
+layout: new-page
 scope: Datama/saas/detect
 keywords: full app detect detection method 
 ---
@@ -12,11 +12,11 @@ keywords: full app detect detection method
 
 <br>
 
-You have basically two type of methods existing in Datama detect to spot anomalies in your data:
+There is basically two type of methods existing in Datama Detect to spot anomalies in your data:
 
 1. Methods based on estimated confidence interval
-    - [Forecast](#forecast)
-    - [Observed volatilty](#observed-volatility)
+    - [Forecast](#11-forecast)
+    - [Observed volatilty](#12-observed-volatility)
 2. Methods based on manually configured thresholds
     - [Relative variation threshold](#relative-variation-threshold)
     - [Absolute variation threshold](#absolute-variation-threshold)
@@ -38,7 +38,7 @@ We will use the following dataset for example on those methods
 
 <br>
 
-## Forecast
+## 1.1 Forecast
 
 Forecast methods leverage machine learning and ARIMA modeling to define an expected confidence interval for the latest point. 
 
@@ -52,9 +52,9 @@ In the output slide, the forecast line is displayed in orange, and the confidenc
 
 <br>
 
-## Observed volatility
+## 1.2 Observed volatility
 
-The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#number-of-points-for-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
+The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
 
 The confidence interval is in light blue. Points outside the confidence interval will be considered as anomalies.
 
@@ -64,7 +64,7 @@ In the above screenshot, note that the number of points in baseline is set to 20
 
 <br>
 
-### Smart Interval
+### 1.2.1 Smart Interval
 
 By default, when "Observed Volatility" is selected, the Smart Interval button is enabled.  
 Smart Interval calculates a theoretical confidence interval instead of an observed interval, using the Wilson method ([click here to learn more](https://corpus.ulaval.ca/server/api/core/bitstreams/aecd68a4-0d76-45da-b2e3-d6e0e7547a9c/content)). This applies only to ratios between 0 and 1 since Wilson method relies on a Binomial distribution. Smart Interval only calculates the Lower Bound of the interval with the Wilson method, allowing for better detection of values close to 0.
@@ -90,7 +90,7 @@ We will use the following dataset for example on those methods
 
 <br>
 
-## Relative variation threshold
+## 2.1 Relative variation threshold
 
 This methods flags as anomaly any relative variation that is higher or lower than the defined threshold vs. the defined base line.
 
@@ -105,7 +105,7 @@ For instance, in the screenshot below, we compare each point to the previous sam
 
 <br>
 
-## Absolute variation threshold
+## 2.2 Absolute variation threshold
 
 This methods flags as anomaly any absolute variation that is higher or lower than the defined threshold by difference vs. the defined base line.
 
@@ -118,7 +118,7 @@ For instance, in the screenshot below, we compare each point to the previous sam
 
 <br>
 
-## Absolute value threshold
+## 2.3 Absolute value threshold
 
 This methods flags as anomaly any value that is not on the same side as the defined base line of the hard line defined in the threshold.
 For instance if the threshold is set to 50k and the base line value is 40k, if the considered value is 60k, this will be considered as an anomaly

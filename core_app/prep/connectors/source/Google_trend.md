@@ -17,13 +17,13 @@ With Google Trend connector, you can enrich your data flow with Google Search re
 
 <br>
 
-#### You can cross your data with Google trends data
+You can cross your data with Google trends data
 
 ![image](images/Googletrendstep1.png)
 
 <br>
 
-### Choose the period of time you want to focus on:
+Choose the period of time you want to focus on:
 
 ![image](images/Googletrendstep2.png)
 

@@ -19,7 +19,7 @@ The resulting chart shows the probability of distribution of the average value o
 
 Behind the scenes: A frequentist Welch t-test is computed to test whether the mean outcome is significantly different between the Start and the End values of your comparison. 
 The standard deviation used in the test is derived from the properties of the Bernoulli distribution.
-See also: [wikipedia](https://en.wikipedia.org/wiki/Welch%E2%80%99s_t-test)
+See also: [wikipedia](https://en.wikipedia.org/wiki/Welch%27s_t-test)
 Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
 
 <br>
@@ -40,7 +40,7 @@ If you want to reduce the size of the dataset, and avoid having one line per occ
 
 Behind the scenes: A frequentist Welch t-test is computed to test whether the mean outcome is significantly different between the Start period and the End period. The standard deviation used in the test is derived from the properties of the sample (from the sample variance).
 
-See also: [wikipedia](https://en.wikipedia.org/wiki/Welch%E2%80%99s_t-test)
+See also: [wikipedia](https://en.wikipedia.org/wiki/Welch%27s_t-test)
 
 Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=1115355265)
 
