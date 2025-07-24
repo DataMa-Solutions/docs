@@ -10,5 +10,7 @@ layout: post
 ---
 
 Until now, you had two options for anomaly detection on **Datama Detect Light**: either the entire dataset or only the last point. Not very granular, we admit 😓
+
 Now you can choose how many points you want to monitor for anomalies! 🎯
+
 **Use case**: do you send weekly reports? Set Detect to analyze only the last 7 days. Result: a prioritized list of anomalies over the last week, without unnecessary noise from past weeks.📅
