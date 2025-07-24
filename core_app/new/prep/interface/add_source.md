@@ -124,6 +124,17 @@ Click on the Analytics 4 connector in Datama prep, you might need to give author
 Select your property, metrics and dimensions. You can choose only one property and only 9 dimensions and up to 10 metrics.
 You can also filter data from Google Analytics 4
 
+One thing to keep in mind: when pulling <b>large datasets</b> from Google Analytics 4 into Datama Prep, Google Analytics may sample your data before loading it into Datama. This auto-sampling can leave your data incomplete, making your final analysis less accurate.
+
+That’s why Datama offers the <b>Chunk Data</b> option.
+
+In short, this feature lets Google Analytics split your large dataset into smaller parts and import them in multiple calls. Based on what you know about your dataset, you can decide how many parts to split it into.
+
+The interface looks like this:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/chunk_data.png"/></center>
+
+However, this option may slow down the import process, as Google Analytics needs to run multiple queries.
 
 <u>Timeframe selection</u>
 Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
