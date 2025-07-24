@@ -2,7 +2,7 @@
 feed: totw_en
 title:  "Tip of the week 148: Enable anomaly detection on the last X points"
 date:   2025-07-24 08:00:00 +0200
-img_url: /assets/images/tip/148.png
+img_url: /assets/images/tip/148.gif
 img_type: image/gif
 img_width: 600
 img_height: 300
