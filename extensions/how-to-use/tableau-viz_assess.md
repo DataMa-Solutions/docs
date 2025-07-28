@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Assess (Light) in Tableau Viz extension
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: TableauViz Tableau assess get started
 ---
@@ -11,7 +11,7 @@ keywords: TableauViz Tableau assess get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -21,7 +21,7 @@ Here is what you get on this page:
 7. [Settings](#7-advanced-usage)
 8. [Support and Resources](#8-support-and-resources)
 
-<br/>
+<br/> -->
 
 
 

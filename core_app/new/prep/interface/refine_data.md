@@ -66,44 +66,7 @@ This a powerfull tool to create columns using conditionals or aggregation functi
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/calculated_field_preview1.png"/></center>
 
-To edit your calculated fields, the following **functions** are available:
-- **SUM**([col1],[col]*): calculates the sum of two or more columns line by line.
-*Ex: SUM([revenue],[bonus]) => revenue(10 ,20);bonus(30,40) -> 40, 60*
-- **SUM_COLUMN**([col]): calculates the total sum of given column.
-*Ex: SUM_COLUMN([revenue]) => revenue(10 ,20, 30) -> 60, 60, 60*
-- **MEAN**([col1],[col]*): calculates the average of two or more columns.
-*Ex: MEAN([revenue],[bonus]) => revenue(10 ,20);bonus(30,40) -> 25 ,25*
-- **IF**(Condition,[THEN]Statement1 [,[OTHERWISE]Statement2]): is used to check a condition and return a value depending on whether the condition is true or false.
-*Ex: IF([income] < 0 ,'in-debt', 'not-indebt')*
-- **AND**(Condition1,Condition2): makes AND logical function.
-*Ex: AND([name] = 'john', [income] > [average])=> name('john');income(10);average(20) => False*
-- **OR**(Condition1, Condition2): makes OR logical function.
-*Ex: OR([name] = 'kenny', [revenue] > [average])=> name('john');revenu(25);average(11) => True*
-- **NOT**([col1]): makes NOT logical function.
-*Ex: NOT([boolean]) => boolean(True) -> False*
-- **CONCAT**([col1], [col2]): concatenates two string data. Concat can be used as '&' operator ([arg1] & [arg2]).
-*Ex: CONCAT([firstName], [lastName]) => Johny , Bravo => Johny Bravo*
-- **REGEX_REPLACE**([col], MatchRegex, 'Replacement'): replaces column string data that matches 'MatchRegex' with a constant string.
-*Ex: REGEX_REPLACE([badspacing],'\\s*',' ') => badspacing(extra      space) -> extra space*
-- **REGEX_EXTRACT**([col], '(pattern)'): extracts a regex pattern from column string data. Set to null if match is null.
-*Ex: REGEX_EXTRACT([names], '(Loic|Dio)') => names(Loic Joestar , Dio Loic) -> Loic , Dio*
-- **DATE_FORMAT**([col], 'format'): applies new format to date columns.
-*Ex: DATE_FORMAT([Date], '%Y-%m-%d')*
-- **YEAR**([col]): extract YEAR from date column.
-*Ex: YEAR('2024-10-22') -> 2024*
-- **MONTH**([col]): extracts MONTH from date column.
-*Ex: MONTH('2024-10-22') -> 10*
-- **DAY**([col]): extracts DAY from date column.
-*Ex: DAY('2024-10-22') -> 22*
-- **DAY_OF_WEEK**([col]): extracts the day number from the date in the week ​in the range [1,7]).
-*Ex: DAY_OF_WEEK('2024-10-22') -> 3*
-- **WEEK**([col]): extracts week number of the year (Sunday as the first day of the week.
-*Ex: WEEK('2024-10-22') -> 42*
-- **ISO_WEEK**([col]): extracts ISO 8601 week.
-*Ex: ISO_WEEK('2024-10-22') -> 43*
-- **IS_NULL**([col]): returns a Boolean value indicating whether an expression contains no valid data.
-*Ex: IS_NULL('Valeur') -> False*
-
+To edit your calculated fields, the detailed **functions list** is available [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html)
 
 Finally, prep also gives you the possibility to cluster some columns of your dataset using the **Create a clustering field** button.
 

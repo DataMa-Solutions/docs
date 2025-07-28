@@ -57,7 +57,7 @@ The **Waterfall** follows a structured approach based on a **market equation**, 
 
 * By default the Steps are the multiplication of each ratio but can also be additive
 
-For a more in-depth explanation of how the **market equation** structures the waterfall, refer to [this detailed guide]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/market_equation.html) or you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
+For a more in-depth explanation of how the **market equation** structures the waterfall, refer to [this detailed guide]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) or you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
 
 
 <br>
@@ -139,4 +139,4 @@ In the **Waterfall analysis**, covariance is managed by distributing shared effe
 
 Understanding **covariance effects** is key to accurately interpreting results, especially when analyzing complex datasets with interdependent variables.  
 
-For a deeper dive into how covariance is handled within the waterfall model, refer to [this detailed explanation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/covariance_effect.html).  
+For a deeper dive into how covariance is handled within the waterfall model, refer to [this detailed explanation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html).  

@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Assess (Light) in Power BI
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Power Power BI assess get started
 ---
@@ -11,7 +11,7 @@ keywords: Power Power BI assess get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -21,7 +21,7 @@ Here is what you get on this page:
 7. [Settings](#7-advanced-usage)
 8. [Support and Resources](#8-support-and-resources)
 
-<br/>
+<br/> -->
 
 
 
@@ -51,8 +51,13 @@ Follow one or the other steps to install the Datama plugin:
     1. Navigate to "Insert" > "More Visuals" > "From appSource".
     2. Search for "Detect - Find anomalies".
     3. The visual will appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
+    4. You can also download the assess extension on Datama,then add it to powerBI as below:
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/LoadExtension_PowerBI.gif" align="center" width="650px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/download_assess_powerBI.png" align="center" width="650px" />
+
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_asses_powerBI.gif" align="center" width="650px" />
+
 
 <br/>
 

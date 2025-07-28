@@ -1,6 +1,6 @@
 ---
 title: Pricing plan of Datama Compare in Tableau
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: Tableau dashboard Pricing Plan
 ---

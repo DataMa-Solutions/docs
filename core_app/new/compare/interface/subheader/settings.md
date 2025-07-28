@@ -12,7 +12,7 @@ keywords: full app compare settings
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.jpg"/></center>
 
 <br>
 

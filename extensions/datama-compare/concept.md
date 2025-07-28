@@ -1,107 +1,111 @@
 ---
-title: Concept of Datama Compare
-layout: page
+title: Datama Compare Concepts
+layout: new-page
 scope: Datama/light/compare
 keywords: light compare concept
 ---
 
-<br> 
+<br>
 
-> **Here is what you should know about Datama to understand what is behind the solution**
+> **Learn the key concepts behind Datama to better understand how the solution works**
 
 <br>
 
-Here is what you get on this page:
-1. [What we are trying to answer](#1-what-we-are-trying-to-answer) 
-2. [What types of data you will need](#2-what-types-of-data-you-will-need)
-3. [How to define your Metrics Relation](#3-metrics-relation)
-4. [How to read a waterfall chart](#4-how-to-read-a-waterfall-chart-with-Datama)
+This page covers:
+1. [What problems we solve](#1-what-problems-we-solve)
+2. [Required data types](#2-required-data-types)
+3. [Understanding Metric Relations](#3-metric-relations) 
+4. [How to interpret waterfall charts](#4-how-to-interpret-waterfall-charts-in-datama)
 
 <br/>
 
-## 1. What we are trying to answer?
+## 1. What problems we solve
 
-The Compare extension offers insightful analysis to pinpoint the exact causes behind performance variations. 
+The Compare extension helps you identify the exact causes behind performance variations.
 
-Whether you're comparing two different timeframes or two countries, this tool helps shed light on the reasons.
+Whether you're comparing different time periods or regions, this tool provides clear insights into what's driving changes.
 
-The results would be via a smart waterfall chart. 
-
+Results are presented through an intuitive waterfall chart visualization.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" style="width: 70%;" /></center>
 
 <br>
 
-## 2. What types of data you will need?
+## 2. Required data types
 
-This analysis is possible thanks to **2 main types** of data collected from your business:
+The analysis requires two main types of business data:
 
-* **Business Metrics data** (revenue, sales volume, number of users impacted by a marketing campaign, etc.)
-* and the **dimensions associated** with these volumes (customer segment, type of product sold, country, vendors, age, gender, device, year, models, …)
+* **Business Metrics** (revenue, sales volume, marketing campaign reach, etc.)
+* **Associated Dimensions** (customer segments, product types, countries, vendors, demographics, time periods, etc.)
 
-To go more in detail, you will need to consider these dimensions and metrics in four differents elements:
+Specifically, you'll need to configure four key elements:
 
-1. **Main KPI:** Define the main KPI you want to compare (e.g. Revenue, Leads, Margin...), this is the main metric you want to focus on.
-2. **Comparison Dimensions**: Define on which elements you want to compare your KPI (e.g. Period: Compare Month over Month, Country: Compare one country to the other...)
-    - by default, Datama will select the first two elements of your dimension, or split a date range in two.
-3. **Steps**: Define the steps that correspond to the funnel that lead to your main KPI. For example (eCommerce funnel, or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
-    - To better define your steps (or metric equation), you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
-4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
+1. **Main KPI:** The primary metric you want to analyze (e.g., Revenue, Leads, Margin)
+2. **Comparison Dimensions:** The elements you want to compare your KPI across (e.g., Month-over-Month, Country-to-Country)
+    - By default, Datama selects the first two elements or splits a date range in two
+3. **Steps:** The funnel stages leading to your main KPI (e.g., eCommerce or Finance funnel) [See dataset examples](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=763618483)
+    - For help defining your steps (metric equations), read our [dedicated article](https://datama.io/how-to-build-my-business-metric-relation/)
+4. **Explanation Dimensions:** Additional dimensions that help explain performance variations, each with an interest score indicating its importance
 
 <br>
 
-## 3. Metrics relation
+## 3. Metric relations
 
-**Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.**
+A metric relation describes how different metrics in your data source combine to compute your target KPI.
 
-### Simplistic example
+### Simple Example
 
-A simplistic retail example: As a retailer I want to understand my Revenue. So my main KPI is <span style="color:#00484A"> Revenue </span>.
+Consider a retail scenario where we want to understand Revenue. The main KPI is <span style="color:#00484A">Revenue</span>.
 
-Now, I can easily split Revenue that way: <span style="color:#00484A"> *Revenue = Volume * Revenue / Volume* </span>. That makes a lot of sense, because then I have two underlying performance indicators (PI) that actually helps me split the different effect behind what I observe on my main KPI <span style="color:#00484A"> *Revenue* </span>. First underlying PI is <span style="color:#00484A"> *Volume* </span> (the number of products I sell), and the other is <span style="color:#00484A"> *Revenue/ Volume* </span>, which is basically my unit price.
+We can break Revenue down as: <span style="color:#00484A">Revenue = Volume * Revenue/Volume</span>. This creates two meaningful performance indicators (PIs):
+- <span style="color:#00484A">Volume</span> (number of products sold)
+- <span style="color:#00484A">Revenue/Volume</span> (unit price)
 
-Why do I want to split those? Well basically because it’s not the same team in charge of volumes and the one in charge of pricing. So, in order to be able to identify where I need to improve, I need to split those two effects.
+This breakdown helps separate effects managed by different teams (sales volume vs. pricing strategy).
 
-
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 70%;" /></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 100%;" /></center>
 
 <br/>
 
-### Generalizing
+### Advanced applications
 
-We call each underlying PI a **« Step »**, because it will be steps of the waterfall you’re building. Number of steps can be theoretically unlimited, but for obvious visual and business reasons, you probably want to limit to no more than 10 steps.
+Each PI becomes a "Step" in your waterfall chart. While there's no technical limit to the number of steps, we recommend keeping it under 10 for clarity.
 
-One « Step » is a ratio between two metrics of your source. You have a numerator and a denominator. When no denominator exists (e.g. <span style="color:#00484A"> *Volume* </span>) we just say that Denominator is 1.
+A step represents a ratio between two metrics. For simple metrics like <span style="color:#00484A">Volume</span>, the denominator is 1.
 
-Steps gets multiplied together in order to get your KPIs. So, if your file has 5 metrics (call it <span style="color:#00484A"> *Metric1, Metric2, ..., Metric5* </span>) and your main KPI is Metric5, Metric Relation would typically look like this:
+For example, with 5 metrics (<span style="color:#00484A">Metric1, Metric2, ..., Metric5</span>), your KPI equation might look like:
 
- <center> <span style="color:#00484A"> *Metric5 = Metric1 * Metric2/Metric1 * Metric3/Metric2 * Metric4/Metric3 * Metric5/Metric4* </span> </center>
+<center><span style="color:#00484A">Metric5 = Metric1 * Metric2/Metric1 * Metric3/Metric2 * Metric4/Metric3 * Metric5/Metric4</span></center>
 
-Don’t be afraid of putting too many PIs in that equation: with Datama Compare, you can always zoom in to part of the equation, or aggregate some components using the « Skip steps » functionality.
+Don't worry about complexity - Datama Compare lets you zoom into specific parts or aggregate components using the "Skip steps" feature.
 
 <br>
 
+## 4. How to interpret waterfall charts in Datama
 
-## 4. How to Read a Waterfall Chart with Datama
+The waterfall chart is the core visualization tool in the extension.
 
-Main element of the extension is the waterfall graph. 
+> Datama shows how each data variation affects your Key Performance Indicators (KPIs):
 
-> Datama reveals the impact of each data variation on your Key Performance Indicators (KPIs):
+Each step shows a performance ratio's variance and its contribution to overall change.
 
-Each waterfall step represents a variance of a ratio of your performance, offering insights into their individual contributions
-
-- The waterfall below is explaining the gap of -28,1% in Revenue from last year (45,549€) to this year (32,747€)
-- Each step is a variation that explains the gap of -28.1% (mainly due to -11.7% of Users and -26.7% of Checkout/ Session)
-- When the Checkout/ Sessions drops from -26.7% it has an impact of 12,298€ on Revenue 
-
+Example interpretation:
+- The chart explains a -28.1% Revenue drop from last year (45,549€) to this year (32,747€)
+- Key factors include -11.7% in Users and -26.7% in Checkout/Session rates
+- The Checkout/Sessions decrease of -26.7% impacts Revenue by 12,298€
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Structure_Waterfall.PNG" /></center>
 
 <br/>
 
-- After seeing the quantitative variation of your Revenue, it’s time to understand what causes this variation.
-- By clicking on a step, the graph displays the dimension that best explains your variations and give the impact each element of this dimension has on that variation. (by clicking right then "Split by" you can see the interest score of other dimension and choose to modify the dimension that appears.) 
-- Each variation is split between mix and performance (see article or the next section to understand the difference)
+To dive deeper(demonstration with another use cas but the logic is the same):
+- Click any step to see which dimension best explains its variations (In this case, we can see that Canada contributes most nagatively for the performance of transactions in this year compared to last year.)
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.gif" /></center>
+By default, the waterfall will group segments with smaller effects into the ‘Remaining’ category to simplify the view. However, you can easily examine these categories more closely by simply clicking to expand any bars labeled ‘Remaining’, like below
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.gif" /></center>
+- Use "Split by" (right-click) to view interest scores of other dimensions and change the display
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.gif" /></center>
+- Each variation breaks down into mix and performance effects (explained in the next section)
 
 <br>
 
@@ -109,6 +113,4 @@ Each waterfall step represents a variance of a ratio of your performance, offeri
 
 <br>
 
-## Hope you enjoy it. 
-
-Please feel free to send any [feedback](https://Datama.io/lets-talk/) and do not hesitate to reach us if you have any question about the solution, your analysis or the documentation. We will be more than happy to get your point of view.
+Please [share your thoughts](https://Datama.io/lets-talk/) with us. Whether you have questions about the solution, your analysis, or the documentation, we're always happy to help and hear your perspective.
