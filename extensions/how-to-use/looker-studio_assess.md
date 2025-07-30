@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Assess (Light) in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Looker LookerStudio assess get started
 ---
@@ -11,7 +11,7 @@ keywords: Looker LookerStudio assess get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -22,7 +22,7 @@ Here is what you get on this page:
 8. [Settings](#8-advanced-usage)
 9. [Support and Resources](#9-support-and-resources)
 
-<br/>
+<br/> -->
 
 
 
@@ -60,7 +60,8 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_assess_extension.gif" /></center>
+
 
 <br>
 
@@ -92,13 +93,22 @@ Once you've imported the extension, here is how you can use it.
 <br>
 
 **2. KPIs definition**: Drag and drop the metrics you want to monitor in the appropriate field. Make sure that you add summable metrics: Datama will compute ratios based on the market equation that you define in the extension settings
+
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/assess_looker_dimension_add.gif" /></center>
+
 <br/>
 
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for significance assessment and define which metric you want to analyse in the market equation pane
 
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/setting_panel_assess_looker.gif" /></center>
+
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/JSON_assess_looker.gif" /></center>
+
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Leave_edit_mode_assess_looker.gif" /></center>
 
 
 ## 6. Read your Analysis

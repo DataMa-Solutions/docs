@@ -19,6 +19,7 @@ Here is the available connectors:
 - [Google Sheet](#google-sheet)
 - [Excel File](#excel-file)
 - [csv File](#csv-file)
+- [Calendar](#calendar)
 - [Google Analytics 3](#google-analytics-3)
 - [Google Analytics 4 (beta)](#google-analytics-4-beta)
 - [Google Google BigQuery](#google-google-bigquery)
@@ -67,6 +68,27 @@ Click on load and continue building your flow with more blocks.
 
 <br>
 
+> ## Calendar
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_calendar1.png"/>
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_calendar2.png"/>
+</div>
+
+
+There are two possibilities. You either choose a suggested calendar from our team, or you can use one of your own.
+If you choose to use one of your own, you'll need to have the url of your calendar, it can be a .ics, a public Google Calendar or an Outlook URL. Else you can the source URL we use printed (these calendars come directly from Google).
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_google_calendar.png"/>
+</div>
+
+In case you want to use a private Google Calendar, you can use the secret link at iCal format from calendar parameters in Google Calendar interface.
+Now you simply have to click on <b>Load</b>
+
+⚠️ **Important information** : <i>Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your calendar, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.</i>
+
+
 > ## Google Analytics 3 
 
 You can upload your Google Analytics datasets in Datama PREP.
@@ -102,6 +124,17 @@ Click on the Analytics 4 connector in Datama prep, you might need to give author
 Select your property, metrics and dimensions. You can choose only one property and only 9 dimensions and up to 10 metrics.
 You can also filter data from Google Analytics 4
 
+One thing to keep in mind: when pulling <b>large datasets</b> from Google Analytics 4 into Datama Prep, Google Analytics may sample your data before loading it into Datama. This auto-sampling can leave your data incomplete, making your final analysis less accurate.
+
+That’s why Datama offers the <b>Chunk Data</b> option.
+
+In short, this feature lets Google Analytics split your large dataset into smaller parts and import them in multiple calls. Based on what you know about your dataset, you can decide how many parts to split it into.
+
+The interface looks like this:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/chunk_data.png"/></center>
+
+However, this option may slow down the import process, as Google Analytics needs to run multiple queries.
 
 <u>Timeframe selection</u>
 Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
@@ -179,11 +212,11 @@ When connected, you can select a warehouse and a database in advanced settings i
 
 With Google Trend connector, you can enrich your data flow with Google Search result in a given date range
 
-#### You can cross your data with Google trends data
+You can cross your data with Google trends data
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step1.JPG" style="width:70%"/></center>
 
-#### Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
+Choose the period of time you want to focus on, the country concerned by this trend and at last step enter your keywords.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/googleTrends_step2.JPG" style="width:60%"/></center>
 

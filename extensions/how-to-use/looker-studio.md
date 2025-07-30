@@ -17,7 +17,7 @@ You can add them to your report as any other type of chart, and bring in your da
 Here are the currently existing extensions, and related documentation
 - [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_compare.html): Explain variations through dynamic waterfall and KPI tree
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Looker_Studio.gif" align="center" width="650px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Looker_Studio.gif" align="center" width="1000px" />
 
 - [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_detect.html): Detect anomalies in trend lines
 

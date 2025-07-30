@@ -452,6 +452,8 @@
                   link: /core_app/new/prep/interface/add_source.html#excel-file
                 - name: csv File
                   link: /core_app/new/prep/interface/add_source.html#csv-file
+                - name: Calendar
+                  link: /core_app/new/prep/interface/add_source.html#calendar
                 - name: Google Analytics 3
                   link: /core_app/new/prep/interface/add_source.html#google-analytics-3
                 - name: Google Analytics 4 (beta)
@@ -473,6 +475,8 @@
               link: /core_app/new/integration/integrations.html
             - name: Refine Data #done
               link: /core_app/new/prep/interface/refine_data.html
+            - name: Calculated fields #done
+              link: /core_app/new/prep/interface/calculated_fields.html
             - name: Table connect (Direct query) #done
               link: /core_app/new/prep/interface/direct_query.html
             - name: Block Output #done

@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Detect (Light) in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Looker LookerStudio detect get started
 ---
@@ -11,7 +11,7 @@ keywords: Looker LookerStudio detect get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -22,7 +22,7 @@ Here is what you get on this page:
 8. [Settings](#8-advanced-usage)
 9. [Support and Resources](#9-support-and-resources)
 
-<br/>
+<br/> -->
 
 
 ## 1. Overview
@@ -62,7 +62,7 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_detect_extension_looker.gif" /></center>
 
 <br>
 
@@ -100,7 +100,12 @@ Once you've imported the extension, here is how you can use it.
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/JSONsavedetect.gif" /></center>
+
+
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmoredetect.gif" /></center>
 
 ## 6. Read your Analysis
 
@@ -110,7 +115,7 @@ To discover more about how to use Datama Detect, you can read our [dedicated sec
 
 ## 7. Looker Studio Guide
 
-Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
+Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_cl0g8ssgud) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
 
 <br/>
 

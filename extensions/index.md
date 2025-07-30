@@ -30,7 +30,7 @@ Find below documentation related to each extensions
 ### Find Datama in different markeplaces:
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau.html)
+- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
 
 <br>

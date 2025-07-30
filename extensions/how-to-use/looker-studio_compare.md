@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Compare (Light) in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Looker LookerStudio compare get started
 ---
@@ -11,7 +11,7 @@ keywords: Looker LookerStudio compare get started
 
 <br/>
 
-Here is what you get on this page:
+<!-- Here is what you get on this page:
 1. [Overview](#1-overview) 
 2. [Features](#2-features)
 3. [Installation](#3-add-the-extension-into-your-report)
@@ -23,7 +23,7 @@ Here is what you get on this page:
 9. [Get more insights](#9-get-more-insights)
 10. [Support and Resources](#10-support-and-resources)
 
-<br/>
+<br/> -->
 
 <center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Lookerstudio_Wireframe.png" /></center>
 
@@ -53,7 +53,7 @@ Below is a short intro video
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/CopyPath_lookerstudio.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Licence compare in looker studio.png" /></center>
 
 
 And then, follow these steps to add Datama in your Looker Studio report : 
@@ -93,7 +93,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 Once you've imported the extension, here is how you can use it.
 
-**1. First think at your use case**: You need first to consider which KPI you want to analyse and what are the steps that lead to the main KPI.
+**1. First think about your use case**: You need first to consider which KPI you want to analyse and what are the steps that lead to the main KPI.
 
 **2. Prepare your dataset**: 4 steps are needed to properly set your dataset.
 1.  **Main KPI:** Define the main KPI you want to compare (e.g. Revenue, Leads, Margin...)
@@ -110,7 +110,12 @@ Once you've imported the extension, here is how you can use it.
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
+
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmore.gif" /></center>
+
 
 <br/>
 
