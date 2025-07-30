@@ -73,11 +73,24 @@
 
     .page-toc {
         position: sticky;
-        top: 2rem;
-        height: fit-content;
+        height: 80vh; /* limite la hauteur pour que le scroll apparaisse */
+        overflow-y: auto; /* active le scroll vertical */
         padding: 1rem;
-        border-left: 1px solid #e1e4e8; /* Light gray border like GitHub's style */
-        margin-left: 1rem; /* Add some space between content and border */
+        border-left: 1px solid #e1e4e8;
+        margin-left: 1rem;
+        scrollbar-width: thin;         /* Firefox */
+        scrollbar-color: #ccc transparent;   
+     }
+
+     .page-toc::-webkit-scrollbar {
+    width: 6px;
+    }
+    .page-toc::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 3px;
+    }
+    .page-toc::-webkit-scrollbar-track {
+        background: transparent;
     }
 
     .toc-container {
