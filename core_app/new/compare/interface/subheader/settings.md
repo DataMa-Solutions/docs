@@ -32,7 +32,6 @@ Fine-tune your analysis with technical options like percentage aggregation, sign
 
 Each of these settings can be adjusted to precisely match your analytical needs.
 
-
 <br>
 
 <!--
@@ -371,6 +370,13 @@ The generated insights are then processed by OpenAI's language model. OpenAI enh
 - **Dynamic Save of Start & End**: If selected, Datama will consider Start & End as a dynamic input and automatically update the data
 - **Use Descending Order**: This function is linked to dynamic save, when your Start & End dimensions are numbers
 
-> **Note**: In a normal Datama license, you can save up to 10 use cases. If you have reached the maximum number, you can delete some in the "Manage Version" menu
+
+<br>
+
+<div class="info-box">
+<strong>Note</strong>: In a normal Datama license, you can save up to 10 use cases. If you have reached the maximum number, you can delete some in the "Manage Version" menu
+
+</div>
+
 
 <br>

@@ -425,6 +425,29 @@ body {
   }
 }
 
+.info-box {
+  background-color: #E8F5F3;            /* fond bleu un peu plus foncé */
+  border: 1px solid #16D0B4;            /* bordure bleu plus foncé que le fond */
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  margin: 16px 0;
+  display: flow;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.info-box::before {
+  content: "✅";
+  font-size: 18px;
+  margin-right: 8px;
+  line-height: 1.4;
+}
+
+
+
 @media screen and (max-width: 767px) {
   .burger {
     display: block !important;
