@@ -16,7 +16,7 @@ Helper charts can help you to understand what you want to compare and what you h
 
 <br>
 
-## 1. Dimension Helper
+# 1. Dimension Helper
 The dimension helper helps visualise the start and end point of each dimension at each step of the waterfall.
 
 You can access to Helper by clicking "Expand Comparison configuration" when you land to Compare section.
@@ -41,7 +41,7 @@ The graph represents in blue and orange what is selected as a comparison (start 
 
 <br>
 
-**Hide or display some element**
+## Hide or display some element
 
  click on the legend to remove some bars (orange, blue or gray)
 
@@ -49,7 +49,7 @@ The graph represents in blue and orange what is selected as a comparison (start 
 
 <br>
 
-## 2. Start/ End helper
+# 2. Start/ End helper
 The Dimension helper allows to visually see the performance of each period in the dataset.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/startend_helper.png"/></center>
 
@@ -59,7 +59,7 @@ As soon as you close the popup the calculation will be launched.
 
 <br>
 
-## 3. Ratio helper
+# 3. Ratio helper
 
 Ratio helper is representing each step of your market equation (metrics relation) split by start and end definition (in blue and orange).
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/ratio_helper.jpg"/></center>

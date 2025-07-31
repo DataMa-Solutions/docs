@@ -1,5 +1,5 @@
 ---
-title: Detailed View
+title: Page "Detailed View" on Compare
 description: This detailed View »** allows you to deep dive on each step and each dimension.
 layout: new-page
 scope: Datama/saas/compare
@@ -13,7 +13,7 @@ keywords: full app compare detail detailed view
 <br>
 
 
-<center> <img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/moves_tab.png"></center>
+<center> <img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/moves_tab.png"></center>
 
 <!-- ![detailed_view]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/moves.jpg) -->
 
@@ -27,9 +27,6 @@ By default, the drop-down menus are automatically selected in both main step and
 The selection is dynamic: selection made on the « Detailed view – filter » will affect the waterfall above and vice & versa.
 
 3 different tabs are available for this « detailed view ».
-<!--* [Moves](#moves)
-* [Bridge](#bridge)
-* [Table](#table) -->
 
 <br>
 
@@ -125,6 +122,8 @@ By changing the settings of the table you can choose to display 5 types of infor
 - **Ranking change**: evolution of the Ranking between <i>Start</i> and <i>End</i>
 
 Note that when activating a "Secondary Comparison", the secondary comparison values are displayed in the table in a subline in italic under "2nd comparison"
+
+<br>
 
 ## 3.2 How could it look like?
 

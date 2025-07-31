@@ -18,7 +18,6 @@ Defining what you want to compare is the very first step of your analysis in Dat
 
 # 1. Start/ End Comparison
 
-<br>
 
 ## 1.1 Select Dimension used for comparison
 

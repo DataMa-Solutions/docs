@@ -6,7 +6,7 @@ scope: Datama/saas
 keywords: full app home homepage
 ---
 
-[Header](#2-user-preferences)
+<br>
 
 > Welcome to the **Datama Homepage** documentation! Here, you'll find details on how to navigate and configure your account for an optimal experience.
 

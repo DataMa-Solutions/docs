@@ -1,7 +1,7 @@
 ---
 title: Tableau extension
 description: Using Datama Solutions as a Tableau extension is a great way to make your tableau report more insightful with the benefits of both Datama and Tableau.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon tableau Tableau
 ---
@@ -9,6 +9,8 @@ keywords: full app integration embed embedded add-on addons addon tableau Tablea
 <br>
 
 > Using Datama Solutions as a **Tableau extension** is a great way to make your tableau report more insightful with the benefits of both Datama and Tableau.
+
+<br>
 
 Datama helps you do the job of an advanced data analyst faster, in Tableau.
 It's particularly helpful for marketing analysis, such has gap/ root cause analysis.
@@ -57,6 +59,8 @@ Here is an example of a source from the same dataset as above.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/tableau_dashboard.png"/></center>
 
+<br>
+
 # 3. Get insights
 
 ## If you are new to Datama
@@ -65,6 +69,7 @@ Here is an example of a source from the same dataset as above.
 * Click "Launch Trial" to get a free trial limited in time. 
 * Enter your email when prompted to get a 2 weeks trial period for free
 
+<br>
 
 ## If you are a Datama Client
 
@@ -79,6 +84,7 @@ Here is an example of a source from the same dataset as above.
     * Click "Exit full app" at the bottom right of the screen to return to the simplified screen 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/open_full_app.png"/></center>
 
+<br>
 
 # 4. Publish your workbook
 
