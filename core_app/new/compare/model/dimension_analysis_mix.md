@@ -54,3 +54,8 @@ As in the example below, when your proportion of Purchase between Device change,
 * If the average price change, it’s a **Performance effect**
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-Perf.jpg"></center>
+
+<div class="info-box">
+  <strong>Note</strong>: You can also read our real use case for a client: Jott. In this case, we managed to find the mix effect of the change of temperature on the sales performance. 
+  <a href="https://datama.io/mix-effect-of-weather-on-sales-revenue/">Read more</a>
+</div>
