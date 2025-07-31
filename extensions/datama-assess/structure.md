@@ -56,8 +56,14 @@ Datama propose 3 views for each test-type so as to visualize your data as you ca
 
 #### 2.1.3 Volatility
 
-- Time series
-- Relative variation (For time series)
+- Time series (For Volatility)
+- Relative variation (For Volatility)
+- Comparison
+
+#### 3.3.4 Forecast
+
+- Time series (For Forecast)
+- Relative variation (For Forecast)
 - Comparison
 
 <br>
@@ -101,19 +107,32 @@ Available only for Bayesian test, this view shows percentages of chances that en
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_outperforming_chances_view.png"/></center>
 
-#### 2.2.5 Time series
+#### 3.2.5 Time series (For Volatility test)
 
 Available only for Volatility test, this view shows the evolution of comparisons over time and pinpoint the selected one.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_volatility_time_series_view.png"/></center>
 
-#### 2.2.6 Relative Variation (For time series)
+#### 3.2.6 Time series (For Forecast)
+
+Available only for Forecast test, this view shows the evolution of selected KPI with a forecast, presented with a confidence interval over the end period.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_forecast_time_series_view.png"/></center>
+
+#### 3.2.7 Relative Variation (For time series)
 
 Available only for Volatility test, this view shows same informations than Time series view and you can breakdown by a second dimension.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_volatility_variation_view.png"/></center>
 
 Each bar represent former typical comparisons and the bigger bar is the selected one.
+
+
+#### 3.2.8 Relative Variation (For time series)
+
+Available only for Forecast testing, this view shows the confidence interval of forecasted data with the relative variation observed. You can also break down by a second dimension in this view.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_forecast_variation_view.png"/></center>
 
 <br>
 
