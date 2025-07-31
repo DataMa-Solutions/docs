@@ -1,7 +1,7 @@
 ---
 title: Covariance
 description: Basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare model covariance
 ---
@@ -16,7 +16,9 @@ In our case, covariance is basically the share of the variation that you can’t
 
 In waterfall analysis, the different effects are the different steps that you’ve defined within Metric Relation.
 
-## A basic example
+<br>
+
+# 1. A basic example
 
 You want to analyze your Revenue (<span style="color:red">A</span>) variations between Last Year (<span style="color:red"> Start </span>) and with This Year (<span style="color:red">End</span>)
 
@@ -27,11 +29,11 @@ So what you want, is to really explain Revenue_ThisYear – Revenue_LastYear. (<
 
 Well, this can be written as following:
 
-![equation]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/equation.png)
+![equation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/images/equation.png)
 
 The visual representation below is much easier to get:
 
-![covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/images/Covariance.gif)
+![covariance]({{site.url}}/{{site.baseurl}}/core_app/new/compare/images/Covariance.gif)
 
 What you want to explain is the gap in surface between the two green squares.
 
@@ -39,7 +41,7 @@ Well, you just split it into B effect (Purple), A/B effect (Yellow) and Covarian
 
 <br>
 
-## How it impacts Waterfall analysis
+# 2. How it impacts Waterfall analysis
 
 The above maths is great, but hard to show and explain to a business man that just want to understand why its revenue went down, or up.
 

@@ -1,7 +1,7 @@
 ---
 title: Power BI - Demo extension
 description: Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon power bi demo
 ---
@@ -13,7 +13,7 @@ keywords: full app integration embed embedded add-on addons addon power bi demo
 
 <br>
 
-# <b>Why I am here?</b>
+# 1. Why I am here?
 
 You're here because you're exploring the Datama extension in Power BI and seeking deeper insights on its usage. If the setup of the demo Power BI dashboard seems unclear, you're in the right place. 
 
@@ -22,7 +22,7 @@ To get a clearer understanding of what the "Compare" extension does, visit this 
 
 <br>
 
-# <b>What Use Cases Can the Demo Handle?</b>
+# 2. What use cases can the Demo handle?
 
 We've preloaded several datasets for you, but you're welcome to add your own dataset:
 - **Web Analytics**: Funnel conversion analysis highlighting variations between Last Year and This Year.
@@ -38,7 +38,8 @@ Load your own data if you want to test the extension even further!
 
 <br>
 
-# <b>Setting Up the Datama Extension</b>
+# 3. Setting up the Datama extension
+
 1. **[Download the extension](https://storage.googleapis.com/app.datama.io/powerbi/datama_latest.pbiviz)**: Download the latest Datama PowerBI extension
 2. **Select Your Dataset**: Pick from the list on the right a dataset that meets your interests.
 3. **Choose Your Metrics**: Drag and drop desired metrics from the dataset into the Datama visual metrics entry. 
@@ -54,7 +55,7 @@ Load your own data if you want to test the extension even further!
 
 <br>
 
-# <b>Want More Insight into the Solution?</b>
+# 4. Want more insight into the solution?
 
 If "Mix effect", "Performance effect", or "Market Equation" sound intricate, explore our dedicated pages:
 - [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
@@ -63,8 +64,14 @@ If "Mix effect", "Performance effect", or "Market Equation" sound intricate, exp
 <br>
 <br>
 
-Alternatively, below a 2min video intro to the Power BI extension:
 
+<div class="info-box">
+
+Alternatively, below a 2min video intro to the Power BI extension:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nf4IpBErAUk?si=80AXC4m4RoPmhU3n" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br>
+
 
 Reach out to us at [solutions@Datama.io](mailto:solutions@Datama.io) for further testing or to inquire about licensing options.

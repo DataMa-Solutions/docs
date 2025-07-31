@@ -26,7 +26,8 @@ The settings is detailed separately for each solution :
 
 
 <br>
-
-> **User Preferences**
+<div class="info-box">
+<strong>User Preferences: </strong>
 In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level.
+</div>

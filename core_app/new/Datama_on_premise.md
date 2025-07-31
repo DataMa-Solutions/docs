@@ -19,4 +19,9 @@ However, you could also use Datama package as a brick within a data flow that pe
 
 In that sense, Datama works well as a step of data science platforms like [DataIku](https://www.dataiku.com/) or [Alteryx](https://www.alteryx.com/).
 
-> [Ask us](https://Datama.io/lets-talk/) for more details on what's available in term of implementation and integration.
+<br>
+
+<div class="info-box">
+ [Ask us](https://Datama.io/lets-talk/) for more details on what's available in term of implementation and integration.
+ </div>
+

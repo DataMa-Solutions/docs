@@ -20,14 +20,14 @@
           link: /core_app/new/interface/homepage/homepage.html
           type: h4
           subnav:
-            - name: Header
-              link: /core_app/new/interface/homepage/homepage.html#header
-            - name: Preferences
-              link: /core_app/new/interface/homepage/homepage.html#user-preferences
-            - name: Workbook Management
-              link: /core_app/new/interface/homepage/homepage.html#workbook-management
-            - name: Preset Workbook
-              link: /core_app/new/interface/homepage/homepage.html#preset-workbook
+          #   - name: Header
+          #     link: /core_app/new/interface/homepage/homepage.html#header
+          #   - name: Preferences
+          #     link: /core_app/new/interface/homepage/homepage.html#user-preferences
+          #   - name: Workbook Management
+          #     link: /core_app/new/interface/homepage/homepage.html#workbook-management
+          #   - name: Preset Workbook
+          #     link: /core_app/new/interface/homepage/homepage.html#preset-workbook
             #   subnav:
             # - name: User preferences
             #   link: /core_app/new/interface/homepage/user_preferences.html
@@ -67,6 +67,11 @@
                   link: /core_app/new/interface/homepage/get_inspired/churn_rate.html
                 - name: Display acquisition
                   link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
+            - name: Admin #done
+              link: /core_app/new/interface/homepage/admin/admin.html
+
+
+
         - name: Prep #done
           link: /core_app/new/prep/prep.html
           type: h4
@@ -125,8 +130,6 @@
                       link: /core_app/new/prep/interface/focusExcluded_dimensions.html
                 - name: Export Analysis #done
                   link: /core_app/new/prep/interface/extract_analysis.html
-            - name: Admin #done
-              link: /core_app/new/interface/homepage/admin/admin.html
               # subnav:
               #   - name: Licences
               #     link: /core_app/new/interface/homepage/admin/admin.html#licences
@@ -134,37 +137,39 @@
               #     link: /core_app/new/interface/homepage/admin/admin.html#security
               #   - name: Statistics
               #     link: /core_app/new/interface/homepage/admin/admin.html#statistics
-        - name: Solutions header #done
+        - name: Solutions interface #done
           link: /core_app/new/interface/header/header.html
           type: h4
-          # subnav:
-          #   - name: File #done
-          #     link: /core_app/new/interface/header/file.html
-          #   #- name: 1.2.a. Edit
-          #   #  link: /core_app/new/interface/edit.html
-          #   - name: Data #done
-          #     link: /core_app/new/interface/header/data.html
-          #   - name: Help #done
-          #     link: /core_app/new/interface/header/help.html
-            # - name: Export #done
-            #   link: /core_app/new/interface/header/export.html
-        - name: Solutions subheader #done
-          link: /core_app/new/interface/subheader/subheader.html
-          type: h4
           subnav:
-            - name: Dimension Comparison  #done
-              link: /core_app/new/interface/subheader/dimension_comparison.html
-            - name: Dimension Helper  #done
-              link: /core_app/new/interface/subheader/dimension_helper.html
-            - name: Filters  #done
-              link: /core_app/new/interface/subheader/filters.html
-            - name: Metrics relation
-              link: /core_app/new/interface/subheader/metrics_relation.html
-            - name: Settings #done
-              link: /core_app/new/interface/subheader/settings.html
+            - name: Solutions header #done
+              link: /core_app/new/interface/header/header.html
+              # subnav:
+              #   - name: File #done
+              #     link: /core_app/new/interface/header/file.html
+              #   #- name: 1.2.a. Edit
+              #   #  link: /core_app/new/interface/edit.html
+              #   - name: Data #done
+              #     link: /core_app/new/interface/header/data.html
+              #   - name: Help #done
+              #     link: /core_app/new/interface/header/help.html
+                # - name: Export #done
+                #   link: /core_app/new/interface/header/export.html
+            - name: Solutions subheader #done
+              link: /core_app/new/interface/subheader/subheader.html
               subnav:
-                - name: Clustering Settings
-                  link: /core_app/new/interface/subheader/settings/clustering.html
+                - name: Dimension Comparison  #done
+                  link: /core_app/new/interface/subheader/dimension_comparison.html
+                - name: Dimension Helper  #done
+                  link: /core_app/new/interface/subheader/dimension_helper.html
+                - name: Filters  #done
+                  link: /core_app/new/interface/subheader/filters.html
+                - name: Metrics relation
+                  link: /core_app/new/interface/subheader/metrics_relation.html
+                - name: Settings #done
+                  link: /core_app/new/interface/subheader/settings.html
+                  subnav:
+                    - name: Clustering Settings
+                      link: /core_app/new/interface/subheader/settings/clustering.html
     - name: Type of account and plan #under construction
       link: /core_app/new/interface/account.html
       type: h3
@@ -210,9 +215,9 @@
       link: /core_app/new/compare/compare_introduction.html
       type: h3
       subnav:
-        - name: Theory
-          link: /core_app/new/compare/model/model.html
-          type: h4
+#        - name: Theory
+#          link: /core_app/new/compare/model/model.html
+          # type: h4
         - name: Concept
           link: /extensions/datama-compare/concept.html
           type: h4
@@ -232,7 +237,7 @@
       link: /core_app/new/compare/compare_interface.html
       type: h3
       subnav:
-        - name: Waterfall
+        - name: Waterfall View
           link: /core_app/new/compare/interface/waterfall.html
         - name: Detailed View
           link: /core_app/new/compare/interface/detailed_view.html
