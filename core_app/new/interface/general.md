@@ -33,7 +33,7 @@ Datama offers several solutions tailored to your data analysis needs:
 
 <br>
 
-## 2.2 Marketplace Extensions
+## 2.2 Data Visualisation Tools Extensions
 
 Datama is available on major Business Intelligence platforms:
 
@@ -55,7 +55,7 @@ The Datama interface consists of several essential elements:
 
 <br>
 
-### 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
+## 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
 The main menu includes:
 - **File**: [Document and settings management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/file)
 - **Edit**: [Modification and customization tools]({{site.url}}/{{site.baseurl}}/core_app/new/interface/edit)
