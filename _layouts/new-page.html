@@ -39,8 +39,95 @@
         <article class="post">
             <header class="post-header">
                 <h1 style="font-size: 2rem">{{ page.title }}</h1>
-            </header>
+                <nav class="breadcrumb-nav">
+                {% assign current_url = page.url %}
+                {% assign trail = "" | split: "" %}
 
+                {% assign nav = site.data.navigation %}
+                {% assign found = false %}
+
+                {% assign max_depth = 5 %}
+                {% assign stack = nav %}
+                {% assign path = "" | split: "" %}
+
+                {% assign level1s = nav %}
+                {% for level1 in level1s %}
+                    {% if found %}{% break %}{% endif %}
+                    {% assign path = level1 | jsonify | split: "" %}
+                    {% assign current_path = "" | split: "" %}
+                    {% assign current_path = current_path | push: level1 %}
+
+                    {% if level1.link == current_url %}
+                    {% assign trail = current_path %}
+                    {% assign found = true %}
+                    {% break %}
+                    {% endif %}
+
+                    {% if level1.subnav %}
+                    {% for level2 in level1.subnav %}
+                        {% assign current_path = current_path | slice: 0,1 | push: level2 %}
+                        {% if level2.link == current_url %}
+                        {% assign trail = current_path %}
+                        {% assign found = true %}
+                        {% break %}
+                        {% endif %}
+
+                        {% if level2.subnav %}
+                        {% for level3 in level2.subnav %}
+                            {% assign current_path = current_path | slice: 0,2 | push: level3 %}
+                            {% if level3.link == current_url %}
+                            {% assign trail = current_path %}
+                            {% assign found = true %}
+                            {% break %}
+                            {% endif %}
+
+                            {% if level3.subnav %}
+                            {% for level4 in level3.subnav %}
+                                {% assign current_path = current_path | slice: 0,3 | push: level4 %}
+                                {% if level4.link == current_url %}
+                                {% assign trail = current_path %}
+                                {% assign found = true %}
+                                {% break %}
+                                {% endif %}
+
+                                {% if level4.subnav %}
+                                {% for level5 in level4.subnav %}
+                                    {% assign current_path = current_path | slice: 0,4 | push: level5 %}
+                                    {% if level5.link == current_url %}
+                                    {% assign trail = current_path %}
+                                    {% assign found = true %}
+                                    {% break %}
+                                    {% endif %}
+                                {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                {% endfor %}
+
+                <div class="breadcrumb-path">
+                    <a href="{{ '/docs/' | relative_url }}" class="home-icon" aria-label="Home">
+                    <i class="fas fa-home"></i>
+                    </a>
+                    {% if trail.size > 0 %}
+                    <span class="breadcrumb-separator">›</span>
+                    {% for item in trail %}
+                        {% if forloop.last %}
+                        <span class="current">{{ item.name }}</span>
+                        {% else %}
+                        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+                        <span class="breadcrumb-separator">›</span>
+                        {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                </nav>
+
+
+            </header>
             <div class="post-content-wrapper">
                 <div class="post-content">
                     {{ content }}
@@ -171,6 +258,30 @@
         font-size: 0.9em;
         color: #666;
     }
+    .breadcrumb {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #586F70;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    font-family: "Open Sans", sans-serif;
+    }
+
+    .breadcrumb span {
+    white-space: nowrap;
+    }
+
+    .breadcrumb .current {
+    font-weight: 600;
+    color: #333;
+    }
+
+    .breadcrumb .sep {
+    color: #bbb;
+    }
 
     .breadcrumb-path {
         a {
@@ -186,6 +297,36 @@
         margin: 0 8px;
         color: #999;
     }
+
+    .breadcrumb-path a:first-child {
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 4px;
+    }
+
+    .breadcrumb-path a:first-child:hover {
+    text-decoration: underline;
+    }
+
+    .breadcrumb-path .home-icon {
+    color: $datagreen;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    }
+
+    .breadcrumb-path .home-icon:hover {
+    color: darken($datagreen, 10%);
+    text-decoration: none;
+    }
+
+    .breadcrumb-path .fas.fa-home {
+    margin-right: 4px;
+    }
+
+
 </style>
 
 <script>
