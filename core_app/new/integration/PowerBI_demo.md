@@ -1,5 +1,5 @@
 ---
-title: Power BI - Demo extension
+title: Power BI - marketplace extension
 description: Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 layout: new-page
 scope: Datama/saas
@@ -15,10 +15,16 @@ keywords: full app integration embed embedded add-on addons addon power bi demo
 
 # 1. Why I am here?
 
-You're here because you're exploring the Datama extension in Power BI and seeking deeper insights on its usage. If the setup of the demo Power BI dashboard seems unclear, you're in the right place. 
+This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://appsource.microsoft.com/fr-fr/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
-To get a clearer understanding of what the "Compare" extension does, visit this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html).  
 
+To get a clearer understanding of the concept of this "Compare" extension does, visit this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html).  
+
+<br>
+
+Watch this video to properly understand our extension and how to use it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/brh3JdXCHkk?si=GxDUV8bCfm9tW8YX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br>
 

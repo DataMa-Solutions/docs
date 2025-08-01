@@ -1,27 +1,18 @@
 ---
 title: Pivot - Interface
 description: Understand what is in the Dashboard panel of Datama PIVOT
-layout: page
+layout: new-page
 scope: Datama/saas/pivot
 keywords: full app pivot interface
 ---
 
+<br>
+
 > Understand what is in the interface of **Datama PIVOT**
 
-Here are the main elements to find in Datama PIVOT:
-- [Importance Chart](#importance-chart)
-- [Simple chart](#simple-chart)
-- [Clustered Chart](#clustered-chart)
-- [MariMekko](#marimekko)
-- [Sankey Diagram](#sankey-diagram)
-- [Simple Test Matrix](#simple-test-matrix)
-- [Decision Tree](#decision-tree)
-- [Market equation tree](#market-equation-tree)
-- [Radar Chart](#radar-chart)
+<br>
 
-<br><br>
-
-## <b>Importance Chart </b>
+# 1. Importance Chart
 
 The dimension importance is the first element of the Datama PIVOT interface. **It sorts all the dimensions by importance from left to right**, regarding the KPI you are following.
 - Dimensions are sorted according to the Standard deviation which is weighted according to the volume. This basically means that **dimensions on the left of the charts have segments that differ a lot on the selected KPIs**. Depending on the dimension you’re looking at, one could then identify business opportunities in increasing the performance of low bubbles on this chart, if that is feasible.
@@ -38,7 +29,7 @@ Each bubble of browser, represents a type of browser (Chrome, Firefox, Safari �
 
 <br>
 
-## <b>Simple chart</b>
+# 2. Simple chart
 
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide. This is a non-aggregated view of the data.
 The black line is the average KPI of this element (ratio: numerator / denominator)
@@ -47,7 +38,7 @@ The black line is the average KPI of this element (ratio: numerator / denominato
 
 <br>
 
-##  <b>Clustered Chart</b>
+# 3. Clustered Chart
 
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide.
 The black line is the average KPI of this element (ratio: numerator / denominator)
@@ -61,7 +52,7 @@ Aggregation:
 
 <br>
 
-## <b>MariMekko</b>
+# 4. MariMekko
 
 This aims to represent how one dimension is distributed in another dimension.
 
@@ -69,7 +60,7 @@ As for the Sankey diagram, you can change dimension by using the drop-down menu 
 
 <br>
 
-## <b>Sankey Diagram</b>
+# 5. Sankey Diagram
 
 This aims to discover how dimensions are correlated.
 Show the distribution between 2 dimensions, understand for 2 dimensions how the elements of these dimensions are distributed together.
@@ -82,9 +73,9 @@ This represents each element at the same size which helps you compare the distri
 
 The « % Distrib » option makes the segments on the right of the window all at the same size. This helps to compare segments between each other.
 
-<b>
+<br>
 
-## <b>Simple Test Matrix</b>
+# 6. Simple Test Matrix
 
 The calculation is made using a simple correlation rate to determine whether dimensions are independent. Higher the score is, higher the correlation is.
 These figures are the percentage of correlation.When you click on one of the figures, it will filter automatically on the corresponding dimension (column and line).
@@ -93,7 +84,7 @@ These figures are the percentage of correlation.When you click on one of the fig
 
 <br>
 
-## <b>Decision Tree</b>
+# 7. Decision Tree
 
 
 The decision tree is based on a Rpart model (Recursive Partitioning and Regression Trees)
@@ -111,7 +102,7 @@ Here is what it looks like in Pivot:
 
 <br>
 
-## <b>Market equation Tree</b>
+# 8. Market equation Tree
 
 The market equation tree is available when you select [Analyse all metrics relation steps]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analyse-all-metrics-relation-steps).
 This tree is based on your market equation, it decomposes your main KPI on all the steps of your metric relations, then on your dimensions, and finally on your segments. 
@@ -131,7 +122,7 @@ The _Comments_ section sums up the most interesting parts of the tree with a lev
 
 <br>
 
-## <b>Radar Chart</b>
+# 9. Radar Chart
 
 The Radar chart is available when you select [Analyse all metrics relation steps]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html#analyse-all-metrics-relation-steps). 
 The chart is based on your market equation. It decomposes the selected dimension on all the steps of your metric relations, for each segment of the dimension.

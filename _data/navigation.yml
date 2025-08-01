@@ -70,73 +70,6 @@
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
 
-
-
-        - name: Prep #done
-          link: /core_app/new/prep/prep.html
-          type: h4
-          subnav:
-            - name: Dataset #done
-              link: /core_app/new/prep/dataset.html
-            - name: Prep interface #done
-              link: /core_app/new/prep/prep_interface.html
-              subnav:
-                - name: Add Source #done
-                  link: /core_app/new/prep/interface/add_source.html
-                  subnav:
-                    - name: Google Sheet
-                      link: /core_app/new/prep/interface/add_source.html#google-sheet
-                    - name: Excel File
-                      link: /core_app/new/prep/interface/add_source.html#excel-file
-                    - name: csv File
-                      link: /core_app/new/prep/interface/add_source.html#csv-file
-                    - name: Calendar
-                      link: /core_app/new/prep/interface/add_source.html#calendar
-                    - name: Google Analytics 3
-                      link: /core_app/new/prep/interface/add_source.html#google-analytics-3
-                    - name: Google Analytics 4 (beta)
-                      link: /core_app/new/prep/interface/add_source.html#google-analytics-4-beta
-                    - name: Google Google BigQuery
-                      link: /core_app/new/prep/interface/add_source.html#google-google-bigquery
-                    - name: Mail
-                      link: /core_app/new/prep/interface/add_source.html#mail
-                    - name: Snowflake
-                      link: /core_app/new/prep/interface/add_source.html#snowflake
-                    - name: Google trends
-                      link: /core_app/new/prep/interface/add_source.html#google-trends
-                    - name: Facebook
-                      link: /core_app/new/prep/interface/add_source.html#facebook
-                    - name: Amazon Redshift
-                      link: /core_app/new/prep/interface/add_source.html#amazon-redshift
-
-                - name: Extensions #done
-                  link: /core_app/new/integration/integrations.html
-                - name: Refine Data #done
-                  link: /core_app/new/prep/interface/refine_data.html
-                - name: Calculated fields #done
-                  link: /core_app/new/prep/interface/calculated_fields.html
-                - name: Table connect (Direct query) #done
-                  link: /core_app/new/prep/interface/direct_query.html
-                - name: Block Output #done
-                  link: /core_app/new/prep/interface/block_output.html
-                  subnav:
-                    - name: Metrics Relation #done
-                      link: /core_app/new/prep/interface/metrics_relation.html
-                    - name: Unit #done
-                      link: /core_app/new/prep/interface/unit.html
-                    - name: Threshold #done
-                      link: /core_app/new/prep/interface/threshold.html
-                    - name: Focused and excluded dimensions #done
-                      link: /core_app/new/prep/interface/focusExcluded_dimensions.html
-                - name: Export Analysis #done
-                  link: /core_app/new/prep/interface/extract_analysis.html
-              # subnav:
-              #   - name: Licences
-              #     link: /core_app/new/interface/homepage/admin/admin.html#licences
-              #   - name: Security
-              #     link: /core_app/new/interface/homepage/admin/admin.html#security
-              #   - name: Statistics
-              #     link: /core_app/new/interface/homepage/admin/admin.html#statistics
         - name: Solutions interface #done
           link: /core_app/new/interface/header/header.html
           type: h4
@@ -180,36 +113,18 @@
       link: /core_app/new/integration/integrations.html
       type: h3
       subnav:
-        - name: Power BI
-          link: /core_app/new/integration/PowerBI.html
-          type: h4
-          subnav:
-            - name: Power BI - Full Version #done
-              link: /core_app/new/integration/PowerBI.html
-            - name: Power BI - Demo #done
-              link: /core_app/new/integration/PowerBI_demo.html
         - name: Open Ai
           link: /core_app/new/integration/AI/Introduction.html
           type: h4
           subnav:
             - name: How to connect
               link: /core_app/new/integration/AI/OpenAi-connect.html
-        - name: Tableau
-          link: /core_app/new/integration/tableau.html
-          type: h4
-          subnav:
-            - name: Tableau - Compare - Demo #done
-              link: /core_app/new/integration/tableau_compare_demo.html
-        - name: Looker Studio
-          link: /core_app/new/integration/Looker_studio.html
-          type: h4
-
       # subnav:
       #   - name: Plan and Payment  #done
       #     link: /core _app/new/interface/payment.html
 - name: Compare
   link: /core_app/new/compare/compare.html
-  type: bold
+  type: separated
   subnav:
     - name: Introduction
       link: /core_app/new/compare/compare_introduction.html
@@ -254,7 +169,7 @@
               link: /core_app/new/interface/subheader/metrics_relation.html
             - name: Settings #done
               link: /core_app/new/compare/interface/subheader/settings.html
-    - name: Compare on Marketplace
+    - name: Compare extensions
       link: /extensions/datama-compare/introduction.html
       type: h3
       subnav:
@@ -269,18 +184,25 @@
               link: /extensions/how-to-use/pricing_plan_looker.html
 
         - name: Compare on Tableau
-          link: /extensions/how-to-use/tableau-viz_compare.html
+          link: /core_app/new/integration/tableau_compare_demo.html
           type: h4
           subnav:
-            - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan_tableau.html
-
+              - name: Tableau - Viz Extension
+                link: /extensions/how-to-use/tableau-viz_compare.html
+              - name: Tableau - Full version
+                link: /core_app/new/integration/tableau.html
+              - name: Pricing Plan
+                link: /extensions/how-to-use/pricing_plan_tableau.html
         - name: Compare on Power BI
-          link: /extensions/how-to-use/power-bi_compare.htm
+          link: /extensions/how-to-use/power-bi_compare.html
           type: h4
           subnav:
-            - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan_pbi.html
+              - name: Power BI - Full Version #done
+                link: /core_app/new/integration/PowerBI.html
+              - name: Power BI - Markeplace #done
+                link: /core_app/new/integration/PowerBI_demo.html
+              - name: Pricing Plan
+                link: /extensions/how-to-use/pricing_plan_pbi.html
 
         - name: Compare on Qlik
           link: /extensions/how-to-use/qlik_compare.html
@@ -351,7 +273,7 @@
             #     link: /core_app/new/detect/settings.html#comparison
             #   - name: KPI #done
             #     link: /core_app/new/detect/settings.html#kpi
-  - name: Detect on Marketplace
+  - name: Detect extensions
     link: /extensions/datama-detect/introduction.html
     type: h3
     subnav:
@@ -521,7 +443,7 @@
                 - name: KPI
                   link: /core_app/new/assess/settings.html#kpi
 
-    - name: Assess on Markeplace
+    - name: Assess extensions
       link: /extensions/datama-assess/introduction.html
       type: h3
       subnav:
@@ -530,6 +452,7 @@
           type: h4
         - name: Assess on Looker Studio
           link: /extensions/how-to-use/looker-studio_assess.html
+          type: h4
           subnav:
             - name: Pricing Plan 
               link: /extensions/how-to-use/pricing_plan_looker.html
@@ -626,6 +549,83 @@
         - name: Online acquisition
           link: /core_app/new/journey/use_cases_examples/online_acquisition.html
           type: h4
+- name: Prep #done
+  link: /core_app/new/prep/prep.html
+  type: bold
+  subnav:
+    - name: Dataset #done
+      link: /core_app/new/prep/dataset.html
+      type: h3
+    - name: Prep interface #done
+      link: /core_app/new/prep/prep_interface.html
+      type: h3
+      subnav:
+        - name: Add Source #done
+          link: /core_app/new/prep/interface/add_source.html
+          type: h4
+          subnav:
+            - name: Google Sheet
+              link: /core_app/new/prep/interface/add_source.html#google-sheet
+            - name: Excel File
+              link: /core_app/new/prep/interface/add_source.html#excel-file
+            - name: csv File
+              link: /core_app/new/prep/interface/add_source.html#csv-file
+            - name: Calendar
+              link: /core_app/new/prep/interface/add_source.html#calendar
+            - name: Google Analytics 3
+              link: /core_app/new/prep/interface/add_source.html#google-analytics-3
+            - name: Google Analytics 4 (beta)
+              link: /core_app/new/prep/interface/add_source.html#google-analytics-4-beta
+            - name: Google Google BigQuery
+              link: /core_app/new/prep/interface/add_source.html#google-google-bigquery
+            - name: Mail
+              link: /core_app/new/prep/interface/add_source.html#mail
+            - name: Snowflake
+              link: /core_app/new/prep/interface/add_source.html#snowflake
+            - name: Google trends
+              link: /core_app/new/prep/interface/add_source.html#google-trends
+            - name: Facebook
+              link: /core_app/new/prep/interface/add_source.html#facebook
+            - name: Amazon Redshift
+              link: /core_app/new/prep/interface/add_source.html#amazon-redshift
+
+        - name: Extensions #done
+          link: /core_app/new/integration/integrations.html
+          type: h4
+        - name: Refine Data #done
+          link: /core_app/new/prep/interface/refine_data.html
+          type: h4          
+        - name: Calculated fields #done
+          link: /core_app/new/prep/interface/calculated_fields.html
+          type: h4          
+        - name: Table connect (Direct query) #done
+          link: /core_app/new/prep/interface/direct_query.html
+          type: h4          
+        - name: Block Output #done
+          link: /core_app/new/prep/interface/block_output.html
+          type: h4          
+          subnav:
+            - name: Metrics Relation #done
+              link: /core_app/new/prep/interface/metrics_relation.html
+            - name: Unit #done
+              link: /core_app/new/prep/interface/unit.html
+            - name: Threshold #done
+              link: /core_app/new/prep/interface/threshold.html
+            - name: Focused and excluded dimensions #done
+              link: /core_app/new/prep/interface/focusExcluded_dimensions.html
+        - name: Export Analysis #done
+          link: /core_app/new/prep/interface/extract_analysis.
+          type: h4          
+      # subnav:
+      #   - name: Licences
+      #     link: /core_app/new/interface/homepage/admin/admin.html#licences
+      #   - name: Security
+      #     link: /core_app/new/interface/homepage/admin/admin.html#security
+      #   - name: Statistics
+      #     link: /core_app/new/interface/homepage/admin/admin.html#statistics
+
+
+
 - name: Marketplace
   link: /extensions/index.html
   type: separated

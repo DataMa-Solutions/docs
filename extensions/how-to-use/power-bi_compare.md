@@ -30,8 +30,17 @@ keywords: Power BI get started powerbi
 
 <br/> -->
 
+
+<div class="info-box">
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/core_app/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
+
+<br>
+
 ## 1. Overview
-This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://appsource.microsoft.com/fr-fr/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+This section provides detailed documentation for the "Compare" extension on Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+
+This Power Bi extension is available in two modes : connected to the Datama WebApp (aka "Full version") or the version available on the Power BI marketplace disconnected from the WebApp solution (aka "light version").
+
 
 Watch this video to properly understand our extension and how to use it.
 
@@ -151,8 +160,3 @@ If you require assistance or have any questions, feel free to reach out. We're h
 - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>
-
-## 10. Power BI Version History
-- **1.0.0.1 (2024-01-20)**: Initial release.
-- **1.3.14.0 (2024-07-01)**: Beta for comments, multiple fix.
-

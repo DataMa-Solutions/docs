@@ -129,6 +129,11 @@ body {
       border-radius: 8px;
     }
 
+    nav a.active h3, nav a.active h4 {
+      font-weight: 600;
+    }
+
+
     nav a.active .collapser {
       font-weight: 600;
     }

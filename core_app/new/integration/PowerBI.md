@@ -1,5 +1,5 @@
 ---
-title: Power BI extension
+title: Power BI extension connected to the WebApp
 description: Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
 layout: new-page
 scope: Datama/saas
@@ -12,7 +12,8 @@ keywords: full app integration embed embedded add-on addons addon Power BI power
 
 <br>
 
-<i> **Note**: Datama provides two different Power BI extension, the full extension (explained below) and the "light" [version](https://datama-solutions.github.io//docs/extensions/how-to-use/power_bi.html) available in the Power BI Marketplace. </i>
+<div class="info-box">
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/core_app/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
 
 <br>
 

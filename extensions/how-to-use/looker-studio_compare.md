@@ -104,21 +104,24 @@ Once you've imported the extension, here is how you can use it.
 4.  **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 <br/>
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
 
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
 
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmore.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmore.gif" /></center>
 
 
 <br/>
 
+<div class="info-box">
+<strong> Tip:</strong> When you want to compare period: Create a calculated field as a 1st dimension to choose what to put as a Start & End element in this dimension. This calculated field could then be used as Dropdown menu to better select the period you want to compare
+</div>
 
 <br/>
 
