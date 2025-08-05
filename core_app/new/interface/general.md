@@ -16,13 +16,14 @@ keywords: Datama interface, solutions, marketplace, extensions
 
 The Datama interface has been designed to provide an intuitive and efficient user experience. It consists of several key elements that enable smooth navigation and quick access to various features.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
-
 <br>
 
 # 2. Available Solutions
 
 Datama offers several solutions tailored to your data analysis needs:
+
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
 
 <br>
 
@@ -35,8 +36,11 @@ Datama offers several solutions tailored to your data analysis needs:
 
 ## 2.2 Data Visualisation Tools Extensions
 
-Datama is available on major Business Intelligence platforms:
+Datama also offers light version as below:
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/Datama extensions.png" width="70%"/></center>
+
+These extensions are available on major Business Intelligence platforms:
 - [Tableau](https://tableau.com) - Datama Extension for Tableau
 - [Power BI](https://powerbi.com) - Datama Connector for Power BI
 - [Looker Studio](https://lookerstudio.google.com) - Datama Integration
@@ -57,7 +61,7 @@ The Datama interface consists of several essential elements:
 
 ## 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
 The main menu includes:
-- **File**: [Document and settings management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/file)
+- **File**: [Document and settings management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/file)
 - **Edit**: [Modification and customization tools]({{site.url}}/{{site.baseurl}}/core_app/new/interface/edit)
 - **Data**: [Import and data source management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/data)
 - **Help**: [Documentation and support]({{site.url}}/{{site.baseurl}}/core_app/new/interface/help)
