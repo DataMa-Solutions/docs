@@ -13,10 +13,17 @@ keywords: full app header menu data
 
 - **Edit in Prep** : open Prep to modify the data flow.
 - **Analyze** : choose a tool in which to run a computation
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/data_analyze.png"/></center>
+
 - **Edit metrics relation** : choose your customized metrics to measure.
-- **Clean Cache** : clear the cache in memory.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/data_metrics.png"/></center>
+
+- **Compute** : start the calculation and display workbook results.
+- **Clean Cache** : clear the cache in memory and update data pulling.
 
 
 
-Don't hesitate to contact us if you need any other connections to your data.
+Don't hesitate to <a href="https://datama.io/lets-talk/" target="_blank">contact us</a> if you need any other connections to your data.
 

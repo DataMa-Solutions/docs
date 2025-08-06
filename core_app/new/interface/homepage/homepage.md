@@ -84,8 +84,7 @@ Access workbooks from the **"Recent" section** or within **folders in your works
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
 
-**Folders**
-To better organize your workbooks, create **folders** in the "Workbooks" section.
+- **Folders** : To better organize your workbooks, create **folders** in the "Workbooks" section.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/folders_icon.png"/></center>
 

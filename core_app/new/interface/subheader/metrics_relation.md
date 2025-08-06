@@ -8,16 +8,16 @@ keywords: full app subheader sub header metrics relation mr metric
 
 <br>
 
-> **Metric relation** describes the equation between metrics of your source, in order to compute the KPI you want to explain.
+> **Metric relation** or **Marcket equation** describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 
 <br>
 
 # 1. Description of Metrics Relation
 
-When using the solution, you can access the definition of your metric relation in the Subheader > KPI > Settings. Otherwise metrics relation are available in the Output block of Datama Prep.
+You can see the your market equation at the top of your workbook. To modify it, you can click on "Setting" at top right, then "KPI & market equation", or return to Datama Prep. 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/Edit_metricsrel.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/accessmarketequation.gif"/></center>
 
 <br/>
 
@@ -27,7 +27,7 @@ In the Subheader, the steps included will be indicated by a green outline.
 
 Excluded steps will disappear from the header.
 
-To re-include a step, click on KPI to access all the steps from the metric relation. From here you can re-include the gray outlined steps or remove a step.
+To re-include a step, click on "KPI & market equation" to access all the steps from the metric relation. From here you can re-include the gray outlined steps or remove a step.
 
 <br>
 
@@ -35,9 +35,8 @@ To re-include a step, click on KPI to access all the steps from the metric relat
 
 Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/metrics_relation.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/metrics_relation.png"/></center>
 
-Instead of "prod", you can build your own market equation, such a "sum" for examples or even more customized one.
 
 <br>
 
@@ -46,9 +45,13 @@ Instead of "prod", you can build your own market equation, such a "sum" for exam
 By default Datama create a product of ratio (prod) with all the steps defined in the metrics relation.
 But you can change it with "sum" to add each steps. e.g: <span style="color:red">Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1) </span>.
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/sum_equation.gif"/></center>
+
 When customising your metrics relation you should write it as below using each step between brackets (e.g. [1]) :
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/custom_metricsRel.jpg"/></center>
 When modifying a market equation make sure your calculation is still correct. In your dataset your market equation of a specific row should be equal to the last column of your dataset (only for default market equation).
+
+<center><img le="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/equal.png"/></center>
 
 <br>
 

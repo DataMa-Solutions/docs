@@ -12,11 +12,11 @@ keywords: full app subheader sub header
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.png"/></center>
 
 <br>
 
-For all Datama Solution tools (Prep, Compare, Assess and Pivot), a contextual subheader gives you access to several options for managing your work. In this part, we give a brief overview of these common option menus : Comparison, filters, KPIs, Settings,...
+For all Datama Solution tools (Prep, Compare, Assess and Pivot), a contextual subheader gives you access to several options for managing your work. In this part, we give a brief overview of these common option menus : Comparison, Dimension Helper, filters, KPIs, Settings,...
 
 <br>
 

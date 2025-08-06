@@ -20,14 +20,14 @@ The Datama interface has been designed to provide an intuitive and efficient use
 
 # 2. Available Solutions
 
-Datama offers several solutions tailored to your data analysis needs:
-
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
+Datama offers several solutions tailored to your data analysis needs.
 
 <br>
 
 ## 2.1 Web Solution
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
+
 - Complete interface accessible via browser
 - Advanced analysis and visualization features
 - Extensive dashboard customization
@@ -60,16 +60,18 @@ The Datama interface consists of several essential elements:
 <br>
 
 ## 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
-The main menu includes:
-- **File**: [Document and settings management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/file)
-- **Edit**: [Modification and customization tools]({{site.url}}/{{site.baseurl}}/core_app/new/interface/edit)
-- **Data**: [Import and data source management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/data)
-- **Help**: [Documentation and support]({{site.url}}/{{site.baseurl}}/core_app/new/interface/help)
+Click on the title **Header** above to know how to use the main menu including:
+
+<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
 <br>
 
 ## 3.3. [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html)
-Contextual toolbar with:
+
+Click on the title **Subheader** above to know how to use:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.png"/></center>
+
 - Dynamic filters
 - Metric relationships
 - Dimension comparison

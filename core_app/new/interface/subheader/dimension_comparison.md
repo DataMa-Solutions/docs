@@ -12,7 +12,7 @@ keywords: full app subheader sub header settings dimension comparison
 
 <br>
 
-Defining what you want to compare is the very first step of your analysis in Datama Compare. In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions. This menu will also allo to compare a comparison. 
+Defining what you want to compare is the very first step of your analysis in Datama Compare. In the waterfall you can either compare dates (start period vs end period) or segments of other dimensions. This menu will also allow to compare a comparison. 
 
 <br>
 
@@ -23,7 +23,7 @@ Defining what you want to compare is the very first step of your analysis in Dat
 
 By default, Datama selects the first column of your dataset as the comparison dimension.
 
-You can change the comparison dimension by:
+You can change the comparison dimension as following:
 - Click on the comparison icon on the top left corner and then click on the gear icon to access the dimension you want to use for comparison
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/comparison.png"/></center>
 

@@ -6,11 +6,9 @@ scope: Datama/saas
 keywords: full app header menu file
 ---
 
-> Find out how you can use **the File** menu of the header of the Solution**
+> Here are the options available in the **File** header menu:
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/file_menu.png"/></center>
-
-Here are the options available in the "File" header menu:
 
 - **Save** : update changes to your current workbook.
 - **Save as** : save changes as a new workbook.
@@ -30,5 +28,5 @@ Here are the options available in the "File" header menu:
 - **About this workbook** : get the workbook's properties.
 
 
-Don't hesitate to contact us if you need any other connections to your data.
+Don't hesitate to <a href="https://datama.io/lets-talk/" target="_blank">contact us</a> if you need any other connections to your data.
 
