@@ -12,12 +12,17 @@ keywords: full app integration embed embedded add-on addons addon
 
 <br>
 
-![LookerStudio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/prep_extensionDataSet.png)
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/viz_tools.png"/></center>
 
 <br>
 
 Check the documentation of the tool you’re interested in to see how you can leverage it:
 
+<!-- - [Tableau Software]({{site.url}}/{{site.baseurl}}/core_app/new/integration/tableau.html)
+- [Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/powerbi.html)
+- [Looker Studio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/looker_studio.html) -->
+
 - [Tableau Software]({{site.url}}/{{site.baseurl}}/core_app/new/integration/tableau.html)
 - [Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/powerbi.html)
-- [Looker Studio]({{site.url}}/{{site.baseurl}}/core_app/new/integration/looker_studio.html)
+- [Looker Studio]({{site.url}}/{{site.baseurl}}/extensions\how-to-use\looker-studio_compare.html)
+- [Qlik]({{site.url}}/{{site.baseurl}}/extensions\how-to-use\qlik_compare.html)
