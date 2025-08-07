@@ -99,7 +99,7 @@ Find out how you can use **the Help** menu of the header of the Solution :
 
 <center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/run and cache the flow.png"/></center>
 
-Run the preset proceess and retain the data source cache.
+This function is a shortcut of "Clear cache", which allows to re-pull the data source and re-do the calculation.
 
 <br>
 
@@ -115,7 +115,7 @@ Allow to put the analysis in full mode, with limited settings but full interacti
 
 <center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/play.png"/></center>
 
-This button allows to reset the calculation. 
+This button is the shortcut of "Compute" which allows to reset the calculation. 
 
 <br>
 
@@ -123,7 +123,7 @@ This button allows to reset the calculation.
 
 <center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/schedule and share.png"/></center>
 
-Export this analysis to be sent on a regular basis via Slack, Teams, email... and share this workbook with your team or certain colleagues only. 
+Export this analysis to be sent on a regular basis via Slack, Teams, email... and share this workbook with your team or certain colleagues only. [Know more]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/extract_analysis)
 
 <br>
 
