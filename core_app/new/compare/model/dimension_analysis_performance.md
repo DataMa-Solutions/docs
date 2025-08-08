@@ -12,7 +12,7 @@ keywords: full app compare dimension analysis
 
 <br>
 
-This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
+This page focuses on describing the Performance effect.
 
 <br>
 

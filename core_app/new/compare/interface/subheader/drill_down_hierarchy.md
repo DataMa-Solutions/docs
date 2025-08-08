@@ -1,7 +1,7 @@
 ---
 title: Drill down hierarchy
 description: Edit main drill down hierarchy for comparison by Steps or Dimension first
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare drill down hierarchy
 ---

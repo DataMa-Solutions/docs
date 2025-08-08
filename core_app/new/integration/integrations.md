@@ -26,7 +26,7 @@ Check the documentation of the tool you’re interested in to see how you can le
 
 Learn more about full app extensions :
 - [Tableau Software]({{site.url}}/{{site.baseurl}}/core_app/new/integration/tableau.html)
-- [Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/powerbi.html)
+- [Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/PowerBI.html)
 
 Learn more about light extensions :
 - [Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)

@@ -12,25 +12,7 @@ keywords: full app compare settings
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.jpg"/></center>
-
-<br>
-
-These settings are organized into several categories:
-
-- [Compare Model](#compare-model)
-Configure how the analysis is performed, including drill-down hierarchy, mix/performance split, and other core analysis parameters.
-
-- [Workbook Style](#workbook-style) 
-Enable advanced features like comparable dates, combined dimensions, and smart dimension capabilities.
-
-- [Text Generation](#text-generation)
-Customize the depth of analysis and add textual complements to enhance understanding.
-
-- [Advanced Parameters](#advanced-parameters)
-Fine-tune your analysis with technical options like percentage aggregation, significance testing, and other specialized parameters.
-
-Each of these settings can be adjusted to precisely match your analytical needs.
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Compare_setting_gear.gif"/></center>
 
 <br>
 
@@ -73,8 +55,6 @@ Each of these settings can be adjusted to precisely match your analytical needs.
   - [Include 0 for Y axis](#include-0-for-y-axis)
 
 -->
-
-<br>
 
 # <b>1. Settings level</b>
 
