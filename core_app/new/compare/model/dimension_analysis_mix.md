@@ -46,7 +46,7 @@ e.g. If you are selling several products, and if the share of an individual prod
 
 <br>
 
-# 3. Example in a eCommerce
+# 3. Example in Ecommerce
 
 For instance, say mobile users generally convert much lower than desktop users (which is often the case). If last week you had much more desktop users than this week, then the conversion this week will be mathematically lower, just because of that change in device mix.
 

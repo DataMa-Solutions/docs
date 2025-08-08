@@ -13,7 +13,7 @@ keywords: full app compare header
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_header.png">
+<img style = "width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_header.png">
 
 <br>
 

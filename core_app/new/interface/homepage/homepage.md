@@ -92,7 +92,7 @@ Access workbooks from the **"Recent" section** or within **folders in your works
 
 ## **5. Preset Workbooks**
 
-If you've never created a workbook before, use the **Preset Workbook** feature to generate one with your data.
+If you've never created a workbook before (only if no workbook has been saved yet), use the **Preset Workbook** feature to generate one with your data.
 
 **Steps to Create a Preset Workbook**
 1. **Select your data source** and follow the steps.
