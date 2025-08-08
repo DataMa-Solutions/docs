@@ -84,8 +84,7 @@ Access workbooks from the **"Recent" section** or within **folders in your works
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
 
-**Folders**
-To better organize your workbooks, create **folders** in the "Workbooks" section.
+- **Folders** : To better organize your workbooks, create **folders** in the "Workbooks" section.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/folders_icon.png"/></center>
 
@@ -93,7 +92,7 @@ To better organize your workbooks, create **folders** in the "Workbooks" section
 
 ## **5. Preset Workbooks**
 
-If you've never created a workbook before, use the **Preset Workbook** feature to generate one with your data.
+If you've never created a workbook before (only if no workbook has been saved yet), use the **Preset Workbook** feature to generate one with your data.
 
 **Steps to Create a Preset Workbook**
 1. **Select your data source** and follow the steps.

@@ -31,19 +31,23 @@ Then, open the comparison helper by default as shown on the screenshot.
 
 <br>
 
-Change your selection by using the carret in the title of the graph. 
+Change your comparison dimension or metrics by using the drop-down list in the title of the graph. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/compare_helper_dimensions.png"/></center>
 
 <br>
 
-The graph represents in blue and orange what is selected as a comparison (start and end) in your analysis and in gray the value of the part that are not selected in the scope of your analysis (part of the data filtered or ignored in the start/ end definition).
+The graph represents in blue and orange what is selected as a comparison (start and end) in your analysis. The gray part is out of scope of your analysis (part of the data filtered or ignored in the start/ end definition).
+
+You can also click on the drop-down list at the place of "Helpers" and change it to "New helpers", you will get another helper view.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/compare_new_helper.png"/></center>
 
 <br>
 
-## Hide or display some element
+## 1.1 Hide or display some element
 
- click on the legend to remove some bars (orange, blue or gray)
+ click on the legend to remove some bars (orange, blue or gray). This function for "Helpers" view but not for "New helper".
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/compare_helper_tip.png"/></center>
 

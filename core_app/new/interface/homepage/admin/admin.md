@@ -1,7 +1,7 @@
 ---
 title: Homepage - Admin
 description: On this page, find details on the Admin section of the homepage
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app home admin
 ---
@@ -17,38 +17,26 @@ keywords: full app home admin
 
 This chapter gathers different features shared amongst the homepage, such as:
 
-1. [Products](#products)
+<!-- 1. [Profile](#products)
 2. [Security](#security)
 3. [Statistics](#statistics)
 4. [Manage Licence](#manage-licence)
-5. [Extensions](#extensions)
+5. [Extensions](#extensions) -->
 
 <br>
 
-# 1. Products
+# 1. Profile
 
-Discover the products available in your plan and active modules. 
-You can choose between: 
-- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare.html)
-- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html)
-- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot.html)
-- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess.html)
-- [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html)
+In this page, you can find all your account information, your profile information, Datama ID, you can also reset your password here.
 
 <br>
 
-# 2. Security
+# 2. Extensions 
 
-
-This menu gives you access to a configuration panel for your account. You can add a license key or change your login information.
-
-Administrator accounts are also able to manage the activity of other company accounts.
+This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/security.png"/></center>
-
-<br>
 
 # 3. Statistics
 
@@ -63,20 +51,6 @@ At Datama, the consumption of the solution is made according to the number of co
 
 <br>
 
-# 4. Manage Licence
-
-This menu is one way to retrieve your licence key for Datama extensions. 
-
-<br>
-
-
-# 5. Extensions 
-
-This menu allows you to access the extensions integrated into Tableau, PowerBI, and Looker Studio. You can subscribe to the Datama extension in any of these tools you used to use from this page.
-
-<br>
-
-<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/products.png"/></center>
 
 
 <!-- # <b>Licences</b>

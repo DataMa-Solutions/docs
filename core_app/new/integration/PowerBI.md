@@ -13,7 +13,7 @@ keywords: full app integration embed embedded add-on addons addon Power BI power
 <br>
 
 <div class="info-box">
- <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/core_app/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
 
 <br>
 

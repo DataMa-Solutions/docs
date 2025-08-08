@@ -1,7 +1,7 @@
 ---
 title: Prep - Export Analysis
 description: This section helps you automatise the export of your analysis
-layout: page
+layout: page 
 scope: Datama/saas/prep
 keywords: full app prep report export schedule extract analysis
 ---
@@ -40,7 +40,7 @@ Here's what it's going like to be in Datama Prep:
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_export.png"/></center>
 
 but you can also access the export menu within each solution.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportToggle.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportToggle.png"/></center>
 
 
 Here are the available connectors to extract your analysis:
@@ -102,7 +102,7 @@ Here are the available connectors to extract your analysis:
 
 This extraction allows to create URL accessible to every user without login to Datama.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/export_URLCreateNew.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/export_URLCreateNew.png"/></center>
 
 Activate <i>Public URL</i> to make the URL accessible to user without login to the Datama account, when deactivated user will need to be logged-in.
 

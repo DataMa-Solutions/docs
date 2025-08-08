@@ -16,17 +16,18 @@ keywords: Datama interface, solutions, marketplace, extensions
 
 The Datama interface has been designed to provide an intuitive and efficient user experience. It consists of several key elements that enable smooth navigation and quick access to various features.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
-
 <br>
 
 # 2. Available Solutions
 
-Datama offers several solutions tailored to your data analysis needs:
+Datama offers several solutions tailored to your data analysis needs.
 
 <br>
 
 ## 2.1 Web Solution
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
+
 - Complete interface accessible via browser
 - Advanced analysis and visualization features
 - Extensive dashboard customization
@@ -35,8 +36,11 @@ Datama offers several solutions tailored to your data analysis needs:
 
 ## 2.2 Data Visualisation Tools Extensions
 
-Datama is available on major Business Intelligence platforms:
+Datama also offers light version as below:
 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/Datama extensions.png" width="70%"/></center>
+
+These extensions are available on major Business Intelligence platforms:
 - [Tableau](https://tableau.com) - Datama Extension for Tableau
 - [Power BI](https://powerbi.com) - Datama Connector for Power BI
 - [Looker Studio](https://lookerstudio.google.com) - Datama Integration
@@ -56,16 +60,18 @@ The Datama interface consists of several essential elements:
 <br>
 
 ## 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
-The main menu includes:
-- **File**: [Document and settings management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/file)
-- **Edit**: [Modification and customization tools]({{site.url}}/{{site.baseurl}}/core_app/new/interface/edit)
-- **Data**: [Import and data source management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/data)
-- **Help**: [Documentation and support]({{site.url}}/{{site.baseurl}}/core_app/new/interface/help)
+Click on the title **Header** above to know how to use the main menu including:
+
+<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
 <br>
 
 ## 3.3. [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html)
-Contextual toolbar with:
+
+Click on the title **Subheader** above to know how to use:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.png"/></center>
+
 - Dynamic filters
 - Metric relationships
 - Dimension comparison
