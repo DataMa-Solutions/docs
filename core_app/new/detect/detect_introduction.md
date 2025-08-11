@@ -27,7 +27,7 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 
 ## Interface of Detect
 
-Discover [more]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_interface.md) about the interface in the proper section.
+Discover [more]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_interface.html) about the interface in the proper section.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/Example_AnomalyDetection.gif"/></center>
 
@@ -41,6 +41,11 @@ By default, the most relevant outlier is selected, but you can also choose any p
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_anomalyExplanation.jpg"/></center>
 
 <br>
+
+<div class="info-box">
+  <strong>Note</strong>: By default, Datama selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation. 
+  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/metricchange.gif"/></center>
+</div>
 
 ## Dataset needed for Detect
 

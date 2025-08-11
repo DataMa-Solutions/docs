@@ -14,6 +14,7 @@ keywords: full app compare settings
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Compare_setting_gear.gif"/></center>
 
+
 <br>
 
 <!--
@@ -64,7 +65,7 @@ Color palette and default language for example can be modified at both level.
 <br>
 
 # <b> 2. Compare Model </b>
-
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/advanced_setting.png"/></center>
 ## 2.1 Methodology
 
 <br>
@@ -125,7 +126,11 @@ Options for this input are:
 
 ## 2.3 Advanced Settings
 
-### 2.3.1 Covariance roll up
+### 2.3.1  Aggregation in %
+
+Level of aggregation: The threshold used by the model to group small segments. For example, if the level of aggregation is set at X%, any segment within each dimension that represents less than X% of the Primary Numerator (e.g., revenues) of the main KPI being analyzed will be clustered into a single “Other” segment. By default, X is 2%, but adjusting this parameter can significantly affect the calculation of mix effects.
+
+### 2.3.2 Covariance roll up
 
 By default in Datama Compare, the covariance between each step of the market equation is distributed on total computation level.
 
@@ -136,19 +141,19 @@ However in some cases, you might want this distribution to be done at a lower le
 To use it :<br>
 Activate the covariance roll up toggle.<br>
 Select the dimension you want for sub-segment distribution of covariance.<br>
-See an example below:
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/CovarianceRollup.png"/></center>
 
 <br/>
 
-### 2.3.2 Max segment displayed
+
+
+### 2.3.3 Max segment displayed
 
 Decide how many segments you want to display in every waterfall graph.
 By default this parameter is set at '4'.
 
 <br>
 
-### 2.3.3 Significance test
+### 2.3.4 Significance test
 
 When owning a license of Datama Assess (aka Datama Impact), you can activate the significance test.
 Switch on to compute significance of steps variations, using Datama Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
@@ -159,7 +164,7 @@ The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_ap
 
 <br>
 
-### 2.3.4 Include 0 for Y axis
+### 2.3.5 Include 0 for Y axis
 
 By default active, this makes the 0 line appear on the waterfall
 When deactivated Datama will adapt the Axis to your dataset. This help to better display small variations.
@@ -167,6 +172,7 @@ When deactivated Datama will adapt the Axis to your dataset. This help to better
 <br>
 
 # <b>3. Workbook style</b>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/workbook_style.png"/></center>
 
 ## 3.1 Language and colors 
 
@@ -226,6 +232,7 @@ This setting allows you to control the number of decimal places displayed in you
 <br>
 
 # <b>4. KPI & Markets Equation</b>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/market_equation.png"/></center>
 
 The market equation is the foundation of your analysis in Datama Compare. It defines how your metrics are related to each other to compute your main KPI. For example, in retail, Revenue can be broken down as: Revenue = Volume * (Revenue/Volume), where Volume represents the number of products sold and Revenue/Volume is the average price per unit.
 
@@ -239,10 +246,18 @@ For more detailed information on how to build and optimize your market equation,
 <br>
 
 # <b>5. Dimensions</b>
-
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Dimensions.png"/></center>
 ## 5.1 Comparison
 
 When comparing two ranges of dates with same number of days, Datama now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
+
+<div class="info-box">
+  <strong>Dynamic mode for comparisons"</strong>: For each comparison you add, you can enable dynamic mode, especially useful when comparing two date-based metrics. For example, if you want to always compare Last Week vs. Last Week of Last Year, you need to ensure the most recent week in your dataset is always selected. Let’s say the current last week is Week 35, but over time this will change to Week 36, 37, 38, etc. To keep the week number dynamic, you can "use ascending position instead of fixed values when saving". By applying "ascending", Datama sorts weeks in ascending order and always selects the highest week number for comparison. Read more on <a href="https://datama-solutions.github.io/docs/tip_of_the_week.html#:~:text=Tip%20of%20the%20week%20%2348
+  ">this page</a>
+
+</div>
+
+You can add filter to include or exclude the dimension, the segement you want, it also works in a dynamic way bu checking "use ascending/descending position instead of fixed values when saving".
 
 <br >
 
@@ -324,6 +339,7 @@ Datama first analyzes raw data to identify and quantify variations in key perfor
 <br>
 
 ### 6.1.2 OpenAI Integration
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/AI.png"/></center>
 The generated insights are then processed by OpenAI's language model. OpenAI enhances these narratives by adding contextual insights, ensuring that explanations are complete and tailored to the specific context of your data and business.
 
 <br>
@@ -336,6 +352,7 @@ The generated insights are then processed by OpenAI's language model. OpenAI enh
 <br>
 
 # <b>7. Saving Options</b>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Saving_options.png"/></center>
 
 ## 7.1 Basic Save
 - Click on the "Save" icon to update your current use case

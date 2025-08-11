@@ -12,17 +12,9 @@ keywords: full app detect detection method
 
 <br>
 
-There is basically two type of methods existing in Datama Detect to spot anomalies in your data:
+There is basically two types of methods existing in Datama Detect to spot anomalies in your data:
 
-1. Methods based on estimated confidence interval
-    - [Forecast](#11-forecast)
-    - [Observed volatilty](#12-observed-volatility)
-2. Methods based on manually configured thresholds
-    - [Relative variation threshold](#relative-variation-threshold)
-    - [Absolute variation threshold](#absolute-variation-threshold)
-    - [Absolute value threshold](#absolute-value-threshold)
-
-The default value and more generic approach is the [Observed volatilty](#Observed-volatility). 
+The default value and more generic approach is the [Observed volatilty](#12-observed-volatility). 
 However, depending on your  use case, you may want to change that input
 
 <br>

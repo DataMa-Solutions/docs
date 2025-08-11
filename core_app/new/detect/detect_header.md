@@ -20,7 +20,7 @@ keywords: full app detect header
 # Main Sections
 
 ## 1. Anomaly Detection
-The anomaly detection feature helps identify and analyze unusual patterns in your data. See details in the [Anomaly section]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html).
+The anomaly detection feature helps identify and analyze unusual patterns in your data. See details in the [Anomaly section]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_introduction.html).
 
 ## 2. Dimension Helper
 The dimension helper provides guidance on working with different data dimensions. Learn more in the [Dimension Helper section]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html).

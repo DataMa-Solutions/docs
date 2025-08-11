@@ -45,7 +45,7 @@ This graph shows the performance effect and the mix effect within a single serie
 
 <br>
 
-Read more [details]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensions) on Mix & Performance Effects.
+Read more [details]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/dimensions.html) on Mix & Performance Effects.
 
 <br>
 
