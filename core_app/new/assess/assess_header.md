@@ -13,7 +13,7 @@ keywords: full app assess header
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_header.png">
+<img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_header.png">
 
 <br>
 

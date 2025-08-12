@@ -19,7 +19,7 @@ Here is an example of the Settings panel.
 
 The settings is detailed separately for each solution :
 - [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
-- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/settings.html)
+- [Pivot]({{site.url}}/{{site.baseurl}}//core_app/new/pivot/interface/subheader/settings.html)
 - [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/journey_header.html)
 - [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
 - [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html)

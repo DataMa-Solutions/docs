@@ -33,6 +33,6 @@ In case you’re wondering which test is best to use for your AB test, you may w
  
 Those are tests that you want to use when comparing two periods:
 
-- [Forecasting]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/forecasting.html)
+- [Forecasting]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/forecast.html)
 - [Volatility]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/volatility.html)
 - [Causal Impact]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/causal.html)

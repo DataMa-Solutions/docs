@@ -1,6 +1,92 @@
 ---
 title: Pivot - Settings
 description: Here is the different settings available in Datama Pivot
+layout: new-page
+scope: Datama/saas/pivot
+keywords: full app pivot settings subheader sub header
+---
+
+
+> Here is the different settings available in Datama **Pivot**
+
+<br>
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png"/></center>
+
+# 1. <b>Metric Relation Analysis<b>
+
+<br/>
+
+
+## 1.1 Analyse all metrics relation steps
+
+Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
+
+## 1.3 Step interest criteria
+
+There are different options: Value, Standard deviation and Auto.
+
+- **Value** : No matter what the units are, the higher the value, the higher the importance.
+- **Standard deviation** : No matter what the units are, the higher the standard deviation of the step, the higher the importance.
+- **Auto** : If all your steps have the same unit, their importance is based on the Value. If some steps don't have the same unit, the steps that are ratios are compared by Standard deviation. If all your steps are not ratios, then they are compared by standard deviation.
+
+By default, the most interesting dimension for each step is displayed first, you can of course change the display by right-clicking on the tree.
+
+## 1.4 Analysis depth
+
+The comments summing up the market equation tree have different degrees of analysis. There are 4 different options: Low, Medium, High and Max, each option giving more details than the previous one.
+
+# 2. <b>Single Dimension Clustering<b>
+<br>
+
+## 2.1 Maximum Depth of Decision Tree
+
+This function lets you set the depth of the decision tree, up to a maximum of 10 layers. By increasing the tree depth you increase the detail of the decision tree. It will be more detailed.
+
+<br>
+
+
+# 3. <b>Simplify Calculation<b>
+<br>
+
+## 3.1 Display only top 100 segments in Simple Chart
+
+This function lets you only keep the top 100 segments, making the computation faster.
+
+<br/>
+
+<!-- # 2 <b>Multiple Dimension Clustering<b>
+<br/>
+
+## 2.1 Maximum Depth Of Decision Tree
+
+**The Decision Tree is not yet avalaible in the latest version of Datama Pivot**
+
+By increasing the tree depth you increase the detail of the decision tree. It will be more detailed.
+
+<br>
+
+# 3. <b>Basic settings<b>
+<br>
+
+## 3.1 Comparison
+
+Datama Pivot can be used with a comparison. To enable this mode select a dimension and the element you want to compare. Each graph and the comments will be in a Compare mode reflecting the difference of the elements you are comparing.
+
+<br>
+
+## 3.2 KPI
+
+In Datama Pivot, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance of the dimensions.
+
+<br/> -->
+
+
+
+
+
+<!-- ---
+title: Pivot - Settings
+description: Here is the different settings available in Datama Pivot
 layout: page
 scope: Datama/saas/pivot
 keywords: full app pivot settings subheader sub header
@@ -116,4 +202,4 @@ By default, the most interesting dimension for each step is displayed first, you
 
 ## Analysis depth
 
-The comments summing up the market equation tree have different degrees of analysis. There are 4 different options: Low, Medium, High and Max, each option giving more details than the previous one.
+The comments summing up the market equation tree have different degrees of analysis. There are 4 different options: Low, Medium, High and Max, each option giving more details than the previous one. -->
