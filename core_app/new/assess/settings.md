@@ -33,7 +33,7 @@ Here's what you going to find in this chapter:
 - [KPI](#kpi) -->
 
 
-# 1. <b>Statistical approach<b>
+# 1. Statistical approach
 <br>
 
 ## 1.1. Test to Compute
@@ -121,7 +121,7 @@ Therefore, if we see words such as “increased, greater, larger, improved and s
 
 <br> -->
 
-# 2. <b>Advanced settings<b>
+# 2. Advanced settings
 <br>
 
 <center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_advanced_setting.png" alt="assess interface" /></center>
@@ -164,7 +164,7 @@ This is interesting when you are mesuring the significance for <i>date</i>, it w
 
 <br>
 
-# 3. <b>Basic settings<b>
+# 3. Basic settings
 <br>
 
 ## 3.1. Comparison

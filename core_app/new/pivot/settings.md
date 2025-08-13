@@ -37,7 +37,7 @@ keywords: full app pivot settings subheader sub header
 
 <br/> -->
 
-# 1. <b>Metric relation analysis<b>
+# 1. Metric relation analysis
 
 <br/>
 
@@ -63,7 +63,7 @@ By default, the most interesting dimension for each step is displayed first, you
 
 The comments summing up the market equation tree have different degrees of analysis. There are 4 different options: Low, Medium, High and Max, each option giving more details than the previous one.
 
-# 2. <b>Single Dimension Clustering<b>
+# 2. Single Dimension Clustering
 <br>
 
 ## 2.1 Maximum Depth of Decision Tree
@@ -106,7 +106,7 @@ For continuous elements, multiple clusters are created aggregating elements havi
 
 <br/> -->
 
-# 3. <b>Simplify Calculation<b>
+# 3. Simplify Calculation
 <br>
 
 ## 3.1 Display only top 100 segments in Simple Chart

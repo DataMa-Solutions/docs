@@ -1,7 +1,7 @@
 ---
 title: Compare (Sub)Header
 description: The header in Datama Compare helps you manipulate and refine your Use Cases
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare header
 ---
@@ -17,7 +17,7 @@ keywords: full app compare header
 
 <br>
 
-## What you will find in this chapter:
+# 1. What you will find in this chapter:
 
 - [Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
 <!-- - [Secondary Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/secondary_comparison.html) -->

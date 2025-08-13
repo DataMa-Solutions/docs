@@ -1,7 +1,7 @@
 ---
 title: Datama Assess - Our Models
 description: Statistical models used by Datama to assess the significance are based on common models for a data scientist. 
-layout: page
+layout: new-page
 scope: Datama/saas/assess
 keywords: full app assess model concept
 ---
@@ -17,7 +17,7 @@ However, you can select the test you want within model settings, under [Test to 
 
 We have two main types of models:
 
-## <b>AB Test tests:</b>
+# 1. AB Test tests:
 
 Those are classic AB test significance calculation:
 
@@ -29,7 +29,7 @@ In case you’re wondering which test is best to use for your AB test, you may w
 
 <br>
 
-## <b>Time Series tests:</b>
+# 2. Time Series tests:
  
 Those are tests that you want to use when comparing two periods:
 

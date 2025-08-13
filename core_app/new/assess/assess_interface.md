@@ -19,7 +19,7 @@ Datama Assess dashboard is made of two slides:
 
 <br>
 
-# 1. <b>The overall Significance</b>
+# 1. The overall Significance
 
 This is where you can see the output of the statistical analysis : 
 - a title saying whether or not the difference is significant
@@ -31,7 +31,7 @@ By default, Datama will select the model that best fits the type of data you’v
 
 <br>
 
-# 2. <b>The Significance by sub segment</b>
+# 2. The Significance by sub segment
 
 In this slide you can read the statistical significance of the variation within each segment of a given dimension of your dataset.
 

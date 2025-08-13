@@ -1,7 +1,7 @@
 ---
 title: Assess - Volatility model
 description: Datama uses normal distribution quantiles to identify outliers and spot “abnormal variation”. 
-layout: page
+layout: new-page
 scope: Datama/saas/assess
 keywords: full app assess model volatility
 ---

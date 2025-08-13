@@ -1,7 +1,7 @@
 ---
 title: User preferences
 description: Find here how to use the **Settings**
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app home user preferences
 ---
@@ -22,17 +22,17 @@ Color palette and default language for example can be modified at both level.
 
 <br>
 
-# Workbook style
+# 1. Workbook style
 
 <br/>
 
-## 1. Language and colors
+## 1.1. Language and colors
 
 [Analysis](#)
 
 <br/>
 
-### **1.1 Analysis Language**
+### 1.1.1. Analysis Language
 
 For now, Datama is only available in English and in French. By default Datama is in english.
 - You can change the language for a specific Use Case (Settings > Analysis Language)
@@ -40,7 +40,7 @@ For now, Datama is only available in English and in French. By default Datama is
 
 <br/>
 
-### **1.2 Colors Palette For Plots**
+### 1.1.2. Colors Palette For Plots
 
 Graphs colors are customizable, in 3 different ways.
 Grayscale, scattered and Custom.
@@ -58,23 +58,23 @@ The custom method allows to refine color by color all the graphs available in th
 
 <br/>
 
-### **1.3 Reverse palette**
+### 1.1.3. Reverse palette
 
  Reverse palette function allows to reverse the colors used to express growth or loss.
 
 <br/>
 
-## 2. Number display
+## 1.2. Number display
 
 <br/>
 
-### **2.1 Compact Numbers**
+### 1.2.1. Compact Numbers
 
 When activated, this toggle allows to automatically display large numbers with appropriate unit (e.g. 1,234 will be displayed as 1.23k).
 
 <br>
 
-### **2.2 Force Rounding**
+### 1.2.2. Force Rounding
 
 The rounding setting will bypass the smart rounding available in Datama which adapts the number of decimals according to each number.
 
@@ -82,7 +82,7 @@ The rounding setting will bypass the smart rounding available in Datama which ad
 
 <br/>
 
-# Custom settings per solution
+# 2. Custom settings per solution
 
 <br/>
 

@@ -1,7 +1,7 @@
 ---
 title: Artificial Intelligence
 description: Using Datama Solutions with OpenAi
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: openai ai enhance
 ---
@@ -18,15 +18,15 @@ Datama generates an analysis and provides sentences that explain variations in K
 
 <br>
 
-## How it works
+## 1.1. How it works
 
-### 1. Initial comments
+### 1.1.1. Initial comments
 Datama initially processes the raw data to identify and quantify variations in key performance indicators (KPIs).
 The system generates insights that explain these variations.
 
 <br>
 
-### 2. Integration with OpenAI:
+### 1.1.2. Integration with OpenAI:
 _The generated insights are then passed through OpenAI's language model._
 _OpenAI enhances these narratives by adding contextual insights, ensuring the explanations are comprehensive and tailored to the specific dataset and business context._
 

@@ -34,7 +34,7 @@ Metrics are always **numeric values**.
 
 As an input, you need to put only metrics that can be **aggregated** (i.e. summed). To simplify, this basically means that it has a business sense to sum this Metric. Eg. « Revenues » is something you can sum. However, a ratio like « Revenues/ Purchase » is something that doesn’t have much business sense to sum (Datama will do ratios for you)
 
-To decide which metrics you want in your source, everything depends on your use case. However, it’s safe to say that you want at least the metrics that you need to compute the **KPI** you want to explain. Then you would need all the metrics that are required to compute your « market equation ». Please report to [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/metric_relation.md) section for more details.
+To decide which metrics you want in your source, everything depends on your use case. However, it’s safe to say that you want at least the metrics that you need to compute the **KPI** you want to explain. Then you would need all the metrics that are required to compute your « market equation ». Please report to [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) section for more details.
 
 For more information, you can also read our [article](https://Datama.fr/how-to-build-my-business-metric-relation/) about metric relation.
 
@@ -52,7 +52,7 @@ Number of dimension are theoretically unlimited. However, as your dataset get bi
 
 > **Tip:** Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
 
-> **Warning:** Datama JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/journey.md) for more details.
+> **Warning:** Datama JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html) for more details.
 
 
 🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) you need to first configure your flow (using a variety of sources and action blocks) and then click on the Datama block there you will be able to define Metrics and relations

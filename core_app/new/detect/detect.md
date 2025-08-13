@@ -28,13 +28,13 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 
 <br>
 
-## Interface of Datama Detect
+# 1. Interface of Datama Detect
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/interface_detect.jpg "/></center>
 
 <br>
 
-## Main Sections
+# 2. Main Sections
 
 <ul>
     <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_introduction">General Introduction:</a></strong> Overview of Datama Detect's capabilities and basic concepts</li>
@@ -52,7 +52,7 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 </ul>
 <br>
 
-## Integration
+# 3. Integration
 
 Note: This documentation does not cover the setup and configuration of our browser extension. Please refer to the  documentation dedicated extension for those details.
 <!-- <a href="{{site.url}}/{{site.baseurl}}/extensions/index.html">dedicated extension</a> -->

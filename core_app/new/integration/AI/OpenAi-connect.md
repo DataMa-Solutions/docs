@@ -1,7 +1,7 @@
 ---
 title: Open Ai - How to connect
 description: Connect Datama Solutions with OpenAi
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: openai ai enhance authentication
 ---

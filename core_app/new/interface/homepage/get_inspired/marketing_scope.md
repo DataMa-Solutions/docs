@@ -1,7 +1,7 @@
 ---
 title: Marketing Campaign - Scope
 description: As presented in the data, a column called « Scope » allows to remove part of the data in the analyse but still consider this amount in the total (dark blue and light blue). The waterfall in Datama Compare assessment will not consider the out of scope data.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -14,7 +14,7 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <br>
 
-## In Datama Compare
+# 1. In Datama Compare
 
 Read our [article](https://Datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis.
 

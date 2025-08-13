@@ -1,7 +1,7 @@
 ---
 title: Datama Pivot
 description: Datama PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.
-layout: page
+layout: new-page
 scope: Datama/saas/pivot
 keywords: full app pivot
 ---

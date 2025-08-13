@@ -25,7 +25,7 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 
 <br>
 
-## Interface of Detect
+# 1. Interface of Detect
 
 Discover [more]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_interface.html) about the interface in the proper section.
 
@@ -47,13 +47,13 @@ By default, the most relevant outlier is selected, but you can also choose any p
   <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/metricchange.gif"/></center>
 </div>
 
-## Dataset needed for Detect
+# 2. Dataset needed for Detect
 
 <i>Datama Detect</i> needs at least 30 days in a the [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) to be able to evaluate a normality. Otherwise the dataset needs to have Dimensions and Metrics as for all solutions in Datama. A dataset used in <i>Datama Detect</i> could be used in the other solution as well. 
 
 <br>
 
-## Anomaly methodology
+# 3. Anomaly methodology
 
 In Detect, the dimension should be selected for assessing normality within your data. This dimension can be a date, category, or any other relevant data point.
 

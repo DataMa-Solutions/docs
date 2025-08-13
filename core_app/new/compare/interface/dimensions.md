@@ -1,7 +1,7 @@
 ---
 title: Dimensions (Mix & Perf)
 description: Dimensions and metrics are the two elements coming from your data that allow Datama COMPARE to properly work.
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare dimensions contribution mix perf
 ---
@@ -25,13 +25,13 @@ As in the example below, when your proportion of Purchase between Device change,
 
 Please report to this [article]({{site.url}}/{{site.baseurl}}/core_app/header/input/source) to learn more about metrics and dimensions.
 
-## Mix Effect
+# 1. Mix Effect
 
 For each step on each dimension, shows the total mix effect in bars.
 
 Red dots refer to the total impact of that step (as in 'Waterfall Chart'), to allow evaluation of mix effect contribution to overall impact.
 
-## Segment Moves
+# 2. Segment Moves
 
 X axis is the % of the denominator of the Step you Selected in 'Detailed view − filter' on the right.
 
@@ -43,7 +43,7 @@ Horizontal moves contributes to mix effect calculation (the value of your Step i
 
 Vertical moves contributes to segment performance calculation (the value of your Step if the entry mix of each segment would have remained the same, but the individual performance had changed.
 
-## Detailed Bridge
+# 3. Detailed Bridge
 
 The impact of mix effect and segment performance for the Step and Dimension you selected, from Start to End.
 
@@ -55,7 +55,7 @@ Positive and Negative effects  are split into top X segments contributing to the
 
 You can change the maximum number of segments displayed by playing with the slider
 
-## Biggest positive segment performance
+# 4. Biggest positive segment performance
 
 For each step on each dimension, shows the segment having the biggest positive contribution in performance, net of mix effects, in bars.
 
@@ -63,7 +63,7 @@ The width of the bar and the parenthesis '(x...)' in the call outs refers to how
 
 Red dots refer to the total impact of that step (as in 'Waterfall Chart'), to allow evaluation of segment performance contribution to overall impact.
 
-## Biggest negative segment performance
+# 5. Biggest negative segment performance
 
 For each step on each dimension, shows the segment having the biggest negative contribution in performance, net of mix effects, in bars.
 
@@ -71,7 +71,7 @@ The width of the bar and the parenthesis '(x...)' in the call outs refers to how
 
 Red dots refer to the total impact of that step (as in 'Waterfall Chart'), to allow evaluation of segment performance contribution to overall impact.
 
-## Step & Dimension selection
+# 6. Step & Dimension selection
 
 Select the Step and Dimension you want to see in second slide title or by opening and selecting the "split by" dimension in the overall waterfall
 
