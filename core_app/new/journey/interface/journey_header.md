@@ -52,7 +52,7 @@ Find here the main elements of the solution Header in Datama Journey:
 
 <br/>
 
-# 1. <b>General settings<b>
+# 1. General settings
 <br>
 
 ## 1.1. Choose column containing Path for Journey Analysis
@@ -73,7 +73,7 @@ By using the text input, you can change the seperator between steps of your jour
 
 <br>
 
-# 2. <b>Sunburst<b>
+# 2. Sunburst
 <br>
 
 ## 2.1. Reverse Journey
@@ -100,7 +100,7 @@ By default, only 6 steps of user journeys are represented. This can be changed b
 
 <br>
 
-# 3. <b>Attribution<b>
+# 3. Attribution
 <br>
 
 ## 3.1. Attribution
@@ -115,7 +115,7 @@ By using the dropdown menu, you can choose your attribution model and thus consi
 
 <br>
 
-# 4. <b>Advanced settings<b>
+# 4. Advanced settings
 <br>
 
 ## 4.1. Journey Deduping
@@ -141,7 +141,7 @@ For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch
 
 <br>
 
-# 5. <b>Basic settings<b>
+# 5. Basic settings
 <br>
 
 ## 5.1. Comparison
