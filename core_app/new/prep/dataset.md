@@ -1,7 +1,7 @@
 ---
 title: Dataset
 description: This section identify the type of data you should load
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app prep dataset metrics dimensions
 ---
@@ -24,11 +24,11 @@ As for example:
 <center> <iframe width=610 height=260 src="https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/pubhtml?gid=1408263987&single=true&widget=true&headers=false
 "></iframe> </center>
 
-## Order of columns
+# 1. Order of columns
 
 Start your dataset by Dimensions and then metrics. The Dimensions should start by the comparison dimension (see details below) followed by all the explanatories dimensions. The metrics should end with your main KPI and preceded by all the sub performance indicator that are linked to your KPI. 
 
-## Metrics
+# 2. Metrics
 
 Metrics are always **numeric values**. 
 
@@ -38,7 +38,7 @@ To decide which metrics you want in your source, everything depends on your use 
 
 For more information, you can also read our [article](https://Datama.fr/how-to-build-my-business-metric-relation/) about metric relation.
 
-## Dimensions
+# 3. Dimensions
 
 Dimensions can be either dates, characters, or even numeric values.
 

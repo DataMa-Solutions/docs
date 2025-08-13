@@ -12,7 +12,7 @@ keywords: Datama light detect Detect anomaly structure
 
 <br>
 
-## 1. Overview
+# 1. Overview
 
 The Datama Detect extension consists of three main sections: header, analysis, and footer.
 
@@ -20,7 +20,7 @@ The Datama Detect extension consists of three main sections: header, analysis, a
 
 <br>
 
-## 2. Header section
+# 2. Header section
 
 The header contains advanced global settings that allow you to configure and refine your analysis. See the dedicated section on [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings/settings.html) for more details.
 
@@ -30,7 +30,7 @@ Key elements include:
 
 <br>
 
-## 3. Analysis section
+# 3. Analysis section
 
 This section displays a time series showing either all anomalies (default setting) or just the latest data point in your dataset. You can toggle between these views using the Subheader setting "Analyze Latest Point Only".
 
@@ -65,7 +65,7 @@ The visualization includes several display options:
 
 <br>
 
-## 4. Footer section
+# 4. Footer section
 
 The footer content varies based on your subscription plan and includes:
 - Plan upgrade options
