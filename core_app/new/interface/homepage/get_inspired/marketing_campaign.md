@@ -1,7 +1,7 @@
 ---
 title: Marketing Campaign
 description: This use case is a basic example of conversion funnel used for an email campaign. In that case Datama Compare will help to compare 2 different campaign and identify the performance at each step of the two campaigns and understand from which element is mainly due this difference between each campaign.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -12,7 +12,7 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=1286768317&amp;single=true&amp;widget=true&amp;headers=false" width="920" height="440"></iframe>
 
-## In Datama Compare
+# 1. In Datama Compare
 
 Read our [article](https://Datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis
 
@@ -26,7 +26,7 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 <br>
 
-## In Datama Pivot
+# 2. In Datama Pivot
 
 Datama Pivot wil help to explain the importance of the dimension and help you focus on the characteristic that should be taking into account to understand your campaign performance. 
 

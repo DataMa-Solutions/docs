@@ -23,4 +23,4 @@ More precisely, you will be able to:
 
 <br>
 
- To learn more about sunburst models and how to maximize insights in Datama JOURNEY, get started with [this article](https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/) 
+ To learn more about sunburst models and how to maximize insights in Datama JOURNEY, get started with [this article](https://datama.io/getting-value-out-of-a-sunburst/) 

@@ -30,14 +30,14 @@ keywords: light compare settings detect extension plugin
 
 # 1. General Settings
 
-### 1.1. Anomaly dimension
-#### 1.1.1. Detect anomaly on xxx
+## 1.1. Anomaly dimension
+### 1.1.1. Detect anomaly on xxx
 Select from the available dimensions in your dataset based on which you wish to detect anomalies. We usually choose Date, Hour, or another continuous numeric field.
 
 <br>
 
-### 1.2. Modeling
-#### 1.2.1. Detection method
+## 1.2. Modeling
+### 1.2.1. Detection method
 
 *  **Observed volatility** : Uses the natural variability of the data (e.g. rolling standard deviation) to detect anomalies. It's the best method when your data fluctuates normally over time. For example: A value is flagged if it deviates more than 2× the standard deviation from the recent average.
 
@@ -49,21 +49,21 @@ Select from the available dimensions in your dataset based on which you wish to 
 
 Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
-#### 1.2.2. Analyse latest points only
+### 1.2.2. Analyse latest points only
 You can choose to display the anomalies of each date or only for the latest point in the data.
 In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
 
-#### 1.2.3. Baseline mode
+### 1.2.3. Baseline mode
 These settings determine which historical data points are used to calculate the baseline for anomaly detection:
 
 * **All points** : Uses all historical data points to compute the baseline.
 * **Same day of week** : Only uses historical data points that fall on the same weekday (e.g., all previous Mondays if the current point is a Monday).
 * **Same day of year** : Compares only with data from the same calendar day in previous years.
 
-#### 1.2.4. Number of Points in baseline 
+### 1.2.4. Number of Points in baseline 
 It's to determine how many past data points are used to calculate the baseline (or expected value) for anomaly detection.
 
-#### 1.2.5. Level of confidence
+### 1.2.5. Level of confidence
 
 A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
 
@@ -71,7 +71,7 @@ A confidence interval is a range of values that is likely to contain an unknown 
 
 By changing the confidence interval you can modify the precision expected from the significance.
 
-#### 1.2.6. Above or below confidence interval
+### 1.2.6. Above or below confidence interval
 
 This trigger allows to choose to detect only anomaly above or below confidence interval. There is sometimes no need to be alerted for good performance. 
 
@@ -79,15 +79,15 @@ This trigger allows to choose to detect only anomaly above or below confidence i
 
 <br>
 
-### 1.3. Grouping
+## 1.3. Grouping
 
 Sets the model’s aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an “Other” segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects.
 
-#### 1.3.1. Metric to use for grouping
+### 1.3.1. Metric to use for grouping
 
 This is to customize the “Primary Numerator” mentioned just above, based on which the system caculates X% (2% by default) when grouping.
 
-#### 1.3.2. Group values representng less than(%)
+### 1.3.2. Group values representng less than(%)
 
 This is to customize X% mentioned just above.
 
@@ -95,7 +95,7 @@ This is to customize X% mentioned just above.
 
 
 
-## 2. Metrics Relation
+# 2. Metrics Relation
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/metrics_relation.png"/></center>
 

@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Light in Looker Studio
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Looker LookerStudio get started
 ---

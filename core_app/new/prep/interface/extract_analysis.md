@@ -1,7 +1,7 @@
 ---
 title: Prep - Export Analysis
 description: This section helps you automatise the export of your analysis
-layout: page 
+layout: new-page 
 scope: Datama/saas/prep
 keywords: full app prep report export schedule extract analysis
 ---
@@ -9,27 +9,29 @@ keywords: full app prep report export schedule extract analysis
 
 > **This section helps you automatise the export of your analysis**
 
-# Trigger exports with webhooks or time based exports
+# 1. Trigger exports with webhooks or time based exports
 <center><img style="border:1px solid lightgray; border-radius:30px;" src="./images/webhooks_time.png"/></center>
 
 
-## What are webhooks ?
+## 1.1. What are webhooks ?
 Webhooks are a way for one application to send information to our application automatically when something happens.
 Think of it as a notification system, but instead of sending a message to a person, it sends data to another system.
 Creating an incoming webhook gives you a unique URL to which you send a request.
 
-### How to use webhooks ?
+### 1.1.1. How to use webhooks ?
 It's simple, when exporting, just select webhooks, and then you configure your exports, and copy the given url
 When making an HTTP GET request to that URL, it'll automatically trigger the job.
 
 In order to understand how to send Datama notifications by webhook via an orchestrator? Read our [article](https://datama.io/how-to-send-datama-notifications-by-webhook-via-an-orchestrator-ga4-bq-gcp-example/)!
 
-## What are time-based exports ?
+## 1.2. What are time-based exports ?
 
 Time based exports are a way for your flow to be run at a given time (which is different from webhooks that run _WHEN_ a
 request is made on the given url)
 By default, exports are time based and you can select the scheduled time.
-# Exports
+<br>
+
+# 2. Exports
 <br>
 
 You don’t have time to open the Datama interface … receive your analyses directly in your mailbox or on a Slack channel
@@ -51,7 +53,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## <b>Slack</b>
+## 2.1. Slack
 
 - connect your slack account
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
@@ -68,7 +70,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## <b>Teams</b>
+## 2.2. Teams
 
 - connect your Teams account
 - Specify the frequency you want to receive your message (this setting is deactivated when the export is sync with a flow scheduler).
@@ -83,7 +85,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## <b>Email</b>
+## 2.3. Email
 
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
 - Enter one or more email addresses by selecting "Enter" between each address,
@@ -98,7 +100,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## <b>Static URL</b>
+## 2.4. Static URL
 
 This extraction allows to create URL accessible to every user without login to Datama.
 

@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Light in Power BI
-layout: page
+layout: new-page
 scope: Datama/light
 keywords: Power PowerBI get started
 ---

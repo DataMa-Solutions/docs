@@ -1,20 +1,20 @@
 ---
 title: Content Square data
 description: This example will show you how to specifically analyze Contentsquare data within Datama Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
 
 > This page details the  **« Content Square»**  example in our demo solution.
 
-## Overview
+# 1. Overview
 
 This use case focuses on analyzing ContentSquare data to gain insights into user behavior on different pages, zones, and devices. The dataset provided contains information about visits, views, hovers, and clicks for various page-zone-device combinations. The analysis will help identify user engagement patterns and optimize content placement and user experience.
 
 
 
-## Dataset Description
+# 2. Dataset Description
 
 
 The dataset contains the following columns:
@@ -35,13 +35,13 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 <br>
 
-## In Datama Compare
+# 3. In Datama Compare
 
 This example will show you how to specifically analyze Contentsquare data within Datama Compare. This will help understand which elements of your site are performing better, and will allow you to compare different version of your website.
 
 You can add many additional dimensions and steps in your conversion funnel.
 
-## Contentsquare data
+# 4. Contentsquare data
 
 By analyzing the ContentSquare data and evaluating user behavior across different pages, zones, and devices, you can gain valuable insights into user engagement patterns and optimize content placement to improve the user experience. This documentation provides a step-by-step guide to perform the analysis, identify user engagement patterns, and generate insightful reports for content optimization. Remember to regularly update the dataset and monitor user behavior to ensure continuous improvement in user engagement and website performance.
 

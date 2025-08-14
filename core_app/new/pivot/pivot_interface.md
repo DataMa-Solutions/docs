@@ -32,7 +32,7 @@ Each bubble of browser, represents a type of browser (Chrome, Firefox, Safari �
 # 2. Simple chart
 
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide. This is a non-aggregated view of the data.
-The black line is the average KPI of this element (ratio: numerator / denominator)
+The line is the average KPI of this element (ratio: numerator / denominator)
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_simpleChart.png" /></center>
 
@@ -41,9 +41,9 @@ The black line is the average KPI of this element (ratio: numerator / denominato
 # 3. Clustered Chart
 
 The bars show for each element of a dimension the contribution of this element to the global performance (primary numerator). You can change your dimension using the drop-down menu on the title of the slide.
-The black line is the average KPI of this element (ratio: numerator / denominator)
+The line is the average KPI of this element (ratio: numerator / denominator)
 Aggregation:
-- For <i><u>non-continuous</u> elements</i>, a cluster is created aggregating the element having a similar average KPI and representing less than “Aggregation in %” (see in the Settings menu)
+- For <i><u>non-continuous</u> elements</i>, a cluster is created aggregating the element having a similar average KPI and representing less than “Aggregation in %” (see in the <a href="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html" target="_blank">Settings</a> menu)
 - For <i><u>continuous</u> elements</i>, multiple clusters are created aggregating elements having a similar average KPI.
 
 
@@ -56,7 +56,9 @@ Aggregation:
 
 This aims to represent how one dimension is distributed in another dimension.
 
-As for the Sankey diagram, you can change dimension by using the drop-down menu on the title. The first element corresponds to the splitted segment and the second one is the dimension you want to investigate (represented in each column).
+You can change dimension by using the drop-down menu on the title. The first element corresponds to the splitted segment and the second one is the dimension you want to investigate (represented in each column).
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/MariMekko.png"/></center>
 
 <br>
 

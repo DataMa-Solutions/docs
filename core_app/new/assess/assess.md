@@ -1,7 +1,7 @@
 ---
 title: Datama Assess
 description: Datama Assess aims at evaluating the difference of a KPI between two populations of interest.
-layout: page
+layout: new-page
 scope: Datama/saas/assess
 keywords: full app assess overview
 ---
