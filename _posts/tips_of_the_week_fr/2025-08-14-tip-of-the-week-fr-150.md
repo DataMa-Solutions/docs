@@ -12,5 +12,6 @@ layout: post
 Un seul workbook, plusieurs envois ! Avec Datama Export, planifiez le même rapport sur plusieurs canaux, à des fréquences et horaires différents, pour des équipes différentes et en formats variés.
 Avant de le planifier, vous pouvez soit utiliser:
 * Preview : voir exactement ce qui sera envoyé 📧
-* Test : réaliser un envoi test, identique à l’envoi planifié 🗓️ 
+* Test : réaliser un envoi test, identique à l’envoi planifié 🗓️  
+
 Faites travailler Datama à votre façon. 🚀
