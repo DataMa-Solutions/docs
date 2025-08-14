@@ -11,6 +11,6 @@ layout: post
 
 Want the same workbook to reach different teams in different ways? With Datama Export, schedule the same report via multiple channels, at different frequencies, times, and formats—all from one place.
 Before scheduling, you can:
-• Preview — see exactly what will be sent 📧
-• Test — send a test export that mirrors the scheduled run 🗓️
+* Preview — see exactly what will be sent 📧
+* Test — send a test export that mirrors the scheduled run 🗓️
 Make Datama work your way. 🚀
