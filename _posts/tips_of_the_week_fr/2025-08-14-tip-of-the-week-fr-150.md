@@ -13,4 +13,5 @@ Un seul workbook, plusieurs envois ! Avec Datama Export, planifiez le même rapp
 Avant de le planifier, vous pouvez soit utiliser:
 * Preview : voir exactement ce qui sera envoyé 📧
 * Test : réaliser un envoi test, identique à l’envoi planifié 🗓️  
+
 Faites travailler Datama à votre façon. 🚀
