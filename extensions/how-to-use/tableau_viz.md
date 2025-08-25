@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Light in Tableau
-layout: new-page
+layout: page
 scope: Datama/light
 keywords: TableauViz Tableau get started
 ---

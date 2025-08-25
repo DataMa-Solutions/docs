@@ -1,7 +1,7 @@
 ---
 title: Pivot - General introduction
 description: Datama PIVOT is a dataset analysis tool that allows you to identify and understand the dimensions that have the greatest impact on the performance indicator you want to track.
-layout: new-page
+layout: page
 scope: Datama/saas/pivot
 keywords: full app pivot introduction
 ---
@@ -20,6 +20,6 @@ Its data comes from management ERP, Excel spreadsheet or even **data collection 
 
 <br>
 
-# 1. Dataset needed for Datama PIVOT
+# 1. Dataset needed for Datama Pivot
 
 <i>Datama Pivot</i> [dataset]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) only needs at leat 2 metrics and 1 dimension. A dataset used in <i>Datama Pivot</i> could be used in the other solution as well. 
