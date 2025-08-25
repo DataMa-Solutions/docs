@@ -12,14 +12,12 @@ keywords: full app compare model mix effect
 
 <br>
 
-This chapter will describe both effects to allow you to properly understand the underlying composition of your performance.
+This page focuses on describing the Mix effect.
 
 <br>
 
 
 # 1. In the WebApp
-
-Effect of the change in the mix in input.
 
 The mix effect is the impact on your performance that is coming from an evolution of the distribution of your population in input. If you have more people in input with a better conversion rate, you will have a positive mix effect due to the type of client coming into your store or your website.
 
@@ -46,7 +44,7 @@ e.g. If you are selling several products, and if the share of an individual prod
 
 <br>
 
-# 3. Example in a eCommerce
+# 3. Example in Ecommerce
 
 For instance, say mobile users generally convert much lower than desktop users (which is often the case). If last week you had much more desktop users than this week, then the conversion this week will be mathematically lower, just because of that change in device mix.
 
@@ -62,3 +60,9 @@ As in the example below, when your proportion of Purchase between Device change,
 * If the average price change, it’s a **Performance effect**
 
 <center> <img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Mix-Perf.jpg"></center>
+
+
+<div class="info-box">
+  <strong>Note</strong>: You can also read our real use case for a client: Jott. In this case, we managed to find the mix effect of the change of temperature on the sales performance. 
+  <a href="https://datama.io/mix-effect-of-weather-on-sales-revenue/">Read more</a>
+</div>

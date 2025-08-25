@@ -44,7 +44,7 @@ Defining what you want to compare is the very first step of your analysis in Dat
 
 ### 1.2.1 Test type
 
-Select the type of analysis you want to perform. Use an A/B test to compare groups, or time series analysis to examine how comparisons evolves over time.
+Select the type of analysis you want to perform. Use an A/B test to compare groups, or time series analysis to examine how comparisons evolves over time. We can also choose for you !
 
 ### 1.2.2 Test to do
 
@@ -57,7 +57,8 @@ A/B tests :
 Since this assumes that observed variable are Bernoulli variables, this means that observed average ratios should always be between 0 and 1.
 
 Time series :
-- Volatility 
+- Volatility
+- Forecast
 
 See [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) to learn more.
 <br>
@@ -68,9 +69,9 @@ Confidence interval is set in % to decide the level of confidence, or statistica
 
 Depending on the test you are performing, this input can be used in different ways. Please refer to the [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) section for more details
 
-### 1.2.5 Test Side:
+### 1.2.4 Test side
 
-Long story short, for a typical AB test, 1-sided test readouts allows you to be confident that B is higher than A, and not that B is lower than A
+Long story short, for a typical AB test, 1-sided test readouts allows you to be confident that B is higher than A, and not that B is lower than A (Only available for A/B testing)
 
 [Learn More here](https://www.nipissingu.ca/sites/default/files/One-tailed-Test-or-Two-tailed-Test.pdf):
 
@@ -80,6 +81,20 @@ How can we tell whether it is a one-tailed or a two-tailed test? It depends on t
 whereas a two-tailed test looks for a “change” (could be increase or decrease) in the parameter.
 Therefore, if we see words such as “increased, greater, larger, improved and so on”, or
 “decreased, less, smaller and so on” in the original claim of a question (>,'<'are used in H1), a one-tail test is applied. If words such as “change, the same, different/difference and so on” are used in the claim of the question (≠is used in H1), a two-tailed test is applied.
+
+### 1.2.5 Cumulative significance
+
+This setting controls how significance is calculated across subgroups in your analysis:
+
+- **Never**: Cumulative significance is never applied. Each subgroup is evaluated independently, and values are not accumulated over time or across segments.
+- **Auto**: Cumulative significance is automatically applied when the selected subgroup is a date. In this case, values are accumulated progressively over time, allowing you to observe how significance evolves as more data is included.
+- **Always**: Cumulative significance is always applied, regardless of the selected subgroup. Values from all subgroups are accumulated step by step, providing a running total of significance across your analysis.
+
+This option helps you tailor the statistical interpretation to your specific use case, whether you want to track significance over time, across categories, or keep each segment separate.
+
+### 1.2.6 Max comparisons
+
+Only available for Volatility test, this input affords the possibility to limit the number of similar comparisons created which are the basis of Volatility calculation.
 
 <br>
 

@@ -1,7 +1,7 @@
 ---
 title: Web performance – Google Analytics
 description: This use case is a basic example of a conversion funnel used on an eCommerce Website. This example is for the Google Analytics of the Google Store website, which sells branded merchandise.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -14,6 +14,6 @@ In this specific use case, we compare the revenue between 2 weeks (Year over Yea
 
 Access the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)
 
-## In Datama Compare
+# In Datama Compare
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_WebAnalyticsGA.png "/></center>

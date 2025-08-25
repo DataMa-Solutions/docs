@@ -1,7 +1,7 @@
 ---
 title: Prep - Output
 description: This section helps you to prepare your data to be analysed in the Output block
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app prep output block
 ---

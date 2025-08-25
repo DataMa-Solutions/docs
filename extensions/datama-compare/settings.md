@@ -61,9 +61,9 @@ You can access the waterfall setting as shown below:
 Let's explain option by option.
 <br/>
 
-# General Settings
-
 # 1. General Settings
+
+# 1.1. General Settings
 
 ## 1.1.1 Comparison Definition
 

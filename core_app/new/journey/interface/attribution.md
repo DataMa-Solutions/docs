@@ -1,7 +1,7 @@
 ---
 title: Attribution
 description: Attribution is a group of 5 tabs. See articles below for details on each tab.
-layout: page
+layout: new-page
 scope: Datama/saas/journey
 keywords: full app journey interface attribution
 ---
@@ -10,15 +10,15 @@ keywords: full app journey interface attribution
 
 Attribution is a group of 5 tabs. See details below on each tab:
 
-* [Priority](#priority)
+<!-- * [Priority](#priority)
 * [Opportunity (Value)](#opportunity-value)
 * [Feasability (Ratio)](#feasability-ratio)
 * [Lost Value](#lost-value)
 * [Data](#data) 
 
-<br>
+<br> -->
 
-## <b>Priority</b>
+# 1. Priority
 
 
 The Priority tab is a graph that allows you to visualize the steps of your customers' journeys to improve first.
@@ -27,37 +27,45 @@ The Priority tab is a graph that allows you to visualize the steps of your custo
 
 Three parameters are used in order to build this graph:
 
-* The X-axis is [feasability](#feasability-ratio)
+* The X-axis is [feasability](#3-feasability-ratio)
 
-* The Y-axis is [opportunity](#opportunity-value)
+* The Y-axis is [opportunity](#2-opportunity-value)
 
-* The size of the circles is [normalized value](#data)
+* The size of the circles is [normalized value](#5-data)
 
 **<u>Example:</u>**
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_priority.jpg" style="width:1000px;">
+<!-- 
+Here, the first step to improve is "Search" because it has the highest feasibility ([Ratio]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)) and opportunity ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)). -->
 
-Here, the first step to improve is "Search" because it has the highest feasibility ([Ratio]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)) and opportunity ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)).
+Here, the first step to improve is "Search" because it has the highest feasibility (#3-feasability-ratio) and opportunity (#2-opportunity-value).
 
 ** Priority without Compare Mode**
 
 Three parameters are used in order to build this graph:
 
-* The X-axis is [opportunity]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/opportunity_value)
+<!-- * The X-axis is [opportunity]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/opportunity_value)
 
 * The Y-axis is [lost value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/lost_value)
 
-* The size of the circles is [normalized value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
+* The size of the circles is [normalized value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) -->
+* The X-axis is [opportunity](#2-opportunity-value)
+
+* The Y-axis is [lost value](#4-lost-value)
+
+* The size of the circles is [normalized value](#5-data)
 
 **<u>Example:</u>**
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/images/priority_without_compare.png" style="width:1000px;">
+<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/priority_without_compare.png" style="width:1000px;">
 
-Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/opportunity_value) for the lowest [lost value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/lost_value).
+<!-- Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/opportunity_value) for the lowest [lost value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/lost_value). -->
+Here, the first step to improve is "Goal_Step2" because it has a relatively low [opportunity](#2-opportunity-value) for the lowest [lost value](#4-lost-value).
 
 <br>
 
-## <b>Opportunity (Value)</b>
+# 2. Opportunity (Value)
 
 The Opportunity tab is a graph allowing you to visualize the value attributed to each touch point of the customer journey based on the selected attribution model.
 
@@ -78,15 +86,19 @@ The biggest opportunity is "Search" then "Offer" , "Goal_Step2"...
 You will be able to quickly identify the steps presenting the biggest opportunity thanks to our decreasing ranking.
 
 Two parameters are used in order to build this graph:
-
+<!-- 
 * The X-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
-* The Y-axis is your [value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
+* The Y-axis is your [value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) -->
+
+* The X-axis is [point](#5-data)
+
+* The Y-axis is your [value](#5-data)
 
 
 <br>
 
-## <b>Feasability (Ratio)</b>
+# 3. Feasability (Ratio)
 
 The Feasability tab is a graph allowing you to visualize the Value/Volume of the various touch points of the customer journey.
 
@@ -118,7 +130,7 @@ Two parameters are used in order to build this graph:
 
 <br>
 
-## <b>Lost Value</b>
+# 4. Lost Value
 
 The Feasability tab is a graph allowing you to visualize the Value/Volume of the various touch points of the customer journey.
 
@@ -142,19 +154,22 @@ The biggest feasability is "Goal_Step3" then "Blog", "Goal_Step2"...
 
 Two parameters are used in order to build this graph:
 
-* The X-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
+<!-- * The X-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
-* The Y-axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) )
+* The Y-axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) ) -->
+* The X-axis is [point](#5-data)
+
+* The Y-axis is your ratio ([Value](#5-data) / [Volume](#5-data) )
 
 
 
 <br>
 
 
-## <b>Data</b>
+# 5. Data
 
 
-> The **Data Tab** is the table used to generate the others tabs of Attribution
+The **Data Tab** is the table used to generate the others tabs of Attribution
 
 With :
 

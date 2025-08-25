@@ -26,7 +26,7 @@ keywords: Looker LookerStudio assess get started
 
 
 
-## 1. Overview
+# 1. Overview
 This document provides detailed documentation for the "Datama Assess" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
 
 Below is a short intro video
@@ -34,7 +34,7 @@ Below is a short intro video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wPxniEjkMBE?si=LfLfR39U05xWkoxW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## 2. Features
+# 2. Features
 
 - **Significance calculation:** Assess the statistical significance of KPI variations with customizable level of confidence, using Welch T test method
 - **Multiple KPIs monitoring:** Based on your market equation, assess significance within unlimited number of KPIs
@@ -44,7 +44,7 @@ Below is a short intro video
 <br/>
 
 
-## 3. Add the extension into your report
+# 3. Add the extension into your report
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
@@ -65,7 +65,7 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-## 4. Get a free trial period
+# 4. Get a free trial period
 
 Datama extension in Looker Studio allows you to benefit from all features.
 
@@ -85,7 +85,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 <br>
 
-## 5. Getting started
+# 5. Getting started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -111,25 +111,25 @@ Once you've imported the extension, here is how you can use it.
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Leave_edit_mode_assess_looker.gif" /></center>
 
 
-## 6. Read your Analysis
+# 6. Read your Analysis
 
 To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
 
-## 7. Looker Studio Guide
+# 7. Looker Studio Guide
 
 Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
 
 <br/>
 
 
-## 8. Advanced Usage
+# 8. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
 <br/>
 
-## 9. Support and Resources
+# 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.

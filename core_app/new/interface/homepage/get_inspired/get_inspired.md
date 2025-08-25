@@ -1,7 +1,7 @@
 ---
 title: Get inspired
 description: You can use Datama Solutions to help you create the right dataset on any type of use case
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---

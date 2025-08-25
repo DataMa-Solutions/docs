@@ -12,25 +12,8 @@ keywords: full app compare settings
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/settings.jpg"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Compare_setting_gear.gif"/></center>
 
-<br>
-
-These settings are organized into several categories:
-
-- [Compare Model](#compare-model)
-Configure how the analysis is performed, including drill-down hierarchy, mix/performance split, and other core analysis parameters.
-
-- [Workbook Style](#workbook-style) 
-Enable advanced features like comparable dates, combined dimensions, and smart dimension capabilities.
-
-- [Text Generation](#text-generation)
-Customize the depth of analysis and add textual complements to enhance understanding.
-
-- [Advanced Parameters](#advanced-parameters)
-Fine-tune your analysis with technical options like percentage aggregation, significance testing, and other specialized parameters.
-
-Each of these settings can be adjusted to precisely match your analytical needs.
 
 <br>
 
@@ -74,22 +57,21 @@ Each of these settings can be adjusted to precisely match your analytical needs.
 
 -->
 
-<br>
-
-# <b>1. Settings level</b>
+# 1. Settings level
 
 In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
 Color palette and default language for example can be modified at both level.
 
 <br>
 
-# <b> 2. Compare Model </b>
+# 2. Compare Model
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/advanced_setting.png"/></center>
 
-## 2.1 Methodology
+## 2.1. Methodology
 
 <br>
 
-### 2.1.1 Drill down hierarchy 
+### 2.1.1. Drill down hierarchy 
 
 Drill down hierarchy is unactivated by default. 
 
@@ -105,7 +87,7 @@ Discover [more]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/sub
 
 <br>
 
-### 2.1.2 Split Mix and Perf
+### 2.1.2. Split Mix and Perf
 
 This settings sets how Datama will act regarding Mix & Performance visualisation.
 By default Datama will automatically choose to split or not the Mix and Performance effect. If the Mix is too small, only Negative and Positive Segments will be displayed.
@@ -114,7 +96,7 @@ But you can disable this auto choice, and choose to always split the Mix and the
 
 <br>
 
-### 2.1.3 Negative Driver First
+### 2.1.3. Negative Driver First
 
 By default Datama automatically choose to display the segment that are following the variation. If your step is increasing, the segments displayed will be the one that drive this increase. On the contrary, when your step variation is going down, Datama will choose to display segments that are explaining the decrease.
 
@@ -122,16 +104,16 @@ This could be changed by activating the "Negative Driver First". Negative Segmen
 
 <br>
 
-## 2.2 Text and comment
+## 2.2. Text and comment
 
-### 2.2.1 Analyse Depth
+### 2.2.1. Analyse Depth
 
 This selection allows to adapt the level of detail available in the contextual help (Comments,…). By default the contextual help is at Medium.
 At <i>Max</i> all the available details regarding graphs will be available.
 
 <br>
 
-### 2.2.2 Segment text complement
+### 2.2.2. Segment text complement
 
 Segment text complement allows to decide on what to display behind Segment name in the waterfall labelling.
 As a reminder, a segment is a attribute within a dimension of your dataset.
@@ -143,9 +125,13 @@ Options for this input are:
 
 <br>
 
-## 2.3 Advanced Settings
+## 2.3. Advanced Settings
 
-### 2.3.1 Covariance roll up
+### 2.3.1.  Aggregation in %
+
+Level of aggregation: The threshold used by the model to group small segments. For example, if the level of aggregation is set at X%, any segment within each dimension that represents less than X% of the Primary Numerator (e.g., revenues) of the main KPI being analyzed will be clustered into a single “Other” segment. By default, X is 2%, but adjusting this parameter can significantly affect the calculation of mix effects.
+
+### 2.3.2. Covariance roll up
 
 By default in Datama Compare, the covariance between each step of the market equation is distributed on total computation level.
 
@@ -156,19 +142,19 @@ However in some cases, you might want this distribution to be done at a lower le
 To use it :<br>
 Activate the covariance roll up toggle.<br>
 Select the dimension you want for sub-segment distribution of covariance.<br>
-See an example below:
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/CovarianceRollup.png"/></center>
 
 <br/>
 
-### 2.3.2 Max segment displayed
+
+
+### 2.3.3. Max segment displayed
 
 Decide how many segments you want to display in every waterfall graph.
 By default this parameter is set at '4'.
 
 <br>
 
-### 2.3.3 Significance test
+### 2.3.4. Significance test
 
 When owning a license of Datama Assess (aka Datama Impact), you can activate the significance test.
 Switch on to compute significance of steps variations, using Datama Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
@@ -179,24 +165,26 @@ The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_ap
 
 <br>
 
-### 2.3.4 Include 0 for Y axis
+### 2.3.5. Include 0 for Y axis
 
 By default active, this makes the 0 line appear on the waterfall
 When deactivated Datama will adapt the Axis to your dataset. This help to better display small variations.
 
 <br>
 
-# <b>3. Workbook style</b>
+# 3. Workbook style
 
-## 3.1 Language and colors 
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/workbook_style.png"/></center>
 
-### 3.1.1  Analysis language 
+## 3.1. Language and colors 
+
+### 3.1.1.  Analysis language 
 
 Datama is available in English and French. By default, Datama is in English.
 - You can change the language for a specific Use Case (Settings > Analysis Language)
 - or globally for all Use Cases (Profile icon > User preferences > Analysis Language)
 
-### 3.1.2 Colors palette for plots 
+### 3.1.2. Colors palette for plots 
 
 Graph colors are customizable in 3 different ways:
 - Grayscale (gray levels)
@@ -217,15 +205,15 @@ To customize colors:
 
 <br>
 
-### 3.1.3 Reverse palette
+### 3.1.3. Reverse palette
 
 The "Reverse palette" function allows you to invert the colors used to express growth or loss.
 This is particularly useful when you're using a "negative" KPI where an increase is not good news, and should therefore be displayed in red rather than green (like cost).
 
 <br>
 
-## 3.2 Number display 
-### 3.2.1 Compact numbers
+## 3.2. Number display 
+### 3.2.1. Compact numbers
 
 Compact numbers are used to display large numbers in a more readable format. For example:
 - 1,000,000 becomes 1M
@@ -236,7 +224,7 @@ This setting allows you to toggle between compact and full number display.
 
 <br>
 
-### 3.2.2 Force rounding
+### 3.2.2. Force rounding
 
 This setting allows you to control the number of decimal places displayed in your analysis. When activated, all numbers will be rounded to the specified number of decimal places. This is particularly useful for:
 - Ensuring consistency in number display across your analysis
@@ -245,7 +233,9 @@ This setting allows you to control the number of decimal places displayed in you
 
 <br>
 
-# <b>4. KPI & Markets Equation</b>
+# 4. KPI & Markets Equation
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/market_equation.png"/></center>
 
 The market equation is the foundation of your analysis in Datama Compare. It defines how your metrics are related to each other to compute your main KPI. For example, in retail, Revenue can be broken down as: Revenue = Volume * (Revenue/Volume), where Volume represents the number of products sold and Revenue/Volume is the average price per unit.
 
@@ -258,23 +248,33 @@ For more detailed information on how to build and optimize your market equation,
 
 <br>
 
-# <b>5. Dimensions</b>
+# 5. Dimensions
 
-## 5.1 Comparison
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Dimensions.png"/></center>
+
+## 5.1. Comparison
 
 When comparing two ranges of dates with same number of days, Datama now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
+
+<div class="info-box">
+  <strong>Dynamic mode for comparisons"</strong>: For each comparison you add, you can enable dynamic mode, especially useful when comparing two date-based metrics. For example, if you want to always compare Last Week vs. Last Week of Last Year, you need to ensure the most recent week in your dataset is always selected. Let’s say the current last week is Week 35, but over time this will change to Week 36, 37, 38, etc. To keep the week number dynamic, you can "use ascending position instead of fixed values when saving". By applying "ascending", Datama sorts weeks in ascending order and always selects the highest week number for comparison. Read more on <a href="https://datama-solutions.github.io/docs/tip_of_the_week.html#:~:text=Tip%20of%20the%20week%20%2348
+  ">this page</a>
+
+</div>
+
+You can add filter to include or exclude the dimension, the segement you want, it also works in a dynamic way bu checking "use ascending/descending position instead of fixed values when saving".
 
 <br >
 
 ## 5.2 Auto-generated dimensions
 
-### 5.2.1 Comparable Dates
+### 5.2.1. Comparable Dates
 
 Comparable Date: When comparing two ranges of dates with same number of days, Datama now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 
 <br>
 
-### 5.2.2 Combined Dimensions
+### 5.2.2. Combined Dimensions
 
 By default <i>Combined Dimensions</i> is activated. Datama creates an additional Dimension in your analyse which is the combination of all your dimension.
 
@@ -282,7 +282,7 @@ You can't change the selection of the combination, but you can concatenate two c
 
 <br>
 
-### 5.2.3 Smart dimension
+### 5.2.3. Smart dimension
 
 For each step of the waterfall analysis, the Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation. It comes in addition to the Combined dimension which crosses all dimensions.
 
@@ -302,9 +302,9 @@ You can't change the selection of the combination, but you can concatenat two co
 
 <br>
 
-## 5.3 Clustering Settings
+## 5.3. Clustering Settings
 
-### 5.3.1 Choose clustering method
+### 5.3.1. Choose clustering method
 
 **Clustering**
 
@@ -316,7 +316,7 @@ Read [docs related to continuous dimension]({{site.url}}/{{site.baseurl}}/core_a
 
 <br>
 
-### 5.3.2 Aggregation in %
+### 5.3.2. Aggregation in %
 
 **Level of aggregation**
  
@@ -330,40 +330,43 @@ Segments are now aggregated at the requested level
 
 <br>
 
-# <b>6. Artificial Intelligence</b>
+# 6. Artificial Intelligence
 
 Datama uses artificial intelligence to enhance your analysis by generating contextualized comments about your KPI variations.
 
 <br>
 
-## 6.1 Contextualized Comments
+## 6.1. Contextualized Comments
 
-### 6.1.1 Initial Comments
+### 6.1.1. Initial Comments
 Datama first analyzes raw data to identify and quantify variations in key performance indicators (KPIs). The system generates insights that explain these variations.
 
 <br>
 
-### 6.1.2 OpenAI Integration
+### 6.1.2. OpenAI Integration
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/AI.png"/></center>
 The generated insights are then processed by OpenAI's language model. OpenAI enhances these narratives by adding contextual insights, ensuring that explanations are complete and tailored to the specific context of your data and business.
 
 <br>
 
-### 6.1.3 Usage Steps
+### 6.1.3. Usage Steps
 1. **Accept OpenAI Terms of Use**: Click on the OpenAI sparkle icon next to the comments to accept the terms of use.
 2. **Add Context**: Click on the "[add context]" button to display a window where you can write context that will be used with OpenAI.
 3. **Generate and Use**: Click on the "generate" button to see examples, then "Use this comment" if you are satisfied.
 
 <br>
 
-# <b>7. Saving Options</b>
+# 7. Saving Options
 
-## 7.1 Basic Save
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Saving_options.png"/></center>
+
+## 7.1. Basic Save
 - Click on the "Save" icon to update your current use case
 - Click on "Save As..." to change the name and save options
 
 <br>
 
-## 7.2 Save Options
+## 7.2. Save Options
 - **Save Name**: name of the use case
 - **Set as Default**: this use case will be loaded when opening the solution
 - **Keep Information**: the information text will appear when loading the use case

@@ -1,6 +1,6 @@
 ---
 title: Introduction to Datama Compare
-layout: page
+layout: new-page
 scope: Datama/light/compare
 keywords: Datama light compare Compare intro introduction
 ---
@@ -29,7 +29,7 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-### 1. Quickly understand how extension can help you in your business analyses by following these links:
+## 1. Quickly understand how extension can help you in your business analyses by following these links:
 
 
    - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
@@ -38,12 +38,12 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-### 2. Embed Datama Compare in your reports quickly by following these links:
+## 2. Embed Datama Compare in your reports quickly by following these links:
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
 <br>
 
-### 3. Going further:
+## 3. Going further:
 - [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)

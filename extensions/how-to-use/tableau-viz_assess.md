@@ -25,7 +25,7 @@ keywords: TableauViz Tableau assess get started
 
 
 
-## 1. Overview
+# 1. Overview
 This document provides detailed documentation for the "Datama Assess" plugin, a powerful extension for Tableau Viz. This plugin enhances data analysis capabilities by computing statistical significance of variations.
 
 Below is a short intro video
@@ -35,7 +35,7 @@ Below is a short intro video
 
 <br/>
 
-## 2. Features
+# 2. Features
 
 - **Significance calculation:** Assess the statistical significance of KPI variations with customizable level of confidence, using Welch T test method
 - **Multiple KPIs monitoring:** Based on your market equation, assess significance within unlimited number of KPIs
@@ -44,7 +44,7 @@ Below is a short intro video
 
 <br/>
 
-## 3. Add the extension into your report
+# 3. Add the extension into your report
 
 In order to use Datama in your report, you need to add a viz extension using a custom trex file.
 
@@ -63,7 +63,7 @@ Please refer to the full documentation to learn more about [source structure]({{
 
 <br>
 
-## 4. Get a free trial period
+# 4. Get a free trial period
 
 Datama extension in Tableau Viz allows you to benefit from all features.
 
@@ -85,7 +85,7 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_tabl
 
 <br>
 
-## 5. Getting started
+# 5. Getting started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -101,18 +101,18 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 6. Read your Analysis
+# 6. Read your Analysis
 
 To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
 
-## 7. Advanced Usage
+# 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
 <br/>
 
-## 8. Support and Resources
+# 8. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.

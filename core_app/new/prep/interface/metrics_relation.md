@@ -1,7 +1,7 @@
 ---
 title: Metric relation
 description: Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app prep metrics relation metric mr
 ---
@@ -12,7 +12,7 @@ keywords: full app prep metrics relation metric mr
 
 <br>
 
-**Read more:** At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+**Read more:** At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://Datama.fr/how-to-build-my-business-metric-relation/) .
 
 <br>
 
@@ -30,7 +30,7 @@ Building it can be a little bit tricky, but generally you have it behind your bu
 
 <br>
 
-## <b>Simplistic example</b>
+# 1. Simplistic example
 
 A simplistic retail example: As a retailer I want to understand my Revenue. So my main KPI is <span style="color:red"> Revenue </span>.
 
@@ -40,7 +40,7 @@ Why do I want to split those? Well basically because it’s not the same team in
 
 <br>
 
-## <b>Generalizing</b>
+# 2. Generalizing
 
 We call each underlying PI a **« Step »**, because it will be steps of the waterfall you’re building. Number of steps can be theoretically unlimited, but for obvious visual and business reasons, you probably want to limit to no more than 10 steps.
 
@@ -57,6 +57,6 @@ Datama goes further with Metric Relation by adding multiple properties to refine
 
 <br>
 
-## Get inspired
+# 3. Get inspired
 
 [Datama examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.
