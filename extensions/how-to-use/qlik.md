@@ -1,6 +1,6 @@
 ---
 title: How to use Datama Light in Qlik
-layout: new-page
+layout: page
 scope: Datama/light
 keywords: Qlik QlikSense Qlik Sense get started
 ---

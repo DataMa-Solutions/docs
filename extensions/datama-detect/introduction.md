@@ -33,14 +33,18 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 <br>
 
 
-## 1. Quickly understand how Datama Detect can help you in your business analyses by following these links:
+# 1. Concept and Design
+
+Quickly understand how Datama Detect can help you in your business analyses by following these links:
 - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) Understand theory behing the graphs
 - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html): Deep dive into the interface
 
 
 <br>
 
-## 2. Embed Datama Detect in your reports quickly by following these links:
+# 2. Datama Extensions
+
+Embed Datama Detect in your reports quickly by following these links:
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
@@ -48,5 +52,5 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 
 <br>
 
-## 3. Going further:
+# 3. Going further:
 - [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)

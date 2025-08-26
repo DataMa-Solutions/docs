@@ -6,10 +6,10 @@ scope: Datama/saas/detect
 keywords: full app detect interface
 ---
 
-> Datama DETECT aims at evaluating over time the normality of a variation.
+> Datama Detect aims at evaluating over time the normality of a variation.
 
 
-**Interface of Datama DETECT:** 
+**Interface of Datama Detect:** 
 
 - [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html) (find here general information about the Header)
 - [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html) (find here general information about the Subheader)
@@ -27,7 +27,7 @@ Datama DETECT is composed of two different pages. One which shows the variation 
 
 <br>
 
-# 1. 1st Slide
+# 1. First Slide
 
 This slide represents a time series with all the anomalies (settings by default) or only a check on the latest available point in your dataset. Change this settings in the Subheader (<i>Analyse Latest Point Only</i>)
 
@@ -39,7 +39,7 @@ By default Datama Detect is set to analyse each steps of your market equation bu
 
 <br>
 
-# 2. 2nd Slide
+# 2. Second Slide
 
 The 2nd slide is the explanation of a selected point in the graph above. 
 The bars represents the denominator and the line represents the ratio of your KPI.

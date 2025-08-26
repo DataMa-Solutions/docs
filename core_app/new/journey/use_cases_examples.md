@@ -6,9 +6,11 @@ scope: Datama/saas/journey
 keywords: full app journey examples use cases case
 ---
 
-------------------
+<br>
 
-Datama JOURNEY can be used from a wide variety of use case, from online product analysis to cross-channel customer experience. It basically depends on the data you're putting as an input, which should include a 'Journey' column that gives the touch point with your customer in a sequential order.
+> Datama Journey can be used from a wide variety of use case, from online product analysis to cross-channel customer experience. It basically depends on the data you're putting as an input, which should include a 'Journey' column that gives the touch point with your customer in a sequential order.
+
+<br>
 
 In this section you will find some example of data set, but all is up to your creativity (and your capacity to collect and create the data source ;) )
 
