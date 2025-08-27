@@ -1,78 +1,74 @@
 ---
-title: Interface
-description: Discover the Datama interface and its different solutions
-layout: new-page
+title: General description
+layout: page
 scope: Datama/saas
+description: Learn the principles behind Datama, our market equation methodology, and how each solution fits into it.
 keywords: Datama interface, solutions, marketplace, extensions
 ---
 
 <br>
 
-> In this chapter, learn how to use the **Interface** of the Datama solution and its various features
+> **Why this page?**  To give you a shared understanding of Datama’s philosophy, the market equation methodology, and the use cases covered by each solution (Compare, Detect, Pivot, Assess, Journey, Prep).
 
 <br>
 
-# 1. Datama Interface Overview
+# 🎯 What is Datama?
+Datama helps you analyze performance faster and more reliably by quantifying the drivers of variation (mix, volumes, prices, conversion rates, etc.) and guiding you toward actions with measurable impact.
 
-The Datama interface has been designed to provide an intuitive and efficient user experience. It consists of several key elements that enable smooth navigation and quick access to various features.
-
-<br>
-
-# 2. Available Solutions
-
-Datama offers several solutions tailored to your data analysis needs.
+- **For teams:** data, marketing, product, e-commerce, finance.  
+- **Expected outcome:** clear explanations, quantification and faster decisions.
 
 <br>
 
-## 2.1 Web Solution
+# Datama Solutions
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
+Datama has 5 solutions to help you make the right decision faster
 
-- Complete interface accessible via browser
-- Advanced analysis and visualization features
-- Extensive dashboard customization
+<center><img  src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/datama_solutions.png" alt="market-equation" /></center>
 
 <br>
 
-## 2.2 Data Visualisation Tools Extensions
 
-Datama also offers light version as below:
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/Datama extensions.png" width="70%"/></center>
-
-These extensions are available on major Business Intelligence platforms:
-- [Tableau](https://tableau.com) - Datama Extension for Tableau
-- [Power BI](https://powerbi.com) - Datama Connector for Power BI
-- [Looker Studio](https://lookerstudio.google.com) - Datama Integration
-- [Qlik](https://qlik.com) - Datama Extension for Qlik
+## ✅ When to use which solution?
+- *You see a variation (up/down)* → Use **Compare** to explain it with a waterfall.  
+- *You want to be alerted in case of anomaly* → Use **Detect** to spot and track it.  
+- *You want to explore segments/ opportunities* → Use **Pivot** to dig deeper.  
+- *You need to measure significance of a variation* → Use **Assess** to quantify impact.  
+- *You want to know which step to rebuilt in priority* → Use **Journey** to understand paths and drop-offs.  
+- *Your want to connect your data to our solutions!* → Use **Prep** to make it clean and usable.
 
 <br>
 
-# 3. Main Interface Components
-
-The Datama interface consists of several essential elements:
-
-## 3.1 [Homepage]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/homepage.html)
-- List of your own use cases
-- Quick access to main features
-- Overview of information to better use the solution
+# 🧮 Our methodology: the “market equation”
 
 <br>
 
-## 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
-Click on the title **Header** above to know how to use the main menu including:
-
-<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
+<div class="info-box"> Without this method, you're not just missing insights
+you're missing opportunities to grow.</div>
 
 <br>
 
-## 3.3. [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html)
+The goal is to **break down any KPI variation** (e.g. revenue, leads, margin, conversion) into **multiplicative factors**: `volume × avg. price × …`  
+Then to separate **mix effects** (composition changes) from **true performance effects** (rate, price, conversion at constant mix).
 
-Click on the title **Subheader** above to know how to use:
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/Market-equation.png" alt="market-equation" /></center>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.png"/></center>
 
-- Dynamic filters
-- Metric relationships
-- Dimension comparison
-- Advanced settings
+**Core principles:**
+- **Factorized decomposition** of KPIs (e.g. `Revenue = Visits × Conversion Rate × AOV`).  
+- **Mix effect**: variation due to changes in composition between segments (countries, channels, devices, products…).  
+- **Performance effect**: true improvement/decline at constant segment mix.  
+- **Comparability**: across periods, cohorts, audiences (B2B/B2C), channels, or products.
+
+<br>
+
+## 💡 Best practices
+- Always define a **clear baseline period** (period vs period, vs LY, vs reference).  
+- Use a **fixed taxonomy** (channels, devices, products) before comparing.  
+- **Disentangle** mix vs performance effects to avoid paradoxes.  
+
+<br>
+
+## 📬 Need help?
+Questions on the methodology, a specific case, or a segment?  
+**[Reach out to us](https://datama.io/lets-talk/)**, we’ll be glad to help.

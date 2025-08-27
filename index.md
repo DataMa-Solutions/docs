@@ -62,6 +62,12 @@ Install the Data Viz Plugin and work directly inside your stack:
 
 <br>
 
+# 🎥 Discover who is behind Datama (in French for now)
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/sq0lhe05zNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
 ## Reach out to us!
 
 [Stay in touch with us](https://Datama.io/lets-talk/): if you have any issues or ideas to improve the solution, we would love to talk with you!
