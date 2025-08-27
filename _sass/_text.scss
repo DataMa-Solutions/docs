@@ -14,12 +14,25 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; color: $datagreen;}
+.post-content h1, h2, h3, h4, h5 {font-family: $font-heading;}
+
 
 /** Post content headings */
 .post-content h1 {
     font-size: 2em !important;
     font-weight: 600 !important;
     margin-bottom: 1em  ;
+}
+
+.page-title {
+  font-family: $font-heading;
+  font-size: 3rem;  
+  font-weight: 600;   
+  color: $datagreen; 
+  margin-top: 39px;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+
 }
 
 /** Links */

@@ -17,10 +17,11 @@
 
 /** IMPORT PART **/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 @import "colors";
 @import "shared";
-@import "scroll";
 @import "text";
+@import "scroll";
 @import "404";
 @import "welcome";
 @import "button";
@@ -241,6 +242,11 @@ body {
           margin-right: 20px;
         }
       }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-weight: 600; 
     }
 
     & > nav {
