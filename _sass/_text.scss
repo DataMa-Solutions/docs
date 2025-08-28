@@ -10,10 +10,14 @@ img { max-width: 100%; vertical-align: middle; }
 figure > img { display: block; }
 figcaption { font-size: 14px; }
 /** Lists */
-ul, ol { margin-left: 30px; }
-li > ul, li > ol { margin-bottom: 0; }
+ul, ol { margin-left: 30px;}
+li::marker {color: $datagreen_light;}
+
+li > ul, li > ol {   margin-bottom: 0;}
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; color: $datagreen;}
+.post-content h1, h2, h3, h4, h5 {font-family: $font-heading;}
+
 
 /** Post content headings */
 .post-content h1 {
@@ -21,6 +25,18 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; color: $datagreen;}
     font-weight: 600 !important;
     margin-bottom: 1em  ;
 }
+
+.page-title {
+  font-family: $font-heading;
+  font-size: 3rem;  
+  font-weight: 600;   
+  color: $datagreen; 
+  margin-top: 39px;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+
+}
+
 
 /** Links */
 a { color: $datagreen; text-decoration: none; }
@@ -49,7 +65,7 @@ blockquote {
   font-weight: 300;
 
   & strong {
-    font-weight: 400;
+    font-weight: bolder;
     color: #555;
   }
 }

@@ -6,6 +6,8 @@ scope: Datama/saas/compare
 keywords: full app compare model covariance
 ---
 
+<br>
+
 > <b>Covariance</b>, is basically the share of the variation that you can’t attribute to one of the effect you’re trying to split out.
 
 <br>
