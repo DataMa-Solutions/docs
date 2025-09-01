@@ -8,9 +8,11 @@ keywords: full app compare overview
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/compare_icon.jpg" alt="logo compare" /></center>
 
-> **Datama COMPARE is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
+> **Datama Compare is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
-Datama COMPARE makes it easy to explain variations of any KPI between two segments.
+<br>
+
+Datama Compare makes it easy to explain variations of any KPI between two segments.
 
 
 Dive deep into the complexity of your performance data with Datama Compare. Seamlessly analyze variations, draw accurate conclusions, and make informed decisions.
