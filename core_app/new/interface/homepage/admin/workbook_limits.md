@@ -32,33 +32,33 @@ Datama uses a system of workbook limits to manage usage within organizations. Th
 - **Purpose**: Collaboration and team sharing
 - **Storage**: Organization-wide access
 
-### **1.3 Extension Workbooks (Export-enabled)**
-- **Ownership**: Shared workbooks with export capabilities
-- **Visibility**: Visible to all organization members
-- **Purpose**: Scheduled exports, automated reporting
-- **Storage**: Organization-wide with export configuration
+### **1.3 Exported Workbooks**
+- **Ownership**: Individual workbooks that become shared when exported
+- **Visibility**: Become visible to all organization members once exported
+- **Purpose**: Sharing analysis results, scheduled exports, automated reporting
+- **Storage**: Move from individual to shared pool when exported
 
 <br>
 
 ## **2. How Limits Are Calculated**
 
-### **2.1 The Central Multiplier**
+### **2.1 Organization Workbook Quota**
 
-Your organization has a central limit called `shared_workbooks_limit` that acts as a **multiplier** for all workbook calculations.
+Your organization has a central quota that determines how many workbooks can be used across the organization.
 
 ### **2.2 Individual Workbook Limits**
-**Formula**: `shared_workbooks_limit × number_of_active_members`
+Each active member in your organization can create a certain number of individual workbooks. This limit is calculated by multiplying the organization's shared workbook quota by the number of active members.
 
-**Example**: With a `shared_workbooks_limit` of 10 and 4 active members:
-- **Total individual workbooks**: 10 × 4 = **40 workbooks**
+**Example**: With an organization quota of 10 and 4 active members:
+- **Total individual workbooks allowed**: 10 × 4 = **40 workbooks**
 - Each member can create up to 10 personal workbooks
 
 ### **2.3 Shared Workbook Limits**  
-**Formula**: `shared_workbooks_limit` (direct value)
+The organization can have a maximum number of shared workbooks equal to the organization's quota.
 
-**Example**: With a `shared_workbooks_limit` of 10:
-- **Maximum shared/exported workbooks**: **10 workbooks**
-- This includes both shared workbooks and extension workbooks combined
+**Example**: With an organization quota of 10:
+- **Maximum shared workbooks**: **10 workbooks**
+- This includes workbooks that are directly shared and workbooks that become shared through exports
 
 <br>
 
@@ -67,13 +67,13 @@ Your organization has a central limit called `shared_workbooks_limit` that acts 
 Let's see how this works in practice:
 
 **Organization Setup (based on the example shown):**
-- `shared_workbooks_limit` = 10 
+- Organization quota = 10 
 - 1 active member
 
 **Calculated Limits:**
-- **Individual workbooks**: 10 × 1 = **10 total** 
-- **Shared + Extension workbooks**: **10 maximum**
-- **Current usage**: 3/10 shared workbooks, 12/10 individual workbooks (over limit - shown in red)
+- **Individual workbooks**: 10 × 1 = **10 maximum per member**
+- **Shared workbooks**: **10 maximum for the organization**
+- **Current usage**: 3/10 shared workbooks, 7/10 individual workbooks
 
 <br>
 
@@ -101,25 +101,25 @@ Administrators can monitor workbook usage in the **Organization > Informations**
 **Quotas section displays:**
 
 1. **"Shared + Extension Workbooks"**
-   - Shows: `used_shared_workbooks / shared_workbooks_limit`
+   - Shows the number of shared workbooks used compared to your organization quota
    - Example: "3/10" (3 shared workbooks out of 10 allowed)
    - This is the green progress bar in your dashboard
 
 2. **"Workbooks"** (Individual workbooks)
-   - Shows: `total_individual_workbooks / (shared_workbooks_limit × active_members)`
-   - Example: "12/10" (12 individual workbooks - shown in red when over limit)
-   - This appears as the red progress bar when limits are exceeded
+   - Shows total individual workbooks used across all members compared to total capacity
+   - Example: "7/10" (7 individual workbooks out of 10 total capacity)
+   - This appears as a red progress bar when approaching or at limits
 
 3. **"Members"**
-   - Shows: `active_members / shared_workbooks_limit`
+   - Shows active members compared to organization capacity
    - Example: "1/10" (1 active member, capacity for 9 more)
    - This is the green progress bar showing team capacity
 
 ### **5.2 Workbooks Page View**
 
 On the main workbooks page, you can also see your current usage displayed as:
-- **"7 / 12 (max. 50)"** format
-- This shows: current_workbooks / individual_limit (max. total_org_capacity)
+- **"7 / 10 (max. 10)"** format
+- This shows: current_workbooks / individual_limit (max. org_capacity)
 
 <br>
 
@@ -132,12 +132,13 @@ On the main workbooks page, you can also see your current usage displayed as:
 
 ### **6.2 Shared Limit Reached**
 - No new workbooks can be shared within the organization
+- **Cannot export workbooks** (since exported workbooks become shared)
 - No new extension workbooks can be created
 - Existing shared workbooks remain accessible
 
 ### **6.3 Upgrading Limits**
 Organization administrators can:
-- Contact support to increase `shared_workbooks_limit`
+- Contact support to increase organization quota
 - Upgrade organization plan for higher limits
 - Remove inactive workbooks to free up space
 
@@ -163,6 +164,9 @@ Organization administrators can:
 
 **Q: Why can't I create a new workbook?**  
 A: You may have reached either your individual limit or the organization's shared workbook limit. Check the usage counters in your dashboard.
+
+**Q: Why can't I export my workbook?**  
+A: When you export a workbook, it becomes shared and counts against the organization's shared workbook quota. If this quota is reached, exports are blocked.
 
 **Q: Do deleted workbooks immediately free up space?**  
 A: Yes, deleted workbooks immediately reduce your usage count and free up capacity.

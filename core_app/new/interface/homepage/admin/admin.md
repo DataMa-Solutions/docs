@@ -17,10 +17,10 @@ keywords: full app home admin
 
 This chapter gathers different features shared amongst the homepage, such as:
 
-1. [Profile](#profile)
-2. [Extensions](#extensions)
-3. [Statistics](#statistics)
-4. [Workbook Limits](#workbook-limits)
+1. [Profile](#1-profile)
+2. [Extensions](#2-extensions)
+3. [Statistics](#3-statistics)
+4. [Workbook Limits](#4-workbook-limits)
 
 <br>
 
