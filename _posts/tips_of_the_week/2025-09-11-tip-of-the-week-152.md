@@ -1,6 +1,6 @@
 ---
 feed: totw_en
-title:  "Tip of the week 152: "
+title:  "Tip of the week 152: Update on GA4 source filtering in Datama Prep"
 date:   2025-09-11 08:00:00 +0200
 img_url: /assets/images/tip/152.gif
 img_type: image/gif
