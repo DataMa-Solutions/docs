@@ -9,8 +9,6 @@ img_height: 300
 layout: post
 ---
 
-Great news for Datama Prep users working with a GA4 source: you can now build more advanced filters by combining "AND" and "OR" clauses, up to 3 levels deep 🤓  
-
-This makes it easier to extract the exact number of users or sessions who performed at least two different types of actions/events💡  
-
+Great news for Datama Prep users working with a GA4 source: you can now build more advanced filters by combining "AND" and "OR" clauses, up to 3 levels deep 🤓
+This makes it easier to extract the exact number of users or sessions who performed at least two different types of actions/events💡
 Reminder 📝: the GA4 source is still subject to API limitations. Always make sure your chosen metrics and dimensions can be queried together (both in the data you retrieve and in the filters you apply).
