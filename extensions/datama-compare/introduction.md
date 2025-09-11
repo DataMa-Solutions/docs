@@ -7,13 +7,13 @@ keywords: Datama light compare Compare intro introduction
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/compare_icon.jpg" alt="logo compare" title="Datama Compare" /></center>
-
-<br>
-
 > **Datama Compare is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
 <br/>
+
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Lookerstudio-Wireframe.png" alt="wireframe Looker extension" title="Datama Compare" /></center>
+
+
 
 Serverless & easy to integrate into your tools, Datama Compare makes it easy to explain variations of any KPI between two segments.
 
@@ -46,8 +46,9 @@ Embed Datama Compare in your reports quickly by following these links:
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
+
 <br>
 
-# 3. Going further:
+# 3. Going further
 
 - [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)

@@ -39,6 +39,7 @@ Below is a short intro video
 <br/>
 
 # 2. Features
+
 - **Waterfall & Tree analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
 - **Smart scoring engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix effect analysis:** Assess the specific impact of Mix effect on your performance metrics.
@@ -51,12 +52,12 @@ Below is a short intro video
 
 # 3. Add the extension into your report
 
-In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
+In order to use Datama in your report, you need to start by creating an account on [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Licence compare in looker studio.png" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Licence compare in looker studio.png" /></center>
 
 
-And then, follow these steps to add Datama in your Looker Studio report : 
+And then, follow these steps to add the Datama extension in your Looker Studio report : 
 
 1. Edit your report
 2. In the toolbar, click _Community visualizations and components Community visualization icon_
@@ -65,7 +66,7 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+<center><img style="width:90%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
 
 <br>
 
@@ -145,7 +146,7 @@ Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b1
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings available in this extension. 
 
 <br/>
 
@@ -157,7 +158,7 @@ Explore related documentation to understand how to generate insights in [Datama 
 
 # 10. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
-    - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
+    - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>

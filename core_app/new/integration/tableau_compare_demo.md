@@ -1,7 +1,7 @@
 ---
 title: Tableau extension
 description: Gap analysis in Tableau has never been easier with Datama
-layout: new-page
+layout: page
 scope: app
 ---
 
