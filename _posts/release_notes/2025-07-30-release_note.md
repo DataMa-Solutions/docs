@@ -17,4 +17,4 @@ description: |
 * **Wep app** 
   * Prep: **Top X based on Rank** is a new method in clustering field calculation in the Prep clean block. It allows to keep only the top segments of a dimension based on a given metric, and cluster all other segments in an "Other" bucket.
   * Prep: **Google Analytics chunks** avoids GA4 API sampling by calling large request through multiple date chunks. Just tick the "avoid" sampling tickbox in GA block and select your desired number of date chunks. 
-  * Multiple fixes and improvements have been done. This includes: GA4 Regex now case sensitive, New view creation avoiding previous view override. 
+  * Multiple fixes and improvements have been done. This includes: GA4 Regex now case sensitive, New view creation avoiding previous view override, improved display of icons
