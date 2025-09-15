@@ -19,19 +19,6 @@ Here is the available connectors:
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source.png"/></center>
 <br>
 
-<!-- - [Google Sheet](#google-sheet)
-- [Excel File](#excel-file)
-- [csv File](#csv-file)
-- [Calendar](#calendar)
-- [Google Analytics 3](#google-analytics-3)
-- [Google Analytics 4 (beta)](#google-analytics-4-beta)
-- [Google Google BigQuery](#google-google-bigquery)
-- [Mail](#mail)
-- [Snowflake](#snowflake)
-- [Google trends](#google-trends)
-- [Facebook](#facebook)
-- [Piano Analytics (AT Internet)](#piano-analytics)
-- [Amazon Redshift](#amazon-redshift) -->
 
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
@@ -133,7 +120,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 # 5. Google Analytics 4
 
-You can upload your Google Analytics 4 datasets in Datama PREP.
+You can upload your GA4 datasets in Datama Prep.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
 
 Select your property, metrics and dimensions. You can choose only one property and only 9 dimensions and up to 10 metrics.
@@ -160,15 +147,13 @@ Select whether you want a relative date, or absolute. If you want to lock your t
   <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have changes on your GA4, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
 </div>
 
-
-<details class="embed-totw">
-  <summary>Multiple date range selection on GA4 connectors</summary>
-  <div class="embed-totw__content">
-  <strong>Note</strong>: It is now possible to define several date ranges in the same source block for GA4 connectors. you can add a «Date range» column to facilitate comparison, without having to use a date dimension. Read more on <a href="https://datama-solutions.github.io/docs/tip_of_the_week.html#:~:text=Tip%20of%20the%20week%20141
-  ">this page</a>  </div>
-</details>
+{% include embed_totw.html num=152 %}
 
 
+{% include embed_totw.html num=147 %}
+
+
+{% include embed_totw.html num=141 %}
 
 <br>
 
@@ -188,6 +173,9 @@ It is then displayed the amount of data it will use in Google BigQuery.
 <div class="info-box">
   <strong>Note</strong>:Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your bigquery dataset, within the hour, you will refresh your data using the button on the header.
 </div>
+
+{% include embed_totw.html num=143 %}
+
 
 <br>
 
