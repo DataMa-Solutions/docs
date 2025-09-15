@@ -46,10 +46,10 @@ but you can also access the export menu within each solution.
 
 
 Here are the available connectors to extract your analysis:
-- [Slack](#slack)
-- [Email](#email)
-- [Static URL](#static-url)
-- [Teams](#teams)
+- [Slack](#21-slack)
+- [Email](#23-email)
+- [Static URL](#24-static-url)
+- [Teams](#23-email)
 
 <br>
 

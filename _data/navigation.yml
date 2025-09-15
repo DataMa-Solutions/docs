@@ -631,7 +631,7 @@
             - name: Focused and excluded dimensions #done
               link: /core_app/new/prep/interface/focusExcluded_dimensions.html
         - name: Export Analysis #done
-          link: /core_app/new/prep/interface/extract_analysis.
+          link: /core_app/new/prep/interface/extract_analysis.html
           type: h4          
       # subnav:
       #   - name: Licences
