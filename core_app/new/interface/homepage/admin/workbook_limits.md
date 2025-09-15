@@ -14,11 +14,14 @@ keywords: workbook limits organization admin usage
 
 # **Understanding Workbook Limits**
 
-Datama uses a system of workbook limits to manage usage within organizations. There are two main types of workbooks, each with their own limit system:
+Datama uses a system of workbook limits to manage usage within organizations. 
+Read this documentation to understand how this works.
 
 <br>
 
 ## **1. Types of Workbooks**
+
+There are two main types of workbooks, each with their own limit system:
 
 ### **1.1 Individual Workbooks**
 - **Ownership**: Belong to a specific user
@@ -29,22 +32,43 @@ Datama uses a system of workbook limits to manage usage within organizations. Th
 ### **1.2 Shared Workbooks**
 - **Ownership**: Shared at organization level
 - **Visibility**: Visible to all organization members
-- **Purpose**: Collaboration and team sharing
+- **Purpose**: Collaboration and team sharing. 
 - **Storage**: Organization-wide access
 
-### **1.3 Exported Workbooks**
+There are two types of workbooks that Datama enforce you to share with the organization: 
+
+#### **1.2.1 Exported Workbooks**
+
+Those are workbooks on which an export has been scheduled (e.g. slack or email notification)
+
 - **Ownership**: Individual workbooks that become shared when exported
 - **Visibility**: Become visible to all organization members once exported
 - **Purpose**: Sharing analysis results, scheduled exports, automated reporting
 - **Storage**: Move from individual to shared pool when exported
 
+#### **1.2.2 Workbooks created from extensions**
+
+Those are workbooks that have been created using the full web app extension logic (only available in Tableau Dashboard and in Power BI).
+Note that this doesn't apply to marketplace (aka light) extension use cases, which are totally separated from the logic of workbooks limitations.
+
+- **Ownership**: Individual workbooks created in Data viz extension environement, that become shared when saved the first time
+- **Visibility**: Become visible to all organization members, in the "from extension" folder
+- **Purpose**: Make Datama analysis available to all people accessing the data viz environment, using the web app extension with advanced settings
+- **Storage**: Shared pool in "From extension" folder when saved
+
 <br>
 
 ## **2. How Limits Are Calculated**
 
-### **2.1 Organization Workbook Quota**
+Your organization has a central quota that determines how many workbooks can be used across the organization and how many members can be invited in the organization.
+By default, this quota is set to 10.
+You can increase that limit on request to your Customer Success Manager.
 
-Your organization has a central quota that determines how many workbooks can be used across the organization.
+### **2.1 Team member Quota**
+
+Your quota limit the number of people you can invite into your organization. 
+Organization admins can manage who is invited and send/ remove members.
+When a member is removed from the organization, its worbooks are automatically reattributed to the admin of the organization.
 
 ### **2.2 Individual Workbook Limits**
 Each active member in your organization can create a certain number of individual workbooks. This limit is calculated by multiplying the organization's shared workbook quota by the number of active members.
