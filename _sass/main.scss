@@ -552,15 +552,19 @@ details.embed-totw.embed-totw--compact > .embed-totw__content {
 
 /* Tip of the Week page separators */
 .totw-list h2 {
-  margin-top: 40px;
+  margin-top: 60px;
   padding-top: 20px;
-  font-weight: 600;
+  font-weight: 600 !important;
   position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 .totw-list h2::before {
   content: "💡";
+  display: inline-block;
   margin-right: 8px;
+  line-height: 1;
 }
 
 .totw-list h2:not(:first-child) {
@@ -569,6 +573,11 @@ details.embed-totw.embed-totw--compact > .embed-totw__content {
 
 .totw-list h2 + * {
   margin-top: 12px;
+}
+
+/* Tip of the Week intro spacing */
+blockquote.totw-intro {
+  margin-bottom: -30px;
 }
 
 @media screen and (max-width: 767px) {
