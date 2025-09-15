@@ -62,6 +62,9 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_assess_extension.gif" /></center>
 
+<br>
+
+{% include embed_totw.html num=151 %}
 
 <br>
 

@@ -76,3 +76,9 @@ Sankey chart is another way to display flows between touch points which is conve
 You can move the nodes of the Sankey by drag and dropping the nodes with your moves
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/images/sankey.png" style="width:1000px;">
+
+<br>
+
+{% include embed_totw.html num=135 %}
+
+<br>

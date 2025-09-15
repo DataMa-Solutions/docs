@@ -75,7 +75,7 @@
           type: h4
           subnav:
             - name: Solutions header #done
-              link: /core_app/new/interface/header/header.html
+              link: /core_app/new/interface/header/solutions_header.html
               # subnav:
               #   - name: File #done
               #     link: /core_app/new/interface/header/file.html

@@ -15,21 +15,6 @@ keywords: Power BI get started powerbi
 
 <br/>
 
-<!-- Here is what you get on this page:
-1. [Overview](#1-overview) 
-2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-settings---advanced-usage)
-8. [Get more insights](#8-get-more-insights)
-9. [Support and resources](#9-support-and-resources)
-10. [Release](#10-powerbi-version-history-to-be-updated)
-
-
-<br/> -->
-
 
 <div class="info-box">
  <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/core_app/new/integration/PowerBI_demo.html">version</a> available in the Power BI Marketplace. </div>
@@ -61,6 +46,11 @@ Here are the main features this extension is providing. These features will be c
 - **Customization options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
 <br/>
+
+{% include embed_totw.html num=130 %}
+
+<br>
+
 
 # 3. Add the extension into your report
 

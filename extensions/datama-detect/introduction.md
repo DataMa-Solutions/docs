@@ -52,5 +52,9 @@ Embed Datama Detect in your reports quickly by following these links:
 
 <br>
 
+{% include embed_totw.html num=148 %}
+
+<br>
+
 # 3. Going further:
 - [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)

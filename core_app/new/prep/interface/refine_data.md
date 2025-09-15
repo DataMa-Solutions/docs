@@ -45,7 +45,9 @@ You'll also be able to edit a column type by using the select contain on items. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/clean_types.png"/></center>
 
-In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button.
+## 1.1 Calculated fields
+
+In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. See more on the [available functions]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html).
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/create_calculated_field.png"/></center>
 
@@ -58,6 +60,9 @@ This a powerfull tool to create columns using conditionals or aggregation functi
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/calculated_field_preview1.png"/></center>
 
 To edit your calculated fields, the detailed **functions list** is available [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html)
+
+
+## 1.2 Cluster dimension
 
 Finally, prep also gives you the possibility to cluster some columns of your dataset using the **Create a clustering field** button.
 
@@ -79,6 +84,13 @@ As you can see in the example shown above, you can configure several parameters 
 <div class="info-box">
   <strong>Note</strong>: To ensure Datama works correctly, place all dimension columns before the metric columns. New calculated fields are automatically added at the end of the column list.If your new field is a dimension, create another clean block so you can drag it up into the dimension section.
 </div>
+
+<br>
+
+{% include embed_totw.html num=132 %}
+
+<br>
+
 
 # 2. Append
 
@@ -241,6 +253,11 @@ What if scenarios are made of 2 main parts
 
 <br>
 
+{% include embed_totw.html num=136 %}
+
+<br>
+
+
 # 5.1. Baseline
 
 Define the baseline of your simulation, i.e. the part of your dataset that will be used as starting point.
@@ -310,3 +327,9 @@ Finally, you can select the aggregation function to apply on each column in the 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_functions.png"/></center>
 
 By default, the aggregation functions selected in the menu are **sum** for numeric columns and **count** for other types of columns.
+
+<br>
+
+{% include embed_totw.html num=133 %}
+
+<br>

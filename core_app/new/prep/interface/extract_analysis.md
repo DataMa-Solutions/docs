@@ -41,6 +41,12 @@ Here's what it's going like to be in Datama Prep:
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_export.png"/></center>
 
+<br>
+
+{% include embed_totw.html num=150 %}
+
+<br>
+
 but you can also access the export menu within each solution.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportToggle.png"/></center>
 
