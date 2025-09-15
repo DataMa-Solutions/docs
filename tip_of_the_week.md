@@ -7,6 +7,7 @@ description: |
 ---
 > Every week, Datama publishes a tip or a trick on how to best take advantage of the software
 
+<div class="totw-list">
 {% for post in site.posts %}
 {% if post.feed == "totw_en" %} 
 <h2>{{ post.title }}</h2>
@@ -17,5 +18,6 @@ description: |
 <img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
 {% endif %}
 {% endfor %}
+</div>
 {% include tip_of_the_week_old.md %}
 

@@ -131,7 +131,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 <br> -->
 
-# 5. Google Analytics 4 (beta) 
+# 5. Google Analytics 4
 
 You can upload your Google Analytics 4 datasets in Datama PREP.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
@@ -160,10 +160,15 @@ Select whether you want a relative date, or absolute. If you want to lock your t
   <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have changes on your GA4, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
 </div>
 
-<div class="info-box">
+
+<details class="embed-totw">
+  <summary>Multiple date range selection on GA4 connectors</summary>
+  <div class="embed-totw__content">
   <strong>Note</strong>: It is now possible to define several date ranges in the same source block for GA4 connectors. you can add a «Date range» column to facilitate comparison, without having to use a date dimension. Read more on <a href="https://datama-solutions.github.io/docs/tip_of_the_week.html#:~:text=Tip%20of%20the%20week%20141
-  ">this page</a>
-</div>
+  ">this page</a>  </div>
+</details>
+
+
 
 <br>
 
