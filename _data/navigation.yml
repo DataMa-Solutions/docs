@@ -78,7 +78,7 @@
           type: h4
           subnav:
             - name: Solutions header #done
-              link: /core_app/new/interface/header/header.html
+              link: /core_app/new/interface/header/solutions_header.html
               # subnav:
               #   - name: File #done
               #     link: /core_app/new/interface/header/file.html
@@ -634,7 +634,7 @@
             - name: Focused and excluded dimensions #done
               link: /core_app/new/prep/interface/focusExcluded_dimensions.html
         - name: Export Analysis #done
-          link: /core_app/new/prep/interface/extract_analysis.
+          link: /core_app/new/prep/interface/extract_analysis.html
           type: h4          
       # subnav:
       #   - name: Licences

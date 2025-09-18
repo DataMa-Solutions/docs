@@ -1,7 +1,7 @@
 ---
 title: Export
 description: Find here how you can export your analysis
-layout: new-page
+layout: page
 scope: Datama/saas
 keywords: full app header menu export
 ---
@@ -13,6 +13,10 @@ keywords: full app header menu export
 By clicking on the export icon, access all the possible extraction :
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/export.png"/></center>
+
+<br>
+
+{% include embed_totw.html num=150 %}
 
 <br>
 

@@ -57,7 +57,7 @@ When modifying a market equation make sure your calculation is still correct. In
 
 # 4. What's mathematically a market equation
 
-Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/header/input/source.html), in order to compute the **KPI you want to explain**.
+Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html), in order to compute the **KPI you want to explain**.
 
 At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.io/how-to-build-my-business-metric-relation/).
 

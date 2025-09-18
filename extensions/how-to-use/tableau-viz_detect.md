@@ -45,6 +45,11 @@ Below is a short intro video
 
 <br/>
 
+{% include embed_totw.html num=145 %}
+
+<br>
+
+
 # 3. Add the extension into your report
 
 In order to use Datama in your report, you need to add a viz extension using a custom trex file.

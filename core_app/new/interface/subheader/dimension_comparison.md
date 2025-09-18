@@ -99,4 +99,8 @@ The second graph can either be displayed in overlay (by default), below or right
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/secondarycomparison_layer-right.png"></center>
 
+Other Specific display: Dimension then Dimension, Dimension then step...
 
+{% include embed_totw.html num=134 %}
+
+<br>

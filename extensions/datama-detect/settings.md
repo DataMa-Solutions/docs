@@ -49,9 +49,20 @@ Select from the available dimensions in your dataset based on which you wish to 
 
 Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
+
+{% include embed_totw.html num=145 %}
+
+<br>
+
+
 ### 1.2.2. Analyse latest points only
 You can choose to display the anomalies of each date or only for the latest point in the data.
 In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
+
+
+{% include embed_totw.html num=148 %}
+
+<br>
 
 ### 1.2.3. Baseline mode
 These settings determine which historical data points are used to calculate the baseline for anomaly detection:
@@ -67,7 +78,8 @@ It's to determine how many past data points are used to calculate the baseline (
 
 A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
 
-<center> <img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/core_app/impact/web_application/menu/settings/use_cases_examples/images/ConfidenceIntervall-Concept.jpg"/></center>
+<center> <img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_confidenceInterval.png"/></center>
+
 
 By changing the confidence interval you can modify the precision expected from the significance.
 

@@ -46,6 +46,11 @@ Below is a short intro video:
 <br/>
 
 
+{% include embed_totw.html num=145 %}
+
+<br>
+
+
 # 3. Add the extension into your report
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
@@ -63,6 +68,10 @@ And then, follow these steps to add Datama in your Looker Studio report :
 <br>
 
 <center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_detect_extension_looker.gif" /></center>
+
+<br>
+
+{% include embed_totw.html num=151 %}
 
 <br>
 

@@ -39,7 +39,11 @@ Embed Datama Assess in your reports quickly by following these links and videos:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0O60LRRuhc4?si=YoixClIn3psOzqid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pibKmIaFMcM?si=ldIhDzH9frq2S7VV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
+- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html) : See more in the dedicated section.
+<br>
+
+{% include embed_totw.html num=149 %}
+
 <br>
 
 # 3. Going further:

@@ -11,18 +11,6 @@ keywords: Qlik Sense Qlik get started
 
 <br/>
 
-<!-- Here is what you get on this page:
-1. [Overview](#1-overview) 
-2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-advanced-usage)
-8. [Get more insights](#8-get-more-insights)
-9. [Support and Resources](#9-support-and-resources)
-
-<br/> -->
 
 # 1. Overview
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Qlik. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
@@ -41,6 +29,10 @@ Watch this video to properly understand our extension and how to use it.
 - **Customization Options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
 <br/>
+
+{% include embed_totw.html num=130 %}
+
+<br>
 
 # 3. Add the extension into your report
 

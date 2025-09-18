@@ -14,6 +14,10 @@ keywords: full app compare interface
 
 <br>
 
+In this chapter, you will get a quick tour of the Datama Compare interface. We outline the four building blocks of the UI and explain how they help you navigate, configure settings, and explore results efficiently.
+
+<br>
+
 <center><img style="weight:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_interface.png"/></center>
 
 <br>

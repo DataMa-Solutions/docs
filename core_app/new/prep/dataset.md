@@ -48,11 +48,16 @@ If a dimension is continuous (i.e. numeric) and has more than 6 possible values,
 
 Number of dimension are theoretically unlimited. However, as your dataset get bigger and bigger when you add new dimensions, you may want to limit yourself to a set of 3 to 8 dimensions, just for performance reasons.
 
+
 <br/>
 
-> **Tip:** Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.
+<div class="info-box"> <strong>Tip:</strong> Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.</div>
 
-> **Warning:** Datama JOURNEY requires at least a 'Journey' column within its dimensions. See [Journey Source]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html) for more details.
 
+<div class="info-box"> <strong>Warning:</strong> Datama JOURNEY requires at least a 'Journey' column within its dimensions. See <a href="https://datama-solutions.github.io//docs/core_app/new/journey/journey.html" target="_blank">Journey Source</a>.
+ for more details.
+</div>
+
+<br>
 
 🛈 **Info** : In order to define and configure your [metrics relations]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) you need to first configure your flow (using a variety of sources and action blocks) and then click on the Datama block there you will be able to define Metrics and relations

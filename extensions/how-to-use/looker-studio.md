@@ -26,3 +26,7 @@ Here are the currently existing extensions, and related documentation
 - [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_assess.html): Assess statistical significance of variations
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Assess_Looker_Studio.gif" align="center" width="650px" />
+
+<br>
+
+{% include embed_totw.html num=151 %}

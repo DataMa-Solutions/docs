@@ -1,13 +1,16 @@
 ---
 title: Prep - Output
 description: This section helps you to prepare your data to be analysed in the Output block
-layout: new-page
+layout: page
 scope: Datama/saas/prep
 keywords: full app prep output block
 ---
 
 <br>
 
+> The output blocks allows to configure the analysis and launch the appropriate solutions.
+
+<br>
 
 In Datama Prep, the Datama block allows you to interface the resulting data source from your stream with our augmented analysis solutions.
 
@@ -40,4 +43,4 @@ Learn more on this by reading details on:
 
 <br>
 
-> Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions
+Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions

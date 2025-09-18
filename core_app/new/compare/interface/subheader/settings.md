@@ -378,8 +378,15 @@ The generated insights are then processed by OpenAI's language model. OpenAI enh
 
 <div class="info-box">
 <strong>Note</strong>: In a normal Datama license, you can save up to 10 use cases. If you have reached the maximum number, you can delete some in the "Manage Version" menu
-
 </div>
+
+
+<br>
+
+
+
+
+
 
 
 <br>
