@@ -17,11 +17,10 @@ keywords: full app home admin
 
 This chapter gathers different features shared amongst the homepage, such as:
 
-<!-- 1. [Profile](#products)
-2. [Security](#security)
-3. [Statistics](#statistics)
-4. [Manage Licence](#manage-licence)
-5. [Extensions](#extensions) -->
+1. [Profile](#1-profile)
+2. [Extensions](#2-extensions)
+3. [Statistics](#3-statistics)
+4. [Workbook Limits](#4-workbook-limits)
 
 <br>
 
@@ -37,7 +36,6 @@ This menu allows you to access the extensions integrated into Tableau, PowerBI, 
 
 <br>
 
-
 # 3. Statistics
 
 In Statistics, find a summary of the number of <i>computations</i> made.
@@ -51,6 +49,13 @@ At Datama, the consumption of the solution is made according to the number of co
 
 <br>
 
+# 4. Workbook Limits
+
+Understanding and monitoring your organization's workbook usage is crucial for effective team management. Datama provides detailed information about how workbook limits work and how they are calculated.
+
+Learn more about [Workbook Limits]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/workbook_limits.html)
+
+<br>
 
 
 <!-- # <b>Licences</b>
