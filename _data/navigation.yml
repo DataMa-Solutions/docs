@@ -69,6 +69,9 @@
                   link: /core_app/new/interface/homepage/get_inspired/acquisition_display.html
             - name: Admin #done
               link: /core_app/new/interface/homepage/admin/admin.html
+              subnav:
+                - name: Workbook Limits
+                  link: /core_app/new/interface/homepage/admin/workbook_limits.html
 
         - name: Solutions interface #done
           link: /core_app/new/interface/header/header.html
