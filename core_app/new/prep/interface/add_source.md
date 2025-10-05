@@ -28,7 +28,7 @@ And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integra
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source.gif"/></center>
 
 When adding a google sheet block to your flow, it’ll require a small configuration.
-- First you need to have the url of your google sheet. 
+- First you need to have the url of your google sheet.
 Copy/ past the URL or select it with the <b>"Share"</b> Button on the top right (next to your account name) inside google sheet and <b>"Copy link"</b>
 - Share your Gsheet with Datama
 When your spreadsheet is public, you have nothing else to do.
@@ -57,7 +57,7 @@ If you want to analyze your excel file, it’s easy. Click on the Excel connecto
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source_csv.gif"/></center>
 
-If you want to analyze your csv file, it’s easy. Click on the csv connector, drop your csv file in the box given, and upload. You will be asked which csv separator you want to use, and that’s it. 
+If you want to analyze your csv file, it’s easy. Click on the csv connector, drop your csv file in the box given, and upload. You will be asked which csv separator you want to use, and that’s it.
 Click on load and continue building your flow with more blocks.
 
 <div class="info-box">
@@ -89,7 +89,7 @@ Now you simply have to click on <b>Load</b>
 </div>
 
 
-<!-- # 5. Google Analytics 3 
+<!-- # 5. Google Analytics 3
 
 You can upload your Google Analytics datasets in Datama PREP.
 Click on the Analytics 3 connector in Datama prep, you might need to give authorization to your google analytics by clicking on [Connect] button. You can also use service account to connect to Google Analytics. Learn more on [Service Accounts]("https://developers.google.com/analytics/devguides/reporting/core/v4/authorization#service_accounts") here
@@ -141,6 +141,11 @@ However, this option may slow down the import process, as Google Analytics needs
 <u>Timeframe selection</u>
 Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
 
+<u>Filter </u>
+You can create advanced filters by combining “AND” and “OR” clauses, up to 3 levels deep. By creating a “+Group,” you create a clause with either ‘AND’ or “OR,” then with “+Filter” you add as many conditions as you want in the clauses.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AND_and_OR_GA4_Filter.png"/></center>
+
 <br>
 
 <div class="info-box">
@@ -191,7 +196,7 @@ You can fill both or one of the inputs to filter out mails.
 
 The “Data Location” section tells us where we should scrap the data from. If the data is stored in attachment, then you can set up in the advanced settings parameters like the separator, number of lines to skip etc…
 
-If the data is stored on a remote server, try to check on your emails to see something constant in your reports url (where we should download the report from). 
+If the data is stored on a remote server, try to check on your emails to see something constant in your reports url (where we should download the report from).
 For ex. if your reports are always downloaded through Amazon's server, urls will always contain 'amazonaws.com' since it's the part that doesn't change in the report url. So you can use this in the field below
 
 
@@ -213,7 +218,7 @@ With those information, you will need to fill your credentials and the Account I
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake.png"/></center>
 
-When connected, you can select a warehouse and a database in advanced settings if needed, and input your query. 
+When connected, you can select a warehouse and a database in advanced settings if needed, and input your query.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake_advanced_settings.png"/></center>
 
@@ -272,7 +277,7 @@ Once done, you then need to paste an "API body" content. This will be generated 
 
 Then Paste the API body in Datama prep in the appropriate field
 
-Lastly, define your dates for the report in Datama Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date) 
+Lastly, define your dates for the report in Datama Prep (this will overwrite the dates you have set in the data query explorer interface in Piano, so that your data is always up to date)
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataResults.png"/></center>
 

@@ -24,7 +24,7 @@ Watch this video to properly understand our extension and how to use it.
 - **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
 - **Smart Scoring Engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix Effect Analysis:** Assess the specific impact of Mix effect on your performance metrics.
-**Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format. 
+**Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format.
 - **Interactive Charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
 - **Customization Options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
@@ -38,9 +38,9 @@ Watch this video to properly understand our extension and how to use it.
 
 ## 3.1. Add the extension to your list of Qlik extensions
 
-In order to use Datama in your report, you first need to add a new extension to your Management Console. 
+In order to use Datama in your report, you first need to add a new extension to your Management Console.
 
-To add the Datama extension to Qlik Sense Online, follow these steps : 
+To add the Datama extension to Qlik Sense Online, follow these steps :
 
 1. Open your _Management console_
 2. On the left side panel, click _Extensions_
@@ -56,7 +56,7 @@ To add the Datama extension to Qlik Sense Online, follow these steps :
 
 ## 3.2 Add the extension into your app
 
-Follow these steps to add Datama in your app : 
+Follow these steps to add Datama in your app :
 
 1. From the _Analytics Services_ page, open your App
 2. Click on the sheet you want to use Datama on
@@ -80,6 +80,16 @@ You can get a free trial period of 7 days allowing you to test the full version 
 2. Click on "Upgrade"
 3. Create your Datama account
 4. Get your Trial extension with no engagement, and no credit card required
+
+At the end of your trial you may want to continue with the full version. To do this, you will need to retrieve your license key from Datama and paste it into the “License key” field in Qlik.
+To verify your Datama license, you must authorize the Datama API in Qlik among the authorized URLs (only the license key is sent to verify its validity; no other information is transmitted).
+If this is not the case, follow these steps:
+1. Go to the “Administration” page, then “Content Security Policy.”
+2. Click 'Add'
+3. Enter a name
+4. In the origin field, add the address ‘https://api.prep.datama.io’
+5. Check the “connect-src” and “connect-src (WebSoket)” directives
+6. Confirm by clicking 'Add'
 
 <br>
 
@@ -107,7 +117,7 @@ Once you've imported the extension, here is how you can use it.
 
 **4. Save settings**: If you have a paid licence, settings will be automatically saved along with your dashboard. O
 
-**5. Leave edit mode**: In the Qlik side panel, in the "Datama Setting" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+**5. Leave edit mode**: In the Qlik side panel, in the "Datama Setting" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience.
 
 <br/>
 
@@ -124,7 +134,7 @@ To discover more about how to read Waterfall, you can read our [dedicated sectio
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings.html) to get the full view of the extension Settings.
 
 <br/>
 
