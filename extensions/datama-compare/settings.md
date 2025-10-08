@@ -85,7 +85,7 @@ You can start your comparison as suggested below. For a quick step‑by‑step d
 
 * Third, in General Settings, you can choose any other dimension available in your visualization tool’s "Dimension" field as the comparison dimension.
 
-If a dimension includes more than two segments — e.g., "Country" — start by adding "Country" and the metric (e.g., "Sessions"). Then select the two segments you want to compare (e.g., USA vs. UK).
+If a dimension includes more than two segments — e.g., "Country" — start by adding "Country" and the metric (e.g., "Sessions"). Then select the two segments you want to compare (e.g. UK vs. Spain).
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/change_segement_country.gif"/></center>
 
