@@ -30,14 +30,13 @@ keywords: light compare settings detect extension plugin
 
 # 1. General Settings
 
-## 1.1. Anomaly dimension
+## 1.1. Modeling
 ### 1.1.1. Detect anomaly on xxx
 Select from the available dimensions in your dataset based on which you wish to detect anomalies. We usually choose Date, Hour, or another continuous numeric field.
 
 <br>
 
-## 1.2. Modeling
-### 1.2.1. Detection method
+### 1.1.2. Detection method
 
 *  **Observed volatility** : Uses the natural variability of the data (e.g. rolling standard deviation) to detect anomalies. It's the best method when your data fluctuates normally over time. For example: A value is flagged if it deviates more than 2× the standard deviation from the recent average.
 
@@ -54,27 +53,18 @@ Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_a
 
 <br>
 
-
-### 1.2.2. Analyse latest points only
-You can choose to display the anomalies of each date or only for the latest point in the data.
-In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
-
-
-{% include embed_totw.html num=148 %}
-
-<br>
-
-### 1.2.3. Baseline mode
+### 1.1.3. Baseline mode
 These settings determine which historical data points are used to calculate the baseline for anomaly detection:
 
 * **All points** : Uses all historical data points to compute the baseline.
 * **Same day of week** : Only uses historical data points that fall on the same weekday (e.g., all previous Mondays if the current point is a Monday).
 * **Same day of year** : Compares only with data from the same calendar day in previous years.
+* **Same ISO day**: Compares only with the [ISO day](https://en.wikipedia.org/wiki/ISO_week_date) (ISO 8601).
 
-### 1.2.4. Number of Points in baseline 
+### 1.1.4. Number of Points in baseline 
 It's to determine how many past data points are used to calculate the baseline (or expected value) for anomaly detection.
 
-### 1.2.5. Level of confidence
+### 1.1.5. Level of confidence
 
 A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
 
@@ -83,23 +73,32 @@ A confidence interval is a range of values that is likely to contain an unknown 
 
 By changing the confidence interval you can modify the precision expected from the significance.
 
-### 1.2.6. Above or below confidence interval
+### 1.1.6. Analyse latest points only
+You can choose to display the anomalies of each date or only for the latest point in the data.
+In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
 
-This trigger allows to choose to detect only anomaly above or below confidence interval. There is sometimes no need to be alerted for good performance. 
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/above_below_interval.png"/></center>
+{% include embed_totw.html num=148 %}
 
 <br>
 
-## 1.3. Grouping
+### 1.1.6. Above or below confidence interval
+
+This trigger allows to choose to detect only anomaly above or below confidence interval. There is sometimes no need to be alerted for good performance. 
+
+<!-- <center> <img src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/above_below_interval.png"/></center> -->
+
+<br>
+
+## 1.2. Clustering
 
 Sets the model’s aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an “Other” segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects.
 
-### 1.3.1. Metric to use for grouping
+### 1.2.1. Main KPI (Metric to use for grouping)
 
 This is to customize the “Primary Numerator” mentioned just above, based on which the system caculates X% (2% by default) when grouping.
 
-### 1.3.2. Group values representng less than(%)
+### 1.2.2. Aggregation in % 
 
 This is to customize X% mentioned just above.
 
@@ -117,19 +116,19 @@ Using metrics relation allows you to change your market equation, add a unit, re
 
 - By default, Datama creates a product of ratios (prod) with all the steps defined in the metrics relation. However, you can change this to “sum” to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/sum_marketequation.gif"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/sum_marketequation_detect.gif"/></center>
 
 - When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/Marketequation_unit_detect.gif"/></center>
 
-- In the Metrics Relation definition, you can opt to set a given step to focus on a specific dimension. This action will disable the automatic dimension scoring in the computation result and only display the selected dimension.
+<!-- - In the Metrics Relation definition, you can opt to set a given step to focus on a specific dimension. This action will disable the automatic dimension scoring in the computation result and only display the selected dimension.
 
 <center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
 
 - The excluded dimension will maintain the scoring algorithm but will not consider the excluded dimension in the calculation for this step.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center> -->
 
 
 
@@ -138,7 +137,6 @@ Using metrics relation allows you to change your market equation, add a unit, re
 
 
 <!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
-
 
 <br/>
 

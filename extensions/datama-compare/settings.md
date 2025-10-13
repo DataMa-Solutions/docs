@@ -98,7 +98,7 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 ## 1.1.2. Secondary Comparison
 
-Add a second comparison to display a side‑by‑side waterfall focused on another scope. For example, while comparing USA vs. UK, you can also add a Mobile vs. Desktop comparison within the "Device" dimension.
+Add a second comparison to display a side‑by‑side waterfall focused on another scope. For example, while comparing USA vs. UK, you can also add a Mobile vs. Tablet comparison within the "Device" dimension.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/secondary_comparison_setting.gif"/></center>
 
@@ -122,21 +122,21 @@ Control which reference the dynamic comparison uses:
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/modelling.png"/></center>
 
-## 1.2.1. Group values representing less than (%)
+## 1.2.1. Aggregation in %
 
 <center><img style="align: right; width: 400px;" src="{{site.url}}/{{site.baseurl}}/core_app\new\interface\subheader\settings\images\settings_agg2percent.jpg"/></center>
 
 Sets the model’s aggregation level. If set to X%, segments within a dimension that represent less than X% of the Primary Numerator (e.g., Revenue) are grouped into an "Other" segment. Default is 2%. This parameter can significantly impact the computed mix effects.
 
-## 1.2.2. Metric to use for grouping
+## 1.2.2. KPI
 
 Choose the metric used as the "Primary Numerator" for the grouping rule above. The system calculates X% (2% by default) against this metric to decide grouping.
 
-## 1.2.3. Analysis depth
+## 1.2.3. Comment depth
 
 Adjust the level of detail provided in comments and explanations.
 
-## 1.2.4. Split Mix and Perf effects
+## 1.2.4. Mix & Performance effects
 
 Control how the mix effect is attributed. Default is "Never". Select "Auto" to let the tool split Mix vs. Performance when the mix contribution exceeds a threshold.
 
@@ -156,13 +156,14 @@ Market relation defines how metrics from your datasource combine to compute the 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
 
+<!-- 
 - You can set a step to focus on a specific dimension. This disables automatic dimension scoring and displays only the selected dimension for that step.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
 
 - Excluded dimensions remain scored but are ignored in the calculation for that step.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center> -->
 
 
 <br/>   
@@ -175,31 +176,29 @@ Market relation defines how metrics from your datasource combine to compute the 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preference.png"/></center>
 
-### 3.1.1 Allow Datama to adjust data display for better insights
+<!-- ### 3.1.1 Allow Datama to adjust data display for better insights
 
 In some cases, Datama suggests an adapted waterfall display to reveal more insights.
-    - For example, if your waterfall has a single step, Datama can unpivot data to show all segments of a dimension instead.
+    - For example, if your waterfall has a single step, Datama can unpivot data to show all segments of a dimension instead. -->
 
-### 3.1.2 Language
+### 3.1.1 Language
 
 Currently, French and English are available. Contact us if you need additional languages.
 
-<br/>
 
-## 3.2 Displayed Widgets
+### 3.1.2 Smart title
 
-Choose which elements to show or hide:
+Taggle to display or hide the 
+### 3.1.3 Plot (waterfall graph)
+### 3.1.4 Smart comment
 
-### 3.2.1 Smart title
-### 3.2.2 Plot (waterfall graph)
-### 3.2.3 Smart comment
-
+## 3.2 Global
 You can customize colors for:
-### 3.2.4 Application 
+### 3.2.1 Application 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
 
-### 3.2.5 Waterfall
+### 3.2.2 Waterfall
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.png"/></center>
 
@@ -295,11 +294,10 @@ Adjust additional values size.
 
 ## 3 Labels & Indicators
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/SettingsLabelIndicator.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/img/SettingsLabelIndicator.png"/></center>
 
 These settings allow you to customize how information is displayed on the waterfall chart.
 
-The first line controls elements shown in yellow in the picture below, while the second line controls elements shown in green.
 
 For each element, you can choose what information to display:
 
