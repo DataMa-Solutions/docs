@@ -61,11 +61,11 @@ You can access the waterfall setting as shown below:
 Let's explain option by option.
 <br/>
 
-# 1. General Settings
+# General Settings
 
-# 1.1. General Settings
+## 1. General Settings
 
-## 1.1.1 Comparison Definition
+### 1.1. Comparison Definition
 
 Choose the scope of your comparison and optionally add a second comparison to enrich the analysis.
 
@@ -96,20 +96,20 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/add_funnel.gif"/></center>
 
-## 1.1.2. Secondary Comparison
+### 1.2. Secondary Comparison
 
 Add a second comparison to display a side‑by‑side waterfall focused on another scope. For example, while comparing USA vs. UK, you can also add a Mobile vs. Tablet comparison within the "Device" dimension.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/secondary_comparison_setting.gif"/></center>
 
 
-## 1.1.3. Use indices instead of values
+### 1.3. Use indices instead of values
 
 Choose between relative (dynamic) or absolute comparisons:
     - When enabled (default): Uses dynamic indices that update with the latest data in the source
     - When disabled: Uses fixed absolute values based on your initial selection (static baseline)
 
-## 1.1.4. Order for relative values
+### 1.4. Order for relative values
 
 Control which reference the dynamic comparison uses:
     - Descending (default): Uses the most recent value as reference
@@ -118,31 +118,31 @@ Control which reference the dynamic comparison uses:
 <br/>
 
 
-# 1.2. Modelling
+### 1.5. Modelling
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/modelling.png"/></center>
 
-## 1.2.1. Aggregation in %
+#### 1.5.1. Aggregation in %
 
 <center><img style="align: right; width: 400px;" src="{{site.url}}/{{site.baseurl}}/core_app\new\interface\subheader\settings\images\settings_agg2percent.jpg"/></center>
 
 Sets the model’s aggregation level. If set to X%, segments within a dimension that represent less than X% of the Primary Numerator (e.g., Revenue) are grouped into an "Other" segment. Default is 2%. This parameter can significantly impact the computed mix effects.
 
-## 1.2.2. KPI
+#### 1.5.2. KPI
 
 Choose the metric used as the "Primary Numerator" for the grouping rule above. The system calculates X% (2% by default) against this metric to decide grouping.
 
-## 1.2.3. Comment depth
+#### 1.5.3. Comment depth
 
 Adjust the level of detail provided in comments and explanations.
 
-## 1.2.4. Mix & Performance effects
+#### 1.5.4. Mix & Performance effects
 
 Control how the mix effect is attributed. Default is "Never". Select "Auto" to let the tool split Mix vs. Performance when the mix contribution exceeds a threshold.
 
 <br/>
 
-# 2. Market Equation
+## 2. Market Equation
 
 Edit the KPI definition and market equation so the analysis matches your business logic.
 
@@ -168,11 +168,11 @@ Market relation defines how metrics from your datasource combine to compute the 
 
 <br/>   
 
-# 3. Preferences
+## 3. Preferences
 
 > Customize the application behavior, language, and visible widgets to match your needs.
 
-## 3.1 Global
+### 3.1 Global
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preference.png"/></center>
 
@@ -181,24 +181,24 @@ Market relation defines how metrics from your datasource combine to compute the 
 In some cases, Datama suggests an adapted waterfall display to reveal more insights.
     - For example, if your waterfall has a single step, Datama can unpivot data to show all segments of a dimension instead. -->
 
-### 3.1.1 Language
+#### 3.1.1 Language
 
 Currently, French and English are available. Contact us if you need additional languages.
 
 
-### 3.1.2 Smart title
+#### 3.1.2 Smart title
 
 Taggle to display or hide the 
-### 3.1.3 Plot (waterfall graph)
-### 3.1.4 Smart comment
+#### 3.1.3 Plot (waterfall graph)
+#### 3.1.4 Smart comment
 
-## 3.2 Global
+### 3.2 Global
 You can customize colors for:
-### 3.2.1 Application 
+#### 3.2.1 Application 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
 
-### 3.2.2 Waterfall
+#### 3.2.2 Waterfall
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.png"/></center>
 
@@ -292,12 +292,11 @@ Adjust additional values size.
 
 <br/>
 
-## 3 Labels & Indicators
+## 3. Labels & Indicators
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/img/SettingsLabelIndicator.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/SettingsLabelIndicator.png"/></center>
 
 These settings allow you to customize how information is displayed on the waterfall chart.
-
 
 For each element, you can choose what information to display:
 
@@ -326,6 +325,15 @@ Hide the element completely
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/label.png"/></center>
 
+
+<br/>
+
+# Save custimized setting
+
+
+For **premium users on Looker Studio and Power BI**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the **Config JSON** field in the style panel. **Otherwise, your settings will be lost when you refresh the BI report**.
+
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/save_json_compare.png"/></center>
 
 <br/>
 

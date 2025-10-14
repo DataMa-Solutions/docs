@@ -352,6 +352,16 @@ Show or hide chart comment
 
 <br>
 
+# 6. Save custimized setting
+
+
+For **premium users on Looker Studio and Power BI**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the **Config JSON** field in the style panel. **Otherwise, your settings will be lost when you refresh the BI report.
+
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Save JSON.png"/></center>.
+
+<br/>
+
+
 Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) of Datama.
 
 <br>
