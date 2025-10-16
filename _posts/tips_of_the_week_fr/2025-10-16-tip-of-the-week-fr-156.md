@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the week 156: Dimension then Dimension dans Datama Light"
-date:   2025-10-16 12:00:00 +0200
+date:   2025-10-16 08:00:00 +0200
 img_url: /assets/images/tip/156.gif
 img_type: image/gif
 img_width: 600
