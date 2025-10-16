@@ -66,11 +66,13 @@ These settings determine which historical data points are used to calculate the 
 * **Same ISO day**: Compares only with the [ISO day](https://en.wikipedia.org/wiki/ISO_week_date) (ISO 8601).
 
 ### 1.1.4. Number of Points in baseline 
-It's to determine how many past data points are used to calculate the baseline (or expected value) for anomaly detection.
+It's to determine how many past data points are used to calculate the baseline (or expected value) for anomaly detection. Number of points choosen in this settings should exist in the dataset otherwise it could trigger an issue.
+By default the maximum number of points available is already selected in this input.
 
 ### 1.1.5. Level of confidence
 
-A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
+A confidence interval represents a range of values that is likely to contain an unknown population parameter. When you repeatedly draw random samples, a specific percentage of these confidence intervals will encompass the population mean. This percentage is known as the confidence level. 
+You can set it as high as 99.99% - the higher the confidence level, the fewer anomalies will be detected, ensuring that only the most reliable anomalies are displayed.
 
 <center> <img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_confidenceInterval.png"/></center>
 
@@ -79,13 +81,20 @@ By changing the confidence interval you can modify the precision expected from t
 
 ### 1.1.6. Analyse latest points only
 You can choose to display the anomalies of each date or only for the latest point in the data.
-In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
+In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised. 
 
+### 1.1.7. Number of points flagged
+When "Latest points only" is enabled, you can define a specific number of past data points where you want to detect anomalies. For example: if you check anomalies on a weekly basis, you may want to have the 7 latest points activated. 
+
+Even if only the latest point is activated, you will be able to see when the curve crosses the confidence interval in the past, but you won't have the green or red dots that flag the anomaly.
+
+<br>
 
 {% include embed_totw.html num=148 %}
 
+<br>
 
-### 1.1.7. Above or below confidence interval
+### 1.1.8. Above or below confidence interval
 
 This trigger allows to choose to detect only anomaly above or below confidence interval. There is sometimes no need to be alerted for good performance. 
 
@@ -114,7 +123,9 @@ This is to customize X% mentioned just above.
 
 This part allow you to edit your KPIs and market equation, when you want to fit your analysis with your business.
 
-Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension. Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
+Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension. 
+
+Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
 
 - By default, Datama creates a product of ratios (prod) with all the steps defined in the metrics relation. However, you can change this to “sum” to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
 
@@ -266,9 +277,11 @@ With this option, the detection system will visually highlight the data point (e
 
 # 4. Calendar
 
+You can now display Calendar Events right in Datama detect trend lines. For now, this works only if you have your events available in your extension dataset, with at least a Date column, and an event label. By activating the Calendar capabilities in the settings, you will be able to see the events or periods annotated on your trend lines. This is particularly useful for storytelling, to explain why a KPI behaves differently. In the medium term, Datama will allow you to create new events directly in the extension, and explain variations or spot anomalies based on these events.
+
 <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Calendar.png"/></center>
 
-You can now display Calendar Events right in Datama detect trend lines. For now, this works only if you have your events available in your extension dataset, with at least a Date column, and an event label. By activating the Calendar capabilities in the settings, you will be able to see the events or periods annotated on your trend lines. This is particularly useful for storytelling, to explain why a KPI behaves differently. In the medium term, Datama will allow you to create new events directly in the extension, and explain variations or spot anomalies based on these events.
+<br>
 
 <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/calendar detect.png"/></center>
 
@@ -276,13 +289,21 @@ You can now display Calendar Events right in Datama detect trend lines. For now,
 
 ## 4.1 Events
 
+This Calendar settings allows to set the display and adapt the formating.
+
+<center><img style="width: 60%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Enable_events.png"/></center>
+
+
 <br/>
 
 ### 4.1.1. Calendar
 
-<center><img style="width: 60%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Enable_events.png"/></center>
+Put the colonne names about events of your dataset into Label(event name),
+- Description (if any), allows to display more details about this event. 
+- Type (if any), allow to categorize events, will allow you to then filter on specific events.
+- Scoping (a dimension you want to attach your events when scoping or filtering).
 
-Put the colonne names about events of your dataset into Label(event name), Description (if any), Type(if any), Scoping (a dimension you want to attach your events when scoping or filtering).
+<br>
 
 ### 4.1.2. Areas
 
@@ -314,7 +335,7 @@ Show markers on hover or permanently
 
 # 5. Preferences
 
-These settings allow you to customize the application to fit with your company, you can also change the analysis language !
+These settings allow you to customize the application to fit with your company, you can also change the analysis language!
 
 <br/>
 
@@ -324,7 +345,7 @@ These settings allow you to customize the application to fit with your company, 
 
 ### 5.1.1 Language
 
- For now only French and English are available, let's us know if you want a new language to be added. 
+ For now only French, Deutsch and English are available, let's us know if you want a new language to be added. 
 
 ### 5.1.2. Displayed title
 
