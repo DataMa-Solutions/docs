@@ -30,7 +30,7 @@ Below is a short intro video
 - **Waterfall & Tree analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
 - **Smart scoring engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix effect analysis:** Assess the specific impact of Mix effect on your performance metrics.
-- **Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format. 
+- **Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format.
 - **Interactive charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
 - **Customization options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
 
@@ -43,12 +43,12 @@ Below is a short intro video
 
 # 3. Add the extension into your report
 
-In order to use Datama in your report, you need to start by creating an account on [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
+In order to use Datama in your report, you need to start by creating an account on [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension.
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Licence compare in looker studio.png" /></center>
 
 
-And then, follow these steps to add the Datama extension in your Looker Studio report : 
+And then, follow these steps to add the Datama extension in your Looker Studio report :
 
 1. Edit your report
 2. In the toolbar, click _Community visualizations and components Community visualization icon_
@@ -69,7 +69,7 @@ And then, follow these steps to add the Datama extension in your Looker Studio r
 
 Datama extension in Looker Studio allows you to benefit from all features.
 
-On top of this, the paid version allows you to 
+On top of this, the paid version allows you to
 - Remove Datama Branding (Background logo and free pop in)
 - Save your settings to find them back when you or others reload the page
 
@@ -102,13 +102,26 @@ Once you've imported the extension, here is how you can use it.
 <br/>
 <center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
 
+<br>
+
+Note that it is possible to compare two different metrics at the same time with the Metric Comparison. For instance if you need to compare Budget versus your Revenue:  
+  - you select the corresponding colums and add them to the metrics fields.
+  - then go in the paramater of the waterfall and select Compare to Metric and fill it with your two metrics you want to compare.
+
+<br>
+
+{% include embed_totw.html num=155 %}
+
+<br>
+
+
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
-**4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+**4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field.
 
 <center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
 
-**5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+**5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience.
 
 <center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmore.gif" /></center>
 
@@ -134,14 +147,14 @@ To discover more about how to read a Waterfall, you can read our [dedicated sect
 
 # 7. Looker Studio Guide
 
-Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
+Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access.
 
 <br/>
 
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings available in this extension. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings available in this extension.
 
 <br/>
 
