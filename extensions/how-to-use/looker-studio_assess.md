@@ -106,6 +106,8 @@ Once you've imported the extension, here is how you can use it.
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/setting_panel_assess_looker.gif" /></center>
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
+Please note that no customized settings will be saved unless you complete this step.
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/JSON_assess_looker.gif" /></center>
 

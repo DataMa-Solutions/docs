@@ -104,7 +104,9 @@ Once you've imported the extension, here is how you can use it.
 
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
-**4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+**4. [Paid user only] Save settings**: Once you’re satisfied with your settings, go to the Style tab in the Looker Studio side panel and paste the JSON automatically copied to your clipboard into the Config JSON field.
+If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
+Please note that no customized settings will be saved unless you complete this step.
 
 <center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
 

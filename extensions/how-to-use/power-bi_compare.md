@@ -115,6 +115,8 @@ Once you've imported the extension, here is how you can use it.
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
 **4. Save settings**: Once you are happy with your settings, in the Power BI side panel, in the "Format your visual" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
+Please note that no customized settings will be saved unless you complete this step.
 
 **5. Leave edit mode**: In the Power BI side panel, in the "Format your visual" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
