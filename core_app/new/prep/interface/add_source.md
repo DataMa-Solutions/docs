@@ -141,6 +141,8 @@ However, this option may slow down the import process, as Google Analytics needs
 <u>Timeframe selection</u>
 Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
 
+You can use real total of your metrics with "<u>Prorate metrics totals</u>". The column total may not be the actual total if a row is counted multiple times. Therefore, we use the actual total provided by the Google Analytics API in the query. We then prorate each value of the metric concerned between our calculated total and the actual total.
+
 <br>
 
 <div class="info-box">
