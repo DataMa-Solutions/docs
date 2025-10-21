@@ -951,6 +951,19 @@
         - name : Settings
           link: /extensions/datama-assess/settings.html
           type: h4
+    - name: Explore
+      link: /extensions/datama-explore/introduction.html
+      type: h3
+      subnav:
+        - name: Concept
+          link: /extensions/datama-explore/concept.html
+          type: h4
+        - name: Interface
+          link: /extensions/datama-explore/structure.html
+          type: h4
+        - name : Settings
+          link: /extensions/datama-explore/settings.html
+          type: h4
     - name : Extensions
       link: /extensions/how-to-use/index.html
       type: h3
