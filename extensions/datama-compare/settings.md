@@ -8,7 +8,7 @@ keywords: light compare settings
 
 <br/>
 
-> Datama compare extension interface contains 2 setting panels: General Settings and Waterfall Settings. 
+> Datama compare extension interface contains 2 setting panels: General Settings and Waterfall Settings.
 
 <br/>
 
@@ -27,7 +27,7 @@ You can access the general setting as shown below:
 * Group values representing less than (%)
 * Analysis depth
 * Split Mix and Perf effects
-3. [Market Equation](#2) 
+3. [Market Equation](#2)
 4. [Preferences](#4)
 * Allow Datama to execute actions on data to improve your analysis
 * Language
@@ -165,6 +165,22 @@ Market relation defines how metrics from your datasource combine to compute the 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center>
 
 
+# 2.1. Compare Dimension then Dimension
+
+In Datama Compare Light, you can analyze a single metric with multiple dimensions (at least 3) across all visualization tools. This approach allows for an efficient, layered analysis where you can explore how different dimensions influence the metric in a structured way, without the need for additional transformations.
+
+Datama enables you to automatically analyze your primary breakdown (e.g., Country), which will form the stages of your Waterfall visualization. Then, by zooming in on a stage, you can apply the most relevant dimension (e.g., Channel) to gain deeper insights. This is done seamlessly within the interface, with no need for manual data transformation.
+
+So you can:
+ *  Select your primary breakdown through the “Breakdown by” dropdown at the top of the Waterfall visualization. The primary breakdown will define the initial stages or steps in your analysis.
+ *  When you zoom into any of the stages of the Waterfall, Datama will automatically display the most relevant dimension, providing deeper insights within the context of the primary breakdown.
+
+This functionality enhances your ability to conduct detailed, multi-dimensional analysis in a streamlined, efficient way.
+
+<br>
+
+{% include embed_totw.html num=156 %}
+
 <br/>   
 
 # 3. Preferences
@@ -195,7 +211,7 @@ Choose which elements to show or hide:
 ### 3.2.3 Smart comment
 
 You can customize colors for:
-### 3.2.4 Application 
+### 3.2.4 Application
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
 
@@ -208,13 +224,13 @@ You can customize colors for:
 <br/>
 <br/>
 
-# Waterfall Settings 
+# Waterfall Settings
 
 ## 1. General
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall_general_settings.png"/></center>
 
-### 1.1.1. Segment text complement 
+### 1.1.1. Segment text complement
 
 Choose what to display after the Segment name in waterfall labels:
     - Variation relative to average (e.g., "x2.43") - default value to easily spot "abnormal" variations above average
@@ -307,7 +323,7 @@ For each element, you can choose what information to display:
 Variation in percentage points
 ### 3.2. Impact in volume
 Contribution to the main KPI (e.g. impact on Revenue)
-### 3.3. Percent change 
+### 3.3. Percent change
 Evolution in %
 ### 3.4. Start
 Initial value (blue bar on the left)

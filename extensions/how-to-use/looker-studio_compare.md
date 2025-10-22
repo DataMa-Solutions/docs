@@ -104,16 +104,6 @@ Once you've imported the extension, here is how you can use it.
 
 <br>
 
-Note that it is possible to compare two different metrics at the same time with the Metric Comparison. For instance if you need to compare Budget versus your Revenue:  
-  - you select the corresponding colums and add them to the metrics fields.
-  - then go in the paramater of the waterfall and select Compare to Metric and fill it with your two metrics you want to compare.
-
-<br>
-
-{% include embed_totw.html num=155 %}
-
-<br>
-
 
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
