@@ -120,11 +120,16 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 # 5. Google Analytics 4
 
-You can upload your GA4 datasets in Datama Prep.
+You can pull your GA4 data in Datama Prep, using the GA4 API.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
 
 Select your property, metrics and dimensions. You can choose only one property and only 9 dimensions and up to 10 metrics.
-You can also filter data from Google Analytics 4
+You can also filter data from Google Analytics 4, using the filter section
+
+<u>Timeframe selection</u>
+Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
+
+<u>Avoid sampling</u>
 
 One thing to keep in mind: when pulling <b>large datasets</b> from Google Analytics 4 into Datama Prep, Google Analytics may sample your data before loading it into Datama. This auto-sampling can leave your data incomplete, making your final analysis less accurate.
 
@@ -138,10 +143,16 @@ The interface looks like this:
 
 However, this option may slow down the import process, as Google Analytics needs to run multiple queries.
 
-<u>Timeframe selection</u>
-Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
+<u>Prorate metrics totals</u>
 
-You can use real total of your metrics with "<u>Prorate metrics totals</u>". The column total may not be the actual total if a row is counted multiple times. Therefore, we use the actual total provided by the Google Analytics API in the query. We then prorate each value of the metric concerned between our calculated total and the actual total.
+As in any expore report of GA4, pulling certain metrics on certain dimensions might double count this metric. 
+That is why you can use "<u>Prorate metrics totals</u>". Datama will then pull the actual, unduplicated total metric value and prorate the split to match the total account. 
+For instance, imagine a user sees 2 items in 1 session, and you pull Sessions by Items. Without activating this option, you would end up with the Sum of the sessions column being "2", above the actual number of sessions that you have in total in GA4, being 1. 
+By using the "<u>Prorate metrics totals</u>", you will get 0.5 session for each item, and the total will match the overall 1.
+Note that when doing comparisons, you may want to pull data by separate periods, so that pro rata is done for each period separately, hence the variation between those two periods matches totals variations. 
+
+
+The column total may not be the actual total if a row is counted multiple times. Therefore, we use the actual total provided by the Google Analytics API in the query. We then prorate each value of the metric concerned between our calculated total and the actual total.
 
 <br>
 
