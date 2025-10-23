@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Nouveau Dimension Helper est désormais disponible dans Datama en version bêta. Vous pouvez y accéder en sélectionnant la nouvelle version dans le panneau supérieur droit des filtres ou des comparaisons.
+Le nouveau Dimension Helper est désormais disponible dans Datama en version bêta. Vous pouvez y accéder en sélectionnant la nouvelle version dans le panneau supérieur droit des filtres ou des comparaisons.
 Voici les nouveautés et améliorations:
  * Divisez n'importe quelle dimension par n'importe quelle autre dimension, y compris les dimensions de comparaison ✨
  * Affichez deux mesures à la fois, à la fois pour les étapes de l'équation de marché et les mesures de l'ensemble de données d'origine 📊
