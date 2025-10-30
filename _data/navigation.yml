@@ -592,8 +592,8 @@
               link: /core_app/new/prep/interface/add_source.html#4-calendar
             # - name: Google Analytics 3
               # link: /core_app/new/prep/interface/add_source.html#google-analytics-3
-            - name: Google Analytics 4 (beta)
-              link: /core_app/new/prep/interface/add_source.html#5-google-analytics-4-beta
+            - name: Google Analytics 4
+              link: /core_app/new/prep/interface/add_source.html#5-google-analytics-4
             - name: Google Google BigQuery
               link: /core_app/new/prep/interface/add_source.html#6-google-google-bigquery
             - name: Mail
