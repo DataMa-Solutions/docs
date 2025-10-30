@@ -2,7 +2,7 @@
 feed: totw_fr
 title:  "Tip of the week 158: Enregistrez vos paramètres personnalisés dans Datama Extension"
 date:   2025-10-30 08:00:00 +0200
-img_url: /assets/images/tip/15.PNG
+img_url: /assets/images/tip/158.PNG
 img_type: image/gif
 img_width: 600
 img_height: 300
