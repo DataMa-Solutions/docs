@@ -9,13 +9,12 @@ img_height: 300
 layout: post
 ---
 
-💡Good news for Premium users! 
+💡Good news for Premium users!
 
-If you’re using Datama Extension in **Looker Studio, Power BI or Qlik**, you can now save your customized settings anytime with just a few clicks: 
+If you’re using Datama Extension in **Looker Studio, Power BI or Qlik**, you can now save your customized settings anytime with just a few clicks:
 
- * **Customize your settings → Click Save → the Config JSON is automatically copied → Paste it into the Config JSON field**  
+⚙️ **Customize your settings → Click Save → the Config JSON is automatically copied → Paste it into the Config JSON field**  
 
-For **Tableau** users, it’s even simpler — just click the Save button 💾 
+For **Tableau** users, it’s even simpler — just click the Save button 💾
 
 Next time you open this use case, it will automatically display your last saved configuration ✅.
-
