@@ -9,14 +9,12 @@ img_height: 300
 layout: post
 ---
 
-💡Bonne nouvelle pour les utilisateurs Premium ! 
+💡Bonne nouvelle pour les utilisateurs Premium !
 
-Si vous utilisez Datama Extension dans **Looker Studio, Power BI ou Qlik**, vous pouvez désormais enregistrer vos paramètres personnalisés à tout moment, en seulement quelques clics: 
+Si vous utilisez Datama Extension dans **Looker Studio, Power BI ou Qlik**, vous pouvez désormais enregistrer vos paramètres personnalisés à tout moment, en seulement quelques clics:
 
- * **Personnalisez vos paramètres → Cliquez sur Save → le Config JSON est automatiquement copié → Collez-le dans le champ Config JSON**  
+⚙️ **Personnalisez vos paramètres → Cliquez sur Save → le Config JSON est automatiquement copié → Collez-le dans le champ Config JSON**  
 
 Pour les utilisateurs de **Tableau**, c’est encore plus simple — il suffit de cliquer sur le bouton Save 💾
 
 La prochaine fois que vous ouvrirez ce cas d’usage, il s’affichera automatiquement avec vos derniers réglages enregistrés ✅.
-
-
