@@ -576,6 +576,19 @@
       type: h3
     - name: Prep interface #done
       link: /core_app/new/prep/prep_interface.html
+    - name: Explore
+      link: /extensions/datama-explore/introduction.html
+      type: h3
+      subnav:
+        - name: Concept
+          link: /extensions/datama-explore/concept.html
+          type: h4
+        - name: Interface
+          link: /extensions/datama-explore/structure.html
+          type: h4
+        - name : Settings
+          link: /extensions/datama-explore/settings.html
+          type: h4
       type: h3
       subnav:
         - name: Add Source #done
