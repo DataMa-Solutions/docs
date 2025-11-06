@@ -18,7 +18,7 @@ Unlock the full potential of your data analysis with Datama's flexible pricing o
 
 <br>
 
-## 1. Free trial version
+# 1. Free trial version
 
 Get started with our **Free** version, the default option that provides a perfect assessment of Datama's capabilities.
 
@@ -30,7 +30,7 @@ The Free Trial version is ideal for small teams who don't mind Datama's branding
 
 <br>
 
-## 2. Extension Solution
+# 2. Extension Solution
 
 The **Extension Solution** is designed for simplicity and ease of use for business users who need to consume Datama only as an extension.
 
@@ -43,11 +43,14 @@ The Extension Solution is perfect for companies who require quick access to insi
 
 <br/>
 
-## 3. Premium Solution
+# 3. Premium Solution
 
 For those who has a whole analytics team dedicated to the subject, this plan is made for you. Get the best of our solution and of our expertise.
 
-**Features include:**
+<br>
+
+## Features include:
+
 - **All analysis and visualization features** described in the Looker Studio extension documentation
 - **Stand alone web app access**: Connect Datama directly to your data without any data visualization tool through our web app
 - **Alert and notifications in messaging app**: Datama web app can send notifications through slack/ teams/ mail or even be triggered on webhooks. 
@@ -55,6 +58,6 @@ For those who has a whole analytics team dedicated to the subject, this plan is 
 
 <br/>
 
----
 
-**Note:** For more information on each plan's features and to determine which is the best fit for your organization, please [contact](https://Datama.io/lets-talk/){:target="_blank"} our team.
+<div class="info-box">
+ <strong>Note</strong>: For more information on each plan's features and to determine which is the best fit for your organization, please  <a target="_blank" href="https://Datama.io/lets-talk/">contact</a> </div>

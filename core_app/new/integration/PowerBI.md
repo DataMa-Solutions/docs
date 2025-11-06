@@ -1,7 +1,7 @@
 ---
-title: Power BI extension
+title: Power BI extension connected to the WebApp
 description: Using Datama Solutions as a Power BI extension is a great way to make your report more insightful with the benefits of both Datama and Power BI.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app integration embed embedded add-on addons addon Power BI powerbi
 ---
@@ -12,11 +12,12 @@ keywords: full app integration embed embedded add-on addons addon Power BI power
 
 <br>
 
-<i> **Note**: Datama provides two different Power BI extension, the full extension (explained below) and the "light" [version](https://datama-solutions.github.io//docs/extensions/how-to-use/power_bi.html) available in the Power BI Marketplace. </i>
+<div class="info-box">
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
 
 <br>
 
-# <b>How to load the extension?</b>
+# 1. How to load the extension?
 
 As soon as you received the extension from your Datama point of contact or downloaded from [here](https://storage.cloud.google.com/app.datama.io/powerbi/datama_latest.pbiviz), you can load the extension to get access to the Datama graphs. 
 - Select "..." in the visualizations part then <i>"import visual from a file"</i> 
@@ -32,7 +33,7 @@ As soon as you received the extension from your Datama point of contact or downl
 
 <br>
 
-# <b>How to use the Datama Extension?</b>
+# 2. How to use the Datama Extension?
 
 Datama will be basically like a Power BI graph embedded in the visualisation. You will have to configure it as a basic graph adding Dimensions and metrics. 
 - the first <i>Dimension</i> will be considered as the Start & End Comparison dimension
@@ -48,7 +49,7 @@ Contact us (contact@Datama.fr) to get a licence key and install the extension.
 
 <br>
 
-# <b>How to set up the Datama extension?</b>
+# 3. How to set up the Datama extension?
 
 - By clicking "Format your visual" and <i>object to display</i>, select the elements your want to view
     - Slide 1 chart 1 is the Waterfall
@@ -58,7 +59,8 @@ Contact us (contact@Datama.fr) to get a licence key and install the extension.
         - and chart 2 a waterfall zoomed on a step.
 
 
- Advanced settings > 
+## Advanced settings
+
 - **Step function** : Here you can specify the linking function between the step of the waterfall. Default function is "prod" but can be "sum" or custom: e.g. <i>[1]*[2]*(1-[3])</i> which means step 1 is multiplied by step 2 and multiplied by 1-[3]. You can arrange the steps as you want, just make sure, it's still as a business sense!
 -  **Main KPI name**: By default, last metrics is the main KPI, but it can be renamed here.
 - **Main KPI unit**: Figures will be followed by the unit of the main KPI (€, %...). In case of percentage, the total will be multiplied by 100.
@@ -70,7 +72,7 @@ Contact us (contact@Datama.fr) to get a licence key and install the extension.
 
 <br>
 
-# <b>How to export my PowerBI graph in Datama?</b>
+# 4. How to export my PowerBI graph in Datama?
 
 Once you picked your dimensions and metrics and your graph is generated, you can export it in Datama Compare as a workbook (for more advanced settings)
 

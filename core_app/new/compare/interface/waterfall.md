@@ -19,31 +19,19 @@ The waterfall panel consists of three distinct tabs, each providing a specific l
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_waterfall.png"> </center>
 
 
-
-<!--* [Waterfall Chart](#waterfall-chart)
-* [Funnel](#funnel)
-* [Dimension Comparison](#dimension-comparison)
-    *   [Mix Effect](#mix-effect)
-    *   [Performance Effect - Min](#performance-effect-min)
-    *   [Performance Effect - Max](#performance-effect-max)
--->
-
-
 <br>
 
-# <b>Waterfall Chart</b>
-
-<br>
+# 1. Waterfall Chart
 
 The **Waterfall** is the core element of the **Datama Compare** interface. It consolidates all the analyses into a single, structured view, allowing for a clear breakdown of performance variations.  
 
 <br>
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/Waterfall-768x627.jpg"> </center>
+<center> <img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/Waterfall-768x627.jpg"> </center>
 
 <br>
 
-## Overview  
+## 1.1 Overview  
 
 This visualization helps users understand how different factors contribute to changes in a KPI by displaying sequential impacts in a step-by-step manner. Each step represents a specific driver, making it easy to pinpoint what is causing increases or decreases in performance.  
 
@@ -51,7 +39,7 @@ By breaking down variations in this way, the waterfall simplifies the complexity
 
 <br>
 
-## Market Equation  
+## 1.2 Market Equation  
 
 The **Waterfall** follows a structured approach based on a **market equation**, which links the different steps together logically. Each stage is interconnected, ensuring that the decomposition of variations remains coherent and actionable.  
 
@@ -62,7 +50,7 @@ For a more in-depth explanation of how the **market equation** structures the wa
 
 <br>
 
-## Dimension Scoring  
+## 1.3 Dimension Scoring  
 
 To enhance interpretation, Datama Compare integrates **dimension scoring**, a method that ranks and prioritizes the most impactful factors driving KPI variations. This approach enables users to focus on the most relevant insights first, ensuring a data-driven decision-making process.  
 
@@ -77,7 +65,7 @@ You can change the selected dimension for this zoomed step by changing right cli
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_zoomedView.jpg"> </center>
 
 
-# <b>1. Funnel</b>
+# 2. Funnel
 
 The funnel section shows the % change and absolute values of each KPI.
 
@@ -87,11 +75,11 @@ This funnel gives details on numbers behind waterfall chart. Each step of your c
 
 <br>
 
-# <b>2. Dimension Comparison</b>
+# 3. Dimension Comparison
 
 <br>
 
-## **2.1 Mix effect**
+## 3.1 Mix effect
 
 For each step, it shows the total mix effect of each dimension (which has a mix effect).
 
@@ -109,7 +97,7 @@ read more about [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/
 <br>
 
 
-## **2.2 Performance effect: Min**
+## 3.2 Performance effect: Min
 
 A performance effect is an observed difference in a performance. <i>eg.As for example selling different number of car between two week is a performance effect. Having less user in a website is a negative performance effect.</i>
 
@@ -121,7 +109,7 @@ As presented below the performance effect could be represented at each step of y
 
 <br>
 
-## **2.3 Performance effect: Max**
+## 3.3 Performance effect: Max
 
 For each step, within each dimension, it shows the segment having the biggest positive contribution in performance, net of mix effects, in bars.
 The width of the bar and the parenthesis ‘(x…)’ in the call outs refers to how fast this performance change is relative to the other segments.
@@ -130,8 +118,9 @@ Red dots refer to the total impact of that step (as in ‘Waterfall Chart’), t
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMax.jpg"> </center>
 
+<br>
 
-# <b>3. Covariance Effect</b>
+# 4. Covariance Effect
 
 When breaking down KPI variations, interactions between multiple factors can create **covariance effects**. These effects occur when changes in two or more dimensions influence each other, making it difficult to attribute the exact impact of each factor independently.  
 
@@ -139,4 +128,6 @@ In the **Waterfall analysis**, covariance is managed by distributing shared effe
 
 Understanding **covariance effects** is key to accurately interpreting results, especially when analyzing complex datasets with interdependent variables.  
 
-For a deeper dive into how covariance is handled within the waterfall model, refer to [this detailed explanation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html).  
+<div class="info-box">
+  For a deeper dive into how covariance is handled within the waterfall model, refer to <a href="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html">this detailed explanation</a>
+</div>

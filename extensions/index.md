@@ -1,6 +1,7 @@
 ---
 title: Datama Extension
 description: Find here all documentation about Datama extensions on visualization tools
+layout: page
 scope: Datama/light
 keywords: extensions light viz tools
 ---

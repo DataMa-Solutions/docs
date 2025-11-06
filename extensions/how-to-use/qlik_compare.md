@@ -11,20 +11,8 @@ keywords: Qlik Sense Qlik get started
 
 <br/>
 
-<!-- Here is what you get on this page:
-1. [Overview](#1-overview) 
-2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-advanced-usage)
-8. [Get more insights](#8-get-more-insights)
-9. [Support and Resources](#9-support-and-resources)
 
-<br/> -->
-
-## 1. Overview
+# 1. Overview
 This document provides detailed documentation for the "Datama Compare - Smart waterfall" Plugin, a powerful extension for Qlik. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 Watch this video to properly understand our extension and how to use it.
@@ -32,7 +20,7 @@ Watch this video to properly understand our extension and how to use it.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6xmeIALMQc?si=tyYrWaKoTqObeYun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
-## 2. Features
+# 2. Features
 - **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
 - **Smart Scoring Engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix Effect Analysis:** Assess the specific impact of Mix effect on your performance metrics.
@@ -42,9 +30,13 @@ Watch this video to properly understand our extension and how to use it.
 
 <br/>
 
-## 3. Add the extension into your report
+{% include embed_totw.html num=130 %}
 
-### 3.1. Add the extension to your list of Qlik extensions
+<br>
+
+# 3. Add the extension into your report
+
+## 3.1. Add the extension to your list of Qlik extensions
 
 In order to use Datama in your report, you first need to add a new extension to your Management Console. 
 
@@ -62,7 +54,7 @@ To add the Datama extension to Qlik Sense Online, follow these steps :
 
 <br/>
 
-### 3.2 Add the extension into your app
+## 3.2 Add the extension into your app
 
 Follow these steps to add Datama in your app : 
 
@@ -80,7 +72,7 @@ Follow these steps to add Datama in your app :
 
 <br>
 
-## 4. Get a free trial period
+# 4. Get a free trial period
 
 You can get a free trial period of 7 days allowing you to test the full version of the extension by following these steps :
 
@@ -91,7 +83,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 <br>
 
-## 5. Getting started
+# 5. Getting started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -119,7 +111,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 6. Read your Analysis
+# 6. Read your Analysis
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
@@ -130,19 +122,19 @@ To discover more about how to read Waterfall, you can read our [dedicated sectio
 
 <br/>
 
-## 7. Advanced Usage
+# 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings.html) to get the full view of the extension Settings. 
 
 <br/>
 
-## 8. Get more insights
+# 8. Get more insights
 
 Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 
-## 9. Support and Resources
+# 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
     - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
     - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.

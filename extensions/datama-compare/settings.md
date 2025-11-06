@@ -12,7 +12,7 @@ keywords: light compare settings
 
 <br/>
 
-**General Settings** allows you to **modify the market equation, adjust the comparison dimension or add a second comparison, sort values, change modeling settings, change language preferences, and enable or disable comments or plots..**. 
+**General Settings:** lets you quickly configure the analysis: edit the market equation, choose the comparison dimension (or add a secondary one), control sorting, adjust modeling options, set language preferences, and enable/disable comments or charts. ([see below](#1-general-settings))
 
 You can access the general setting as shown below:
 
@@ -37,7 +37,7 @@ You can access the general setting as shown below:
 
 <br/>
 
-**Waterfall settings** allows **formatting waterfall bars, labels, text size ...**
+**Waterfall settings:** allows formatting waterfall bars, labels, text size ...([see below](#waterfall-settings))
 
 You can access the waterfall setting as shown below:
 
@@ -58,36 +58,42 @@ You can access the waterfall setting as shown below:
 * Text Size
 3. [Labels & Indicators](#3-metric-relations)  -->
 
+<br>
+
 Let's explain option by option.
-<br/>
+
+<br>
 
 # General Settings
 
-# 1. General Settings
+## 1. General Settings
 
-## 1.1.1 Comparison Definition
+### 1.1. Comparison Definition
 
-> This section allows you to choose what you want to compare and add additional comparisons for deeper analysis
+Choose the scope of your comparison and optionally add a second comparison to enrich the analysis.
 
-Defining what you want to compare is the very first step of your analysis in the Compare extension. In the waterfall, you can either compare dates (start period vs end period) or segments of other dimensions. For example:
+Defining what you want to compare is the first step of the analysis. In the waterfall, you can either compare dates (start period vs. end period) or compare segments from any dimension. For example:
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/compare mindset.png"/></center>
 
-You can start your comparison as suggested below: (here's a quick demonstration to use Compare extension in looker studio, you can also find detailed guide by clicking [Looker studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_compare.html), [Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau-viz_compare.html), [PowerBI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_compare.html), [Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_compare.html))
+You can start your comparison as suggested below. For a quick step‑by‑step demo, see: [Looker Studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_compare.html), [Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau-viz_compare.html), [Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_compare.html), [Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_compare.html).
 
 * First, add Datama light compare extension into your platform. See the example in looker studio shown as below:
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Add_compare_extension.gif"/></center>
 
-* Second, add the dimension(s) and metric(s) to plot datama compare. For example, if you want to compare "Sessions"(metric) between "This Year" and "Last Year" (Included in dimension named "Period"). You can do as below:
+* Second, add the dimension(s) and metric(s) used by Datama Compare. For example, to compare the "Sessions" metric between "This Year" and "Last Year" (segments of the "Period" dimension), proceed as below:
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Adddimensionandmetric.gif"/></center>
 
-* Third, using General settings, you can choose for comparison any other dimension added to the "Dimension" field in your data visualization solution.
+* Third, in General Settings, you can choose any other dimension available in your visualization tool’s "Dimension" field as the comparison dimension.
 
-If your dimension includes more than two segments — like "Country", which might contain several countries — start by adding "Country" as the dimension and "Sessions"  (or another metric) as the metric. Then, switch between the countries you want to compare.
+If a dimension includes more than two segments 
+— e.g., "Country" 
+— start by adding "Country" and the metric (e.g., "Sessions").
+Then select the two segments you want to compare (e.g. UK vs. Spain).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/change_segement_country.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/change_segment_country.gif"/></center>
 
 You can also add more metrics to visualize the variation across different KPIs. To do this, make sure to add the metrics in an order that follows the logic used by Datama Compare, as shown below:
 
@@ -96,115 +102,129 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/add_funnel.gif"/></center>
 
-## 1.1.2. Secondary Comparison
+### 1.2. Secondary Comparison
 
- Add a comparison to duplicate your waterfall chart with a secondary one based on a different scope. For example, in addition to comparing USA and UK, you can also compare Mobile and Desktop within the 'Device' dimension.
+Add a second comparison to display a side‑by‑side waterfall focused on another scope. For example, while comparing USA vs. UK, you can also add a Mobile vs. Tablet comparison within the "Device" dimension.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/secondary_comparison_setting.gif"/></center>
 
+Then you can choose how to display this second waterfall, one above the other, side by side or even overlapped. Click right: Display > Secondary comparison > Right, below or overlay.
 
-## 1.1.3. Use indices instead of values
+
+<br>
+### 1.3. Use indices instead of values
 
 Choose between relative (dynamic) or absolute comparisons:
-    - When enabled (default): The analysis is dynamic and uses relative indices that change based on the newest entries in the datasource
-    - When disabled: Uses absolute values fixed to your initial selection, providing a static comparison baseline
+- When enabled (default): Uses dynamic indices that update with the latest data in the source
+- When disabled: Uses fixed absolute values based on your initial selection (static baseline)
 
-## 1.1.4. Order for relative values
+### 1.4. Order for relative values
 
-Configure the dynamic comparison order:
-    - Descending (default): Takes the most recent value
-    - Ascending: Takes the oldest value
+Control which reference the dynamic comparison uses:
+- Descending (default): Uses the most recent value as reference
+- Ascending: Uses the oldest value as reference
 
 <br/>
 
 
-# 1.2. Modelling
+### 1.5. Modelling
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/modelling.png"/></center>
 
-## 1.2.1. Group values representing less than (%)
+#### 1.5.1. Aggregation in %
 
 <center><img style="align: right; width: 400px;" src="{{site.url}}/{{site.baseurl}}/core_app\new\interface\subheader\settings\images\settings_agg2percent.jpg"/></center>
 
-Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects.
+Sets the model’s aggregation level. If set to X%, segments within a dimension that represent less than X% of the Primary Numerator (e.g., Revenue) are grouped into an "Other" segment. Default is 2%. This parameter can significantly impact the computed mix effects.
 
-## 1.2.2. Metric to use for grouping
+#### 1.5.2. KPI
 
-This is to customize the "Primary Numerator" mentioned just above, based on which the system caculates X% (2% by default) when grouping.
+Choose the metric used as the "Primary Numerator" for the grouping rule above. The system calculates X% (Main KPI of the market equation by default: e.g.: Revenue) against this metric to decide grouping.
 
-## 1.2.3. Analysis depth
+#### 1.5.3. Comment depth
 
-Adjust the level of detail available in the comment section.
+Adjust the level of detail provided in comments and explanations. (With <i>Max</i> details, each of the variation will be explained)
 
-## 1.2.4. Split Mix and Perf effects
+#### 1.5.4. Mix & Performance effects
 
-Choose whether to display mix effect contribution. "Never" split by mix effect is the default value. Select "auto" to let the tool decide when to display the Mix effect (when the mix contribution reaches a threshold).
+Control how the mix effect is attributed. Default is "Never". Select "Auto" to let the tool split Mix vs. Performance when the mix contribution exceeds a threshold.
 
 <br/>
 
-# 2. Market Equation
+## 2. Market Equation
 
-> This section allows you to edit your KPIs and market equation to align with your business needs
+Edit the KPI definition and market equation so the analysis matches your business logic.
 
-Market ralation describes the equation between metrics of your source to compute the KPI you want to explain. It allows you to modify your market equation, add units, rename steps, set thresholds, and exclude or focus on dimensions.
+Market relation defines how metrics from your datasource combine to compute the KPI you want to explain. Here, you can modify the equation, choose units, rename steps, set thresholds, and exclude or focus dimensions.
 
-- By default, Datama creates a product of ratios (prod) with all steps defined in the market equation. You can change this to "sum" to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
+- By default, Datama uses a product of ratios (prod) across all steps in the market equation. You can switch to a "sum" when your KPI is additive (e.g., Revenue = Revenue_France + Revenue_UK + Revenue_US).
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/sum_marketequation.gif"/></center>
 
-- When changing the unit to '%', the figures are multiplied by 100 and displayed as percentages. When selecting a currency unit, the chart will display the results with the corresponding currency symbol.
+- Changing the unit to '%' multiplies values by 100 and displays percentages. Selecting a currency unit will display values with the chosen currency symbol.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
 
-- In the market equation definition, you can set a step to focus on a specific dimension. This disables the automatic dimension scoring and only displays the selected dimension.
+<br>
+
+
+<!-- 
+- You can set a step to focus on a specific dimension. This disables automatic dimension scoring and displays only the selected dimension for that step.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
 
-- Excluded dimensions maintain the scoring algorithm but are not considered in the calculation for that step.
+- Excluded dimensions remain scored but are ignored in the calculation for that step.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center> -->
 
 
 <br/>   
 
-# 3. Preferences
+## 3. Preferences
 
-> These settings allow you to customize the application to match your company's needs and change the analysis language
+> Customize the application behavior, language, and visible widgets to match your needs.
 
-## 3.1 Global
+### 3.1 Global
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/preference.png"/></center>
 
-### 3.1.1 Allow Datama to execute actions on data to improve your analysis
+<!-- ### 3.1.1 Allow Datama to adjust data display for better insights
 
-In certain cases, Datama will propose adapted displays of the Waterfall to provide more insights.
-    - For example, if your waterfall has only one step, Datama will unpivot your data to display all segments of a dimension replacing the single step.
+In some cases, Datama suggests an adapted waterfall display to reveal more insights.
+    - For example, if your waterfall has a single step, Datama can unpivot data to show all segments of a dimension instead. -->
 
-### 3.1.2 Language
+#### 3.1.1 Language
 
-Currently, only French and English are available. Let us know if you would like additional languages to be added.
-
-<br/>
-
-## 3.2 Displayed Widgets
-
-Choose to hide or display:
-
-### 3.2.1 Smart title
-### 3.2.2 Plot (waterfall graph)
-### 3.2.3 Smart comment
-
-You can customize plot color by setting:
-### 3.2.4 Application 
-
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
-
-### 3.2.5 Waterfall
-
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.png"/></center>
+Currently, French, Deutsch and English are available. Contact us if you need additional languages.
 
 
-<br/>
+#### 3.1.2 Smart title
+
+Taggle to display or hide the Title of the graph. Some element might need stay as for example definition of the Comparison (e.g. Last Year vs This Year)
+
+#### 3.1.3 Plot (waterfall graph)
+
+Taggle to display or hide the Waterfall from the graph if for example you only need to display the comment.
+
+#### 3.1.4 Smart comment
+
+Taggle to display or hide the comment if for example you only need to display the watefall.
+
+<br>
+
+### 3.2 Global
+
+You can customize colors for application environment and for the Waterfall itself.
+
+#### 3.2.1 Application 
+
+<center><img style="align: right; width: 700px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
+
+#### 3.2.2 Waterfall
+
+<center><img style="align: right; width: 700px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall color.png"/></center>
+
+
 <br/>
 <br/>
 
@@ -214,44 +234,47 @@ You can customize plot color by setting:
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/waterfall_general_settings.png"/></center>
 
+<br>
+
 ### 1.1.1. Segment text complement 
 
 Choose what to display after the Segment name in waterfall labels:
-    - Variation relative to average (e.g., "x2.43") - default value to easily spot "abnormal" variations above average
-    - Percentage Variation (e.g., "-46%") - percentage difference between start and end values
-    - Variation absolute change (e.g., "-3pts") - absolute difference between start and end values in the KPI's unit
-    - Nothing
+- Variation relative to average (e.g., "x2.43") - default value to easily spot "abnormal" variations above average
+- Percentage Variation (e.g., "-46%") - percentage difference between start and end values
+- Variation absolute change (e.g., "-3pts") - absolute difference between start and end values in the KPI's unit
+- Nothing
+
 ### 1.1.2. Number of bars before aggregation
 
-Number of elements to display in an opening step (default is 4).
+Number of elements to display in an opening step (default is 4). Whatever this option, you can click the <i>remaining</i> bar to display more elements.
 
 ### 1.1.3. Exploration Method (Tree view only)
 
-In the Tree chart, only display the main segments accross the dimension. Allow to display only the most interesting element. 
+In the Tree chart, display only the main segments across the dimension to focus on the most informative elements.
 
-### 1.1.4. Number of bar included in Top exploration method (Tree view only)
+### 1.1.4. Number of bars included in Top exploration method (Tree view only)
 
-Choose number of card to display when zoomed in into a KPI.
+Choose how many cards to display when zooming into a KPI.
 
 ### 1.1.5. Y axis auto scaling
 
-Start the Y scale at zero or let Datama adjust the optimal Y scale for better visualization of small variations.
+Start the Y scale at zero, or let Datama auto‑scale to better visualize small variations.
 
 ### 1.1.6. Open biggest/focused element by default
 
-Have the extension automatically open the step with the main variation when loading the graph.
+Automatically open the step with the largest variation when loading the graph or keep the waterfall close when loading the graph.
 
 ### 1.1.7. Draw links between elements
 
-Display thin links between each waterfall step.
+Display connectors between steps to highlight transitions.
 
 ### 1.1.8. Reverse axis
 
-Rotate the graph 90 degrees.
+Rotate the graph 90 degrees. And icon is also available top right of the graph to make this rotation.
 
 ### 1.1.9. Share scales between primary and secondary comparison
 
-keep the same scale for two waterfall plots
+Keep the same scale for the two waterfall plots.
 
 <br/>
 
@@ -261,73 +284,105 @@ keep the same scale for two waterfall plots
 
 ### 2.1. Family
 
-Choose from available fonts to best match your current dashboard (for now only Montserrat and Arial)
+Choose from available fonts to match your dashboard (currently Montserrat and Arial).
 
 ### 2.2. Module Title
 
-Adjust text size of module title
+Adjust module title size. Default value is <i>Auto</i> and automatically scale the size of the font according to the size of the screen. When choosing <i>Manual</i>, define in the input below a fixed font size.
 
 ### 2.3. Comments
 
-Adjust text size of comments
+Adjust comments size.
 
 ### 2.4. Plot Title
 
-Adjust text size of Plot title
+Adjust plot title font size. Default value is <i>Auto</i> and automatically scale the size of the font according to the size of the screen. When choosing <i>Manual</i>, define in the input below a fixed font size.
 
 ### 2.5. Subtitle Title
 
-Adjust text size of subtitle
+Manually adjust subtitle size. (Automatical scale is WIP)
 
-### 2.6. Tree view cards name
+### 2.6. Tree view cards name 
 
-Adjust text size of cards name of tree view
+Adjust tree view card name size. (Automatical scale is WIP)
 
 ### 2.7. Main values
 
-Adjust text size of main values
+Adjust main values size. (Automatical scale is WIP)
 
 ### 2.8. Additional values
 
-Adjust text size of additional values
+Adjust additional values size. (Automatical scale is WIP)
 
 <br/>
 
-## 3 Labels & Indicators
-
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/SettingsLabelIndicator.png"/></center>
+## 3. Labels & Indicators
 
 These settings allow you to customize how information is displayed on the waterfall chart.
 
-The first line controls elements shown in yellow in the picture below, while the second line controls elements shown in green in
+<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/SettingsLabelIndicator.png"/></center>
 
 For each element, you can choose what information to display:
+- **First row** is representing how to compare your evolution
+    - By default volume will display the evolution in volume from Start to End
+    - Impact in points will explain the variation from 0pts to xxpts from the left to the right, each step will be displayed with his impact in point.
+    - Percent change will explain the variation from 0% to xx% from the left to the right, each step will be displayed with his contribution in percentage.
+
+- **Second row** will (default is <i>Percent change</i>) change the display of the row of percentage change on the top of the graph. 
+    - When displayed in volume, this will display the impact on the main KPI (e.g.: Revenue)
+    - ...
+
+<br>
 
 ### 3.1. Impact in points (pts)
-Variation in percentage points
+
+Variation in percentage points instead of Percent change. 
+
+Example: 1% variation is 1pt% to explain, which could be explained by +0.3pt% by the first step and +0.7pt% by the second step.
+
 ### 3.2. Impact in volume
 Contribution to the main KPI (e.g. impact on Revenue)
+
 ### 3.3. Percent change 
+
 Evolution in %
+
 ### 3.4. Start
 Initial value (blue bar on the left)
+
 ### 3.5. End
 Final value (blue bar on the right)
 
+<br>
+
 For each configuration, you can customize the display format:
+
 ### 3.6. Gauge
 Show a gauge visualization
+
 ### 3.7. Arrows
 Display directional arrows indicating positive/negative variations
+
 ### 3.8. Colors
 Color-code values in green (increase) or red (decrease)
+
 ### 3.9. Hover Only
 Only show values when hovering with the mouse
+
 ### 3.10. Hide
 Hide the element completely
 
 <center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/label.png"/></center>
 
+
+<br/>
+
+# Save customized setting
+
+
+For **premium users on Looker Studio and Power BI**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the Config JSON field in the style panel. Otherwise, your settings will be lost when you refresh the BI report.
+
+<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/save_json_compare.png"/></center>
 
 <br/>
 

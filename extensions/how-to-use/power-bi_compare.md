@@ -15,23 +15,17 @@ keywords: Power BI get started powerbi
 
 <br/>
 
-<!-- Here is what you get on this page:
-1. [Overview](#1-overview) 
-2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-settings---advanced-usage)
-8. [Get more insights](#8-get-more-insights)
-9. [Support and resources](#9-support-and-resources)
-10. [Release](#10-powerbi-version-history-to-be-updated)
 
+<div class="info-box">
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/core_app/new/integration/PowerBI_demo.html">version</a> available in the Power BI Marketplace. </div>
 
-<br/> -->
+<br>
 
-## 1. Overview
-This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://appsource.microsoft.com/fr-fr/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+# 1. Overview
+This section provides detailed documentation for the "Compare" extension on Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
+
+This Power Bi extension is available in two modes : connected to the Datama WebApp (aka "Full version") or the version available on the Power BI marketplace disconnected from the WebApp solution (aka "light version").
+
 
 Watch this video to properly understand our extension and how to use it.
 
@@ -40,7 +34,7 @@ Watch this video to properly understand our extension and how to use it.
 
 <br/>
 
-## 2. Features
+# 2. Features
 
 Here are the main features this extension is providing. These features will be completed step by step with new improvements and functionnalities such as automated comments and title, hypothesis "What if" modelisation...
 
@@ -53,7 +47,12 @@ Here are the main features this extension is providing. These features will be c
 
 <br/>
 
-## 3. Add the extension into your report
+{% include embed_totw.html num=130 %}
+
+<br>
+
+
+# 3. Add the extension into your report
 
 Follow one or the other steps to install the Datama plugin:
 
@@ -75,7 +74,7 @@ Follow one or the other steps to install the Datama plugin:
 <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
 <br/>
 
-## 4. Get a free trial period
+# 4. Get a free trial period
 
 Datama extension in Power BI allows you to benefit from all features.
 
@@ -94,7 +93,7 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.
 
 <br>
 
-## 5. Getting Started
+# 5. Getting Started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -116,12 +115,14 @@ Once you've imported the extension, here is how you can use it.
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
 **4. Save settings**: Once you are happy with your settings, in the Power BI side panel, in the "Format your visual" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
+Please note that no customized settings will be saved unless you complete this step.
 
 **5. Leave edit mode**: In the Power BI side panel, in the "Format your visual" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
 <br/>
 
-## 5. Read your analysis
+# 6. Read your analysis
 
 - **Performance overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary step analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
@@ -132,27 +133,22 @@ To discover more about how to read a Waterfall, you can read our [dedicated sect
 
 <br/>
 
-## 7. Settings - Advanced Usage
+# 7. Settings - Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
 
 
 <br/>
 
-## 8. Get more insights
+# 8. Get more insights
 
 Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 
-## 9. Support and Resources
+# 9. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
 - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
 - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>
-
-## 10. Power BI Version History
-- **1.0.0.1 (2024-01-20)**: Initial release.
-- **1.3.14.0 (2024-07-01)**: Beta for comments, multiple fix.
-

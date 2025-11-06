@@ -6,7 +6,7 @@ scope: Datama/saas
 keywords: full app home homepage
 ---
 
-[Header](#2-user-preferences)
+<br>
 
 > Welcome to the **Datama Homepage** documentation! Here, you'll find details on how to navigate and configure your account for an optimal experience.
 
@@ -16,23 +16,23 @@ keywords: full app home homepage
 
 ---
 
-## **1. Header**
+# 1. Header
 
 The **header** is always accessible, allowing you to return to the homepage (by clicking on the Datama logo) and manage your profile.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/homepage_header.png"/></center>
 
 
-## **2. User Preferences**
+# 2. User Preferences
 
 Datama allows you to customize your experience at both **Use Case level** and **profile level**.  
 For example, you can modify here the **color palette** and **default language** at the profile level and will have this settings set for each of your new workbook. (existing workbooks will have to be manually changed)
 
 <center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.png"/></center>
 
-### **2.1 Workbook Style**
+## 2.1. Workbook Style
 
-#### **Language & Colors**
+### 2.1.1. Language & Colors
 - **Analysis Language**: Available in **English** and **French** (default: English).  
   - Change per Use Case: *Settings > Analysis Language*  
   - Change globally: *Profile icon > User Preferences > Analysis Language*  
@@ -52,7 +52,7 @@ For example, you can modify here the **color palette** and **default language** 
 
 - **Reverse Palette**: Swap colors used for **growth** or **loss** representation.
 
-#### **Number Display**
+### 2.1.2. Number Display
 - **Compact Numbers**: Display large numbers with units (e.g., *1,234 → 1.23k*).  
 - **Force Rounding**: Overrides **smart rounding**, keeping a fixed decimal format.
 
@@ -60,7 +60,7 @@ For example, you can modify here the **color palette** and **default language** 
 
 ---
 
-## **3. Custom Settings per Solution**
+# 3. Custom Settings per Solution
 Each solution has specific settings, see for each solution below the specific settings:
 - [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
 - [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html)
@@ -70,7 +70,7 @@ Each solution has specific settings, see for each solution below the specific se
 
 ---
 
-## **4. Workbook Management**
+# 4. Workbook Management
 
 Datama allows you to organize and manage workbooks efficiently.  
 Access workbooks from the **"Recent" section** or within **folders in your workspace**.
@@ -84,16 +84,15 @@ Access workbooks from the **"Recent" section** or within **folders in your works
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/workbooks_home.png"/></center>
 
-**Folders**
-To better organize your workbooks, create **folders** in the "Workbooks" section.
+- **Folders** : To better organize your workbooks, create **folders** in the "Workbooks" section.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/folders_icon.png"/></center>
 
 ---
 
-## **5. Preset Workbooks**
+# 5. Preset Workbooks
 
-If you've never created a workbook before, use the **Preset Workbook** feature to generate one with your data.
+If you've never created a workbook before (only if no workbook has been saved yet), use the **Preset Workbook** feature to generate one with your data.
 
 **Steps to Create a Preset Workbook**
 1. **Select your data source** and follow the steps.
@@ -107,7 +106,7 @@ If you've never created a workbook before, use the **Preset Workbook** feature t
 
 <br/>
 
-### **Other key Homepage sections**
+## 5.1. Other key Homepage sections
 - Menu: [My Account]({{site.url}}/{{site.baseurl}}/core_app//new/interface/homepage/admin/admin.html) (Security, Statistics, License Admin)
 - Use case examples: [Get Inspired]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html)
 

@@ -1,7 +1,7 @@
 ---
 title: Prep - Refine data
 description: This section helps you to refine your data in Datama Prep
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app prep refine data
 ---
@@ -12,18 +12,9 @@ keywords: full app prep refine data
 Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions.
 <br>
 
-Here is the available actions you can do so far in Datama Prep to refine your dataset:
-- [Clean](#clean)
-- [Append](#append)
-- [Join](#join)
-- [Filter](#filter)
-- [Pivot & Unpivot](#pivot--unpivot)
-- [Aggregate](#aggregate)
-<!-- - [What if](#what-if) -->
+Here are the available actions you can do so far in Datama Prep to refine your dataset:
 
-<br>
-
-> ## <b>Clean</b>
+# 1. Clean
 
 **Clean action allows you to edit order and types of your columns.**
 
@@ -54,7 +45,9 @@ You'll also be able to edit a column type by using the select contain on items. 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/clean_types.png"/></center>
 
-In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button.
+## 1.1 Calculated fields
+
+In addition, Datama prep gives you the possibility to create Calculated Field using the **Create a calculated field** button. See more on the [available functions]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html).
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/create_calculated_field.png"/></center>
 
@@ -67,6 +60,9 @@ This a powerfull tool to create columns using conditionals or aggregation functi
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/calculated_field_preview1.png"/></center>
 
 To edit your calculated fields, the detailed **functions list** is available [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html)
+
+
+## 1.2 Cluster dimension
 
 Finally, prep also gives you the possibility to cluster some columns of your dataset using the **Create a clustering field** button.
 
@@ -83,8 +79,20 @@ As you can see in the example shown above, you can configure several parameters 
 - Select the metric for the computation in the "Metric used for clustering" field.
 - Adjust the clustering settings (for more details, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/clustering#clustering-methods)).
 
+<center><img src="{{site.url}}/{{site.baseurl}}/assets/images/tip/132.gif"/></center>
 
-> ## <b>Append</b>
+<div class="info-box">
+  <strong>Note</strong>: To ensure Datama works correctly, place all dimension columns before the metric columns. New calculated fields are automatically added at the end of the column list.If your new field is a dimension, create another clean block so you can drag it up into the dimension section.
+</div>
+
+<br>
+
+{% include embed_totw.html num=132 %}
+
+<br>
+
+
+# 2. Append
 
 **Append action allow you to merge two source flow in one.**
 
@@ -147,7 +155,18 @@ You have the possibility to distribute this missing segment as well, by activati
 
 <br>
 
-> ## <b>Filter</b>
+# 3. Join
+
+A basic reminder: Append combines the rows of Table A and Table B when their column names are the same. Join adds columns from Table B into Table A when there is at least one common column.
+Here’s an example:
+
+<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/join_append.png"/></center>
+
+Datama allows you to inner join two or more tables by default. You can choose the type of join here:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/join.png"/></center>
+
+# 3. Filter
 
 **Filter action allow you to filter data in columns.**
 
@@ -185,7 +204,7 @@ It has the effect of not offering the unique values in the filter value selector
 
 <br>
 
-> ## <b>Pivot & Unpivot</b>
+# 4. Pivot & Unpivot
 
 **You might want to pivot and unpivot your dataset in Datama PREP.**
 
@@ -211,7 +230,7 @@ For example, this unpivot configuration creates two columns {Sessions.female and
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/unpivoted_column.png"/></center>
 
 
-> ## <b>What if</b>
+# 5. What if
 
 **What if allows to create scenarios with simulated data based on simple assumptions**
 
@@ -234,7 +253,12 @@ What if scenarios are made of 2 main parts
 
 <br>
 
-#### Baseline
+{% include embed_totw.html num=136 %}
+
+<br>
+
+
+# 5.1. Baseline
 
 Define the baseline of your simulation, i.e. the part of your dataset that will be used as starting point.
 
@@ -242,7 +266,7 @@ In our example, since the simulation is based on "Last Year" data, the baseline 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_baseline.png"/></center>
 
-#### Impacted KPI(s)
+## 5.2. Impacted KPI(s)
 
 Define the KPIs (within the metric relation) on which your taking assumptions in your simulation, on which scope, and the actual impact you want to size (absolute or relative)
 
@@ -255,7 +279,7 @@ Note that we want the total average of Mobile users to increase by +1pt and not 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/whatif_KPIsim.png"/></center>
 
-#### Results
+## 5.3. Results
 
 Once applied your changes, Datama Prep will automatically create a new column "Scenario" with 3 values: your baseline, the scenario itself, and other data "out of scope" that was not in the baseline
 
@@ -275,7 +299,7 @@ To see how to save and share your dataflow, click [here]({{site.url}}/{{site.bas
 
 <br>
 
-> ## <b>Aggregate</b>
+# 6. Aggregate
 
 The Aggregate block lets you aggregate the values of columns by the values of one or more keys, making it particularly useful for reducing the size of a dataset. It is the equivalent of **Group by** clause in SQL.
 
@@ -303,3 +327,9 @@ Finally, you can select the aggregation function to apply on each column in the 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/aggregate_functions.png"/></center>
 
 By default, the aggregation functions selected in the menu are **sum** for numeric columns and **count** for other types of columns.
+
+<br>
+
+{% include embed_totw.html num=133 %}
+
+<br>

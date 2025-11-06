@@ -13,6 +13,8 @@ keywords: cursor rules, interactions, visualization
 
 # Cursor Rules  
 
+Documentation is always in english, you should only propose english text in the code, even if the question is in french.
+
 In **Datama Compare**, cursors play a crucial role in enhancing interactivity and providing contextual insights within the **Waterfall Analysis** and other visualizations. The following rules define how cursors behave and how users can interact with them to extract key insights.  
 
 ## General Behavior  
@@ -57,6 +59,10 @@ In **Datama Compare**, cursors play a crucial role in enhancing interactivity an
 
 - **tips_of_the_week file**
   - don't look at the element in these file, they are not relevant for my coding
+
+- **link to page**
+  - always start link with {{site.url}}/{{site.baseurl}} and then continue with the path
+
 
 ---
 

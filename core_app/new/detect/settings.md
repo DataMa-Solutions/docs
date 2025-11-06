@@ -49,18 +49,21 @@ keywords: full app detect settings
 # 1. Scope for detection
 <br>
 
-## 1.2 Analyse All Metrics Relation Steps
+## 1.1 Analyse All Metrics Relation Steps
 
 Datama Detect can analyse one step or all the steps of your funnel. When all step are selected, you will be able to see in a dropdown menu every step with an anomaly.
 
-<br>
 
-## 1.3 Inspect Numerator only
+## 1.2 Compute Main KPI impact
+
+Active this function to see the dotted line representing the main KPI.
+
+<!-- ## 1.3 Inspect Numerator only
 
 When you're analysig all metrics relation steps, you can choose to analyse only the numerator.
-This is useful when your market equation is not important or not relevant and you prefer to analyse independently all the Numerator.
+This is useful when your market equation is not important or not relevant and you prefer to analyse independently all the Numerator. -->
 
-## 1.4 Analyse Latest Point Only
+## 1.3 Analyse Latest Point Only
 
 You can choose to display the anomalies of each date or only for the latest point in the data.
 In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
@@ -73,18 +76,23 @@ In run mode (i.e. when sending alerts on a daily basis for instance), we recomma
 ## 2.1 Detection Method
 
 Detection method defines which algorithm Datama uses to flag anomalies.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more.
 
 <br>
 
-## 2.2 Threshold value
+## 2.2 Use smart interval
+
+Smart Interval calculates a theoretical confidence interval instead of an observed interval.
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html#121-smart-interval) to learn more.
+
+<!-- ## 2.2 Threshold value
 
 Threshold is used by some anomaly detection methods to define the cutoff between anomalies and normal points. The threshold will be considered as % or absolute value depending on the method.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more -->
 
 <br>
 
-## 2.3 Confidence Interval
+## 2.3 Level of Confidence
 
 A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
 
@@ -95,17 +103,27 @@ Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_a
 
 <br>
 
-## 2.4 Points included in baseline
+## 2.4 Flag anomaly when above/below confidence interval
+
+This allows you to define which type of points (when it's higher or lower than the confidence interval) will be displayed.You can display in both cases.
+
+
+## 2.5 Points included in baseline
 
 This allows you to define which type of points (same day, same hour etc) in your historical data the algoritm will consider for baseline.
 Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 <br>
 
-## 2.5 Number of points in baseline
+## 2.6 Number of points in baseline
 
 This allows you to define how many points within the defined type of points in your historical data the algoritm will consider for baseline.
 Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+
+<br>
+## 2.6 Aggregate small samples
+
+This allows you to aggregate previous data points when the volume is too small to declare anomaly.
 
 <br>
 
@@ -150,8 +168,6 @@ Datama Pivot can be used with a comparison. To activate this mode select a dimen
 
 <br>
 
-## 4.2 KPI
+<!-- ## 4.2 KPI
 
-In Datama Detect, you can detect the anomaly of only one KPI or all metric relation.
-
-By default, Datama selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation.
+In Datama Detect, you can detect the anomaly of only one KPI or all metric relation. -->

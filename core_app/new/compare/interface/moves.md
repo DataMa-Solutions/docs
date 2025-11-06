@@ -1,7 +1,7 @@
 ---
 title: Moves
 description: In the Detailed View the graph « Moves » represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension.
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare moves
 ---
@@ -14,7 +14,7 @@ This graph shows the performance effect and the mix effect within a single serie
 
 <br>
 
-# <b>How to understand this graph?</b>
+# 1. How to understand this graph?
 
 <br>
 
@@ -28,7 +28,7 @@ Read more [details]({{site.url}}/{{site.baseurl}}/core_app/compare/model/dimensi
 
 **Ordinate** of the graph shows the ratio of this step Numerator / Denominator (e.g. in that case: Checkout/ Sessions). This is the performance effect of your analysis. (e.g. in the picture above, the ordinate is the performance of the Checkout/ Session as if the Session was equal betwen Start and End. The purple arrow « Referral » goes from 0.0743 Checkout per Session in Start to 0.0678 at the End. This have a negative performance effect).
 
-### Help on the read of this graph
+## 1.1. Help on the read of this graph
 
 To have keys to read this graph, you should know few tips:
 

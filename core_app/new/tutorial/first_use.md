@@ -1,21 +1,22 @@
 ---
 title: User onboarding
 description: Successfully Run your 1st Datama report
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app prep get started 1st first uses use
 ---
 
 <br>
 
-> Successfully Run your 1st Datama report and learn how to use Datama Compare (and Datama Prep)
+> Successfully run your 1st Datama report and learn how to use Datama Compare (and Datama Prep)
 
 <br>
 
 Let's start with a simple case, with an Excel dataset. There are multiple [other ways]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html) to load data. 
 
 <br>
-# <b>Step 1:</b> Check your data
+
+# <b>1. Step 1:</b> Check your data
 
 Check your columns: 
 - 1st column is what you want to compare (date, device, country…)
@@ -35,7 +36,7 @@ In the “Get inspired” section you will find examples of workbooks in multipl
 
 <br>
 
-# <b>Step 2:</b> Create a new Workbook
+# <b>2. Step 2:</b> Create a new Workbook
 
 Here is the Homepage of Datama with all the workbooks saved by you or your team
 
@@ -45,7 +46,7 @@ Click "Add new workbook" to access Datama Prep and connect (or load) your data.
 
 <br>
 
-# <b>Step 3:</b> Add your source to Datama Prep
+# <b>3. Step 3:</b> Add your source to Datama Prep
 
 <center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.png"/></center>
 
@@ -57,7 +58,7 @@ From the list of available connectors, select the one that matches your data sou
 
 <br>
 
-# <b>Step 4:</b> Check your Column and define your steps
+# <b>4. Step 4:</b> Check your Column and define your steps
 
 In the Datama output block:
 - Select the columns that should be considered as Dimensions and Metrics
@@ -65,7 +66,10 @@ In the Datama output block:
 
 <br>
 
-> Read more about the [Output block]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/block_output.html)
+<div class="info-box"> Read more about the <a href="https://datama-solutions.github.io//docs/core_app/new/prep/interface/block_output.html" target="_blank">Output block</a>
+</div>
+
+
 
 <br>
 
@@ -75,9 +79,9 @@ If your dataset is properly split between dimensions and metrics, and the metric
 
 <br>
 
-# <b>Bonus:</b> Intro to waterfall analysis
+# <b>5. Bonus 💎:</b> Intro to waterfall analysis
 
-## What is a waterfall graph ? 
+## 5.1 What is a waterfall graph ? 
 
 A waterfall allows you to quickly identify and understand the factors that cause your performance indicator to rise or fall from Start to End
 
@@ -105,7 +109,7 @@ Each variation is split between mix and performance (see [article]({{site.url}}/
 
 <br>
 
-## The Moves « graph » is a representation of both Mix & Performance effect
+## 5.2 The Moves « graph » is a representation of both Mix & Performance effect
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMoves.jpg"/></center>
 

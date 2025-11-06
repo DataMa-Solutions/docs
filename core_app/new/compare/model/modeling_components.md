@@ -1,24 +1,15 @@
 ---
 title: Other important modeling components
 description: Here is a list of modeling components available.
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare model modeling component
 ---
 
-<br>
-
-Here is what you are going to find in this page: 
-- [Clustering](#clustering)
-- [Interdependance](#interdependence)
-- [Combined Dimension](#combined-dimension)
-- [Significance](#significance)
-- [Scope](#scope)
-- [Covariance](#covariance)
 
 <br>
 
-## <b>Clustering </b>
+# 1. Clustering
 
 Clustering is necessary for dimension analysis
 * For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into “other”
@@ -28,32 +19,42 @@ Read docs related to [continuous dimension]({{site.url}}/{{site.baseurl}}/core_a
 
 <br>
 
-## <b>Interdependence</b>
+# 2. Significance Test
 
-In 'Safe Mode', most correlated dimensions are flagged. Interdependencies between dimensions are tested using Chi-Square and simple business calculation.
+When activating the ‘Significance Test’, a simple check is performed to ensure the minimum volume (manually inputted) is met for the selected metric in both the Start and End periods.
 
-<br>
+You can also use Datama Assess to properly assess the significance of variations.
 
-## <b>Combined dimension</b>
-
-Combined dimension is created by concatenating all clustered dimensions into one “Combined_Dimension”. It is then considered as all other dimensions and it’s contribution in the variation performance is assessed as it is for the other dimensions.
-
-<br>
-
-## <b>Significance</b>
-
-In 'Safe Mode', simple check of minimal volume (manually inputted) for given metric in Start and End
-You can also use Datama Impact to assess properly signifiance of variations
+<div class="info-box">
+  Read more about <a href="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html#233-significance-test">Significance</a>
+</div>
 
 <br>
 
-## <b>Scope</b>
+# 3. Scope
+
+The Scope feature allows you to analyze a specific segment of your dataset (using a column named "Scope" with values "In" or "Out") while still preserving the overall KPIs.
+
+For example, let’s say your dataset includes both store data and ecommerce data. If you want to analyze the conversion rate evolution of your ecommerce platform, but still keep the total revenue (from both stores and ecommerce), you can:
+
+- Create a "Scope" column,
+
+- Mark ecommerce-related rows as "In",
+
+- And mark store-related rows as "Out".
+
+The resulting analysis will focus only on the ecommerce segment, but will retain the total revenue in the background, giving you a more precise view without losing overall context.
 
 'Out' segment defined in column 'Scope' is excluded from analysis, and simply stacked on Start and End column in waterfall chart
 
+<div class="info-box">
+  <strong>Note</strong>: You can see an example 
+  <a href="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html">here</a>
+</div>
+
 <br>
 
-## <b>Covariance</b>
+# 4. Covariance
 
 A Covariance ratio appears on the top left of the waterfall.
 
@@ -61,6 +62,9 @@ For waterfall analysis, covariance is distributed on each step. User should chec
 
 For Dimension analysis, covariance is not distributed on neither mix nor performance sizing. Hence user should be careful when looking at dimension impact
 
-Read more about [Covariance]({{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance)
+<div class="info-box">
+  Read more about <a href="{{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance.html">Covariance</a>
+</div>
+
 
 <br>

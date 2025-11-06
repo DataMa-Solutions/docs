@@ -1,22 +1,22 @@
 ---
 title: Descriptive Comparison (Journey)
 description: Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab.
-layout: page
+layout: new-page
 scope: Datama/saas/journey
 keywords: full app journey interface descriptive comparison
 ---
 
 Descriptive Comparison is a group of 4 tabs. See articles below for details on each tab:
 
-* [Pareto](#pareto)
+<!-- * [Pareto](#pareto)
 * [Distribution](#the volume of each touch point)
 * [Sunburst](#sunburst)
 * [Sunburst difference](#sunburst-difference) (available in Compare mode only)
-* [Sankey](#sankey)
+* [Sankey](#sankey) -->
 
 <br>
 
-## <b>Pareto</b>
+# 1. Pareto
 
 The Pareto tab is a graph allowing you to see the first 10 journeys contributing to a selected metric, and the share of the total metric that it represents, as well as the cumulated share of the selected metric of top X journeys.
 
@@ -26,7 +26,7 @@ Two parameters are used in order to build this graph:
 
 * The X-axis is % of the metric you have chosen
 
-* The Y-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
+* The Y-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/attribution#5-data)
 
 **<u>Example:</u>**
 
@@ -35,10 +35,10 @@ Two parameters are used in order to build this graph:
 
 <br>
 
-## <b>Sunburst</b>
+# 2. Sunburst
 
 Sunbursts are commonly used to represent sequential data, such as customer journeys.
-You can learn more on sunbursts and how to use them [here](https://Datama.fr/2020/05/12/getting-value-out-of-a-sunburst/)
+You can learn more on sunbursts and how to use them [here](https://datama.io/getting-value-out-of-a-sunburst/)
 
 **Start End Sunbursts:**
 
@@ -52,7 +52,7 @@ The right one is your Mobile segment.
 
 <br>
 
-## <b>Sunburst difference</b>
+# 3. Sunburst difference
 
 
 This view is only available when Compare mode toggle is activated on Datama Journey
@@ -69,10 +69,16 @@ Obviously, as this is a 0 sum game, you have as many decreasing journeys as incr
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width:1000px;">
 
-## <b>Sankey</b>
+# 4. Sankey
 
 Sankey chart is another way to display flows between touch points which is convenient in particular to visualize repetitive loops on a given point. 
 
 You can move the nodes of the Sankey by drag and dropping the nodes with your moves
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/images/sankey.png" style="width:1000px;">
+
+<br>
+
+{% include embed_totw.html num=135 %}
+
+<br>

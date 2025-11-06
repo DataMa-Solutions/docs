@@ -1,7 +1,7 @@
 ---
 title: PRIVACY POLICY
 description: See the privacy policy of the Datama applications.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app privacy policy
 ---

@@ -1,7 +1,7 @@
 ---
 title: Detailed View
 description: Detailed View is a group of 4 tabs. See below articles for details on each tab.
-layout: page
+layout: new-page
 scope: Datama/saas/journey
 keywords: full app journey detailed view detail details
 ---
@@ -14,10 +14,10 @@ keywords: full app journey detailed view detail details
 
 Detailed View is a group of 4 tabs. See the articles below for details on each tab:
 
-* [Flow](#flow)
+<!-- * [Flow](#flow)
 * [Relative](#relative)
 * [Simple Stat](#simple-stat)
-* [Data](#data)  <span style="color:red"> (Chapter in construction)</span>
+* [Data](#data)  <span style="color:red"> (Chapter in construction)</span> -->
 
 <br>
 
@@ -27,7 +27,7 @@ Detailed View is a group of 4 tabs. See the articles below for details on each t
 
 <br>
 
-## <b>Flow</b>
+# 1. Flow
 
 The Flow tab is a graph allowing you to visualize previous points and next points for a chosen touch point (Point in Detailed View Filter) on a choosen metric (Metric in Detailed View Filter).
 
@@ -42,7 +42,7 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 <br>
 
-## <b>Relative</b>
+# 2. Relative
 
 Relative is another way to display the [Flow]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow) graph.
 
@@ -53,7 +53,7 @@ Relative is another way to display the [Flow]({{site.url}}/{{site.baseurl}}/core
 
 <br>
 
-## <b>Simple Stat</b>
+# 3. Simple Stat
 
 The Simple Stat tab is a graph allowing you to visualize various information on the steps of your customer journeys:
 
@@ -67,7 +67,7 @@ The Simple Stat tab is a graph allowing you to visualize various information on 
 
 <br>
 
-## <b>Data</b>
+# 4. Data
 
 
 > The **Data Tab** is the table used to generate the other tabs of Detailed View.

@@ -17,14 +17,16 @@
 
 /** IMPORT PART **/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 @import "colors";
 @import "shared";
-@import "scroll";
 @import "text";
+@import "scroll";
 @import "404";
 @import "welcome";
 @import "button";
 @import "search";
+
 
 body {
   /* GRID PART */
@@ -128,6 +130,11 @@ body {
       margin-left: -3px;
       border-radius: 8px;
     }
+
+    nav a.active h3, nav a.active h4 {
+      font-weight: 600;
+    }
+
 
     nav a.active .collapser {
       font-weight: 600;
@@ -236,6 +243,11 @@ body {
           margin-right: 20px;
         }
       }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-weight: 600; 
     }
 
     & > nav {
@@ -412,7 +424,8 @@ body {
           padding: 0 10px;
 
           & > a {
-            font-weight: 400 !important;
+            font-weight: 700 !important; /* default pages */
+            font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
           }
 
           & > ul {
@@ -423,6 +436,148 @@ body {
       }
     }
   }
+}
+
+/* Make welcome page header menu bold too */
+.welcome header ul li > a {
+  font-weight: 700 !important;
+}
+
+.info-box {
+  background-color: #E8F5F3;            /* fond bleu un peu plus foncé */
+  border: 1px solid #16D0B4;            /* bordure bleu plus foncé que le fond */
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  margin: 16px 0;
+  display: flow;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.info-box::before {
+  content: "✅";
+  font-size: 18px;
+  margin-right: 8px;
+  line-height: 1.4;
+}
+
+
+
+/* Tip of the Week embed (collapsible) */
+details.embed-totw {
+  background-color: #FFF8D6; /* soft yellow */
+  border: 1px solid #F7D24C; /* darker yellow border */
+  border-radius: 10px;
+  padding: 0;
+  margin: 16px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+details.embed-totw > summary {
+  list-style: none; /* remove default marker */
+  cursor: pointer;
+  padding: 14px 16px;
+  background: linear-gradient(180deg, #FFF8D6 0%, #FFEFA8 100%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  user-select: none;
+  font-weight: 600;
+  color: #5A4A00;
+}
+
+/* Lightbulb emoji before the title */
+details.embed-totw > summary::before {
+  content: "💡";
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Custom caret */
+details.embed-totw > summary::after {
+  content: "\f107"; /* Font Awesome chevron-down */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+  color: #5A4A00;
+}
+
+details.embed-totw[open] > summary::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Content area */
+details.embed-totw > .embed-totw__content {
+  padding: 14px 16px 16px;
+  background: #FFFBE6; /* slightly lighter */
+  border-top: 1px solid rgba(90, 74, 0, 0.12);
+  color: #3b2f00;
+}
+
+/* Rich content inside */
+details.embed-totw .embed-totw__content p {
+  margin: 0 0 10px;
+}
+
+details.embed-totw .embed-totw__content img,
+details.embed-totw .embed-totw__content iframe {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Link style inside */
+details.embed-totw .embed-totw__content a {
+  color: #7A5B00 !important;
+  text-decoration: underline;
+}
+
+/* Compact variant if needed */
+details.embed-totw.embed-totw--compact > summary {
+  padding: 10px 14px;
+}
+details.embed-totw.embed-totw--compact > .embed-totw__content {
+  padding: 10px 14px 12px;
+}
+
+/* Tip of the Week page separators */
+.totw-list h2 {
+  margin-top: 60px;
+  padding-top: 20px;
+  font-weight: 600 !important;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.totw-list h2::before {
+  content: "💡";
+  display: inline-block;
+  margin-right: 8px;
+  line-height: 1;
+}
+
+.totw-list h2:not(:first-child) {
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.totw-list h2 + * {
+  margin-top: 12px;
+}
+
+/* Tip of the Week intro spacing */
+blockquote.totw-intro {
+  margin-bottom: -30px;
 }
 
 @media screen and (max-width: 767px) {

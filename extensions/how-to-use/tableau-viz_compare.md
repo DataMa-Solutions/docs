@@ -15,21 +15,8 @@ keywords: Tableau Viz get started Tableau
 
 <br/>
 
-<!-- Here is what you get on this page:
-1. [Overview](#1-overview) 
-2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-settings---advanced-usage)
-8. [Get more insights](#8-get-more-insights)
-9. [Support and resources](#9-support-and-resources)
 
-
-<br/> -->
-
-## 1. Overview
+# 1. Overview
 This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://exchange.tableau.com/fr-FR/products/1024) Plugin, a Tableauful extension for Tableau as a viz extension. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 Watch this video to properly understand our extension and how to use it.
@@ -38,7 +25,7 @@ Watch this video to properly understand our extension and how to use it.
 
 <br/>
 
-## 2. Features
+# 2. Features
 
 Here are the main features this extension is providing. These features will be completed step by step with new improvements and functionnalities such as automated comments and title, hypothesis "What if" modelisation...
 
@@ -51,7 +38,12 @@ Here are the main features this extension is providing. These features will be c
 
 <br/>
 
-## 3. Add the extension into your report
+{% include embed_totw.html num=130 %}
+
+<br>
+
+
+# 3. Add the extension into your report
 
 In order to use Datama in your report, you need to add a viz extension using a custom trex file.
 
@@ -76,7 +68,7 @@ Please refer to the full documentation to learn more about [source structure]({{
 <br>
 
 
-## 4. Get a free trial period
+# 4. Get a free trial period
 
 Datama extension in Tableau Viz allows you to benefit from all features.
 
@@ -100,7 +92,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 
 <br>
 
-## 5. Getting Started
+# 5. Getting Started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -123,7 +115,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-## 5. Read your analysis
+# 5. Read your analysis
 
 - **Performance overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary step analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
@@ -134,20 +126,20 @@ To discover more about how to read a Waterfall, you can read our [dedicated sect
 
 <br/>
 
-## 7. Settings - Advanced Usage
+# 6. Settings - Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
 
 
 <br/>
 
-## 8. Get more insights
+# 7. Get more insights
 
 Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 
-## 9. Support and Resources
+# 8. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
 - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
 - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.

@@ -16,28 +16,16 @@ Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how yo
 
 
 Here is the available connectors:
-- [Google Sheet](#google-sheet)
-- [Excel File](#excel-file)
-- [csv File](#csv-file)
-- [Calendar](#calendar)
-- [Google Analytics 3](#google-analytics-3)
-- [Google Analytics 4 (beta)](#google-analytics-4-beta)
-- [Google Google BigQuery](#google-google-bigquery)
-- [Mail](#mail)
-- [Snowflake](#snowflake)
-- [Google trends](#google-trends)
-- [Facebook](#facebook)
-- [Piano Analytics (AT Internet)](#piano-analytics)
-- [Amazon Redshift](#amazon-redshift)
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source.png"/></center>
+<br>
+
 
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
 
-> ## Google Sheet
+# 1. Google Sheet
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_googleSheet.jpg"/></center>
-
-
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source.gif"/></center>
 
 When adding a google sheet block to your flow, it’ll require a small configuration.
 - First you need to have the url of your google sheet. 
@@ -47,28 +35,38 @@ When your spreadsheet is public, you have nothing else to do.
 If you have a private spreadsheet we will need to have your authorization to access it. You can give access to your spreadsheet with the <b>Connect</b> or the <b>Give access to Datama</b> button on the connector.
 When those steps are completed, you just have to select the sheet you would like to load and click <b>Load</b>
 
-⚠️ **Important information** : <i>Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your spreadsheet, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.</i>
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your spreadsheet, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
+</div>
 
 <br>
 
-> ## Excel File
+# 2. Excel File
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source_excel.gif"/></center>
 
 If you want to analyze your excel file, it’s easy. Click on the Excel connector, drop (or click) your excel file in the box given, and upload. You will be asked which sheet you want to use, and that’s it. Click on load and continue building your flow with more blocks.
 
-⚠️ **Important information :** <i>Note that for performance reasons, we cache every source blocks. So if you have made changes on your excel, you will need to upload it again.</i>
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks. So if you have made changes on your excel, you will need to upload it again.
+</div>
 
 <br>
 
-> ## csv File
+# 3. csv File
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source_csv.gif"/></center>
 
 If you want to analyze your csv file, it’s easy. Click on the csv connector, drop your csv file in the box given, and upload. You will be asked which csv separator you want to use, and that’s it. 
 Click on load and continue building your flow with more blocks.
 
-⚠️ **Important information :** <i>Note that for performance reasons, we cache every source blocks. So if you have made changes on your csv, you will need to upload it again.</i>
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks. So if you have made changes on your csv, you will need to upload it again.
+</div>
 
 <br>
 
-> ## Calendar
+# 4. Calendar
 
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_calendar1.png"/>
@@ -86,10 +84,12 @@ If you choose to use one of your own, you'll need to have the url of your calend
 In case you want to use a private Google Calendar, you can use the secret link at iCal format from calendar parameters in Google Calendar interface.
 Now you simply have to click on <b>Load</b>
 
-⚠️ **Important information** : <i>Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your calendar, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.</i>
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your calendar, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
+</div>
 
 
-> ## Google Analytics 3 
+<!-- # 5. Google Analytics 3 
 
 You can upload your Google Analytics datasets in Datama PREP.
 Click on the Analytics 3 connector in Datama prep, you might need to give authorization to your google analytics by clicking on [Connect] button. You can also use service account to connect to Google Analytics. Learn more on [Service Accounts]("https://developers.google.com/analytics/devguides/reporting/core/v4/authorization#service_accounts") here
@@ -112,17 +112,24 @@ It is not mandatory to add segments to your report. Just check the “Add segmen
 <u>Timeframe selection</u>
 Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
 
-⚠️ **Important information :** <i>Note that for performance reasons, we cache every source blocks for one hour. So if you have changes on your GA3, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.</i>
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have changes on your GA3, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
+</div>
 
-<br>
+<br> -->
 
-> ## Google Analytics 4 (beta) 
+# 5. Google Analytics 4
 
-You can upload your Google Analytics 4 datasets in Datama PREP.
+You can pull your GA4 data in Datama Prep, using the GA4 API.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
 
 Select your property, metrics and dimensions. You can choose only one property and only 9 dimensions and up to 10 metrics.
-You can also filter data from Google Analytics 4
+You can also filter data from Google Analytics 4, using the filter section
+
+<u>Timeframe selection</u>
+Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
+
+<u>Avoid sampling</u>
 
 One thing to keep in mind: when pulling <b>large datasets</b> from Google Analytics 4 into Datama Prep, Google Analytics may sample your data before loading it into Datama. This auto-sampling can leave your data incomplete, making your final analysis less accurate.
 
@@ -136,16 +143,34 @@ The interface looks like this:
 
 However, this option may slow down the import process, as Google Analytics needs to run multiple queries.
 
-<u>Timeframe selection</u>
-Select whether you want a relative date, or absolute. If you want to lock your timeframe selection, uncheck the “move the time window overtime”
+<u>Prorate metrics totals</u>
+
+As in any expore report of GA4, pulling certain metrics on certain dimensions might double count this metric. 
+That is why you can use "<u>Prorate metrics totals</u>". Datama will then pull the actual, unduplicated total metric value and prorate the split to match the total account. 
+For instance, imagine a user sees 2 items in 1 session, and you pull Sessions by Items. Without activating this option, you would end up with the Sum of the sessions column being "2", above the actual number of sessions that you have in total in GA4, being 1. 
+By using the "<u>Prorate metrics totals</u>", you will get 0.5 session for each item, and the total will match the overall 1.
+Note that when doing comparisons, you may want to pull data by separate periods, so that pro rata is done for each period separately, hence the variation between those two periods matches totals variations. 
+
+
+The column total may not be the actual total if a row is counted multiple times. Therefore, we use the actual total provided by the Google Analytics API in the query. We then prorate each value of the metric concerned between our calculated total and the actual total.
 
 <br>
 
-⚠️ **Important information** :<i> Note that for performance reasons, we cache every source blocks for one hour. So if you have changes on your GA4, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.</i>
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have changes on your GA4, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
+</div>
+
+{% include embed_totw.html num=152 %}
+
+
+{% include embed_totw.html num=147 %}
+
+
+{% include embed_totw.html num=141 %}
 
 <br>
 
-> ## Google Google BigQuery
+# 6. Google Google BigQuery
 
 You can do an sql query on your Google BigQuery and use it in Datama PREP.
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
@@ -158,13 +183,16 @@ When you have typed your query it is checked to see if it is valid or not.
 It is then displayed the amount of data it will use in Google BigQuery.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/GoogleBigQuery2.png"/></center>
+<div class="info-box">
+  <strong>Note</strong>:Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your bigquery dataset, within the hour, you will refresh your data using the button on the header.
+</div>
 
-⚠️ **Important information** :<i> Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your bigquery dataset, within the hour, you will refresh your data using the button on the header.</i>
+{% include embed_totw.html num=143 %}
 
 
 <br>
 
-> ## Mail
+# 7. Mail
 
 The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into Datama and have a scheduled analysis.
 
@@ -182,7 +210,7 @@ For ex. if your reports are always downloaded through Amazon's server, urls will
 
 <br>
 
-> ## Snowflake
+# 8. Snowflake
 
 When using the snowflake connector, you’ll need the following information to configure the Snowflake source :
 - Organization link which is the link https://XXX-XXX.snowflakecomputing.com
@@ -202,11 +230,14 @@ When connected, you can select a warehouse and a database in advanced settings i
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_snowflake_advanced_settings.png"/></center>
 
-⚠️ **Important information** :<i> Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your snowflake dataset, within the hour, you will refresh your data using the button on the header.</i>
+
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source blocks for one hour. So if you have made changes on your snowflake dataset, within the hour, you will refresh your data using the button on the header.
+</div>
 
 <br>
 
-> ## Google Trends
+# 9. Google Trends
 
 **Google Trend is most of the time a dataset that needs to be appended with another dataset.**
 
@@ -229,7 +260,7 @@ To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl
 
 <br>
 
-> ## Facebook
+# 10. Facebook
 
 **You can upload your Facebook Analytics datasets in Datama PREP.**
 
@@ -243,7 +274,7 @@ Since reporting is by default at the level of Adsets, it is not mandatory to sel
 
 If no field or breakdown is selected the chosen metrics will then be applied to the Adsets available for the selected AdAccount.
 
-> ## Piano Analytics
+# 11. Piano Analytics
 
 **You can import data from the data query explorer of Piano (ex AT-Internet) in Datama**
 
@@ -258,7 +289,12 @@ Lastly, define your dates for the report in Datama Prep (this will overwrite the
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/PianoDataResults.png"/></center>
 
-> ## Amazon Redshift
+<div class="info-box">
+  <strong>Note</strong>: It is now possible to define several date ranges in the same source block for Piano connectors. you can add a «Date range» column to facilitate comparison, without having to use a date dimension. Read more on <a href="https://datama-solutions.github.io/docs/tip_of_the_week.html#:~:text=Tip%20of%20the%20week%20141
+  ">this page</a>
+</div>
+
+# 12. Amazon Redshift
 
 When using the Amazon Redshift connector, you’ll need the following information to configure the source :
 - Host (ex. redshift-cluster-1.abc123xyz.us-west-2.redshift.amazonaws.com)

@@ -9,17 +9,10 @@ keywords: light compare concept
 
 > **Learn the key concepts behind Datama to better understand how the solution works**
 
-<br>
-
-This page covers:
-1. [What problems we solve](#1-what-problems-we-solve)
-2. [Required data types](#2-required-data-types)
-3. [Understanding Metric Relations](#3-metric-relations) 
-4. [How to interpret waterfall charts](#4-how-to-interpret-waterfall-charts-in-datama)
 
 <br/>
 
-## 1. What problems we solve
+# 1. What problems we solve
 
 The Compare extension helps you identify the exact causes behind performance variations.
 
@@ -31,7 +24,7 @@ Results are presented through an intuitive waterfall chart visualization.
 
 <br>
 
-## 2. Required data types
+# 2. Required data types
 
 The analysis requires two main types of business data:
 
@@ -49,11 +42,11 @@ Specifically, you'll need to configure four key elements:
 
 <br>
 
-## 3. Metric relations
+# 3. Metric relations
 
 A metric relation describes how different metrics in your data source combine to compute your target KPI.
 
-### Simple Example
+## Simple Example
 
 Consider a retail scenario where we want to understand Revenue. The main KPI is <span style="color:#00484A">Revenue</span>.
 
@@ -67,7 +60,7 @@ This breakdown helps separate effects managed by different teams (sales volume v
 
 <br/>
 
-### Advanced applications
+## Advanced applications
 
 Each PI becomes a "Step" in your waterfall chart. While there's no technical limit to the number of steps, we recommend keeping it under 10 for clarity.
 
@@ -81,11 +74,11 @@ Don't worry about complexity - Datama Compare lets you zoom into specific parts 
 
 <br>
 
-## 4. How to interpret waterfall charts in Datama
+# 4. How to interpret waterfall charts in Datama
 
 The waterfall chart is the core visualization tool in the extension.
 
-> Datama shows how each data variation affects your Key Performance Indicators (KPIs):
+Datama shows how each data variation affects your Key Performance Indicators (KPIs):
 
 Each step shows a performance ratio's variance and its contribution to overall change.
 
