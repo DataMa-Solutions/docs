@@ -50,6 +50,9 @@ Here's what it's going like to be in Datama Prep:
 but you can also access the export menu within each solution.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_exportToggle.png"/></center>
 
+## 2.1. Export connectors
+
+Export connectors let you choose the channel to receive your report and set the delivery frequency.
 
 Here are the available connectors to extract your analysis:
 - [Slack](#21-slack)
@@ -59,7 +62,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## 2.1. Slack
+### 2.1.1. Slack
 
 - connect your slack account
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
@@ -76,7 +79,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## 2.2. Teams
+### 2.1.2. Teams
 
 - connect your Teams account
 - Specify the frequency you want to receive your message (this setting is deactivated when the export is sync with a flow scheduler).
@@ -91,7 +94,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## 2.3. Email
+### 2.1.3. Email
 
 - To sync your export with the data's update, activate the <i>"Sync with flow scheduler"</i> (a Scheduler need to be set in the menu Data > Schedule)
 - Enter one or more email addresses by selecting "Enter" between each address,
@@ -106,7 +109,7 @@ Here are the available connectors to extract your analysis:
 
 <br>
 
-## 2.4. Static URL
+### 2.1.4. Static URL
 
 This extraction allows to create URL accessible to every user without login to Datama.
 
@@ -124,5 +127,13 @@ Activate <i>Public URL</i> to make the URL accessible to user without login to t
 Export part or full view of the solution : "alert message", "Waterfall" or "Detailed step view".
 
 Your graph wil be updated according to your data. As soon as you load the URL the graph will be updated with the freshest data.
+
+<br>
+
+## 2.2. Export frequency
+
+Datama lets you choose which days to receive your scheduled exports. For example, if you don’t want reports on weekends, simply untick Saturday and Sunday.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/schedule_days.gif"/></center>
 
 <br>
