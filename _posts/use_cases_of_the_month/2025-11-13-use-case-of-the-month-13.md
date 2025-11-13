@@ -4,7 +4,7 @@ title:  "💡 Use Case of the Month #13 - Margin tracking by country"
 date:   2025-11-13 10:00:00 +0200
 layout: post
 ucotm_url : https://datama.io/margin-tracking-by-country-in-looker-studio/
-img_url: /assets/images/ucotm/ucotm_carandache.png
+img_url: /assets/images/ucotm/UCOTM13.png
 img_width: 1280
 img_height: 720
 ---
