@@ -29,19 +29,27 @@ Datama Explore offers multiple visualization types to best represent your data a
 ### 1.1 Bar + Line
 Combines bar charts with line charts to show two different metrics simultaneously.
 
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/bar_lines.png" alt="explore - visualization types" /></center> 
+
 ### 1.2 Overlay
 Overlays multiple data series on the same chart for direct comparison.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/overlay.png" alt="explore - visualization types" /></center> 
 
 ### 1.3 Stacked Bars
 Same as Bar + Line but the bars are stacked one abover the others.
 
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/stacked.png" alt="explore - visualization types" /></center> 
+
 ### 1.4 Mekko
 A specialized chart type that shows both the size and composition of data segments.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/mekko.png" alt="explore - visualization types" /></center> 
 
 ### 1.5 Moves
 Displays data movements and transitions between different states or time periods.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/visualization_types.png" alt="explore - visualization types" /></center> <--GDB#TODO-->
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/moves.png" alt="explore - visualization types" /></center> 
 
 <br>
 
