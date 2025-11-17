@@ -69,7 +69,7 @@ An optional second dimension for additional breakdown. Its role also varies by v
 All dimensions added to the extension are available for selection in your analysis. Additionally, if you have activated a comparison in the settings, a "Comparison Dimension" becomes available, allowing you to analyze variations between your defined segments.
 
 #### 2.3.1 Dimension breakdown visualization
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/dimension_breakdown.png" alt="explore - dimension breakdown" /></center> <--GDB#TODO-->
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/dimension_breakdown.png" alt="explore - dimension breakdown" /></center>
 
 <br>
 
@@ -83,7 +83,7 @@ When you define a comparison (e.g., comparing two time periods or two segments),
 
 Once created, the comparison dimension can be used as either the primary or secondary dimension in your breakdown analysis.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.png" alt="explore - comparison dimension" /></center> <--GDB#TODO-->
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.png" alt="explore - comparison dimension" /></center>
 
 <br>
 ## 4. Metric Selection
@@ -106,6 +106,6 @@ You can select from:
 
 These change (variation) metrics are automatically included in your metric dropdowns if you have activated a comparison, enabling dynamic analysis of how your KPIs evolve across selected dimensions.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/metric_variations.png" alt="explore - metric variations" /></center> <--GDB#TODO-->
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/metric_variations.png" alt="explore - metric variations" /></center>
 
 <br>

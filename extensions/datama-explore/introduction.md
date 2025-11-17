@@ -11,7 +11,7 @@ keywords: Datama light explore breakdown dimensions metrics visualization intro 
 
 > **Datama Explore plugin allows to breakdown any pair of metrics on any pair of dimensions and easily switch between visualization types**
 
-<center><img style="width: 20%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/Power BI - Explore.png" alt="logo explore" /></center> <--GDB#TODO-->
+<center><img style="width: 10%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/logo - Explore.png" alt="logo explore" /></center>
 
 <br>
 
