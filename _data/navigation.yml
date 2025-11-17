@@ -568,33 +568,15 @@
         - name: Online acquisition
           link: /core_app/new/journey/use_cases_examples/online_acquisition.html
           type: h4
-
-- name: Appendix features #done
-  link: /core_app/new/Appendix_feature/Appendix_feature.html
-  type: separated
-
 - name: Prep #done
   link: /core_app/new/prep/prep.html
-  type: bold
+  type: separated
   subnav:
     - name: Dataset #done
       link: /core_app/new/prep/dataset.html
       type: h3
     - name: Prep interface #done
       link: /core_app/new/prep/prep_interface.html
-    - name: Explore
-      link: /extensions/datama-explore/introduction.html
-      type: h3
-      subnav:
-        - name: Concept
-          link: /extensions/datama-explore/concept.html
-          type: h4
-        - name: Interface
-          link: /extensions/datama-explore/structure.html
-          type: h4
-        - name : Settings
-          link: /extensions/datama-explore/settings.html
-          type: h4
       type: h3
       subnav:
         - name: Add Source #done
@@ -667,9 +649,144 @@
   link: /core_app/new/calendar/Calendar.html # done
   type: bold
 
-- name: Explore (soon)
-  link:  # to update
+- name: Explore
+  link: /extensions/datama-explore/datama-explore.html
   type: bold
+  subnav:
+    - name: Introduction
+      link: /extensions/datama-explore/introduction.html
+      type: h3
+      subnav:
+        - name: Concept
+          link: /extensions/datama-explore/concept.html
+          type: h4 
+    - name: Explore on WebApp
+      link: /core_app/new/interface/subheader/dimension_helper.html
+      type: h3
+      # subnav:
+      #   - name: Assess subheader
+      #     link: /core_app/new/assess/assess_header.html
+      #     type: h4
+      #     subnav:
+    - name: Explore extensions
+      link: /extensions/datama-explore/introduction.html
+      type: h3
+      subnav:
+        - name: Interface
+          link: /extensions/datama-explore/structure.html
+          type: h4
+        - name: Explore on Looker Studio
+          link: /extensions/how-to-use/looker-studio_explore.html
+          type: h4
+          subnav:
+            - name: Pricing Plan 
+              link: /extensions/how-to-use/pricing_plan_looker.html
+        - name: Explore on Tableau
+          link: /extensions/how-to-use/tableau-viz_explore.html
+          type: h4
+          subnav:
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_tableau.html
+
+        - name: Explore on Power BI
+          link: /extensions/how-to-use/power-bi_explore.html
+          type: h4
+          subnav:
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_pbi.html
+
+        - name: Explore on Qlik
+          link: /extensions/how-to-use/qlik_explore.html
+          type: h4
+          subnav:
+            - name: Pricing Plan
+              link: /extensions/how-to-use/pricing_plan_qlik.html
+
+        - name : Settings
+          link: /extensions/datama-explore/settings.html
+          type: h4
+# - name: Assess #done
+#   link: /core_app/new/assess/assess.html
+#   type: bold
+#   subnav:
+#     - name: Introduction #done
+#       link: /core_app/new/assess/assess_introduction.html
+#       type: h3
+#       subnav:
+#         - name: Concept
+#           link: /extensions/datama-assess/concept.html
+#           type: h4
+#         - name: Model #done
+#           link: /core_app/new/assess/model.html
+#           type: h4    
+#           subnav:
+#             - name: Frequentist #done
+#               link: /core_app/new/assess/model/frequentist.html
+#             - name: Bayesian #done
+#               link: /core_app/new/assess/model/bayesian.html
+#             - name: Bootstrap #done
+#               link: /core_app/new/assess/model/bootstrap.html
+#             - name: Volatility #done
+#               link: /core_app/new/assess/model/volatility.html
+#             - name: Forecast #done
+#               link: /core_app/new/assess/model/forecast.html
+#             - name: Causal impact #done
+#               link: /core_app/new/assess/model/causal.html
+#     - name: Assess on WebApp #done
+#       link: /core_app/new/assess/assess_interface.html
+#       type: h3
+#       subnav:
+#         - name: Assess subheader
+#           link: /core_app/new/assess/assess_header.html
+#           type: h4
+#           subnav:
+#             - name: Dimension Comparison  #done
+#               link: /core_app/new/interface/subheader/dimension_comparison.html
+#             - name: Dimension Helper  #done
+#               link: /core_app/new/interface/subheader/dimension_helper.html
+#             - name: Filters  #done
+#               link: /core_app/new/interface/subheader/filters.html
+#             - name: Metrics Relation
+#               link: /core_app/new/interface/subheader/metrics_relation.html
+#             - name: Settings #done
+#               link: /core_app/new/assess/settings.html
+#               subnav:
+#                 - name: Test To Compute
+#                   link: /core_app/new/assess/settings.html#11-test-to-compute
+#                 - name: Confidence Interval
+#                   link: /core_app/new/assess/settings.html#12-confidence-interval
+#                 - name: Frequentist Weight
+#                   link: /core_app/new/assess/settings.html#f13-requentist-weight
+#                 - name: Causal Impact
+#                   link: /core_app/new/assess/settings.html#14-causal-impact
+#                   subnav:
+#                     - name: Impacted Dimension
+#                       link: /core_app/new/assess/settings.html#141-impacted-dimension
+#                     - name: Impacted Segment
+#                       link: /core_app/new/assess/settings.html#142-impacted-segment
+#                 # - name: Impact Sizing
+#                 #   link: /core_app/new/assess/settings.html#impact-sizing
+#                 # - name: Test Side
+#                 #   link: /core_app/new/assess/settings.html#test-side
+#                 - name: Aggregation in %
+#                   link: /core_app/new/assess/settings.html#21-aggregation-in-
+#                 - name: Significance for each Segment
+#                   link: /core_app/new/assess/settings.html#22-significance-for-each-segment
+#                 - name: Cumulative Signifiance
+#                   link: /core_app/new/assess/settings.html#23-cumulative-significance
+#                 - name: Comparison
+#                   link: /core_app/new/assess/settings.html#31-comparison
+#                 - name: KPI
+#                   link: /core_app/new/assess/settings.html#32-kpi
+
+#     - name: Assess extensions
+#       link: /extensions/datama-assess/introduction.html
+#       type: h3
+#       subnav:
+#         - name: Interface
+#           link: /extensions/datama-assess/structure.html
+#           type: h4
+
 
 - name: Marketplace
   link: /extensions/index.html
