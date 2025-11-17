@@ -16,7 +16,7 @@ keywords: full app prep metrics relation metric mr
 
 <br>
 
-In order to have the most relevant analysis of your data, Datama allows you to manually define your market equation. 
+In order to have the most relevant analysis of your data, Datama allows you to manually define your market equation.
 
 To do so, click on the Datama block, define your metrics and dimensions, then define your market equation.
 
@@ -57,6 +57,28 @@ Datama goes further with Metric Relation by adding multiple properties to refine
 
 <br>
 
+
 # 3. Get inspired
 
 [Datama examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.
+
+
+# 4. AI-Generated Market Equation
+
+The AI-Generated Market Equation feature enables you to leverage the power of artificial intelligence to automatically suggest a market equation for your dataset clicking on the ✨ CTA in the Quick setup options.
+This functionality uses the names of your columns and any contextual information you choose to provide to generate relevant equation suggestions that may accelerate your data modeling and preparation process.
+
+How It Works:
+
+When you click on the ✨ CTA, first it will ask you if you agree with the IA term and condition (for the first time you use it). **Note that no actual data values are shared or processed—only column names and context are used to ensure full privacy of your dataset, just the names of columns will be shared.**
+When activated, a AI chat pop-up will appear and the AI will analyze:
+   * The column names of your dataset.
+   * Any additional context you enter (e.g., currency which is by default in '$', language, rename a step).
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/ai_generated_market_equation.png"/></center>
+
+It then suggests a possible market equation aligned with the provided information in a table.
+You can then iterate with comment to adjust the market equation, names or unit if needed.
+When you are satisfied with the result you can apply the equation by clicking on 'Use This Equation'.
+
+If needed, a 'Reset' CTA is available at the bottom-left, it will clear all the historic from the chat and restart a compute without any additional information.

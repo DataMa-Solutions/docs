@@ -8,6 +8,7 @@
 - name: Get Started
   link: /core_app/new/tutorial/first_use.html #OK
   type: bold
+
 - name: General #done
   link: /core_app/new/interface/general.html
   type: separated
@@ -567,6 +568,11 @@
         - name: Online acquisition
           link: /core_app/new/journey/use_cases_examples/online_acquisition.html
           type: h4
+
+- name: Appendix features #done
+  link: /core_app/new/Appendix_feature/Appendix_feature.html
+  type: separated
+
 - name: Prep #done
   link: /core_app/new/prep/prep.html
   type: bold
@@ -657,7 +663,13 @@
       #   - name: Statistics
       #     link: /core_app/new/interface/homepage/admin/admin.html#statistics
 
+- name: Calendar # done
+  link: /core_app/new/calendar/Calendar.html # done
+  type: bold
 
+- name: Explore (soon)
+  link:  # to update
+  type: bold
 
 - name: Marketplace
   link: /extensions/index.html
