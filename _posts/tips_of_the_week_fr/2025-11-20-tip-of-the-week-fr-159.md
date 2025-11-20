@@ -10,11 +10,7 @@ layout: post
 ---
 
 Si vous exportez régulièrement des données depuis GA4, vous avez sans doute déjà constaté que certains indicateurs peuvent être comptés en double lorsqu’ils sont ventilés par certaines dimensions.
-
 Par exemple, si vous sortez vos sessions par type de produit, chaque session qui voit plusieurs produits va être double comptée.
-
-Avec la fonction Prorate dans Datama Prep, ce problème disparaît💡.
-
-En activant "Prorate metrics totals" avant de charger vos données GA4, vous évitez toute duplication — que ce soit sur le total ou par dimension ✅.
-
+Avec la fonction Prorate dans Datama Prep, ce problème disparaît💡
+En activant "Prorate metrics totals" avant de charger vos données GA4, vous évitez toute duplication — que ce soit sur le total ou par dimension ✅
 Essayez-la et partagez-nous vos retours !
