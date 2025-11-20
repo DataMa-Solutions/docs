@@ -17,5 +17,4 @@ With the Prorate feature in Datama Prep, this issue disappears💡.
 
 By enabling “Prorate metrics totals” before loading your GA4 data, you can safely pull metrics without inflating totals — whether overall or by dimension ✅.
 
-Give it a try and let us know what you think! 
-
+Give it a try and let us know what you think!
