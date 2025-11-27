@@ -1,7 +1,7 @@
 ---
 feed: totw_fr
 title:  "Tip of the week 160: NOUVEAU l'IA génère votre équation de marché ✨"
-date:   2025-11-20 08:00:00 +0200
+date:   2025-11-27 08:00:00 +0200
 img_url: /assets/images/tip/160.gif
 img_type: image/gif
 img_width: 600
