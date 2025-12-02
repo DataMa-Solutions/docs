@@ -1,8 +1,8 @@
 ---
-title: How to use Datama Assess (Light) in Looker Studio
+title: How to use Datama Explore (Light) in Looker Studio
 layout: new-page
 scope: Datama/light
-keywords: Looker LookerStudio assess get started
+keywords: Looker LookerStudio explore get started
 ---
 
 <br/>
@@ -27,19 +27,38 @@ keywords: Looker LookerStudio assess get started
 
 
 # 1. Overview
-This document provides detailed documentation for the "Datama Explore" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
+This document provides detailed documentation for the "Datama Explore" plugin, a powerful data analysis extension for Looker Studio. This plugin details the breakdown of your KPIs and sub KPIs by any dimension in your dataset.
 
 Below is a short intro video
 <br/>
 
-<iframe width="560" height="315" src="https://www.https://www.youtube.com/watch?v=uM1a8XZrs-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/uM1a8XZrs-w"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 # 2. Features
 
-- **Significance calculation:** Assess the statistical significance of KPI variations with customizable level of confidence, using Welch T test method
-- **Multiple KPIs monitoring:** Based on your market equation, assess significance within unlimited number of KPIs
-- **Remaining sizing:** When not significant, Datama computes the missing volume to reach significance
-- **Smart comments:** Title and comments are automatically written, and you can define their structure 
+- **Dimension and second breakdown:** Datama Explore lets you break down every metric in your dataset across any available dimension. You can also drill down dimension-by-dimension: for instance, start by breaking down product sales by Country in D1. If you want to focus on the UK, you can then introduce a second breakdown dimension in D2—such as Channel, Device, or any other available dimension—to refine the analysis.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/seconddimensions.gif" /></center>
+
+- **Second metric:** Datama Explore also supports comparing two KPIs side by side. Simply add a second metric in M2. For example, you can define M1 = Sessions and M2 = ABV to visualize how the two metrics evolve across your chosen dimensions.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/secondmetric.gif" /></center>
+
+- **Comparison dimension:** When you set a comparison dimension—e.g., Device—and compare two segments such as Tablet vs. Mobile on the Sessions KPI, Datama Explore automatically builds a comparison dimension. This new dimension aggregates the metric values by the selected segments, including Mobile, Tablet, and any other device category.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Comparisondimension.gif" /></center>
+
+- **KPI change in Absolute value or Percentage:** For comparisons between segments or between time periods, Datama Explore allows you to show the variations either as absolute differences or as percent changes, depending on the format that best fits your analysis.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Absolute or percentage.png" /></center>
 
 <br/>
 
@@ -48,7 +67,7 @@ Below is a short intro video
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/CopyPath_lookerstudio.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/helper licence.png" /></center>
 
 
 And then, follow these steps to add Datama in your Looker Studio report : 
@@ -56,11 +75,11 @@ And then, follow these steps to add Datama in your Looker Studio report :
 1. Edit your report
 2. In the toolbar, click _Community visualizations and components Community visualization icon_
 3. Click on "_Explore more_"
-4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file" (by default you can copy paste this path: `gs://app.datama.io/looker-datama-light/assess` )
+4. Select the wanted Datama extension on the list OR choose "Create your own visualization" and put your visualization ID in "Path of manifest file" (by default you can copy paste this path: `gs://app.datama.io/looker-datama-light/helper` )
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_assess_extension.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/import_explore_light.gif" /></center>
 
 <br>
 
@@ -97,41 +116,41 @@ Once you've imported the extension, here is how you can use it.
 
 **2. KPIs definition**: Drag and drop the metrics you want to monitor in the appropriate field. Make sure that you add summable metrics: Datama will compute ratios based on the market equation that you define in the extension settings
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/assess_looker_dimension_add.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/dimension_metric.gif" /></center>
 
 <br/>
 
-**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for significance assessment and define which metric you want to analyse in the market equation pane
+**3. Custom settings**: Click the “Settings” icon in the top-left corner of Datama’s widget, or configure dimensions, metrics, and secondary breakdowns directly from the display menu located above the chart.
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/setting_panel_assess_looker.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/second_dimensions_metric.gif" /></center>
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
 Please note that no customized settings will be saved unless you complete this step.
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/JSON_assess_looker.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/JSONsave.gif" /></center>
 
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Leave_edit_mode_assess_looker.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/edit_mode.gif" /></center>
 
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
+To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html)
 
 <br/>
 
 # 7. Looker Studio Guide
 
-Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
+Following this [link](https://lookerstudio.google.com/u/0/reporting/95035caf-3078-418a-9633-47e25a8bf80f/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
 
 <br/>
 
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html) to get the full view of the extension Settings. 
 <br/>
 
 # 9. Support and Resources
