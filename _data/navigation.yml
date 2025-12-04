@@ -609,7 +609,7 @@
               link: /core_app/new/prep/interface/add_source.html#11-piano-analytics
             - name: Amazon Redshift
               link: /core_app/new/prep/interface/add_source.html#12-amazon-redshift
-            - name: AI Dataset Generayion
+            - name: AI Dataset Generation
               link: /core_app/new/prep/interface/add_source.html#13-ai-dataset-generation
 
         - name: Extensions #done
@@ -852,3 +852,4 @@
 - name: Terms of Service
   link: /core_app/new/admin/terms_of_service.html #OK
   type: bold
+
