@@ -26,3 +26,9 @@ Here are the currently existing extensions, and related documentation
 - [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_assess.html): Assess statistical significance of variations
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Assess_Power_BI.gif" align="center" width="650px" />
+
+- [Datama Explore]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerbi_explore.html): Granular KPI breakdown
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_PowerBI_Intro_Large.gif" align="center" width="650px" />
+
+<br>

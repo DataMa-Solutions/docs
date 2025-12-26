@@ -7,47 +7,35 @@ keywords: Tableau Viz Explore get started
 
 <br/>
 
-> Using Datama Detect as a Tableau Viz extension is a great way to make your report more insightful with the benefits of both.
+> Using Datama Explore as a Tableau Viz extension is a great way to make your report more insightful with the benefits of both.
 
 <br/>
 
-<!-- Here is what you get on this page:
-1. [Overview](#1-overview) 
-2. [Features](#2-features)
-3. [Installation](#3-add-the-extension-into-your-report)
-4. [Free trial Period](#4-get-a-free-trial-period)
-5. [How to use](#5-getting-started)
-6. [Read your analysis](#6-read-your-analysis)
-7. [Settings](#7-advanced-usage)
-8. [Support and Resources](#8-support-and-resources)
-
-<br/> -->
-
 
 # 1. Overview
-This document provides detailed documentation for the "Datama Detect" plugin, a powerful extension for Tableau Viz. This plugin enhances data analysis capabilities by detecting anomalies in KPI trends.
+This document provides detailed documentation for the "Datama Explore" plugin, a powerful extension for Tableau Viz. This plugin enhances data analysis capabilities by breaking down any KPI or sub KPI by any dimension in your dataset.
 
 Below is a short intro video
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F1upvKyZQxE?si=1_07ffSyA-aDcemg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EfRBt4urlEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br/>
 
 # 2. Features
 
-- **Identification of Anomalies:** Find anomalies based on historical volatility with customizable level of confidence.
-- **Multiple KPIs monitoring:** Based on your market equation, find anomalies within unlimited number of KPIs, and correlate with your North Star metric
-- **Customizable focus:** You can set the anomalies to be found only on latest point to get alerted only on most recent changes.
-- **KPI interest ranking:** KPIs with biggest anomalies are flagged first.
-- **Smart title:** Title is automatically written, and you can define the structure. 
+- **1. Dimension and second breakdown:** Datama Explore lets you break down every metric in your dataset across any available dimension. You can also drill down dimension-by-dimension: for instance, start by breaking down product sales by Country in D1. If you want to focus on the UK, you can then introduce a second breakdown dimension in D2—such as Channel, Device, or any other available dimension—to refine the analysis.
+<br>
 
+- **2. Second metric:** Datama Explore also supports comparing two KPIs side by side. Simply add a second metric in M2. For example, you can define M1 = Sessions and M2 = ABV to visualize how the two metrics evolve across your chosen dimensions.
 <br/>
 
-{% include embed_totw.html num=145 %}
+- **3. Comparison dimension:** When you set a comparison dimension—e.g., Device—and compare two segments such as Tablet vs. Mobile on the Sessions KPI, Datama Explore automatically builds a comparison dimension. This new dimension aggregates the metric values by the selected segments, including Mobile, Tablet, and any other device category.
 
-<br>
+- **4. KPI change in Absolute value or Percentage:** For comparisons between segments or between time periods, Datama Explore allows you to show the variations either as absolute differences or as percent changes, depending on the format that best fits your analysis. 
+
+<br/>
 
 
 # 3. Add the extension into your report
@@ -58,11 +46,11 @@ Follow these steps to add Datama in your report :
 
 1. On Tableau Desktop, create worksheet 
 2. In the “Marks” block, pull down the selector and choose “Add extension”
-3. Use the .trex file provided by Datama, or <a id="download-tableau-viz-light-extension-detect" href="#" target="_blank"> download it here</a>
+3. Use the .trex file provided by Datama, or <a id="download-tableau-viz-light-extension-explore" href="#" target="_blank"> download it here</a>
 4. Drag and drop columns into each proper mark type [See getting started to learn more](#5-getting-started)
-    * Detection "D" dimension (the dimension on which you want to detect anomalies, typically Date)
-    * Metrics "M" fields (the metrics that will be used to create your market equation for instance Quantity and Sales to create Sales = Qty x Avg Price)
-        * Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence
+    * Metrics that you want to break down and to create your market equation, for instance the sales revenue.
+    * Dimensions on which you want to split your KPI(Sales revenue), for example, country.
+    * Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence
 
 Please refer to the full documentation to learn more about [source structure]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
 
@@ -84,35 +72,46 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 5. Add the licence key to the the extension by clicking on the "Format extension" button in the Marks pannel
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
+See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_tableau_explore.html) our different plans.
 
 <br>
 
 # 5. Getting started
 
-Once you've imported the extension, here is how you can use it.
+Once you've imported the extension, you can select and drop dimensions and metrics you want into left setting panel as below:
 
-**1. Anomaly dimension**: Drag and drop the dimension on which you want to detect anomalies in the appropriate field. This would typically be a Date column
-<br>
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Tableau_Intro_Large.gif" /></center>
 
-**2. KPIs definition**: Drag and drop the metrics you want to monitor in the appropriate field. Make sure that you add summable metrics: Datama will compute ratios based on the market equation that you define in the extension settings
-<br/>
+You can also make full use of features by setting up as below Datama Explore:
 
-**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for anomaly detection and define which metric you want to analyse in the market equation pane
+- **Dimension and second breakdown:** Datama Explore lets you break down every metric in your dataset across any available dimension. You can also drill down dimension-by-dimension: for instance, start by breaking down product sales by Country in D1. If you want to focus on the UK, you can then introduce a second breakdown dimension in D2—such as Channel, Device, or any other available dimension—to refine the analysis.
 
-**4. Leave edit mode**: In the "Format extension" panel (under the marks on the left hand side) untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/seconddimensions.gif" /></center>
+
+- **Second metric:** Datama Explore also supports comparing two KPIs side by side. Simply add a second metric in M2. For example, you can define M1 = Sessions and M2 = ABV to visualize how the two metrics evolve across your chosen dimensions.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/secondmetric.gif" /></center>
+
+- **Comparison dimension:** When you set a comparison dimension—e.g., Device—and compare two segments such as Tablet vs. Mobile on the Sessions KPI, Datama Explore automatically builds a comparison dimension. This new dimension aggregates the metric values by the selected segments, including Mobile, Tablet, and any other device category.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Comparisondimension.gif" /></center>
+
+- **KPI change in Absolute value or Percentage:** For comparisons between segments or between time periods, Datama Explore allows you to show the variations either as absolute differences or as percent changes, depending on the format that best fits your analysis.
+
+<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Absolute or percentage.png" /></center>
+
 
 <br/>
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

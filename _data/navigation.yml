@@ -680,27 +680,27 @@
           type: h4
           subnav:
             - name: Pricing Plan 
-              link: /extensions/how-to-use/pricing_plan_looker.html
+              link: /extensions/how-to-use/pricing_plan_looker_explore.html
         - name: Explore on Tableau
           link: /extensions/how-to-use/tableau-viz_explore.html
           type: h4
           subnav:
             - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan_tableau.html
+              link: /extensions/how-to-use/pricing_plan_tableau_explore.html
 
         - name: Explore on Power BI
           link: /extensions/how-to-use/power-bi_explore.html
           type: h4
           subnav:
             - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan_pbi.html
+              link: /extensions/how-to-use/pricing_plan_powerbi_explore.html
 
         - name: Explore on Qlik
           link: /extensions/how-to-use/qlik_explore.html
           type: h4
           subnav:
             - name: Pricing Plan
-              link: /extensions/how-to-use/pricing_plan_qlik.html
+              link: /extensions/how-to-use/pricing_plan_qlik_explore.html
 
         - name : Settings
           link: /extensions/datama-explore/settings.html
