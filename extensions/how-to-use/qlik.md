@@ -32,3 +32,9 @@ Here are the currently existing extensions, and related documentation. Follow th
 - [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_assess.html): Assess statistical significance of variations
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Assess_Qlik.gif" align="center" width="650px" />
+
+- [Datama Explore]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_explore.html): Granular KPI breakdown
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Qlik_Intro_Large.gif" align="center" width="650px" />
+
+<br>

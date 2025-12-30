@@ -15,8 +15,6 @@ Unlock the full potential of your data analysis with Datama's flexible pricing o
 
 <br>
 
-<center><img style="width:50%" src="{{site.url}}/{{site.baseurl}}/extensions/assets/plan_datama.png" /></center>
-
 # 1. Free trial version
 
 Get started with our **Free** version, the default option that provides a perfect assessment of Datama's capabilities.

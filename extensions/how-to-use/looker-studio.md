@@ -29,4 +29,10 @@ Here are the currently existing extensions, and related documentation
 
 <br>
 
+- [Datama Explore]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_explore.html): Granular KPI breakdown
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Explore_LookerStudio_Intro_Large.gif" align="center" width="650px" />
+
+<br>
+
 {% include embed_totw.html num=151 %}

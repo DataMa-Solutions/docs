@@ -36,11 +36,11 @@ The header is used for global advanced settings to let you configure and refine 
 
 ## 2. Analysis section
 
-Datama propose 3 views for each test-type so as to visualize your data as you can see in the dropdown below
+Datama propose **2 types of test (AB Test and Time Series)** and **3 views (different based on test type) for each test-type** so as to visualize your data as you can see in the dropdown below.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_view_dropdown.png"/></center>
+<br>
 
-### 2.1 Views available for each tests
+### 2.1 Views available for AB test
 
 #### 2.1.1 Frequentist Bernoulli
 
@@ -48,29 +48,39 @@ Datama propose 3 views for each test-type so as to visualize your data as you ca
 - Comparison
 - Density of mean
 
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/abtest_frequentist.png"/></center>
+
 #### 2.1.2 Bayesian Bernoulli
 
 - Relative variation (For A/B tests)
 - Comparison
 - Outperforming chances
 
-#### 2.1.3 Volatility
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/abtest_bayesian.png"/></center>
+
+### 2.2 Views available for Time Series
+
+#### 2.2.1 Volatility
 
 - Time series (For Volatility)
 - Relative variation (For Volatility)
 - Comparison
 
-#### 3.3.4 Forecast
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/time_series_volatility.png"/></center>
+
+#### 2.2.2 Forecast
 
 - Time series (For Forecast)
 - Relative variation (For Forecast)
 - Comparison
 
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/time_series_forcast.png"/></center>
+
 <br>
 
-### 2.2 Views description
+### 2.3 Views description
 
-#### 2.2.1 Density of mean
+#### 2.3.1 Density of mean
 
 This slide represents the expected distributions of compared segments (typically AB test variants)
 
@@ -82,7 +92,7 @@ Change the ratio your are analysing by using the dropdown in the title. Within t
 
 Datama Assess is set to analyse each steps of your market equation. You can define the market equation in [settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings/settings.html)
 
-#### 2.2.2 Comparison
+#### 2.3.2 Comparison
 
 Breakdown by dimensions of your choice in the dropdown below, you can sometimes (Frequentist test) show the values of your KPI with confidence intervals. When a difference between start and end is significant the result is highlighted
 
@@ -95,31 +105,31 @@ Where 'significant' is basically 0 or 1, 'denom' is the denominator of the selec
 
 You can moreover choose to show denominator instead of confidence intervals with the button at the top right corner : <img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_show_denominator_button.png"/>
 
-#### 2.2.3 Relative variation (For A/B tests)
+#### 2.3.3 Relative variation (For A/B tests)
 
 Similar to Comparison, this view shows the relative variation sometimes (Frequentist test) with its confidence interval breakdown by dimensions of your choice.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_relative_variation_view.png"/></center>
 
-#### 2.2.4 Outperforming chances
+#### 2.3.4 Outperforming chances
 
 Available only for Bayesian test, this view shows percentages of chances that end kpi is greater than start kpi and vice-versa
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_outperforming_chances_view.png"/></center>
 
-#### 3.2.5 Time series (For Volatility test)
+#### 2.3.5 Time series (For Volatility test)
 
 Available only for Volatility test, this view shows the evolution of comparisons over time and pinpoint the selected one.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_volatility_time_series_view.png"/></center>
 
-#### 3.2.6 Time series (For Forecast)
+#### 2.3.6 Time series (For Forecast)
 
 Available only for Forecast test, this view shows the evolution of selected KPI with a forecast, presented with a confidence interval over the end period.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_forecast_time_series_view.png"/></center>
 
-#### 3.2.7 Relative Variation (For time series)
+#### 2.3.7 Relative Variation (For time series)
 
 Available only for Volatility test, this view shows same informations than Time series view and you can breakdown by a second dimension.
 
@@ -128,7 +138,7 @@ Available only for Volatility test, this view shows same informations than Time 
 Each bar represent former typical comparisons and the bigger bar is the selected one.
 
 
-#### 3.2.8 Relative Variation (For time series)
+#### 2.3.8 Relative Variation (For time series)
 
 Available only for Forecast testing, this view shows the confidence interval of forecasted data with the relative variation observed. You can also break down by a second dimension in this view.
 
