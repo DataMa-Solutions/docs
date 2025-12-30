@@ -312,3 +312,20 @@ With those information, you will need to fill your credentials in the Connector 
 When connected, you can enter your query and click Load to apply it.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AmazonRedshiftQuery.png"/></center>
+
+# 13. AI Dataset Generation
+
+The AI-Generated Dataset is now available as a standard source block in Datama Prep.
+With this feature, you can generate a synthetic dataset simply by providing a prompt — the system will return a complete dataset along with an associated market equation.
+This capability is particularly useful when you want to quickly prototype a use case, or prepare a demo for stakeholders (internal or external), without needing to supply real data upfront.
+
+Click on the ✨ block to open the chat window.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AI_dataset_generation_block.png"/></center>
+
+Explain what use case you want to build with a brief message or a screenshot.
+After a few seconds, you will receive a proposition of dataset and its corresponding market equation.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AI_dataset_generation_chat_window.png"/></center>
+
+If you are satisfied by the equation, clic on 'Generate CSV' and your use case will be ready to use.
