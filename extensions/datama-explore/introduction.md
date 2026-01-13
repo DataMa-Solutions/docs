@@ -22,13 +22,17 @@ Optionnaly, you can create comparison dimensions based on existing dimensions to
 <br>
 
 
-# 1. Quickly understand how Datama Explore can help you in your business analyses by following these links:
+# 1. Concept & Interface
+
+Quickly understand how Datama Explore can help you in your business analyses by following these links:
 - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/concept.html) Understand theory behind the breakdown and visualization concepts
 - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/structure.html): Deep dive into the interface
 
 <br>
 
-# 2. Embed Datama Explore in your reports quickly by following these links and videos:
+# 2. Embed explore in your report
+
+Embed Datama Explore in your reports quickly by following these links and videos:
 
 - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 <iframe width="560" height="315"

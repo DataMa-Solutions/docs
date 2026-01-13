@@ -677,6 +677,9 @@
         - name: Interface
           link: /extensions/datama-explore/structure.html
           type: h4
+        - name : Settings
+          link: /extensions/datama-explore/settings.html
+          type: h4
         - name: Explore on Looker Studio
           link: /extensions/how-to-use/looker-studio_explore.html
           type: h4
@@ -704,9 +707,6 @@
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_qlik.html
 
-        - name : Settings
-          link: /extensions/datama-explore/settings.html
-          type: h4
 # - name: Assess #done
 #   link: /core_app/new/assess/assess.html
 #   type: bold
