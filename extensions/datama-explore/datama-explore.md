@@ -1,7 +1,7 @@
 ---
 title: Datama Explore extension
 description: Datama Explore allows to breakdown any pair of metrics on any pair of dimensions with multiple visualization types.
-layout: new-page
+layout: page
 scope: Datama/light/explore
 keywords: Datama light explore breakdown dimensions metrics visualization intro introduction
 ---
