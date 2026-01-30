@@ -23,7 +23,7 @@ Here is the available connectors:
 And see also our [extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) (Tableau, Power BI, LookerStudio,...)
 
 
-# 1. Google Sheet
+# Google Sheet
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source.gif"/></center>
 
@@ -41,7 +41,7 @@ When those steps are completed, you just have to select the sheet you would like
 
 <br>
 
-# 2. Excel File
+# Excel File
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source_excel.gif"/></center>
 
@@ -53,7 +53,7 @@ If you want to analyze your excel file, it’s easy. Click on the Excel connecto
 
 <br>
 
-# 3. csv File
+# Csv File
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/add_source_csv.gif"/></center>
 
@@ -66,7 +66,7 @@ Click on load and continue building your flow with more blocks.
 
 <br>
 
-# 4. Calendar
+# Calendar
 
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_calendar1.png"/>
@@ -118,7 +118,7 @@ Select whether you want a relative date, or absolute. If you want to lock your t
 
 <br> -->
 
-# 5. Google Analytics 4
+# Google Analytics 4
 
 You can pull your GA4 data in Datama Prep, using the GA4 API.
 Click on the Analytics 4 connector in Datama prep, you might need to give authorization to your google analytics by clicking on <b>Connect</b> button.
@@ -172,7 +172,7 @@ The column total may not be the actual total if a row is counted multiple times.
 
 <br>
 
-# 6. Google Google BigQuery
+# Google Google BigQuery
 
 You can do an sql query on your Google BigQuery and use it in Datama PREP.
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
@@ -194,7 +194,7 @@ It is then displayed the amount of data it will use in Google BigQuery.
 
 <br>
 
-# 7. Mail
+# Mail
 
 The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into Datama and have a scheduled analysis.
 
@@ -212,7 +212,7 @@ For ex. if your reports are always downloaded through Amazon's server, urls will
 
 <br>
 
-# 8. Snowflake
+# Snowflake
 
 When using the snowflake connector, you’ll need the following information to configure the Snowflake source :
 - Organization link which is the link https://XXX-XXX.snowflakecomputing.com
@@ -239,7 +239,7 @@ When connected, you can select a warehouse and a database in advanced settings i
 
 <br>
 
-# 9. Google Trends
+# Google Trends
 
 **Google Trend is most of the time a dataset that needs to be appended with another dataset.**
 
@@ -262,7 +262,7 @@ To understand better the tool "Append", click [here]({{site.url}}/{{site.baseurl
 
 <br>
 
-# 10. Facebook
+# Facebook
 
 **You can upload your Facebook Analytics datasets in Datama PREP.**
 
@@ -276,7 +276,7 @@ Since reporting is by default at the level of Adsets, it is not mandatory to sel
 
 If no field or breakdown is selected the chosen metrics will then be applied to the Adsets available for the selected AdAccount.
 
-# 11. Piano Analytics
+# Piano Analytics
 
 **You can import data from the data query explorer of Piano (ex AT-Internet) in Datama**
 
@@ -296,7 +296,7 @@ Lastly, define your dates for the report in Datama Prep (this will overwrite the
   ">this page</a>
 </div>
 
-# 12. Amazon Redshift
+# Amazon Redshift
 
 When using the Amazon Redshift connector, you’ll need the following information to configure the source :
 - Host (ex. redshift-cluster-1.abc123xyz.us-west-2.redshift.amazonaws.com)
@@ -313,7 +313,7 @@ When connected, you can enter your query and click Load to apply it.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AmazonRedshiftQuery.png"/></center>
 
-# 13. AI Dataset Generation
+# AI Dataset Generation
 
 The AI-Generated Dataset is now available as a standard source block in Datama Prep.
 With this feature, you can generate a synthetic dataset simply by providing a prompt — the system will return a complete dataset along with an associated market equation.
@@ -329,3 +329,25 @@ After a few seconds, you will receive a proposition of dataset and its correspon
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/AI_dataset_generation_chat_window.png"/></center>
 
 If you are satisfied by the equation, clic on 'Generate CSV' and your use case will be ready to use.
+
+<br>
+
+# Metabase
+
+You can run a SQL query on your Metabase database and use the result in Datama Prep.
+
+When using the Metabase connector, you first need to connect your Metabase instance. Click on the Metabase block, then on <b>Connect</b> if no credentials are set. Enter your <b>Metabase Server URL</b> (e.g. https://your-instance.metabaseapp.com) and your <b>API Key</b>. You can generate an API key in Metabase from <b>Admin settings</b> > <b>Authentication</b> > <b>API Keys</b>. Once filled, hit <b>Connect</b>.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_metabase_datama_login.png"/></center>
+
+When connected, select a database from the dropdown and write your native SQL query in the editor. You can use the same syntax as in Metabase’s native query editor.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_metabase_datama_database.png"/></center>
+
+When your query is ready, click <b>Run & apply</b> to execute it and load the result into your flow. The sample will update with the data returned by Metabase.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_metabase_datama_execute_query.png"/></center>
+
+<div class="info-box">
+  <strong>Note</strong>: Note that for performance reasons, we cache every source block for one hour. So if you have made changes on your Metabase data or query, within the hour, you will need to click on the header refresh button again to have your changes reflected in the sample.
+</div>
