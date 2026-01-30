@@ -340,7 +340,8 @@ When using the Metabase connector, you first need to connect your Metabase insta
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_metabase_datama_login.png"/></center>
 
-When connected, select a database from the dropdown and write your native SQL query in the editor. You can use the same syntax as in Metabase’s native query editor.
+When connected, select a database from the dropdown and write your native SQL query in the editor. 
+Rather than writing a query from scratch, best practice is to copy paste the SQL query generated for your question directly in Metabase interface (Question > Edit Question > See SQL)
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_metabase_datama_database.png"/></center>
 
