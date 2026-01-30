@@ -584,33 +584,35 @@
           type: h4
           subnav:
             - name: Google Sheet
-              link: /core_app/new/prep/interface/add_source.html#1-google-sheet
+              link: /core_app/new/prep/interface/add_source.html#google-sheet
             - name: Excel File
-              link: /core_app/new/prep/interface/add_source.html#2-excel-file
+              link: /core_app/new/prep/interface/add_source.html#excel-file
             - name: csv File
-              link: /core_app/new/prep/interface/add_source.html#3-csv-file
+              link: /core_app/new/prep/interface/add_source.html#csv-file
             - name: Calendar
-              link: /core_app/new/prep/interface/add_source.html#4-calendar
+              link: /core_app/new/prep/interface/add_source.html#calendar
             # - name: Google Analytics 3
               # link: /core_app/new/prep/interface/add_source.html#google-analytics-3
             - name: Google Analytics 4
-              link: /core_app/new/prep/interface/add_source.html#5-google-analytics-4
+              link: /core_app/new/prep/interface/add_source.html#google-analytics-4
             - name: Google Google BigQuery
-              link: /core_app/new/prep/interface/add_source.html#6-google-google-bigquery
+              link: /core_app/new/prep/interface/add_source.html#google-google-bigquery
             - name: Mail
-              link: /core_app/new/prep/interface/add_source.html#7-mail
+              link: /core_app/new/prep/interface/add_source.html#mail
             - name: Snowflake
-              link: /core_app/new/prep/interface/add_source.html#8-snowflake
+              link: /core_app/new/prep/interface/add_source.html#snowflake
             - name: Google trends
-              link: /core_app/new/prep/interface/add_source.html#9-google-trends
+              link: /core_app/new/prep/interface/add_source.html#google-trends
             - name: Facebook
-              link: /core_app/new/prep/interface/add_source.html#10-facebook
+              link: /core_app/new/prep/interface/add_source.html#facebook
             - name: Piano Analytics
-              link: /core_app/new/prep/interface/add_source.html#11-piano-analytics
+              link: /core_app/new/prep/interface/add_source.html#piano-analytics
             - name: Amazon Redshift
-              link: /core_app/new/prep/interface/add_source.html#12-amazon-redshift
+              link: /core_app/new/prep/interface/add_source.html#amazon-redshift
             - name: AI Dataset Generation
-              link: /core_app/new/prep/interface/add_source.html#13-ai-dataset-generation
+              link: /core_app/new/prep/interface/add_source.html#ai-dataset-generation
+            - name: Metabase
+              link: /core_app/new/prep/interface/add_source.html#metabase
 
         - name: Extensions #done
           link: /core_app/new/integration/integrations.html
