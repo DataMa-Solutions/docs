@@ -13,7 +13,7 @@ Bonne nouvelle pour **tous les clients Datama** ! 👋
 
 Vous pouvez maintenant connecter **vos données Metabase directement to Datama**. 🚀
 
-* Connectez Metabase via API (voir [ici](https://www.metabase.com/docs/latest/people-and-groups/api-keys)pour générer la clé API dans Metabase)
+* Connectez Metabase via API (voir [ici](https://www.metabase.com/docs/latest/people-and-groups/api-keys) pour générer la clé API dans Metabase)
 * Sélectionnez le projet que vous souhaitez connecter
 * Copiez la requête SQL depuis Metabase et collez-la dans Datama Prep
 * Validez pour charger instantanément vos données dans Datama
