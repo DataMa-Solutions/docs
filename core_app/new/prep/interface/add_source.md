@@ -336,7 +336,7 @@ If you are satisfied by the equation, clic on 'Generate CSV' and your use case w
 
 You can run a SQL query on your Metabase database and use the result in Datama Prep.
 
-When using the Metabase connector, you first need to connect your Metabase instance. Click on the Metabase block, then on <b>Connect</b> if no credentials are set. Enter your <b>Metabase Server URL</b> (e.g. https://your-instance.metabaseapp.com) and your <b>API Key</b>. You can generate an API key in Metabase from <b>Admin settings</b> > <b>Authentication</b> > <b>API Keys</b>. Once filled, hit <b>Connect</b>.
+When using the Metabase connector, you first need to connect your Metabase instance. Click on the Metabase block, then on <b>Connect</b> if no credentials are set. Enter your <b>Metabase Server URL</b> (e.g. https://your-instance.metabaseapp.com) and your <b>API Key</b>. You can generate an API key in Metabase from <b>Admin settings</b> > <b>Authentication</b> > <b>API Keys</b>. Once filled, hit <b>Connect</b>(learn more [here](https://www.metabase.com/docs/latest/people-and-groups/api-keys)).
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_metabase_datama_login.png"/></center>
 
