@@ -2,8 +2,8 @@
 feed: totw_fr
 title:  "Tip of the week 167: Donnez du contexte à vos KPIs grâce à Datama Calendar."
 date:   2026-02-12 08:00:00 +0200
-img_url:
-img_type:
+img_url: /assets/images/tip/167.png
+img_type: image/gif
 img_width: 600
 img_height: 300
 layout: post
