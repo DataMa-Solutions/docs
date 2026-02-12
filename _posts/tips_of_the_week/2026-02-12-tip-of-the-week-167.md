@@ -13,4 +13,4 @@ When detecting anomalies and explaining variations, behind the data correlations
 
 With Datama Calendar, you can easily add business events (internal and external) to your dashboards and instantly visualize their impact on your KPIs. 📊
 
-Check out [our online demo](https://www.metabase.com/docs/latest/people-and-groups/api-keys) ▶️
+Check out [our online demo](https://www.youtube.com/watch?v=NIWow1nVNxc) ▶️
