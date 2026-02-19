@@ -2,7 +2,7 @@
 feed: totw_en
 title:  "Tip of the week 168: Secondary Comparison fonctionality"
 date:   2026-02-19 08:00:00 +0200
-img_url: /assets/images/tip/168.png
+img_url: /assets/images/tip/168.gif
 img_type: image/gif
 img_width: 600
 img_height: 300
