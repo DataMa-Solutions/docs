@@ -4,7 +4,7 @@ title:  "💡 Use Case of the Month #15 - Datama for CRM performance"
 date:   2026-03-05 10:00:00 +0200
 layout: post
 ucotm_url : https://datama.io/analyse-crm-chez-la-centrale-avec-datama-extension-dans-tableau/
-img_url: /assets/images/ucotm/UCOTM14.png
+img_url: /assets/images/ucotm/UCOTM15.png
 img_width: 1280
 img_height: 720
 ---
