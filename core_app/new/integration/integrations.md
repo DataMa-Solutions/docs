@@ -33,3 +33,4 @@ Learn more about light extensions :
 - [Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [Looker Studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 - [Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
+- [Google Sheets]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)

@@ -215,6 +215,10 @@
           - name: Pricing Plan
             link: /extensions/how-to-use/pricing_plan_qlik.html
 
+        - name: Compare on Google Sheets
+          link: /extensions/how-to-use/google-sheets_compare.html
+          type: h4
+
         - name: Settings
           link: /extensions/datama-compare/settings.html
           type: h4
@@ -583,8 +587,8 @@
           link: /core_app/new/prep/interface/add_source.html
           type: h4
           subnav:
-            - name: Google Sheet
-              link: /core_app/new/prep/interface/add_source.html#google-sheet
+            - name: Google Sheets
+              link: /core_app/new/prep/interface/add_source.html#google-sheets
             - name: Excel File
               link: /core_app/new/prep/interface/add_source.html#excel-file
             - name: csv File
@@ -844,6 +848,12 @@
           link: /extensions/how-to-use/qlik_assess.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_qlik.html
+    - name: Google Sheets
+      link: /extensions/how-to-use/google-sheets.html
+      type: h3
+      subnav:
+        - name: Compare on Google Sheets
+          link: /extensions/how-to-use/google-sheets_compare.html
 
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
