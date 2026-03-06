@@ -1,7 +1,7 @@
 ---
 feed: release_note
 title:  "2026-03-06 Event interest and improvements"
-date:   2026-02-06 12:00:00 +0200
+date:   2026-03-06 12:00:00 +0200
 layout: post
 description: 
 🚀 Fresh from the oven — March release!
