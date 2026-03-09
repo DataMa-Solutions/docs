@@ -15,7 +15,7 @@ keywords: full app on premise
 The straightest way of using Datama certainly is to use the solution in a [Web browser](https://app.datama.io/), hosted on our servers or on premise.
 
 
-However, you could also use Datama package as a brick within a data flow that performs the task on the defined inputs and renders a flat file or a HTML object that can be consumed by other applications, in particular visualisation software, such as [Tableau](https://www.tableau.com/), [Power BI](https://powerbi.microsoft.com) or [Looker Studio](https://lookerstudio.google.com). See more details in the [extension]({{site.url}}/{{site.baseurl}}/core_app/new/integrations.html) part 
+However, you could also use Datama package as a brick within a data flow that performs the task on the defined inputs and renders a flat file or a HTML object that can be consumed by other applications, in particular visualisation software, such as [Tableau](https://www.tableau.com/), [Power BI](https://powerbi.microsoft.com), [Looker Studio](https://lookerstudio.google.com) or [Google Sheets](https://workspace.google.com/products/sheets/). See more details in the [extension]({{site.url}}/{{site.baseurl}}/core_app/new/integrations.html) part 
 
 In that sense, Datama works well as a step of data science platforms like [Dataiku](https://www.dataiku.com/) or [Alteryx](https://www.alteryx.com/).
 

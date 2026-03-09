@@ -45,6 +45,7 @@ These extensions are available on major Business Intelligence platforms:
 - [Power BI](https://powerbi.com) - Datama Connector for Power BI
 - [Looker Studio](https://lookerstudio.google.com) - Datama Integration
 - [Qlik](https://qlik.com) - Datama Extension for Qlik
+- [Google Sheets](https://workspace.google.com/products/sheets/) - Datama Add-on For Google Sheets
 
 <br>
 
