@@ -18,8 +18,7 @@ Here are the currently existing extensions, and related documentation.
 
 - [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets_compare.html): Explain variations through dynamic waterfall and KPI tree
 
-<!-- Illustration suggestion: animated capture of a Google Sheet with Datama Compare open, showing a KPI variation analysis from spreadsheet data. -->
-
+<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Google_Sheet.gif" align="center" width="650px" />
 <br/>
 
 Google Sheets is a good fit when you want to:
