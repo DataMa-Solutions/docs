@@ -14,7 +14,7 @@ This section describes how to use calendar data when working with Datama through
 
 # 1.Dataset you need
 
-You’ll need a dataset that includes both **event information** and at least one **business KPI** to measure impact.
+You’ll need a dataset that includes both **event information**
 
 At minimum, your dataset should contain:
 
@@ -45,7 +45,7 @@ This way, every KPI record is linked to the corresponding event (if any) on that
 
 # 2.Process in Datama
 
-For now, Datama Calendar is available in the [Datama Compare extension]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html) and the [Datama Detect extension]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+For now, Datama Calendar is available in the [Datama Compare extension]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html), [Datama Detect extension]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html) and [Datama Explore extension]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html)
 
 You can connect your dataset either through the [Web version]({{site.url}}/{{site.baseurl}}/core_app/new/interface/interface.html#21-Web-Solution) or directly via the [extension version]({{site.url}}/{{site.baseurl}}/core_app/new/interface/interface.html#22-Data-Visualisation-Tools-Extensions).
 
@@ -54,7 +54,7 @@ If you’re using Datama Compare or Datama Detect as an extension in Power BI, L
 
 Then, follow the standard setup process:
 
- * Add the Datama Detect extension
+ * Add the extension
  * Configure your dimensions and metrics
  * Display the results (see the guide How to use Datama Detect extension [here]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html))
 

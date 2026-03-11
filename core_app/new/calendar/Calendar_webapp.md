@@ -12,7 +12,7 @@ keywords: Calendar on WebApp
 
 This section explains how to create and integrate a calendar within the Datama Web App. It covers the steps required to create or connect a calendar, associate it with a workbook, and use events to enrich analysis and AI insights.
 
-# 1.Dataset you need
+# 1.What is a calendar?
 
 You’ll need a dataset that includes both **event information** and at least one **business KPI** to measure impact.
 
@@ -21,6 +21,8 @@ At minimum, your dataset should contain:
 📅 **Event date** – when the event occurred
 
 🏷️ **Event name** – short label for easy identification
+
+Optionally 
 
 🧩 **Event type** – category (e.g., campaign, public holiday, internal launch)
 
@@ -34,12 +36,7 @@ You can enrich it with other dimensions (e.g., country, channel, product categor
 
 
 If you don’t already have an event dataset, you can easily create one by building a calendar table.
-
-Use Date as the primary key, then left join it to your existing KPI table.
-
-This way, every KPI record is linked to the corresponding event (if any) on that date — allowing you to visualize and analyze KPI variations alongside business or operational events.
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/dataset_leftjoin.png"/></center>
+If just needs a event date and an event name
 
 # 2.Process in Datama
 
@@ -99,7 +96,7 @@ This enables selective use of calendars depending on their relevance to a given 
 
 ## 2.3. Display in solution
 
-**Displaying Events in Helpers**
+**[All solutions] Displaying Events in Helpers**
 
 When a calendar is attached to a workbook, its events become accessible in Datama Helpers.
 Current Behavior
@@ -108,9 +105,15 @@ At this stage:
   * Only events that fall within the selected analysis period are shown.
 This brings important operational context directly into the user assistance interface.
 
-**AI-Enhanced Commentary with Event Context**
+**[Datama Compare] Display most interesting events in comments**
 
-Calendars also enhance AI-generated insights by enriching prompts with real event context.
+In Datama Compare, if you are comparing date periods, most interesting events will be diplayed at the bottom of your comment of the waterfall. 
+Event interest is based on overlap of events with Start and End Period 
+[Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/calendar/Calendar_interest.html)
+
+**[Datama Compare] AI-Enhanced Commentary with Event Context**
+
+Calendars also enhance [enhanced comment](http://localhost:4000//docs/core_app/new/integration/AI/Introduction.html) by enriching prompts with real event context.
 Automatic Context Injection
 When calendars are linked to a workbook:
   * Events occurring during analyzed periods are automatically injected into AI prompts as context.
