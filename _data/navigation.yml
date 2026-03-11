@@ -656,6 +656,16 @@
 - name: Calendar # done
   link: /core_app/new/calendar/Calendar.html # done
   type: bold
+  subnav:
+    - name: Calendar on WebApp
+      link: /core_app/new/calendar/Calendar_webapp.html
+      type: h3
+    - name: Calendar on extensions
+      link: /core_app/new/calendar/Calendar_extension.html
+      type: h3
+    - name: Calendar interest
+      link: /core_app/new/calendar/Calendar_interest.html
+      type: h3
 
 - name: Explore
   link: /extensions/datama-explore/datama-explore.html
@@ -864,4 +874,3 @@
 - name: Terms of Service
   link: /core_app/new/admin/terms_of_service.html #OK
   type: bold
-
