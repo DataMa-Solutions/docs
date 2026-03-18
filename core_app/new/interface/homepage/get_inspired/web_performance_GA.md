@@ -21,7 +21,7 @@ Access the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff
 
 # Go further with Datama Light and GA4 source
 
-You can also see the template [here](https://dataguillaume.gumroad.com/l/zkwemf) with all Datama extensions in Looker studio connected to Google Analaytics source.
+You can also see the template [here](https://dataguillaume.gumroad.com/l/zkwemf) with all Datama extensions in Looker studio connected to Google Analytics source.
 
 # Benchmarking analysis of GA4 source
 
