@@ -35,4 +35,9 @@ Here are the currently existing extensions, and related documentation
 
 <br>
 
+You can also see the demo [here](https://dataguillaume.gumroad.com/l/zkwemf) with all Datama extensions in Looker studio connected to Google Analaytics source.
+
+If you're using Google Ads as a data source in Looker Studio, you can use this [template](https://dataguillaume.gumroad.com/l/fevwkj) right away.
+
+
 {% include embed_totw.html num=151 %}
