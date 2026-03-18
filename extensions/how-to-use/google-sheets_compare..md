@@ -2,7 +2,7 @@
 title: How to use Datama Compare (Light) in Google Sheets
 layout: new-page
 scope: Datama/light
-keywords: Google Sheets compare get started
+keywords: Google Sheets cCompare Get Started
 ---
 
 <br/>
