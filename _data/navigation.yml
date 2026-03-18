@@ -820,6 +820,8 @@
           link: /extensions/how-to-use/looker-studio_detect.html
         - name: Assess on Looker Studio
           link: /extensions/how-to-use/looker-studio_assess.html
+        - name: Explore on Looker Studio
+          link: /extensions/how-to-use/looker-studio_explore.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_looker.html
     - name: Power BI
@@ -832,6 +834,8 @@
           link: /extensions/how-to-use/power-bi_detect.html
         - name: Assess on Power BI
           link: /extensions/how-to-use/power-bi_assess.html
+        - name: Explore on Power BI
+          link: /extensions/how-to-use/power-bi_explore.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_pbi.html
     - name: Tableau
@@ -844,6 +848,8 @@
           link: /extensions/how-to-use/tableau-viz_detect.html
         - name: Assess on Tableau
           link: /extensions/how-to-use/tableau-viz_assess.html
+        - name: Explore on Tableau
+          link: /extensions/how-to-use/tableau-viz_explore.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_tableau.html
     - name: Qlik
@@ -856,6 +862,8 @@
           link: /extensions/how-to-use/qlik_detect.html
         - name: Assess on Qlik
           link: /extensions/how-to-use/qlik_assess.html
+        - name: Explore on Qlik
+          link: /extensions/how-to-use/qlik_explore.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_qlik.html
     - name: Google Sheets

@@ -24,3 +24,5 @@ More precisely, you will be able to:
 <br>
 
  To learn more about sunburst models and how to maximize insights in Datama JOURNEY, get started with [this article](https://datama.io/getting-value-out-of-a-sunburst/) 
+
+If you are using Google Analytics as a data source, you can also visit this [page](https://dataguillaume.gumroad.com/l/wgdmi) to access a standard Customer Journey SQL template and start a two-week free trial of Datama Journey

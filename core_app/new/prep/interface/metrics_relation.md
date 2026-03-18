@@ -60,6 +60,8 @@ Datama goes further with Metric Relation by adding multiple properties to refine
 
 # 3. Get inspired
 
+Datama has developed a KPI tree generator that enables you to build your own customized market equation. Click [here](https://dataguillaume.gumroad.com/l/bdlabq) to start your free trial.
+
 [Datama examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.
 
 

@@ -145,6 +145,10 @@ To discover more about how to use Datama Assess, you can read our [dedicated sec
 
 Following this [link](https://lookerstudio.google.com/u/0/reporting/95035caf-3078-418a-9633-47e25a8bf80f/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
 
+You can also see the demo [here](https://dataguillaume.gumroad.com/l/zkwemf) with Datama Compare and other available extensions in Looker studio connected to Google Analaytics source.
+
+If you're using Google Ads as a data source in Looker Studio, you can use this [template](https://dataguillaume.gumroad.com/l/fevwkj) right away.
+
 <br/>
 
 

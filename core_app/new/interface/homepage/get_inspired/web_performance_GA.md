@@ -17,3 +17,12 @@ Access the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff
 # In Datama Compare
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_WebAnalyticsGA.png "/></center>
+
+
+# Go further with Datama Light and GA4 source
+
+You can also see the template [here](https://dataguillaume.gumroad.com/l/zkwemf) with all Datama extensions in Looker studio connected to Google Analaytics source.
+
+# Benchmarking analysis of GA4 source
+
+Bonus! For those using the GA4 platform, Datama allows you to download a sample of benchmarking KPIs available on the homepage across all sectors. This enables you to unlock powerful peer analysis. Click [here](https://dataguillaume.gumroad.com/l/ogyxux) to learn more.

@@ -172,7 +172,11 @@ The column total may not be the actual total if a row is counted multiple times.
 
 <br>
 
-# Google Google BigQuery
+If you're using the Google Analytics source connector and would like to use Datama extensions in Looker Studio, [here](https://dataguillaume.gumroad.com/l/zkwemf) is a demo for your reference.
+
+Bonus! For those using the GA4 platform, Datama allows you to download a sample of benchmarking KPIs available on the homepage across all sectors. This enables you to unlock powerful peer analysis. Click [here](https://dataguillaume.gumroad.com/l/ogyxux) to learn more.
+
+# Google BigQuery
 
 You can do an sql query on your Google BigQuery and use it in Datama PREP.
 When opening the BigQuery block you can see which Google account is connected and you can disconnect it if you want to use another one.
@@ -190,7 +194,6 @@ It is then displayed the amount of data it will use in Google BigQuery.
 </div>
 
 {% include embed_totw.html num=143 %}
-
 
 <br>
 

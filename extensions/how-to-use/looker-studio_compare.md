@@ -138,6 +138,8 @@ To discover more about how to read a Waterfall, you can read our [dedicated sect
 
 Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b19-4ead-9a28-2f03f3a06835/page/p_febrf8vygd) you can access live demo of the extension on a real Looker Studio. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
 
+[Here](https://dataguillaume.gumroad.com/l/zkwemf) is a free looker studio template with Google analytics source you can get for an overview of Datama extensions.
+
 <br/>
 
 
@@ -151,6 +153,9 @@ Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/setti
 
 Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
+You can also see the demo [here](https://dataguillaume.gumroad.com/l/zkwemf) with Datama Compare and other available extensions in Looker studio connected to Google Analaytics source.
+
+If you're using Google Ads as a data source in Looker Studio, you can use this [template](https://dataguillaume.gumroad.com/l/fevwkj) right away.
 <br/>
 
 # 10. Support and Resources
