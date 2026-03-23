@@ -17,7 +17,7 @@ Please check all live examples on <a href="https://app.datama.io/" target="_blan
 
 <br>
 
-All the data used in the different use cases are available in public Google sheets:
+All the data used in the different use cases are available in public Google Sheets™:
 * Datama Compare & Pivot & Assess & Detect [sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)
 * Datama Assess specific [sources](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SAikIJX_2dhBgDCjkdX_oUgB4/edit#gid=0)
 * Datama Journey specific [sources](https://docs.google.com/spreadsheets/d/1Z2JovUx_q7uLR2iy_fukiJWpIrA1o5wfvfnaHQUgBE4/edit#gid=0)

@@ -11,7 +11,7 @@ layout: post
 
 Calendars are coming to Datama and will become a key tool for better understanding your performance by integrating events 🎇🎆
 
-You can now create or connect calendars from different sources (Google Sheets, Google Calendar, BigQuery, Excel, etc.) and synchronize them automatically.
+You can now create or connect calendars from different sources (Google Sheets™, Google Calendar, BigQuery, Excel, etc.) and synchronize them automatically.
 
 By connecting them to your workbooks, you can find your events in:
  * the Helpers 📊

@@ -1,18 +1,18 @@
 ---
-title: How to use Datama Compare (Light) in Google Sheets
+title: How to use Datama Compare (Light) in Google Sheets™
 layout: new-page
 scope: Datama/light
-keywords: Google Sheets cCompare Get Started
+keywords: Google Sheets™ cCompare Get Started
 ---
 
 <br/>
 
-> Using Datama Compare as a Google Sheets extension is a great way to make your spreadsheet more insightful with the benefits of both Datama and Google Sheets.
+> Using Datama Compare as a Google Sheets™ extension is a great way to make your spreadsheet more insightful with the benefits of both Datama and Google Sheets™.
 
 
 
 # 1. Overview
-Add Datama Compare to your Google Sheets to analyze KPI variations where your data already lives. No exports, no switching tools—waterfall analysis runs directly in your spreadsheets.
+Add Datama Compare to your Google Sheets™ to analyze KPI variations where your data already lives. No exports, no switching tools—waterfall analysis runs directly in your spreadsheets.
 
 The video below walks you through the basics.
 <br/>
