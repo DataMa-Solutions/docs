@@ -9,7 +9,7 @@ img_height: 300
 layout: post
 ---
 
-Vous utilisez Google Sheets ou Excel comme source de données dans Datama ?
+Vous utilisez Google Sheets™ ou Excel comme source de données dans Datama ?
 Vous pouvez créer un nouveau workbook avec un simple Ctrl+C / Ctrl + V :
 
 * 📋Copiez-collez vos une plage de cellules Excel ou Gsheet directement dans un workbook Datama puis "Continue"

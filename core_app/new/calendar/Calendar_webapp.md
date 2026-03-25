@@ -62,7 +62,7 @@ First with "Create Manual Calendar", this option allow you to add some events di
 Else if you already have a calendar in another source, you can use the second option "Connect Calendar"
 
 Calendars can be connected from any source already supported by Datama Prep import connectors, including:
-  * Google Sheets (GSheet)
+  * Google Sheets™ (GSheet)
   * Google Calendar
   * BigQuery
   * Excel

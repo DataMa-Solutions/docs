@@ -14,7 +14,7 @@ By placing an order or by clicking to accept this Agreement or using or accessin
 
 
 
-The Licensee and Licensor are hereinafter referred to together as the  » Parties  » or individually as a  » Party « .
+The Licensee and Licensor are hereinafter referred to together as the « Parties » or individually as a « Party » .
 
 
 
@@ -34,11 +34,11 @@ The Licensor’s activities include the development, programming and marketing o
 
 
 
-The software Datama (hereinafter  » the Software « ) is a computer program whose function is to analyse the data transmitted by a user to derive information in the form of graphical visualizations or tables. It is described in the appendix to this document (Appendix 1 – Software Features).
+The software Datama (hereinafter « the Software » ) is a computer program whose function is to analyse the data transmitted by a user to derive information in the form of graphical visualizations or tables. It is described in the appendix to this document (Appendix 1 – Software Features).
 
 
 
-The Licensor has developed the Software using, in particular, a number of computer packages called  » R Packages  » that are freely available (hereinafter referred to as  » open source « ), which have been developed by several authors. The detail of each of these R packages can be provided under request. The Licensor has developed the Software by putting into practice all its expertise to obtain the desired functionalities.
+The Licensor has developed the Software using, in particular, a number of computer packages called  » R Packages  » that are freely available (hereinafter referred to as « open source » ), which have been developed by several authors. The detail of each of these R packages can be provided under request. The Licensor has developed the Software by putting into practice all its expertise to obtain the desired functionalities.
 
 
 
@@ -50,7 +50,7 @@ As the author, designer and owner, the Licensor hereby declares that it has the 
 
 
 
-It is in this context that the Licensor and Licensee have come together to formalize the grant of a right of use to the Software in the terms of this Agreement (hereinafter the  » Agreement « ).
+It is in this context that the Licensor and Licensee have come together to formalize the grant of a right of use to the Software in the terms of this Agreement (hereinafter the « Agreement » ).
 
 
 
@@ -288,7 +288,7 @@ If this is the case, the Licensor is bound by an absolute confidentiality obliga
 
 ### Article 14.1 Processing of personal data implemented by the Licensor
 
-As part of the execution of this Contract, the Licensor is required to collect and process personal data (as this term is defined in article 4.1 of European regulation n° 2016/679) concerning employees and / or managers of the Licensee, in order to allow him to manage the contractual relationship (hereinafter the « Personal Data« ). In this context, the Licensor is required to set up a processing of Personal Data, in compliance with the applicable regulations, the purposes of which are customer management (including management of the contract, orders, delivery, invoices, accounting, monitoring of the contractual relationship), and more generally the management of operations allowing him to communicate with the Licensee.
+As part of the execution of this Contract, the Licensor is required to collect and process personal data (as this term is defined in article 4.1 of European regulation n° 2016/679) concerning employees and / or managers of the Licensee, in order to allow him to manage the contractual relationship (hereinafter the « Personal Data » ). In this context, the Licensor is required to set up a processing of Personal Data, in compliance with the applicable regulations, the purposes of which are customer management (including management of the contract, orders, delivery, invoices, accounting, monitoring of the contractual relationship), and more generally the management of operations allowing him to communicate with the Licensee.
 
 The processing implemented in this context is based on the legitimate interest of the Licensor, insofar as this processing is necessary for the proper performance of the contractual relationship and for compliance with its legal obligations. Personal Data and the entire file associated with the Licensee will be kept for the duration of the contractual relationship and for the applicable limitation period.
 
@@ -298,7 +298,7 @@ In accordance with the applicable regulations, the Licensee and/ or the employee
 
 ### Article 14.2 Processing of personal data implemented by the Licensee
 
-As part of the execution of this Contract, the Licensee is required to collect and process personal data (as this term is defined in article 4.1 of European regulation n ° 2016/679) concerning the Licensor, the employees and/ or managers of the Licensor in order to allow it to manage the contractual relationship (hereinafter the « Personal Data« ). In this context, the Licensee is required to set up a processing of Personal Data, in compliance with the applicable regulations, the purposes of which are customer management (including contract management, orders, delivery, invoices, accounting, monitoring of the contractual relationship), and more generally the management of operations allowing him to communicate with the Licensor.
+As part of the execution of this Contract, the Licensee is required to collect and process personal data (as this term is defined in article 4.1 of European regulation n ° 2016/679) concerning the Licensor, the employees and/ or managers of the Licensor in order to allow it to manage the contractual relationship (hereinafter the « Personal Data » ). In this context, the Licensee is required to set up a processing of Personal Data, in compliance with the applicable regulations, the purposes of which are customer management (including contract management, orders, delivery, invoices, accounting, monitoring of the contractual relationship), and more generally the management of operations allowing him to communicate with the Licensor.
 
 The processing implemented in this context is based on the legitimate interest of the Licensee, insofar as this processing is necessary for the proper performance of the contractual relationship and compliance with its legal obligations. Personal Data as well as the entire file associated with the Licensor will be kept for the duration of the contractual relationship and for the applicable limitation period.
 
@@ -340,7 +340,7 @@ However, upon the cessation of the cause of the suspension of their reciprocal o
 
 During this suspension, the Parties agree that the costs generated by the situation will be borne solely by the party prevented.
 
-If the impediment were final or continued beyond three months, the present contract would be terminated purely and simply in the manner defined in the article entitled  » TERMINATION FOR FORCE MAJEURE « .
+If the impediment were final or continued beyond three months, the present contract would be terminated purely and simply in the manner defined in the article entitled « TERMINATION FOR FORCE MAJEURE » .
 
 
 

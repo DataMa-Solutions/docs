@@ -46,7 +46,7 @@ Embed Datama Compare in your reports quickly by following these links:
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
-- [In Google Sheets]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
+- [In Google Sheets™]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
 
 <br>
 
