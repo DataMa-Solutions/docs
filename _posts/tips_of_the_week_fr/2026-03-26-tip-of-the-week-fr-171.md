@@ -12,5 +12,7 @@ layout: post
 Sur certaines étapes de votre équation de marché, vous souhaitez:
   * regarder en priorité la décomposition de cette étapes sur une dimension particulière 🔍
   * ou exclure une dimension qui ne fait pas sens sur une étape donnée 🔻
+
 Vous pouvez le faire dans le menu de l'équation marché en ajoutant la dimension en question dans la colonne correspondante "Focused Dimension" ou "Excluded Dimension" 🤓
+
 NB: pour le KPI principal cette priorisation ou exclusion a un impact dans le mode "Dimension then step" 😉
