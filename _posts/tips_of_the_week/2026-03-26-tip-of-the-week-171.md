@@ -12,5 +12,7 @@ layout: post
 At certain steps of your market equation, you may want to:
   * focus primarily on breaking down that step by a specific dimension 🔍
   * or exclude a dimension that isn't relevant to a given step 🔻
+
 You can do this in the market equation menu by adding the dimension in question to the corresponding “Focused Dimension” or “Excluded Dimension” column 🤓
+
 Note: For the main KPI, this prioritization or exclusion has an impact in “Dimension then step” mode 😉
