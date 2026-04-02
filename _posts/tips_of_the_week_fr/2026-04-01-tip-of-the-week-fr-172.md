@@ -20,12 +20,12 @@ Vous pouvez désormais utiliser **Datama Compare directement dans Google Sheets*
 * Définissez vos paramètres et votre clé de licence, puis cliquez sur « Voir le graphique »
 * Enregistrez votre cas d'utilisation avec un nom afin que d'autres puissent l'utiliser
 
-Les principaux avantages de l'utilisation de Datama dans Google Sheet sont les suivants :
+➡️ Les principaux avantages de l'utilisation de Datama dans Google Sheet sont les suivants :
 * **Fluidité et libre-service**: toute personne ayant accès à Google Sheet peut expliquer les variations sans quitter la feuille de calcul
 * **Modélisation**: explorez l'impact de scénarios en temps réel en modifiant les données et observez immédiatement l'impact sur l'analyse en mode « Excel »
 * **Sécurité**: aucune donnée n'est partagée en dehors de Google Sheet
 * **Démocratisation**: si l'outil est installé dans Google Workspace au niveau de l'organisation, tout le monde aura directement accès à Datama
 
-Cliquez ici pour [en savoir plus](https://datama-solutions.github.io//docs/extensions/how-to-use/google-sheets.html)
+🖱️Cliquez ici pour [en savoir plus](https://datama-solutions.github.io//docs/extensions/how-to-use/google-sheets.html)
 
 PS : Pour les utilisateurs de Microsoft Excel, petit teaser : cette fonctionnalité pourrait bientôt arriver chez vous aussi 😘 #Teaser

@@ -20,12 +20,12 @@ You can now use **Datama Compare directly in Google Sheet** 🎉
 * Define your settings & licence key and click on "See Chart"
 * Save your use case with a name so that others can use it
 
-Main advantages of using Datama in Gsheet are :
+➡️ Main advantages of using Datama in Gsheet are :
 * **Seamless & Self Service**: Anyone with access to the Google Sheet can explain variations without leaving the spreadsheet
 * **Modelisation**: Exploring live scenarios impact by changing the data and see the impact on analysis immediately in "Excel" mode
 * **Security**: No data shared outside of Google Sheet
 * **Democratization**: If installed in Google Workspace at the organization level, anyone will have access to Datama directly
 
-Click here to [learn more](https://datama-solutions.github.io//docs/extensions/how-to-use/google-sheets.html) 
+🖱️Click here to [learn more](https://datama-solutions.github.io//docs/extensions/how-to-use/google-sheets.html)
 
 PS: For Microsoft Excel users, quick teaser, this might come also soon on your side 😘 #Teaser
