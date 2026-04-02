@@ -18,7 +18,7 @@ Vous pouvez désormais utiliser **Datama Compare directement dans Google Sheets*
 * Sélectionnez une plage de cellules de données sur laquelle vous souhaitez analyser les variations
 * Cliquez sur Extensions > Datama Compare
 * Définissez vos paramètres et votre clé de licence, puis cliquez sur « Voir le graphique »
-* Enregistrez votre cas d'utilisation avec un nom afin que d'autres puissent l'utili
+* Enregistrez votre cas d'utilisation avec un nom afin que d'autres puissent l'utiliser
 
 Les principaux avantages de l'utilisation de Datama dans Google Sheet sont les suivants :
 * **Fluidité et libre-service**: toute personne ayant accès à Google Sheet peut expliquer les variations sans quitter la feuille de calcul
