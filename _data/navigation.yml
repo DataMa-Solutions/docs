@@ -657,6 +657,9 @@
   link: /core_app/new/calendar/Calendar.html # done
   type: bold
   subnav:
+    - name: Calendar setup
+      link: /core_app/new/calendar/Calendar_setup.html
+      type: h3
     - name: Calendar on WebApp
       link: /core_app/new/calendar/Calendar_webapp.html
       type: h3
