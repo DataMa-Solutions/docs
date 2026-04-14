@@ -219,6 +219,10 @@
           link: /extensions/how-to-use/google-sheets_compare.html
           type: h4
 
+        - name: Compare on Excel
+          link: /extensions/how-to-use/excel_compare.html
+          type: h4
+
         - name: Settings
           link: /extensions/datama-compare/settings.html
           type: h4
@@ -872,7 +876,12 @@
       subnav:
         - name: Compare on Google Sheets™
           link: /extensions/how-to-use/google-sheets_compare.html
-
+    - name: Excel
+      link: /extensions/how-to-use/excel.html
+      type: h3
+      subnav:
+        - name: Compare on Excel
+          link: /extensions/how-to-use/excel_compare.html
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
 ##  type: separated

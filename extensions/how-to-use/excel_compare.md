@@ -1,23 +1,23 @@
 ---
-title: How to use Datama Compare (Light) in Google Sheets™
+title: How to use Datama Compare (Light) in Excel
 layout: new-page
 scope: Datama/light
-keywords: Google Sheets™ cCompare Get Started
+keywords: Excel cCompare Get Started
 ---
 
 <br/>
 
-> Using Datama Compare as a Google Sheets™ extension is a great way to make your spreadsheet more insightful with the benefits of both Datama and Google Sheets™.
+> Using Datama Compare as a Excel extension is a great way to make your spreadsheet more insightful with the benefits of both Datama and Excel.
 
 
 
 # 1. Overview
-Add Datama Compare to your Google Sheets™ to analyze KPI variations where your data already lives. No exports, no switching tools—waterfall analysis runs directly in your spreadsheets.
+Add Datama Compare to your Excel to analyze KPI variations where your data already lives. No exports, no switching tools—waterfall analysis runs directly in your spreadsheets.
 
 The video below walks you through the basics.
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vcvbk2rSG9Y?si=0lTlHphNybdqwb-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-CCl9f2iAOM?si=GTp_t-Z5PPL9eJGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <br/>
@@ -40,11 +40,11 @@ The video below walks you through the basics.
 
 # 3. Add the extension into your Spreadsheet
 
-Datama Compare is an official extension of Google Sheet.
-From Google Sheet, click on "Extensions" > "Add ons" > "Get Add Ons" and search of "Datama Compare".
-If your Google Workspace & suite is managed at the organization level, you might need to involve the manager of the workspace to be able to install the extension properly.
+Datama Compare is an official extension of Excel.
+From Excel, click on "Home" > "Add-ins" > Search of "Datama Compare".
+If your Microsoft account and 365 subscription is managed at the organization level, you might need to involve the manager of the workspace to be able to install the extension properly.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Gsheet_add_extension_Compare.png" alt="Click on the extension menu"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Excel_add_extension_Compare.png" alt="Add Datama Compare from Excel Add-ins"/></center>
 
 <!-- {% include embed_totw.html num=151 %} -->
 
@@ -52,7 +52,7 @@ If your Google Workspace & suite is managed at the organization level, you might
 
 # 4. Get a free trial period
 
-Datama extension in Google allows you to benefit from all features.
+Datama extension in Excel allows you to benefit from all features.
 
 On top of this, the paid version allows you to 
 - Remove Datama Branding (Background logo and free pop in)
@@ -66,7 +66,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 5. Add the licence key to the extension by clicking on on the "Editor Settings" tab and Paste your licence key
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Gsheet_licence_key.png" alt="Paste your licence key here"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Excel_licence_key.png" alt="Paste your licence key in Datama Editor Settings"/></center>
 
 <div class="info-box"> For Corporate clients, just get your licence key for no additional fee on the <a href="https://app.datama.io/a/dashboard/my-products" target="_blank">Extension Page</a>
 </div>
@@ -89,7 +89,7 @@ Once you've added the extension, here is how you can use it.
 4.  **Explanation dimensions**: Include Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 
-**3. Launch the extension**: Click on the extension pane, select "Datama Compare" and on the right side panel, make sure the proper range of data prepared is selected. Dimensions and Metrics should be automatically identified by Datama, but you can adjust this if required. Then hit the "See Chart" Button
+**3. Launch the extension**: Click on the extension pane, select "Datama Compare" and on the right side panel, make sure the proper range of data prepared is selected. Dimensions and Metrics should be automatically identified by Datama, but you can adjust this if required. <s>Then hit the "See Chart" Button</s>
 
 **4. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane. [Learn more about settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 
@@ -111,9 +111,10 @@ To discover more about how to read a Waterfall, you can read our [dedicated sect
 
 <br/>
 
-# 7. Sample datasets
+# 7. Sample datasets {#excel-compare-sample-datasets}
 
-Following this [link](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit?gid=1408263987#gid=1408263987) to access live demo of the extension in Google Sheet. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
+Use a Microsoft Excel workbook with the Datama Compare add-in and try the extension on your own data or the sample dataset [here](https://docs.google.com/spreadsheets/d/
+1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit?gid=1408263987#gid=1408263987) (Download as Excel). The free trial version includes limited access to some advanced features. 
 
 <br/>
 
@@ -132,7 +133,9 @@ Explore related documentation to understand how to generate insights in [Datama 
 
 # 10. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
+
 - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
 - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
+- 🔒 **Privacy Policy**: Review the [Datama Compare for Excel Add-in Privacy Policy]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/Excel/privacy-policy.html)
 
 <br/>
