@@ -27,12 +27,12 @@ Excel is a good fit when you want to:
 - prototype an analysis quickly before moving to a BI environment
 - share a lightweight Datama workflow with business users already working in Sheets
 
-<!-- Illustration suggestion: simple 3-card visual showing the main Excel use cases: spreadsheet-native analysis, quick prototyping, and business sharing. -->
 
 <br/>
 
-To go further, open the Excel Compare documentation to learn how to prepare your dataset, configure the add-on, and read the analysis.
+To go further, open the Excel solution documentation to learn how to prepare your dataset, configure the add-on, and read the analysis.
 
-<!-- Illustration suggestion: setup screenshot highlighting the main inputs expected by Datama Compare in Excel: KPI, comparison dimension, steps, and explanation dimensions. -->
 
 <br/>
+
+Note: Learn how Datama for Excel handles personal information and security in [Privacy Policy (Excel Add-in)]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/Excel/privacy-policy.html)
