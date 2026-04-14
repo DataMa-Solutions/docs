@@ -17,7 +17,7 @@ Add Datama Compare to your Excel to analyze KPI variations where your data alrea
 The video below walks you through the basics.
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vcvbk2rSG9Y?si=0lTlHphNybdqwb-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-CCl9f2iAOM?si=GTp_t-Z5PPL9eJGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <br/>
@@ -42,9 +42,9 @@ The video below walks you through the basics.
 
 Datama Compare is an official extension of Excel.
 From Excel, click on "Home" > "Add-ins" > Search of "Datama Compare".
-If your <s>Google Workspace & suite</s> is managed at the organization level, you might need to involve the manager of the workspace to be able to install the extension properly.
+If your Microsoft account and 365 subscription is managed at the organization level, you might need to involve the manager of the workspace to be able to install the extension properly.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Gsheet_add_extension_Compare.png" alt="Click on the extension menu"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Excel_add_extension_Compare.png" alt="Add Datama Compare from Excel Add-ins"/></center>
 
 <!-- {% include embed_totw.html num=151 %} -->
 
@@ -66,7 +66,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 5. Add the licence key to the extension by clicking on on the "Editor Settings" tab and Paste your licence key
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Gsheet_licence_key.png" alt="Paste your licence key here"/></center>
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Excel_licence_key.png" alt="Paste your licence key in Datama Editor Settings"/></center>
 
 <div class="info-box"> For Corporate clients, just get your licence key for no additional fee on the <a href="https://app.datama.io/a/dashboard/my-products" target="_blank">Extension Page</a>
 </div>
@@ -111,9 +111,10 @@ To discover more about how to read a Waterfall, you can read our [dedicated sect
 
 <br/>
 
-# 7. Sample datasets
+# 7. Sample datasets {#excel-compare-sample-datasets}
 
-Following this [link](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit?gid=1408263987#gid=1408263987) to access live demo of the extension in Excel. Don't hesitate to play with the extension with your own data. This is a free trial version with limited access. 
+Use a Microsoft Excel workbook with the Datama Compare add-in and try the extension on your own data or the sample dataset [here](https://docs.google.com/spreadsheets/d/
+1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit?gid=1408263987#gid=1408263987) (Download as Excel). The free trial version includes limited access to some advanced features. 
 
 <br/>
 

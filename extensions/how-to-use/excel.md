@@ -16,9 +16,9 @@ You can work from your spreadsheet data without exporting it to another visualiz
 
 Here are the currently existing extensions, and related documentation.
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets_compare.html): Explain variations through dynamic waterfall and KPI tree
+- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel_compare.html): Explain variations through dynamic waterfall and KPI tree
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Google_Sheet.gif" align="center" width="650px" />
+<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Excel.gif" align="center" width="650px" />
 <br/>
 
 Excel is a good fit when you want to:
