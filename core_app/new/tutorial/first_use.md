@@ -66,7 +66,7 @@ In the Datama output block:
 
 <br>
 
-<div class="info-box"> Read more about the <a href="https://datama-solutions.github.io//docs/core_app/new/prep/interface/block_output.html" target="_blank">Output block</a>
+<div class="info-box"> Read more about the <a href="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/block_output.html" target="_blank">Output block</a>
 </div>
 
 

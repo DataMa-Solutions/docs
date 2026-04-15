@@ -295,7 +295,7 @@ Our example gives the following waterfall:
 
 Congrats! Your dataset is ready to be uploaded in Datama's solution!
 
-To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/prep/header/save.html)
+To see how to save and share your dataflow, click [here]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/solutions_header.html#2-file)
 
 <br>
 

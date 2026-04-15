@@ -15,7 +15,7 @@ You can explore the different articles to have an overall explanation of the app
 <br>
 
 
-<div class="info-box"> If you’re new, follow the <a href="https://datama-solutions.github.io//docs/core_app/new/tutorial/first_use.html" target="_blank">quick start</a>. If you know what you’re looking for, jump straight to a solution or a plugin.
+<div class="info-box"> If you’re new, follow the <a href="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html" target="_blank">quick start</a>. If you know what you’re looking for, jump straight to a solution or a plugin.
 </div>
 
 <br>

@@ -19,7 +19,7 @@ keywords: light compare settings assess extension plugin
 <!-- 
 _Find below how you can customize Datama Assess using the General settings_
 
-<!-- - [1. General settings](#1-general-settings)
+- [1. General settings](#1-general-settings)
     - 1.1. [Comparison](#11-comparison)
     - 1.2. [Modeling](#12-Modeling)(#14-above-or-below-confidence-interval)
 - [2. Metrics Relation](#2-metrics-relation)

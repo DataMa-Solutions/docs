@@ -24,4 +24,4 @@ We are comparing the amount of margin, in this case, the margin is the product o
 
 This would split the different effects of your business performance: the volume of items sold, the revenue made with these items sold, and the margin earned.  This equation could be modified to be much more complicated (integrating, for example, the number of distribution points selling the product, etc.)
 
-To better understand Metric Relation [read our article]({{site.url}}/{{site.baseurl}}/core_app/header/input/metric_relation.html).
+To better understand Metric Relation [read our article]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).

@@ -90,7 +90,7 @@ Change the ratio your are analysing by using the dropdown in the title. Within t
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_kpi_dropdown.png"/></center>
 
-Datama Assess is set to analyse each steps of your market equation. You can define the market equation in [settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings/settings.html)
+Datama Assess is set to analyse each steps of your market equation. You can define the market equation in [settings]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html)
 
 #### 2.3.2 Comparison
 

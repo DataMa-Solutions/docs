@@ -107,7 +107,7 @@ If you've never created a workbook before (only if no workbook has been saved ye
 <br/>
 
 ## 5.1. Other key Homepage sections
-- Menu: [My Account]({{site.url}}/{{site.baseurl}}/core_app//new/interface/homepage/admin/admin.html) (Security, Statistics, License Admin)
+- Menu: [My Account]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/admin.html) (Security, Statistics, License Admin)
 - Use case examples: [Get Inspired]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html)
 
 

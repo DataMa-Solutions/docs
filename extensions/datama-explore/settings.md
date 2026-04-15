@@ -19,7 +19,7 @@ keywords: light explore settings breakdown dimensions metrics extension plugin
 <!-- 
 _Find below how you can customize Datama Explore using the General settings_
 
-<!-- - [1. General settings](#1-general-settings)
+- [1. General settings](#1-general-settings)
     - 1.1. [Comparison](#11-comparison)
     - 1.2. [Modeling](#12-Modeling)
 - [2. Metrics Relation](#2-metrics-relation)
@@ -200,7 +200,6 @@ These settings allow you to customize the application to fit with your company, 
 ## 4.1. Language
 
  For now only French and English are available, let's us now if you want a new language to be added. 
-<!-- <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/preferences_explore.png"/></center> <--GDB#TODO--> -->
 <br/>
 
 ## 4.2. Title

@@ -22,11 +22,11 @@ The Datama Detect extension consists of three main sections: header, analysis, a
 
 # 2. Header section
 
-The header contains advanced global settings that allow you to configure and refine your analysis. See the dedicated section on [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings/settings.html) for more details.
+The header contains advanced global settings that allow you to configure and refine your analysis. See the dedicated section on [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) for more details.
 
 Key elements include:
 - **Documentation**: Direct access to this documentation
-- **Settings**: Configure your modeling parameters. Learn more on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings/settings.html)
+- **Settings**: Configure your modeling parameters. Learn more on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)
 
 <br>
 

@@ -113,7 +113,7 @@ Event interest is based on overlap of events with Start and End Period
 
 **[Datama Compare] AI-Enhanced Commentary with Event Context**
 
-Calendars also enhance [enhanced comment](http://localhost:4000//docs/core_app/new/integration/AI/Introduction.html) by enriching prompts with real event context.
+Calendars also enhance [enhanced comment]({{site.url}}/{{site.baseurl}}/core_app/new/integration/AI/Introduction.html) by enriching prompts with real event context.
 Automatic Context Injection
 When calendars are linked to a workbook:
   * Events occurring during analyzed periods are automatically injected into AI prompts as context.
