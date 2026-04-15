@@ -63,7 +63,7 @@ For waterfall analysis, covariance is distributed on each step. User should chec
 For Dimension analysis, covariance is not distributed on neither mix nor performance sizing. Hence user should be careful when looking at dimension impact
 
 <div class="info-box">
-  Read more about <a href="{{site.url}}/{{site.baseurl}}/core_app/compare/model/waterfall/covariance.html">Covariance</a>
+  Read more about <a href="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html">Covariance</a>
 </div>
 
 
