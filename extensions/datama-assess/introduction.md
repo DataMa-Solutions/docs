@@ -47,4 +47,4 @@ Embed Datama Assess in your reports quickly by following these links and videos:
 <br>
 
 # 3. Going further:
-- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
+- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html)
