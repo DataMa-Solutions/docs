@@ -2,7 +2,7 @@
 title: How to use Datama Compare (Light) in Excel
 layout: new-page
 scope: Datama/light
-keywords: Excel cCompare Get Started
+keywords: Excel Compare Get Started
 ---
 
 <br/>

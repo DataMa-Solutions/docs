@@ -21,7 +21,7 @@ keywords: full app header menu file
 - **Create a view** : create a view in the current workbook.
 
 <div class="info-box">
-<strong>Note</strong>: Datama allows you to create several views in the same workbook based on the same data prep setting. Read our tip of the week 137 "New Views feature!" (Ctrl+F on  <a href="https://datama-solutions.github.io//docs/tip_of_the_week.html" target="_blank">tips page</a>) to know how it works.
+<strong>Note</strong>: Datama allows you to create several views in the same workbook based on the same data prep setting. Read our tip of the week 137 "New Views feature!" (Ctrl+F on  <a href="{{site.url}}/{{site.baseurl}}/tip_of_the_week.html" target="_blank">tips page</a>) to know how it works.
 </div>
 
 - **Schedule** : [Schedule]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/extract_analysis) your workbook to get the regular monitoring. 
