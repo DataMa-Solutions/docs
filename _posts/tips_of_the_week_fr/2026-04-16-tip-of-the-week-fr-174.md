@@ -3,7 +3,7 @@ feed: totw_fr
 title: "Tip of the week 174: 'Compute' ou 'Refresh' son workbook"
 date:  2026-04-16 08:00:00 +0200
 img_url: /assets/images/tip/174.png
-img_type: image/gif
+img_type: image/png
 img_width: 600
 img_height: 300
 layout: post
