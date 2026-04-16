@@ -1,9 +1,9 @@
 ---
-title: Calendar setup
+title: Introduction
 description: How to build/connect a calendar in Datama
 layout: new-page
 scope: Datama/saas/Calendar
-keywords: Calendar setup
+keywords: Calendar introduction
 ---
 
 <br>
