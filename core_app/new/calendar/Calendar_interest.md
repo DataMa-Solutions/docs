@@ -20,7 +20,43 @@ In contrast, an event that occurs only in the start period (e.g., a website bug 
 
 <br>
 
-# 2. How activate calendar interest score?
+# 2. The logic behind the interest score:
+
+The interest score measures how relevant an event is when comparing two periods.
+It is mainly calculated on how the event overlaps between the **comparison period** and the **selected (analyzed) period**. And the key principle is the **less similar an event is across the two periods**, the **higher its interest score** will be.
+
+The chart below illustrates a model of a case study designed to help understand how the interest score is calculated:
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/interest_score_scale.png"/></center>
+
+**High Interest Score**: events receive a **high interest score** when they occur in only one of the two periods.
+
+Cases:
+  * Event only in the **selected (analyzed) period**
+  * Event only in the **comparison period**
+➡ These events are strong candidates to explain KPI differences between periods.
+
+---
+
+**Medium Interest Score**: events receive a **medium interest score** when they exist in both periods but differ in duration.
+
+Case:
+  * Event present in both periods **with different durations**
+➡ These events may partially explain differences between periods.
+
+---
+
+**Zero Interest Score**: Events receive a **zero interest score** when they are identical or irrelevant across periods.
+
+Cases:
+  * Event present in both periods **with the same duration**
+  * Event present in **none of the periods**
+➡ These events are unlikely to explain KPI variations.
+
+
+<br>
+
+# 3. How activate calendar interest score?
 
 You can choose to display the interest score directly in the comments using the toggle available in two different places:
 
@@ -36,7 +72,7 @@ Else in Datama Compare go into the settings and open the Calendars section, you'
 
 <br>
 
-# 3. Additional parameter options
+# 4. Additional parameter options
 
 According to your "analysis depth" setting, Datama highlights the events with the highest interest scores at the end of the Datama Compare comments section.
 
