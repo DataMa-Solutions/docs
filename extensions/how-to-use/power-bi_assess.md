@@ -128,7 +128,7 @@ Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settin
 
 # 8. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
-    - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
-    - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
+- 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
+- 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>

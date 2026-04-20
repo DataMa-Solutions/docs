@@ -34,6 +34,7 @@ Find below documentation related to each extensions
 - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
 - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
 - [In Google Sheets™]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
+- [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
 
 <br>
 
