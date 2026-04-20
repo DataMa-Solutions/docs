@@ -44,7 +44,7 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 # 2. Relative
 
-Relative is another way to display the [Flow]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/detailed_view/flow) graph.
+Relative is another way to display the [Flow](#1-flow) graph.
 
 
 **Example:**

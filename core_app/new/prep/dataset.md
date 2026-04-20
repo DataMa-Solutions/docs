@@ -54,7 +54,7 @@ Number of dimension are theoretically unlimited. However, as your dataset get bi
 <div class="info-box"> <strong>Tip:</strong> Datama PIVOT is a tool that can help you in selecting and understanding the dimensions you’re selecting.</div>
 
 
-<div class="info-box"> <strong>Warning:</strong> Datama JOURNEY requires at least a 'Journey' column within its dimensions. See <a href="https://datama-solutions.github.io//docs/core_app/new/journey/journey.html" target="_blank">Journey Source</a>.
+<div class="info-box"> <strong>Warning:</strong> Datama JOURNEY requires at least a 'Journey' column within its dimensions. See <a href="{{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html" target="_blank">Journey Source</a>.
  for more details.
 </div>
 

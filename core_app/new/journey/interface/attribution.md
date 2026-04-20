@@ -86,10 +86,7 @@ The biggest opportunity is "Search" then "Offer" , "Goal_Step2"...
 You will be able to quickly identify the steps presenting the biggest opportunity thanks to our decreasing ranking.
 
 Two parameters are used in order to build this graph:
-<!-- 
-* The X-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
 
-* The Y-axis is your [value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) -->
 
 * The X-axis is [point](#5-data)
 
@@ -122,9 +119,9 @@ The biggest feasability is "Goal_Step3" then "Blog" , "Goal_Step2"...
 
 Two parameters are used in order to build this graph:
 
-* The X-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data)
+* The X-axis is [point](#5-data)
 
-* The Y-axis is your ratio ([Value]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) / [Volume]({{site.url}}/{{site.baseurl}}/core_app/journey/web_application/dashboard/attribution/data) )
+* The Y-axis is your ratio ([Value](#5-data) / [Volume](#5-data) )
 
 
 
