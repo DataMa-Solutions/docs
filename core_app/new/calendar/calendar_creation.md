@@ -40,7 +40,11 @@ Optionally
 
 📝 **Description** – additional context about the event
 
-📊 **Scope** – a segment which allow you to apply the filters (e.g. you can have a Country Scope that allow when you filter on Switzerland to see the calendar events that impact only this segment). This field as also an impact on the Calendar interest score in the Compare integration.
+📊 **Scope** – a segment which allow you to apply the filters (e.g. you can have a Country Scope that allow when you filter on Switzerland to see the calendar events that impact only this segment). This field as also an impact on the Calendar interest score in the Compare integration. 
+
+<div class="info-box"> 
+Scope expected structure is `[Column_name]=[Event_Scope]`. For instance, `Country=France`. Note that `Column_name` should be the same column name used in the dataset where the Calendar will be added, so that Datama can make the link. If you have multiple scopes, you can separate them with a comma (e.g. `Country=France, Category=Food`).
+</div>
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/dataset_calendar.png"/></center>
 
