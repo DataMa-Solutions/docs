@@ -57,3 +57,15 @@ Datama Spreadsheet is available in marketplace environments for:
 It is not available in Google Sheets or Excel integrations.
 
 <br>
+
+# 5. Current known limitations
+
+We are actively working on these limitations and improvements are in progress:
+
+- `Ctrl + Arrow Up / Down` to jump to the last cell is currently not working.
+- Freezing a cell reference has no shortcut. You need to manually add `$` in formulas (for example `=$A$4`). Also, when using `$` in formulas, computations are not always properly refreshed.
+- Conditional formatting options are limited. In particular, you cannot define the value range used for min, max, and middle.
+- Copy/paste of a cell range from an actual Excel spreadsheet works, but formulas are not saved.
+- In Tableau, pivot table column selection is unstable.
+
+<br>
