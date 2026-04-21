@@ -733,6 +733,40 @@
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_qlik.html
 
+- name: Spreadsheet
+  link: /extensions/datama-spreadsheet/datama-spreadsheet.html
+  type: bold
+  subnav:
+    - name: Introduction
+      link: /extensions/datama-spreadsheet/introduction.html
+      type: h3
+      subnav:
+        - name: Concept
+          link: /extensions/datama-spreadsheet/concept.html
+          type: h4
+    - name: Spreadsheet extensions
+      link: /extensions/datama-spreadsheet/introduction.html
+      type: h3
+      subnav:
+        - name: Interface
+          link: /extensions/datama-spreadsheet/structure.html
+          type: h4
+        - name: Settings
+          link: /extensions/datama-spreadsheet/settings.html
+          type: h4
+        - name: Spreadsheet on Looker Studio
+          link: /extensions/how-to-use/looker-studio_spreadsheet.html
+          type: h4
+        - name: Spreadsheet on Tableau
+          link: /extensions/how-to-use/tableau-viz_spreadsheet.html
+          type: h4
+        - name: Spreadsheet on Power BI
+          link: /extensions/how-to-use/power-bi_spreadsheet.html
+          type: h4
+        - name: Spreadsheet on Qlik
+          link: /extensions/how-to-use/qlik_spreadsheet.html
+          type: h4
+
 # - name: Assess #done
 #   link: /core_app/new/assess/assess.html
 #   type: bold
@@ -832,6 +866,8 @@
           link: /extensions/how-to-use/looker-studio_assess.html
         - name: Explore on Looker Studio
           link: /extensions/how-to-use/looker-studio_explore.html
+        - name: Spreadsheet on Looker Studio
+          link: /extensions/how-to-use/looker-studio_spreadsheet.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_looker.html
     - name: Power BI
@@ -846,6 +882,8 @@
           link: /extensions/how-to-use/power-bi_assess.html
         - name: Explore on Power BI
           link: /extensions/how-to-use/power-bi_explore.html
+        - name: Spreadsheet on Power BI
+          link: /extensions/how-to-use/power-bi_spreadsheet.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_pbi.html
     - name: Tableau
@@ -860,6 +898,8 @@
           link: /extensions/how-to-use/tableau-viz_assess.html
         - name: Explore on Tableau
           link: /extensions/how-to-use/tableau-viz_explore.html
+        - name: Spreadsheet on Tableau
+          link: /extensions/how-to-use/tableau-viz_spreadsheet.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_tableau.html
     - name: Qlik
@@ -874,6 +914,8 @@
           link: /extensions/how-to-use/qlik_assess.html
         - name: Explore on Qlik
           link: /extensions/how-to-use/qlik_explore.html
+        - name: Spreadsheet on Qlik
+          link: /extensions/how-to-use/qlik_spreadsheet.html
         - name: Pricing Plan
           link: /extensions/how-to-use/pricing_plan_qlik.html
     - name: Google Sheets™
