@@ -9,6 +9,8 @@ keywords: Power BI spreadsheet pivot rows columns values get started
 
 > Using Datama Spreadsheet as a Power BI extension gives you spreadsheet and pivot-table capabilities directly in your report canvas.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CYk3_ZtrmNY?si=SGrvdvCgedmHkDi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <br/>
 
 # 1. Overview
@@ -54,7 +56,8 @@ Suggested usage flow:
 3. Assign numeric metrics to **Values**.
 4. Configure formatting and formulas.
 5. Save settings: Once you are happy with your settings, in the Power BI side panel, in the "Format your visual" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. If you are unsure whether it is the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field. Please note that no customized settings will be saved unless you complete this step.
-6. Exit edit mode for result-only display.
+6. [Optional] Exit edit mode for result-only display in the Format Visual > Datama Settings > Edit Mode (only avalaible for licenced users)
+7. [Optional] Publish your workbook to viewers (only avalaible for licenced users)
 
 Result mode removes toolbar and grid lines for cleaner reading.
 

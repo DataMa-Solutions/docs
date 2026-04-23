@@ -33,6 +33,10 @@ Here are the currently existing extensions, and related documentation
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Explore_LookerStudio_Intro_Large.gif" align="center" width="650px" />
 
+- [Datama Spreadsheet]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_spreadsheet.html): Excel like editable pivot table
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Spreadsheet_LookerStudio.gif" align="center" width="650px" />
+
 <br>
 
 You can also see the demo [here](https://dataguillaume.gumroad.com/l/zkwemf) with all Datama extensions in Looker studio connected to Google Analaytics source.

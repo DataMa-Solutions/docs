@@ -31,4 +31,9 @@ Here are the currently existing extensions, and related documentation
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_PowerBI_Intro_Large.gif" align="center" width="650px" />
 
+- [Datama Spreadsheet]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_spreadsheet.html): Excel like editable pivot table
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Spreadsheet_PowerBI.gif" align="center" width="650px" />
+
 <br>
+

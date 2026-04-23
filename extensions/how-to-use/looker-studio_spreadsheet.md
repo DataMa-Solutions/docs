@@ -9,6 +9,8 @@ keywords: Looker Studio spreadsheet pivot rows columns values get started
 
 > Using Datama Spreadsheet in Looker Studio brings pivot-table and spreadsheet analysis to your report without leaving the dashboard.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HRkZ5JWVOH8?si=jdi7yKWA_QqeP5D1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <br/>
 
 # 1. Overview
@@ -53,7 +55,8 @@ Suggested setup:
 2. Choose dimensions for **Columns**.
 3. Choose measures for **Values**.
 4. Configure formatting and calculations.
-5. **[Paid user only] Save settings**: Once you are happy with your settings, in the Looker Studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. If you are unsure whether it is the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field. Please note that no customized settings will be saved unless you complete this step.
+5. Once you are happy with your settings, in the Looker Studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. If you are unsure whether it is the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field (Style > Datama Settings). Please note that no customized settings will be saved unless you complete this step.
+6. [Optional] Exit edit mode for result-only display in the Style > Datama Settings > Edit Mode (only avalaible for licenced users)
 
 <center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/JSONsave.gif" /></center>
 

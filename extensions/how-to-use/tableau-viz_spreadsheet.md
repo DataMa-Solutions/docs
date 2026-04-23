@@ -61,7 +61,8 @@ Recommended setup sequence:
 3. Pick numeric fields for **Values**.
 4. Apply formatting, formulas, and filters if needed.
 5. Save settings: Click the **Save** button in the top-right corner of the Datama extension to persist your configuration in the workbook. 
-6. Exit edit mode to show only the spreadsheet result in the dashboard (for example via **Format extension** in the Marks panel and the **Edit mode** toggle).
+6. [Optional] Exit edit mode to show only the spreadsheet result in the dashboard (click on **Format extension** in the Marks panel and the **Edit mode** toggle). (only avalaible for licenced users)
+7. [Optional] Publish your workbook to viewers (only avalaible for licenced users)
 
 When edit mode is disabled, toolbar and grid lines are hidden.
 
