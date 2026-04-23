@@ -31,4 +31,8 @@ Here are the currently existing extensions, and related documentation
 
 <img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Tableau_Intro_Large.gif" align="center" width="650px" />
 
+- [Datama Spreadsheet]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau-viz_spreadsheet.html): Excel like interface inside Tableau
+
+<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Spreadsheet_Tableau.gif" align="center" width="650px" />
+
 <br>
