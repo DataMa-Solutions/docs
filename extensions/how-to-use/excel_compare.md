@@ -89,7 +89,7 @@ Once you've added the extension, here is how you can use it.
 4.  **Explanation dimensions**: Include Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 
-**3. Launch the extension**: Click on the extension pane, select "Datama Compare" and on the right side panel, make sure the proper range of data prepared is selected. Dimensions and Metrics should be automatically identified by Datama, but you can adjust this if required. <s>Then hit the "See Chart" Button</s>
+**3. Launch the extension**: Click on the extension pane, select "Datama Compare" and on the right side panel, make sure the proper range of data prepared is selected. Dimensions and Metrics should be automatically identified by Datama, but you can adjust this if required. 
 
 **4. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane. [Learn more about settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 
