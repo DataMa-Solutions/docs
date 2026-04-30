@@ -11,7 +11,7 @@ layout: post
 
 Do you have pairs of metrics in your dataset (e.g., Sales and Sales N-1, Units and Units N-1)?
 
-👉 ‘Compare by Metric’ is perfectly suited for this use case. It allows you to directly compare these metrics with each other and explain variations in a KPI without relying on a simple time-series comparison.
+👉 ‘**Compare by Metric**’ is perfectly suited for this use case. It allows you to directly compare these metrics with each other and explain variations in a KPI without relying on a simple time-series comparison.
 
 ⚙️ To enable it:
   * Go to settings
