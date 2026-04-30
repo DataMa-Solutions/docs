@@ -8,7 +8,7 @@ keywords: light compare settings
 
 <br/>
 
-> Datama compare extension interface contains 2 setting panels: General Settings and Waterfall Settings. 
+> Datama compare extension interface contains 2 setting panels: General Settings and Waterfall Settings.
 
 <br/>
 
@@ -27,7 +27,7 @@ You can access the general setting as shown below:
 * Group values representing less than (%)
 * Analysis depth
 * Split Mix and Perf effects
-3. [Market Equation](#2) 
+3. [Market Equation](#2)
 4. [Preferences](#4)
 * Allow Datama to execute actions on data to improve your analysis
 * Language
@@ -88,8 +88,8 @@ You can start your comparison as suggested below. For a quick step‑by‑step d
 
 * Third, in General Settings, you can choose any other dimension available in your visualization tool’s "Dimension" field as the comparison dimension.
 
-If a dimension includes more than two segments 
-— e.g., "Country" 
+If a dimension includes more than two segments
+— e.g., "Country"
 — start by adding "Country" and the metric (e.g., "Sessions").
 Then select the two segments you want to compare (e.g. UK vs. Spain).
 
@@ -101,6 +101,8 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/add_funnel.gif"/></center>
+
+{% include embed_totw.html num=176 %}
 
 ### 1.2. Secondary Comparison
 
@@ -168,7 +170,7 @@ Market relation defines how metrics from your datasource combine to compute the 
 <br>
 
 
-<!-- 
+<!--
 - You can set a step to focus on a specific dimension. This disables automatic dimension scoring and displays only the selected dimension for that step.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
@@ -216,7 +218,7 @@ Taggle to display or hide the comment if for example you only need to display th
 
 You can customize colors for application environment and for the Waterfall itself.
 
-#### 3.2.1 Application 
+#### 3.2.1 Application
 
 <center><img style="align: right; width: 700px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Application color.png"/></center>
 
@@ -228,7 +230,7 @@ You can customize colors for application environment and for the Waterfall itsel
 <br/>
 <br/>
 
-# Waterfall Settings 
+# Waterfall Settings
 
 ## 1. General
 
@@ -236,7 +238,7 @@ You can customize colors for application environment and for the Waterfall itsel
 
 <br>
 
-### 1.1.1. Segment text complement 
+### 1.1.1. Segment text complement
 
 Choose what to display after the Segment name in waterfall labels:
 - Variation relative to average (e.g., "x2.43") - default value to easily spot "abnormal" variations above average
@@ -302,7 +304,7 @@ Adjust plot title font size. Default value is <i>Auto</i> and automatically scal
 
 Manually adjust subtitle size. (Automatical scale is WIP)
 
-### 2.6. Tree view cards name 
+### 2.6. Tree view cards name
 
 Adjust tree view card name size. (Automatical scale is WIP)
 
@@ -328,7 +330,7 @@ For each element, you can choose what information to display:
     - Impact in points will explain the variation from 0pts to xxpts from the left to the right, each step will be displayed with his impact in point.
     - Percent change will explain the variation from 0% to xx% from the left to the right, each step will be displayed with his contribution in percentage.
 
-- **Second row** will (default is <i>Percent change</i>) change the display of the row of percentage change on the top of the graph. 
+- **Second row** will (default is <i>Percent change</i>) change the display of the row of percentage change on the top of the graph.
     - When displayed in volume, this will display the impact on the main KPI (e.g.: Revenue)
     - ...
 
@@ -336,14 +338,14 @@ For each element, you can choose what information to display:
 
 ### 3.1. Impact in points (pts)
 
-Variation in percentage points instead of Percent change. 
+Variation in percentage points instead of Percent change.
 
 Example: 1% variation is 1pt% to explain, which could be explained by +0.3pt% by the first step and +0.7pt% by the second step.
 
 ### 3.2. Impact in volume
 Contribution to the main KPI (e.g. impact on Revenue)
 
-### 3.3. Percent change 
+### 3.3. Percent change
 
 Evolution in %
 
