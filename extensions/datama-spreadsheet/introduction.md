@@ -14,7 +14,7 @@ keywords: Datama light spreadsheet pivot table rows columns values introduction
 
 Datama Spreadsheet is designed for Tableau, Power BI, Qlik, and Looker Studio marketplace usage.
 
-It provides an Excel-like spreadsheet experience directly inside your visual extension workflow:
+It provides an Excel-like spreadsheet experience directly inside your visual extension workflow. It is especially useful when you routinely use data exported from or connected to BI tools: you get a grid to apply **formatting**, refine layout, and author **calculations in cells** that are cumbersome to express only in SQL or native BI calculation layers—while remaining inside the report.
 
 - Rich cell formatting and conditional formatting
 - Formulas and advanced functions
