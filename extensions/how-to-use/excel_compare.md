@@ -41,7 +41,7 @@ The video below walks you through the basics.
 # 3. Add the extension into your Spreadsheet
 
 Datama Compare is an official extension of Excel.
-From Excel, click on "Home" > "Add-ins" > Search of "Datama Compare".
+Install from the [Microsoft AppSource listing](https://marketplace.microsoft.com/en-hk/product/WA200010671?tab=Overview), or from Excel click **Home** > **Add-ins** and search for **Datama Compare**.
 If your Microsoft account and 365 subscription is managed at the organization level, you might need to involve the manager of the workspace to be able to install the extension properly.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Excel_add_extension_Compare.png" alt="Add Datama Compare from Excel Add-ins"/></center>
