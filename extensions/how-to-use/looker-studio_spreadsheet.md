@@ -57,13 +57,6 @@ Suggested setup:
 4. Configure formatting and calculations.
 5. Once you are happy with your settings, in the Looker Studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. If you are unsure whether it is the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field (Style > Datama Settings). Please note that no customized settings will be saved unless you complete this step.
 6. [Optional] Exit edit mode for result-only display in the Style > Datama Settings > Edit Mode (only avalaible for licenced users)
-
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/JSONsave.gif" /></center>
-
-6. **[Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle when you want a clean spreadsheet output.
-
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/edit_mode.gif" /></center>
-
 Result mode displays the spreadsheet result without toolbar and without grid lines.
 
 <br/>
