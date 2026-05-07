@@ -9,4 +9,4 @@ description: New source Google Analytics Annotations to connect all your annotat
 
 * New source: **Google Analytics Annotations** to connect all your annotations events added directly in GA4.
   <br>
-  {% include embed_totw.html num=165 %}
+  {% include embed_totw.html num=165 open=true %}

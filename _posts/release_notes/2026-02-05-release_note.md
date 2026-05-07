@@ -9,4 +9,4 @@ description: New source Metabase connector is available in Prep to link your dat
 
 * New source: **Metabase connector** is available in Prep to link your datasets to Datama
   <br>
-  {% include embed_totw.html num=166 %}
+  {% include embed_totw.html num=166 open=true %}

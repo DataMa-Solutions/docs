@@ -1,7 +1,7 @@
 ---
 feed: totw_en
 title:  "Tip of the week 178: Use Datama Spreadsheet for Excel-like work on BI data"
-date:   2026-05-05 08:00:00 +0200
+date:   2026-05-08 08:00:00 +0200
 img_url: /assets/images/tip/178.png
 img_type: image/png
 img_width: 800
