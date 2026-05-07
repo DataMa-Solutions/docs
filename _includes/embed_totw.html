@@ -1,9 +1,11 @@
 {% assign lang = include.lang | default: 'en' %}
 {% assign num = include.num | append: '' %}
+{% assign is_open = include.open | default: false %}
 
 {% comment %}
   On détecte le post par son image "tip/<num>.png" ou par un champ "num" si présent
 {% endcomment %}
+
 {% assign feed_key = 'totw_en' %}
 {% if lang == 'fr' %}
   {% assign feed_key = 'totw_fr' %}
@@ -11,11 +13,13 @@
 
 {% assign candidates = site.posts | where: 'feed', feed_key %}
 {% assign found = nil %}
+
 {% for p in candidates %}
   {% if p.img_url contains '/tip/' and p.img_url contains num %}
     {% assign found = p %}
     {% break %}
   {% endif %}
+
   {% if p.num and p.num == num %}
     {% assign found = p %}
     {% break %}
@@ -23,15 +27,24 @@
 {% endfor %}
 
 {% if found %}
-<details class="embed-totw">
+<details class="embed-totw"
+  {% if is_open == true or is_open == 'true' %}
+    open
+  {% endif %}
+>
   <summary>{{ found.title }}</summary>
+
   <div class="embed-totw__content">
     {{ found.content }}
+
     {% if found.img_url %}
       <img src="{{site.url}}/{{site.baseurl}}{{ found.img_url }}" alt="{{ found.title }}" />
     {% endif %}
   </div>
 </details>
+
 {% else %}
-<p class="info-box">❌ Tip #{{ num }} introuvable pour la langue {{ lang | upcase }}.</p>
+<p class="info-box">
+  ❌ Tip #{{ num }} introuvable pour la langue {{ lang | upcase }}.
+</p>
 {% endif %}
