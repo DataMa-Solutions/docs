@@ -35,7 +35,7 @@
   <summary>{{ found.title }}</summary>
 
   <div class="embed-totw__content">
-    {{ found.content }}
+    {{ found.content | markdownify }}
 
     {% if found.img_url %}
       <img src="{{site.url}}/{{site.baseurl}}{{ found.img_url }}" alt="{{ found.title }}" />
