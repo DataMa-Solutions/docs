@@ -1,6 +1,6 @@
 ---
 feed: totw_fr
-title:  "Tip of the week 178 : utilisez Datama Spreadsheet comme une grille Excel sur vos données BI"
+title:  "Tip of the week 178: utilisez Datama Spreadsheet comme une grille Excel sur vos données BI"
 date:   2026-05-08 08:00:00 +0200
 img_url: /assets/images/tip/178.png
 img_type: image/png
