@@ -15,7 +15,7 @@ At Europcar Mobility Group, country managers must balance their Cost of Sales ac
 In this new use case with Europcar Mobility Group, discover how a variance breakdown built directly into Qlik enables you to:
 
   * 📊 Identify in just two clicks what’s driving the deviation in COS (volume, mix, pricing)
-  * ⚡ Provide insights directly to managers, without relying on central BI
+  * ⚡ Provide insights directly to managers, without wasting time on the central BI system
   * 🎯 Take faster action on the right business levers
 
 A great example of BI that brings analysis closer to decision-making 🤓
