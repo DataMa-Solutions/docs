@@ -114,9 +114,11 @@ Once you've imported the extension, here is how you can use it.
 
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
 
-**4. Save settings**: Once you are happy with your settings, in the Power BI side panel, in the "Format your visual" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
-If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
-Please note that no customized settings will be saved unless you complete this step.
+**4. Save settings**: Your customized settings and your licence key are now **automatically saved** inside the Power BI report — there is no longer any need to copy‑paste the JSON into the "Config JSON" field. If you want to migrate settings between visuals or export them, you can still click the Save button in the top‑right corner of the widget to copy the current JSON to your clipboard, then paste it into the "Config JSON" field of the target visual.
+
+<div class="info-box">
+ <strong>Dataset size</strong>: the Power BI extension supports up to <strong>200,000 rows</strong> per visual (vs. 30,000 previously). For larger datasets, we recommend pre‑aggregating in Power Query or in your warehouse to keep computations fast.
+</div>
 
 **5. Leave edit mode**: In the Power BI side panel, in the "Format your visual" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 

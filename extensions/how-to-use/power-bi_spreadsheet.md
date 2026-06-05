@@ -55,7 +55,7 @@ Suggested usage flow:
 2. Assign categories to **Columns**.
 3. Assign numeric metrics to **Values**.
 4. Configure formatting and formulas.
-5. Save settings: Once you are happy with your settings, in the Power BI side panel, in the "Format your visual" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. If you are unsure whether it is the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field. Please note that no customized settings will be saved unless you complete this step.
+5. Save settings: your customized settings and your licence key are now **automatically saved** inside the Power BI report — there is no longer any need to copy‑paste the JSON into the "Config JSON" field. If you want to migrate settings between visuals or export them, you can still click the Save button in the top‑right corner of the widget to copy the current JSON to your clipboard, then paste it into the "Config JSON" field of the target visual.
 6. [Optional] Exit edit mode for result-only display in the Format Visual > Datama Settings > Edit Mode (only avalaible for licenced users)
 7. [Optional] Publish your workbook to viewers (only avalaible for licenced users)
 

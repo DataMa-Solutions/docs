@@ -375,8 +375,9 @@ Show or hide chart comment
 
 # 6. Save customized setting
 
+> **Power BI**: customizations and the licence key are now **saved automatically** inside the Power BI report — no JSON copy‑paste required. The Save button in the top‑right corner remains available if you want to copy the current settings JSON to migrate them to another visual.
 
-For **premium users on Looker Studio and Power BI**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the **Config JSON** field in the style panel. **Otherwise, your settings will be lost when you refresh the BI report.
+> **Looker Studio (premium users)**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the **Config JSON** field in the style panel. Otherwise, your settings will be lost when you refresh the BI report.
 
 <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Save JSON.png"/></center>.
 
