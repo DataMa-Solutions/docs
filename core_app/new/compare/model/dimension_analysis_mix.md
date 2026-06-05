@@ -41,6 +41,7 @@ e.g. If you are selling several products, and if the share of an individual prod
 
 * For each step, mix effect calculations scaled using waterfall analysis output to be able to size impact on overall metric
 * While each different segment of one dimension is contributing differently to the mix effect, we represent the sum of them
+* When hovering a Mix segment on the waterfall, the tooltip explains the segment's mix change and its performance **relative to the average performance** of the step, so you can quickly tell whether the Mix contribution comes from a segment that performs above or below average.
 
 <br>
 
