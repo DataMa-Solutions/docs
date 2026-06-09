@@ -317,6 +317,9 @@
         subnav:
           - name: Pricing Plan
             link: /extensions/how-to-use/pricing_plan_qlik.html
+      - name: Detect on Excel
+        link: /extensions/how-to-use/excel_detect.html
+        type: h4
       - name : Settings
         link: /extensions/datama-detect/settings.html
         type: h4
@@ -498,6 +501,10 @@
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_qlik.html
+        
+        - name: Assess on Excel
+          link: /extensions/how-to-use/excel_assess.html
+          type: h4
 
         - name : Settings
           link: /extensions/datama-assess/settings.html
@@ -732,6 +739,10 @@
           subnav:
             - name: Pricing Plan
               link: /extensions/how-to-use/pricing_plan_qlik.html
+        
+        - name: Explore on Excel
+          link: /extensions/how-to-use/excel_explore.html
+          type: h4
 
 - name: Spreadsheet
   link: /extensions/datama-spreadsheet/datama-spreadsheet.html
@@ -765,6 +776,9 @@
           type: h4
         - name: Spreadsheet on Qlik
           link: /extensions/how-to-use/qlik_spreadsheet.html
+          type: h4
+        - name: Spreadsheet on Excel
+          link: /extensions/how-to-use/excel_spreadsheet.html
           type: h4
 
 # - name: Assess #done
@@ -930,6 +944,18 @@
       subnav:
         - name: Compare on Excel
           link: /extensions/how-to-use/excel_compare.html
+        - name: Detect on Excel
+          link: /extensions/how-to-use/excel_detect.html
+          type: h4
+        - name: Assess on Excel
+          link: /extensions/how-to-use/excel_assess.html
+          type: h4
+        - name: Explore on Excel
+          link: /extensions/how-to-use/excel_explore.html
+          type: h4
+        - name: Spreadsheet on Excel
+          link: /extensions/how-to-use/excel_spreadsheet.html
+          type: h4
 ##- name: Licence terms
 ##  link: /core_app/new/admin/licence_terms.html #OK
 ##  type: separated
