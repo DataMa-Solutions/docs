@@ -54,7 +54,7 @@ Install the Data Viz Plugin and work directly inside your stack:
     - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
     - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
     - [In Google Sheets™]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
-
+    - [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
 <br>
 
 # 🎥 See Datama in action
