@@ -38,11 +38,12 @@ Find below documentation related to each extensions
 - [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
 
 Datama Spreadsheet is currently available only in Tableau, Power BI, Qlik, and Looker Studio marketplace environments.
+- [AI Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html) — use Datama Compare and Explore from Claude, Cursor, and other Agent Skills hosts
 
 <br>
 
-Our extensions exists in two differents models for each data visualisation platform : 
+Our extensions exists in two differents models for each data visualisation platform :
 - **Full app extension**: with complete features linked with our web interface
-- **Light extension**: complete on premise version with no link to our web interface and servers. 
+- **Light extension**: complete on premise version with no link to our web interface and servers.
 
 <br>
