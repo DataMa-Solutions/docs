@@ -73,6 +73,16 @@ Embed Datama Explore in your reports quickly by following these links and videos
   allowfullscreen>
 </iframe>
 
+- [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
 
 <!-- ({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html) -->
 <br>
