@@ -61,7 +61,7 @@ The visualization includes several display options:
 <center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Table View.png"/></center>
 
 
-5. **Table View**: Allows selection of one or several KPIs by segment, enabling more customized monitoring.
+5. **Table View**: Allows selection of one or several KPIs by segment, enabling more customized monitoring. Rows are ranked by the **absolute impact on the store-total main KPI** (not the local segment impact), so the most business-relevant anomalies surface first. Each row shows the cumulated impact value and a relative bar scaled against the latest main KPI.
 
 <br>
 

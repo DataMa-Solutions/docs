@@ -114,6 +114,26 @@ This is to customize the “Primary Numerator” mentioned just above, based on 
 
 This is to customize X% mentioned just above.
 
+### 1.2.7. Min impact threshold
+
+Sets the minimum impact on the **global main KPI** (store total) required to flag a point as an outlier. The threshold is expressed as a percentage of the reference main KPI value.
+
+Points whose estimated impact on the main KPI falls below this threshold are ignored, even when they fall outside the confidence interval. This helps reduce noise from small segments that would otherwise appear as anomalies despite having little effect on the overall business result.
+
+**Default:** 0.5%
+
+**Example:** With a 0.5% threshold and a main KPI of 100,000, a segment must move the store-total main KPI by at least 500 (in absolute terms) to be flagged.
+
+Set the value to **0** to disable the filter and keep all statistically significant outliers.
+
+### 1.2.8. Considered Steps
+
+Select which market equation steps are eligible for outlier detection. Unchecked steps are never declared as anomalies, regardless of their statistical deviation.
+
+This is useful when you want to monitor only specific drivers (for example, price or conversion) and ignore intermediate ratios that are not actionable.
+
+When you add a new step to the market equation, it is selected by default. Removed or renamed steps are reconciled automatically while preserving your explicit choices.
+
 <br>
 
 

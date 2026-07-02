@@ -40,7 +40,7 @@ Below is a short intro video:
 - **Identification of Anomalies:** Find anomalies based on historical volatility with customizable level of confidence.
 - **Multiple KPIs monitoring:** Based on your market equation, find anomalies within unlimited number of KPIs, and correlate with your North Star metric
 - **Customizable focus:** You can set the anomalies to be found only on latest point to get alerted only on most recent changes.
-- **KPI interest ranking:** KPIs with biggest anomalies are flagged first.
+- **KPI interest ranking:** KPIs and segments are ranked by their absolute impact on the store-total main KPI, so the most business-relevant anomalies surface first.
 - **Smart title:** Title is automatically written, and you can define the structure. 
 
 <br/>
