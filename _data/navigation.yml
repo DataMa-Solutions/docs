@@ -733,6 +733,10 @@
                   - name: Pricing Plan
                     link: /extensions/how-to-use/pricing_plan_qlik.html
 
+            - name: Explore on Excel
+              link: /extensions/how-to-use/excel_explore.html
+              type: h4
+
 - name: Spreadsheet
   link: /extensions/datama-spreadsheet/datama-spreadsheet.html
   type: bold
