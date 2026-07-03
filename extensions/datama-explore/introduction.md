@@ -75,7 +75,7 @@ Embed Datama Explore in your reports quickly by following these links and videos
 
 - [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
 <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/"
+  src="https://www.youtube.com/embed/RcYFYuPtiRA?si=KPpTm5USQ6V6yHFA"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
