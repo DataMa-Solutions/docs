@@ -81,7 +81,7 @@ The drill down input allows to define the methodology to break down main KPI var
 - By Dimensions then Steps
 - Auto
 
-By activating the "Dimensions then Steps" option, you will see the impact of the top 5 segments of the most interesting dimension for the total step variation to explain the gap. Then, by clicking on a given segment, you will be able to get the details of the impact of each step of your market equation on that specific segment.
+By activating the "Dimensions then Steps" option, Datama opens on the most interesting dimension for the total KPI variation, then lets you drill down recursively by steps or by another dimension. Smart comments follow the same tree.
 
 Discover [more]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html) on this setting.
 
@@ -252,7 +252,17 @@ For more detailed information on how to build and optimize your market equation,
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Dimensions.png"/></center>
 
-## 5.1. Comparison
+## 5.1. Dimensions hierarchy
+
+When **Dimensions then Steps** or **Auto** is enabled, the **Dimensions hierarchy** editor controls which dimensions are proposed at each drill-down level:
+
+* **Level 0** dimensions are explored first at the root of a dimension-first analysis
+* Inside a dimension, Datama proposes its **children** (indented below in the list), then **siblings** at the same level — never ancestors
+* **Pin** a dimension to always explore it first within its level, regardless of interest score
+
+Use the indent / outdent and move buttons to organize the outline. Changes reschedule drill-down analyses without a full source recompute.
+
+## 5.2. Comparison
 
 When comparing two ranges of dates with same number of days, Datama now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 
@@ -266,15 +276,15 @@ You can add filter to include or exclude the dimension, the segement you want, i
 
 <br >
 
-## 5.2 Auto-generated dimensions
+## 5.3 Auto-generated dimensions
 
-### 5.2.1. Comparable Dates
+### 5.3.1. Comparable Dates
 
 Comparable Date: When comparing two ranges of dates with same number of days, Datama now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. January, February… December when comparing two years together, or Monday, Tuesday… Sunday when comparing 2 weeks)
 
 <br>
 
-### 5.2.2. Combined Dimensions
+### 5.3.2. Combined Dimensions
 
 By default <i>Combined Dimensions</i> is activated. Datama creates an additional Dimension in your analyse which is the combination of all your dimension.
 
@@ -282,7 +292,7 @@ You can't change the selection of the combination, but you can concatenate two c
 
 <br>
 
-### 5.2.3. Smart dimension
+### 5.3.3. Smart dimension
 
 For each step of the waterfall analysis, the Smart dimension identifies the pair of dimensions which is most relevant in explaining performance variation. It comes in addition to the Combined dimension which crosses all dimensions.
 
