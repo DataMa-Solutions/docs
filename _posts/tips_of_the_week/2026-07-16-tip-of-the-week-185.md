@@ -13,14 +13,14 @@ Need to check if you're using the latest **Datama Light** version? 👀
 
 Simply open the **Light** extension, click ⚙️ **Settings**, and you'll find your current version displayed in the **bottom-left corner**.
 
-## 🔄 How to update?
+🔄 **How to update?**
 
-- 📊 **Tableau**: Using the private T-Rex? Go to the **Extension** page and click **Update my bucket**.
+- 📊 **Tableau**: Using the private T-Rex? Go to the **Extension** page and wait for the  **Update my bucket**.
 -  📈 **Power BI**:
     * Private version → Download the latest package from the **Extension** page.
     * Public version → Updates automatically through Microsoft.
 - 📦 **Qlik**: Upload the latest ZIP downloaded from the **Extension** page.
-- 🌐 **Data Studio**: Click **Update my bucket** from the **Extension** page (you may need to wait for cache refresh ⏳).
+- 🌐 **Data Studio**: Wait for the **Update my bucket** on the **Extension** page (you may need to wait for cache refresh ⏳).
 - 📑 **Excel**: Nothing to do — you're always on the latest version. ✅
 - 🟢 **Google Sheets**: Nothing to do — updates follow the latest version published by Google. ✅
 - 🤖 **AI Skill**: Visualization is always up to date, but don't forget to download and update the **instruction ZIP**. 📥
