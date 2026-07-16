@@ -15,12 +15,12 @@ Il vous suffit d'ouvrir l'extension **Light**, de cliquer sur ⚙️ **Paramètr
 
 🔄 **Comment mettre à jour votre version ?**
 
-- 📊 **Tableau**: vous utilisez la version privée de T-Rex ? Rendez-vous sur la page **Extension** et cliquez sur **Mettre à jour mon bucket**.
+- 📊 **Tableau**: vous utilisez la version privée de T-Rex ? Rendez-vous sur la page **Extension** et attendez le **Update my bucket**.
 -  📈 **Power BI**:
     * Version privée → Téléchargez le dernier package depuis la page **Extension**.
     * Version publique → Les mises à jour s'effectuent automatiquement via Microsoft.
 - 📦 **Qlik**: Importez le dernier fichier ZIP téléchargé depuis la page **Extension**.
-- 🌐 **Data Studio**: Cliquez sur **Mettre à jour mon bucket** depuis la page **Extension** (vous devrez peut-être patienter le temps que le cache soit actualisé ⏳).
+- 🌐 **Data Studio**: attendez le **Update my bucket** sur la page **Extension** (vous devrez peut-être patienter le temps que le cache soit actualisé ⏳).
 - 📑 **Excel**: rien à faire — vous disposez toujours de la dernière version. ✅
 - 🟢 **Google Sheets**: rien à faire — les mises à jour suivent la dernière version publiée par Google. ✅
 - 🤖 **AI Skill**: la visualisation est toujours à jour, mais n’oubliez pas de télécharger et de mettre à jour le **fichier ZIP d’instructions**.  📥
