@@ -51,19 +51,33 @@ keywords: full app detect settings
 
 ## 1.1 Analyse All Metrics Relation Steps
 
-Datama Detect can analyse one step or all the steps of your funnel. When all step are selected, you will be able to see in a dropdown menu every step with an anomaly.
+Datama Detect can analyse one step or all the steps of your funnel. When all steps are selected, you can use a dropdown menu to view every step with an anomaly.
 
 
-## 1.2 Compute Main KPI impact
+## 1.2 Considered Steps
 
-Active this function to see the dotted line representing the main KPI.
+When you analyse all the steps of a metrics relation, use **Considered Steps** to select which steps can be reported as anomalies. All steps are selected by default.
+
+Clear a step when it should remain available in the metrics relation but should not trigger an anomaly.
+
+
+## 1.3 Min impact threshold
+
+Use **Min impact threshold** to ignore anomalies whose impact is too small compared with the global main KPI. The threshold is expressed as a percentage of the global main KPI and is set to **0.5%** by default.
+
+A point below this threshold is not reported as an anomaly, even when it falls outside the confidence interval. Increase the threshold to focus the anomaly list and alerts on the changes with the greatest business impact.
+
+
+## 1.4 Compute Main KPI impact
+
+Activate this function to see the dotted line representing the main KPI.
 
 <!-- ## 1.3 Inspect Numerator only
 
 When you're analysig all metrics relation steps, you can choose to analyse only the numerator.
 This is useful when your market equation is not important or not relevant and you prefer to analyse independently all the Numerator. -->
 
-## 1.3 Analyse Latest Point Only
+## 1.5 Analyse Latest Point Only
 
 You can choose to display the anomalies of each date or only for the latest point in the data.
 In run mode (i.e. when sending alerts on a daily basis for instance), we recommand to activate this parameter, to avoid having all the anomalies raised.
