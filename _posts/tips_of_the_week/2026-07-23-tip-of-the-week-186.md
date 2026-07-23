@@ -9,7 +9,7 @@ img_height: 450
 layout: post
 ---
 
-With the **Extension Datama Detect**, you can make anomaly detection smarter and more focused by setting a **minimum impact threshold** and choosing exactly which steps of your metrics relation can be reported as anomalies in the right pannel where metrics/segments are ranked per impact on the main KPI.
+With the **Extension Datama Detect**, you can make anomaly detection smarter and more focused by setting a **minimum impact threshold** and choosing exactly which steps of your metrics relation can be reported as anomalies in the right panel where metrics/segments are ranked per impact on the main KPI.
 
 In the "Settings" in the "Scope" section, you can define:
 
