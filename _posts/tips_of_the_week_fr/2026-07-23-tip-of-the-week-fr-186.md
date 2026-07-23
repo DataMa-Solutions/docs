@@ -9,7 +9,7 @@ img_height: 450
 layout: post
 ---
 
-Grâce à l'**extension Datama Detect**, vous pouvez rendre la détection des anomalies plus intelligente et plus ciblée en définissant un **seuil d'impact minimum** et en choisissant précisément quelles étapes de votre relation de métriques peuvent être signalées comme des anomalies dans le panneau de droite, où les métriques/segments sont classés en fonction de leur impact sur le KPI principal.
+Grâce à l'**extension Datama Detect**, vous pouvez rendre la détection d'anomalies plus intelligente et plus ciblée en définissant un **seuil d'impact minimum** et en choisissant précisément quelles étapes de votre relation de métriques peuvent être signalées comme des anomalies dans le panneau de droite, où les métriques/segments sont classés en fonction de leur impact sur le KPI principal.
 
 Dans les « Paramètres », dans la section « Scope », vous pouvez définir :
 
@@ -18,4 +18,4 @@ Dans les « Paramètres », dans la section « Scope », vous pouvez définir :
   * 📊 **Min impact threshold**: ignorez les anomalies ayant un impact trop faible sur votre KPI principal global — fixé à 0,5 % par défaut, et ajustable pour vous concentrer sur ce qui compte vraiment.
   * ⚙️ **Considered Steps**: conservez toutes les étapes de votre relation de métriques, mais excluez celles qui ne doivent pas déclencher d’alertes.
 
-👉 Vous obtenez la liste des anomalies, classées par ordre d’importance en fonction de leur impact, précisément sur le périmètre qui compte pour votre entreprise
+👉 Vous obtenez la liste des anomalies, classées par ordre d’importance en fonction de leur impact, précisément sur le périmètre qui compte pour votre entreprise.

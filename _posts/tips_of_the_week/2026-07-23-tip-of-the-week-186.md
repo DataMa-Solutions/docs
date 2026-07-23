@@ -18,4 +18,4 @@ In the "Settings" in the "Scope" section, you can define:
   * 📊 Min impact threshold: ignore anomalies with too little impact on your global main KPI — set at 0.5% by default, and adjustable to focus on what truly matters.
   * ⚙️ Considered Steps: keep all steps in your metrics relation, but exclude the ones that should not trigger alerts.
 
-👉 You get the list of anomalies, prioritized by impact, exactly on the scope that matters for your business
+👉 You get the list of anomalies, prioritized by impact, exactly on the scope that matters for your business.
