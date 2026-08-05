@@ -1,14 +1,14 @@
 ---
 title: Assess - Frequentist model
 description: In the Bernoulli frequentist approach, the outcome has to be binary
-layout: page
+layout: new-page
 scope: Datama/saas/assess
 keywords: full app assess model frequentist 
 ---
 
 
 
-### Frequentist Bernoulli
+# 1. Frequentist Bernoulli
 
 In the Bernoulli frequentist approach, the outcome has to be binary (1 or 0, e.g. Transactions). As long as this is true, any aggregation of the data can be used.
 The resulting chart shows the probability of distribution of the average value of the considered KPI.
@@ -24,7 +24,7 @@ Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SA
 
 <br>
 
-### Frequentist/ Other
+# 2. Frequentist/ Other
 
 
 In the frequentist (non bernoulli) approach, the outcome can be any variable. However, the data should be either unaggregated, or aggregated in comparable groups, so that Datama can compute the actual variance of the success metric.

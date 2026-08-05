@@ -8,7 +8,10 @@ keywords: full app pivot
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Pivot_icon.jpg " alt="logo pivot" style="height:60px;"/></center>
 
-> **Datama PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions.**
+> **Datama PIVOT is a data analysis tool that allows you quickly analyze your dataset to understand the importance of your dimensions on your performance, and the correlations between your dimensions. This documentation gives you an overview of how it works and how to use it.**
+
+<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_interface.png"/></center>
+<br>
 
 With Datama PIVOT, you can simplify your analysis by identifying among your many dimensions those that really have an impact on your performance:
 
@@ -20,13 +23,6 @@ With Datama PIVOT, you can simplify your analysis by identifying among your many
 * Decision tree of the most important dimensions
 * And many other features …
 
-Datama PIVOT is a dataset analysis tool that allows you to identify and understand the dimensions that have the greatest impact on the performance indicator you want to track
-
-This documentation gives you an overview of how it works and how to use it.
-
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_interface.png"/></center>
-<br>
-<br>
 You will optimize the preparation of your data analysis
 
 * **Better understanding of your dataset:** « In order to track my revenue per user, I mainly need to analyze my customer segment and the location of the points of sale. There is a strong correlation between the weather and the choice of products «

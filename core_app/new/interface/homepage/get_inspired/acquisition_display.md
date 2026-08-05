@@ -1,7 +1,7 @@
 ---
 title: Media Acquisition Analysis
 description: This use case focuses on analyzing media acquisition data for digital marketing campaigns
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -9,20 +9,20 @@ keywords: full app get inspired flow demo
 
 <br>
 
-## Overview
+# 1. Overview
 
 This use case focuses on analyzing media acquisition data for marketing campaigns, specifically examining the effectiveness of various campaigns with respect to their allocated budget. The dataset provided contains information about campaigns conducted in the current and previous month, including their budget, costs, impressions, clicks, sessions, transactions, and revenue. The analysis will help identify the most cost-effective campaigns and optimize marketing budget allocation.
 
 
 <br>
 
-## Objective
+# 2. Objective
 
 The objective of this use case is to compare the revenue composed by budgets, costs, impression, clics etc. between the last month and this month. The analysis will help the business identify patterns and trends in customer retention and attrition, allowing them to make data-driven decisions to enhance customer satisfaction and loyalty.
 
 <br>
 
-## Dataset Description
+# 3. Dataset Description
 
 The data for this use case is provided in the form of a Google Sheet containing the following columns:
 
@@ -42,7 +42,7 @@ The data for this use case is provided in the form of a Google Sheet containing 
 
 <br>
 
-### Calculate Metrics:
+## 3.1. Calculate Metrics:
 
 - **Cost per Click (CPC)**: divide the costs by the number of clicks for each campaign.
 - **Cost per Transaction (CPT)**: divide the costs by the number of transactions for each campaign.
@@ -53,11 +53,11 @@ Below is an extract of the data that has been used for this example. You can dow
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXYphkUS8WX6Wa4GZp5LBisnEOoqdLyp9darrXuIJPqmsnv_f8Tvhq_0sNX7L2uVfIaJjonTP2j8Fm/pubhtml?gid=641943488&amp;single=true&amp;widget=true&amp;headers=false" width="860" height="500"></iframe>
 
-## In Datama Compare
+# 4. In Datama Compare
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_mediaAcquisition.jpg "/></center>
 
 
-## Conclusion 
+# 5. Conclusion 
 
 By analyzing the media acquisition data and evaluating campaign performance based on the allocated budget, you can make informed decisions about optimizing marketing budget allocation. This documentation provides a step-by-step guide to perform the analysis, identify top-performing campaigns, and generate insightful reports for decision-making purposes. Remember to regularly update the dataset and reevaluate the performance metrics to ensure continuous optimization of your media acquisition strategy.

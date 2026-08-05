@@ -1,7 +1,7 @@
 ---
 title: Product - A/B test
 description: As for the other examples, the number of dimensions can be extended to all the data available from your A/B Test.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -18,6 +18,6 @@ Above is an extract of the data that has been used for this example. You can dow
 
 <br>
 
-## In Datama Compare 
+# 1. In Datama Compare 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_ProductABtest.png "/></center>

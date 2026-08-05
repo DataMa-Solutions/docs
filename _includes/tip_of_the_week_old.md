@@ -129,7 +129,7 @@ Moreover, a favorite icon ⭐, allows you to define the solution you want to ope
 With the new version of Datama comes a new Home 😃
 In addition to the existing features, you can now:
   * Organise use cases in folders with pretty emojis 📁
-  * Visually find out which sources they are connected to (under the name of your use case, there will be the logos of the sources, for example: that of two Google Sheets and one Google Analytics)
+  * Visually find out which sources they are connected to (under the name of your use case, there will be the logos of the sources, for example: that of two Google Sheets™ and one Google Analytics)
   * See when they were created/edited last
   * Add a link in the worbook description to internal documentation (by clicking on the three small dots at the bottom right and adding a URL to "Learn More...")
 ![Tip 66]({{site.url}}/{{site.baseurl}}/assets/images/tip/66.png)

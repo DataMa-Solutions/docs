@@ -1,7 +1,7 @@
 ---
 title: Retail performance
 description: This use case demonstrates the financial assessment of online and offline retail performance using a business equation instead of a conversion funnel.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -16,7 +16,7 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 <br>
 
-## In Datama Compare
+# 1. In Datama Compare
 
 Distinct from other examples, this use case is designed for financial assessment using a business equation to analyze retail performance instead of a conversion funnel.
 
@@ -35,4 +35,4 @@ The equation allows us to dissect various factors affecting business performance
 
 <br>
 
-To gain a deeper understanding of Metric Relation, [read our article]({{site.url}}/{{site.baseurl}}/core-app/header/input/metric-relation).
+To gain a deeper understanding of Metric Relation, [read our article]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).

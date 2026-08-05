@@ -1,7 +1,7 @@
 ---
 title: Workbook Management
 description: In this chapter, see details on how to use the Folders of your account
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app home workbooks management
 ---
@@ -10,7 +10,7 @@ keywords: full app home workbooks management
 
 <br>
 
-## <b>**Workbook**</b>
+# 1. Workbook
 
 
 You can access your workbooks from the home page in the "Recent" section or in folders you've created in your workspaces.
@@ -28,7 +28,7 @@ You can also manage your workbooks in the "Workbooks" page.
 
 <br>
 
-## <b>**Folders**</b>
+# 2. Folders
 
 To organize your workbooks, you can create folders in the "Workbooks" page. Simply give the folder a name and an optional icon.
 

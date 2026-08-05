@@ -25,7 +25,7 @@ keywords: Power Power BI assess get started
 
 
 
-## 1. Overview
+# 1. Overview
 This document provides detailed documentation for the "Datama Assess" plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by computing statistical significance of variations;
 
 Below is a short intro video
@@ -33,7 +33,7 @@ Below is a short intro video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AzsYD3ly1y0?si=VcGwL6jcN5uSolpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## 2. Features
+# 2. Features
 
 - **Significance calculation:** Assess the statistical significance of KPI variations with customizable level of confidence, using Welch T test method
 - **Multiple KPIs monitoring:** Based on your market equation, assess significance within unlimited number of KPIs
@@ -43,7 +43,7 @@ Below is a short intro video
 <br/>
 
 
-## 3. Add the extension into your report
+# 3. Add the extension into your report
 
 Follow one or the other steps to install the Datama plugin:
 
@@ -71,7 +71,7 @@ Follow one or the other steps to install the Datama plugin:
 
 <br>
 
-## 4. Get a free trial period
+# 4. Get a free trial period
 
 Datama extension in Power BI allows you to benefit from all features.
 
@@ -92,7 +92,7 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.
 
 <br>
 
-## 5. Getting started
+# 5. Getting started
 
 Once you've imported the extension, here is how you can use it.
 
@@ -105,28 +105,28 @@ Once you've imported the extension, here is how you can use it.
 **3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for significance assessment and define which metric you want to analyse in the market equation pane
 
 
-**4. Save settings**: Once you are happy with your settings, in the Power BI side panel, in the "Format your visual" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
+**4. Save settings**: Your customized settings and your licence key are now **automatically saved** inside the Power BI report — there is no longer any need to copy‑paste the JSON into the "Config JSON" field. If you want to migrate settings between visuals or export them, you can still click the Save button in the top‑right corner of the widget to copy the current JSON to your clipboard, then paste it into the "Config JSON" field of the target visual.
 
 **5. Leave edit mode**: In the Power BI side panel, in the "Format your visual" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
 <br/>
 
-## 6. Read your Analysis
+# 6. Read your Analysis
 
 To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
 
 
-## 7. Advanced Usage
+# 7. Advanced Usage
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 
-## 8. Support and Resources
+# 8. Support and Resources
 If you require assistance or have any questions, feel free to reach out. We're here to help!
-    - 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
-    - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
+- 📧 **Email**: Send us an email at [contact@Datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
+- 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 
 <br/>
