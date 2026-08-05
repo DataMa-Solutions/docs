@@ -164,13 +164,15 @@
 
     .page-toc {
         position: sticky;
-        height: 80vh; /* limite la hauteur pour que le scroll apparaisse */
-        overflow-y: auto; /* active le scroll vertical */
+        top: 1.5rem;
+        align-self: start;
+        max-height: calc(100vh - 3rem);
+        overflow-y: auto;
         padding: 1rem;
         border-left: 1px solid #e1e4e8;
         margin-left: 1rem;
-        scrollbar-width: thin;         /* Firefox */
-        scrollbar-color: #ccc transparent;   
+        scrollbar-width: thin;
+        scrollbar-color: #ccc transparent;
      }
 
      .page-toc::-webkit-scrollbar {

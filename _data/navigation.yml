@@ -223,6 +223,10 @@
               link: /extensions/how-to-use/excel_compare.html
               type: h4
 
+            - name: Compare on PowerPoint
+              link: /extensions/how-to-use/powerpoint_compare.html
+              type: h4
+
             - name: Settings
               link: /extensions/datama-compare/settings.html
               type: h4
@@ -317,6 +321,9 @@
               subnav:
                   - name: Pricing Plan
                     link: /extensions/how-to-use/pricing_plan_qlik.html
+            - name: Detect on PowerPoint
+              link: /extensions/how-to-use/powerpoint_detect.html
+              type: h4
             - name: Settings
               link: /extensions/datama-detect/settings.html
               type: h4
@@ -498,6 +505,10 @@
               subnav:
                   - name: Pricing Plan
                     link: /extensions/how-to-use/pricing_plan_qlik.html
+
+            - name: Assess on PowerPoint
+              link: /extensions/how-to-use/powerpoint_assess.html
+              type: h4
 
             - name: Settings
               link: /extensions/datama-assess/settings.html
@@ -737,6 +748,10 @@
               link: /extensions/how-to-use/excel_explore.html
               type: h4
 
+            - name: Explore on PowerPoint
+              link: /extensions/how-to-use/powerpoint_explore.html
+              type: h4
+
 - name: Spreadsheet
   link: /extensions/datama-spreadsheet/datama-spreadsheet.html
   type: bold
@@ -933,6 +948,20 @@
         subnav:
             - name: Compare on Excel
               link: /extensions/how-to-use/excel_compare.html
+      - name: PowerPoint
+        link: /extensions/how-to-use/powerpoint.html
+        type: h3
+        subnav:
+            - name: Compare on PowerPoint
+              link: /extensions/how-to-use/powerpoint_compare.html
+            - name: Detect on PowerPoint
+              link: /extensions/how-to-use/powerpoint_detect.html
+            - name: Assess on PowerPoint
+              link: /extensions/how-to-use/powerpoint_assess.html
+            - name: Explore on PowerPoint
+              link: /extensions/how-to-use/powerpoint_explore.html
+            - name: Privacy Policy
+              link: /extensions/how-to-use/PowerPoint/privacy-policy.html
       - name: Skills
         link: /extensions/skills/introduction.html
         type: h3

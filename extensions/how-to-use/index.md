@@ -28,6 +28,8 @@ Find below how to quick start with Datama Compare extension on visualization too
 - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
 - [In Tableau Viz Extension]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
  - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
+- [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
+- [In PowerPoint]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
 - [AI Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html) — Datama Compare and Explore from Claude, Cursor, and other Agent Skills hosts
 
 <br>
