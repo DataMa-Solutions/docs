@@ -186,10 +186,13 @@ Datama is available in English and French. By default, Datama is in English.
 
 ### 3.1.2. Colors palette for plots 
 
-Graph colors are customizable in 3 different ways:
-- Grayscale (gray levels)
-- Scattered (dispersed colors)
-- Custom (personalized)
+Graph colors can be picked from **named palettes** or customized color by color.
+
+**Named palettes** (workbook **Settings > Style** and chart **Settings > Chart > Colors**):
+
+- **Default**, **Ocean**, **Sunset** — historical palettes
+- **DataMa**, **DataMa brand**, **Modern**, **Vintage**, **High-end**, **Excel classic** — coordinated categorical palettes for waterfall semantics and series colors
+- **Custom** — refine every semantic slot and series color manually
 
 The custom method allows you to refine color by color all the graphs available in the solution.
 
@@ -209,6 +212,26 @@ To customize colors:
 
 The "Reverse palette" function allows you to invert the colors used to express growth or loss.
 This is particularly useful when you're using a "negative" KPI where an increase is not good news, and should therefore be displayed in red rather than green (like cost).
+
+<br>
+
+### 3.1.4. Chart style presets
+
+From the chart settings panel (**Settings** gear on the chart area, **Chart** scope), open the **Style** panel and pick a **Style preset**.
+
+A preset applies a coordinated look in one step: palette, typography, bar styling, axis chrome, waterfall labels, tree cards, and smart-comment typography. Available presets:
+
+- **Standard** — default DataMa look
+- **Modern** — rounded bars, airy layout, geometric sans
+- **Vintage** — framed value axis, square bars, slab serif
+- **High-end** — navy and gold, slim bars
+- **Excel classic** — Office colors, value axis on the left
+- **DataMa brand** — Business Green identity; may place the smart comment beside the chart when the comment view is pinned below it
+- **Presentation** — oversized type for screen sharing
+
+Switching preset updates chart **style** settings only. Analysis choices (dimensions, thresholds, pinned layout you built manually, table options, etc.) are left unchanged.
+
+The **Colors** scope still lets you fine-tune the active palette after a preset is applied.
 
 <br>
 
