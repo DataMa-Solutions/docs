@@ -53,3 +53,7 @@ PowerPoint is a good fit when you want to:
 <br/>
 
 To go further, open the PowerPoint solution documentation to learn how to install the add-in, export HTML from another Datama extension, and import it into your slides.
+
+<br/>
+
+Note: Learn how Datama for PowerPoint handles personal information and security in [Privacy Policy (PowerPoint Add-in)]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/PowerPoint/privacy-policy.html)

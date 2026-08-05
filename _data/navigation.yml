@@ -960,6 +960,8 @@
               link: /extensions/how-to-use/powerpoint_assess.html
             - name: Explore on PowerPoint
               link: /extensions/how-to-use/powerpoint_explore.html
+            - name: Privacy Policy
+              link: /extensions/how-to-use/PowerPoint/privacy-policy.html
       - name: Skills
         link: /extensions/skills/introduction.html
         type: h3

@@ -113,5 +113,6 @@ If you require assistance or have any questions, feel free to reach out. We're h
 - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
 - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
 - 📚 **PowerPoint overview**: [How to use Datama Light in PowerPoint]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
+- 🔒 **Privacy Policy**: Review the [HTML viewer by Datama for PowerPoint Privacy Policy]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/PowerPoint/privacy-policy.html)
 
 <br/>
