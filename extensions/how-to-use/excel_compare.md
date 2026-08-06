@@ -91,6 +91,11 @@ Once you've added the extension, here is how you can use it.
 
 **3. Launch the extension**: Click on the extension pane, select "Datama Compare" and on the right side panel, make sure the proper range of data prepared is selected. Dimensions and Metrics should be automatically identified by Datama, but you can adjust this if required. 
 
+**3b. Excel AutoFilter — Visible cells only** (enabled by default): When this toggle is on in the **Select Data Range** tab, Datama analyzes only the rows that remain visible after Excel filters (AutoFilter on a Table or a simple range). The preview refreshes automatically when you change filter checkboxes or hide/show rows. Turn the toggle off to always send the full selected range, even if Excel filters are active.
+
+- Works best with **value checkbox** filters (include-list). Date, Top N, and custom filter types may not be reflected until you disable the toggle.
+- On Excel Desktop, if the add-in surface moves when rows are hidden, right-click the Datama content object → **Format Object** → **Properties** → **Don't move or size with cells**.
+
 **4. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane. [Learn more about settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 
 **5. [Paid user only] Save settings**: Once you’re satisfied with your settings, click apply or the "Save" button on the top right corner of Datama's extension. The settings will be automatically saved in the Config JSON input of the Editor Setting tab in the right side panel. 
