@@ -212,6 +212,17 @@ This is particularly useful when you're using a "negative" KPI where an increase
 
 <br>
 
+### 3.1.4. Chart style presets
+
+In the chart settings panel (gear icon on the waterfall), the **Preset** section lets you apply a one-click visual style (Standard, Modern, Vintage, High-end, Excel classic, Datama Brand, Presentation, and others). Each preset bundles typography, padding, waterfall labels, axis ticks, and palette colors.
+
+- **Slide title** (Plotter header above the chart) shows the smart insight narrative by default in Compare.
+- **Chart title** and **Chart subtitle** are optional bands drawn inside the plot area; they stay off by default and can be enabled under **Chart title** in the same settings panel.
+
+Switching preset resets chart chrome (legends off, tick markers off, Compare-aligned padding) before applying the preset look, so returning to Standard does not leave leftover styling from a heavier preset. You can turn legends and axis markers back on in **Legends** and **Axis** after applying a preset.
+
+<br>
+
 ## 3.2. Number display 
 ### 3.2.1. Compact numbers
 
