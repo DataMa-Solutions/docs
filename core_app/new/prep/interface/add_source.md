@@ -199,18 +199,21 @@ It is then displayed the amount of data it will use in Google BigQuery.
 
 # Mail
 
-The mail allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. Now you can download those dataset into Datama and have a scheduled analysis.
+The mail source allows you to gather data from your email reports. Some ads providers send daily reports of multiple tracked KPIs. Usually, those reports are attached to a scheduled mail in your inbox. You can download those datasets into Datama and run a scheduled analysis.
 
-Instead of using your inbox to send the reports, Datama will generate one for you. Select Datama email generated in the first selector, this will generate a unique email address to use when making your scheduled reports. Copy this email address and when you are building your scheduled reports on your ads provider, use this email.
+Instead of using your personal inbox, Datama generates a unique recipient address for you. When you add an **Emails** source block in Prep, the address is loaded automatically at the top of the configuration panel. Use the copy button next to the address, then paste it as the recipient when setting up scheduled reports on your ads provider.
 
-In order for us to know which mails we are getting data from, you will be required to put the ads provider’s email in the email sender (who is sending the report usually something like noreply@acme.io ) OR an email subject (like “Your scheduled report by Acme, Inc”)
+To identify which incoming messages should be processed, fill in at least one filter:
 
-You can fill both or one of the inputs to filter out mails.
+- **Sender email** — the address that sends the report (for example `noreply@acme.io`)
+- **Subject** — a distinctive subject line (for example `Your scheduled report by Acme, Inc`)
 
-The “Data Location” section tells us where we should scrap the data from. If the data is stored in attachment, then you can set up in the advanced settings parameters like the separator, number of lines to skip etc…
+You can fill both fields or only one.
 
-If the data is stored on a remote server, try to check on your emails to see something constant in your reports url (where we should download the report from).
-For ex. if your reports are always downloaded through Amazon's server, urls will always contain 'amazonaws.com' since it's the part that doesn't change in the report url. So you can use this in the field below
+The **Data location** selector tells Datama where to extract the dataset:
+
+- **Attachment** — the report file is attached to the email. Open **Advanced settings** to configure the CSV separator, number of rows to skip, and whether processed messages should be marked as read.
+- **Link** — the report is hosted on a remote server. Enter a stable fragment of the download URL (for example `amazonaws.com` if reports are always served from Amazon S3). Datama uses this rule to find the correct link in the message body.
 
 
 <br>
