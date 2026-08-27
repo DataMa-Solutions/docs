@@ -23,4 +23,5 @@ Comment faire :
 Entièrement gratuit, en complément de vos extensions Datama existantes.
 
 ⬇️ Téléchargez le sur la [marketplace](https://marketplace.microsoft.com/fr-fr/product/WA200011636)
-📖 [Plus d'informations dans la documentation] (https://datama-solutions.github.io//docs/extensions/how-to-use/powerpoint.html)
+
+📖 [Plus d'informations dans la documentation](https://datama-solutions.github.io//docs/extensions/how-to-use/powerpoint.html)
