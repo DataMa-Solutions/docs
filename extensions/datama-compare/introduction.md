@@ -17,6 +17,8 @@ keywords: Datama light compare Compare intro introduction
 
 Serverless & easy to integrate into your tools, Datama Compare makes it easy to explain variations of any KPI between two segments.
 
+Compare is a **multi-surface workspace**: waterfall and smart comment are pinned side by side by default, with optional table and tree views, settings next to the chart, and drill-down that keeps the narrative in sync.
+
 This documentation gives you an overview of how it works and how to use it.
 
 <br>

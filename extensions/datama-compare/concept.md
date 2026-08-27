@@ -2,7 +2,7 @@
 title: Datama Compare Concepts
 layout: new-page
 scope: Datama/light/compare
-keywords: light compare concept
+keywords: light compare concept waterfall v4
 ---
 
 <br>
@@ -18,7 +18,7 @@ The Compare extension helps you identify the exact causes behind performance var
 
 Whether you're comparing different time periods or regions, this tool provides clear insights into what's driving changes.
 
-Results are presented through an intuitive waterfall chart visualization.
+Results are presented through an intuitive **waterfall** workspace: the bridge chart, smart comment, and optional **table** / **tree** surfaces stay aligned as you explore.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" style="width: 70%;" /></center>
 
@@ -76,7 +76,7 @@ Don't worry about complexity - Datama Compare lets you zoom into specific parts 
 
 # 4. How to interpret waterfall charts in Datama
 
-The waterfall chart is the core visualization tool in the extension.
+The waterfall chart is the core visualization in the extension (rebuilt on the Plotter engine with hierarchy layers and smooth open/close updates).
 
 Datama shows how each data variation affects your Key Performance Indicators (KPIs):
 
@@ -91,14 +91,24 @@ Example interpretation:
 
 <br/>
 
-To dive deeper(demonstration with another use cas but the logic is the same):
-- Click any step to see which dimension best explains its variations (In this case, we can see that Canada contributes most nagatively for the performance of transactions in this year compared to last year.)
+To dive deeper (demonstration with another use case, but the logic is the same):
+
+- Click any step to see which dimension best explains its variations (in this case, Canada contributes most negatively to transactions this year vs last year.)
+
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.gif" /></center>
-By default, the waterfall will group segments with smaller effects into the ‘Remaining’ category to simplify the view. However, you can easily examine these categories more closely by simply clicking to expand any bars labeled ‘Remaining’, like below
+
+By default, the waterfall groups segments with smaller effects into the **Remaining** category. Click a Remaining bar to expand more elements:
+
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.gif" /></center>
-- Use "Split by" (right-click) to view interest scores of other dimensions and change the display
+
+- Use **Split by** (right-click on a bar or on value / top-line labels) to view interest scores of other dimensions and change the display. Smart title, subtitle, and comment follow the active drill.
+
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.gif" /></center>
-- Each variation breaks down into mix and performance effects (explained in the next section)
+
+- Switch exploration to **Hierarchy** or **Top N** from the context menu or **Tree** settings to focus on top drivers
+- Optionally pin the **Table** view to read the same hierarchy as numbers
+- Insert **custom pillars** (right-click › Add pillar) to mark net checkpoints with End-style labels
+- Each variation can break down into mix and performance effects (explained in modeling settings)
 
 <br>
 

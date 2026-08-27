@@ -27,12 +27,12 @@ Below is a short intro video
 
 # 2. Features
 
-- **Waterfall & Tree analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
+- **Multi-view workspace:** Waterfall and smart comment pinned side by side by default, with optional table and tree views.
 - **Smart scoring engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix effect analysis:** Assess the specific impact of Mix effect on your performance metrics.
-- **Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format. 
-- **Interactive charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
-- **Customization options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
+- **Intelligent Comments:** Convert data analysis into smart, actionable insights; narrative stays in sync when you drill or Split by.
+- **Interactive charts:** Zoom, click, filter, dimension drill-down, custom pillars, and a richer right-click menu (bars and labels).
+- **Side settings panel:** Configure Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, and Table next to the viz (Apply vs live).
 
 <br/>
 
@@ -102,7 +102,7 @@ Once you've imported the extension, here is how you can use it.
 <br/>
 <center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
 
-**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
+**3. Custom settings**: Open the **side settings panel** next to the chart (collapsed by default on Compare). Use the icon rail to jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, and Table. Analysis changes require **Apply**; chart and visual options update live.
 
 **4. [Paid user only] Save settings**: Once you’re satisfied with your settings, go to the Style tab in the Looker Studio side panel and paste the JSON automatically copied to your clipboard into the Config JSON field.
 If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
@@ -127,7 +127,7 @@ Please note that no customized settings will be saved unless you complete this s
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary step analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
-- By default, the most interesting dimension will be selected for this zoomed step. You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by". You can unzoom by clicking on other steps or clicking on the box again.
+- By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom. You can also pin Table / Tree views and add custom pillars from the context menu.
 - **In-Depth exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
 
 To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
