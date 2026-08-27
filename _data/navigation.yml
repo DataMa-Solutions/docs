@@ -180,9 +180,6 @@
             - name: Interface
               link: /extensions/datama-compare/structure.html
               type: h4
-            - name: Feature
-              link: /extensions/datama-compare/feature.html
-              type: h4
             - name: Compare on Looker Studio
               link: /extensions/how-to-use/looker-studio_compare.html
               type: h4

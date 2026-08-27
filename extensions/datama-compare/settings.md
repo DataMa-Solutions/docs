@@ -29,7 +29,7 @@ Various sub-menus are available:
 | **Dimensions** | After **Apply** | Hierarchy, clustering |
 | **Market Equation** | After **Apply** | KPI definition, units, step names |
 | **Events** | After **Apply** | Calendar |
-| **Chart** | Live | Views, Header, Title, Subtitle, Comment, General, Axis, Legends |
+| **Chart** | Live | Preset, Views, Slide title, Chart title, Comment, General, Axis, Legends |
 | **Colors** | Live | Palette (semantic + chart) and Theme (application) |
 | **Tree** | Live | Theme, Cards (style / content), Operators |
 | **Waterfall** | Live | Labels, Elements (bars / links / pillars), Axis X / Y |
@@ -130,7 +130,7 @@ Contact us if you need additional languages.
 
 <br/>
 
-# 3. Modeling
+# 3. Dimensions
 
 ## 3.1. Hierachy
 
@@ -175,7 +175,9 @@ An emoji column is also available; it is added to your custom cards when you are
 
 # 5. Events
 
-Attach a **Calendar** so relevant events enrich the waterfall comment (and interest scoring) for the compared periods.
+Attach one or various **Calendar** so relevant events enrich the waterfall comment (and interest scoring) for the compared periods.
+
+
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/5_Events_settings.png"/></center>
 
@@ -193,30 +195,52 @@ The "Show event interest in comment" option allows to display the interest score
 
 # 6. Chart
 
-Chart settings control the workspace layout, narrative surfaces (header / title / subtitle / comment), Compare display behavior, axes, and legends. All Chart options apply **live**.
+Chart settings control the workspace layout, slide and chart titles, comment, Compare display behavior, axes, and legends. All Chart options apply **live**.
 
 The Chart scope is split into eight groups:
 
 | Group | Purpose |
 |:---|:---|
+| **Preset** | Ready-made style packs for the chart look & feel |
 | **Views** | Pin and arrange waterfall, comment, tree, and table |
-| **Header** | Typography for the smart title & subtitle in the header area |
-| **Title** | Plot title visibility, position, and style |
-| **Subtitle** | Plot subtitle visibility, position, and style |
+| **Slide title** | Typography for the smart title & subtitle of the slide |
+| **Chart title** | Plot title visibility, position, and style |
 | **Comment** | Comment pane visibility and typography |
 | **General** | Plot orientation, padding, behaviors, Compare & Tree defaults |
-| **Axis** | Baseline, comparison scales, scale padding |
+| **Axis** | Baseline, comparison scales, scale padding, hierarchy lines |
 | **Legends** | Legend visibility and position |
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_Charts_settings.png"/></center>
 
 <br/>
 
-## 6.1. Views
+## 6.1. Preset
+
+Apply a ready-made **style preset** to align the chart look with a presentation style in one click (colors, typography, comment layout).
+
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_1_Preset.png"/></center>
+
+Under **Style preset**, open the **Preset** dropdown and choose one of:
+
+| Preset | Typical use |
+|:---|:---|
+| **Standard** | Default balanced look |
+| **Modern** | Clean contemporary styling |
+| **Vintage** | Classic / retro visual tone |
+| **High-end** | Premium presentation style |
+| **Excel classic** | Spreadsheet-like familiar look |
+| **Datama Brand** | Business Green identity, smart comment beside the chart |
+| **Presentation** | Slide-oriented styling for sharing |
+
+A short description under the dropdown summarizes the selected preset (identity, comment placement, font). You can still refine individual Chart options after applying a preset.
+
+<br/>
+
+## 6.2. Views
 
 Compare is a **multi-view workspace**: several surfaces can stay visible at once (not tab-only).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_1_Charts_settings_views.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_2_Charts_settings_views.png"/></center>
 
 **Layout preview** shows the active panes. Drag edges to resize column spans; use **×** to unpin a view.
 
@@ -231,21 +255,21 @@ Compare is a **multi-view workspace**: several surfaces can stay visible at once
 
 Pinned panes stay in sync when you **Split by**, drill down, or drill up: title, subtitle, and comment follow the active split.
 
-Legacy Preferences toggles for hide title / plot / comment migrate automatically once to **Header** / **Views**.
+Legacy Preferences toggles for hide title / plot / comment migrate automatically once to **Slide title** / **Views**.
 
 <br/>
 
-## 6.2. Header
+## 6.3. Slide title
 
-Controls typography for the **smart title** and **subtitle** in the header area above the chart.
+Controls typography for the **smart title** and **subtitle** of the slide.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_2_Charts_settings_header.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_3_Charts_settings_slide_title.png"/></center>
 
 For **Title** and **Subtitle** independently:
 
 | Option | Description |
 |:---|:---|
-| **Display** | Show or hide the header title / subtitle |
+| **Display** | Show or hide the slide title / subtitle |
 | **Size** | Font size (defaults: title `18`, subtitle `14`) |
 | **Weight** | Font weight (default `400`) |
 | **Family** | Font family (`Inherit` uses the widget default) |
@@ -253,11 +277,11 @@ For **Title** and **Subtitle** independently:
 
 <br/>
 
-## 6.3. Title
+## 6.4. Chart title
 
-Plot-level **Title** styling (the smart title attached to the chart surface).
+Plot-level **Chart title** styling (the smart title attached to the chart surface).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_3_Charts_settings_title.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_4_Charts_settings_chart_title.png"/></center>
 
 | Option | Description |
 |:---|:---|
@@ -268,16 +292,6 @@ Plot-level **Title** styling (the smart title attached to the chart surface).
 | **Size** | Font size (e.g. `20`) |
 | **Weight** | Font weight (e.g. `400`) |
 | **Family** | Font family (`Inherit` by default) |
-
-<br/>
-
-## 6.4. Subtitle
-
-Same controls as Title, applied to the plot **Subtitle** (usually smaller / lighter).
-
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_4_Charts_settings_subtitle.png"/></center>
-
-Typical defaults: **Display** on, **Position** Top, **Align** Left, **Size** `14`, **Weight** `300`, **Family** Inherit.
 
 <br/>
 
@@ -344,7 +358,7 @@ More Tree card options live under the dedicated **Tree** settings scope.
 
 ## 6.7. Axis
 
-Axis settings control the baseline reference line, shared scales for secondary comparison, scale padding, hierarchy tree-lines, and hierarchy label layout.
+Axis settings control the baseline reference line, shared scales for secondary comparison, scale padding, hierarchy lines, and hierarchy label layout.
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_7_Charts_settings_axis.png"/></center>
 
@@ -372,7 +386,7 @@ Reference line used as visual baseline on the plot:
 | **Ratio of element size** | Relative bar / element thickness in the plot (e.g. `0.9`) |
 | **Aggregation name** | Label used for the aggregated remainder bar (default **Remaining**) |
 
-### 6.7.4. Waterfall's breakdown Tree (hierarchy tree-lines)
+### 6.7.4. Hierarchy lines
 
 Parent→child guides drawn on the hierarchy axis between tick rows:
 
