@@ -22,5 +22,5 @@ Comment faire :
 ✨ Même interactivité que dans l'extension d'origine (zoom, drill-down, filtres), avec un jeu de données figé à l'export HTML.
 Entièrement gratuit, en complément de vos extensions Datama existantes.
 
-⬇️ Téléchargez le sur la [marketplace](https://marketplace.microsoft.com/en-us/product/WA200011636)
+⬇️ Téléchargez le sur la [marketplace](https://marketplace.microsoft.com/fr-fr/product/WA200011636)
 📖 [En savoir plus] (https://datama-solutions.github.io//docs/extensions/how-to-use/powerpoint.html)
