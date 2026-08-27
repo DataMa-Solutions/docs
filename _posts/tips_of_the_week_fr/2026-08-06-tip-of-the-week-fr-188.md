@@ -19,7 +19,7 @@ Comment faire :
   * Dans une autre extension Datama (Compare, Detect, Assess et Explore), cliquez sur **Bouton d'export** ⬇️
   * Dans PowerPoint, importez via **File upload** ou collez le HTML dans **Custom code** 📥
 
-✨ Même interactivité que dans l'extension d'origine (zoom, drill-down, filtres), avec un jeu de données figé à l'export HTML.
+✨ Même interactivité que dans l'extension d'origine (zoom, drill-down, filtres), avec un jeu de données figées à l'export HTML.
 Entièrement gratuit, en complément de vos extensions Datama existantes.
 
 ⬇️ Téléchargez le sur la [marketplace](https://marketplace.microsoft.com/fr-fr/product/WA200011636)
