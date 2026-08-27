@@ -16,8 +16,11 @@ With the free **HTML viewer by Datama** PowerPoint add-in, keep Compare, Detect,
 How to use it:
 
   * Install the add-in from the PowerPoint marketplace (search for **HTML viewer by Datama** or **Datama**) 🔌
-  * In another Datama extension (Compare, Detect, Assess et Explore), click **on the Export button** ⬇️ 
-  * In PowerPoint, import via **File upload** or paste the HTML in **Custom code** 📥 
+  * In another Datama extension (Compare, Detect, Assess et Explore), click **on the Export button** ⬇️
+  * In PowerPoint, import via **File upload** or paste the HTML in **Custom code** 📥
 
-✨ Same interactivity as in the source extension (zoom, drill-down, filters)—with a fixed dataset from the HTML export. 
+✨ Same interactivity as in the source extension (zoom, drill-down, filters)—with a fixed dataset from the HTML export.
 Completely free, as a complement to your existing Datama extensions.
+
+⬇️ Download it from the [marketplace](https://marketplace.microsoft.com/en-us/product/WA200011636)
+📖 [More informations in documentation] (https://datama-solutions.github.io//docs/extensions/how-to-use/powerpoint.html)
