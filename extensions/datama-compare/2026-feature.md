@@ -1,6 +1,6 @@
 ---
-title: Compare Feature 2026
-description: Highlight of the new main features available in Datama Compare
+title: New feature in the redesign Compare 09-2026
+description: Highlight of the new main features available in Datama redesigned Compare
 layout: new-page
 scope: Datama/light/compare
 keywords: light compare features
@@ -8,31 +8,14 @@ keywords: light compare features
 
 <br/>
 
-> **This page highlights the main capabilities of Datama Compare**, grouped by algorithm, display, and UI / UX.  
+> **This page highlights the main new capabilities of Datama Compare**, grouped by algorithm, display, and UI / UX.  
 > For detailed controls, see [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
 
 <br/>
 
 # 1. Algorithm
 
-## 1.1. Infinite drill-down
-
-**Infinite drill-down** applies when you are on "**Dimension then Dimension**" analysis method. From that point, you can keep splitting into further dimensions without a fixed depth limit.
-
-- Open a **dimension** on the waterfall, then **Split by** a dimension
-- Continue drilling into other dimensions as deep as your data allows
-- Drill into / drill up stay fluid (bars morph in place)
-- Smart title, subtitle, and comment follow the active split
-
-Limit apply when:
-- Your market equation is simple (Sum of the steps or Prod of the steps)
-- Your market equation is complex (with different operators) and you provide a column that matches to the results of the market equation (this column should not be used in the market equation but be provided in the metrics fields of your extension) 
-And 
-- When a **step block** is open the "infinite drill down" stops.
-
-<br/>
-
-## 1.2. Dimensions then Steps or Dimensions 
+## 1.1. Dimensions then Steps or Dimensions 
 
 Under **Modeling › Analysis method**, choose how the waterfall explores your data:
 
@@ -48,9 +31,25 @@ Under **Modeling › Analysis method**, choose how the waterfall explores your d
 
 See [Settings › Modeling › Analysis method]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#21-analysis-method).
 
+### Infinite drill-down
+
+**Infinite drill-down** applies when you are on **Dimensions then Steps or Dimensions** and keep exploring via **Split by** on dimensions. From that point, you can keep splitting into further dimensions without a fixed depth limit.
+
+- Open a **dimension** on the waterfall, then **Split by** a dimension
+- Continue drilling into other dimensions as deep as your data allows
+- Drill into / drill up stay fluid (bars morph in place)
+- Smart title, subtitle, and comment follow the active split
+
+Limits apply when:
+
+- Your market equation is simple (sum of the steps or product of the steps)
+- Your market equation is complex (with different operators) and you provide a column that matches the results of the market equation (this column should not be used in the market equation but be provided in the metrics fields of your extension)
+
+And when a **step block** is open, infinite drill-down stops.
+
 <br/>
 
-## 1.3. Dimension hierarchy
+## 1.2. Dimension hierarchy
 
 When dimensions have a natural order (e.g. Country → Region → City, or Universe → Family → Product), define a **hierarchy** in Dimensions settings.
 

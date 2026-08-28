@@ -105,10 +105,32 @@ Control which reference the dynamic comparison uses (apply only if the indice to
 ## 2.1. Analysis method
 
 Choose how your waterfall explores your data. Three options are available:
-  * **Auto** (default): compute both of the following method and shows the most interesting one. 
-  * **Steps then Dimensions**: starts from the market equation steps and then drill down on the different dimensions
-  * **Dimensions then Steps or Dimensions**: starts from the most interesting dimension and drill down by segment of that dimension and the you can explore the segment either by the market equation steps or by another dimension.
 
+| Method | Behavior |
+|:---|:---|
+| **Auto** (default) | Computes both approaches and shows the most interesting one |
+| **Steps then Dimensions** | Starts from market-equation steps, then drills into dimensions |
+| **Dimensions then Steps or Dimensions** | Starts from the strongest dimension, then explores that segment via steps **or** another dimension |
+
+**Dimensions then Steps or Dimensions** is especially useful when the first question is *which segment moved?* before *which KPI step moved?*.
+
+### Infinite drill-down
+
+**Infinite drill-down** applies when **Dimensions then Steps or Dimensions** is selected and you keep exploring via **Split by** on dimensions. From that point, you can keep splitting into further dimensions without a fixed depth limit.
+
+- Open a **dimension** on the waterfall, then **Split by** a dimension
+- Continue drilling into other dimensions as deep as your data allows
+- Drill into / drill up stay fluid (bars morph in place)
+- Smart title, subtitle, and comment follow the active split
+
+Limits apply when:
+
+- Your market equation is simple (sum of the steps or product of the steps)
+- Your market equation is complex (with different operators) and you provide a column that matches the results of the market equation (this column should not be used in the market equation but be provided in the metrics fields of your extension)
+
+And when a **step block** is open, infinite drill-down stops.
+
+<br/>
 
 ## 2.2. Comment depth
 
