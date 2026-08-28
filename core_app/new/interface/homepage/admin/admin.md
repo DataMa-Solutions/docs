@@ -21,6 +21,7 @@ This chapter gathers different features shared amongst the homepage, such as:
 2. [Extensions](#2-extensions)
 3. [Statistics](#3-statistics)
 4. [Workbook Limits](#4-workbook-limits)
+5. [Credentials Management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/credentials_management.html)
 
 <br>
 
