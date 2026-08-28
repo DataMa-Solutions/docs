@@ -31,6 +31,7 @@ Find below how to quick start with Datama Compare extension on visualization too
 - [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
 - [In PowerPoint]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
 - [AI Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html) — Datama Compare and Explore from Claude, Cursor, and other Agent Skills hosts
+- [Download as HTML]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/export_as_html.html) — export a self-contained snapshot of your analysis
 
 <br>
 
