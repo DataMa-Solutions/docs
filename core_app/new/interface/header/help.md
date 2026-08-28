@@ -10,7 +10,9 @@ keywords: full app header menu help
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/help_menu.png"/></center>
 
-- **Search** : open a search bar to find keywords in Workbooks, Get Inspired, and Documentation.
+- **Search** : open a search bar to find keywords in Workbooks, Get Inspired, and Documentation. You can also press **Ctrl+F** from the dashboard.
+  - **Documentation** mode (book icon): type to search across workbooks, news, and documentation pages. Results update as you type.
+  - **AI** mode (brain icon): ask a question in natural language, then press **Enter** to get an AI-generated answer based on the Datama documentation.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/search_bar.png"/></center>
 
 - **Tutorials** : launch the dynamic tutorials to help you use the solutions
