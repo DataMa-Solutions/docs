@@ -24,11 +24,11 @@ The dataset is embedded in the HTML at export time, so the analysis stays self-c
 
 # 2. Features
 
-- **Waterfall & Tree analysis:** Build waterfall charts and a performance tree to inspect step-by-step how your KPIs evolve.
+- **Multi-view workspace:** Waterfall and smart comment together, with optional table and tree views from the source export.
 - **Smart scoring engine:** Highlights the main drivers behind variations so you can focus on what matters most.
 - **Mix effect analysis:** Quantifies how Mix effect contributes to your performance changes.
 - **Intelligent Comments:** Summarizes the analysis and turns it into readable, actionable recommendations.
-- **Interactive charts:** Zoom, filter, click, and drill down—also available during PowerPoint presentation mode.
+- **Interactive charts:** Zoom, filter, click, dimension drill-down, and richer right-click actions—also available during PowerPoint presentation mode.
 - **Customization options:** Keep the colors, units, fonts, and chart settings defined in the source extension.
 
 
@@ -88,7 +88,7 @@ The Compare visualization appears on the slide. It remains interactive in edit m
 Once content is loaded, hover the top of the add-in to reveal editing controls:
 
 - **Edit HTML** — opens the HTML editor so you can update the source code directly. Useful for more technical users who want to tweak or replace the embedded HTML without re-exporting from another tool.
-- **Edit mode** — turns on the full Datama editing experience (header and settings). From there you can adjust the analysis options, use the **Save** button to persist changes in the presentation, and open the link to the Datama documentation.
+- **Edit mode** — turns on the full Datama editing experience (settings next to the chart). From there you can adjust analysis and waterfall workspace options, use the **Save** button to persist changes in the presentation, and open the link to the Datama documentation.
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/PowerPoint_edit_options.png" alt="Edit HTML and Edit mode controls in PowerPoint"/></center>
 
@@ -98,8 +98,8 @@ Once content is loaded, hover the top of the add-in to reveal editing controls:
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension.
 - **Intermediary step analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI.
-- By default, the most interesting dimension is selected for the zoomed step. Right-click segments and use **split by** to change dimension; click again or select another step to unzoom.
-- **In-Depth exploration**: Click a step to explore the underlying dimensions that best explain performance variances.
+- By default, the most interesting dimension is selected for the zoomed step. Right-click a bar **or** a value / top-line label and use **Split by** to change dimension; drill up or select another step to unzoom.
+- **In-depth exploration**: Click a step to explore the underlying dimensions that best explain performance variances. Custom pillars and pinned table / tree views follow the source export when present.
 
 To discover more about how to read a Waterfall, see our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html).
 

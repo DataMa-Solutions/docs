@@ -21,12 +21,12 @@ Watch this video to properly understand our extension and how to use it.
 <br/>
 
 # 2. Features
-- **Waterfall & Tree Analysis:** Explore detailed waterfall charts, complemented by a performance tree, for in-depth data examination.
+- **Multi-view workspace:** Waterfall and smart comment pinned side by side by default, with optional table and tree views.
 - **Smart Scoring Engine:** Automatically identifies and displays key factors that explain performance variations, simplifying complex data.
 - **Mix Effect Analysis:** Assess the specific impact of Mix effect on your performance metrics.
-**Intelligent Comments:** Convert data analysis into smart, actionable insights, presented in a consolidated and understandable format. 
-- **Interactive Charts:** Engage with your data through zoom, click, filter, and drill-down options for deeper exploration.
-- **Customization Options:** Tailor your experience with adjustable colors, units, fonts, and chart types.
+- **Intelligent Comments:** Convert data analysis into smart, actionable insights; narrative stays in sync when you drill or Split by.
+- **Interactive Charts:** Zoom, click, filter, dimension drill-down, custom pillars, and a richer right-click menu (bars and labels).
+- **Side settings panel:** Configure Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, and Table next to the viz (Apply vs live).
 
 <br/>
 
@@ -103,7 +103,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-**3. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane
+**3. Custom settings**: Open the **side settings panel** next to the chart (collapsed by default on Compare). Use the icon rail to jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, and Table. Analysis changes require **Apply**; chart and visual options update live.
 
 **4. Save settings**: If you have a paid licence, settings will be automatically saved along with your dashboard. O
 
@@ -115,8 +115,8 @@ Once you've imported the extension, here is how you can use it.
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary Step Analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
-- By default, the most interesting dimension will be selected for this zoomed step. You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by". You can unzoom by clicking on other steps or clicking on the box again.
-- **In-Depth Exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
+- By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom.
+- **In-depth exploration**: Click a step to open the strongest drivers. You can pin the **Table** or **Tree** view, add **custom pillars**, and keep comment / title in sync with the active split.
 
 To discover more about how to read Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
@@ -124,7 +124,7 @@ To discover more about how to read Waterfall, you can read our [dedicated sectio
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare//settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

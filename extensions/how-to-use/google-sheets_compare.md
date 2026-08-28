@@ -24,12 +24,12 @@ The video below walks you through the basics.
 
 # 2. Features
 
-- **Waterfall & Tree analysis:** Build waterfall charts and a performance tree from your sheet data to inspect step-by-step how your KPIs evolve.
+- **Multi-view workspace:** Waterfall and smart comment together by default, with optional table and tree views.
 - **Smart scoring engine:** Highlights the main drivers behind variations so you can focus on what matters most.
 - **Mix effect analysis:** Quantifies how Mix effect contributes to your performance changes.
-- **Intelligent Comments:** Summarizes the analysis and turns it into readable, actionable recommendations.
-- **Interactive charts:** Zoom, filter, click, and drill down to explore your data in depth.
-- **Customization options:** Adjust colors, units, fonts, and chart types to match your report.
+- **Intelligent Comments:** Summarizes the analysis and turns it into readable, actionable recommendations that stay in sync on drill / Split by.
+- **Interactive charts:** Zoom, filter, click, dimension drill-down, custom pillars, and a richer right-click menu (bars and labels).
+- **Customization options:** Adjust comparison, modeling, market equation, colors, labels, and chart display to match your report.
 
 <br/>
 
@@ -91,7 +91,7 @@ Once you've added the extension, here is how you can use it.
 
 **3. Launch the extension**: Click on the extension pane, select "Datama Compare" and on the right side panel, make sure the proper range of data prepared is selected. Dimensions and Metrics should be automatically identified by Datama, but you can adjust this if required. Then hit the "See Chart" Button
 
-**4. Custom settings**: Click on the "Settings" icon on the top right corner of Datama's widget. You can adjust the methodology for comparison explanation and define which metric you want to analyse in the market equation pane. [Learn more about settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
+**4. Custom settings**: Configure the analysis (comparison, modeling, market equation) and the waterfall workspace (Views, Labels, Elements, Colors, Tree, Table). Analysis changes require **Apply** where shown; visual options update live. [Learn more about settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
 
 **5. [Paid user only] Save settings**: Once you’re satisfied with your settings, click apply or the "Save" button on the top right corner of Datama's extension. The settings will be automatically saved in the Config JSON input of the Editor Setting tab in the right side panel. 
 
@@ -104,8 +104,8 @@ Once you've added the extension, here is how you can use it.
 
 - **Performance Overview**: Each blue bar represents the performance of your main KPI, using your chosen comparison dimension. helping you quickly gauge performance across different segments.
 - **Intermediary step analysis**: Intermediary steps depict the ratio evolution of your KPI. The impact is quantified in the units of your main KPI, allowing for a consistent measurement of progress or regression.
-- By default, the most interesting dimension will be selected for this zoomed step. You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by". You can unzoom by clicking on other steps or clicking on the box again.
-- **In-Depth exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
+- By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom.
+- **In-depth exploration**: Click a step to open the strongest drivers. You can pin the **Table** or **Tree** view, add **custom pillars**, and keep comment / title in sync with the active split.
 
 To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
