@@ -40,5 +40,22 @@ The main panel is where you can create and manage your flow. This panel helps yo
 
 # 4. Sample panel
 
-The sample panel is a small extract (~8 to 10 lines) of your dataset. When a block is selected on the main panel the sample panel will show the extract (sample) of the selected blocks along with information about data type for each column, the sum/count etc…
+When a block is selected on the main panel, the sample panel at the bottom of the canvas shows a preview of that block's output data.
+
+## Sample view
+
+- Displays a **preview of approximately 8 to 10 rows** from the dataset (configurable up to 100 rows).
+- Each column header shows the **column name**, **data type** (text, number, date, etc.), and a **summary statistic** from the full dataset (for example sum for numeric columns, count for text columns).
+- Click a column header to **sort** the preview rows (ascending, descending, then reset).
+- Use the row limit input to change how many preview rows are displayed.
+
+## Unique view
+
+Switch to **Unique** to inspect column-level summaries computed on the **full dataset** (not only the preview rows):
+
+- **Numeric columns**: sum, min, mean, and max.
+- **Date columns**: start and end dates.
+- **Text / categorical columns**: list of unique values with their count.
+
+> The download action (JSON, CSV, XLSX, Arrow) is documented separately and fetches the full dataset from the server.
 
