@@ -39,15 +39,25 @@ Just use the setting ribbon on the top bar and apply as you would do in Excel or
 
 # 3. JSON config persistence
 
-As for other Datama solutions, Datama Spreadsheet settings are saved through Datama standard JSON config logic, using the save button
+As for other Datama solutions, Datama Spreadsheet settings are saved through Datama standard JSON config logic.
+
+- In **Tableau Viz**, edits are **auto-saved** after a short delay (formatting, filters, column order, extra sheets, and so on). You can still use the **Save** button to persist immediately.
+- In other BI hosts, use the **Save** button in the top bar to persist your configuration.
 
 This JSON config is used to persist extension settings and restore them across sessions. It is not intended to be manually edited.
+
+### Column order (Tableau Viz)
+
+In Tableau, spreadsheet columns follow the **order of fields on the Marks card** (Rows, Columns, Detail, Measures, and so on), not a fixed comparison → dimensions → metrics grouping.
+
+- If you **reorder columns inside the spreadsheet**, that manual order is kept across data refreshes.
+- If you **change the field layout on the Marks card**, the spreadsheet adopts the new Tableau order and any saved manual column order is reset.
 
 Config reload depends on whether the cell is **inside** or **outside** the viz data range.
 
 ### Inside the viz range (cells fed by the viz tool)
 
-- **Only formatting is saved** — font, color, background, borders, number format, alignment, conditional formatting.
+- **Only formatting is saved** — font, color, background, borders, number format, alignment, conditional formatting, alternating row colors, column filters, and hidden row/column states.
 - **Values and formulas are not saved.** The viz tool is the source of truth, so on reload cells refresh with the latest data.
 - If you type a hard value or a formula over a viz cell, you'll see a warning: that change will be lost on reload. When many cells are affected at once (e.g. inserting a row), the warnings are grouped into a single notification.
 - Formatting survives column reordering and viz data changes. If a row disappears from the viz, its formatting is dropped.
@@ -56,6 +66,10 @@ Config reload depends on whether the cell is **inside** or **outside** the viz d
 
 - **Everything is saved** — values, formulas, and formatting.
 - **Formulas are re-computed on reload** against the fresh viz data. For example, `=SUM(B2:B10)` referencing the viz range always reflects the current values, not the values at save time.
+
+### Extra worksheets
+
+If you add worksheets beyond the primary data sheet, their content and formatting are also persisted in the JSON config (Tableau Viz auto-save included).
 
 <br>
 
