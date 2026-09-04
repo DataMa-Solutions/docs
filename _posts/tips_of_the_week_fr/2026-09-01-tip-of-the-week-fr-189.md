@@ -13,10 +13,10 @@ layout: post
 
 La version redesignée arrive dans les **extensions marketplace** (Power BI, Tableau, Looker Studio, Qlik, Excel, etc.). Ce qui change tout :
 
-* **Infinite Drill down** — explorez par **dimension** ou par **étape**, aussi profond que vos données le permettent et un commentaire qui suit chaque évolution de la waterfall.
-* **Racontez votre histoire** — ajoutez des **piliers** sur la waterfall (« Après mix », « Après prix ») et définissez des **hiérarchies de dimensions** (Pays → Région → Ville) en quelques clics
-* **Un seul workspace** — Waterfall, Table, Tree et commentaire côte à côte ; chaque survol et chaque 'drill down' restent synchronisés
-* **Les settings à portée de clic** — clic droit sur une barre, barre d’actions au survol, ou panneau latéral avec recherche ; plus besoin de chercher le bon paramètre
+* **Infinite Drill down** : explorez par **dimension** ou par **étape**, aussi profond que vos données le permettent et un commentaire qui suit chaque évolution de la waterfall.
+* **Racontez votre histoire** : ajoutez des **piliers** sur la waterfall (« Après mix », « Après prix ») et définissez des **hiérarchies de dimensions** (Pays → Région → Ville) en quelques clics
+* **Une seule vue** : Waterfall, Table, Tree et commentaire côte à côte ; chaque survol et chaque 'drill down' restent synchronisés
+* **Les settings à portée de clic** : clic droit sur une barre, barre d’actions au survol, ou panneau latéral avec recherche ; plus besoin de chercher le bon paramètre
 
 👉 Ouvrez Compare dans votre outil BI préféré et testez la différence. Même sécurité serverless, **beaucoup plus de puissance** sous la main.
 

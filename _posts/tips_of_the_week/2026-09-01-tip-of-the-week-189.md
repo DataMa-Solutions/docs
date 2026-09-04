@@ -13,10 +13,10 @@ layout: post
 
 The redesigned Compare is now rolling out in **marketplace extensions** (Power BI, Tableau, Looker Studio, Qlik, Excel, and more). Here is what changes the game:
 
-* **Drill without limits** — explore by **dimension** or by **step**, as deep as your data goes, with smooth morphing bars and a narrative that follows every split
-* **Stage your story** — drop custom **pillars** on the waterfall (“After mix”, “After price”) and define **dimension hierarchies** (Country → Region → City) in seconds
-* **One workspace, zero friction** — pin Waterfall, Table, Tree, and Comment side by side; every hover and drill stays in sync
-* **Settings where you need them** — right-click any bar, use the hover shortcut bar, or open the searchable side panel; no more hunting for the right toggle
+* **Drill without limits** : explore by **dimension** or by **step**, as deep as your data goes, with smooth morphing bars and a narrative that follows every split
+* **Stage your story** : drop custom **pillars** on the waterfall (“After mix”, “After price”) and define **dimension hierarchies** (Country → Region → City) in seconds
+* **One view** : pin Waterfall, Table, Tree, and Comment side by side; every hover and drill stays in sync
+* **Settings where you need them** : right-click any bar, use the hover shortcut bar, or open the searchable side panel; no more hunting for the right toggle
 
 👉 Open Compare in your favorite BI tool and feel the difference. Same serverless security, **far more power** at your fingertips.
 
