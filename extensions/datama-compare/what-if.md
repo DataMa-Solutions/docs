@@ -20,6 +20,8 @@ Under the hood, each scenario is materialised as **extra rows** tagged by a synt
 
 The Datama web app also offers a **What If** block in Prep, which writes a transformed dataset. In Light, scenarios are applied **inside** the extension instead.
 
+<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/What_if.gif" alt="What If scenario simulation in Datama Compare" /></center>
+
 <br/>
 
 # Where it is available

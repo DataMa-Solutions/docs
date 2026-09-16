@@ -1,6 +1,6 @@
 ---
 feed: totw_en
-title:  "Tip of the week 191: What If scenarios, Sub-steps, and Covariance under control"
+title:  "Tip of the week 191: New features on the Compare extension"
 date:   2026-09-17 08:00:00 +0200
 img_url: /assets/images/tip/191.gif
 img_type: image/gif

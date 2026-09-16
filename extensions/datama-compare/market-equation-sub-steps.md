@@ -80,6 +80,8 @@ On a **composite** step bar (typically in **Steps then Dimensions**):
 
 For a **non-simplifiable** step, **Sub-steps** is the only split entry offered.
 
+<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Sub_steps.gif" alt="Split by Sub-steps on the Datama Compare waterfall" /></center>
+
 <br/>
 
 # Tips
