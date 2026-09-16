@@ -230,6 +230,12 @@
             - name: Settings
               link: /extensions/datama-compare/settings.html
               type: h4
+            - name: What If scenarios
+              link: /extensions/datama-compare/what-if.html
+              type: h4
+            - name: Market equation Sub-steps
+              link: /extensions/datama-compare/market-equation-sub-steps.html
+              type: h4
 
 - name: Detect #done
   link: /core_app/new/detect/detect.html

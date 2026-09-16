@@ -213,3 +213,13 @@ See [Settings › Market Equation]({{site.url}}/{{site.baseurl}}/extensions/data
 | **Shift + T** | Switch from the Waterfall to the Tree |
 
 <br/>
+
+# 4. Related documentation
+
+| Topic | Page |
+|:---|:---|
+| **What If** scenarios | [What If in Datama Light]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
+| **Market equation Sub-steps** | [Sub-steps guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) |
+| Covariance controls & Remaining ranking | [Settings › Modeling › Covariance]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#24-covariance) · [Items displayed]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#664-compare) |
+
+<br/>
