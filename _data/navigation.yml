@@ -397,6 +397,13 @@
                         #   link: /core_app/new/pivot/interface/subheader/settings.html#comparison
                         # - name: KPI
                         #   link: /core_app/new/pivot/interface/subheader/settings.html#kpi
+      - name: Pivot extensions
+        link: /extensions/datama-pivot/introduction.html
+        type: h3
+        subnav:
+            - name: Introduction (Light alpha)
+              link: /extensions/datama-pivot/introduction.html
+              type: h4
 - name: Assess #done
   link: /core_app/new/assess/assess.html
   type: bold
