@@ -8,7 +8,7 @@ keywords: light compare settings waterfall v4 plotter
 
 <br/>
 
-> Datama Compare uses a **side settings panel** next to the chart. Analysis options (Comparison, Modeling, Market Equation) require **Apply**. Visual options (Chart, Colors, Waterfall, Tree, Table) update **live**.
+> Datama Compare uses a **side settings panel** next to the chart. Analysis options (Comparison, Modeling, Market Equation, What If) require **Apply**. Visual options (Chart, Colors, Waterfall, Tree, Table) update **live**.
 
 <br/>
 
@@ -25,9 +25,10 @@ Various sub-menus are available:
 | Scope | When it applies | Typical content |
 |:---|:---|:---|
 | **Comparison** | After **Apply** | Primary / secondary comparison, indices |
-| **Modeling** | After **Apply** | Analysis method, comment depth, mix & perf, language |
+| **Modeling** | After **Apply** | Analysis method, comment depth, mix & perf, covariance, language |
 | **Dimensions** | After **Apply** | Hierarchy, clustering |
-| **Market Equation** | After **Apply** | KPI definition, units, step names |
+| **Market Equation** | After **Apply** | KPI definition, card editor, sub-steps, units |
+| **What If** | After **Apply** | Scenario simulation (baseline + KPI impacts) — see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Events** | After **Apply** | Calendar |
 | **Chart** | Live | Preset, Views, Slide title, Chart title, Comment, General, Axis, Legends |
 | **Colors** | Live | Palette (semantic + chart) and Theme (application) |
@@ -145,7 +146,22 @@ Control how the mix effect is attributed. Default is "Never". Select "Auto" to l
 
 {% include embed_totw.html num=184 %}
 
-## 2.4. Language
+## 2.4. Covariance
+
+Covariance is the share of the gap that no single step explains alone. Background: [Covariance concept]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html).
+
+Under **Modeling › Covariance**:
+
+| Option | Description |
+|:---|:---|
+| **Separate covariance** | **Never** (default), **Auto**, or **Always**. When active, each step keeps its own gap and the residual is shown on a dedicated **Covariance** bar at the end of the waterfall (not clickable, not narrated, not available as a pillar anchor). **Auto** only isolates it when the residual exceeds the threshold (default **20%** of the total gap). |
+| **Threshold** | Used by **Auto** for separate covariance (default `20`). |
+
+When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel (**Auto** / **Always** / **Never**). That per-step field is hidden while Separate covariance is active.
+
+If covariance exceeds its warning threshold (default **40%**), the slide subtitle shows a yellow note inviting you to check whether Start and End are truly comparable.
+
+## 2.5. Language
 
 Language sits with analysis preferences under **Modeling**. French, Deutsch, and English are available. 
 Contact us if you need additional languages.
@@ -179,9 +195,9 @@ Edit the KPI definition and market equation so the analysis matches your busines
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/4_Market_equation_settings.png"/></center>
 
-Market relation defines how metrics from your datasource combine to compute the KPI you want to explain. Here, you can modify the equation, choose units, rename steps, set thresholds, and exclude or focus dimensions.
+Market relation defines how metrics from your datasource combine to compute the KPI you want to explain. Steps are edited as an indented **card outline**: rename steps, set units, focus / exclude dimensions, emoji, and nest **sub-steps**.
 
-The Market Equation layout is compact to fit the settings rail. Step edits are tracked as dirty and require **Apply** before recomputation.
+The Market Equation layout is compact to fit the settings rail — expand the panel to **full width** for deep trees. Step edits are tracked as dirty and require **Apply** before recomputation.
 
 - By default, Datama uses a product of ratios (prod) across all steps in the market equation. You can switch to a "sum" when your KPI is additive (e.g. Revenue = Revenue_France + Revenue_UK + Revenue_US).
 
@@ -191,7 +207,9 @@ The Market Equation layout is compact to fit the settings rail. Step edits are t
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
 
-An emoji column is also available; it is added to your custom cards when you are in ‘Tree’ view.
+- Hover a card → **Edit this step** (detail panel: formula, optional focus / exclude, emoji), **Add a sub-step**, indent / outdent / reorder.
+- An emoji on a step is shown on Tree cards.
+- Full guide: [Market equation Sub-steps]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) (including **Split by › Sub-steps** on the waterfall). Do not confuse with [Sub-pillars]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html#22-sub-pillars).
 
 <br/>
 
@@ -367,7 +385,8 @@ Margins around the plot area: **Top**, **Right**, **Bottom**, **Left** (in pixel
 | **Waterfall measure** | How step impacts are expressed on the bridge (e.g. **Impact**). Also via context menu **Compare › Displayed value** |
 | **Secondary comparison** | Layout of the second waterfall: **On right**, above / below, or overlay. Also via context menu |
 | **Open biggest / focused element by default** | Auto-expand the most relevant step on load |
-| **Number of bars displayed before remaining** | How many segments show before aggregation into **Remaining** (default `4`). Click Remaining to expand more |
+| **Number of bars displayed before remaining** (**Items displayed**) | How many bars stay visible before aggregation into **Remaining** (default **`6`**, max `50`). Visible bars are the **N most impacting** ones by absolute impact. Click **Remaining** to expand; right-click **Regroup remaining** to collapse again |
+| **Group equation steps** | When **off** (default), market-equation step bars are never folded into Remaining. Turn **on** to allow grouping them like other bars |
 
 ### 6.6.5. Tree
 
@@ -658,7 +677,9 @@ Right-click a **bar**, a **value label**, or a **top-line label** to open the co
 |:---|:---|
 | **Expand first driver** | Automatically open the strongest driver step on the waterfall |
 | **Displayed value** | Choose how values are shown on the chart (impact, volume, %, etc.) |
-| **Split by…** | Change the dimension used to explain the selected step or segment |
+| **Split by…** | Change the dimension used to explain the selected step or segment — includes **Sub-steps** on composite market-equation steps |
+| **Regroup remaining** | Collapse an expanded **Remaining** group back into one bar |
+| **What If** | Create / open a scenario from the selected bar (baseline and scope prefilled) — see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Connectors** | Show or hide the links between waterfall steps, with styling options in the submenu |
 | **Add event** | Create a calendar event from the selected bar / period |
 | **Hide event** | Hide calendar events related to the current selection |

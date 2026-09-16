@@ -97,7 +97,7 @@ To dive deeper (demonstration with another use case, but the logic is the same):
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.gif" /></center>
 
-By default, the waterfall groups segments with smaller effects into the **Remaining** category. Click a Remaining bar to expand more elements:
+By default, the waterfall keeps the **N most impacting** bars visible (absolute impact; default **N = 6**) and groups the rest into **Remaining**. Market-equation steps stay outside Remaining unless you enable **Group equation steps**. Click a Remaining bar to expand more elements; right-click **Regroup remaining** to collapse again:
 
 <center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.gif" /></center>
 

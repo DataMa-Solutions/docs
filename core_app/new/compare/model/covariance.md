@@ -55,3 +55,15 @@ We put a flag (!) when Covariance gets high (>30%), but the analysis remains tru
 
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/compare_covariance.png"/></center>
+
+<br>
+
+# 3. Controls in Datama Light
+
+In Datama Light (marketplace Compare) you can decide **how** covariance is distributed:
+
+- **Separate covariance** (Never / Auto / Always + threshold) — keep the residual on a dedicated waterfall bar
+- **Per-step policy** (Auto / Always / Never) when covariance is not separated
+- Slide subtitle **warning** when the share is high (default threshold **40%**)
+
+See [Settings › Modeling › Covariance]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#24-covariance).
