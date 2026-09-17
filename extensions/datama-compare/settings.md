@@ -157,7 +157,7 @@ Under **Modeling › Covariance**:
 | **Separate covariance** | **Never** (default), **Auto**, or **Always**. When active, each step keeps its own gap and the residual is shown on a dedicated **Covariance** bar at the end of the waterfall (not clickable, not narrated, not available as a pillar anchor). **Auto** only isolates it when the residual exceeds the threshold (default **20%** of the total gap). |
 | **Threshold** | Used by **Auto** for separate covariance (default `20`). |
 
-When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel (**Auto** / **Always** / **Never**). That per-step field is hidden while Separate covariance is active.
+When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel — see [Market Equation](#4-market-equation) below. That per-step field is hidden while Separate covariance is active.
 
 If covariance exceeds its warning threshold (default **40%**), the slide subtitle shows a yellow note inviting you to check whether Start and End are truly comparable.
 
@@ -210,6 +210,12 @@ The Market Equation layout is compact to fit the settings rail — expand the pa
 - Hover a card → **Edit this step** (detail panel: formula, optional focus / exclude, emoji), **Add a sub-step**, indent / outdent / reorder.
 - An emoji on a step is shown on Tree cards.
 - Full guide: [Market equation Sub-steps]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) (including **Split by › Sub-steps** on the waterfall). Do not confuse with [Sub-pillars]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html#22-sub-pillars).
+
+### Covariance (per step)
+
+When **Separate covariance** is off under [Modeling › Covariance](#24-covariance), each step can define how it absorbs the residual gap. Open **Edit this step** on a card: at the bottom of the detail panel, set **Covariance** to **Auto**, **Always**, or **Never**. This per-step control is hidden while Separate covariance is active.
+
+<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Covariance_settings.png" alt="Per-step Covariance setting in the Market Equation detail panel" /></center>
 
 <br/>
 
