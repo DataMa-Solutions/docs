@@ -157,7 +157,7 @@ Under **Modeling › Covariance**:
 | **Separate covariance** | **Never** (default), **Auto**, or **Always**. When active, each step keeps its own gap and the residual is shown on a dedicated **Covariance** bar at the end of the waterfall (not clickable, not narrated, not available as a pillar anchor). **Auto** only isolates it when the residual exceeds the threshold (default **20%** of the total gap). |
 | **Threshold** | Used by **Auto** for separate covariance (default `20`). |
 
-When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel — see [Market Equation](#4-market-equation) below. That per-step field is hidden while Separate covariance is active.
+When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel. See [Market Equation](#4-market-equation) below. That per-step field is hidden while Separate covariance is active.
 
 If covariance exceeds its warning threshold (default **40%**), the slide subtitle shows a yellow note inviting you to check whether Start and End are truly comparable.
 
