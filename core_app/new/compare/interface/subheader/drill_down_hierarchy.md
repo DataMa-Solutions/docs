@@ -14,17 +14,20 @@ keywords: full app compare drill down hierarchy
 
 # 1. General usage
 
-The drill down input can be defined in Settings > Drill down hierarchy.
-It allows to define the methodology to break down main KPI variation.
-3 options are available:
-* By Steps then Dimensions
-* By Dimensions then Steps
-* Auto
+The analysis method can be defined in **Settings > Modeling > Analysis method**.
+It allows you to define the methodology to break down the main KPI variation.
+Three options are available:
+* **Steps then Dimensions** (default legacy behaviour)
+* **Dimensions then Steps or Dimensions** (dimension-first, with recursive drill down)
+* **Auto** (computes both approaches and selects the most interesting one)
+
+The dimension exploration order is configured separately in **Settings > Dimensions**, using an indented hierarchy editor. You can organize dimensions as parent/child levels and **pin one dimension per level** to force it to be explored first within that level, regardless of interest score.
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_setting.png"></center>
 
-Once activated (i.e. default value is "Steps then Dimensions"), Datama uses what is calculated as the most interesting drill down. 
-Yet, you can manually change the drill down by right clicking on a total bar of the waterfall and selecting the desired drill down 
+Once activated, Datama uses the analysis method you selected (or the most interesting one in **Auto** mode).
+You can also switch the active analysis from the **analysis shortcut** at the top right of the waterfall plot, or by right-clicking on a total bar and selecting the desired drill down in the context menu.
+On any drillable segment, use **Drill down by...** to open a deeper split (steps or another dimension) and **Drill up** to collapse the open branch. 
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_right_click.png"></center>
 
@@ -51,13 +54,13 @@ This is particularly interesting in cases like
 * your final customers want to see a split by segment first on main KPI before having the details by sub-PI (e.g. breakdown by country when it fits with different entities/ targets/ incentives of your organisation)
 * one step of your market equation impact compensates the next step and there is no much business interest in explaining one drop on one step, and then an increase on the other step (e.g. switch of a step of a funnel from one year to another)
 
-By activating the "Dimensions then Steps" option, you will see the impact of the top 5 segments of the most interesting dimension for the total step variation to explain the gap. Then, by clicking on a given segment, you will be able to get the details of the impact of each step of your market equation on that specific segment.
+By activating the **Dimensions then Steps or Dimensions** option, Datama starts from the most interesting dimension and shows its segment impacts on the total variation. You can then drill down recursively inside any segment — by steps or by another dimension — to any depth. The first two levels are precomputed asynchronously; deeper levels are computed on demand when you open a branch.
 
 The title and comment of the first slide of Datama Compare are also updated to use the most interesting dimension wording
 
 Few tips to consider
 * Calculating Step impact for each segment of each dimension takes time (typically 3-4x the default time of computation) - make sure to activate only when needed
-* You can force Datama to consider the most interesting dimension (hence, the first dimension displayed) to be a given dimension by defining it as "Focus dimension" for the total step in the Metric Relation definition
+* You can force Datama to explore a specific dimension first by **pinning it** in **Settings > Dimensions** (one pin per hierarchy level), or by defining it as "Focus dimension" for the total step in the Metric Relation definition
 * When looking at a ratio for the Main KPI, Datama might find useful and necessary to separate mix effect before splitting by segment. You can avoid this by setting the "Split Mix and Performance" setting to "Never"
 
 <br>
