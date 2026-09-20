@@ -88,7 +88,9 @@ Here are the options available in the **File** header menu:
 <center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/help_menu.png"/></center>
 
 Find out how you can use **the Help** menu of the header of the Solution :
-- **Search** : open a search bar to find keywords in Workbooks, Get Inspired, and Documentation.
+- **Search** : open a search bar to find keywords in Workbooks, Get Inspired, and Documentation. You can also press **Ctrl+F** from the dashboard.
+  - **Documentation** mode (book icon): type to search across workbooks, news, and documentation pages. Results update as you type.
+  - **AI** mode (brain icon): ask a question in natural language, then press **Enter** to get an AI-generated answer based on the Datama documentation.
 
 <center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/search_bar.png"/></center>
 
