@@ -42,3 +42,5 @@ The main panel is where you can create and manage your flow. This panel helps yo
 
 The sample panel is a small extract (~8 to 10 lines) of your dataset. When a block is selected on the main panel the sample panel will show the extract (sample) of the selected blocks along with information about data type for each column, the sum/count etc…
 
+Use the **download** icon in the sample toolbar to export the **full computed dataset** (not just the preview rows) in JSON, CSV, XLSX, or Arrow format.
+
