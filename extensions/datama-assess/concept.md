@@ -19,10 +19,16 @@ keywords: light assess significance method
 4. [Forecast](#4-forecast)
 -->
 
+Datama Assess offers different visualizations depending on the test type and the significance method selected in the settings. Here is a [summary](https://docs.google.com/spreadsheets/d/1vj27VAn9VgMMRhI0s1YwtpxxZc0L5TMjyMadb4rkboQ/edit?gid=0#gid=0) of which tests and features are available for each test type.
+
+<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/Assess type.png" alt="assess - Frequentist model" /></center>
 
 <br>
 
-## 1. Frequentist Bernoulli
+Below are more details about each test method used in Datama Assess.
+
+
+# 1. Frequentist Bernoulli
 
 In the Bernoulli frequentist approach, the outcome has to be binary (1 or 0, e.g. Transactions). As long as this is true, any aggregation of the data can be used.
 The resulting chart shows the probability of distribution of the average value of the considered KPI.
@@ -40,7 +46,7 @@ Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SA
 
 <br>
 
-## 2. Bayesian Bernoulli
+# 2. Bayesian Bernoulli
 
 In the Bernoulli frequentist approach, the outcome also has to be binary (1 or 0, e.g. Transactions). As long as this is true, any aggregation of the data can be used.
 The resulting chart shows the probability than the end ratio outperform the start one and vice-versa. 
@@ -56,7 +62,7 @@ Test data: [Gsheet](https://docs.google.com/spreadsheets/d/1VJJ2j5ldrSfvLQatd9SA
 
 <br>
 
-## 3.  Volatility
+# 3.  Volatility
 
 <br>
 Volatility test applies when you compare two periods of time with the same number of days, and you have other historical data in your data source to compare the variation you have between your two periods vs. historical variations between same time ranges.

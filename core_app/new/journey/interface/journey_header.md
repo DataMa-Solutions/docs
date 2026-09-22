@@ -1,7 +1,7 @@
 ---
 title: Journey - Settings
 description: The header in Datama Journey helps you manipulate and refine your Use Cases
-layout: page
+layout: new-page
 scope: Datama/saas/journey
 keywords: full app journey interface header
 ---
@@ -20,42 +20,46 @@ Find here the main elements of the solution Header in Datama Journey:
 
 <br>
 
-<b>General settings:<b><br>
+<!-- <b>General settings:<b><br>
 - [Journey Separator](#journey-separator)
 
-<br>
-<b>Sunburst:<b><br>
+<br> -->
+<!-- <b>Sunburst:<b><br>
 - [Reverse Journey](#reverse-journey)
 - [Display exits in Sunburst](#display-exits-in-sunburst)
 - [Simplify Sunburst](#simplify-sunburst)
 - [Maximum Number of steps in Sunburst](#maximum-number-of-steps-in-sunburst)
 
-<br>
-<b>Attribution:<b><br>
+<br> -->
+<!-- <b>Attribution:<b><br>
 - [Attribution](#attribution)
 - [Model](#model)
 
-<br>
-<b>Advanced settings:<b><br>
+<br> -->
+<!-- <b>Advanced settings:<b><br>
 - [Journey Deduping](#journey-deduping)
 - [Maximum Number of Points analysed](#maximum-number-of-points-analysed)
 - [Analyse Sequences](#analyse-sequences)
 
-<br>
-<b>Basic settings<b><br>
+<br> -->
+<!-- <b>Basic settings<b><br>
 - [Comparison](#comparison)
 - [KPI](#kpi)
 
-<br>
+<br> -->
 
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.png">
 
 <br/>
 
-# <b>General settings<b>
+# 1. General settings
 <br>
 
-## Journey Separator
+## 1.1. Choose column containing Path for Journey Analysis
+
+You can choose which column of your dataset to do the journey analysis.
+
+## 1.2. Journey Separator
 
 By using the text input, you can change the seperator between steps of your journeys. Initially, the separator is "-".
 
@@ -69,52 +73,52 @@ By using the text input, you can change the seperator between steps of your jour
 
 <br>
 
-# <b>Sunburst<b>
+# 2. Sunburst
 <br>
 
-## Reverse Journey
+## 2.1. Reverse Journey
 
 By activating Reverse Journey, you can display the users' reverse journeys. This is useful to know where they come from.
 
 <br>
 
-## Display exits in Sunburst
+## 2.2. Display exits in Sunburst
 
 By default, journey exits are displayed. It shows the proportion of people who have exited the journey.
 
 <br>
 
-## Simplify Sunburst
+## 2.3. Simplify Sunburst
 
 By activating the dropdown menu, you can simplify your journeys by removing duplicate journeys and removing duplicate steps in journeys.
 
 This is very useful to simplify your display and decrease computation time.
 
-## Maximum Number of steps in Sunburst
+## 2.4. Maximum Number of steps in Sunburst
 
 By default, only 6 steps of user journeys are represented. This can be changed by modifying this setting.
 
 <br>
 
-# <b>Attribution<b>
+# 3. Attribution
 <br>
 
-## Attribution
+## 3.1. Attribution
 
 To accelerate the time to run the analysis, you can deactivate the attribution part.
 
 <br>
 
-## Model
+## 3.2. Model
 
 By using the dropdown menu, you can choose your attribution model and thus consider various distributions of your money in the various steps of your journeys.
 
 <br>
 
-# <b>Advanced settings<b>
+# 4. Advanced settings
 <br>
 
-## Journey Deduping
+## 4.1. Journey Deduping
 
 >Attribution must be activated
 
@@ -123,13 +127,13 @@ This is very usefull to simplify your display and decrease computation time.
 
 <br>
 
-## Maximum Number of Points analysed
+## 4.2. Maximum Number of Points analysed
 
 By default, the algorithm will analyse the top 50 steps in your <i>journey</is> column.
 
 <br>
 
-## Analyse Sequences
+## 4.3. Analyse Sequences
 
 Instead of analysing steps, you can toggle this setting to analyse sequences of steps
 
@@ -137,15 +141,15 @@ For example, <span style="color:red">Search-Product-Cart</span> contains 3 touch
 
 <br>
 
-# <b>Basic settings<b>
+# 5. Basic settings
 <br>
 
-## Comparison
+## 5.1. Comparison
 
 Datama Journey can be used with a comparison. To activate this mode, select a dimension and the element you want to compare. Each graph and the comments will be in Compare mode, reflecting the difference of the elements you are comparing.
 
 <br>
 
-## KPI
+## 5.2. KPI
 
 In Datama Journey, there is only one ratio to be defined to run the module. This ratio will be used to understand the performance (Numerator) and the volume (Denominator).

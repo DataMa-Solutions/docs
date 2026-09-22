@@ -16,5 +16,9 @@ By clicking on the export icon, access all the possible extraction :
 
 <br>
 
+{% include embed_totw.html num=150 %}
+
+<br>
+
 
 Read more about [extraction]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/extract_analysis.html)

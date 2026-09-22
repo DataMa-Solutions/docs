@@ -1,7 +1,7 @@
 ---
 title: Metric relation
 description: Metric relation describes the equation between metrics of your source, in order to compute the KPI you want to explain.
-layout: page
+layout: new-page
 scope: Datama/saas/prep
 keywords: full app prep metrics relation metric mr
 ---
@@ -12,11 +12,11 @@ keywords: full app prep metrics relation metric mr
 
 <br>
 
-**Read more:** At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://Datama.fr/2020/03/24/how-to-build-my-business-metric-relation/).
+**Read more:** At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://Datama.fr/how-to-build-my-business-metric-relation/) .
 
 <br>
 
-In order to have the most relevant analysis of your data, Datama allows you to manually define your market equation. 
+In order to have the most relevant analysis of your data, Datama allows you to manually define your market equation.
 
 To do so, click on the Datama block, define your metrics and dimensions, then define your market equation.
 
@@ -30,7 +30,7 @@ Building it can be a little bit tricky, but generally you have it behind your bu
 
 <br>
 
-## <b>Simplistic example</b>
+# 1. Simplistic example
 
 A simplistic retail example: As a retailer I want to understand my Revenue. So my main KPI is <span style="color:red"> Revenue </span>.
 
@@ -40,7 +40,7 @@ Why do I want to split those? Well basically because it’s not the same team in
 
 <br>
 
-## <b>Generalizing</b>
+# 2. Generalizing
 
 We call each underlying PI a **« Step »**, because it will be steps of the waterfall you’re building. Number of steps can be theoretically unlimited, but for obvious visual and business reasons, you probably want to limit to no more than 10 steps.
 
@@ -57,6 +57,30 @@ Datama goes further with Metric Relation by adding multiple properties to refine
 
 <br>
 
-## Get inspired
+
+# 3. Get inspired
+
+Datama has developed a KPI tree generator that enables you to build your own customized market equation. Click [here](https://dataguillaume.gumroad.com/l/bdlabq) to start your free trial.
 
 [Datama examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.
+
+
+# 4. AI-Generated Market Equation
+
+The AI-Generated Market Equation feature enables you to leverage the power of artificial intelligence to automatically suggest a market equation for your dataset clicking on the ✨ CTA in the Quick setup options.
+This functionality uses the names of your columns and any contextual information you choose to provide to generate relevant equation suggestions that may accelerate your data modeling and preparation process.
+
+How It Works:
+
+When you click on the ✨ CTA, first it will ask you if you agree with the IA term and condition (for the first time you use it). **Note that no actual data values are shared or processed—only column names and context are used to ensure full privacy of your dataset, just the names of columns will be shared.**
+When activated, a AI chat pop-up will appear and the AI will analyze:
+   * The column names of your dataset.
+   * Any additional context you enter (e.g., currency which is by default in '$', language, rename a step).
+
+<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/ai_generated_market_equation.png"/></center>
+
+It then suggests a possible market equation aligned with the provided information in a table.
+You can then iterate with comment to adjust the market equation, names or unit if needed.
+When you are satisfied with the result you can apply the equation by clicking on 'Use This Equation'.
+
+If needed, a 'Reset' CTA is available at the bottom-left, it will clear all the historic from the chat and restart a compute without any additional information.

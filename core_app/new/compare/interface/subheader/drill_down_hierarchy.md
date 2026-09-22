@@ -1,7 +1,7 @@
 ---
 title: Drill down hierarchy
 description: Edit main drill down hierarchy for comparison by Steps or Dimension first
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare drill down hierarchy
 ---
@@ -12,7 +12,7 @@ keywords: full app compare drill down hierarchy
 
 <br>
 
-# General usage
+# 1. General usage
 
 The drill down input can be defined in Settings > Drill down hierarchy.
 It allows to define the methodology to break down main KPI variation.
@@ -28,9 +28,9 @@ Yet, you can manually change the drill down by right clicking on a total bar of 
 
 <center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_right_click.png"></center>
 
-# Available drill down hierarchy
+# 2. Available drill down hierarchy
 
-## **1. Steps then Dimension** <i>(default setting)</i>
+## 2.1. Steps then Dimension** <i>(default setting)</i>
 
 By default, the main entry point for Compare analysis are the steps of your market equation, a.k.a. [metric relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html). 
 
@@ -40,7 +40,7 @@ Then, within each step, Datama helps you find what is the most interesting dimen
 
 <br>
 
-## **2. Dimension then steps**
+## *2.2. Dimension then steps**
 
 When your main KPI is the result of a simple computation (i.e.  product or sum of metrics steps), Datama is able to breakdown the impact of each segment of each dimensionon the main KPI. 
 
@@ -62,7 +62,7 @@ Few tips to consider
 
 <br>
 
-## 3. Auto
+## 2.3. Auto
 
 Auto mode lets Datama score the interest of splitting by "Steps then Dimension" vs. all the different variants of "Dimensions then Steps" using an interest score.
 You can see the interest score by right clicking on the total bar and reading the contextual menu.

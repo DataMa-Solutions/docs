@@ -1,7 +1,7 @@
 ---
 title: Detect - Detection methods
 description: This page explains the existing methods for anomaly detection
-layout: page
+layout: new-page
 scope: Datama/saas/detect
 keywords: full app detect detection method anomaly
 ---
@@ -27,7 +27,7 @@ Datama Detect is based on a method to spot anomalies called [Observed volatilty]
 
 <br>
 
-## Observed volatility
+# 1. Observed volatility
 
 The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
 

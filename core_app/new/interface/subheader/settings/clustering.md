@@ -29,7 +29,7 @@ When **Choose clustering method** is on **Manual**, different methods and settin
 
 <br/>
 
-## 1. Clustering Methods
+# 1. Clustering Methods
 
 <br>Basically, there are 3 categories of clustering:
 
@@ -40,9 +40,9 @@ When **Choose clustering method** is on **Manual**, different methods and settin
 <br>
 <br>
 
-### 1.1 For discrete dimensions
+## 1.1 For discrete dimensions
 
-**Other (< X%)**
+### 1.1.1. Other (< X%)
 
 With this method, any segments representing less than X% of the KPI numerator will be grouped into a 'Other' cluster. You can adjust the **Aggregation level** of the clustering. 
 <br> Here is an example of this method with an aggregation level of 2:
@@ -53,7 +53,8 @@ With this method, any segments representing less than X% of the KPI numerator wi
 </div>
 
 <br>
-**Long tail**
+
+### 1.1.2. Long tail
 
 With this method, segments will be clustered into an 'Other' group such that the total sum of the segments in this bucket represents less than X% of the KPI numerator. Similarly to the <nobr>"Other (< X%)" method</nobr>, you can adjust the **Aggregation level**.
 <br> Here is an example of this method with an aggregation level of 10: 
@@ -65,7 +66,7 @@ With this method, segments will be clustered into an 'Other' group such that the
 
 <br>
 
-**Binning based on rank**
+### 1.1.3. Binning based on rank
 
 With this method, segments will be first ranked by value on the KPI numerator, and then divided into X bins. You can adjust the number of bins created in the **Number of bins** input.
 <br> Here is an example of this method with 2 bins: 
@@ -78,9 +79,9 @@ With this method, segments will be first ranked by value on the KPI numerator, a
 <br>
 <br>
 
-### 1.2 For continuous dimensions
+## 1.2 For continuous dimensions
 
-**Regression**
+### 1.2.1. Regression
 
 This method cluster continuous dimensions using a recursive partioning regression tree. You can adjust the tree's depth with the **Maximum depth for continuous grouping** input, which defines the granularity of the clustering. If you are not familiar with this concept, here is a brief explanation :
 <br> The tree's depth controls how many times the data can be split into smaller groups. A shallow tree (low depth) creates fewer, larger groups, giving a more general overview of the data. A deeper tree (higher depth) makes more splits, creating smaller, more detailed groups. However, if the tree is too deep, it might overfit, meaning it could capture noise or random patterns in the data instead of the important trends.
@@ -94,7 +95,7 @@ Here is an example of this method:
 
 <br>
 
-**Bins**
+### 1.2.2. Bins
 
 With this method, segments will be divided into X bins. You can adjust the number of bins created in the **Number of bins** input.
 <br> Here is an example of this method with 2 bins: 
@@ -107,9 +108,9 @@ With this method, segments will be divided into X bins. You can adjust the numbe
 <br>
 <br>
 
-### 1.3 For dates
+## 1.3 For dates
 
-**Regression & Bins**
+### 1.3.1. Regression & Bins
 
 Those two methods are available both for continuous dimensions and dates. 
 Here is an example with the [Regression](#for-continuous-dimensions) method: 
@@ -126,7 +127,7 @@ Here is an example with the [Bins](#for-continuous-dimensions) method:
 
 <br>
 
-**Truncation by Period**
+### 1.3.2. Truncation by Period
 
 This method is only available for dates, truncating them by time periods such as day, week, month, or year. You can select the time period in the **Period for clustering** input. 
 <br> Here is an example of this method used on "Month":

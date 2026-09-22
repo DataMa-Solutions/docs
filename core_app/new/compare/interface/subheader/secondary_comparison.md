@@ -1,7 +1,7 @@
 ---
 title: Secondary Comparison
 description: Find here how you can use the Comparison menu of the subheader of the Datama Solutions
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare coc compare of compare secondary comparison
 ---
@@ -12,7 +12,7 @@ keywords: full app compare coc compare of compare secondary comparison
 
 <br>
 
-# What is the secondary comparison:
+# 1. What is the secondary comparison:
 
 Previously known as "Compare of Compare", this mode allows you to compare two waterfalls. The secondary waterfall is defined by turning the secondary comparison on (on any available dimensions) and then defining the start and end of your secondary waterfall. 
 
@@ -27,7 +27,7 @@ In the background, Datama will then run the same analysis for the two defined st
 
 <br>
 
-# **When to use it**
+# 2. When to use it
 
 The secondary comparison mode is particularly useful when you regularly run the same analysis for different time periods.
 We can take the example of this [dataset](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1243203565).

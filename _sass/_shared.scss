@@ -15,18 +15,18 @@
  * Generated for file : _shared.scss project project-deep-sky
  */
 
+$font-body: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+$font-heading: 'Montserrat', 'Open Sans', Arial, sans-serif;
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: $font-body;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #1a1a1a;
 }
 
 strong {
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5 {
-  font-weight: 400;
-  margin-top: 1rem;
+  font-weight: bolder;
 }
 
 hr {

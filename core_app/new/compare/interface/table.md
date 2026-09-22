@@ -1,7 +1,7 @@
 ---
 title: Table
 description: Table is gathering all the figures that helps to understand step variation and dimensions impact 
-layout: page
+layout: new-page
 scope: Datama/saas/compare
 keywords: full app compare detailed table
 ---
@@ -18,7 +18,7 @@ The table allows to access a detail view of the data with the ability to refine 
 
 <br>
 
-## What's available on the table?
+# 1. What's available on the table?
 
 By changing the settings of the table you can choose to display 5 types of information: 
 - **Value**: new value of the ratio. (e.g: 2633 Users in referral for "this year")
@@ -30,7 +30,7 @@ By changing the settings of the table you can choose to display 5 types of infor
 
 Note that when activating a "Secondary Comparison", the secondary comparison values are displayed in the table in a subline in italic under "2nd comparison"
 
-## How could it look like?
+# 2. How could it look like?
 
 Change Formatting of the table by clicking on the Settings icon:
 <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg">

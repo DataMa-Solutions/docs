@@ -1,7 +1,7 @@
 ---
 title: Retail Categories
 description: This use case focuses on assisting category managers in analyzing category performance using a tailored business equation to evaluate revenue generation.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---
@@ -10,13 +10,13 @@ keywords: full app get inspired flow demo
 
 <br>
 
-## Overview 
+# 1. Overview 
 
 This use case presents a category management performance analysis for different categories, channels, and brands to help businesses understand their sales performance and make informed decisions. By comparing sales data from 2022 and 2023, the business can identify trends, patterns, and areas of improvement to optimize category management and increase revenue.
 
 <br>
 
-## Data source
+# 2. Data source
 
 The data for this use case is provided in the form of a table containing the following columns:
 
@@ -36,7 +36,7 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 <br>
 
-## In Datama Compare
+# 3. In Datama Compare
 
 This use case is specifically designed to help category managers analyze category performance using a customized business equation that assesses revenue generation.
 
@@ -53,7 +53,7 @@ The equation can be further refined by incorporating other variables, such as pr
 
 <br>
 
-## Conclusion 
+# 4. Conclusion 
 
 By conducting a category management performance analysis, businesses can gain valuable insights into sales trends and patterns across various categories, channels, and brands. This information can help the business implement targeted strategies to optimize category management and drive revenue growth.
 

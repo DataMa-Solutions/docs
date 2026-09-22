@@ -1,7 +1,7 @@
 ---
 title: TERMS OF SERVICE
 description: See the terms of service of the Datama applications.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app terms of service
 ---

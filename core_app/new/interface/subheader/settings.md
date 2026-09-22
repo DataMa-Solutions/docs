@@ -19,14 +19,15 @@ Here is an example of the Settings panel.
 
 The settings is detailed separately for each solution :
 - [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
-- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html)
-- [Journey]({{site.url}}/{{site.baseurl}}docs/core_app/new/journey/interface/journey_header.html)
+- [Pivot]({{site.url}}/{{site.baseurl}}//core_app/new/pivot/interface/subheader/settings.html)
+- [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/journey_header.html)
 - [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
 - [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html)
 
 
 <br>
-
-> **User Preferences**
+<div class="info-box">
+<strong>User Preferences: </strong>
 In order to customize your analysis to your needs, Datama allows you to save user preferences at Use Case level or at your profile level.
-Color palette and default language for example can be modified at both level.
+Color palette and default language for example can be modified at both levels.
+</div>

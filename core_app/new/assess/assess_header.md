@@ -1,7 +1,7 @@
 ---
 title: Assess (Sub)Header
 description: The header in Datama Assess helps you manipulate and refine your Use Cases
-layout: page
+layout: new-page
 scope: Datama/saas/assess
 keywords: full app assess header
 ---
@@ -13,11 +13,11 @@ keywords: full app assess header
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_header.png">
+<img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_header.png">
 
 <br>
 
-## What you will find in this chapter:
+# 1. What you will find in this chapter:
 
 - [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
 - [Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html)

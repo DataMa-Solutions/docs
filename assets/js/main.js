@@ -96,6 +96,20 @@ document.addEventListener('DOMContentLoaded', function() {
             Cookies.set('menu', expanded.join(','))
         })
     })
+
+    // Insert a <br> before content h1 if missing (exclude page title and welcome hero)
+    const main = document.querySelector('main')
+    if (main) {
+        const contentH1s = main.querySelectorAll('h1:not(.page-title)')
+        contentH1s.forEach(h1 => {
+            if (h1.closest('.welcome')) return
+            const previousElement = h1.previousElementSibling
+            if (!(previousElement && previousElement.tagName === 'BR')) {
+                const br = document.createElement('br')
+                h1.parentNode.insertBefore(br, h1)
+            }
+        })
+    }
 })
 
 window.addEventListener('scroll', () => {

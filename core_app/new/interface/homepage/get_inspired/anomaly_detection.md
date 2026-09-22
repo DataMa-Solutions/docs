@@ -1,7 +1,7 @@
 ---
 title: Anomaly Detection
 description: This use case is an example of our Datama Detect module where you can detect anomalies in your web conversion funnel.
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app get inspired flow demo 
 ---

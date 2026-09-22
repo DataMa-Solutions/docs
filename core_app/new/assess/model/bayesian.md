@@ -1,7 +1,7 @@
 ---
 title: Model - Bayesian model
 description: The industry is moving toward the Bayesian framework as it is a simpler, less restrictive, more reliable, and more intuitive approach to A/B testing.
-layout: page
+layout: new-page
 scope: Datama/saas/assess
 keywords: full app assess model bayesian
 ---

@@ -32,6 +32,35 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Sass options
+sass:
+  quiet_deps: true
+
+# Default permalinks: year/month/day/title.html
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+include:
+  - .well-known
+
+collections:
+  posts:
+    output: true
+    # EN by default (tips_of_the_week)
+    permalink: /en/:year/:month/:day/:title:output_ext
+
+# Folder-specific permalink rules to avoid EN/FR collisions
+defaults:
+  - scope:
+      path: "_posts/tips_of_the_week_fr"
+      type: "posts"
+    values:
+      permalink: /fr/:year/:month/:day/:title:output_ext
+  - scope:
+      path: "_posts/tips_of_the_week"
+      type: "posts"
+    values:
+      permalink: /en/:year/:month/:day/:title:output_ext
+
 feed:
   path: feed_totw_en.xml
   output: true
@@ -51,7 +80,12 @@ feed:
     title: Tip of the week
     description: The latest tip of the week
     url: /docs/tips/en
+# French feed still under /docs/tips/fr
 #  - jekyll-sitemap
+
+    exclude:
+      - .well-known/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

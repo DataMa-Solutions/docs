@@ -1,7 +1,7 @@
 ---
 title: Help
 description: Find out how you can use the "Help" menu of the header of the Datama Solutions
-layout: page
+layout: new-page
 scope: Datama/saas
 keywords: full app header menu help
 ---
@@ -18,5 +18,5 @@ keywords: full app header menu help
 - **Feedback** : access the feedback interface to write down your issues with screenshot if possible.
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/feedback.png"/></center>
 
-Don't hesitate to contact us if you need any other connections to your data.
+Don't hesitate to <a href="https://datama.io/lets-talk/" target="_blank">contact us</a> if you need any other connections to your data.
 

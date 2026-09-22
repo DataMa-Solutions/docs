@@ -13,7 +13,7 @@ keywords: full app detect
 
 This module allows to automate outlier identification on a given ratio, and understand the drivers of that anomaly. This is particularly useful in time series for being able to quickly spot issues in your KPIs overtime.
 
-Datama Detect is a data analysis tool that allows you to not only to detect potential outliers in your dataset but also to explain them using the Datama Compare algorithm.
+Datama Detect is a data analysis tool that allows you not only to detect potential outliers in your dataset but also to explain them using the Datama Compare algorithm.
 
 You can use Datama Detect to monitor your dataset and set up automatic monitoring of your main KPIs. If your dataset is big enough, Datama Detect will show you potential outliers as well as give you the opportunity to further investigate your data. 
 
@@ -28,13 +28,13 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 
 <br>
 
-## Interface of Datama Detect
+# 1. Interface of Datama Detect
 
 <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/interface_detect.jpg "/></center>
 
 <br>
 
-## Main Sections
+# 2. Main Sections
 
 <ul>
     <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_introduction">General Introduction:</a></strong> Overview of Datama Detect's capabilities and basic concepts</li>
@@ -52,14 +52,14 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 </ul>
 <br>
 
-## Integration
+# 3. Integration
 
-Note: This documentation does not cover the setup and configuration of our browser extension. Please refer to the dedicated extension documentation for those details.
-
+Note: This documentation does not cover the setup and configuration of our browser extension. Please refer to the  documentation dedicated extension for those details.
+<!-- <a href="{{site.url}}/{{site.baseurl}}/extensions/index.html">dedicated extension</a> -->
 
 <ul>
     <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/integration_api">Extension Integration:</a></strong> Technical documentation for integrating Datama Detect as an extension</li>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/integration_extension">Marketplace Extension:</a></strong> Guide for installing and using the Datama Detect directly from Tableau or Power BI marketplace.</li>
+    <li><strong><a href="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html">Marketplace Extension:</a></strong> Guide for installing and using the Datama Detect directly from Tableau or Power BI marketplace.</li>
 </ul>
 
 
