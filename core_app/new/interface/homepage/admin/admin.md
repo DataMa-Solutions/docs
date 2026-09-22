@@ -21,6 +21,7 @@ This chapter gathers different features shared amongst the homepage, such as:
 2. [Extensions](#2-extensions)
 3. [Statistics](#3-statistics)
 4. [Workbook Limits](#4-workbook-limits)
+5. [Organization Management](#5-organization-management)
 
 <br>
 
@@ -54,6 +55,14 @@ At Datama, the consumption of the solution is made according to the number of co
 Understanding and monitoring your organization's workbook usage is crucial for effective team management. Datama provides detailed information about how workbook limits work and how they are calculated.
 
 Learn more about [Workbook Limits]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/workbook_limits.html)
+
+<br>
+
+# 5. Organization Management
+
+Create an organization, update its profile (name and avatar), review active subscriptions, and manage team members (invite, admin role, removal).
+
+Learn more about [Organization Management]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/organization_management.html)
 
 <br>
 
