@@ -40,6 +40,8 @@ Settings live **next to the chart** (left panel). The Compare panel starts **col
 
 For detailed options, see the [Settings guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
 
+**See Source** (header, left of Save) opens [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html): a preview of the data behind the visual — editable in PowerPoint, HTML exports and the AI skill, read-only in BI tools.
+
 <br/>
 
 ### 1.2.2 Analysis workspace (pinned views)

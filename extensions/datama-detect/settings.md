@@ -114,6 +114,10 @@ This is to customize the “Primary Numerator” mentioned just above, based on 
 
 This is to customize X% mentioned just above.
 
+### 1.2.3. Method
+
+**Method** chooses how segments are pooled into "Other": **Smallest segments** (default) pools every segment below the threshold; **Long tail** ranks segments by absolute value and pools the smallest ones while their cumulated weight stays within the threshold, so "Other" never exceeds X% of the KPI — recommended for dimensions with hundreds of small values (SKUs, stores, cities). Numeric dimensions are cut into value ranges instead of one segment per value.
+
 <br>
 
 

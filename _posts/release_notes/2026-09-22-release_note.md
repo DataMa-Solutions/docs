@@ -1,25 +1,23 @@
 ---
 feed: release_note
-title:  "2026-09-22 Hierarchical mix & Out of scope in Datama Light"
+title:  "2026-09-22 Out of scope segments & Layer Source in Datama Light"
 date:   2026-09-22 12:00:00 +0200
 description: |
   Late-September marketplace release (1.6.3):
-  - Hierarchical mix cascade and Mix & Performance covariance policy in Compare
-  - Out of scope block for new and discontinued segments
-  - Long tail clustering, source text variables (@Column[n]) and the Layer Source preview
+  - Out of scope bar for new and discontinued segments in Compare
+  - Layer Source: preview — and in PowerPoint, exports and AI skills, edit — the data behind a visual
+  - Long tail clustering, source text variables (@Column[n]), hierarchical mix and Excel output export
 ---
 
 * **Marketplace extension** (also known as "Datama Light")
-  * **Hierarchical mix** (Compare › Dimensions): turn on **Cascade mix effects along the hierarchy** to measure the mix of each level against its **parent segment** instead of the whole step. Mix effects of one hierarchy now add up (*Zone Mix + Country Mix within Zone = Country mix*) and performance is read at the finest grain — the way finance teams compute a cumulative mix by hand. The smart comment narrates the cascade.
-  * **Mix & Performance covariance** (Compare › Modeling): choose how the cross term of a segment is split inside a step — **Pro rata** (default), **To performance** (mix kept at Start ratios, so a uniform ratio move never shows as mix) or **To mix**.
-  * **Out of scope segments** (Compare › Dimensions): segments that exist on one side only (a country opened, a product discontinued) no longer distort volume, mix and performance. Pick the eligible dimensions and they are moved into an **Out of scope** bar right after Start, split into **New** and **Discontinued** segments that you can expand. Start and End keep the whole population.
-  * **Long tail clustering** (Compare, Explore, Detect, Assess): a new way to pool segments into "Other". **Long tail** ranks segments by absolute value and pools the smallest ones while they stay within the threshold, so the "Other" bucket never swallows a large share of your KPI, however long the tail. Numeric dimensions are now cut into buckets instead of producing one segment per value.
-  * **Source text variables**: any text (titles, segment names, units…) can show a value of a source column with **`@Column[n]`** — e.g. *Revenue of @Country[1]*. The text follows your dashboard filters without pivoting the data. Settings preview the resolved value as you type and autocomplete the available references.
-  * **Start / End segment naming**: when comparing two metrics, you can now name both sides from a single pair (plain text or `@Column[n]`).
-  * **Layer Source**: a new **See Source** button in the header previews the dataset behind the visual (sample / unique values, search, sort). It is editable — double-click or paste from Excel — in PowerPoint, HTML exports and the Datama AI skill, and read-only in Power BI, Tableau, Looker Studio and Qlik.
-  * **Excel add-in — Export output**: toggle **Export output** in the editor settings to write the waterfall results into a worksheet table (`Datama_Output_<use case>`) on every compute, ready to be used in your Excel formulas.
-  * **Settings & workspace**: **Shift + S** opens settings and focuses the search, which now also indexes the analysis panels; pinned views reflow so no pane leaves empty space; the flat hierarchy table shows leaves only, with sorted Level columns.
-  * **Performance**: faster waterfall rendering and hierarchy computation on large datasets, with progress feedback on long cascades.
+  * **Out of scope segments** (Compare › Dimensions): segments that exist on one side of the comparison only (a country opened, a store closed, a product discontinued) no longer distort volume, mix and performance. Pick the eligible dimensions: those segments move into an **Out of scope** bar right after Start, split into **New** and **Discontinued**, followed by a **Comparable Start** pillar. The steps then explain the like-for-like change — the scope / perimeter effect controlling teams build by hand. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html)
+  * **Layer Source**: a new **See Source** button in the header shows the data behind the visual (sample rows or unique values, search, sort). In **PowerPoint**, **HTML exports** and the **Datama AI skill**, the data is editable: double-click a cell or paste a block from Excel, then Save — refresh a slide with this month's figures without going back to the source. Read-only in Power BI, Tableau, Looker Studio and Qlik. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html)
+  * **Long tail clustering** (Compare, Explore, Detect, Assess): a new **Method** for pooling segments into "Other". **Long tail** ranks segments by absolute value and pools the smallest ones while they stay within the threshold, so "Other" never exceeds X% of your KPI, however long the tail. Numeric dimensions are now cut into value ranges. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#32-clustering-with-the-aggregation-in-)
+  * **Source text variables**: any text (titles, segment names, units…) can show a value of a source column with **`@Column[n]`** — e.g. *Revenue of @Country[1]* — and follows your dashboard filters without pivoting the data. When comparing two metrics, you can now name both sides from a single pair. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#source-text-variables)
+  * **Hierarchical mix** (Compare › Dimensions › Hierarchy): **Cascade mix effects along the hierarchy** measures the mix of each level against its parent segment, so mix effects add up across levels (*Zone Mix + Country Mix within Zone*). Completed by a **Mix & Performance covariance** option (Modeling › Covariance: Pro rata, To performance, To mix). [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#cascade-mix-effects-along-the-hierarchy)
+  * **Excel add-in — Export output**: write the waterfall results into a worksheet table (`Datama_Output_<use case>`) on every compute, ready for your Excel formulas. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel_compare.html#81-export-output)
+  * **Settings & workspace**: **Shift + S** opens settings and focuses the search, which now also finds analysis options; pinned views reflow so no pane leaves empty space; the flat hierarchy table shows leaves only, with sorted Level columns.
+  * **Performance**: faster waterfall rendering and hierarchy computation on large datasets, with progress feedback on long computations.
   * **Fixes**:
     * Percent change sign is correct when Start is negative.
     * Applying a license keeps your in-progress settings.

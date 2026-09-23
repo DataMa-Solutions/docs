@@ -61,7 +61,7 @@ Datama then:
 
 <center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/5_Dimension_hierarchy.gif" alt="Dimension hierarchy drill-down" /></center>
 
-See [Settings › Dimensions › Hierarchy]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierachy).
+See [Settings › Dimensions › Hierarchy]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierarchy).
 
 <br/>
 
@@ -211,6 +211,7 @@ See [Settings › Market Equation]({{site.url}}/{{site.baseurl}}/extensions/data
 | **Shift + R** | Reverse the axes of the Waterfall and / or the Tree |
 | **Shift + W** | Switch to the Waterfall view |
 | **Shift + T** | Switch from the Waterfall to the Tree |
+| **Shift + S** | Open the settings panel and focus the search |
 
 <br/>
 

@@ -236,6 +236,12 @@
             - name: Market equation Sub-steps
               link: /extensions/datama-compare/market-equation-sub-steps.html
               type: h4
+            - name: Out of scope segments
+              link: /extensions/datama-compare/out-of-scope.html
+              type: h4
+            - name: Layer Source
+              link: /extensions/layer-source.html
+              type: h4
 
 - name: Detect #done
   link: /core_app/new/detect/detect.html

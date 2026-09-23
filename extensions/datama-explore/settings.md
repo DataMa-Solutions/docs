@@ -82,6 +82,10 @@ Select the metric to use for grouping calculations. This metric determines how s
 
 Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the selected Main K.P.I will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
+### 1.3.3 Method
+
+**Method** chooses how segments are pooled into "Other": **Smallest segments** (default) pools every segment below the threshold; **Long tail** ranks segments by absolute value and pools the smallest ones while their cumulated weight stays within the threshold, so "Other" never exceeds X% of the KPI — recommended for dimensions with hundreds of small values (SKUs, stores, cities). Numeric dimensions are cut into value ranges instead of one segment per value.
+
 
 <br>
 

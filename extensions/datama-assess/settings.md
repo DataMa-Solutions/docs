@@ -103,6 +103,8 @@ Only available for Volatility test, this input affords the possibility to limit 
 ### 1.3.1 Group values representation less than (%)
 Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
+**Method** chooses how segments are pooled into "Other": **Smallest segments** (default) pools every segment below the threshold; **Long tail** ranks segments by absolute value and pools the smallest ones while their cumulated weight stays within the threshold, so "Other" never exceeds X% of the KPI — recommended for dimensions with hundreds of small values (SKUs, stores, cities). Numeric dimensions are cut into value ranges instead of one segment per value.
+
 ### 1.3.2 Metric to use for grouping
 Impact are calculated regarding this metric.
 

@@ -123,6 +123,16 @@ Use a Microsoft Excel workbook with the Datama Compare add-in and try the extens
 
 Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings available in this extension. 
 
+## 8.1. Export output
+
+Write the results of the analysis back into your workbook, to reuse them in your own Excel formulas or charts.
+
+1. At the bottom of the editor settings, turn on **Export output** (requires a valid license key).
+2. Enter the **top-left cell** of the output, e.g. `H2` or `Results!H2` — or select a cell in the sheet to use it. The cell must be **outside the analyzed range**.
+3. If the target area already contains data, Datama asks for confirmation once, then overwrites it at each compute.
+
+After each compute, the table behind the waterfall is written as raw values in an Excel table named `Datama_Output_<use case>`: one row per bar, with numeric columns ready for formulas (display-only labels are left out). The previous output is cleared first, so a smaller result never leaves stale rows. The anchor cell is saved with the use case.
+
 <br/>
 
 # 9. Get more insights
