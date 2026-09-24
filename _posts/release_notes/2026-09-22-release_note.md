@@ -3,13 +3,13 @@ feed: release_note
 title:  "2026-09-22 Out of scope segments & Layer Source in Datama Light"
 date:   2026-09-22 12:00:00 +0200
 description: |
-  Late-September marketplace release (1.6.3):
+  Late-September marketplace release (1.6.3.3):
   - Out of scope bar for new and discontinued segments in Compare
   - Layer Source: preview — and in PowerPoint, exports and AI skills, edit — the data behind a visual
   - Long tail clustering, source text variables (@Column[n]), hierarchical mix and Excel output export
 ---
 
-* **Marketplace extension** (also known as "Datama Light")
+* **Marketplace extension** (also known as "Datama Light") [1.6.3.3]
   * **Out of scope segments** (Compare › Dimensions): segments that exist on one side of the comparison only (a country opened, a store closed, a product discontinued) no longer distort volume, mix and performance. Pick the eligible dimensions: those segments move into an **Out of scope** bar right after Start, split into **New** and **Discontinued**, followed by a **Comparable Start** pillar. The steps then explain the like-for-like change — the scope / perimeter effect controlling teams build by hand. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html)
   * **Layer Source**: a new **See Source** button in the header shows the data behind the visual (sample rows or unique values, search, sort). In **PowerPoint**, **HTML exports** and the **Datama AI skill**, the data is editable: double-click a cell or paste a block from Excel, then Save — refresh a slide with this month's figures without going back to the source. Read-only in Power BI, Tableau, Looker Studio and Qlik. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html)
   * **Long tail clustering** (Compare, Explore, Detect, Assess): a new **Method** for pooling segments into "Other". **Long tail** ranks segments by absolute value and pools the smallest ones while they stay within the threshold, so "Other" never exceeds X% of your KPI, however long the tail. Numeric dimensions are now cut into value ranges. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#32-clustering-with-the-aggregation-in-)
