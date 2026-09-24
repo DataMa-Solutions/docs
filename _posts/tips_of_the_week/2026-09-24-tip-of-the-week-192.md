@@ -15,7 +15,7 @@ New Datama Extensions version is out. Six upgrades to sharpen Compare and every 
 * **Layer Source** 🔍 : preview the data behind any visual with **See Source**, and edit it in PowerPoint, HTML exports and the Datama AI skill.
 * **Long tail clustering** 📊 : pool the smallest segments into "Other" while it stays under X% of your KPI, however long the tail.
 * **Source text variables** ✍️ : inject a source column value into any text with **`@Column[n]`**. Titles and labels follow your filters.
-* **Hierarchical mix** 🪜 : cascade mix effects along the hierarchy so each level is measured against its parent (*Zone Mix + Country Mix within Zone*).
+* **Hierarchical mix** 🪜 : cascade mix effects along the hierarchy so each level is measured against its parent.
 * **Excel Export output** 📤 : write waterfall results into a worksheet table on every compute, ready for your formulas.
 
 📖 Learn more about [Out of scope]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html) · [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html)
