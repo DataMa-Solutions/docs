@@ -26,7 +26,7 @@ Various sub-menus are available:
 |:---|:---|:---|
 | **Comparison** | After **Apply** | Primary / secondary comparison, indices |
 | **Modeling** | After **Apply** | Analysis method, comment depth, mix & perf, covariance, language |
-| **Dimensions** | After **Apply** | Hierarchy, clustering |
+| **Dimensions** | After **Apply** | Hierarchy (incl. cascade mix), clustering, out of scope segments |
 | **Market Equation** | After **Apply** | KPI definition, card editor, sub-steps, units |
 | **What If** | After **Apply** | Scenario simulation (baseline + KPI impacts) — see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Events** | After **Apply** | Calendar |
@@ -39,6 +39,18 @@ Various sub-menus are available:
 Closing the panel while **Apply** is pending still saves and recomputes. You can expand the panel to **full width** for dense forms such as Market Equation.
 
 Tooltips on controls explain advanced options. The app version remains visible in the **widget footer**.
+
+**Shift + S** opens the settings panel and puts the cursor in the search bar. Search also finds the options of the analysis panels (Comparison, Modeling, Dimensions…).
+
+## Source text variables
+
+Any text field (slide title, chart title, segment names, units, labels…) can display a value of a source column with **`@Column[n]`** — for example *Revenue of @Country[1]* or *Gap in @Currency[1]*.
+
+* `n` is the rank of the value in the **alphabetical order** of the distinct values of that column, so the text stays stable when dashboard filters change. With a single value left after filtering, `[1]` is that value.
+* Type `@` in a text field to get the list of available references; the field previews the resolved text as you type.
+* A column referenced this way is treated as a label, not as an analysis dimension.
+
+Typical use: name a *Metric vs Metric* comparison, or a currency unit, after a dashboard filter — without pivoting your data.
 
 <br/>
 
@@ -156,6 +168,7 @@ Under **Modeling › Covariance**:
 |:---|:---|
 | **Separate covariance** | **Never** (default), **Auto**, or **Always**. When active, each step keeps its own gap and the residual is shown on a dedicated **Covariance** bar at the end of the waterfall (not clickable, not narrated, not available as a pillar anchor). **Auto** only isolates it when the residual exceeds the threshold (default **20%** of the total gap). |
 | **Threshold** | Used by **Auto** for separate covariance (default `20`). |
+| **Mix & Performance covariance** | How the part of a segment's move that comes from its share **and** its ratio changing together is split: **Pro rata** (default) between mix and performance in proportion of their weights; **To performance** keeps the mix at Start ratios, so a uniform ratio move never shows as mix; **To mix** does the opposite. |
 
 When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel — see [Market Equation](#4-market-equation) below. That per-step field is hidden while Separate covariance is active.
 
@@ -170,7 +183,7 @@ Contact us if you need additional languages.
 
 # 3. Dimensions
 
-## 3.1. Hierachy
+## 3.1. Hierarchy
 
 A feature in Datama that allows you to organise your dimensions when there are dependencies between some of them.
 Example: you have various geographical dimensions (Country, Region, City); you may wish to explore the data by drilling down from the broadest dimension to the narrowest.
@@ -182,12 +195,47 @@ By creating this hierarchy of dimensions, Datama will, by default, display the m
 
 Furthermore, using the button to the left of the dimension, you can pin a dimension to set it as the priority dimension in the analysis.
 
+### Cascade mix effects along the hierarchy
+
+Once a dimension is indented under another one, the switch **Cascade mix effects along the hierarchy** appears. When on, the mix of each level is measured against its **parent segment** instead of the whole step, and the waterfall shows:
+
+* **\<Root\> Mix** — e.g. *Zone Mix*
+* **\<Child\> Mix within \<Parent\>** — e.g. *Country Mix within Zone*
+* **\<Path\> Perf** — performance read at the finest level
+
+Mix effects of one hierarchy then **add up** (*Zone Mix + Country Mix within Zone = Country mix*), which matches a cumulative mix computed by hand in a finance workbook. One chain is built per level 0 dimension, following the pinned child (else the first one) at every level. Off (default): each dimension is analysed on its own.
+
+**Cluster Other at each parent** (on by default, shown with the cascade) rebuilds the "Other" segment inside every parent, so each level keeps its own segments. Turn it off to cluster once on the whole comparison — faster on a very deep product tree, but a level whose segments are all small globally then collapses into "Other".
+
 ## 3.2. Clustering with the aggregation in %
 
 <center><img style="align: right; width: 400px;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings_agg2percent.jpg"/></center>
 
 Sets the model’s aggregation level. If set to X%, segments within a dimension that represent less than X% of the "Primary Numerator" (e.g. Revenue) are grouped into an "Other" segment. Default is 2%. This parameter can significantly impact the computed mix effects.
 The "Primary Numerator" can be customized just bellow on the line 'KPI'.
+
+**Method** chooses how segments are pooled into "Other":
+
+| Method | Behavior |
+|:---|:---|
+| **Smallest segments** (default) | Every segment weighing less than the threshold goes to "Other" |
+| **Long tail** | Segments are ranked by absolute value and the smallest ones are pooled **while their cumulated weight stays within the threshold** — the "Other" segment can never exceed X% of the KPI, however long the tail |
+
+Use **Long tail** on dimensions with hundreds of small values (SKUs, stores, cities), where "Other" could otherwise swallow a large share of the KPI and blur the mix effects.
+
+Numeric dimensions are cut into value ranges (buckets) instead of producing one segment per value.
+
+## 3.3. Out of scope segments
+
+Take the segments that exist on **one side of the comparison only** (openings, closures, launches, discontinued products) out of the steps and show them in an **Out of scope** bar right after Start, split into **New** and **Discontinued** segments.
+
+| Option | Description |
+|:---|:---|
+| **Eligible dimensions** | Dimensions used to detect the segments present on one side only. Empty (default) disables the feature. |
+| **Scope label** | Custom name of the bar (default *Out of scope*) |
+| **Add comparable pillar** | Adds a *Comparable {Start}* pillar after the block (default on) |
+
+Full explanation and example: [Out of scope segments]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html).
 
 # 4. Market Equation
 
