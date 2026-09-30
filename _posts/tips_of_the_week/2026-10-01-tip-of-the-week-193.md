@@ -9,9 +9,9 @@ img_height: 450
 layout: post
 ---
 
-A step of your market equation is itself a mini-funnel? 🧩🔎
+Does your market equation break down into several levels? 🔎
 
-With '**Sub-steps**' on the Datama Compare extension, nest equations inside a step instead of flattening them by hand. Example: **Revenue = Sessions × Conversion Rate × AOV** 💶, then detail the Conversion Rate as **Add to Cart Rate × Cart to Order Rate** 🛒.
+With '**Sub-steps**' on the Datama Compare extension, nest equations inside a step. Example: **Revenue = Sessions × Conversion Rate × AOV** 💶, then detail the Conversion Rate as **Add to Cart Rate × Cart to Order Rate** 🛒.
 
 How to use them 👇
 

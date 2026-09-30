@@ -9,9 +9,9 @@ img_height: 450
 layout: post
 ---
 
-Une étape de votre équation de marché est elle-même un mini-funnel ? 🧩🔎
+Votre équation de marché se décompose en plusieurs niveaux ? 🔎
 
-Avec les '**Sub-steps**' sur l'extension Datama Compare, imbriquez des équations dans une étape au lieu de les aplatir à la main. Exemple : **Revenue = Sessions × Conversion Rate × AOV** 💶, puis détaillez le Conversion Rate en **Add to Cart Rate × Cart to Order Rate** 🛒.
+Avec les '**Sub-steps**' sur l'extension Datama Compare, imbriquez des équations dans une étape. Exemple : **Revenue = Sessions × Conversion Rate × AOV** 💶, puis détaillez le Conversion Rate en **Add to Cart Rate × Cart to Order Rate** 🛒.
 
 Comment faire 👇
 
