@@ -116,7 +116,7 @@ This is to customize X% mentioned just above.
 
 ### 1.2.3. Method
 
-**Method** chooses how segments are pooled into "Other": **Smallest segments** (default) pools every segment below the threshold; **Long tail** ranks segments by absolute value and pools the smallest ones while their cumulated weight stays within the threshold, so "Other" never exceeds X% of the KPI — recommended for dimensions with hundreds of small values (SKUs, stores, cities). Numeric dimensions are cut into value ranges instead of one segment per value.
+**Method** chooses how segments are pooled into "Other": **Smallest segments** (default) pools every segment below the threshold; **Long tail** ranks segments by absolute value and pools the smallest ones while their cumulated weight stays within the threshold, so "Other" never exceeds X% of the KPI. Recommended for dimensions with hundreds of small values (SKUs, stores, cities). Numeric dimensions are cut into value ranges instead of one segment per value.
 
 <br>
 
@@ -170,7 +170,7 @@ Collapse empty continuous values. When this option is enabled, the chart removes
 
 ### 3.1.2. Keep position
 
-When this option is enabled, the chart preserves the full structure of grouped or stacked categories even when some combinations have no data. For example, if your X-axis represents dates and your X2 (sub-axis) represents countries, each date normally shows one bar per country. Without this option, dates with missing countries will display fewer bars, changing the visual spacing. With Keep position enabled, all expected category positions are kept — empty ones remain visible but show no value — ensuring consistent alignment across all dates.
+When this option is enabled, the chart preserves the full structure of grouped or stacked categories even when some combinations have no data. For example, if your X-axis represents dates and your X2 (sub-axis) represents countries, each date normally shows one bar per country. Without this option, dates with missing countries will display fewer bars, changing the visual spacing. With Keep position enabled, all expected category positions are kept (empty ones remain visible but show no value), ensuring consistent alignment across all dates.
 
 <br/>
 
@@ -202,7 +202,7 @@ Adjust Opacity of label
 #### 3.3.4. Size
 Adjust size of label
 #### 3.3.5. Weight
-Controls the thickness (or boldness) of text labels on the chart — for example, making axis labels or data labels appear lighter or bolder for better visual emphasis.
+Controls the thickness (or boldness) of text labels on the chart, for example to make axis labels or data labels appear lighter or bolder for better visual emphasis.
 
 <br/>
 
@@ -311,7 +311,7 @@ Put the colonne names about events of your dataset into Label(event name),
 
 ### 4.1.2. Areas
 
-This section allows you to customize the event area — for example, display it at full size or up to a specific value, hide the area, choose whether it starts from the top or bottom, set the stroke size for calendar event areas in pixels, and adjust opacity.
+This section allows you to customize the event area, for example to display it at full size or up to a specific value, hide the area, choose whether it starts from the top or bottom, set the stroke size for calendar event areas in pixels, and adjust opacity.
 
 ### 4.1.3. Markers
 
@@ -379,7 +379,7 @@ Show or hide chart comment
 
 # 6. Save customized setting
 
-> **Power BI**: customizations and the licence key are now **saved automatically** inside the Power BI report — no JSON copy‑paste required. The Save button in the top‑right corner remains available if you want to copy the current settings JSON to migrate them to another visual.
+> **Power BI**: customizations and the licence key are now **saved automatically** inside the Power BI report: no JSON copy‑paste required. The Save button in the top‑right corner remains available if you want to copy the current settings JSON to migrate them to another visual.
 
 > **Looker Studio (premium users)**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the **Config JSON** field in the style panel. Otherwise, your settings will be lost when you refresh the BI report.
 

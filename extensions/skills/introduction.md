@@ -7,7 +7,7 @@ keywords: skill agent AI Claude Cursor ChatGPT Compare Explore
 
 <br/>
 
-> A **Datama Skill** teaches your AI assistant how to deliver interactive Datama visualizations as standalone HTML — without sending your data to Datama servers.
+> A **Datama Skill** teaches your AI assistant how to deliver interactive Datama visualizations as standalone HTML, without sending your data to Datama servers.
 
 <br/>
 
@@ -36,19 +36,19 @@ The skill package is a folder (or zip) that typically contains:
 
 # 2. What does the Datama skill do?
 
-The **datama** skill teaches a compatible assistant to produce a **standalone HTML page** with an interactive Datama visualization. All rendering happens in the browser — your dataset stays in the page.
+The **datama** skill teaches a compatible assistant to produce a **standalone HTML page** with an interactive Datama visualization. All rendering happens in the browser, your dataset stays in the page.
 
 The skill supports **two solutions**. The assistant picks one per delivered page:
 
-## Compare — variance decomposition / waterfall
+## Compare: variance decomposition / waterfall
 
 - **Intent:** explain **why** a KPI **changed** between **two** sides (periods, segments, groups: before/after, A vs B, X vs Y).
 - **Typical asks:** "why did revenue drop?", "Compare Q1 vs Q2", "decompose the conversion change", "delta mobile vs desktop".
 - **Output:** interactive waterfall chart with variance decomposition.
 
-## Explore — breakdown / slicing
+## Explore: breakdown / slicing
 
-- **Intent:** **slice** a metric across one or two dimensions, or inspect a **funnel step** — **without** a mandatory two-group comparison.
+- **Intent:** **slice** a metric across one or two dimensions, or inspect a **funnel step**: **without** a mandatory two-group comparison.
 - **Typical asks:** "break down revenue by country", "conversion by device and channel", "sessions per campaign", "explore the funnel at checkout".
 - **Output:** interactive breakdown / slicing visualization.
 
@@ -58,6 +58,12 @@ The skill supports **two solutions**. The assistant picks one per delivered page
 2. **Funnel step, single metric over a dimension, breakdown, or distribution** without a mandatory two-side comparison → **Explore**.
 3. If both comparison and breakdown language appear → **Compare** (priority: compare > explore).
 4. If unclear → **Compare**.
+
+## Beyond the chart
+
+- **Look and feel:** palettes, custom colors and style presets can be requested in plain language. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment)
+- **Results as text** (licensed skill): the assistant can read back the computed drivers table and the generated comment, on claude.ai through the artifact itself. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#6-get-the-results-as-text-licensed-skill)
+- **Download as HTML** from the header of the delivered page. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#7-download-as-html)
 
 <br/>
 
@@ -70,7 +76,7 @@ The skill supports **two solutions**. The assistant picks one per delivered page
 
 # 4. Compatible hosts
 
-The Datama skill works with any **Agent Skills–compatible** assistant host — for example Claude, ChatGPT, Cursor, Copilot, or other products that support skills from a zip or folder.
+The Datama skill works with any **Agent Skills–compatible** assistant host, for example Claude, ChatGPT, Cursor, Copilot, or other products that support skills from a zip or folder.
 
 - **Web assistant:** upload the `datama.zip` in your account or project skills (the exact menu varies by product).
 - **IDE or desktop agent:** copy the skill folder into your host's skills directory (for example `.agents/skills/`).

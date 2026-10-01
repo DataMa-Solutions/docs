@@ -28,7 +28,7 @@ Various sub-menus are available:
 | **Modeling** | After **Apply** | Analysis method, comment depth, mix & perf, covariance, language |
 | **Dimensions** | After **Apply** | Hierarchy (incl. cascade mix), clustering, out of scope segments |
 | **Market Equation** | After **Apply** | KPI definition, card editor, sub-steps, units |
-| **What If** | After **Apply** | Scenario simulation (baseline + KPI impacts) — see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
+| **What If** | After **Apply** | Scenario simulation (baseline + KPI impacts), see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Events** | After **Apply** | Calendar |
 | **Chart** | Live | Preset, Views, Slide title, Chart title, Comment, General, Axis, Legends |
 | **Colors** | Live | Palette (semantic + chart) and Theme (application) |
@@ -44,13 +44,13 @@ Tooltips on controls explain advanced options. The app version remains visible i
 
 ## Source text variables
 
-Any text field (slide title, chart title, segment names, units, labels…) can display a value of a source column with **`@Column[n]`** — for example *Revenue of @Country[1]* or *Gap in @Currency[1]*.
+Any text field (slide title, chart title, segment names, units, labels…) can display a value of a source column with **`@Column[n]`**: for example *Revenue of @Country[1]* or *Gap in @Currency[1]*.
 
 * `n` is the rank of the value in the **alphabetical order** of the distinct values of that column, so the text stays stable when dashboard filters change. With a single value left after filtering, `[1]` is that value.
 * Type `@` in a text field to get the list of available references; the field previews the resolved text as you type.
 * A column referenced this way is treated as a label, not as an analysis dimension.
 
-Typical use: name a *Metric vs Metric* comparison, or a currency unit, after a dashboard filter — without pivoting your data.
+Typical use: name a *Metric vs Metric* comparison, or a currency unit, after a dashboard filter, without pivoting your data.
 
 <br/>
 
@@ -74,7 +74,7 @@ You can start your comparison as suggested below. For a quick step‑by‑step d
 
 * Third, in **Comparison** settings, you can choose any other dimension available in your visualization tool’s "Dimension" field as the comparison dimension.
 
-If a dimension includes more than two segments — e.g. "Country" — start by adding "Country" and the metric (e.g. "Sessions"), then select the two segments you want to compare (e.g. UK vs. Spain).
+If a dimension includes more than two segments, e.g. "Country", start by adding "Country" and the metric (e.g. "Sessions"), then select the two segments you want to compare (e.g. UK vs. Spain).
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/change_segment_country.gif"/></center>
 
@@ -170,7 +170,7 @@ Under **Modeling › Covariance**:
 | **Threshold** | Used by **Auto** for separate covariance (default `20`). |
 | **Mix & Performance covariance** | How the part of a segment's move that comes from its share **and** its ratio changing together is split: **Pro rata** (default) between mix and performance in proportion of their weights; **To performance** keeps the mix at Start ratios, so a uniform ratio move never shows as mix; **To mix** does the opposite. |
 
-When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel — see [Market Equation](#4-market-equation) below. That per-step field is hidden while Separate covariance is active.
+When covariance is **not** separated, each market-equation step can carry its own policy in the step detail panel, see [Market Equation](#4-market-equation) below. That per-step field is hidden while Separate covariance is active.
 
 If covariance exceeds its warning threshold (default **40%**), the slide subtitle shows a yellow note inviting you to check whether Start and End are truly comparable.
 
@@ -199,13 +199,15 @@ Furthermore, using the button to the left of the dimension, you can pin a dimens
 
 Once a dimension is indented under another one, the switch **Cascade mix effects along the hierarchy** appears. When on, the mix of each level is measured against its **parent segment** instead of the whole step, and the waterfall shows:
 
-* **\<Root\> Mix** — e.g. *Zone Mix*
-* **\<Child\> Mix within \<Parent\>** — e.g. *Country Mix within Zone*
-* **\<Path\> Perf** — performance read at the finest level
+* **\<Root\> Mix**: e.g. *Zone Mix*
+* **\<Child\> Mix within \<Parent\>**: e.g. *Country Mix within Zone*
+* **Perf \<Path\>**: performance read at the finest level (e.g. *Perf Zone › Country*; the kind comes first so it does not read as the performance of the last dimension alone)
+
+In the waterfall, the mix levels of a hierarchy are **gathered under a single _Mix_ box** instead of being listed as separate bars: open **Mix** to read *Zone Mix* and *Country Mix within Zone* one by one. With the **Dimensions then Steps** methods, the root bars are grouped the same way into one terminal **Mix** bar. The levels stay collapsed until you open them, so a deep hierarchy does not materialise every segment path. Exports (Table view, Excel, PowerPoint) and the smart comment keep reading the levels individually, the **Mix** box is a display grouping only and adds no extra number.
 
 Mix effects of one hierarchy then **add up** (*Zone Mix + Country Mix within Zone = Country mix*), which matches a cumulative mix computed by hand in a finance workbook. One chain is built per level 0 dimension, following the pinned child (else the first one) at every level. Off (default): each dimension is analysed on its own.
 
-**Cluster Other at each parent** (on by default, shown with the cascade) rebuilds the "Other" segment inside every parent, so each level keeps its own segments. Turn it off to cluster once on the whole comparison — faster on a very deep product tree, but a level whose segments are all small globally then collapses into "Other".
+**Cluster Other at each parent** (on by default, shown with the cascade) rebuilds the "Other" segment inside every parent, so each level keeps its own segments. Turn it off to cluster once on the whole comparison, faster on a very deep product tree, but a level whose segments are all small globally then collapses into "Other".
 
 ## 3.2. Clustering with the aggregation in %
 
@@ -219,7 +221,7 @@ The "Primary Numerator" can be customized just bellow on the line 'KPI'.
 | Method | Behavior |
 |:---|:---|
 | **Smallest segments** (default) | Every segment weighing less than the threshold goes to "Other" |
-| **Long tail** | Segments are ranked by absolute value and the smallest ones are pooled **while their cumulated weight stays within the threshold** — the "Other" segment can never exceed X% of the KPI, however long the tail |
+| **Long tail** | Segments are ranked by absolute value and the smallest ones are pooled **while their cumulated weight stays within the threshold**: the "Other" segment can never exceed X% of the KPI, however long the tail |
 
 Use **Long tail** on dimensions with hundreds of small values (SKUs, stores, cities), where "Other" could otherwise swallow a large share of the KPI and blur the mix effects.
 
@@ -245,7 +247,7 @@ Edit the KPI definition and market equation so the analysis matches your busines
 
 Market relation defines how metrics from your datasource combine to compute the KPI you want to explain. Steps are edited as an indented **card outline**: rename steps, set units, focus / exclude dimensions, emoji, and nest **sub-steps**.
 
-The Market Equation layout is compact to fit the settings rail — expand the panel to **full width** for deep trees. Step edits are tracked as dirty and require **Apply** before recomputation.
+The Market Equation layout is compact to fit the settings rail, expand the panel to **full width** for deep trees. Step edits are tracked as dirty and require **Apply** before recomputation.
 
 - By default, Datama uses a product of ratios (prod) across all steps in the market equation. You can switch to a "sum" when your KPI is additive (e.g. Revenue = Revenue_France + Revenue_UK + Revenue_US).
 
@@ -279,7 +281,7 @@ Enable Calendar with the following
 
 1. In the **Events** scope in the side settings panel enable Calendar if it is not already on.
 2. In **Select Calendar**, choose:
-   - **Current data** — map event columns from the dataset already loaded in the extension
+   - **Current data**: map event columns from the dataset already loaded in the extension
    - Or any calendar you created / connected in the Datama WebApp (available with a paid licence)
 
 The "Show event interest in comment" option allows to display the interest score calculed for each event. 
@@ -409,6 +411,8 @@ Under **Style**:
 
 Comment content still follows drill-down / Split by; these options only change how it looks.
 
+> The comment pane position (**below**, **left**, **right** or **hidden**) and these text options can also be set by the [Datama AI skill]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment).
+
 <br/>
 
 ## 6.6. General
@@ -419,7 +423,7 @@ General groups plot chrome, interaction behaviors, Compare defaults, and Tree ex
 
 ### 6.6.1. Plot
 
-- **Reverse axis** — rotate the waterfall 90° (also available from chart hover shortcuts).
+- **Reverse axis**: rotate the waterfall 90° (also available from chart hover shortcuts).
 
 ### 6.6.2. Plot padding
 
@@ -444,8 +448,8 @@ Margins around the plot area: **Top**, **Right**, **Bottom**, **Left** (in pixel
 
 ### 6.6.5. Tree
 
-- **Exploration method** — **Hierarchy** or **Top N** for the Tree view (and related exploration). 
-- **Top Exploration Leaf Count** — Defines the maximum number of top-ranked leaf nodes considered during tree exploration. A higher value allows the algorithm to explore more candidate leaves, potentially increasing the breadth and completeness of the exploration, while also increasing computational cost.
+- **Exploration method**: **Hierarchy** or **Top N** for the Tree view (and related exploration). 
+- **Top Exploration Leaf Count**: Defines the maximum number of top-ranked leaf nodes considered during tree exploration. A higher value allows the algorithm to explore more candidate leaves, potentially increasing the breadth and completeness of the exploration, while also increasing computational cost.
 
 More Tree card options live under the dedicated **Tree** settings scope.
 
@@ -471,7 +475,7 @@ Reference line used as visual baseline on the plot:
 
 ### 6.7.2. Comparison scales
 
-- **Share scales between primary and secondary comparison** — keep both waterfalls on the same scale for fair visual comparison.
+- **Share scales between primary and secondary comparison**: keep both waterfalls on the same scale for fair visual comparison.
 
 ### 6.7.3. Scale
 
@@ -548,7 +552,7 @@ Choose the chart color scheme and preview how accents map to waterfall elements.
 
 The preview splits into two blocks:
 
-**Semantic** — fixed roles used on the waterfall:
+**Semantic**: fixed roles used on the waterfall:
 
 | Role | Typical use |
 |:---|:---|
@@ -560,7 +564,7 @@ The preview splits into two blocks:
 | **Start** | Start bar |
 | **End** | End bar |
 
-**Chart** — numbered series swatches (1, 2, 3…) for multi-segment / multi-series coloring. Use **Add** (+) to append extra custom colors to the chart palette.
+**Chart**: numbered series swatches (1, 2, 3…) for multi-segment / multi-series coloring. Use **Add** (+) to append extra custom colors to the chart palette.
 
 Click a swatch to edit that color. Palette updates preview immediately on the waterfall.
 
@@ -595,8 +599,8 @@ Tree layer settings control exploration and card presentation.
 
 The **Cards** section controls how each node is drawn in the Tree view. It is split into two sub-sections:
 
-- **Style** — visual appearance of the cards (shape, border, strokes)
-- **Content** — customize each text shown on the card (display, size, color)
+- **Style**: visual appearance of the cards (shape, border, strokes)
+- **Content**: customize each text shown on the card (display, size, color)
 
 <center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/8_1_Tree_settings_cards.png"/></center>
 
@@ -655,11 +659,11 @@ Labels are split into **Values** and **Top line**, with full typography controls
 
 For each element you can choose what information to display:
 
-- **Values (first row)** — how to express evolution on each step:
+- **Values (first row)**: how to express evolution on each step:
   - **Volume** (default): evolution in volume from Start to End
   - **Impact in points**: contribution in pts along the bridge
   - **Percent change**: contribution in % along the bridge
-- **Top line (second row)** — percentage / impact row above the graph (default: percent change)
+- **Top line (second row)**: percentage / impact row above the graph (default: percent change)
 
 Display formats per label:
 
@@ -731,9 +735,9 @@ Right-click a **bar**, a **value label**, or a **top-line label** to open the co
 |:---|:---|
 | **Expand first driver** | Automatically open the strongest driver step on the waterfall |
 | **Displayed value** | Choose how values are shown on the chart (impact, volume, %, etc.) |
-| **Split by…** | Change the dimension used to explain the selected step or segment — includes **Sub-steps** on composite market-equation steps |
+| **Split by…** | Change the dimension used to explain the selected step or segment, includes **Sub-steps** on composite market-equation steps |
 | **Regroup remaining** | Collapse an expanded **Remaining** group back into one bar |
-| **What If** | Create / open a scenario from the selected bar (baseline and scope prefilled) — see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
+| **What If** | Create / open a scenario from the selected bar (baseline and scope prefilled), see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Connectors** | Show or hide the links between waterfall steps, with styling options in the submenu |
 | **Add event** | Create a calendar event from the selected bar / period |
 | **Hide event** | Hide calendar events related to the current selection |
@@ -766,7 +770,7 @@ From left to right:
 
 # Save customized settings
 
-> **Power BI**: customizations and the licence key are **saved automatically** inside the Power BI report — no JSON copy‑paste required. The Save button in the top‑right corner remains available if you want to copy the current settings JSON to migrate them to another visual.
+> **Power BI**: customizations and the licence key are **saved automatically** inside the Power BI report: no JSON copy‑paste required. The Save button in the top‑right corner remains available if you want to copy the current settings JSON to migrate them to another visual.
 
 > **Looker Studio (premium users)**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the Config JSON field in the style panel. Otherwise, your settings will be lost when you refresh the BI report.
 
