@@ -1,7 +1,7 @@
 ---
 feed: release_note
-title:  "2026-09-28 Datama AI skill: colors, comment & results — and grouped hierarchical mix in Datama Light"
-date:   2026-09-28 12:00:00 +0200
+title:  "2026-09-29 Datama AI skill: colors, comment & results — and grouped hierarchical mix in Datama Light"
+date:   2026-09-29 12:00:00 +0200
 description: |
   End-of-September marketplace release (1.6.3.4):
   - Datama AI skill: theme, colors and chart settings the assistant can edit, results readable by the assistant, Download as HTML
