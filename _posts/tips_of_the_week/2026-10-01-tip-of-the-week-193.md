@@ -11,13 +11,13 @@ layout: post
 
 Does your market equation break down into several levels? 🔎
 
-With '**Sub-steps**' on the Datama Compare extension, nest equations inside a step. Example: **Revenue = Sessions × Conversion Rate × AOV** 💶, then detail the Conversion Rate as **Add to Cart Rate × Cart to Order Rate** 🛒.
+With '**Sub-steps**' on the Datama Compare extension, nest equations inside a step. Example: **Revenue = Sessions × Conversion Rate × AOV** 💶, then detail the Conversion Rate as **Add to Cart Rate × Cart to Order Rate** 🛒. Sub-steps apply to both the **Waterfall** 📊 and the **Tree** 🌳.
 
 How to use them 👇
 
 * ⚙️ Open **Settings › Market Equation** and build your steps with the **card editor**: hover a card → '**Add a sub-step**', indent / outdent, edit the formula
 * 🏷️ Prefer meaningful **step names**: formulas reference steps by name, and names must be unique among steps (the Main KPI may reuse a step label)
-* 🖱️ On the waterfall, right-click a composite bar → '**Split by › Sub-steps**' to open it into its child sub-steps
+* 🖱️ On the **Waterfall** 📊, right-click a composite bar → '**Split by › Sub-steps**' to open it into its child sub-steps, and find the same hierarchy in the **Tree** 🌳
 
 ✨ Perfect to explain a variation down to the smallest stage of your funnel 🚀
 
