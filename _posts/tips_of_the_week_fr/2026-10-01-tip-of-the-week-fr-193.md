@@ -17,7 +17,7 @@ Comment faire 👇
 
 * ⚙️ Ouvrez **Settings › Market Equation** et construisez vos étapes avec le **card editor** : survolez une carte → '**Add a sub-step**', indentez / désindentez, modifiez la formule
 * 🖱️ Sur la waterfall, clic droit sur une barre composite → '**Split by › Sub-steps**' pour l'ouvrir en ses sous-étapes
-* ✅ Une étape qui n'est pas un simple ratio ne peut se décomposer que par Sub-steps, la décomposition reste donc toujours valide
+* 🏷️ Choisissez des **noms d'étapes** parlants : les formules référencent les étapes par leur nom, et ces noms doivent être uniques (seul le Main KPI peut réutiliser le libellé d'une étape)
 
 ✨ Idéal pour expliquer une variation jusqu'à la plus petite étape de votre funnel 🚀
 

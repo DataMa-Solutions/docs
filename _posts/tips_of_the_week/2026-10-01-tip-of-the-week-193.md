@@ -17,7 +17,7 @@ How to use them 👇
 
 * ⚙️ Open **Settings › Market Equation** and build your steps with the **card editor**: hover a card → '**Add a sub-step**', indent / outdent, edit the formula
 * 🖱️ On the waterfall, right-click a composite bar → '**Split by › Sub-steps**' to open it into its child sub-steps
-* ✅ Steps that are not a simple ratio can only be split by Sub-steps, so the decomposition always stays valid
+* 🏷️ Prefer meaningful **step names**: formulas reference steps by name, and names must be unique among steps (the Main KPI may reuse a step label)
 
 ✨ Perfect to explain a variation down to the smallest stage of your funnel 🚀
 
