@@ -16,8 +16,8 @@ Avec les '**Sub-steps**' sur l'extension Datama Compare, imbriquez des équation
 Comment faire 👇
 
 * ⚙️ Ouvrez **Settings › Market Equation** et construisez vos étapes avec le **card editor** : survolez une carte → '**Add a sub-step**', indentez / désindentez, modifiez la formule
-* 🖱️ Sur la waterfall, clic droit sur une barre composite → '**Split by › Sub-steps**' pour l'ouvrir en ses sous-étapes
 * 🏷️ Choisissez des **noms d'étapes** parlants : les formules référencent les étapes par leur nom, et ces noms doivent être uniques (seul le Main KPI peut réutiliser le libellé d'une étape)
+* 🖱️ Sur la waterfall, clic droit sur une barre composite → '**Split by › Sub-steps**' pour l'ouvrir en ses sous-étapes
 
 ✨ Idéal pour expliquer une variation jusqu'à la plus petite étape de votre funnel 🚀
 
