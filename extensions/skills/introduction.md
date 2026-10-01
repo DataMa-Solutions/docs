@@ -61,7 +61,7 @@ The skill supports **two solutions**. The assistant picks one per delivered page
 
 ## Beyond the chart
 
-- **Look and feel:** palettes, custom colors, logo and style presets can be requested in plain language. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment)
+- **Look and feel:** palettes, custom colors and style presets can be requested in plain language. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment)
 - **Results as text** (licensed skill): the assistant can read back the computed drivers table and the generated comment, on claude.ai through the artifact itself. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#6-get-the-results-as-text-licensed-skill)
 - **Download as HTML** from the header of the delivered page. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#7-download-as-html)
 

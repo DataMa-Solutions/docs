@@ -78,7 +78,6 @@ Once the page is delivered, keep talking to the assistant: it edits the page's s
 
 - **Named palettes**: *default, modern, ocean, sunset, datama, brand, vintage, luxury, excel* ("make it more modern", "use presentation colors").
 - **Custom colors**: your series colors, the waterfall **Up / Down / total** colors, and the application colors (primary, texts, surfaces, background, font).
-- **Logo**: put your own title and logo in the header (only with an image you provide).
 - **Style preset**: one key for the whole look and feel: *standard, modern, vintage, luxury, excel, brand, presentation* (same as [Chart › Preset]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#61-preset)). A preset sets shapes, typography and chrome; the palette sets the colors. For "make it look modern", the assistant sets both.
 - To flip good and bad news (a decrease is good for costs or churn), ask to **reverse the colors** rather than repainting the bars.
 
