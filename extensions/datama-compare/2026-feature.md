@@ -109,8 +109,8 @@ Arrows stay anchored to the data (not to pixels), so they survive drill, reverse
 
 Once an arrow is placed, you can edit it directly on the chart:
 
-- **Click the line** — cycle through the three **style presets**
-- **Click the label** — switch the displayed value between **% change**, **impact in points**, and **both**
+- **Click the line**: cycle through the three **style presets**
+- **Click the label**: switch the displayed value between **% change**, **impact in points**, and **both**
 
 <center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/9_Difference_arrows.gif" alt="Difference arrows annotations on the waterfall" /></center>
 
@@ -155,8 +155,8 @@ See [Context menu]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/setti
 
 When several views are pinned, they stay **in sync**:
 
-- **Hover** — hovering an element highlights the matching rows / cards / bars / comment lines across Waterfall, Comment, Table, and Tree
-- **Drill and Split by** — a drill-down, drill-up, or Split by performed in one chart is reflected in all other pinned views
+- **Hover**: hovering an element highlights the matching rows / cards / bars / comment lines across Waterfall, Comment, Table, and Tree
+- **Drill and Split by**: a drill-down, drill-up, or Split by performed in one chart is reflected in all other pinned views
 
 This makes it easier to follow the same driver across surfaces and keep the narrative aligned with the numbers.
 
@@ -172,11 +172,11 @@ See [Shortcuts on hover]({{site.url}}/{{site.baseurl}}/extensions/datama-compare
 
 Settings live in a **side panel** next to the chart. The panel starts **collapsed** to leave more room for the visualization.
 
-- **Icon rail** — jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, Table
-- **Apply** — batch equation / modeling / comparison changes, then recompute once
-- **Live** — Chart, Colors, Waterfall, Tree, and Table tweaks apply immediately
-- **Search** — find options faster in a dense panel
-- **Tooltips** — explain advanced options on controls
+- **Icon rail**: jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, Table
+- **Apply**: batch equation / modeling / comparison changes, then recompute once
+- **Live**: Chart, Colors, Waterfall, Tree, and Table tweaks apply immediately
+- **Search**: find options faster in a dense panel
+- **Tooltips**: explain advanced options on controls
 
 For detailed options, see the [Settings guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
 
@@ -184,7 +184,7 @@ For detailed options, see the [Settings guide]({{site.url}}/{{site.baseurl}}/ext
 
 ## 3.5. Operators (available on Tree only)
 
-Equation **operators** (`×`, `÷`, `+`, …) can be shown on the **Tree** view to make the market-equation logic visible between cards — not only in settings.
+Equation **operators** (`×`, `÷`, `+`, …) can be shown on the **Tree** view to make the market-equation logic visible between cards, not only in settings.
 
 Configure them under **Tree › Operators**.
 

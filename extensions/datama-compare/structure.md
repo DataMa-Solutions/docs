@@ -33,14 +33,14 @@ Analysis workspace with a **side settings panel**, pinned views, and footer.
 
 Settings live **next to the chart** (left panel). The Compare panel starts **collapsed** to leave more room for the visualization.
 
-- **Icon rail** — jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, Table
-- **Apply** — batch equation / modeling / comparison changes, then recompute once
-- **Live** — Chart, Colors, Waterfall, Tree, and Table tweaks apply immediately
-- **Search** — find options faster in a dense panel
+- **Icon rail**: jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, Table
+- **Apply**: batch equation / modeling / comparison changes, then recompute once
+- **Live**: Chart, Colors, Waterfall, Tree, and Table tweaks apply immediately
+- **Search**: find options faster in a dense panel
 
 For detailed options, see the [Settings guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
 
-**See Source** (header, left of Save) opens [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html): a preview of the data behind the visual — editable in PowerPoint, HTML exports and the AI skill, read-only in BI tools.
+**See Source** (header, left of Save) opens [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html): a preview of the data behind the visual (editable in PowerPoint, HTML exports and the AI skill; read-only in BI tools).
 
 <br/>
 
@@ -63,8 +63,8 @@ All pinned panes stay in sync on Split by / drill down / drill up.
 
 On chart hover, shortcuts appear without cluttering the view. Right-click bars **or** value / top-line labels to open the context menu:
 
-1. **Compare** — displayed value, expand first driver, secondary comparison
-2. **Waterfall** — links, labels, top line, add pillar, styling
+1. **Compare**: displayed value, expand first driver, secondary comparison
+2. **Waterfall**: links, labels, top line, add pillar, styling
 
 Common exploration actions:
 

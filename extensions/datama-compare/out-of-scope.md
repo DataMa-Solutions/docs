@@ -14,7 +14,7 @@ keywords: light compare out of scope perimeter new discontinued like-for-like sc
 
 # Purpose
 
-Some segments exist on **one side of the comparison only**: a country opened, a store closed, a product launched or discontinued. Left in the analysis, they distort every step — their whole weight lands in volume, then in mix and performance effects that mean nothing (a discontinued product looks like a price drop).
+Some segments exist on **one side of the comparison only**: a country opened, a store closed, a product launched or discontinued. Left in the analysis, they distort every step: their whole weight lands in volume, then in mix and performance effects that mean nothing (a discontinued product looks like a price drop).
 
 **Out of scope segments** takes them out of the steps and shows their contribution as **one bar right after Start**, the way controlling teams show a *perimeter* or *scope* effect before the like-for-like analysis:
 
@@ -34,7 +34,7 @@ In **Settings › Dimensions › Out of scope segments**:
 
 | Option | Description |
 |:---|:---|
-| **Eligible dimensions** | Dimensions used to detect segments present on one side only. Leave empty to disable (default) — nothing is computed and your analysis is unchanged. |
+| **Eligible dimensions** | Dimensions used to detect segments present on one side only. Leave empty to disable (default): nothing is computed and your analysis is unchanged. |
 | **Scope label** | Rename the bar (default *Out of scope*, e.g. *Perimeter effect* or *Store openings / closures*). Shown once a dimension is selected. |
 | **Add comparable pillar** | On by default: adds a *Comparable {Start}* pillar right after the block, so you read the like-for-like starting point. |
 
@@ -50,7 +50,7 @@ A segment is a combination of the values of the **eligible dimensions** (e.g. `C
 |:---|:---|
 | **New** | Every metric is absent or `0` on the **Start** side |
 | **Discontinued** | Every metric is absent or `0` on the **End** side |
-| **In scope** | Present on both sides — even with 1 unit at Start and 1 000 at End (the change then shows as volume / mix) |
+| **In scope** | Present on both sides, even with 1 unit at Start and 1 000 at End (the change then shows as volume / mix) |
 
 The eligible dimensions **define the perimeter**. With *Country* eligible, a country opening is out of scope; with only *Zone* eligible, the same opening stays inside its zone (the zone exists on both sides), so no block appears.
 
@@ -72,7 +72,7 @@ Italy opens, Canada closes, no price changes, eligible dimension = *Country*:
 
 | | Without the block | With the block |
 |:---|---:|---:|
-| Out of scope | — | **−23 500** (New IT +4 500, Discontinued CA −28 000) |
+| Out of scope | - | **−23 500** (New IT +4 500, Discontinued CA −28 000) |
 | Volume | +4 000 | +12 133 |
 | Average selling value | −25 048 | −8 865 |
 | Country performance (price) | −12 844 | **0** |
@@ -84,6 +84,6 @@ Without the block, the closure of Canada shows up as a false price drop of −12
 
 # Tips
 
-* Choose the **finest dimension at which openings / closures happen** (store, SKU, country) — not a grouping level.
+* Choose the **finest dimension at which openings / closures happen** (store, SKU, country), not a grouping level.
 * Combine with **Cascade mix effects along the hierarchy** ([Settings › Dimensions]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierarchy)): the cascade then runs on the comparable perimeter.
 * There is no materiality threshold: a segment is out of scope only when it is strictly absent on one side.
