@@ -201,7 +201,9 @@ Once a dimension is indented under another one, the switch **Cascade mix effects
 
 * **\<Root\> Mix** — e.g. *Zone Mix*
 * **\<Child\> Mix within \<Parent\>** — e.g. *Country Mix within Zone*
-* **\<Path\> Perf** — performance read at the finest level
+* **Perf \<Path\>** — performance read at the finest level (e.g. *Perf Zone › Country*; the kind comes first so it does not read as the performance of the last dimension alone)
+
+In the waterfall, the mix levels of a hierarchy are **gathered under a single _Mix_ box** instead of being listed as separate bars: open **Mix** to read *Zone Mix* and *Country Mix within Zone* one by one. With the **Dimensions then Steps** methods, the root bars are grouped the same way into one terminal **Mix** bar. The levels stay collapsed until you open them, so a deep hierarchy does not materialise every segment path. Exports (Table view, Excel, PowerPoint) and the smart comment keep reading the levels individually — the **Mix** box is a display grouping only and adds no extra number.
 
 Mix effects of one hierarchy then **add up** (*Zone Mix + Country Mix within Zone = Country mix*), which matches a cumulative mix computed by hand in a finance workbook. One chain is built per level 0 dimension, following the pinned child (else the first one) at every level. Off (default): each dimension is analysed on its own.
 
@@ -408,6 +410,8 @@ Under **Style**:
 | **Color** | Text color |
 
 Comment content still follows drill-down / Split by; these options only change how it looks.
+
+> The comment pane position (**below**, **left**, **right** or **hidden**) and these text options can also be set by the [Datama AI skill]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment).
 
 <br/>
 

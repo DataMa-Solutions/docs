@@ -70,7 +70,55 @@ Open the HTML in any browser. The visualization renders entirely in the browser 
 
 <br/>
 
-# 5. Compare vs Explore — quick reference
+# 5. Adjust the look and the comment
+
+Once the page is delivered, keep talking to the assistant: it edits the page's settings instead of rebuilding it. Everything below is available to the skill.
+
+## Colors and theme
+
+- **Named palettes** — *default, modern, ocean, sunset, datama, brand, vintage, luxury, excel* ("make it more modern", "use presentation colors").
+- **Custom colors** — your series colors, the waterfall **Up / Down / total** colors, and the application colors (primary, texts, surfaces, background, font).
+- **Logo** — put your own title and logo in the header (only with an image you provide).
+- **Style preset** — one key for the whole look and feel: *standard, modern, vintage, luxury, excel, brand, presentation* (same as [Chart › Preset]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#61-preset)). A preset sets shapes, typography and chrome; the palette sets the colors — for "make it look modern", the assistant sets both.
+- To flip good and bad news (a decrease is good for costs or churn), ask to **reverse the colors** rather than repainting the bars.
+
+An explicit request always wins over what a preset suggests: a preset is a starting point, not a lock.
+
+## Chart and comment (Compare)
+
+| Ask | What changes |
+|-----|--------------|
+| "Put the text on the right" | **Comment placement**: below (default), right, left or hidden |
+| "Make the comment bigger / centered" | Comment **font size** (8–48 px) and **alignment** |
+| "Add a title: *Revenue Q1 vs Q2 — EMEA*" | **Chart title** and **subtitle** bands, shown with your exact text |
+| "Hide the values on the bars" | **Value labels** on / off (values stay on hover) |
+| "Show the gap between Start and End" | **Difference arrows** between two bars: percent, absolute or both, or a compound annual rate (CAGR) between two dated bars |
+
+Arrows drawn by hand in Datama stay untouched; the ones requested through the assistant are rebuilt from the settings on each render, so removing one removes the arrow.
+
+<br/>
+
+# 6. Get the results as text (licensed skill)
+
+With a **licensed skill**, the assistant can also read back what Datama **computed** — the drivers table (what the Table view shows) and the generated **title and comment** — and quote them in its answer, a report or a next step ("summarize the drivers", "give me the decomposition as a table").
+
+- **Claude (claude.ai, Desktop)** — the page stores its results in the artifact itself and the assistant reads them back. The page must have been **opened once** so it can compute; if the assistant says the results are not there yet, open the artifact and ask again. A very large table is trimmed to the segments with the largest impact, and the assistant says so.
+- **Claude Code, Cursor, scripts** — a local extraction runs the page in a headless browser and returns the same results.
+- **Other hosts (Dust, ChatGPT without code sandbox)** — the page is delivered, but the numbers cannot be returned as text.
+
+The assistant never recomputes the figures itself: results always come from Datama. On a **demo** skill, results are not available.
+
+> Because the artifact stores its results, a Claude artifact built for results is shared inside your organization only (no public link). The assistant only enables this when you ask for the numbers.
+
+<br/>
+
+# 7. Download as HTML
+
+The header button **Download as HTML** is available on pages from a licensed skill (disabled in demo). On **claude.ai** it opens a native save prompt; in a regular browser tab it downloads the file; in other sandboxed hosts it copies the HTML to the clipboard so you can paste it into a `.html` file.
+
+<br/>
+
+# 8. Compare vs Explore — quick reference
 
 | Question type | Solution | Example |
 |---------------|----------|---------|
@@ -81,7 +129,7 @@ Open the HTML in any browser. The visualization renders entirely in the browser 
 
 <br/>
 
-# 6. License and output mode
+# 9. License and output mode
 
 The mode of each generated visualization depends on how you [downloaded the skill]({{site.url}}/{{site.baseurl}}/extensions/skills/download.html):
 
@@ -92,7 +140,7 @@ The mode of each generated visualization depends on how you [downloaded the skil
 
 <br/>
 
-# 7. Going further
+# 10. Going further
 
 - [What is a Datama Skill?]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html) — concepts, security, compatible hosts.
 - [Datama Compare documentation]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html) — understand waterfall graphs and KPI trees.
