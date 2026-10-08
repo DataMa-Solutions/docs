@@ -18,8 +18,11 @@ Comment faire 👇
 * 🎨 **Settings › Colors › Palette** : choisissez une palette, ou cliquez sur un swatch pour définir vos propres couleurs **Up**, **Down**, **Start** et **End**
 * 🔤 **Settings › Chart** : modifiez le style du **Slide title**, du **Chart title** et du **Comment** (taille, graisse, police, couleur)
 * 🏷️ **Settings › Waterfall › Labels** : ajustez les labels **Values** et **Top line** (taille, graisse, police, couleur, position)
+* 🖱️ **Raccourcis** : faites un clic droit sur une barre, un label de valeur ou un label de top line de la **Waterfall** pour la restyler directement là où elle se trouve
 * ⚡ Partez d'un **Preset** (Modern, Vintage, Presentation...), puis affinez
 
-✨ Un visuel prêt pour vos slides, à vos couleurs et vos polices. Vous pouvez aussi demander au Datama AI skill d'appliquer ce look à votre place.
+✨ Un visuel prêt pour vos slides, à vos couleurs et vos polices.
+
+*Note : avec le skill Datama, vous pouvez, par l'intermédiaire du prompt, modifier directement le style de votre waterfall.*
 
 📖 [En savoir plus sur les réglages Chart et Colors]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#6-chart)

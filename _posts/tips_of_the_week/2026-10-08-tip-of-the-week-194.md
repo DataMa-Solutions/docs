@@ -18,8 +18,11 @@ How to do it 👇
 * 🎨 **Settings › Colors › Palette**: pick a palette, or click a swatch to set your own **Up**, **Down**, **Start** and **End** colors
 * 🔤 **Settings › Chart**: restyle the **Slide title**, the **Chart title** and the **Comment** (size, weight, font family, color)
 * 🏷️ **Settings › Waterfall › Labels**: tune the **Values** and **Top line** labels (size, weight, font, color, position)
+* 🖱️ **Shortcuts**: right-click a bar, a value label or a top-line label of the **Waterfall** to restyle it right where it is
 * ⚡ Start from a **Preset** (Modern, Vintage, Presentation...), then refine
 
-✨ A slide-ready visual in your own colors and fonts. You can also ask the Datama AI skill to apply this look for you.
+✨ A slide-ready visual in your own colors and fonts.
+
+*Note: with the Datama skill, you can edit the style of your waterfall directly through a prompt.*
 
 📖 [Learn more about Chart and Colors settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#6-chart)
