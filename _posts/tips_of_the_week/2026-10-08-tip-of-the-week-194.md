@@ -1,25 +1,25 @@
 ---
 feed: totw_en
-title:  "Tip of the week 194: Restyle your Datama AI visual in one sentence"
+title:  "Tip of the week 194: Make your waterfall look like your brand"
 date:   2026-10-08 08:00:00 +0200
-img_url: /assets/images/tip/194.gif
-img_type: image/gif
+img_url: /assets/images/tip/194.png
+img_type: image/png
 img_width: 800
-img_height: 450
+img_height: 435
 layout: post
 ---
 
-Your waterfall is right, but does it look like your brand? 🎨
+Your analysis is right. Does your waterfall look like your brand? 🎨
 
-With the **Datama AI skill**, just ask your assistant: "**make it more modern**" or "**use our brand colors**". It edits the page it already delivered instead of rebuilding it.
+In the Datama Compare extension, every visual detail is yours to style, live, without recomputing anything.
 
-How to use it 👇
+How to do it 👇
 
-* 🎨 Pick a **named palette**: modern, ocean, sunset, vintage, luxury, Excel...
-* 🖌️ Set your own **Up / Down / total** colors for the waterfall
-* 💬 Move the **comment** (below, left, right or hidden) and add a **chart title and subtitle**
-* ➡️ Ask for **difference arrows** between two bars: percent, absolute or both
+* 🎨 **Settings › Colors › Palette**: pick a palette, or click a swatch to set your own **Up**, **Down**, **Start** and **End** colors
+* 🔤 **Settings › Chart**: restyle the **Slide title**, the **Chart title** and the **Comment** (size, weight, font family, color)
+* 🏷️ **Settings › Waterfall › Labels**: tune the **Values** and **Top line** labels (size, weight, font, color, position)
+* ⚡ Start from a **Preset** (Modern, Vintage, Presentation...), then refine
 
-✨ A slide-ready visual in seconds, without touching a single setting
+✨ A slide-ready visual in your own colors and fonts. You can also ask the Datama AI skill to apply this look for you.
 
-📖 [Learn more about adjusting the look]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment)
+📖 [Learn more about Chart and Colors settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#6-chart)

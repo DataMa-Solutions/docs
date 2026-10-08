@@ -1,25 +1,25 @@
 ---
 feed: totw_fr
-title:  "Tip of the week 194: Relookez votre visuel Datama AI en une phrase"
+title:  "Tip of the week 194: Habillez votre waterfall aux couleurs de votre marque"
 date:   2026-10-08 08:00:00 +0200
-img_url: /assets/images/tip/194.gif
-img_type: image/gif
+img_url: /assets/images/tip/194.png
+img_type: image/png
 img_width: 800
-img_height: 450
+img_height: 435
 layout: post
 ---
 
-Votre waterfall est juste, mais est-il aux couleurs de votre marque ? 🎨
+Votre analyse est juste. Votre waterfall est-il aux couleurs de votre marque ? 🎨
 
-Avec le **Datama AI skill**, demandez simplement à votre assistant : "**rends-le plus moderne**" ou "**utilise nos couleurs de marque**". Il modifie la page déjà livrée au lieu de la reconstruire.
+Dans l'extension Datama Compare, chaque détail visuel se personnalise en direct, sans rien recalculer.
 
 Comment faire 👇
 
-* 🎨 Choisissez une **palette nommée** : modern, ocean, sunset, vintage, luxury, Excel...
-* 🖌️ Définissez vos propres couleurs **Up / Down / total** pour la waterfall
-* 💬 Déplacez le **commentaire** (dessous, gauche, droite ou masqué) et ajoutez un **titre et un sous-titre** au graphique
-* ➡️ Demandez des **flèches de différence** entre deux barres : en pourcentage, en valeur absolue ou les deux
+* 🎨 **Settings › Colors › Palette** : choisissez une palette, ou cliquez sur un swatch pour définir vos propres couleurs **Up**, **Down**, **Start** et **End**
+* 🔤 **Settings › Chart** : modifiez le style du **Slide title**, du **Chart title** et du **Comment** (taille, graisse, police, couleur)
+* 🏷️ **Settings › Waterfall › Labels** : ajustez les labels **Values** et **Top line** (taille, graisse, police, couleur, position)
+* ⚡ Partez d'un **Preset** (Modern, Vintage, Presentation...), puis affinez
 
-✨ Un visuel prêt pour vos slides en quelques secondes, sans toucher à un seul réglage
+✨ Un visuel prêt pour vos slides, à vos couleurs et vos polices. Vous pouvez aussi demander au Datama AI skill d'appliquer ce look à votre place.
 
-📖 [En savoir plus sur l'ajustement du look]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment)
+📖 [En savoir plus sur les réglages Chart et Colors]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#6-chart)
