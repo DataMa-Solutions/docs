@@ -55,7 +55,7 @@ Below is an extract of the data that has been used for this example. You can dow
 
 # 4. In Datama Compare
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_mediaAcquisition.jpg "/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_mediaAcquisition.JPG "/></center>
 
 
 # 5. Conclusion 

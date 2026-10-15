@@ -595,7 +595,7 @@
               type: h4
 
 - name: Calendar
-  link: /core_app/new/calendar/calendar.html
+  link: /core_app/new/calendar/Calendar.html
   type: bold
   subnav:
       - name: Calendar creation

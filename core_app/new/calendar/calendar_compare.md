@@ -25,7 +25,7 @@ When a calendar is linked:
 
 # 2. Calendar Interest Score
 
-Datama computes an [**interest score**]({{site.url}}{{site.baseurl}}/core_app/new/calendar/calendar_interest.html) for each event based on overlap with comparison periods. If you are comparing date periods, most interesting events will be diplayed at the bottom of your comment of the waterfall.
+Datama computes an [**interest score**]({{site.url}}{{site.baseurl}}/core_app/new/calendar/Calendar_interest.html) for each event based on overlap with comparison periods. If you are comparing date periods, most interesting events will be diplayed at the bottom of your comment of the waterfall.
 
 ### Examples:
 - Event in both periods → low score

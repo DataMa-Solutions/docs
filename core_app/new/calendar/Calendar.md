@@ -82,10 +82,10 @@ Use case: Production and delivery KPIs affected by public holidays or supplier c
 # 3. How to create your own calendar analysis?
 
 For now, Datama Calendar is available in the [Datama Compare extension]({{site.url}}{{site.baseurl}}/extensions/datama-compare/introduction.html) and the [Datama Detect extension]({{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html)
-→ Find the detailed intregration [here]({{site.url}}{{site.baseurl}}/core_app/new/calendar/Calendar_extension.html)
+→ Find the detailed intregration [here]({{site.url}}{{site.baseurl}}/core_app/new/calendar/calendar_creation.html#3-calendar-from-extension)
 
 The feature is also available in both [Datama Compare]({{site.url}}{{site.baseurl}}/core_app/new/compare/compare_interface.html) and [Datama Detect Web App]({{site.url}}{{site.baseurl}}/core_app/new/detect/detect_interface.html).
-→ Find the detailed intregration [here]({{site.url}}{{site.baseurl}}/core_app/new/calendar/Calendar_webapp.html)
+→ Find the detailed intregration [here]({{site.url}}{{site.baseurl}}/core_app/new/calendar/calendar_creation.html#1-add-and-connect-your-calendars-in-the-webapp)
 
 You can connect your dataset either through the [Web version]({{site.url}}{{site.baseurl}}/core_app/new/interface/interface.html#21-Web-Solution) or directly via the [extension version]({{site.url}}{{site.baseurl}}/core_app/new/interface/interface.html#22-Data-Visualisation-Tools-Extensions).
 

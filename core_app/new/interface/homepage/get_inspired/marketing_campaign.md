@@ -22,7 +22,7 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 <br>
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingComparisonCampaign.jpg "/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingComparisonCampaign.JPG "/></center>
 
 <br>
 
@@ -30,7 +30,7 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 Datama Pivot wil help to explain the importance of the dimension and help you focus on the characteristic that should be taking into account to understand your campaign performance. 
 
-<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_pivot_MarketingCampaign.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_pivot_MarketingCampaign.JPG"/></center>
 
 <br>
 
