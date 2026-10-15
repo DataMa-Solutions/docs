@@ -1,4 +1,4 @@
-$datagreen: #00484A;
-$datagreen_light: #16D0B4;
-$white: white;
-$borderColor: rgba(0,0,0,0.1);
+// Legacy names kept for existing partials; new code uses _tokens.scss names.
+$datagreen: $pine;
+$datagreen_light: $aqua;
+$borderColor: $line;
