@@ -17,7 +17,7 @@ description: |
   * Multiple fixes and UI improvement has been released, including the usage of your locale in the date picker calendar, starting weeks on Monday outside of the US 
 
 * **Datama Detect**
-  * Smart Interval is now activated by default on use cases using Observed volatility methodology. This allows to have more accurate lower bounds on ratios close to 0, where lower bounds used to be below or equal to 0, using theoretical standard deviation of Wilson method. [Lear more]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html#smart-interval). 
+  * Smart Interval is now activated by default on use cases using Observed volatility methodology. This allows to have more accurate lower bounds on ratios close to 0, where lower bounds used to be below or equal to 0, using theoretical standard deviation of Wilson method. [Lear more]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html#smart-interval). 
   * French Translation has also been created for anomaly notifications
 
 * **Datama Pivot**

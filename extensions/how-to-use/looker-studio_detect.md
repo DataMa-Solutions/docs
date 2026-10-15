@@ -55,7 +55,7 @@ Below is a short intro video:
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/CopyPath_lookerstudio.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/CopyPath_lookerstudio.png" /></center>
 
 
 And then, follow these steps to add Datama in your Looker Studio report : 
@@ -67,7 +67,7 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_detect_extension_looker.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/add_detect_extension_looker.gif" /></center>
 
 <br>
 
@@ -91,7 +91,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 
 
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
+<!---<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
 
 <br>
 
@@ -111,16 +111,16 @@ Once you've imported the extension, here is how you can use it.
 If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
 Please note that no customized settings will be saved unless you complete this step.
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/JSONsavedetect.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/JSONsavedetect.gif" /></center>
 
 
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmoredetect.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/editmoredetect.gif" /></center>
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html)
 
 <br/>
 
@@ -137,7 +137,7 @@ If you're using Google Ads as a data source in Looker Studio, you can use this [
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

@@ -11,7 +11,7 @@ description: |
 ---
 
 * **Marketplace extension** (aka "Datama Light")
-  * [Beta 🧪] Datama Light Detect is now available in beta. Easily visualize anomaly of multiple KPIs in any data visualization tool (Tableau, Power BI, Looker Studio, Qlik) with blazing fast calculations in your own browser. The results include correlation with Main Kpi of market equation, but no split by dimensions for now [Learn More]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+  * [Beta 🧪] Datama Light Detect is now available in beta. Easily visualize anomaly of multiple KPIs in any data visualization tool (Tableau, Power BI, Looker Studio, Qlik) with blazing fast calculations in your own browser. The results include correlation with Main Kpi of market equation, but no split by dimensions for now [Learn More]({{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html)
   * [Beta 🧪] Datama Light Assess is now available in beta. You can compute statistical significance of ratio difference using Frequentist T test aproach, directly in your prefered data viz tool (Tableau, Power BI, Looker Studio, Qlik), in less than a second.
   * Latest Power BI light version is now available for download from the Extension Page, included for Full app licenced customers
   * Free extensions now allows unlimited metrics and dimensions. Publication on shared dashboards and Datama branding retrieval is only available for paying customers.

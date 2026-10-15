@@ -24,4 +24,4 @@ Vous pouvez utiliser **Datama Compare directement dans votre classeur** 🎉
 * **Visualisez directement vos scénarios :** modifiez des chiffres ou des hypothèses dans la feuille et **relisez l’impact** sur la waterfall et le KPI tree
 * **Profitez de toutes les fonctionnalités Compare Light :** waterfall et KPI tree, scoring intelligent, mix effect, commentaires intelligents et exploration interactive.
 
-🖱️ [En savoir plus dans la documentation Excel Compare](https://datama-solutions.github.io//docs/extensions/how-to-use/excel_compare.html)
+🖱️ [En savoir plus dans la documentation Excel Compare](https://datama-solutions.github.io/docs/extensions/how-to-use/excel_compare.html)

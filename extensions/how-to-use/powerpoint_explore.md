@@ -18,7 +18,7 @@ Add **HTML viewer by Datama** to PowerPoint, then import a Datama Explore HTML e
 
 The dataset is embedded in the HTML at export time, so the analysis stays self-contained in the presentation while remaining interactive in presentation mode.
 
-<!-- <center><img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Explore_PowerPoint.gif" alt="Datama Explore in PowerPoint"/></center> -->
+<!-- <center><img src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/Explore_PowerPoint.gif" alt="Datama Explore in PowerPoint"/></center> -->
 
 <br/>
 
@@ -44,7 +44,7 @@ The dataset is embedded in the HTML at export time, so the analysis stays self-c
 
 If your Microsoft account and 365 subscription are managed at the organization level, you might need to involve your workspace administrator to install the add-in.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/PowerPoint_add_extension.png" alt="Add HTML viewer by Datama from PowerPoint Add-ins"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/PowerPoint_add_extension.png" alt="Add HTML viewer by Datama from PowerPoint Add-ins"/></center>
 
 <br>
 
@@ -62,12 +62,12 @@ Once the add-in is on your slide, follow this workflow.
 
 **1. Build your Explore analysis in another Datama extension**  
 Prepare your dataset and configure Datama Explore as usual in Looker Studio, Tableau, Qlik, Excel, or another supported host.  
-See for example [Explore on Looker Studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_explore.html) or [Explore on Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel_explore.html).
+See for example [Explore on Looker Studio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio_explore.html) or [Explore on Excel]({{site.url}}{{site.baseurl}}/extensions/how-to-use/excel_explore.html).
 
 **2. Export as HTML (or custom code for Power BI)**  
 In the Datama header of the source extension, click **Download as HTML**. This downloads a self-contained `.html` file or for Power BI copy the code in your clipboard with your data and configuration.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/PowerPoint_download_html.png" alt="Download as HTML from a Datama extension"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/PowerPoint_download_html.png" alt="Download as HTML from a Datama extension"/></center>
 
 **3. Import into PowerPoint**  
 On the PowerPoint waiting screen, choose one of the two options:
@@ -75,7 +75,7 @@ On the PowerPoint waiting screen, choose one of the two options:
 - **File upload** — select the exported `.html` file from your computer.
 - **Custom code** — open the panel, paste the HTML content from your clipboard, then click **Apply**.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/PowerPoint_file_upload.png" alt="File upload and Custom code in PowerPoint"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/PowerPoint_file_upload.png" alt="File upload and Custom code in PowerPoint"/></center>
 
 **4. Present interactively**  
 The Explore visualization appears on the slide. It remains interactive in edit mode and in **presentation / slideshow mode**, with the same reactivity as in the source extension—with a fixed dataset based on the HTML export.
@@ -89,19 +89,19 @@ Once content is loaded, hover the top of the add-in to reveal editing controls:
 - **Edit HTML** — opens the HTML editor so you can update the source code directly. Useful for more technical users who want to tweak or replace the embedded HTML without re-exporting from another tool.
 - **Edit mode** — turns on the full Datama editing experience (header and settings). From there you can adjust the analysis options, use the **Save** button to persist changes in the presentation, and open the link to the Datama documentation.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/PowerPoint_edit_options.png" alt="Edit HTML and Edit mode controls in PowerPoint"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/PowerPoint_edit_options.png" alt="Edit HTML and Edit mode controls in PowerPoint"/></center>
 
 <br/>
 
 # 7. Read your Analysis
 
-Explore related documentation to understand how to generate insights in [Datama Explore]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html).
+Explore related documentation to understand how to generate insights in [Datama Explore]({{site.url}}{{site.baseurl}}/extensions/datama-explore/introduction.html).
 
 <br/>
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html) for the full view of Datama Explore settings available in the source extension (and preserved in the HTML export).
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html) for the full view of Datama Explore settings available in the source extension (and preserved in the HTML export).
 
 <br/>
 
@@ -111,7 +111,7 @@ If you require assistance or have any questions, feel free to reach out. We're h
 
 - 📧 **Email**: Send us an email at [contact@datama.fr](mailto:contact@Datama.fr) for any inquiries or support issues.
 - 🌐 **Contact Form**: Prefer to use a form? Fill out our [online contact form](https://www.Datama.io/lets-talk/), and we'll get back to you promptly.
-- 📚 **PowerPoint overview**: [How to use Datama Light in PowerPoint]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
-- 🔒 **Privacy Policy**: Review the [HTML viewer by Datama for PowerPoint Privacy Policy]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/PowerPoint/privacy-policy.html)
+- 📚 **PowerPoint overview**: [How to use Datama Light in PowerPoint]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
+- 🔒 **Privacy Policy**: Review the [HTML viewer by Datama for PowerPoint Privacy Policy]({{site.url}}{{site.baseurl}}/extensions/how-to-use/PowerPoint/privacy-policy.html)
 
 <br/>

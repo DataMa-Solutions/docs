@@ -18,7 +18,7 @@ keywords: full app integration embed embedded add-on addons addon power bi demo
 This document provides detailed documentation for the ["Datama Compare - What's driving my variation"](https://appsource.microsoft.com/fr-fr/product/power-bi-visuals/datama1591255760056.datama-light-compare?tab=Overview) Plugin, a powerful extension for Power BI. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data visualization graph.
 
 
-To get a clearer understanding of the concept of this "Compare" extension does, visit this [page]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_introduction.html).  
+To get a clearer understanding of the concept of this "Compare" extension does, visit this [page]({{site.url}}{{site.baseurl}}/core_app/new/compare/compare_introduction.html).  
 
 <br>
 
@@ -40,7 +40,7 @@ We've preloaded several datasets for you, but you're welcome to add your own dat
 
 Load your own data if you want to test the extension even further!
 
-![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBI_DatamaExtension_FirstUseCase.gif)
+![Power BI]({{site.url}}{{site.baseurl}}/core_app/new/integration/images/PowerBI_DatamaExtension_FirstUseCase.gif)
 
 <br>
 
@@ -49,7 +49,7 @@ Load your own data if you want to test the extension even further!
 1. **[Download the extension](https://storage.googleapis.com/app.datama.io/powerbi/datama_latest.pbiviz)**: Download the latest Datama PowerBI extension
 2. **Select Your Dataset**: Pick from the list on the right a dataset that meets your interests.
 3. **Choose Your Metrics**: Drag and drop desired metrics from the dataset into the Datama visual metrics entry. 
-    - **Note**: Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
+    - **Note**: Datama sets up a [relation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
 
 4. **Specify the Dimension**: Drag and drop the dimension of your choice into the visual's dimension field. 
     - The first dimension is the one used for comparison. For example: 
@@ -64,9 +64,9 @@ Load your own data if you want to test the extension even further!
 # 4. Want more insight into the solution?
 
 If "Mix effect", "Performance effect", or "Market Equation" sound intricate, explore our dedicated pages:
-- [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
-- [Performance effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
-- [Market Equation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) (or Metric Relation)
+- [Mix effect]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
+- [Performance effect]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
+- [Market Equation]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html) (or Metric Relation)
 <br>
 <br>
 

@@ -13,7 +13,7 @@ keywords: full app integration embed embedded add-on addons addon Power BI power
 <br>
 
 <div class="info-box">
- <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}{{site.baseurl}}/extensions/how-to-use/power_bi.html">version</a> available in the Power BI Marketplace. </div>
 
 <br>
 
@@ -23,13 +23,13 @@ As soon as you received the extension from your Datama point of contact or downl
 - Select "..." in the visualizations part then <i>"import visual from a file"</i> 
 - <i>"Import"</i> your extension
 
-![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/PowerBi_loadingExtension.gif)
+![Power BI]({{site.url}}{{site.baseurl}}/core_app/new/integration/images/PowerBi_loadingExtension.gif)
 
 <br>
 
 - Add your licence key in the Settings: Format your visual > Datama Global Settings > Licence Key
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_licenceKey.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/powerBi_licenceKey.jpg"/></center>
 
 <br>
 
@@ -37,10 +37,10 @@ As soon as you received the extension from your Datama point of contact or downl
 
 Datama will be basically like a Power BI graph embedded in the visualisation. You will have to configure it as a basic graph adding Dimensions and metrics. 
 - the first <i>Dimension</i> will be considered as the Start & End Comparison dimension
-- the metrics will be the step of your [market equation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) in the order of the metrics. (by default it will be a "prod" equation, this can be changed in the settings: Format your visual > Advanced Settings > Step function)
+- the metrics will be the step of your [market equation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) in the order of the metrics. (by default it will be a "prod" equation, this can be changed in the settings: Format your visual > Advanced Settings > Step function)
 
 
-![Power BI]({{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
+![Power BI]({{site.url}}{{site.baseurl}}/core_app/new/integration/images/powerBi_extension.gif)
 
 <br>
 
@@ -68,7 +68,7 @@ Contact us (contact@Datama.fr) to get a licence key and install the extension.
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerBi_advancedSettings.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/powerBi_advancedSettings.jpg"/></center>
 
 <br>
 
@@ -81,14 +81,14 @@ Once you picked your dimensions and metrics and your graph is generated, you can
 
 <br>
 
-<center><img style="width:20%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/workbookname_pbi.png"/></center>
+<center><img style="width:20%;" src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/workbookname_pbi.png"/></center>
 
 <br>
 
 - On your graph, click on the icon just under the "... More options" (right up corner)
 - Select "Open in full app"
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/powerbi_openfullapp.jpg"/></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/powerbi_openfullapp.jpg"/></center>
 
 <br>
 
@@ -96,7 +96,7 @@ A pop-up will appear, click ok
 
 <br>
 
-<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/open_browser.jpg"/></center>
+<center><img style="width:50%;" src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/open_browser.jpg"/></center>
 
 <br>
 
@@ -104,7 +104,7 @@ Your workbook will automatically be displayed in Datama.
 
 <br>
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/workbookname_datama.png"/></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/workbookname_datama.png"/></center>
 
 <br>
 

@@ -1,0 +1,44 @@
+// Datama design tokens, copied from public-website (tailwind.config.ts).
+// Keep every brand value here: other partials only use these names, so a
+// rebrand stays a one-file change on both sites.
+
+// Colors
+$pine: #00484A;          // brand dark teal: headings, links, primary buttons
+$pine-deep: #02292B;     // footer, body text
+$pine-soft: #33686A;     // secondary text
+$aqua: #16D0B4;          // brand accent: underlines, active markers, focus (never text on white)
+$aqua-dark: #0EA893;
+$aqua-soft: #E3F9F4;     // hover / active backgrounds, tip boxes
+$aqua-mist: #F3FBF9;     // tinted section backgrounds
+$coral: #F8663C;         // sparingly: warnings
+$coral-soft: #FEEFE9;
+$azure: #4285F4;         // notes
+$azure-soft: #EAF1FE;
+$white: #FFFFFF;
+$line: rgba($pine, 0.08); // borders and separators
+
+// Typography
+$font-body: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+$font-heading: $font-body;
+$font-display: 'Blimone', Georgia, serif;   // page titles only
+$font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+
+// Shapes
+$radius: 8px;
+$radius-card: 16px;
+$shadow-card: 0 1px 2px rgba($pine, 0.05), 0 8px 24px rgba($pine, 0.07);
+$shadow-pop: 0 12px 40px rgba($pine, 0.14);
+
+:root {
+  --pine: #{$pine};
+  --pine-deep: #{$pine-deep};
+  --pine-soft: #{$pine-soft};
+  --aqua: #{$aqua};
+  --aqua-dark: #{$aqua-dark};
+  --aqua-soft: #{$aqua-soft};
+  --aqua-mist: #{$aqua-mist};
+  --coral: #{$coral};
+  --coral-soft: #{$coral-soft};
+  --azure: #{$azure};
+  --azure-soft: #{$azure-soft};
+}

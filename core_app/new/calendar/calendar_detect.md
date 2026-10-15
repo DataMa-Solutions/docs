@@ -19,7 +19,7 @@ When a calendar is enabled:
 - Users can see if anomalies align with known events
 - Helps interpret possible root causes
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/calendar_in_detect.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/calendar_in_detect.png"/></center>
 
 <br>
 

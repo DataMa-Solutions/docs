@@ -16,7 +16,7 @@ keywords: Datama light explore breakdown dimensions metrics visualization struct
 
 Datama Explore extension is composed of three sections:
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_structure.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_structure.png"/></center>
 
 <!-- 1. [Header Section](#1-Header-Section).
 2. [Analysis panel](#2-Analysis-section)
@@ -26,10 +26,10 @@ Datama Explore extension is composed of three sections:
 
 # 2. Header section 
 
-The header is used for global advanced settings to let you configure and refine your analysis. Read the dedicated section about [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html)
+The header is used for global advanced settings to let you configure and refine your analysis. Read the dedicated section about [Settings]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html)
 
 - **Documentation**: Direct link to this documentation
-- **Settings**: Refine the settings of the analysis. Find more information on this [page]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html)
+- **Settings**: Refine the settings of the analysis. Find more information on this [page]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html)
 
 
 <br>
@@ -38,7 +38,7 @@ The header is used for global advanced settings to let you configure and refine 
 
 Datama Explore provides shortcuts at the top of the charts to quickly select dimension pairs, metric pairs, and visualization types.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_shortcuts.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_shortcuts.png"/></center>
 
 ## 3.1 Shortcuts available
 
@@ -67,7 +67,7 @@ Datama Explore provides shortcuts at the top of the charts to quickly select dim
 
 The main chart area displays your selected visualization with the chosen dimension and metric pairs.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_chart_area.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_chart_area.png"/></center>
 
 ### 3.2.1 Dynamic Updates
 
@@ -77,13 +77,13 @@ The main chart area displays your selected visualization with the chosen dimensi
 
 ### 3.2.2 Market Equation Integration
 
-Datama Explore analyzes each step of your market equation. You can define the market equation in [settings]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html)
+Datama Explore analyzes each step of your market equation. You can define the market equation in [settings]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html)
 
 ### 3.2.3 Comparison Dimension Features
 
 When you have defined a comparison in settings, additional features become available:
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.gif"/></center> 
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.gif"/></center> 
 
 - **Variation Metrics**: Access to absolute change (Δ) and percentage change (% Change) for all metrics
 - **Enhanced Breakdown**: Use the comparison dimension as either Dimension 1 or Dimension 2
@@ -97,35 +97,35 @@ Each visualization type provides specific capabilities:
 - Bars show Metric 2
 - Dual-axis support for different scales
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/bar_line_view.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/bar_line_view.png"/></center>
 
 **Overlay**:
 - Multiple data series on the same chart
 - Direct comparison of different metrics
 - Color-coded series for easy identification
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/overlay.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/overlay.png"/></center>
 
 **Stacked Bars**:
 - Shows composition of data segments
 - Each segment represents a different Dimension 2 value
 - Total height represents the sum of all segments
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/stacked.png"/></center> 
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/stacked.png"/></center> 
 
 **Mekko**:
 - Specialized chart showing both size and composition
 - Width represents Dimension 1, height represents Dimension 2
 - Useful for market share analysis
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/mekko.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/mekko.png"/></center>
 
 **Moves**:
 - Shows transitions between different states
 - Useful for analyzing changes over time
 - Displays movement patterns and trends
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/moves.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/moves.png"/></center>
 
 <br>
 
@@ -133,7 +133,7 @@ Each visualization type provides specific capabilities:
 
 Depending on your plan the footer can have different informations: 
 - Trail version has the link to upgrade your plan
-<center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_to_upgrade.png"/></center>
+<center><img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_to_upgrade.png"/></center>
 - [Documentation](https://docs.Datama.io/) 
 - [Contact us](https://Datama.io/lets-talk/)
 

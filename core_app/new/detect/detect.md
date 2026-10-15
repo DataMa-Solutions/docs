@@ -6,7 +6,7 @@ scope: Datama/saas/detect
 keywords: full app detect
 ---
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/Detect_icon.jpg" alt="logo detect" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/images/Detect_icon.jpg" alt="logo detect" /></center>
 
 > **Datama Detect aims at evaluating over time the normality of a variation and explain it**
 
@@ -30,20 +30,20 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 
 # 1. Interface of Datama Detect
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/interface_detect.jpg "/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/images/interface_detect.jpg "/></center>
 
 <br>
 
 # 2. Main Sections
 
 <ul>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_introduction">General Introduction:</a></strong> Overview of Datama Detect's capabilities and basic concepts</li>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detect_interface">Interface:</a></strong> Detailed explanation of the Detect interface components and their usage
+    <li><strong><a href="{{site.url}}{{site.baseurl}}/core_app/new/detect/detect_introduction">General Introduction:</a></strong> Overview of Datama Detect's capabilities and basic concepts</li>
+    <li><strong><a href="{{site.url}}{{site.baseurl}}/core_app/new/detect/detect_interface">Interface:</a></strong> Detailed explanation of the Detect interface components and their usage
         <ul>
             <li>Detect subheader with anomaly detection, dimension helper, filters, metrics relation, and settings</li>
         </ul>
     </li>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method">Detection Method:</a></strong> Comprehensive guide to the different methods available for anomaly detection
+    <li><strong><a href="{{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method">Detection Method:</a></strong> Comprehensive guide to the different methods available for anomaly detection
         <ul>
             <li>Methods based on confidence interval (Forecast, Observed volatility)</li>
             <li>Methods based on manually configured thresholds</li>
@@ -55,11 +55,11 @@ You can use Datama Detect to monitor your dataset and set up automatic monitorin
 # 3. Integration
 
 Note: This documentation does not cover the setup and configuration of our browser extension. Please refer to the  documentation dedicated extension for those details.
-<!-- <a href="{{site.url}}/{{site.baseurl}}/extensions/index.html">dedicated extension</a> -->
+<!-- <a href="{{site.url}}{{site.baseurl}}/extensions/index.html">dedicated extension</a> -->
 
 <ul>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/core_app/new/detect/integration_api">Extension Integration:</a></strong> Technical documentation for integrating Datama Detect as an extension</li>
-    <li><strong><a href="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html">Marketplace Extension:</a></strong> Guide for installing and using the Datama Detect directly from Tableau or Power BI marketplace.</li>
+    <li><strong><a href="{{site.url}}{{site.baseurl}}/core_app/new/detect/integration_api">Extension Integration:</a></strong> Technical documentation for integrating Datama Detect as an extension</li>
+    <li><strong><a href="{{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html">Marketplace Extension:</a></strong> Guide for installing and using the Datama Detect directly from Tableau or Power BI marketplace.</li>
 </ul>
 
 

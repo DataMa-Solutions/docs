@@ -38,7 +38,7 @@
     {{ found.content | markdownify }}
 
     {% if found.img_url %}
-      <img src="{{site.url}}/{{site.baseurl}}{{ found.img_url }}" alt="{{ found.title }}" />
+      <img src="{{site.url}}{{site.baseurl}}{{ found.img_url }}" alt="{{ found.title }}" />
     {% endif %}
   </div>
 </details>

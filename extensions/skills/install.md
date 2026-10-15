@@ -11,7 +11,7 @@ keywords: skill install Claude Cursor IDE agent
 
 <br/>
 
-Before you start, [download the skill]({{site.url}}/{{site.baseurl}}/extensions/skills/download.html) (`datama.zip`).
+Before you start, [download the skill]({{site.url}}{{site.baseurl}}/extensions/skills/download.html) (`datama.zip`).
 
 <br/>
 
@@ -32,13 +32,13 @@ Many web-based assistants let you upload a skill zip from their settings. The sc
 3. Select the `datama.zip` file you downloaded from Datama.
 4. Confirm. The **datama** skill appears in your skills list.
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/skills/assets/claude-upload-skill.png" alt="Upload a skill in a web AI assistant (example: Claude)" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/skills/assets/claude-upload-skill.png" alt="Upload a skill in a web AI assistant (example: Claude)" /></center>
 
 <br/>
 
 Once installed, you can review the skill details, enable or disable it, and try it directly from the chat:
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/skills/assets/claude-skill-detail.png" alt="Datama skill details in a web assistant (example: Claude)" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/skills/assets/claude-skill-detail.png" alt="Datama skill details in a web assistant (example: Claude)" /></center>
 
 <br/>
 
@@ -50,7 +50,7 @@ IDEs and desktop agents usually load skills from a folder in your workspace or u
 2. Copy the extracted `datama` folder into your host's skills directory (for example `.agents/skills/` at the root of your project).
 3. The folder structure should look like this:
 
-<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/extensions/skills/assets/ide-skill-folder.png" alt="Datama skill folder in an IDE (example)" /></center>
+<center><img style="width:50%;" src="{{site.url}}{{site.baseurl}}/extensions/skills/assets/ide-skill-folder.png" alt="Datama skill folder in an IDE (example)" /></center>
 
 <br/>
 
@@ -82,7 +82,7 @@ IDEs and desktop agents usually load skills from a folder in your workspace or u
 
 # 5. Next steps
 
-- [Use the skill]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html) with natural-language prompts and your data.
-- [Download page]({{site.url}}/{{site.baseurl}}/extensions/skills/download.html) — change license option or re-download after a subscription update.
+- [Use the skill]({{site.url}}{{site.baseurl}}/extensions/skills/use.html) with natural-language prompts and your data.
+- [Download page]({{site.url}}{{site.baseurl}}/extensions/skills/download.html) — change license option or re-download after a subscription update.
 
 <br/>

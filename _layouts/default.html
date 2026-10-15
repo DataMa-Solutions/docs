@@ -18,22 +18,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Datama documentation - {{ page.title }}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/{{site.baseurl}}/assets/images/favicon-16x16.png" />
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Datama documentation - {{ page.description }}"/>
-    <meta name="og:title" content="Datama documentation - {{ page.title }}">
-    <meta name="og:type" content="website">
-    <meta name="google-site-verification" content="TUNtfUemY95_1kk74l6s9zMJE_bHp3SxLHcbu5eiow0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{site.url}}/{{site.baseurl}}/assets/css/style.css">
-    <script src="{{site.url}}/{{site.baseurl}}/assets/js/jquery.js"></script>
-    <script src="{{site.url}}/{{site.baseurl}}/assets/js/cookies.js"></script>
-    <script src="{{site.url}}/{{site.baseurl}}/assets/js/sws.js" type="text/javascript"></script>
+    {% include head.html %}
 </head>
 
 <script>
@@ -48,7 +33,7 @@
 <div class="welcome">
     {% include header.html %}
     <div>
-        <p><img src="{{site.url}}/{{site.baseurl}}/assets/images/aside/Logo_NewDatama.svg" data-origin="images/Datama_logo_horizontal2.png" alt="logo2"></p>
+        <p><img src="{{site.url}}{{site.baseurl}}/assets/images/aside/Logo_NewDatama.svg" data-origin="images/Datama_logo_horizontal2.png" alt="logo2"></p>
         <h1> Smart analytics. Documented </h1>
         <a id="gotoDoc" href="#menu" class="btn btn-primary">Get Started</a>
     </div>
@@ -60,51 +45,7 @@
     {{ content }}
     {% include footer.html %}
 </main>
-<script src="{{site.url}}/{{site.baseurl}}/assets/js/main.js"></script>
-<script>
-    let groups = {
-        'shiny': 'old-ui full-app',
-        'Datama/saas': 'full-app',
-        'Datama/saas/compare': 'compare full-app',
-        'Datama/saas/assess': 'Assess full-app',
-        'Datama/saas/detect': 'Detect full-app',
-        'Datama/saas/pivot': 'Pivot full-app',
-        'Datama/saas/journey': 'Journey full-app',
-        'Datama/light': 'light-app',
-        'Datama/light/compare': 'compare light-app'
-    }
-    search.listen('search-input-aside', {
-        fields: {
-            scope: {
-                weight: 1100
-            },
-            title: {
-                weight: 1000,
-                required: true
-            },
-            keywords: {
-                weight: 500
-            },
-            tags: {
-                weight: 250
-            },
-            body: {
-                weight: 100,
-                required: true
-            }
-        },
-        results: {
-            template: (element) => {
-                return {
-                    scope: search.json[element.id].scope,
-                    html: `<li class="search-result" data-score="${element.total}"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><div class="search-tags">${(groups[search.json[element.id].scope] || '').split(' ').filter(e => e).map(e => '<span class="search-group">' + e + '</span>').join('')}</div><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
-                }
-            },
-            groups,
-            limit: 15,
-            container: 'results-container-aside'
-        }
-    })
-</script>
+<script src="{{site.url}}{{site.baseurl}}/assets/js/main.js"></script>
+{% include menu-search.html %}
 </body>
 </html>

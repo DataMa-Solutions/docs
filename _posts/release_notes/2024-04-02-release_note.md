@@ -23,7 +23,7 @@ description: |
   * The Tableau software and Looker Studio light extension are also available for Premium Web app suscriptions. You can download your own .trex file and Looker Studio community viz url from the "Product" page
 
 * **Prep** 
-  *  [Beta 🧪] **"What if"** block is available for Beta testers. This allows to create scenarios on your existing data, taking assumptions on variations of KPIs on a given scope (For instance +10% on Mobile Conversion Rate vs. last Month). This is particularly useful for Compare usage, and a specific interface will ultimately appear in the Compare solution to edit the scenarios directly from inputs in the waterfall. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/refine_data.html#what-if)
+  *  [Beta 🧪] **"What if"** block is available for Beta testers. This allows to create scenarios on your existing data, taking assumptions on variations of KPIs on a given scope (For instance +10% on Mobile Conversion Rate vs. last Month). This is particularly useful for Compare usage, and a specific interface will ultimately appear in the Compare solution to edit the scenarios directly from inputs in the waterfall. [Learn More]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/refine_data.html#what-if)
   * Email connector is now back. It was temporarly unavailable after last month's backend release. The logic has been improved, and Datama now use the attachment (CSV or Excel) of last email sent, even if it was opened
 
 * **Compare**

@@ -13,4 +13,4 @@ Deux nouvelles fonctions ont été ajoutées pour améliorer vos capacités de t
   * CASE() : Fonctionne comme un CASE WHEN en SQL.
   * REGEX_CONTAINS() : Permet d'utiliser les expressions régulières sur des chaines de caractères et vous renvoie un booléen ✅
 Ces ajouts facilitent la segmentation, le nettoyage et la manipulation de vos données directement dans Datama 🚀
-Retrouvez l'ensemble des fonctions disponibles [ici](https://datama-solutions.github.io//docs/core_app/new/prep/interface/calculated_fields.html) 👈
+Retrouvez l'ensemble des fonctions disponibles [ici](https://datama-solutions.github.io/docs/core_app/new/prep/interface/calculated_fields.html) 👈

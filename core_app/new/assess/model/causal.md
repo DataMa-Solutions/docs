@@ -23,12 +23,12 @@ Once uploaded in Datama Impact, you then need to define what you are comparing (
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_causalComparison.png" alt="assess - causal model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_causalComparison.png" alt="assess - causal model" /></center>
 
 
 You also need to optin for the Causal Impact test in the “settings” section. Then, define where is the Control/ Variant group column and what’s the segment that is impacted by the change
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_causalSegment.png" alt="assess - causal model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_causalSegment.png" alt="assess - causal model" /></center>
 
 
 Once settings are properly defined, you can hit “Compute” and results will show you
@@ -37,7 +37,7 @@ Once settings are properly defined, you can hit “Compute” and results will s
 - In orange, the estimation and the confidence interval, based on forecast and control group
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_causalGraph.png" alt="assess - causal model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_causalGraph.png" alt="assess - causal model" /></center>
 
 
 <i>In the example above, the Click/ Impression for the test group has increased quite a bit after the change (30th of Jan 2022), but the control group also increased by the same range, hence the causal impact is not significant: We don’t think that the observed variation of the KPI was actually due to the applied change, but to another reason.</i>

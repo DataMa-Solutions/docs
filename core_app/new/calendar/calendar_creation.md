@@ -20,7 +20,7 @@ You can connect calendars directly inside the Datama WebApp from your Calendars 
 - From the Home page go in the side bar menu
 - Via My account → Calendars
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/create_calendar_datama.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/create_calendar_datama.png"/></center>
 
 From here you'll have to option connect it to an existing calendar threw the different connectors available in Datama or create it manualy.
 
@@ -46,7 +46,7 @@ Optionally
 Scope expected structure is `[Column_name]=[Event_Scope]`. For instance, `Country=France`. Note that `Column_name` should be the same column name used in the dataset where the Calendar will be added, so that Datama can make the link. If you have multiple scopes, you can separate them with a comma (e.g. `Country=France, Category=Food`).
 </div>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/dataset_calendar.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/dataset_calendar.png"/></center>
 
 
 # 1.1 Create your Calendar in the WebApp
@@ -55,33 +55,33 @@ By clicking on the CTA "Connect Calendar", you'll be able to add your calendar f
 
   * **Select your data source**: different sources are available. It needs to have a dataset with the structure defined in the above section except for "Google Analytics Annotation" and "Calendar" which already have the required fields.
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/select_source_calendar_webapp.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/select_source_calendar_webapp.png"/></center>
 
   <br>
 
   * **Configure your source**: depending on the source you choose you'll have different information required like for Gsheet: the connection to a Google account, the spreadsheet URL you want to use, for BigQuery or Snowflakes: connection to your account, projects and the query to call the table ...).
   When loaded a preview of your data is available in the right pannel.
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/configure_source_calendar_webapp.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/configure_source_calendar_webapp.png"/></center>
 
   <br>
 
   * **Map the fields**: as mention above, this step allow to map each fields with the right columns of your dataset.
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/mapping_source_calendar_webapp.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/mapping_source_calendar_webapp.png"/></center>
 
   <br>
 
   * **Schedule a calendar refresh**: this is an optional step that allows you to set how often your calendar data is updated for the workbooks in which you will use it.
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/schedule_calendar_webapp.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/schedule_calendar_webapp.png"/></center>
 
   <br>
 
   * And last an **Overview** summarize all the settings you made for final validation and give your calendar a name.
   Note that at any moment you can come back and edit your Calendar connection.
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/name_calendar_webapp.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/name_calendar_webapp.png"/></center>
 
   <br>
 
@@ -90,7 +90,7 @@ By clicking on the CTA "Connect Calendar", you'll be able to add your calendar f
 
 With "Create Manual Calendar" CTA, it allow you to add some events directly in the Datama calendar interface.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/create_manual_calendar.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/create_manual_calendar.png"/></center>
 
 <br>
 
@@ -101,13 +101,13 @@ With "Create Manual Calendar" CTA, it allow you to add some events directly in t
 
 With a calendar created you can connect them to your workbook in Datama Prep clicking on the output block (the one with the "D").
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/connect_calendar_prep_webapp.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/connect_calendar_prep_webapp.png"/></center>
 
 <br>
 
 Or directly in your workbook settings, selecting the "Calendar" section:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/connect_calendar_workbook_settings_webapp.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/connect_calendar_workbook_settings_webapp.png"/></center>
 
 <br>
 
@@ -119,13 +119,13 @@ This option is only available in the Compare and Detect Light Extensions where y
 
 Going over your extension, you can go into "Settings", in the settings modal, select the third option "Calendar", if not enable the Calendar option, and in the "Select Calendar" field choose "Current data".
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/settings_modal_calendar_extension.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/settings_modal_calendar_extension.png"/></center>
 
 Note that in this fields with a Datama license, you'll find all the Calendar you created/connected.
 
 Once "Current data" selected, you'll be able to map the events field with your current data
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/enableCalendar.gif"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/enableCalendar.gif"/></center>
 
 <br>
 
@@ -135,7 +135,7 @@ Use Date as the primary key, then left join it to your existing KPI table.
 
 This way, every KPI record is linked to the corresponding event (if any) on that date — allowing you to visualize and analyze KPI variations alongside business or operational events.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/dataset_leftjoin.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/dataset_leftjoin.png"/></center>
 
 <br>
 
@@ -147,13 +147,13 @@ This option is only available in the Compare and Detect Light Extensions on Powe
 
   * On Detect Extension, right click on a point and the option is available:
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/add_manual_event_calendar.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/add_manual_event_calendar.png"/></center>
 
   Then you can define the different fields associated to your event:
 
-  <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/add_event_calendar.png"/></center>
+  <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/add_event_calendar.png"/></center>
 
 
 Once the event created, they are stored in a Calendar named "Calendar from 'data visualization tool'" (where 'data visualization tool' is the name of your tool Power BI or Tableau) that you can find in Datama and call it on another use cases.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/calendar_from_extension.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/calendar_from_extension.png"/></center>

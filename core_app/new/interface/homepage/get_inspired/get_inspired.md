@@ -28,34 +28,34 @@ Here are the available examples :
 
 <b>Web Analyse</b>
 
-* [Web performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/web_performance_GA.html) (Google Analytics)
-* [Product AB test]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/product_AB_test.html)
-* [Content Square]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
-* [Anomaly Detection]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/anomaly_detection.html)
+* [Web performance]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/web_performance_GA.html) (Google Analytics)
+* [Product AB test]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/product_AB_test.html)
+* [Content Square]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/Content_CS.html)
+* [Anomaly Detection]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/anomaly_detection.html)
 
 <br>
 
 <b>Marketing</b>
 
-* [Marketing campaign]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_campaign.html)
-* [Continuous Marketing]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
-* [Marketing scope]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html)
-* [Acquisition display with budget]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html)
-* [Display Campaign Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/display_campaign.html)
+* [Marketing campaign]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_campaign.html)
+* [Continuous Marketing]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
+* [Marketing scope]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html)
+* [Acquisition display with budget]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/acquisition_display.html)
+* [Display Campaign Comparison]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/display_campaign.html)
 
 <br>
 
 <b>Business Analysis</b>
 
-* [Retail Performance]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_performance.html)
-* [Retail Categories]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_categories.html)
-* [Finance Controlling]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/finance_controlling.html)
+* [Retail Performance]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_performance.html)
+* [Retail Categories]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/retail_categories.html)
+* [Finance Controlling]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/finance_controlling.html)
 
 <br>
 
 <b>CRM</b>
 
-* [Churn Rate]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/churn_rate.html)
+* [Churn Rate]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/churn_rate.html)
 
 
 <br>

@@ -12,7 +12,7 @@ In the bayesian Bernoulli approach, the outcome has to be binary (e.g. Purchase)
 
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_bayesian.png" alt="assess - Bayesian model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_bayesian.png" alt="assess - Bayesian model" /></center>
 
 Behind the scenes: A bayesian test is computed, based on an uninformative beta prior for the probability of success.
 

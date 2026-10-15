@@ -12,6 +12,6 @@ description: Major algorithm upgrades, infinite drill-down, custom pillars, dime
   * **Workspace & settings**: pin **Waterfall**, **Comment**, **Tree**, and **Table** side by side — hover, drill, and Split by stay in sync across views. Settings live in a searchable side panel (collapsed by default); edit labels, connectors, and display options from the **right-click context menu** or shortcut bar on hover.
   * **Tree extras**: show market-equation **operators** and step **emojis** on cards. Keyboard shortcuts: **Shift + R** (reverse axes), **Shift + W** / **Shift + T** (Waterfall ↔ Tree).
 
-See the full feature tour: [New features in redesigned Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html) · [Settings guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
+See the full feature tour: [New features in redesigned Compare]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html) · [Settings guide]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html)
 
 {% include embed_totw.html num=189 open=true %}

@@ -16,9 +16,9 @@ You can work from your spreadsheet data without exporting it to another visualiz
 
 Here are the currently existing extensions, and related documentation.
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel_compare.html): Explain variations through dynamic waterfall and KPI tree
+- [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/how-to-use/excel_compare.html): Explain variations through dynamic waterfall and KPI tree
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Compare_Excel.gif" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/Compare_Excel.gif" align="center" width="650px" />
 <br/>
 
 Excel is a good fit when you want to:
@@ -35,4 +35,4 @@ To go further, open the Excel solution documentation to learn how to prepare you
 
 <br/>
 
-Note: Learn how Datama for Excel handles personal information and security in [Privacy Policy (Excel Add-in)]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/Excel/privacy-policy.html)
+Note: Learn how Datama for Excel handles personal information and security in [Privacy Policy (Excel Add-in)]({{site.url}}{{site.baseurl}}/extensions/how-to-use/Excel/privacy-policy.html)

@@ -11,7 +11,7 @@ keywords: Datama light compare Compare intro introduction
 
 <br/>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Lookerstudio-Wireframe.png" alt="wireframe Looker extension" title="Datama Compare" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/Lookerstudio-Wireframe.png" alt="wireframe Looker extension" title="Datama Compare" /></center>
 
 
 
@@ -23,7 +23,7 @@ This documentation gives you an overview of how it works and how to use it.
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/introduction.gif" alt="Video introduction" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/introduction.gif" alt="Video introduction" /></center>
 
 <br>
 
@@ -35,8 +35,8 @@ This documentation gives you an overview of how it works and how to use it.
 
 Quickly understand how extension can help you in your business analyses by following these links:
 
-   - [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
-   - [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
+   - [Concept:]({{site.url}}{{site.baseurl}}/extensions/datama-compare/concept.html) Understand theory behing the graphs
+   - [Interface]({{site.url}}{{site.baseurl}}/extensions/datama-compare/structure.html): Deep dive into the interface
 
 
 <br>
@@ -44,15 +44,15 @@ Quickly understand how extension can help you in your business analyses by follo
 # 2. Datama Extensions
 
 Embed Datama Compare in your reports quickly by following these links:
-- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
-- [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
-- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
-- [In Google Sheets™]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
-- [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
+- [In LookerStudio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+- [In Power BI]({{site.url}}{{site.baseurl}}/extensions/how-to-use/power_bi.html)
+- [In Tableau]({{site.url}}{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
+- [In Qlik]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik.html)
+- [In Google Sheets™]({{site.url}}{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
+- [In Excel]({{site.url}}{{site.baseurl}}/extensions/how-to-use/excel.html)
 
 <br>
 
 # 3. Going further
 
-- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
+- [Advanced Settings]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html)

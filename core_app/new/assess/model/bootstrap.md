@@ -18,7 +18,7 @@ Bootstrap testing basically consists in putting all your observations into one b
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_bootstrap.png" alt="assess - bootstrap model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_bootstrap.png" alt="assess - bootstrap model" /></center>
 
 See also: [wikipedia](https://en.wikipedia.org/wiki/Bootstrapping_(statistics))
 

@@ -57,9 +57,9 @@ Follow these steps to add Datama in your report :
     * Comparison "C" dimension (the dimension on which you want to compare, typically Variant of AB test for instance)
         * Note: By default, Datama will compare the last 2 values for discrete dimensions or split in two the dates dimensions. Makes sure to leverage Tableau parameters or filters to get the right comparison.
     * Metrics "M" fields (the metrics that will be used to create the KPIs you want to assess. Those should be summable. For instance, if you want to assess the significance of user conversion variation, you should add a "User" and a "Purchase" metrics)
-        * Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. 
+        * Datama sets up a [relation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. 
 
-Please refer to the full documentation to learn more about [source structure]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
+Please refer to the full documentation to learn more about [source structure]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html)
 
 <br>
 
@@ -79,9 +79,9 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 5. Add the licence key to the the extension by clicking on the "Format extension" button in the Marks pannel
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_tableau.html) our different plans.
+See [here]({{site.url}}{{site.baseurl}}/extensions/how-to-use/pricing_plan_tableau.html) our different plans.
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Licence_key_VizExt.png" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/Licence_key_VizExt.png" /></center>
 
 <br>
 
@@ -103,13 +103,13 @@ Once you've imported the extension, here is how you can use it.
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
+To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
 <br/>
 
 # 8. Support and Resources

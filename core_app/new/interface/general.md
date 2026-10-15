@@ -24,7 +24,7 @@ Datama helps you analyze performance faster and more reliably by quantifying the
 
 Datama has 5 solutions to help you make the right decision faster
 
-<center><img  src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/datama_solutions.png" alt="market-equation" /></center>
+<center><img  src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/datama_solutions.png" alt="market-equation" /></center>
 
 <br>
 
@@ -51,7 +51,7 @@ you're missing opportunities to grow.</div>
 The goal is to **break down any KPI variation** (e.g. revenue, leads, margin, conversion) into **multiplicative factors**: `volume × avg. price × …`  
 Then to separate **mix effects** (composition changes) from **true performance effects** (rate, price, conversion at constant mix).
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/Market-equation.png" alt="market-equation" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/Market-equation.png" alt="market-equation" /></center>
 
 
 **Core principles:**

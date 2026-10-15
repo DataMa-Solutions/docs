@@ -29,4 +29,4 @@ No switching tools. No rebuilding a chart by hand. **The analysis shows up where
 
 Install the **Datama Skill** once from your account, then just ask. The assistant knows when Datama is the right answer.
 
-🖱️ [Get started with Datama Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html)
+🖱️ [Get started with Datama Skills]({{site.url}}{{site.baseurl}}/extensions/skills/introduction.html)

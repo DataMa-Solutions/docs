@@ -45,20 +45,20 @@ For each comment you want to enhance click on the ✨ CTA, and a AI chat window 
 A first comment will be generated base on the data available in the analysis and the calendar events of the time period and filters you are currently using in your use case.
 You can adjust the comment with some prompt to give him more context, a tone to use ... Once you get the comment format you expected you can activate the feature by clicking on "Use AI Comment".
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/AI_enhance_comment_activate_comment.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/AI_enhance_comment_activate_comment.png"/></center>
 
 Now **AI comment will be generated every time you update your workbook and it will also be integrated in your different schedule exports**.
 
 If you want the comment to be focus on only on calendar you can send only the calendar you want to be used by selecting it in the ➕ to add attached document (all calendar connected to your workbook are listed here). Until you don't modify the instruction, the comment will be focus only on this calendar.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/AI_enhance_comment_calendar.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/AI_enhance_comment_calendar.png"/></center>
 
 <br>
 
 #### Step three : Unable AI comment
 When a AI comment is activated and you want to disable it, you just need to re-open the AI chat window clicking on the ✨ CTA and click on "Disable AI comment"
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/AI_enhance_comment_disable_comment.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/AI_enhance_comment_disable_comment.png"/></center>
 
 Note that if you activate various comments on your workbook and want them all to be disactivated, you'll have to repeat the operation for each comment and on each view where it was activated.  
 

@@ -21,22 +21,22 @@ It allows to define the methodology to break down main KPI variation.
 * By Dimensions then Steps
 * Auto
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_setting.png"></center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_setting.png"></center>
 
 Once activated (i.e. default value is "Steps then Dimensions"), Datama uses what is calculated as the most interesting drill down. 
 Yet, you can manually change the drill down by right clicking on a total bar of the waterfall and selecting the desired drill down 
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_right_click.png"></center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/images/drill_down_right_click.png"></center>
 
 # 2. Available drill down hierarchy
 
 ## 2.1. Steps then Dimension** <i>(default setting)</i>
 
-By default, the main entry point for Compare analysis are the steps of your market equation, a.k.a. [metric relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html). 
+By default, the main entry point for Compare analysis are the steps of your market equation, a.k.a. [metric relation]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html). 
 
-<center> <img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/stepthendimension.png"></center>
+<center> <img style="width:50%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/images/stepthendimension.png"></center>
 
-Then, within each step, Datama helps you find what is the most interesting dimension to explain the gap of a given steps. This is the default way of working of Datama Compare, as specified in (Model details)[{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html]
+Then, within each step, Datama helps you find what is the most interesting dimension to explain the gap of a given steps. This is the default way of working of Datama Compare, as specified in (Model details)[{{site.url}}{{site.baseurl}}/core_app/new/compare/model/model.html]
 
 <br>
 
@@ -44,7 +44,7 @@ Then, within each step, Datama helps you find what is the most interesting dimen
 
 When your main KPI is the result of a simple computation (i.e.  product or sum of metrics steps), Datama is able to breakdown the impact of each segment of each dimensionon the main KPI. 
 
-<center> <img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/dimensionthenstep.png"></center>
+<center> <img style="width:50%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/images/dimensionthenstep.png"></center>
 
 
 This is particularly interesting in cases like

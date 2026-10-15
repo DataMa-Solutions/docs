@@ -29,17 +29,17 @@ Datama Detect is based on a method to spot anomalies called [Observed volatilty]
 
 # 1. Observed volatility
 
-The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
+The observed volatility takes into account a baseline of X previous points (X can be defined in [Number of points in baseline]({{site.url}}{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) input) and computes the weighted standard deviation and average of that baseline for a given KPI to get a confidence interval based on normal distribution rules. 
 
 The confidence interval is in light blue. Points outside the confidence interval will be considered as anomalies.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_volatility.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_volatility.png"/></center>
 
 In the above screenshot, note that the number of points in baseline is set to 20, which is obvious for instance when looking as the spike of the 9th of June impact makes the confidence interval narrow down starting on the 29th of June, i.e. 20 days later. 
 
 <br>
 
-Details of the [settings]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) are available in the dedicated page
+Details of the [settings]({{site.url}}{{site.baseurl}}/core_app/new/detect/settings.html#25-number-of-points-in-baseline) are available in the dedicated page
 
 <!-- 
 ### Smart Interval
@@ -49,11 +49,11 @@ Smart Interval calculates a theoretical confidence interval instead of an observ
 
 Below is an example of anomaly detection with and without Smart Interval.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_wo_smart_interval.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_wo_smart_interval.png"/></center>
 <p align="center"><em>Without Smart Interval</em></p>
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_with_smart_interval.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_with_smart_interval.png"/></center>
 <p align="center"><em>With Smart Interval</em></p>
 
 <br> -->
@@ -62,7 +62,7 @@ Below is an example of anomaly detection with and without Smart Interval.
 <!-- ## Methods based on confidence interval
 
 Methods based on confidence interval takes into account relatively complex algorithm based on your historical data to define an expected confidence interval for next points.
-This assumes the definition of a [confidence interval]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#confidence-interval) which is set by default at 95% -->
+This assumes the definition of a [confidence interval]({{site.url}}{{site.baseurl}}/core_app/new/detect/settings.html#confidence-interval) which is set by default at 95% -->
 
 <!-- ### 2. Methods based on manually configured thresholds
 
@@ -80,8 +80,8 @@ This methods flags as anomaly any relative variation that is higher or lower tha
 
 For instance, in the screenshot below, we compare each point to the previous same hour of the same day of week and if the relative variation is above or below 50%, the value will be considered as an outlier, which is the case for the latest point
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_relative_var_input.png"/></center>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_relative_var_output.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_relative_var_input.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_relative_var_output.png"/></center>
 
 > Note that in this case, threshold input is considered in % if above 1, so there is no need to put a decimal value
 <br>
@@ -95,8 +95,8 @@ This methods flags as anomaly any absolute variation that is higher or lower tha
 
 For instance, in the screenshot below, we compare each point to the previous same hour of the same day of week and if the absolute variation is above or below 20k, the value will be considered as an outlier, which is the case for two points
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_absolute_var_input.png"/></center>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_absolute_var_output.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_absolute_var_input.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_absolute_var_output.png"/></center>
 
 > Note that the flagged outliers are not the same as in the previous relative method, which comes from the fact that there is a weekly seasonlity in the data and low values (typically weekends) have less chance to get flagged since the threshold is absolute
 
@@ -109,5 +109,5 @@ For instance if the threshold is set to 50k and the base line value is 40k, if t
 
 In the screenshot below, we compare each point to the previous point and if the value changes sign vs. 50k, the value will be considered as an outlier
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_absolute_value_input.png"/></center>
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_absolute_value_output.png"/></center> -->
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_absolute_value_input.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_absolute_value_output.png"/></center> -->

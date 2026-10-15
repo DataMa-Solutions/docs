@@ -37,8 +37,8 @@ Below is a demo video
 
 Quickly understand how Datama Spreadsheet works:
 
-- [Concept]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/concept.html): Pivot-table logic and main capabilities
-- [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/structure.html): How to use edit mode and result mode
+- [Concept]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/concept.html): Pivot-table logic and main capabilities
+- [Interface]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/structure.html): How to use edit mode and result mode
 
 <br>
 
@@ -46,10 +46,10 @@ Quickly understand how Datama Spreadsheet works:
 
 Use Datama Spreadsheet in marketplace BI tools:
 
-- [In Looker Studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_spreadsheet.html)
-- [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_spreadsheet.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau-viz_spreadsheet.html)
-- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_spreadsheet.html)
+- [In Looker Studio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio_spreadsheet.html)
+- [In Power BI]({{site.url}}{{site.baseurl}}/extensions/how-to-use/power-bi_spreadsheet.html)
+- [In Tableau]({{site.url}}{{site.baseurl}}/extensions/how-to-use/tableau-viz_spreadsheet.html)
+- [In Qlik]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik_spreadsheet.html)
 
 Not supported: Google Sheets and Excel.
 
@@ -57,6 +57,6 @@ Not supported: Google Sheets and Excel.
 
 # 3. Going further
 
-- [Advanced settings]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/settings.html)
+- [Advanced settings]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/settings.html)
 
 <br>

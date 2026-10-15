@@ -29,4 +29,4 @@ Pas besoin de changer d’outil. Pas besoin de recréer un graphique à la main.
 
 Installez le **Datama Skill** une seule fois depuis votre compte, puis posez simplement votre question. L’assistant sait quand Datama est la bonne réponse.
 
-🖱️ [Commencez à utiliser les Datama Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html)
+🖱️ [Commencez à utiliser les Datama Skills]({{site.url}}{{site.baseurl}}/extensions/skills/introduction.html)

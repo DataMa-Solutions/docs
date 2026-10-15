@@ -31,11 +31,11 @@ So what you want, is to really explain Revenue_ThisYear – Revenue_LastYear. (<
 
 Well, this can be written as following:
 
-![equation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/images/equation.png)
+![equation]({{site.url}}{{site.baseurl}}/core_app/new/compare/images/equation.png)
 
 The visual representation below is much easier to get:
 
-![covariance]({{site.url}}/{{site.baseurl}}/core_app/new/compare/images/Covariance.gif)
+![covariance]({{site.url}}{{site.baseurl}}/core_app/new/compare/images/Covariance.gif)
 
 What you want to explain is the gap in surface between the two green squares.
 
@@ -54,7 +54,7 @@ The % of Covariance that we display in Datama Compare charts is the ratio betwee
 We put a flag (!) when Covariance gets high (>30%), but the analysis remains true. Just think that the effects you’re trying to sort out are not fully independent, so sometimes it’s not one effect (e.g. Price) or the other (e.g. Volume) that affects your overall KPI (e.g. Revenue), but both at the same time. And that’s your Covariance!
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/compare_covariance.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/model/images/compare_covariance.png"/></center>
 
 <br>
 
@@ -66,4 +66,4 @@ In Datama Light (marketplace Compare) you can decide **how** covariance is distr
 - **Per-step policy** (Auto / Always / Never) when covariance is not separated
 - Slide subtitle **warning** when the share is high (default threshold **40%**)
 
-See [Settings › Modeling › Covariance]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#24-covariance).
+See [Settings › Modeling › Covariance]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#24-covariance).

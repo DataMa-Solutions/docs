@@ -20,7 +20,7 @@ Whether you're comparing different time periods or regions, this tool provides c
 
 Results are presented through an intuitive **waterfall** workspace: the bridge chart, smart comment, and optional **table** / **tree** surfaces stay aligned as you explore.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" style="width: 70%;" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" style="width: 70%;" /></center>
 
 <br>
 
@@ -56,7 +56,7 @@ We can break Revenue down as: <span style="color:#00484A">Revenue = Volume * Rev
 
 This breakdown helps separate effects managed by different teams (sales volume vs. pricing strategy).
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 100%;" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Concept_MarketEquation.PNG" style="width: 100%;" /></center>
 
 <br/>
 
@@ -87,7 +87,7 @@ Example interpretation:
 - Key factors include -11.7% in Users and -26.7% in Checkout/Session rates
 - The Checkout/Sessions decrease of -26.7% impacts Revenue by 12,298€
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Structure_Waterfall.PNG" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Structure_Waterfall.PNG" /></center>
 
 <br/>
 
@@ -95,15 +95,15 @@ To dive deeper (demonstration with another use case, but the logic is the same):
 
 - Click any step to see which dimension best explains its variations (in this case, Canada contributes most negatively to transactions this year vs last year.)
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.gif" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom.gif" /></center>
 
 By default, the waterfall keeps the **N most impacting** bars visible (absolute impact; default **N = 6**) and groups the rest into **Remaining**. Market-equation steps stay outside Remaining unless you enable **Group equation steps**. Click a Remaining bar to expand more elements; right-click **Regroup remaining** to collapse again:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.gif" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_zoom_remaining.gif" /></center>
 
 - Use **Split by** (right-click on a bar or on value / top-line labels) to view interest scores of other dimensions and change the display. Smart title, subtitle, and comment follow the active drill.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.gif" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/compare_splitby.gif" /></center>
 
 - Switch exploration to **Hierarchy** or **Top N** from the context menu or **Tree** settings to focus on top drivers
 - Optionally pin the **Table** view to read the same hierarchy as numbers
