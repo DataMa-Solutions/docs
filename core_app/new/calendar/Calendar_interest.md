@@ -53,6 +53,34 @@ Cases:
   * Event present in **none of the periods**
 ➡ These events are unlikely to explain KPI variations.
 
+---
+
+## Scope weighting (scoped interest)
+
+When a calendar event has a **scope** (for example a country or product segment), Datama can weight its interest score based on how much that segment contributes to the waterfall breakdown.
+
+The final **scoped interest** shown in Compare comments is:
+
+**overlap interest × segment total scaled interest**
+
+Where:
+- **Overlap interest** measures how differently the event appears between the two compared periods (unchanged principle above).
+- **Segment total scaled interest** reflects the share of absolute segment impact in the waterfall for that scope value (higher share → stronger weight).
+
+Events scoped to segments with little impact on the KPI variation receive a lower scoped interest and are less likely to appear in the comment highlights.
+
+---
+
+## Event description in comments
+
+Events can carry an optional **description** (in addition to their name). In Compare waterfall comments, Datama:
+
+- Displays descriptions next to event names when present, e.g. `Ramadan (Fête du mois)`
+- Groups recurring events with the **same name, description and scope** into a single bullet, merging their date ranges
+- Keeps separate bullets when the name matches but **description or scope differs**
+
+This avoids duplicate lines for multi-year events while still separating distinct campaigns that share a label.
+
 
 <br>
 

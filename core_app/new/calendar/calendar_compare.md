@@ -35,7 +35,7 @@ This helps highlight events most likely responsible for KPI changes.
 
 <br>
 
-Note that in Datama Compare Extension the **scope** impact on interest score
+Note that in Datama Compare, the **scope** impacts the interest score shown in comments.
 
 The scope of a calendar can **weight the interest score**:
 - High relevance scope → stronger influence in highlights
