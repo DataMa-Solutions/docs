@@ -1,6 +1,14 @@
 // Page chrome aligned with public-website: header, footer, article layout,
 // breadcrumb, "On this page" table of contents, 404.
 
+/** Anchor jumps (table of contents, #links) stop below the sticky header
+    instead of hiding the heading under it. Keep in sync with .site-header height. */
+$header-height: 64px;
+
+html {
+  scroll-padding-top: $header-height + 16px;
+}
+
 /** Header (src/components/layout/header.tsx on the website) */
 .site-header {
   position: sticky;
@@ -10,7 +18,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 24px;
-  height: 64px;
+  height: $header-height;
   margin: -20px -20px 0;
   padding: 0 20px;
   background: rgba($white, 0.85);

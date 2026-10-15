@@ -149,7 +149,9 @@
         // Highlight current section while scrolling
         function updateActiveSection() {
             const viewportHeight = window.innerHeight;
-            const tenPercentOfViewport = viewportHeight * 0.1;
+            // At least the sticky header height + margin, so a heading reached
+            // through the TOC is the one highlighted
+            const tenPercentOfViewport = Math.max(viewportHeight * 0.1, 96);
             const scrollPosition = window.scrollY + tenPercentOfViewport;
 
             // Remove active class from all links first
