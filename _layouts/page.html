@@ -30,50 +30,6 @@
 </main>
 <script src="{{site.url}}{{site.baseurl}}/assets/js/main.js"></script>
 <script src="{{site.url}}{{site.baseurl}}/assets/js/reading-progress.js"></script>
-<script>
-    let groups = {
-        'shiny': 'old-ui full-app',
-        'Datama/saas': 'full-app',
-        'Datama/saas/compare': 'compare full-app',
-        'Datama/saas/assess': 'Assess full-app',
-        'Datama/saas/detect': 'Detect full-app',
-        'Datama/saas/pivot': 'Pivot full-app',
-        'Datama/saas/journey': 'Journey full-app',
-        'Datama/light': 'light-app',
-        'Datama/light/compare': 'compare light-app'
-    }
-    search.listen('search-input-aside', {
-        fields: {
-            scope: {
-                weight: 1100
-            },
-            title: {
-                weight: 1000,
-                required: true
-            },
-            keywords: {
-                weight: 500
-            },
-            tags: {
-                weight: 250
-            },
-            body: {
-                weight: 100,
-                required: true
-            }
-        },
-        results: {
-            template: (element) => {
-                return {
-                    scope: search.json[element.id].scope,
-                    html: `<li class="search-result" data-score="${element.total}"><a href="${search.json[element.id].url}" title="${search.json[element.id].title}"><strong>${search.json[element.id].title}</strong><div class="search-tags">${(groups[search.json[element.id].scope] || '').split(' ').filter(e => e).map(e => '<span class="search-group">' + e + '</span>').join('')}</div><small>${search.json[element.id].body.substr(0, 50)}</small></a></li>`
-                }
-            },
-            groups,
-            limit: 15,
-            container: 'results-container-aside'
-        }
-    })
-</script>
+{% include menu-search.html %}
 </body>
 </html>

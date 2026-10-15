@@ -15,35 +15,33 @@
   ~ Generated for file : navigation.html project project-deep-sky
   -->
 
-<aside id="menu">
-    <header>
-        <a  href="{{site.url}}{{site.baseurl}}/" title="Go to home page of documentation"><img src="{{site.url}}{{site.baseurl}}/assets/images/Logo_SimpleDatama.svg"></a>
-        <a href="{{site.url}}{{site.baseurl}}/search.html" class="search" title="Go to search page"><i class="fas fa-search"></i></a>
-        <a href="#" id="burger" class="burger" title="Collapse/Expand sidebar"><i class="fas fa-bars"></i></a>
-    </header>
-    {% if include.search == 1 %}
-    <main>
+<aside id="menu" aria-label="Documentation menu">
+    <div class="menu-top">
+        <header>
+            <a class="menu-logo" href="{{site.url}}{{site.baseurl}}/" title="Go to home page of documentation"><img src="{{site.url}}{{site.baseurl}}/assets/images/Logo_SimpleDatama.svg" alt="Datama documentation"></a>
+            <button type="button" class="menu-close-btn" data-menu-close aria-label="Close the menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+        </header>
+        {% if include.search == 1 %}
         <div class="search-group">
-            <form action="{{site.url}}{{site.baseurl}}/search.html" method="get">
-                <input type="text" id="search-input-aside" name="q" class="search-bar" placeholder="Search...">
+            <form action="{{site.url}}{{site.baseurl}}/search.html" method="get" role="search">
+                <input type="text" id="search-input-aside" name="q" class="search-bar" placeholder="Search..." aria-label="Search the documentation">
             </form>
         </div>
         <div id="results-container-aside" class="search-result"></div>
-    </main>
-    {% endif %}
-    <nav>
+        {% endif %}
+        <button type="button" class="menu-collapse-all" data-menu-collapse-all><i class="fas fa-compress-alt" aria-hidden="true"></i> Collapse all</button>
+    </div>
+    <nav aria-label="Documentation pages">
         {% include menu.html nav=include.nav %}
-        <hr>
         <ul class="links">
+            <li class="links-title">Links</li>
             <li>
-                <h3>Links</h3>
+                <a href="https://Datama.fr" title="Website"><img src="{{site.url}}{{site.baseurl}}/assets/images/aside/D_SimpleDatama.svg" alt="">Website</a>
             </li>
             <li>
-                <a href="https://Datama.fr" title="Website"> <img src="{{site.url}}{{site.baseurl}}/assets/images/aside/D_SimpleDatama.svg" style="width: 24px; height: 24px;margin-right: 6px;">Website</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/company/11195323" title="LinkedIn"> <img src="{{site.url}}{{site.baseurl}}/assets/images/aside/logo-linkedin.png">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/11195323" title="LinkedIn"><img src="{{site.url}}{{site.baseurl}}/assets/images/aside/logo-linkedin.png" alt="">LinkedIn</a>
             </li>
         </ul>
     </nav>
 </aside>
+<div class="menu-backdrop" data-menu-close></div>

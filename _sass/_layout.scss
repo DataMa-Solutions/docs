@@ -73,12 +73,16 @@ html {
   .site-header__actions { display: none; }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .site-header {
     justify-content: flex-start;
-    overflow-x: auto;
+    gap: 16px;
     ul { gap: 18px; }
+    a { white-space: nowrap; }
   }
+  // Not enough room: keep Menu + the Solutions/News dropdowns. "Welcome" is
+  // the logo in the menu drawer, "About Us" is in the footer.
+  .site-header__nav .site-header__secondary { display: none; }
 }
 
 /** Home hero: the header floats over it */
