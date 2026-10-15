@@ -11,7 +11,7 @@ keywords: Tableau Viz get started Tableau
 
 <br/>
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_intropage.png" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/PBI_intropage.png" align="center" width="650px" />
 
 <br/>
 
@@ -57,13 +57,13 @@ Follow these steps to add Datama in your report :
         * Note: By default, Datama will compare the last 2 values for discrete dimensions or split in two the dates dimensions. Makes sure to leverage Tableau parameters or filters to get the right comparison.
     * Dimensions "D" dimensions (the dimensions that will be used to explain the variation of each KPI)
     * Metrics "M" fields (the metrics that will be used to create your market equation for instance Quantity and Sales to create Sales = Qty x Avg Price)
-        * Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
+        * Datama sets up a [relation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
 
-Please refer to the full documentation to learn more about [source structure]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
+Please refer to the full documentation to learn more about [source structure]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html)
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Tableau_Viz_Extension.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/Tableau_Viz_Extension.gif" /></center>
 
 <br>
 
@@ -85,7 +85,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Select your plan and get your licence key
 5. Add the licence key to the the extension by clicking on the "Format extension" button in the Marks pannel
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Licence_key_VizExt.png" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/Licence_key_VizExt.png" /></center>
 
 
 <br>
@@ -122,20 +122,20 @@ Once you've imported the extension, here is how you can use it.
 - By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom.
 - **In-depth exploration**: Click a step to open the strongest drivers. You can pin the **Table** or **Tree** view, add **custom pillars**, and keep comment / title in sync with the active split.
 
-To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
+To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
 <br/>
 
 # 6. Settings - Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
 
 
 <br/>
 
 # 7. Get more insights
 
-Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 

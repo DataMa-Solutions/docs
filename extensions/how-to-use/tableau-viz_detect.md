@@ -62,9 +62,9 @@ Follow these steps to add Datama in your report :
 4. Drag and drop columns into each proper mark type [See getting started to learn more](#5-getting-started)
     * Detection "D" dimension (the dimension on which you want to detect anomalies, typically Date)
     * Metrics "M" fields (the metrics that will be used to create your market equation for instance Quantity and Sales to create Sales = Qty x Avg Price)
-        * Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence
+        * Datama sets up a [relation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence
 
-Please refer to the full documentation to learn more about [source structure]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
+Please refer to the full documentation to learn more about [source structure]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html)
 
 <br>
 
@@ -84,7 +84,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 5. Add the licence key to the the extension by clicking on the "Format extension" button in the Marks pannel
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
+See [here]({{site.url}}{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
 <br>
 
@@ -106,13 +106,13 @@ Once you've imported the extension, here is how you can use it.
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

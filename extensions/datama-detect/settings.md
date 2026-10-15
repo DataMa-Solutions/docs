@@ -12,7 +12,7 @@ keywords: light compare settings detect extension plugin
 
 <br>
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Detect_setting.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Detect_setting.png"/></center>
 
 <br>
 
@@ -30,7 +30,7 @@ keywords: light compare settings detect extension plugin
 
 # 1. General Settings
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_settings.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/detect_settings.png"/></center>
 
 <br/>
 
@@ -51,7 +51,7 @@ Select from the available dimensions in your dataset based on which you wish to 
 
 * **Absolute value threshold** : Triggers an alert when the actual value goes above or below a predefined threshold. This method is good for hard business limits (e.g. Any value above 80 is automatically flagged as abnormal).
 
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 
 {% include embed_totw.html num=145 %}
@@ -74,7 +74,7 @@ By default the maximum number of points available is already selected in this in
 A confidence interval represents a range of values that is likely to contain an unknown population parameter. When you repeatedly draw random samples, a specific percentage of these confidence intervals will encompass the population mean. This percentage is known as the confidence level. 
 You can set it as high as 99.99% - the higher the confidence level, the fewer anomalies will be detected, ensuring that only the most reliable anomalies are displayed.
 
-<center> <img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_confidenceInterval.png"/></center>
+<center> <img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/detect_confidenceInterval.png"/></center>
 
 
 By changing the confidence interval you can modify the precision expected from the significance.
@@ -98,7 +98,7 @@ Even if only the latest point is activated, you will be able to see when the cur
 
 This trigger allows to choose to detect only anomaly above or below confidence interval. There is sometimes no need to be alerted for good performance. 
 
-<!-- <center> <img src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/above_below_interval.png"/></center> -->
+<!-- <center> <img src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/above_below_interval.png"/></center> -->
 
 <br>
 
@@ -123,7 +123,7 @@ This is to customize X% mentioned just above.
 
 # 2. Market Equation
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/metrics_relation.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/metrics_relation.png"/></center>
 
 This part allow you to edit your KPIs and market equation, when you want to fit your analysis with your business.
 
@@ -133,29 +133,29 @@ Metric relation describes the equation between metrics of your source, in order 
 
 - By default, Datama creates a product of ratios (prod) with all the steps defined in the metrics relation. However, you can change this to “sum” to add each step, e.g., Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/sum_marketequation_detect.gif"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/gif/sum_marketequation_detect.gif"/></center>
 
 - When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/Marketequation_unit_detect.gif"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/gif/Marketequation_unit_detect.gif"/></center>
 
 <!-- - In the Metrics Relation definition, you can opt to set a given step to focus on a specific dimension. This action will disable the automatic dimension scoring in the computation result and only display the selected dimension.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
+<center><img style="align: right; width: 900px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/focused_dimension_marketequation.gif"/></center>
 
 - The excluded dimension will maintain the scoring algorithm but will not consider the excluded dimension in the calculation for this step.
 
-<center><img style="align: right; width: 900px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center> -->
+<center><img style="align: right; width: 900px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/market-equation_extension.png"/></center> -->
 
 
 
-<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
+<!-- ![img]({{site.url}}{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
 
 <br/>
 
 # 3. Plots
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/plots.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/plots.png"/></center>
 
 <br/>
 
@@ -166,7 +166,7 @@ Metric relation describes the equation between metrics of your source, in order 
 ### 3.1.1. Join missing values
 Collapse empty continuous values. When this option is enabled, the chart removes continuous intervals (such as dates or numeric ranges) that have no data, so the remaining values are displayed without gaps. This helps make time series or continuous charts look smoother by connecting only the periods that contain actual data, instead of showing empty spaces for missing values.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Join_missing_value.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Join_missing_value.png"/></center>
 
 ### 3.1.2. Keep position
 
@@ -215,11 +215,11 @@ Comming soon
 
 #### 3.1.1. Hide dimensions and segments panel
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/gif/hidedimensionsandsegmentspanel.gif"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/gif/hidedimensionsandsegmentspanel.gif"/></center>
 
 If you activate this parameter, a small copy icon will appear at the left side of KPI option, allowing you to download the data source used for this plot.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/copy data in the plot.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/copy data in the plot.png"/></center>
 
 
 
@@ -245,7 +245,7 @@ This option controls how the line is drawn between data points in a line chart.
 ## 3.4. Legends
 
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/display_legend.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/display_legend.png"/></center>
 
 <br/>
 
@@ -283,11 +283,11 @@ With this option, the detection system will visually highlight the data point (e
 
 You can now display Calendar Events right in Datama detect trend lines. For now, this works only if you have your events available in your extension dataset, with at least a Date column, and an event label. By activating the Calendar capabilities in the settings, you will be able to see the events or periods annotated on your trend lines. This is particularly useful for storytelling, to explain why a KPI behaves differently. In the medium term, Datama will allow you to create new events directly in the extension, and explain variations or spot anomalies based on these events.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Calendar.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Calendar.png"/></center>
 
 <br>
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/calendar detect.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/calendar detect.png"/></center>
 
 <br/>
 
@@ -295,7 +295,7 @@ You can now display Calendar Events right in Datama detect trend lines. For now,
 
 This Calendar settings allows to set the display and adapt the formating.
 
-<center><img style="width: 60%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Enable_events.png"/></center>
+<center><img style="width: 60%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Enable_events.png"/></center>
 
 
 <br/>
@@ -345,7 +345,7 @@ These settings allow you to customize the application to fit with your company, 
 
 ## 5.1 Global
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/preference_detect.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/preference_detect.png"/></center>
 
 ### 5.1.1 Language
 
@@ -369,11 +369,11 @@ Show or hide chart comment
 
 ### 5.2.1 Application color
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_application_colors.png"/></center>.
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/detect_application_colors.png"/></center>.
 
 ### 5.2.2 Waterfall (Detect) color
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/detect_waterfall_colors.png"/></center>.
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/detect_waterfall_colors.png"/></center>.
 
 <br>
 
@@ -383,11 +383,11 @@ Show or hide chart comment
 
 > **Looker Studio (premium users)**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the **Config JSON** field in the style panel. Otherwise, your settings will be lost when you refresh the BI report.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Save JSON.png"/></center>.
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Save JSON.png"/></center>.
 
 <br/>
 
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) of Datama.
+Get more information about extension [interface]({{site.url}}{{site.baseurl}}/extensions/datama-detect/structure.html) or [therotical concept]({{site.url}}{{site.baseurl}}/extensions/datama-detect/concept.html) of Datama.
 
 <br>

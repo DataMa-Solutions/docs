@@ -26,6 +26,6 @@ Vous pouvez désormais utiliser **Datama Compare directement dans Google Sheets*
 * **Sécurité**: aucune donnée n'est partagée en dehors de Google Sheet
 * **Démocratisation**: si l'outil est installé dans Google Workspace au niveau de l'organisation, tout le monde aura directement accès à Datama
 
-🖱️Cliquez ici pour [en savoir plus](https://datama-solutions.github.io//docs/extensions/how-to-use/google-sheets.html)
+🖱️Cliquez ici pour [en savoir plus](https://datama-solutions.github.io/docs/extensions/how-to-use/google-sheets.html)
 
 PS : Pour les utilisateurs de Microsoft Excel, petit teaser : cette fonctionnalité pourrait bientôt arriver chez vous aussi 😘 #Teaser

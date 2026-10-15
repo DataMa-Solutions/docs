@@ -8,7 +8,7 @@ keywords: light market equation sub-steps composite step waterfall drill
 
 <br/>
 
-> Related: [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) · [Settings › Market Equation]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#4-market-equation)
+> Related: [What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html) · [Settings › Market Equation]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#4-market-equation)
 
 <br/>
 
@@ -39,7 +39,7 @@ Two problems this solves:
 | What | Nested structure of the **market equation** | Synthetic **checkpoints** drawn on the waterfall |
 | Changes the KPI math? | Yes | No |
 | How to create | Market Equation card editor | Right-click → **Add pillar** |
-| Docs | This page | [Settings › Waterfall › Pillars]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#923-pillars-custom-checkpoints) |
+| Docs | This page | [Settings › Waterfall › Pillars]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#923-pillars-custom-checkpoints) |
 
 <br/>
 
@@ -80,7 +80,7 @@ On a **composite** step bar (typically in **Steps then Dimensions**):
 
 For a **non-simplifiable** step, **Sub-steps** is the only split entry offered.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Sub_steps.gif" alt="Split by Sub-steps on the Datama Compare waterfall" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Sub_steps.gif" alt="Split by Sub-steps on the Datama Compare waterfall" /></center>
 
 <br/>
 
@@ -88,11 +88,11 @@ For a **non-simplifiable** step, **Sub-steps** is the only split entry offered.
 
 - Prefer meaningful step **names** — formulas reference steps by name, and names must be unique among steps (the Main KPI may reuse a step label).
 - Use Sub-steps when a ratio is itself a mini-funnel; use **Sub-pillars** when you only need a storytelling checkpoint.
-- Combine with [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) to simulate an impact on a nested step.
+- Combine with [What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html) to simulate an impact on a nested step.
 
 <br/>
 
 # See also
 
-- [Settings › Market Equation]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#4-market-equation)
-- [Covariance (concept)]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html)
+- [Settings › Market Equation]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#4-market-equation)
+- [Covariance (concept)]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/covariance.html)

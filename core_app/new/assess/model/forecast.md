@@ -15,7 +15,7 @@ If the Start period contains too little data, the forecasted values will not be 
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_forecast.png" alt="assess - forecast model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_forecast.png" alt="assess - forecast model" /></center>
 
 
 

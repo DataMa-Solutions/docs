@@ -16,7 +16,7 @@ keywords: full app compare model
 
 Identify which step of the funnel is driving the change. Better understand how to interpret the waterfall. 
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/waterfall.html)
+See details [here]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/waterfall.html)
 
 <br>
 
@@ -24,21 +24,21 @@ See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/
 
 Identify which dimension in a specific step is driving the change with some details on Mix and Performance effect.
 
-See details here for [Mix Effects]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and for [performance effects]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
+See details here for [Mix Effects]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) and for [performance effects]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
 
 <br>
 
 ## 2.1 Mix Effect
 For each step, analyze how much mix effects on each dimension contributes to the observed gap
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
+See details [here]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html)
 
 <br>
 
 ## 2.2 Segment Performance
 For each step and each dimension, identify which specific segment performance is driving the observed gap
 
-See details [here]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
+See details [here]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_performance.html)
 
 <br>
 
@@ -50,7 +50,7 @@ Clustering is necessary for dimension analysis:
 - For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into "other"
 - For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
 
-Read docs related to [continuous dimension]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
+Read docs related to [continuous dimension]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
 
 <br>
 
@@ -87,9 +87,9 @@ For waterfall analysis, covariance is distributed on each step. User should chec
 
 For Dimension analysis, covariance is not distributed on neither mix nor performance sizing. Hence user should be careful when looking at dimension impact.
 
-Read more about [Covariance]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance)
+Read more about [Covariance]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/covariance)
 
 <br>
 
 
-<!-- <center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/images/Model-300x266.jpg"/></center> -->
+<!-- <center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/model/images/Model-300x266.jpg"/></center> -->

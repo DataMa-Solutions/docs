@@ -16,7 +16,7 @@ For example, an event that occurs in both periods being compared (e.g., Christma
 
 In contrast, an event that occurs only in the start period (e.g., a website bug happening during just one side of the comparison) will receive a higher score.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/compare_with_calendar_interest_score.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/compare_with_calendar_interest_score.png"/></center>
 
 <br>
 
@@ -27,7 +27,7 @@ It is mainly calculated on how the event overlaps between the **comparison perio
 
 The chart below illustrates a model of a case study designed to help understand how the interest score is calculated:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/interest_score_scale.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/interest_score_scale.png"/></center>
 
 **High Interest Score**: events receive a **high interest score** when they occur in only one of the two periods.
 
@@ -62,13 +62,13 @@ You can choose to display the interest score directly in the comments using the 
 
 First in your Prep set up, in the block output Datama when connecting calendars to the workbook:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/calendar_interest_toggle_prep.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/calendar_interest_toggle_prep.png"/></center>
 
 <br>
 
 Else in Datama Compare go into the settings and open the Calendars section, you'll find the same menu as in Prep.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/calendar_interest_toggle_settings.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/calendar_interest_toggle_settings.png"/></center>
 
 <br>
 
@@ -76,7 +76,7 @@ Else in Datama Compare go into the settings and open the Calendars section, you'
 
 According to your "analysis depth" setting, Datama highlights the events with the highest interest scores at the end of the Datama Compare comments section.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/calendar_interest_depending_on_analysis_depth.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/calendar_interest_depending_on_analysis_depth.png"/></center>
 
 <br>
 

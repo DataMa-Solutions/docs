@@ -26,11 +26,11 @@ Two parameters are used in order to build this graph:
 
 * The X-axis is % of the metric you have chosen
 
-* The Y-axis is [point]({{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/attribution#5-data)
+* The Y-axis is [point]({{site.url}}{{site.baseurl}}/core_app/new/journey/interface/attribution#5-data)
 
 **<u>Example:</u>**
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/pareto.png" style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/pareto.png" style="width:1000px;">
 
 
 <br>
@@ -48,7 +48,7 @@ The left one is your Desktop segment.
 
 The right one is your Mobile segment.
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/start_end_sunbursts.png" style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/start_end_sunbursts.png" style="width:1000px;">
 
 <br>
 
@@ -67,7 +67,7 @@ On the right part of the sunburst (starting with the negative) are the journeys 
 
 Obviously, as this is a 0 sum game, you have as many decreasing journeys as increasing ones,due to the left part and right part (positive and negative) having exactly the same share (50/50)
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/similarity_sunburst.png" style="width:1000px;">
 
 # 4. Sankey
 
@@ -75,7 +75,7 @@ Sankey chart is another way to display flows between touch points which is conve
 
 You can move the nodes of the Sankey by drag and dropping the nodes with your moves
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/images/sankey.png" style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/images/sankey.png" style="width:1000px;">
 
 <br>
 

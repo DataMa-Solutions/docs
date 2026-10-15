@@ -8,7 +8,7 @@ keywords: light what if scenario simulation compare explore assess
 
 <br/>
 
-> Related: [Market equation Sub-steps]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) · [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html)
+> Related: [Market equation Sub-steps]({{site.url}}{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) · [Settings]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html)
 
 <br/>
 
@@ -20,7 +20,7 @@ Under the hood, each scenario is materialised as **extra rows** tagged by a synt
 
 The Datama web app also offers a **What If** block in Prep, which writes a transformed dataset. In Light, scenarios are applied **inside** the extension instead.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/What_if.gif" alt="What If scenario simulation in Datama Compare" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/What_if.gif" alt="What If scenario simulation in Datama Compare" /></center>
 
 <br/>
 
@@ -100,5 +100,5 @@ Zero-impact or out-of-scope rows are left unchanged. Rows outside every scenario
 
 # See also
 
-- [Market equation Sub-steps]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html)
-- Prep What If (Datama web app): [Refine data]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/refine_data.html)
+- [Market equation Sub-steps]({{site.url}}{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html)
+- Prep What If (Datama web app): [Refine data]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/refine_data.html)

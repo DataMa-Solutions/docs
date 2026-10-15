@@ -13,6 +13,6 @@ description: Bring interactive Datama Compare, Detect, Assess, and Explore visua
   * Supports Compare, Detect, Assess, and Explore
   * Completely free—complements your existing Datama extensions
 
-See the documentation: [Datama in PowerPoint]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
+See the documentation: [Datama in PowerPoint]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint.html)
 
 {% include embed_totw.html num=188 open=true %}

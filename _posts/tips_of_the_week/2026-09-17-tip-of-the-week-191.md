@@ -16,4 +16,4 @@ Four new powers just landed in Datama Compare 🚀
 * **Covariance, tamed** ⚖️ : choose per step if it should catch the covariance, or isolate it in its own bar.
 * **Remaining bars** 📊 : the 6 most impacting bars stay visible by default (up to 50), equation steps stay out unless you opt in, right-click to Regroup remaining.
 
-📖 [Explore all new features]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html)
+📖 [Explore all new features]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html)

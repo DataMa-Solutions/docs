@@ -17,6 +17,6 @@ Despite years of beautiful dashboards and governed metrics, many teams **still**
 
 **Where it runs:** light extension in **Tableau**, **Power BI**, **Qlik**, and **Looker Studio** (not in Google Sheets or Excel, obviously!).
 
-**Getting started:** [Looker Studio](https://datama-solutions.github.io//docs/extensions/how-to-use/looker-studio_spreadsheet.html), [Power BI](https://datama-solutions.github.io//docs/extensions/how-to-use/power-bi_spreadsheet.html), [Tableau](https://datama-solutions.github.io//docs/extensions/how-to-use/tableau-viz_spreadsheet.html), [Qlik](https://datama-solutions.github.io//docs/extensions/how-to-use/qlik_spreadsheet.html).
+**Getting started:** [Looker Studio](https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_spreadsheet.html), [Power BI](https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_spreadsheet.html), [Tableau](https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_spreadsheet.html), [Qlik](https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_spreadsheet.html).
 
-🖱️ [Overview: Datama Spreadsheet](https://datama-solutions.github.io//docs/extensions/datama-spreadsheet/introduction.html)
+🖱️ [Overview: Datama Spreadsheet](https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/introduction.html)

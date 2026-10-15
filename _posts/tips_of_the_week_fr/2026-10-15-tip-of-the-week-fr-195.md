@@ -23,4 +23,4 @@ Comment faire 👇
 
 ✨ Sachez quel levier vaut la peine d'être actionné avant de l'actionner.
 
-📖 [En savoir plus sur What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html)
+📖 [En savoir plus sur What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html)

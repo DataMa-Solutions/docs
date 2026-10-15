@@ -38,13 +38,13 @@ Here's what you going to find in this chapter:
 
 ## 1.1. Test to Compute
 
-You can decide which test  to perform depending by selecting the appropriate model. Please refer to the [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) section for more details
+You can decide which test  to perform depending by selecting the appropriate model. Please refer to the [Model]({{site.url}}{{site.baseurl}}/core_app/new/assess/model.html) section for more details
 
 Go to the advanced setting:
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/to_advanced_setting.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/to_advanced_setting.png"/></center>
 
 Find your model here:
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsTestCompute.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_settingsTestCompute.png"/></center>
 
 <br>
 
@@ -52,15 +52,15 @@ Find your model here:
 
 Confidence interval is set in % to decide the level of confidence, or statistical power of your assessment. It ranges from 50% to 99%.
 
-Depending on the test you are performing, this input can be used in different ways. Please refer to the [Model]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model.html) section for more details
+Depending on the test you are performing, this input can be used in different ways. Please refer to the [Model]({{site.url}}{{site.baseurl}}/core_app/new/assess/model.html) section for more details
 
-<center><img tyle="width:50%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsConfidenceInterval.png"/></center>
+<center><img tyle="width:50%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_settingsConfidenceInterval.png"/></center>
 
 <br>
 
 ## 1.3.  Frequentist Weight
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/frequentist_model.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/frequentist_model.png"/></center>
 
 The Frequentist Weight parameter allows you to select a metric that will multiply the number of occurrences of a given line by that metric.
 
@@ -70,7 +70,7 @@ For instance, if you’re analyzing the significance of a variation of Average B
 
 ## 1.4.  Causal Impact
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/causal_impact.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/causal_impact.png"/></center>
 
 The Causal Impact test allows for the assessment of the significance of a variation between pre- and post-intervention periods on a test group. To read more about the Causal Impact test, please refer to the relevant literature.
 
@@ -82,7 +82,7 @@ The Causal Impact test allows for the assessment of the significance of a variat
 
 To conduct this test in datama assess, first define the dimensions impacted by the change. In this context, you will have a "Control" group and a "Variant" group.
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/impacted_dimension_segment.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/impacted_dimension_segment.png"/></center>
 
 <br>
 
@@ -104,7 +104,7 @@ e.g. Significance between "Test A" and "Test B" can be sized in Revenue or in Pu
 
 In the Settings, you can define to compute the test results with one-sided or two-sided approach for frequentist and bayesian tests.
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_settingsTestSide.png" alt="assess interface" /></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_settingsTestSide.png" alt="assess interface" /></center>
 
 
 Long story short, for a typical AB test, 1-sided test readouts allows you to be confident that B is higher than A, and not that B is lower than A -->
@@ -124,7 +124,7 @@ Therefore, if we see words such as “increased, greater, larger, improved and s
 # 2. Advanced settings
 <br>
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_advanced_setting.png" alt="assess interface" /></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/asses_advanced_setting.png" alt="assess interface" /></center>
 
 ## 2.1. Aggregation in %
 
@@ -138,11 +138,11 @@ e.g. if Level of aggregation is set at X%, segment within each dimension that re
 
 - Click on the drop-down arrow to display the settings menu
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_setting.png" alt="assess interface" /></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/asses_setting.png" alt="assess interface" /></center>
 
 - Move the cursor to the right to increase the level of aggregation
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_aggre_level.png" alt="assess interface" /></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/asses_aggre_level.png" alt="assess interface" /></center>
 
 - Segments are now aggregated at the requested level
 
@@ -171,7 +171,7 @@ This is interesting when you are mesuring the significance for <i>date</i>, it w
 
 First thing you need to do in Datama Assess is to define the comparison on which you want to assess the significance.
 
-Please refer to the [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html) section
+Please refer to the [Dimension Comparison]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html) section
 
 <br>
 
@@ -179,9 +179,9 @@ Please refer to the [Dimension Comparison]({{site.url}}/{{site.baseurl}}/core_ap
 
 In Datama Assess, you can assess the significance of a variation only on one given KPI. Hence, you need to select one of the step of your metric relation for that KPI. By default, Datama selects the first ratio of your metric relation, but you can change that by clicking on the KPI bar in the subheader and ticking the appropriate metric within your metric relation
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_kpi.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/asses_kpi.png"/></center>
 
 
 If you want to assess the significance for a KPI that is not explicitly in your metric relation, you can still edit the numerator and denominator manually by clicking on the KPI pill. See specific section for more details on the KPI pill
 
-<center><img tyle="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/asses_kpi2.png"/></center>
+<center><img tyle="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/asses_kpi2.png"/></center>

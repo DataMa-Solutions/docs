@@ -14,4 +14,4 @@ This menu gives you access to a configuration panel for your account. You can ad
 Administrator accounts are also able to manage the activity of other company accounts.
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/security.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/admin/images/security.png"/></center>

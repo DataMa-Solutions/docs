@@ -21,11 +21,11 @@ layout: post
     * **Numerator only** option makes Datama Pivot work on metrics that have no denominator. Just select the numerator and "1" as denominator in the KPI panel <!--To be checked-->
 
 * **Detect:**
-    * **New detection methods**: detection methods has been revamped and enriched, adding 3 user defined threshold methods to make anomaly detection more flexible. Use cases include for instance flagging any change of more than +-10% vs. same day of week. Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+    * **New detection methods**: detection methods has been revamped and enriched, adding 3 user defined threshold methods to make anomaly detection more flexible. Use cases include for instance flagging any change of more than +-10% vs. same day of week. Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
     * The above feature include also a upgrade of anomaly detection inputs:
         * Ability to increase the confidence interval for anomaly detection in forecast and volatility method up to 99.9% (if you want to avoid having too many alerts sent by Datama detect)
         * The capacity to reduce the number of points for baseline calculation down to 1, which is particularly useful for threshold methods
         * A new input for type of points included in base line, whether it is all points, same day of week, or same hour
 
 * **Prep:**
-    * **Piano analytics connector**: Piano (ex AT Internet) connector is now available - you can get the data from Piano into Datama and analyse it there.[Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html#piano-analytics)
+    * **Piano analytics connector**: Piano (ex AT Internet) connector is now available - you can get the data from Piano into Datama and analyse it there.[Learn More]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/add_source.html#piano-analytics)

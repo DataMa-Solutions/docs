@@ -50,7 +50,7 @@ To add the Datama extension to Qlik Sense Online, follow these steps :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_upload_extension.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/qlik_upload_extension.gif" /></center>
 
 <br/>
 
@@ -68,7 +68,7 @@ Follow these steps to add Datama in your app :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
 
 <br>
 
@@ -99,7 +99,7 @@ Once you've imported the extension, here is how you can use it.
 
 <br/>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_add_dimensions_and_metrics.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/qlik_add_dimensions_and_metrics.gif" /></center>
 
 <br/>
 
@@ -118,19 +118,19 @@ Once you've imported the extension, here is how you can use it.
 - By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom.
 - **In-depth exploration**: Click a step to open the strongest drivers. You can pin the **Table** or **Tree** view, add **custom pillars**, and keep comment / title in sync with the active split.
 
-To discover more about how to read Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
+To discover more about how to read Waterfall, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 
 # 8. Get more insights
 
-Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 

@@ -14,7 +14,7 @@ description: |
 ---
 
 * **Datama prep** 
-  * **Calendar connector** allows to import any ICS file from URL, including Google Calendar. This enables connecting to any calendar, including public calendar like holidays for instance, to enrich you dataset with calendar dimensions. This is a first step in Datama towards ingesting and interpreting events as potential explanation of business changes. [Read more]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html#calendar)
+  * **Calendar connector** allows to import any ICS file from URL, including Google Calendar. This enables connecting to any calendar, including public calendar like holidays for instance, to enrich you dataset with calendar dimensions. This is a first step in Datama towards ingesting and interpreting events as potential explanation of business changes. [Read more]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/add_source.html#calendar)
   * Calculated Fields now include a "CASE()" function (that works like CASE WHEN in SQL) and a "REGEX_CONTAINS" function
 
 * **Datama detect** 

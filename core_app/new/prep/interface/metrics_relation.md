@@ -8,7 +8,7 @@ keywords: full app prep metrics relation metric mr
 
 <br>
 
-> Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html), in order to compute the **KPI you want to explain**.
+> Metric relation describes the equation between metrics of your [source]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html), in order to compute the **KPI you want to explain**.
 
 <br>
 
@@ -62,7 +62,7 @@ Datama goes further with Metric Relation by adding multiple properties to refine
 
 Datama has developed a KPI tree generator that enables you to build your own customized market equation. Click [here](https://dataguillaume.gumroad.com/l/bdlabq) to start your free trial.
 
-[Datama examples]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.
+[Datama examples]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/get_inspired.html) can help you get idea of Metric Relation you may want to build.
 
 
 # 4. AI-Generated Market Equation
@@ -77,7 +77,7 @@ When activated, a AI chat pop-up will appear and the AI will analyze:
    * The column names of your dataset.
    * Any additional context you enter (e.g., currency which is by default in '$', language, rename a step).
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/ai_generated_market_equation.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/prep/interface/images/ai_generated_market_equation.png"/></center>
 
 It then suggests a possible market equation aligned with the provided information in a table.
 You can then iterate with comment to adjust the market equation, names or unit if needed.

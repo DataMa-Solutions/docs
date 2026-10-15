@@ -52,7 +52,7 @@ To add the Datama extension to Qlik Sense Online, follow these steps :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Add_explore_qlik.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Add_explore_qlik.gif" /></center>
 
 <br/>
 
@@ -70,7 +70,7 @@ Follow these steps to add Datama in your app :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
 
 <br>
 
@@ -90,7 +90,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 3. Create your Datama account
 4. Get your Trial extension with no engagement, and no credit card required
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_qlik_explore.html) our different plans.
+See [here]({{site.url}}{{site.baseurl}}/extensions/how-to-use/pricing_plan_qlik_explore.html) our different plans.
 
 <br>
 
@@ -98,25 +98,25 @@ See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_qlik
 
 Once you've imported the extension, you can select and drop dimensions and metrics you want into left setting panel as below:
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Qlik_Intro_Large.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Explore_Qlik_Intro_Large.gif" /></center>
 
 You can also make full use of features by setting up as below Datama Explore:
 
 - **Dimension and second breakdown:** Datama Explore lets you break down every metric in your dataset across any available dimension. You can also drill down dimension-by-dimension: for instance, start by breaking down product sales by Country in D1. If you want to focus on the UK, you can then introduce a second breakdown dimension in D2—such as Channel, Device, or any other available dimension—to refine the analysis.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/seconddimensions.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/seconddimensions.gif" /></center>
 
 - **Second metric:** Datama Explore also supports comparing two KPIs side by side. Simply add a second metric in M2. For example, you can define M1 = Sessions and M2 = ABV to visualize how the two metrics evolve across your chosen dimensions.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/secondmetric.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/secondmetric.gif" /></center>
 
 - **Comparison dimension:** When you set a comparison dimension—e.g., Device—and compare two segments such as Tablet vs. Mobile on the Sessions KPI, Datama Explore automatically builds a comparison dimension. This new dimension aggregates the metric values by the selected segments, including Mobile, Tablet, and any other device category.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Comparisondimension.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Explore_Comparisondimension.gif" /></center>
 
 - **KPI change in Absolute value or Percentage:** For comparisons between segments or between time periods, Datama Explore allows you to show the variations either as absolute differences or as percent changes, depending on the format that best fits your analysis.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Absolute or percentage.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/Absolute or percentage.png" /></center>
 
 
 <br/>
@@ -124,13 +124,13 @@ You can also make full use of features by setting up as below Datama Explore:
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Explore, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html)
+To discover more about how to use Datama Explore, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-explore/introduction.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

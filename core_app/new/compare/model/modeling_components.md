@@ -15,7 +15,7 @@ Clustering is necessary for dimension analysis
 * For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into “other”
 * For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
 
-Read docs related to [continuous dimension]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
+Read docs related to [continuous dimension]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
 
 <br>
 
@@ -26,7 +26,7 @@ When activating the ‘Significance Test’, a simple check is performed to ensu
 You can also use Datama Assess to properly assess the significance of variations.
 
 <div class="info-box">
-  Read more about <a href="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html#233-significance-test">Significance</a>
+  Read more about <a href="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html#233-significance-test">Significance</a>
 </div>
 
 <br>
@@ -49,7 +49,7 @@ The resulting analysis will focus only on the ecommerce segment, but will retain
 
 <div class="info-box">
   <strong>Note</strong>: You can see an example 
-  <a href="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html">here</a>
+  <a href="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_scope.html">here</a>
 </div>
 
 <br>
@@ -63,7 +63,7 @@ For waterfall analysis, covariance is distributed on each step. User should chec
 For Dimension analysis, covariance is not distributed on neither mix nor performance sizing. Hence user should be careful when looking at dimension impact
 
 <div class="info-box">
-  Read more about <a href="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html">Covariance</a>
+  Read more about <a href="{{site.url}}{{site.baseurl}}/core_app/new/compare/model/covariance.html">Covariance</a>
 </div>
 
 

@@ -15,14 +15,14 @@ You can explore the different articles to have an overall explanation of the app
 <br>
 
 
-<div class="info-box"> If you’re new, follow the <a href="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html" target="_blank">quick start</a>. If you know what you’re looking for, jump straight to a solution or a plugin.
+<div class="info-box"> If you’re new, follow the <a href="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html" target="_blank">quick start</a>. If you know what you’re looking for, jump straight to a solution or a plugin.
 </div>
 
 <br>
 
 # 🚀 Quick start
 
-Get productive in minutes with our step-by-step guide:  **[How to start with Datama]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)**
+Get productive in minutes with our step-by-step guide:  **[How to start with Datama]({{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html)**
 
 - What you’ll do: connect data, run your first analysis, read results.
 - Time required: ~10 minutes.
@@ -34,12 +34,12 @@ Get productive in minutes with our step-by-step guide:  **[How to start with Dat
 Jump into the documentation to quickly get up to speed on Datama.
 
 
-- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare.html)
-- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html)
-- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot.html)
-- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess.html)
-- [Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey.html)
-- [Prep]({{site.url}}/{{site.baseurl}}/core_app/new/prep/prep.html)
+- [Compare]({{site.url}}{{site.baseurl}}/core_app/new/compare/compare.html)
+- [Detect]({{site.url}}{{site.baseurl}}/core_app/new/detect/detect.html)
+- [Pivot]({{site.url}}{{site.baseurl}}/core_app/new/pivot/pivot.html)
+- [Assess]({{site.url}}{{site.baseurl}}/core_app/new/assess/assess.html)
+- [Journey]({{site.url}}{{site.baseurl}}/core_app/new/journey/journey.html)
+- [Prep]({{site.url}}{{site.baseurl}}/core_app/new/prep/prep.html)
 
 <br>
 
@@ -47,14 +47,14 @@ Jump into the documentation to quickly get up to speed on Datama.
 
 
 Install the Data Viz Plugin and work directly inside your stack:
-<!-- - [Extensions]({{site.url}}/{{site.baseurl}}/core_app/new/integration/integrations.html) -->
-- [Data Viz Plugin]({{site.url}}/{{site.baseurl}}/extensions/index.html)
-    - [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
-    - [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
-    - [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
-    - [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
-    - [In Google Sheets™]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
-    - [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
+<!-- - [Extensions]({{site.url}}{{site.baseurl}}/core_app/new/integration/integrations.html) -->
+- [Data Viz Plugin]({{site.url}}{{site.baseurl}}/extensions/index.html)
+    - [In LookerStudio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+    - [In Power BI]({{site.url}}{{site.baseurl}}/extensions/how-to-use/power_bi.html)
+    - [In Tableau]({{site.url}}{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
+    - [In Qlik]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik.html)
+    - [In Google Sheets™]({{site.url}}{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
+    - [In Excel]({{site.url}}{{site.baseurl}}/extensions/how-to-use/excel.html)
 <br>
 
 # 🎥 See Datama in action

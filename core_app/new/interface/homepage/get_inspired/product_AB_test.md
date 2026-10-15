@@ -20,4 +20,4 @@ Above is an extract of the data that has been used for this example. You can dow
 
 # 1. In Datama Compare 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_ProductABtest.png "/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_ProductABtest.png "/></center>

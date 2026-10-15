@@ -18,4 +18,4 @@ Une nouvelle version des Extensions Datama est disponible. Six nouveautés pour 
 * **Hierarchical mix** 🪜 : décomposez les effets de mix le long de la hiérarchie, chaque niveau mesuré contre son parent.
 * **Excel Export output** 📤 : écrivez les résultats de la waterfall dans une table Excel à chaque compute, prêts pour vos formules.
 
-📖 En savoir plus sur [Out of scope]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html) · [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html)
+📖 En savoir plus sur [Out of scope]({{site.url}}{{site.baseurl}}/extensions/datama-compare/out-of-scope.html) · [Layer Source]({{site.url}}{{site.baseurl}}/extensions/layer-source.html)

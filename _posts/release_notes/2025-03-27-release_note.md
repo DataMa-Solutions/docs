@@ -27,4 +27,4 @@ description: |
 
 * **Datama Prep** on the Web app
   * **"Table Connect" mode is now available for Redshift** in addition to Snowflake and BigQuery. This means that you can now connect Datama directly to a full table in Snowflake, and let Datama pull the appropriate data for your analysis, depending on your inputs of dates, filters, market equation and clustering settings.
-  * IS_NULL() function has been added to Calculated field in the clean block. List of available functions are available [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html)
+  * IS_NULL() function has been added to Calculated field in the clean block. List of available functions are available [here]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/calculated_fields.html)

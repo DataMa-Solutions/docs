@@ -8,7 +8,7 @@ keywords: light compare out of scope perimeter new discontinued like-for-like sc
 
 <br/>
 
-> Related: [Settings › Dimensions]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#33-out-of-scope-segments) · [Covariance]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html) · [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html)
+> Related: [Settings › Dimensions]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#33-out-of-scope-segments) · [Covariance]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/covariance.html) · [What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html)
 
 <br/>
 
@@ -85,5 +85,5 @@ Without the block, the closure of Canada shows up as a false price drop of −12
 # Tips
 
 * Choose the **finest dimension at which openings / closures happen** (store, SKU, country), not a grouping level.
-* Combine with **Cascade mix effects along the hierarchy** ([Settings › Dimensions]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierarchy)): the cascade then runs on the comparable perimeter.
+* Combine with **Cascade mix effects along the hierarchy** ([Settings › Dimensions]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierarchy)): the cascade then runs on the comparable perimeter.
 * There is no materiality threshold: a segment is out of scope only when it is strictly absent on one side.

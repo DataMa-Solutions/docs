@@ -17,7 +17,7 @@ keywords: full app subheader sub header metrics relation mr metric
 You can see the your market equation at the top of your workbook. To modify it, you can click on "Setting" at top right, then "KPI & market equation", or return to Datama Prep. 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/accessmarketequation.gif"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/images/accessmarketequation.gif"/></center>
 
 <br/>
 
@@ -35,7 +35,7 @@ To re-include a step, click on "KPI & market equation" to access all the steps f
 
 Using metrics relation allows you to change your market equation, add a unit, rename your step or even indicate a threshold, exclude or focus on a dimension.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/metrics_relation.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/images/metrics_relation.png"/></center>
 
 
 <br>
@@ -45,19 +45,19 @@ Using metrics relation allows you to change your market equation, add a unit, re
 By default Datama create a product of ratio (prod) with all the steps defined in the metrics relation.
 But you can change it with "sum" to add each steps. e.g: <span style="color:red">Revenue = Revenue_France/1 + Revenue_UK/1 + Revenue_US/1) </span>.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/sum_equation.gif"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/images/sum_equation.gif"/></center>
 
 When customising your metrics relation you should write it as below using each step between brackets (e.g. [1]) :
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/custom_metricsRel.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/images/custom_metricsRel.jpg"/></center>
 When modifying a market equation make sure your calculation is still correct. In your dataset your market equation of a specific row should be equal to the last column of your dataset (only for default market equation).
 
-<center><img le="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/equal.png"/></center>
+<center><img le="width:30%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/images/equal.png"/></center>
 
 <br>
 
 # 4. What's mathematically a market equation
 
-Metric relation describes the equation between metrics of your [source]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html), in order to compute the **KPI you want to explain**.
+Metric relation describes the equation between metrics of your [source]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html), in order to compute the **KPI you want to explain**.
 
 At Datama, we call it the « Market Equation ». Find more information on how to create a metric relation in our [article](https://datama.io/how-to-build-my-business-metric-relation/).
 

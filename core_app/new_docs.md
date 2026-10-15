@@ -15,18 +15,18 @@ This documentation provides both practical and theoretical insights into Datama 
 
 <br/>
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/images/new_version.png" alt="New version" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/core_app/new/images/new_version.png" alt="New version" /></center>
 
 <br/>
 
 We are excited to introduce the latest version of Datama, accessible at: <a href="https://app.datama.io/" target="_blank">app.datama.io</a>.
 
-Stay updated on our monthly release by visiting [the release note]({{site.url}}/{{site.baseurl}}/release)
+Stay updated on our monthly release by visiting [the release note]({{site.url}}{{site.baseurl}}/release)
 This documentation is continuously evolving, so feel free to reach out if you have any unanswered questions.
 
 <br/>
 
-If you are still using the old version of Datama, follow this [link]({{site.url}}/{{site.baseurl}}//core_app/old_docs).
+If you are still using the old version of Datama, follow this [link]({{site.url}}{{site.baseurl}}//core_app/old_docs).
 
 <br/>
 

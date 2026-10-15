@@ -41,7 +41,7 @@ keywords: full app detect settings
 
 <br> -->
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_settings.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_settings.png">
 
 
 <br>
@@ -97,12 +97,12 @@ Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_ap
 ## 2.2 Use smart interval
 
 Smart Interval calculates a theoretical confidence interval instead of an observed interval.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html#121-smart-interval) to learn more.
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html#121-smart-interval) to learn more.
 
 <!-- ## 2.2 Threshold value
 
 Threshold is used by some anomaly detection methods to define the cutoff between anomalies and normal points. The threshold will be considered as % or absolute value depending on the method.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more -->
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more -->
 
 <br>
 
@@ -110,10 +110,10 @@ Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_a
 
 A confidence interval is a range of values that is likely to contain an unknown population parameter. If you draw a random sample many times, a certain percentage of the confidence intervals will contain the population mean. This percentage is the confidence level.
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/ConfidenceIntervall-Concept.jpg"/></center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/ConfidenceIntervall-Concept.jpg"/></center>
 
 By changing the confidence interval you can modify the precision expected from the significance.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 <br>
 
@@ -125,14 +125,14 @@ This allows you to define which type of points (when it's higher or lower than t
 ## 2.5 Points included in baseline
 
 This allows you to define which type of points (same day, same hour etc) in your historical data the algoritm will consider for baseline.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 <br>
 
 ## 2.6 Number of points in baseline
 
 This allows you to define how many points within the defined type of points in your historical data the algoritm will consider for baseline.
-Please refer to the [detection method page]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
+Please refer to the [detection method page]({{site.url}}{{site.baseurl}}/core_app/new/detect/detection_method.html) to learn more
 
 <br>
 ## 2.6 Aggregate small samples

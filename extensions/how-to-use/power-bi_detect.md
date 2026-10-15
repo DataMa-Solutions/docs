@@ -61,10 +61,10 @@ Follow one or the other steps to install the Datama plugin:
 
     4. You can also download the detect extension on Datama,then add it to powerBI as below:
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/download_detect_powerBI.png" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/download_detect_powerBI.png" align="center" width="650px" />
 
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/add_detect_powerBI.gif" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/add_detect_powerBI.gif" align="center" width="650px" />
 
 <br/>
 
@@ -74,7 +74,7 @@ Follow one or the other steps to install the Datama plugin:
     3. Choose the Datama visual from the list provided on your account on app.datama.io
     4. The visual will now appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
 <br/>
 
 
@@ -95,7 +95,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 3. Create your Datama account
 4. Get your Trial extension with no engagement, and no credit card required
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
+See [here]({{site.url}}{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
 <br>
 
@@ -119,13 +119,13 @@ Once you've imported the extension, here is how you can use it.
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html)
+To discover more about how to use Datama Detect, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-detect/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

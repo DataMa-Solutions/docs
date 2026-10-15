@@ -22,7 +22,7 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingComparisonCampaign.jpg "/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_MarketingComparisonCampaign.jpg "/></center>
 
 <br>
 
@@ -30,10 +30,10 @@ This use case is a basic example of conversion funnel used for an email campaign
 
 Datama Pivot wil help to explain the importance of the dimension and help you focus on the characteristic that should be taking into account to understand your campaign performance. 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_pivot_MarketingCampaign.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_pivot_MarketingCampaign.jpg"/></center>
 
 <br>
 
 The 2 other Marketing examples represent specific features available in our Datama Compare solution (clustering of continuous dimension, and the ability to put some of the data aside – scope in / scope out):
-* [Marketing Campaign – Continuous dimension]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_continuous.html)
-* [Marketing Campaign – Scope]({{site.url}}/{{site.baseurl}}/home/use_cases/marketing_scope.html)
+* [Marketing Campaign – Continuous dimension]({{site.url}}{{site.baseurl}}/home/use_cases/marketing_continuous.html)
+* [Marketing Campaign – Scope]({{site.url}}{{site.baseurl}}/home/use_cases/marketing_scope.html)

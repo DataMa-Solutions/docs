@@ -18,7 +18,7 @@ description: |
   * According to your "analysis depth" setting, **Datama highlights the events with the highest interest scores at the end of the Datama Compare comments section**.
   * Optionally, you can choose to display the interest score directly in the comments using the toggle in Calendar settings.
   * Additionally, in the web app, you can enable AI-enhanced comments to qualitatively assess the connection between events and numbers. The interest score is passed to your selected LLM to help determine which events are most relevant to surface.
-  [Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/calendar/Calendar_interest.html)
+  [Learn More]({{site.url}}{{site.baseurl}}/core_app/new/calendar/Calendar_interest.html)
 
 * **Web app**
   * Table connect (in particular BigQuery connector) now supports Date Time columns

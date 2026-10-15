@@ -20,4 +20,4 @@ The redesigned Compare is now rolling out in **marketplace extensions** (Power B
 
 👉 Open Compare in your favorite BI tool and feel the difference. Same serverless security, **far more power** at your fingertips.
 
-📖 [Explore all new features]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html)
+📖 [Explore all new features]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html)

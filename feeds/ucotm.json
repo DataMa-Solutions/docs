@@ -9,10 +9,10 @@
     {% endif %}
     "title": {{ post.title | jsonify }},
     "date": "{{ post.date }}",
-    "url": "{{ site.url }}/{{ site.baseurl }}{{ post.url }}",
+    "url": "{{ site.url }}{{ site.baseurl }}{{ post.url }}",
     "description": {{ post.content | jsonify }},
     "ucotm_url": "{{ post.ucotm_url }}",
-    "img": "{{ site.url }}/{{ site.baseurl }}{{ post.img_url }}",
+    "img": "{{ site.url }}{{ site.baseurl }}{{ post.img_url }}",
     "img_type": "{{ post.img_type }}",
     "img_height": "{{ post.img_height }}",
     "img_width": "{{ post.img_width }}",

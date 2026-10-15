@@ -14,6 +14,6 @@ In this use case, the data is coming from Google Analytics, and we are checking 
 
 Access to the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=33769454)
 
-## In Datama Detect (learn more about [Datama Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect.html))
+## In Datama Detect (learn more about [Datama Detect]({{site.url}}{{site.baseurl}}/core_app/new/detect/detect.html))
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_AnomalyDetection.gif"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/images/Example_AnomalyDetection.gif"/></center>

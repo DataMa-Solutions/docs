@@ -13,7 +13,7 @@ permalink: /core_app/new/interface/header/header.html
 
 <br>
 
-<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
+<center><img style="width:100%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
 <br/>
 
@@ -25,7 +25,7 @@ The header groups cross-workbook actions:
 - help and search;
 - shortcuts (presentation, recompute, scheduling/sharing).
 
-For details about each menu and button, see: [Header details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/solutions_header.html).
+For details about each menu and button, see: [Header details]({{site.url}}{{site.baseurl}}/core_app/new/interface/header/solutions_header.html).
 
 <br>
 
@@ -36,7 +36,7 @@ The subheader adapts settings to your analysis:
 - filters and metric relations;
 - settings and key indicators.
 
-Explore all options here: [Subheader details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html).
+Explore all options here: [Subheader details]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/subheader.html).
 
 <br>
 

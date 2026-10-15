@@ -15,11 +15,11 @@ keywords: full app integration embed embedded add-on addons addon tableau Tablea
 Datama helps you do the job of an advanced data analyst faster, in Tableau.
 It's particularly helpful for marketing analysis, such has gap/ root cause analysis.
 Using this extension you will have access to
-* Waterfall analysis using [Datama Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare)
-* Significance analysis using [Datama Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/assess)
-* Driver analysis using [Datama Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot)
-* Anomaly detection [Datama Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/detect)
-* Journey and process mining [Datama Journey]({{site.url}}/{{site.baseurl}}/core_app/new/journey/journey)
+* Waterfall analysis using [Datama Compare]({{site.url}}{{site.baseurl}}/core_app/new/compare/compare)
+* Significance analysis using [Datama Assess]({{site.url}}{{site.baseurl}}/core_app/new/assess/assess)
+* Driver analysis using [Datama Pivot]({{site.url}}{{site.baseurl}}/core_app/new/pivot/pivot)
+* Anomaly detection [Datama Detect]({{site.url}}{{site.baseurl}}/core_app/new/detect/detect)
+* Journey and process mining [Datama Journey]({{site.url}}{{site.baseurl}}/core_app/new/journey/journey)
 
 Below is a step by step on how to get it working in tableau
 
@@ -35,16 +35,16 @@ Typically a source for Datama will have
   - The dimension you want to compare on should come first
   - Note: By default, Datama will compare the last 2 values for discrete dimensions or split in two the dates dimensions. Makes sure to leverage Tableau parameters or filters to get the right comparison.
 * A set of metrics in columns
-  - Datama sets up a [relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
+  - Datama sets up a [relation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) (product of ratio) among metrics by default. Ensure they're in a "funnel" sequence.
   - Since Tableau provides metrics to Datama in alphabetical order (and not the displayed order), adding a "1_..", "2_.." in the naming of your metrics should help to get the dimensions in the right order. 
 
 Here is an example of a source from The SuperStore default dataset of Tableau.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/tableau_source.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/tableau_source.png"/></center>
 
 <br>
 
-Please refer to the full documentation to learn more about [sources]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
+Please refer to the full documentation to learn more about [sources]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html)
 
 <br>
 
@@ -57,7 +57,7 @@ Please refer to the full documentation to learn more about [sources]({{site.url}
 
 Here is an example of a source from the same dataset as above.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/tableau_dashboard.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/tableau_dashboard.png"/></center>
 
 <br>
 
@@ -74,7 +74,7 @@ Here is an example of a source from the same dataset as above.
 ## If you are a Datama Client
 
 * Enter your licence key by clicking on the appropriate link (or top right corner "..." then "Configure"). Your licence key is available on [Datama Platform](https://app.datama.io) under "Security" page on the home page. Ask your customer success manager if you don't see a licence key here.
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/licence_key_tableau.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/licence_key_tableau.png"/></center>
 * Set up additional settings if need be: if default settings doesn't suit your use case (e.g. you have a custom market equation or you want to refine model settings), you can refine those settings as for any other Datama use case    
     * Click on the top right "..." and then "Configure" and give a name to your workbook
     * At the bottom of the page, click "open in full app" (Note: by doing so, you will save a new workbook on your account under the "From Extension" file)
@@ -82,7 +82,7 @@ Here is an example of a source from the same dataset as above.
     * Define your advanced settings in the workbook as you like
     * Save the workbook 💾
     * Click "Exit full app" at the bottom right of the screen to return to the simplified screen 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/open_full_app.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/open_full_app.png"/></center>
 
 <br>
 
@@ -91,4 +91,4 @@ Here is an example of a source from the same dataset as above.
 You can then upload publish your Dashboard embedding Datama in Tableau Server or Tableau online so that anyone in your organisation can access Datama's insights.
 Just make sure that the Tableau admin authorize Datama's extension to be published on your organisation. 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/integration/images/Tableau_gif.gif"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/integration/images/Tableau_gif.gif"/></center>

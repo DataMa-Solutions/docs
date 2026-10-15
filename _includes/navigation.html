@@ -17,14 +17,14 @@
 
 <aside id="menu">
     <header>
-        <a  href="{{site.url}}/{{site.baseurl}}/" title="Go to home page of documentation"><img src="{{site.url}}/{{site.baseurl}}/assets/images/Logo_SimpleDatama.svg"></a>
-        <a href="{{site.url}}/{{site.baseurl}}/search.html" class="search" title="Go to search page"><i class="fas fa-search"></i></a>
+        <a  href="{{site.url}}{{site.baseurl}}/" title="Go to home page of documentation"><img src="{{site.url}}{{site.baseurl}}/assets/images/Logo_SimpleDatama.svg"></a>
+        <a href="{{site.url}}{{site.baseurl}}/search.html" class="search" title="Go to search page"><i class="fas fa-search"></i></a>
         <a href="#" id="burger" class="burger" title="Collapse/Expand sidebar"><i class="fas fa-bars"></i></a>
     </header>
     {% if include.search == 1 %}
     <main>
         <div class="search-group">
-            <form action="{{site.url}}/{{site.baseurl}}/search.html" method="get">
+            <form action="{{site.url}}{{site.baseurl}}/search.html" method="get">
                 <input type="text" id="search-input-aside" name="q" class="search-bar" placeholder="Search...">
             </form>
         </div>
@@ -39,10 +39,10 @@
                 <h3>Links</h3>
             </li>
             <li>
-                <a href="https://Datama.fr" title="Website"> <img src="{{site.url}}/{{site.baseurl}}/assets/images/aside/D_SimpleDatama.svg" style="width: 24px; height: 24px;margin-right: 6px;">Website</a>
+                <a href="https://Datama.fr" title="Website"> <img src="{{site.url}}{{site.baseurl}}/assets/images/aside/D_SimpleDatama.svg" style="width: 24px; height: 24px;margin-right: 6px;">Website</a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/company/11195323" title="LinkedIn"> <img src="{{site.url}}/{{site.baseurl}}/assets/images/aside/logo-linkedin.png">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/11195323" title="LinkedIn"> <img src="{{site.url}}{{site.baseurl}}/assets/images/aside/logo-linkedin.png">LinkedIn</a>
             </li>
         </ul>
     </nav>

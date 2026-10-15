@@ -25,22 +25,22 @@ By reading the columns from left to right, we detect which is the last column to
 
 <br>
 
-The first dimension will be used as a [comparison dimension.]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
+The first dimension will be used as a [comparison dimension.]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
 
 <br>
 
 Learn more on this by reading details on: 
-- [Metrics Relation]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html)
-- [Unit]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/unit.html)
-- [Threshold]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/threshold.html)
-- [Focused and excluded dimensions]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/focusExcluded_dimensions.html)
+- [Metrics Relation]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/metrics_relation.html)
+- [Unit]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/unit.html)
+- [Threshold]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/threshold.html)
+- [Focused and excluded dimensions]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/focusExcluded_dimensions.html)
 
 <br>
 
-<center><img style="width:60%" src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/images/prep_blockOutput.png"/></center>
+<center><img style="width:60%" src="{{site.url}}{{site.baseurl}}/core_app/new/prep/interface/images/prep_blockOutput.png"/></center>
 
 
 
 <br>
 
-Find [here]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions
+Find [here]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html) how you need to format your dataset for Datama solutions

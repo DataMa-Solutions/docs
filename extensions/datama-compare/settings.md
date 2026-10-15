@@ -12,13 +12,13 @@ keywords: light compare settings waterfall v4 plotter
 
 <br/>
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Settings_waterfall.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Settings_waterfall.gif"/></center>
 
 # Overview
 
 Settings open from the top right of the widget (the panel starts **collapsed** on Compare so the chart has more space). Use the **icon rail** at the top of the panel to jump between scopes, and the sticky **search** bar to find a control quickly.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/0_Comparison_settings.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/0_Comparison_settings.png"/></center>
 
 Various sub-menus are available:
 
@@ -28,7 +28,7 @@ Various sub-menus are available:
 | **Modeling** | After **Apply** | Analysis method, comment depth, mix & perf, covariance, language |
 | **Dimensions** | After **Apply** | Hierarchy (incl. cascade mix), clustering, out of scope segments |
 | **Market Equation** | After **Apply** | KPI definition, card editor, sub-steps, units |
-| **What If** | After **Apply** | Scenario simulation (baseline + KPI impacts), see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
+| **What If** | After **Apply** | Scenario simulation (baseline + KPI impacts), see [What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Events** | After **Apply** | Calendar |
 | **Chart** | Live | Preset, Views, Slide title, Chart title, Comment, General, Axis, Legends |
 | **Colors** | Live | Palette (semantic + chart) and Theme (application) |
@@ -60,29 +60,29 @@ Choose the scope of your comparison and optionally add a second comparison.
 
 Defining what you want to compare is the first step of the analysis. In the waterfall, you can either compare dates (start period vs. end period) or compare segments from any dimension. For example:
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/1_Comparison_settings.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/1_Comparison_settings.png"/></center>
 
-You can start your comparison as suggested below. For a quick step‑by‑step demo, see: [Looker Studio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio_compare.html), [Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau-viz_compare.html), [Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power-bi_compare.html), [Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik_compare.html).
+You can start your comparison as suggested below. For a quick step‑by‑step demo, see: [Looker Studio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio_compare.html), [Tableau]({{site.url}}{{site.baseurl}}/extensions/how-to-use/tableau-viz_compare.html), [Power BI]({{site.url}}{{site.baseurl}}/extensions/how-to-use/power-bi_compare.html), [Qlik]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik_compare.html).
 
 * First, add Datama Light Compare into your platform. See the example in Looker Studio:
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Add_compare_extension.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Add_compare_extension.gif"/></center>
 
 * Second, add the dimension(s) and metric(s) used by Datama Compare. For example, to compare the "Sessions" metric between "This Year" and "Last Year" (segments of the "Period" dimension):
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Adddimensionandmetric.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Adddimensionandmetric.gif"/></center>
 
 * Third, in **Comparison** settings, you can choose any other dimension available in your visualization tool’s "Dimension" field as the comparison dimension.
 
 If a dimension includes more than two segments, e.g. "Country", start by adding "Country" and the metric (e.g. "Sessions"), then select the two segments you want to compare (e.g. UK vs. Spain).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/change_segment_country.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/change_segment_country.gif"/></center>
 
 You can also add more metrics to visualize the variation across different KPIs. Add the metrics in an order that follows the logic used by Datama Compare:
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Metrics_order.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/Metrics_order.png"/></center>
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/add_funnel.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/add_funnel.gif"/></center>
 
 {% include embed_totw.html num=176 %}
 
@@ -90,7 +90,7 @@ You can also add more metrics to visualize the variation across different KPIs. 
 
 Add a second comparison to display another waterfall focused on another scope. For example, while comparing USA vs. UK, you can also add a Mobile vs. Tablet comparison within the "Device" dimension.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/1_Comparison_settings_secondary_comparison.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/1_Comparison_settings_secondary_comparison.png"/></center>
 
 Then choose how to display this second waterfall: "On right", "Above", or "Overlay". You can also do this from the chart context menu (**Compare › Secondary comparison**) or from **Chart › General > Secondary Comparison**.
 
@@ -112,7 +112,7 @@ Control which reference the dynamic comparison uses (apply only if the indice to
 
 # 2. Modeling
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/2_Modeling_settings.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/2_Modeling_settings.png"/></center>
 
 
 ## 2.1. Analysis method
@@ -160,7 +160,7 @@ Control how the mix effect is attributed. Default is "Never". Select "Auto" to l
 
 ## 2.4. Covariance
 
-Covariance is the share of the gap that no single step explains alone. Background: [Covariance concept]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html).
+Covariance is the share of the gap that no single step explains alone. Background: [Covariance concept]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/covariance.html).
 
 Under **Modeling › Covariance**:
 
@@ -188,7 +188,7 @@ Contact us if you need additional languages.
 A feature in Datama that allows you to organise your dimensions when there are dependencies between some of them.
 Example: you have various geographical dimensions (Country, Region, City); you may wish to explore the data by drilling down from the broadest dimension to the narrowest.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/3_1_Dimensions_settings_hierarchy.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/3_1_Dimensions_settings_hierarchy.png"/></center>
 
 Another one, is the product category wich can be split in various level, for instance Universe, Family, Subfamily, Product.
 By creating this hierarchy of dimensions, Datama will, by default, display the most relevant of the level 0 dimensions (e.g. in our two previous examples, these would be ‘Country’ and ‘Univers’), after which you can access dimensions at other levels by drilling down or filtering those elements. 
@@ -211,7 +211,7 @@ Mix effects of one hierarchy then **add up** (*Zone Mix + Country Mix within Zon
 
 ## 3.2. Clustering with the aggregation in %
 
-<center><img style="align: right; width: 400px;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings_agg2percent.jpg"/></center>
+<center><img style="align: right; width: 400px;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/settings/images/settings_agg2percent.jpg"/></center>
 
 Sets the model’s aggregation level. If set to X%, segments within a dimension that represent less than X% of the "Primary Numerator" (e.g. Revenue) are grouped into an "Other" segment. Default is 2%. This parameter can significantly impact the computed mix effects.
 The "Primary Numerator" can be customized just bellow on the line 'KPI'.
@@ -237,13 +237,13 @@ Take the segments that exist on **one side of the comparison only** (openings, c
 | **Scope label** | Custom name of the bar (default *Out of scope*) |
 | **Add comparable pillar** | Adds a *Comparable {Start}* pillar after the block (default on) |
 
-Full explanation and example: [Out of scope segments]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html).
+Full explanation and example: [Out of scope segments]({{site.url}}{{site.baseurl}}/extensions/datama-compare/out-of-scope.html).
 
 # 4. Market Equation
 
 Edit the KPI definition and market equation so the analysis matches your business logic.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/4_Market_equation_settings.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/4_Market_equation_settings.png"/></center>
 
 Market relation defines how metrics from your datasource combine to compute the KPI you want to explain. Steps are edited as an indented **card outline**: rename steps, set units, focus / exclude dimensions, emoji, and nest **sub-steps**.
 
@@ -251,21 +251,21 @@ The Market Equation layout is compact to fit the settings rail, expand the panel
 
 - By default, Datama uses a product of ratios (prod) across all steps in the market equation. You can switch to a "sum" when your KPI is additive (e.g. Revenue = Revenue_France + Revenue_UK + Revenue_US).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/sum_marketequation.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/sum_marketequation.gif"/></center>
 
 - Changing the unit to '%' multiplies values by 100 and displays percentages. Selecting a currency unit displays values with the chosen currency symbol.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Marketequation_unit.gif"/></center>
 
 - Hover a card → **Edit this step** (detail panel: formula, optional focus / exclude, emoji), **Add a sub-step**, indent / outdent / reorder.
 - An emoji on a step is shown on Tree cards.
-- Full guide: [Market equation Sub-steps]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) (including **Split by › Sub-steps** on the waterfall). Do not confuse with [Sub-pillars]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html#22-sub-pillars).
+- Full guide: [Market equation Sub-steps]({{site.url}}{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) (including **Split by › Sub-steps** on the waterfall). Do not confuse with [Sub-pillars]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html#22-sub-pillars).
 
 ### Covariance (per step)
 
 When **Separate covariance** is off under [Modeling › Covariance](#24-covariance), each step can define how it absorbs the residual gap. Open **Edit this step** on a card: at the bottom of the detail panel, set **Covariance** to **Auto**, **Always**, or **Never**. This per-step control is hidden while Separate covariance is active.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Covariance_settings.png" alt="Per-step Covariance setting in the Market Equation detail panel" /></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/Covariance_settings.png" alt="Per-step Covariance setting in the Market Equation detail panel" /></center>
 
 <br/>
 
@@ -275,7 +275,7 @@ Attach one or various **Calendar** so relevant events enrich the waterfall comme
 
 
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/5_Events_settings.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/5_Events_settings.png"/></center>
 
 Enable Calendar with the following
 
@@ -306,7 +306,7 @@ The Chart scope is split into eight groups:
 | **Axis** | Baseline, comparison scales, scale padding, hierarchy lines |
 | **Legends** | Legend visibility and position |
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_Charts_settings.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_Charts_settings.png"/></center>
 
 <br/>
 
@@ -314,7 +314,7 @@ The Chart scope is split into eight groups:
 
 Apply a ready-made **style preset** to align the chart look with a presentation style in one click (colors, typography, comment layout).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_1_Preset.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_1_Preset.png"/></center>
 
 Under **Style preset**, open the **Preset** dropdown and choose one of:
 
@@ -336,7 +336,7 @@ A short description under the dropdown summarizes the selected preset (identity,
 
 Compare is a **multi-view workspace**: several surfaces can stay visible at once (not tab-only).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_2_Charts_settings_views.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_2_Charts_settings_views.png"/></center>
 
 **Layout preview** shows the active panes. Drag edges to resize column spans; use **×** to unpin a view.
 
@@ -359,7 +359,7 @@ Legacy Preferences toggles for hide title / plot / comment migrate automatically
 
 Controls typography for the **smart title** and **subtitle** of the slide.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_3_Charts_settings_slide_title.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_3_Charts_settings_slide_title.png"/></center>
 
 For **Title** and **Subtitle** independently:
 
@@ -377,7 +377,7 @@ For **Title** and **Subtitle** independently:
 
 Plot-level **Chart title** styling (the smart title attached to the chart surface).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_4_Charts_settings_chart_title.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_4_Charts_settings_chart_title.png"/></center>
 
 | Option | Description |
 |:---|:---|
@@ -395,7 +395,7 @@ Plot-level **Chart title** styling (the smart title attached to the chart surfac
 
 Typography and visibility for the **Comment** pane (when pinned in Views).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_5_Charts_settings_comment.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_5_Charts_settings_comment.png"/></center>
 
 Under **Style**:
 
@@ -411,7 +411,7 @@ Under **Style**:
 
 Comment content still follows drill-down / Split by; these options only change how it looks.
 
-> The comment pane position (**below**, **left**, **right** or **hidden**) and these text options can also be set by the [Datama AI skill]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment).
+> The comment pane position (**below**, **left**, **right** or **hidden**) and these text options can also be set by the [Datama AI skill]({{site.url}}{{site.baseurl}}/extensions/skills/use.html#5-adjust-the-look-and-the-comment).
 
 <br/>
 
@@ -419,7 +419,7 @@ Comment content still follows drill-down / Split by; these options only change h
 
 General groups plot chrome, interaction behaviors, Compare defaults, and Tree exploration.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_6_Charts_settings_general.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_6_Charts_settings_general.png"/></center>
 
 ### 6.6.1. Plot
 
@@ -459,7 +459,7 @@ More Tree card options live under the dedicated **Tree** settings scope.
 
 Axis settings control the baseline reference line, shared scales for secondary comparison, scale padding, hierarchy lines, and hierarchy label layout.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_7_Charts_settings_axis.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_7_Charts_settings_axis.png"/></center>
 
 ### 6.7.1. Baseline
 
@@ -515,7 +515,7 @@ Layout of multi-depth labels on the dedicated hierarchy axis rows:
 
 Show or hide the chart legend and choose where it sits.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/6_8_Charts_settings_legends.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/6_8_Charts_settings_legends.png"/></center>
 
 | Option | Description |
 |:---|:---|
@@ -541,7 +541,7 @@ Two groups are available:
 
 Choose the chart color scheme and preview how accents map to waterfall elements.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/7_1_Color_settings_palette.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/7_1_Color_settings_palette.png"/></center>
 
 | Option | Description |
 |:---|:---|
@@ -574,7 +574,7 @@ Click a swatch to edit that color. Palette updates preview immediately on the wa
 
 Customize the **Application** chrome colors of the widget (outside the plot itself).
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/7_2_Color_settings_theme.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/7_2_Color_settings_theme.png"/></center>
 
 | Token | Role |
 |:---|:---|
@@ -602,7 +602,7 @@ The **Cards** section controls how each node is drawn in the Tree view. It is sp
 - **Style**: visual appearance of the cards (shape, border, strokes)
 - **Content**: customize each text shown on the card (display, size, color)
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/8_1_Tree_settings_cards.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/8_1_Tree_settings_cards.png"/></center>
 
 ### Style
 
@@ -640,7 +640,7 @@ Scroll further in **Content** to configure the other texts on the card the same 
 
 ## 8.2. Tree operators
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/8_2_Tree_settings_operators.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/8_2_Tree_settings_operators.png"/></center>
 
 Define the decoration mode for the cards.
 
@@ -653,7 +653,7 @@ Waterfall visual options are grouped under **Labels** and **Elements**. Most opt
 
 ## 9.1. Labels
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/9_1_Waterfall_settings_labels.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/9_1_Waterfall_settings_labels.png"/></center>
 
 Labels are split into **Values** and **Top line**, with full typography controls (size, color + semantic, weight, family, position).
 
@@ -675,13 +675,13 @@ Display formats per label:
 | Hover only | Show values only on mouse hover |
 | Hide | Hide the element completely |
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/SettingsLabelIndicator.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/SettingsLabelIndicator.png"/></center>
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/label.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/label.png"/></center>
 
 ## 9.2. Elements
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/9_2_Waterfall_settings_elements.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/9_2_Waterfall_settings_elements.png"/></center>
 
 Elements regroup **Bars**, **Links**, and **Pillars**.
 
@@ -709,7 +709,7 @@ Insert synthetic **net checkpoints** on the waterfall (e.g. “After mix”).
 
 Native hierarchical **table** layer: the same tree as the chart, as numbers. Pin it from **Chart › Views**.
 
-<center><img style="align: right; width: 800px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/10_Table_settings.png"/></center>
+<center><img style="align: right; width: 800px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/10_Table_settings.png"/></center>
 
 | Feature | Description |
 |:---|:---|
@@ -729,7 +729,7 @@ The table follows chart visibility (Top N / open branches).
 
 Right-click a **bar**, a **value label**, or a **top-line label** to open the context menu. The same actions are available from all three targets.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/11_Context_menu.png"/></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/11_Context_menu.png"/></center>
 
 | Action | Definition |
 |:---|:---|
@@ -737,7 +737,7 @@ Right-click a **bar**, a **value label**, or a **top-line label** to open the co
 | **Displayed value** | Choose how values are shown on the chart (impact, volume, %, etc.) |
 | **Split by…** | Change the dimension used to explain the selected step or segment, includes **Sub-steps** on composite market-equation steps |
 | **Regroup remaining** | Collapse an expanded **Remaining** group back into one bar |
-| **What If** | Create / open a scenario from the selected bar (baseline and scope prefilled), see [What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
+| **What If** | Create / open a scenario from the selected bar (baseline and scope prefilled), see [What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html) |
 | **Connectors** | Show or hide the links between waterfall steps, with styling options in the submenu |
 | **Add event** | Create a calendar event from the selected bar / period |
 | **Hide event** | Hide calendar events related to the current selection |
@@ -753,7 +753,7 @@ Right-click a **bar**, a **value label**, or a **top-line label** to open the co
 
 A shortcut bar appears when you hover the chart and stays out of the way otherwise. It gives quick access to the most common display actions without opening the settings panel.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/11_Shortcuts_on_hover.png"/></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/11_Shortcuts_on_hover.png"/></center>
 
 From left to right:
 
@@ -774,10 +774,10 @@ From left to right:
 
 > **Looker Studio (premium users)**: once you customize your chart, click the **Save** button at the top right, then paste the JSON automatically copied to your clipboard into the Config JSON field in the style panel. Otherwise, your settings will be lost when you refresh the BI report.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/save_json_compare.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/save_json_compare.png"/></center>
 
 <br/>
 
-Get more information about the extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/structure.html) or [theoretical concepts]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html) of Datama.
+Get more information about the extension [interface]({{site.url}}{{site.baseurl}}/extensions/datama-compare/structure.html) or [theoretical concepts]({{site.url}}{{site.baseurl}}/extensions/datama-compare/concept.html) of Datama.
 
 <br>

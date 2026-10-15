@@ -67,6 +67,6 @@ Out of Edit mode, the extension displays only the spreadsheet result, without to
 
 <br>
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/structure.html) and [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/concept.html).
+Get more information about extension [interface]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/structure.html) and [concept]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/concept.html).
 
 <br>

@@ -31,7 +31,7 @@ app_notif: |
     * Pinned workbooks can now be seen first on your homepage. Just click on the ⭐ next to the workbook name to set as favorite.
 
 * **Extensions:**
-    * [Beta 🧪] **Marketplace Extension** (aka 'Datama Light'): Compare waterfall is now available in preview in serverless, full front version. This means that the dynamic waterfall can work in your browser or favorite extension tool without sending data to Datama remote servers. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/index.html)
+    * [Beta 🧪] **Marketplace Extension** (aka 'Datama Light'): Compare waterfall is now available in preview in serverless, full front version. This means that the dynamic waterfall can work in your browser or favorite extension tool without sending data to Datama remote servers. [Learn more]({{site.url}}{{site.baseurl}}/extensions/index.html)
       Key benefits are:
         * **Security**: Your data remains on your machine and is not sent to Datama. While our servers are fully secured and reliable, this additional possibility open the door to perform Datama analysis on sensitive data that should not leave your organization.
         * **Performance**: Used as an extension on small datasets provided by data vizualisation tools, the Compare analysis is performed literally instantly, with almost no computing time. Just drag and drop the metrics and dimensions you want to analyse and you get an immediate result
@@ -44,7 +44,7 @@ app_notif: |
 
 * **Detect:**
     * **Display Main KPI trend**: When looking for anomalies on all steps of your market equation, Datama displays in dotted lines the trend of the resulting main KPI of your market equation. In case of anomaly on one of those steps, the anomaly message also gives you a glimpse of the impact on the main KPI. This allows to understand quickly whether or not a anomaly on a sub-PI as an actual impact on the main KPI which is the one that matters for your business.
-      This feature is enabled by default, but you can deactivate it in the settings with the "Compute Main KPI" toggle, decide not to display it on the main chart with the "f" icon on the top right corner. [Learn more]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html#display-Main-KPI-impact)
+      This feature is enabled by default, but you can deactivate it in the settings with the "Compute Main KPI" toggle, decide not to display it on the main chart with the "f" icon on the top right corner. [Learn more]({{site.url}}{{site.baseurl}}/core_app/new/detect/settings.html#display-Main-KPI-impact)
     * Display denominator: On the main chart of anomaly detection, a bar chart 📊 icon on the top right corner allows you to display instantly the denominator of a KPI that is a ratio. This allows to get a sense of where potential anomalies come, for instance on a website, if you see average conversion rate anomaly driven by a sudden increase of unqualified traffic (session, which is the denominator of conversion rate)
 
 * **Journey:**

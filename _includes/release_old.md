@@ -12,7 +12,7 @@
     * **Explore in Compare** By right clicking on a bubble in the importance chart, you can easily switch to Datama Compare to explain the over/ under performance of a given segments vs. other. This comes handy when trying to find opportunities for optimization of a KPI.
 
 * **Compare:**
-    * [Smart Dimension]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/smart_dimension.html) has been improved: you can now decide of the number of dimensions to include in combinations (previously only pairs of dimensions were available) and you can keep all combinations in your results (instead of just the most interesting combination)
+    * [Smart Dimension]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/smart_dimension.html) has been improved: you can now decide of the number of dimensions to include in combinations (previously only pairs of dimensions were available) and you can keep all combinations in your results (instead of just the most interesting combination)
     * Secondary comparison (aka Compare of Compare) labeling has been improved and is now available in most charts & tables
 
 ### 2023-06-31:
@@ -66,7 +66,7 @@
     You can now decide to reverse that pattern and breakdown the total variation by top impacting segments of any dimension and then by Steps within each Segment
     Datama even gives you an assessment of what might be the most interesting pattern with an interest score ranking both approaches
     Click below to learn more on this important feature
-    [Learn More]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+    [Learn More]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
 
  * **Prep**
     * From Datama block output you can now switch directly to the suggested Datama solution
@@ -184,13 +184,13 @@ This is an important step on a major migration process scheduled for 2023.You ca
 While full documentation is still work in process, here is a quick preview of the main benefits of the new app:
 
 * The Home page has been significantly improved:
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/assets/images/Datama_v2_Home.jpg"/></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/assets/images/Datama_v2_Home.jpg"/></center>
 
 * The Prep page now has new functionalities:
-<center><img style="width:50%;" src="{{site.url}}/{{site.baseurl}}/assets/images/Datama_v2_Flow.jpg"/></center>
+<center><img style="width:50%;" src="{{site.url}}{{site.baseurl}}/assets/images/Datama_v2_Flow.jpg"/></center>
 
 * Datama Solutions are now accessible in what used to be the Prep environment:
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/assets/images/Datama_v2_Solution.jpg"/></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/assets/images/Datama_v2_Solution.jpg"/></center>
 
 ### 2022-11-30:
 
@@ -269,7 +269,7 @@ While full documentation is still work in process, here is a quick preview of th
     * Multiple bug fixes and UI improvements (including Dynamic saving of Start & End even without "Save As", Compare of Compare deactivation for Anomaly detection, Chart size and titles in Pivot)
 
 * **Compare:**
-    * Covariance roll up: Covariance for waterfall can now be computed at segment level in a given dimension before rolling up at total level. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/compare/web_application/menu/covariance_rollup)
+    * Covariance roll up: Covariance for waterfall can now be computed at segment level in a given dimension before rolling up at total level. [Learn More]({{site.url}}{{site.baseurl}}/core_app/compare/web_application/menu/covariance_rollup)
     * Split Mix and Perf parameter is now saved allong with other settings
 
 * **Prep:**
@@ -319,7 +319,7 @@ While full documentation is still work in process, here is a quick preview of th
     * Multiple bug fixes and UI improvements (including value box for impact sizing in Datama Impact, clarification of error messages for Compare and Impact)
 
 * **Impact:**
-    * Added "**Causal Impact**" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution. [Learn More]({{site.url}}/{{site.baseurl}}/core_app/impact/web_application/dashboard/causal_impact.html)
+    * Added "**Causal Impact**" test as an option for assessing statistical significance. Use case include pre/post change on a test group of customers for instance submitted to a specific treatment, with a control group to inform base line of "normal" evolution. [Learn More]({{site.url}}{{site.baseurl}}/core_app/impact/web_application/dashboard/causal_impact.html)
     * Anomaly detection notification slack and email messages now includes a list of all KPIs that are flagged as having an anomaly
 
 * **Prep**
@@ -411,7 +411,7 @@ While full documentation is still work in process, here is a quick preview of th
 
 * **General:**
     * Comparable Date: When comparing two ranges of dates with same number of days, Datama now automatically creates a "Comparable_date" dimension which allows to compare similar objects between different time frames (e.g. Month 1, Month 2... Month 12 when comparing two years, or Day 1, Day 2... Day 7 when comparing 2 weeks)
-    * Date aggregation: Dates are now treated as numeric dimensions for clustering. Datama will automatically create time frame with similar KPI trends to aggregate the data and make it easier to analyse (see [Settings menu]({{site.url}}/{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering.md))
+    * Date aggregation: Dates are now treated as numeric dimensions for clustering. Datama will automatically create time frame with similar KPI trends to aggregate the data and make it easier to analyse (see [Settings menu]({{site.url}}{{site.baseurl}}/core_app/pivot/web_application/dashboard/clustering.md))
     * Regex Filtering: Filter UI have been improved and now includes a Regex option, to filter on specific regular expressions
     * Language (English or French) can now be saved for a given workbook
     * Improved interface for Tableau dashboard extension

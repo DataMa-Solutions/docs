@@ -15,6 +15,6 @@ Malgré années de beaux tableaux de bord et de métriques gouvernées, beaucoup
 
 **Accès :** l’extension est **proposée à tous gratuitement**. Pour **Tableau** et **Power BI**, il faut juste une licence payante conforme à votre contrat pour que les **viewers** aient accès au visuel.
 
-**Démarrage :** [Looker Studio](https://datama-solutions.github.io//docs/extensions/how-to-use/looker-studio_spreadsheet.html), [Power BI](https://datama-solutions.github.io//docs/extensions/how-to-use/power-bi_spreadsheet.html), [Tableau](https://datama-solutions.github.io//docs/extensions/how-to-use/tableau-viz_spreadsheet.html), [Qlik](https://datama-solutions.github.io//docs/extensions/how-to-use/qlik_spreadsheet.html).
+**Démarrage :** [Looker Studio](https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_spreadsheet.html), [Power BI](https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_spreadsheet.html), [Tableau](https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_spreadsheet.html), [Qlik](https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_spreadsheet.html).
 
-🖱️ [Vue d’ensemble : Datama Spreadsheet](https://datama-solutions.github.io//docs/extensions/datama-spreadsheet/introduction.html)
+🖱️ [Vue d’ensemble : Datama Spreadsheet](https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/introduction.html)

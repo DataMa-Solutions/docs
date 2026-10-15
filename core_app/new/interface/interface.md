@@ -26,7 +26,7 @@ Datama offers several solutions tailored to your data analysis needs.
 
 ## 2.1 Web Solution
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/SolutionDatama.png"/></center>
 
 - Complete interface accessible via browser
 - Advanced analysis and visualization features
@@ -38,7 +38,7 @@ Datama offers several solutions tailored to your data analysis needs.
 
 Datama also offers light version as below:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/Datama extensions.png" width="70%"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/Datama extensions.png" width="70%"/></center>
 
 These extensions are available on major Business Intelligence platforms:
 - [Tableau](https://tableau.com) - Datama Extension for Tableau
@@ -53,25 +53,25 @@ These extensions are available on major Business Intelligence platforms:
 
 The Datama interface consists of several essential elements:
 
-## 3.1 [Homepage]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/homepage.html)
+## 3.1 [Homepage]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/homepage.html)
 - List of your own use cases
 - Quick access to main features
 - Overview of information to better use the solution
 
 <br>
 
-## 3.2 [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
+## 3.2 [Header]({{site.url}}{{site.baseurl}}/core_app/new/interface/header/header.html)
 Click on the title **Header** above to know how to use the main menu including:
 
-<center><img style="width:100%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
+<center><img style="width:100%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/header/images/header.png"/></center>
 
 <br>
 
-## 3.3. [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html)
+## 3.3. [Subheader]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/subheader.html)
 
 Click on the title **Subheader** above to know how to use:
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/images/subheader.png"/></center>
 
 - Dynamic filters
 - Metric relationships

@@ -47,7 +47,7 @@ When the toggle is checked, Pivot is focusing on the numerator of the step you a
 
 ## 1.1 Analyse all metrics relation steps
 
-Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
+Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
 
 ## 1.3 Step interest criteria
 
@@ -72,7 +72,7 @@ This function lets you set the depth of the decision tree, up to a maximum of 10
 
 <br>
 
-<!-- <img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png"> -->
+<!-- <img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png"> -->
 
 <!-- ## 1.1 Aggregation in %
 
@@ -80,22 +80,22 @@ The level of aggregation that the model is using – e.g. if Level of aggregatio
 
 For example, by default(with 2% of aggregation), the importance chart is as following:
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_2per_chart.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_2per_chart.png">
 
 Access to pivot advanced setting via:
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/Expand_Comparison_configuration.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/Expand_Comparison_configuration.png">
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/to_advanced_set.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/to_advanced_set.png">
 
 Click on Pivot model under "Advanced Settings"
 Move the cursor to the right to increase the level of aggregation up to 5%, then click on « Apply » to save the change.
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/5per_pivot_set.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/5per_pivot_set.png">
 
 Segments are now aggregated at the requested level:
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_5per_chart.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_5per_chart.png">
 
 
 <br> -->

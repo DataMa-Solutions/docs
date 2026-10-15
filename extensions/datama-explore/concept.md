@@ -26,27 +26,27 @@ Datama Explore offers multiple visualization types to best represent your data a
 ## 1.1 Bar + Line
 Combines bar charts with line charts to show two different metrics simultaneously.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/bar_lines.png" alt="explore - visualization types" /></center> 
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/bar_lines.png" alt="explore - visualization types" /></center> 
 
 ## 1.2 Overlay
 Overlays multiple data series on the same chart for direct comparison.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/overlay.png" alt="explore - visualization types" /></center> 
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/overlay.png" alt="explore - visualization types" /></center> 
 
 ## 1.3 Stacked Bars
 Same as Bar + Line but the bars are stacked one abover the others.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/stacked.png" alt="explore - visualization types" /></center> 
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/stacked.png" alt="explore - visualization types" /></center> 
 
 ## 1.4 Mekko
 A specialized chart type that shows both the size and composition of data segments.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/mekko.png" alt="explore - visualization types" /></center> 
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/mekko.png" alt="explore - visualization types" /></center> 
 
 ## 1.5 Moves
 Displays data movements and transitions between different states or time periods.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/moves.png" alt="explore - visualization types" /></center> 
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/moves.png" alt="explore - visualization types" /></center> 
 
 <br>
 
@@ -66,7 +66,7 @@ An optional second dimension for additional breakdown. Its role also varies by v
 All dimensions added to the extension are available for selection in your analysis. Additionally, if you have activated a comparison in the settings, a "Comparison Dimension" becomes available, allowing you to analyze variations between your defined segments.
 
 ### 2.3.1 Dimension breakdown visualization
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/dimension_breakdown.png" alt="explore - dimension breakdown" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/dimension_breakdown.png" alt="explore - dimension breakdown" /></center>
 
 <br>
 
@@ -80,7 +80,7 @@ When you define a comparison (e.g., comparing two time periods or two segments),
 
 Once created, the comparison dimension can be used as either the primary or secondary dimension in your breakdown analysis.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.png" alt="explore - comparison dimension" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.png" alt="explore - comparison dimension" /></center>
 
 <br>
 
@@ -104,6 +104,6 @@ You can select from:
 
 These change (variation) metrics are automatically included in your metric dropdowns if you have activated a comparison, enabling dynamic analysis of how your KPIs evolve across selected dimensions.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/metric_variations.png" alt="explore - metric variations" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/metric_variations.png" alt="explore - metric variations" /></center>
 
 <br>

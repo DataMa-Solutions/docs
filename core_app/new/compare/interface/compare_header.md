@@ -13,16 +13,16 @@ keywords: full app compare header
 
 <br>
 
-<img style = "width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_header.png">
+<img style = "width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_header.png">
 
 <br>
 
 # 1. What you will find in this chapter:
 
-- [Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
-<!-- - [Secondary Comparison]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/secondary_comparison.html) -->
-- [Dimension Helper]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html)
-- [Filters]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/filters.html)
-- [Metric Relation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html)
-<!--- [Drill down hierarchy]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)-->
-- [Settings]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
+- [Comparison]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/dimension_comparison.html)
+<!-- - [Secondary Comparison]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/secondary_comparison.html) -->
+- [Dimension Helper]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/dimension_helper.html)
+- [Filters]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/filters.html)
+- [Metric Relation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html)
+<!--- [Drill down hierarchy]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)-->
+- [Settings]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)

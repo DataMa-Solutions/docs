@@ -15,7 +15,7 @@ description: |
 {% if post.article_link != null %}
 👉 Lisez notre [article]({{page.article_link}}) pour en savoir plus !
 {% endif %}
-<img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
+<img src="{{site.url}}{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
 {% endif %}
 {% endfor %}
 {% include tip_of_the_week_fr_old.md %}

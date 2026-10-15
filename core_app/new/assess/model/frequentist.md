@@ -14,7 +14,7 @@ In the Bernoulli frequentist approach, the outcome has to be binary (1 or 0, e.g
 The resulting chart shows the probability of distribution of the average value of the considered KPI.
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_frequentist.png" alt="assess - Frequentist model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_frequentist.png" alt="assess - Frequentist model" /></center>
 
 
 Behind the scenes: A frequentist Welch t-test is computed to test whether the mean outcome is significantly different between the Start and the End values of your comparison. 
@@ -35,7 +35,7 @@ If the outcome variable is binary (e.g. Transaction) and data is aggregated, the
 
 If you want to reduce the size of the dataset, and avoid having one line per occurrence, you can group them at a reasonable level and use the weight parameter
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_frequentistOther.png" alt="assess - Frequentist model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_frequentistOther.png" alt="assess - Frequentist model" /></center>
 
 
 Behind the scenes: A frequentist Welch t-test is computed to test whether the mean outcome is significantly different between the Start period and the End period. The standard deviation used in the test is derived from the properties of the sample (from the sample variance).
