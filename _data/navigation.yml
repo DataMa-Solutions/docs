@@ -227,20 +227,19 @@
               link: /extensions/how-to-use/powerpoint_compare.html
               type: h4
 
+            - name: Advanced features
+              type: h4
+              subnav:
+                  - name: What If scenarios
+                    link: /extensions/datama-compare/what-if.html
+                  - name: Market equation Sub-steps
+                    link: /extensions/datama-compare/market-equation-sub-steps.html
+                  - name: Out of scope segments
+                    link: /extensions/datama-compare/out-of-scope.html
+                  - name: Layer Source
+                    link: /extensions/layer-source.html
             - name: Settings
               link: /extensions/datama-compare/settings.html
-              type: h4
-            - name: What If scenarios
-              link: /extensions/datama-compare/what-if.html
-              type: h4
-            - name: Market equation Sub-steps
-              link: /extensions/datama-compare/market-equation-sub-steps.html
-              type: h4
-            - name: Out of scope segments
-              link: /extensions/datama-compare/out-of-scope.html
-              type: h4
-            - name: Layer Source
-              link: /extensions/layer-source.html
               type: h4
 
 - name: Detect #done

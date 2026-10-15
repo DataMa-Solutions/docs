@@ -120,8 +120,11 @@
                     {% for item in trail %}
                         {% if forloop.last %}
                         <span class="current">{{ item.name }}</span>
-                        {% else %}
+                        {% elsif item.link %}
                         <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+                        <span class="breadcrumb-separator">›</span>
+                        {% else %}
+                        <span>{{ item.name }}</span>
                         <span class="breadcrumb-separator">›</span>
                         {% endif %}
                     {% endfor %}

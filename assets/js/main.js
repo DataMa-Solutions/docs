@@ -64,7 +64,18 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.toggle('menu-close')
     })
 
-    document.querySelectorAll('aside>nav li>a').forEach(link => {
+    // Menu groups without a page of their own only expand/collapse
+    document.querySelectorAll('aside>nav li>a.nav-group').forEach(group => {
+        group.addEventListener('click', e => {
+            e.preventDefault()
+            const collapser = group.querySelector('.collapser')
+            if (collapser) {
+                collapser.click()
+            }
+        })
+    })
+
+    document.querySelectorAll('aside>nav li>a:not(.nav-group)').forEach(link => {
         link.addEventListener('click', e => {
             const collapser = e.target.querySelector('.collapser')
             if (collapser) {
