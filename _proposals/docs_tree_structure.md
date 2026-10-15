@@ -1,7 +1,19 @@
-# Refonte de la documentation Datama : arborescence, look & feel, bonnes pratiques
+# Refonte de la documentation Datama : look & feel et bonnes pratiques (option A)
 
 > Document de proposition, sans code. Branche `docs_tree_structure`.
 > Le dossier `_proposals/` commence par `_` : Jekyll ne le publie pas.
+
+## Décisions validées
+
+| Sujet | Décision |
+|---|---|
+| Outil | **Option A** : on garde Jekyll et on l'améliore. La doc reste un support secondaire ; pas de migration vers Starlight. |
+| Arborescence | **Gardée telle quelle**, à quelques regroupements de dossiers près dans le menu (voir §3). |
+| Langue | **EN uniquement**, sauf les quelques pages qui ont déjà une version FR (astuces de la semaine). |
+| Hébergement | Inchangé : GitHub Pages, `datama-solutions.github.io/docs`. |
+| URL | **Aucune URL ne change** : pas de fichier déplacé, renommé ou supprimé. |
+
+Ces décisions fixent une règle pour tout le plan : **on modifie le rendu et le menu, jamais l'emplacement des pages.**
 
 ---
 
@@ -13,34 +25,30 @@
 - 4 layouts (`default`, `page`, `new-page`, `post`) qui dupliquent chacun le `<head>`.
 - Pas de dossier `.github/` : le site est probablement construit par GitHub Pages en mode « classique », qui n'accepte que les plugins de la liste blanche.
 
-### Arborescence (`_data/navigation.yml`)
+### Menu (`_data/navigation.yml`)
 | Problème | Détail |
 |---|---|
-| Taille | **367 entrées**, 14 racines, jusqu'à **6 niveaux** de profondeur |
-| Duplication N×M | Chaque solution × chaque outil BI a sa page (Compare on Looker Studio, Detect on Looker Studio…), **et** la section *Marketplace* reliste ces mêmes pages par outil |
-| « Pricing Plan » | Répété environ 17 fois dans le menu |
-| Subheader | *Dimension comparison / Dimension Helper / Filters / Metrics relation / Settings* est redocumenté 5 fois (General, Compare, Detect, Pivot, Assess, Journey) |
-| Présentation dans les données | `type: bold / separated / h3 / h4` : la hiérarchie visuelle est saisie à la main au lieu d'être déduite de la profondeur |
+| Taille | 367 entrées, 14 racines, jusqu'à 6 niveaux de profondeur |
+| Doublons | Les pages « X on Looker Studio / Power BI… » apparaissent sous chaque solution **et** dans *Marketplace* ; « Pricing Plan » revient environ 17 fois |
 | Bruit de travail | Marqueurs `#done`, `#under construction`, `# mettre les images à jour`, gros blocs commentés |
 | Coquilles visibles | *Simgle*, *Markeplace*, *Signifiance*, *Analise Sequences*, *Google Google BigQuery* |
-| Incohérences | « General » contient l'interface **et** les plans/On-Premise/OpenAI ; Calendar, Explore et Spreadsheet sont des racines au même niveau que les solutions ; Privacy/ToS sont dans le menu principal |
+| Racines incohérentes | Calendar, Explore et Spreadsheet sont au même niveau que les solutions ; Privacy/ToS sont dans le menu principal |
 
 ### Contenu et hygiène
 - **629** balises `<center>` et **1004** `<br>` dans le Markdown : la mise en page est faite à la main.
 - **48** pages de `core_app/` et `extensions/` sans `description` (SEO, aperçus de liens).
-- Pages héritées toujours en ligne : `core_app.md`, `web_application.md` et `home.md` pointent vers *Impact* et *Source* (anciennes solutions) ; plusieurs `_includes/*_old.md`.
+- Pages héritées toujours en ligne : `core_app.md`, `web_application.md` et `home.md` pointent vers *Impact* et *Source* (anciennes solutions).
 - Liens construits avec `{{site.url}}/{{site.baseurl}}` alors que `baseurl` vaut déjà `/docs` : cela produit des URL `…github.io//docs/…`.
-- Domaines mélangés : `Datama.fr`, `datama.io`, `solutions.Datama.fr`, `Datama-solutions.github.io`.
+- Domaines mélangés dans les liens : `Datama.fr`, `datama.io`, `solutions.Datama.fr`.
 - Textes alternatifs génériques (« logo impact » sur des captures sans rapport).
 - `user-scalable=no` dans 6 layouts : le zoom est bloqué sur mobile (problème d'accessibilité).
 - Iframes YouTube en largeur fixe de 800 px (débordent sur mobile).
 - Environ **560 Mo de GIF** : pages lourdes et lentes.
-- `sitemap.xml` statique de 42 Ko maintenu à la main (`jekyll-sitemap` est dans le Gemfile mais n'est pas activé).
-- La recherche référence des scopes obsolètes (`shiny`, `old-ui`).
+- `sitemap.xml` statique de 42 Ko maintenu à la main.
 
 ### Look & feel
-- La page d'accueil s'ouvre sur un hero plein écran (« Smart analytics. Documented ») : le contenu utile est sous la ligne de flottaison.
-- Il manque les standards actuels d'un site de documentation : sommaire « Sur cette page », boutons précédent/suivant, date de mise à jour, « Modifier sur GitHub », retour « Cette page vous a aidé ? », encadrés typés, onglets, bouton de copie sur le code, zoom sur les captures, mode sombre.
+- La page d'accueil s'ouvre sur un hero plein écran : le contenu utile est sous la ligne de flottaison.
+- Il manque : un sommaire « Sur cette page », des boutons précédent/suivant, des encadrés typés, des captures avec légende et zoom, un bouton de copie sur le code.
 - Typographie et couleurs proches mais pas alignées avec le nouveau site public.
 
 ---
@@ -50,221 +58,142 @@
 Source : `public-website/tailwind.config.ts`, `src/app/globals.css`, `src/fonts/`, `public/brand/`.
 
 ### Couleurs (tokens)
-| Token | Valeur | Usage proposé dans la doc |
+| Token | Valeur | Usage dans la doc |
 |---|---|---|
-| `pine` | `#00484A` | Texte des titres, liens, boutons principaux, élément actif du menu |
-| `pine-deep` | `#02292B` | Footer, fond du mode sombre |
+| `pine` | `#00484A` | Titres, liens, boutons principaux, élément actif du menu |
+| `pine-deep` | `#02292B` | Footer |
 | `pine-soft` | `#33686A` | Texte secondaire, breadcrumb |
 | `aqua` | `#16D0B4` | Accents : soulignement des liens, barre de l'élément actif, focus, sélection |
 | `aqua-dark` | `#0EA893` | Survol |
-| `aqua-soft` / `aqua-mist` | `#E3F9F4` / `#F3FBF9` | Fond de la sidebar, encadrés « Astuce », cartes |
-| `coral` / `coral-soft` | `#F8663C` / `#FEEFE9` | Encadrés « Attention », badges « Déprécié » (avec parcimonie, comme sur le site) |
-| `azure` / `azure-soft` | `#4285F4` / `#EAF1FE` | Encadrés « Note / Info » |
+| `aqua-soft` / `aqua-mist` | `#E3F9F4` / `#F3FBF9` | Fond de la sidebar, encadrés « Tip », cartes |
+| `coral` / `coral-soft` | `#F8663C` / `#FEEFE9` | Encadrés « Warning », avec parcimonie |
+| `azure` / `azure-soft` | `#4285F4` / `#EAF1FE` | Encadrés « Note » |
 
-> ⚠️ **Accessibilité :** l'aqua `#16D0B4` sur fond blanc a un contraste d'environ 1,9:1, sous le minimum WCAG (4,5:1 pour du texte). Il faut le garder pour les **accents** (bordures, soulignements, icônes, fonds), jamais pour du texte courant. Les liens restent en `pine`, soulignés en `aqua`.
+> ⚠️ **Accessibilité :** l'aqua `#16D0B4` sur fond blanc a un contraste d'environ 1,9:1, sous le minimum WCAG (4,5:1 pour du texte). Il faut le réserver aux **accents** (bordures, soulignements, icônes, fonds). Les liens restent en `pine`, soulignés en `aqua`.
 
 ### Typographie
-- **Montserrat** pour le corps et l'interface (déjà utilisé par le site). Corps de texte à 16–17 px, interligne 1,7, largeur de lecture d'environ 72 caractères (≈ 760 px).
-- **Blimone** (`public-website/src/fonts/*.woff2`) pour **H1 et le hero uniquement**, comme les `font-display` du site. Pas en H3/H4, où elle nuirait à la lisibilité d'un contenu technique.
-- Une police monospace système pour le code.
+- **Montserrat** pour le corps et l'interface. Corps de texte à 16–17 px, interligne 1,7, largeur de lecture d'environ 760 px.
+- **Blimone** (`public-website/src/fonts/*.woff2`, à copier dans `assets/fonts/`) pour **H1 et le hero uniquement**.
 - Abandon d'Open Sans.
 
 ### Formes et composants
-- Boutons en pilule (`rounded-full`) : *primary* fond pine, *accent* fond aqua + texte pine, *ghost* bordure `pine/15`.
+- Boutons en pilule : *primary* fond pine, *accent* fond aqua + texte pine, *ghost* bordure `pine/15`.
 - Cartes : rayon de 16 px, ombre `card` du site (`0 1px 2px rgba(0,72,74,.05), 0 8px 24px rgba(0,72,74,.07)`).
-- Header collant, fond blanc à 85 % avec flou (`bg-white/85 backdrop-blur-md`), bordure `pine/5`.
+- Header collant, fond blanc à 85 % avec flou, bordure `pine/5`.
 - `::selection` et `:focus-visible` identiques au site.
-- Éléments de marque : `Logo_Datama_Vert_Fonce.svg` / `Blanc.svg`, les « bulles » et les « yeux » pour la page d'accueil, la 404 et les états vides.
+- Logos `Logo_Datama_Vert_Fonce.svg` / `Blanc.svg`, et les « bulles » et « yeux » pour l'accueil et la 404.
 
-**Mise en œuvre :** un fichier `_sass/_tokens.scss` qui expose ces valeurs en variables CSS (`--pine`, `--aqua`…), avec la même règle que le site : « aucun code couleur en dur ailleurs ». Une refonte de marque se fera alors en modifiant un seul fichier dans chaque repo.
+**Mise en œuvre :** un fichier `_sass/_tokens.scss` qui remplace `_colors.scss` et expose ces valeurs en variables CSS. Même règle que le site : aucun code couleur en dur ailleurs.
 
 ---
 
-## 3. Nouvelle arborescence proposée
+## 3. Menu : nettoyage sans changer les URL
 
-### Principes
-1. **3 niveaux maximum** dans la sidebar ; le reste passe par le sommaire « Sur cette page ».
-2. **Organisation par intention utilisateur** (inspirée de Diátaxis : *démarrer → faire → comprendre → référence*), et non par l'historique des produits.
-3. **On documente une chose une seule fois** : le subheader commun, les plans tarifaires et l'installation par outil BI ont chacun une page unique, liée depuis les autres.
-4. **Même plan de page pour chaque solution** : Vue d'ensemble → Concepts & modèle → Utiliser dans la WebApp → Réglages (référence) → Cas d'usage.
-5. La hiérarchie visuelle est **déduite de la profondeur**, et non plus saisie (`type: h3/h4`).
+L'arborescence est conservée. Les changements se font **uniquement dans `_data/navigation.yml`** (libellés, ordre, regroupements). Les fichiers restent où ils sont, donc **les URL ne changent pas**.
 
-### Arbre cible
-```
-🚀 Démarrer
-   ├─ Qu'est-ce que Datama ?
-   ├─ Démarrage rapide (10 min)              ← ex « Get Started »
-   ├─ Concepts clés                           (workbook, dataset, metrics relation, market equation, KPI/denominator)
-   └─ Glossaire
+### À faire dans tous les cas
+- Corriger les coquilles des libellés.
+- Supprimer les marqueurs `#done` / `#under construction` et les blocs commentés morts. Le suivi de rédaction passe dans des issues GitHub.
+- Sortir Privacy policy / Terms of Service du menu principal vers le footer : les pages restent accessibles à la même URL.
 
-🧰 Préparer ses données
-   ├─ Datasets & Prep                         ← ex Prep (Dataset, Refine, Calculated fields, Block output…)
-   ├─ Connecteurs de sources                  (1 page index + 1 page par source : GSheets, Excel, CSV, GA4, BigQuery, Snowflake, Redshift, Piano, Metabase, Facebook, Trends, Mail, AI dataset)
-   ├─ Calendrier                              ← ex racine « Calendar »
-   └─ Export d'analyse
+### Regroupements possibles (à choisir)
+Ce sont des pistes pour les « quelques dossiers » à changer. Chacune ne touche que le menu :
 
-📊 Analyser : les solutions
-   ├─ Compare      (Vue d'ensemble · Concepts & modèle · WebApp · Réglages · What-if · Sub-steps · Out of scope)
-   ├─ Detect       (même plan)
-   ├─ Assess       (même plan ; les modèles Frequentist/Bayesian/… deviennent des sections)
-   ├─ Pivot        (même plan ; les 9 types de graphiques regroupés dans « Visualisations »)
-   ├─ Journey      (même plan)
-   ├─ Explore      (même plan)
-   └─ Spreadsheet  (même plan)
-
-🧭 Interface commune
-   ├─ Page d'accueil & workbooks
-   ├─ Barre d'outils d'une solution           ← subheader : Comparaison, Dimension Helper, Filtres, Metrics relation, Réglages (documenté UNE fois)
-   └─ Exemples de workbooks / cas d'usage
-
-🔌 Intégrations
-   ├─ Vue d'ensemble du Data Viz Plugin        (matrice solution × outil)
-   ├─ Looker Studio   ┐
-   ├─ Power BI        │  1 page par outil : installation, licence, ajout du visuel,
-   ├─ Tableau         │  puis des ONGLETS Compare / Detect / Assess / Explore / Spreadsheet
-   ├─ Qlik            │  → remplace les pages N×M ET la section « Marketplace »
-   ├─ Google Sheets™  │
-   ├─ Excel           │
-   ├─ PowerPoint      ┘
-   ├─ Skills IA (Claude, Cursor…)
-   └─ OpenAI
-
-🔐 Compte & administration
-   ├─ Plans & tarifs                          ← les ~17 pages « Pricing Plan » fusionnées
-   ├─ Clés de licence
-   ├─ Administration & limites des workbooks
-   └─ Datama On-Premise
-
-📰 Nouveautés
-   ├─ Notes de version
-   ├─ Astuce de la semaine (EN / FR)
-   └─ Cas client du mois
-
-(Footer uniquement) Confidentialité · Conditions d'utilisation · Licence
-```
-
-### Ce que ça change
-| | Avant | Après |
+| Piste | Effet dans le menu | URL |
 |---|---|---|
-| Entrées de menu | 367 | environ 90 |
-| Profondeur max | 6 | 3 |
-| Pages « Pricing Plan » | ~17 | 1 |
-| Documentation du subheader | ×6 | ×1 |
-| Accès à « Compare sur Power BI » | 2 chemins (Compare › Extensions, Marketplace › Power BI) | 1 page Power BI, onglet Compare, liée depuis Compare › WebApp et la matrice |
+| Ranger **Calendar** sous **Prep** | Calendar n'est plus une racine | Inchangées |
+| Ranger **Explore** et **Spreadsheet** avec les autres solutions (après Journey) | Ordre cohérent : solutions groupées | Inchangées |
+| Replier **Marketplace** (fermée par défaut) ou la renommer « By BI tool » | Moins de bruit, sans retirer le doublon | Inchangées |
+| Remplacer les ~17 entrées « Pricing Plan » par **une seule** entrée dans *General › Type of account and plan* | Menu plus court ; les pages Pricing restent en ligne et accessibles depuis leurs pages parentes | Inchangées |
+| Isoler *Type of account and plan*, *On-Premise* et *Integrations* dans une racine **Account & admin** | « General » ne contient plus que l'interface | Inchangées |
 
-### Conserver les URL
-- Plugin **`jekyll-redirect-from`** (autorisé par GitHub Pages) : un `redirect_from:` dans le frontmatter de chaque page déplacée. Les liens externes, ceux de l'app, les extensions BI et le référencement continuent de fonctionner.
-- Avant de déplacer quoi que ce soit, on produit une **table de correspondance ancienne URL → nouvelle URL** (générée depuis `navigation.yml` et `sitemap.xml`), relue par l'équipe produit.
-- Attention aux liens « help » codés en dur dans l'app et dans les extensions (repo `datama-os`) : à recenser avant la migration.
+> **Questions ouvertes :** quels regroupements retenir ? « Changer quelques dossiers » signifie-t-il bien regrouper dans le menu, et non déplacer les fichiers ? Déplacer un fichier changerait son URL.
+
+### Réduire les doublons de contenu sans toucher aux URL
+- Les pages répétées (« Pricing Plan », sous-pages du subheader : Dimension Helper, Filters, Metrics relation…) gardent leurs URL. Leur **contenu** vient d'un seul fichier `_includes/shared/…` : on corrige une fois, et toutes les pages sont à jour.
+- Les pages héritées (`core_app.md`, `web_application.md`, `home.md`) sont retirées du menu et reçoivent un bandeau « Cette page est obsolète → voir … ». Elles ne sont pas supprimées, pour ne pas casser de liens.
 
 ---
 
-## 4. Look & feel : propositions
+## 4. Look & feel
 
 ### 4.1 Structure de page (3 colonnes)
 ```
-┌──────────────────────────────── Header collant (logo · recherche ⌘K · Solutions · Intégrations · Nouveautés · [Essayer Datama]) ┐
-│ Sidebar 280px      │  Breadcrumb                                   │ Sur cette page  │
-│ (sections + icônes,│  H1 Blimone                                   │ (H2/H3, collant,│
-│  ligne d'indent,   │  Chapô (description du frontmatter)           │  section active │
-│  actif = barre     │  Badges : WebApp · Looker · Power BI · Beta   │  surlignée)     │
-│  aqua + fond mist) │  Contenu (max 760px)                          │                 │
-│                    │  ─────────                                    │                 │
-│                    │  ← Précédent        Suivant →                 │                 │
-│                    │  Cette page vous a aidé ? 👍 👎 · Modifier sur GitHub · MAJ le … │
+┌──────────────── Header collant (logo · recherche · Solutions · News · [Try Datama]) ─────────────────┐
+│ Sidebar            │  Breadcrumb                                   │ On this page    │
+│ (actif = barre     │  H1 Blimone                                   │ (H2/H3, collant,│
+│  aqua + fond mist) │  Chapô (description du frontmatter)           │  section active │
+│                    │  Contenu (max 760px)                          │  surlignée)     │
+│                    │  ← Previous                      Next →       │                 │
+│                    │  Was this page helpful? 👍 👎 · Edit on GitHub                  │
 └────────────────────┴───────────────────────────────────────────────┴─────────────────┘
-Footer pine-deep (liens site, légal, réseaux)
+Footer pine-deep (site, Privacy, Terms, LinkedIn)
 ```
-- Sur mobile : la sidebar devient un tiroir (burger) et le sommaire devient un menu déroulant « Sur cette page » en haut de l'article.
+- Sur mobile : la sidebar devient un tiroir, et le sommaire un menu déroulant en haut de l'article.
+- Les boutons précédent/suivant sont calculés depuis l'ordre de `navigation.yml`, comme le breadcrumb actuel.
 
-### 4.2 Page d'accueil
-- Supprimer le hero plein écran. Le remplacer par un **hero compact** : H1 Blimone, une phrase, une **grande barre de recherche**, fond `bg-glow-hero` du site.
-- **Grille de cartes « Solutions »** (7 cartes avec les logos `logo4_3.ext.datama.*.png` existants et une ligne « à quoi ça sert »).
-- **Grille « Intégrations »** avec les logos des outils BI.
-- **« Articles populaires »** et **« Dernières nouveautés »** (dernière note de version + dernière astuce, tirées automatiquement de `_posts`).
-- Les deux vidéos passent dans une section « Voir Datama en action », en intégration responsive (16:9) et chargement différé.
+### 4.2 Page d'accueil (`index.md`, même URL)
+- Remplacer le hero plein écran par un hero compact : H1, une phrase, une barre de recherche.
+- Une grille de cartes **Solutions** (logos `logo4_3.ext.datama.*.png` existants) et une grille **BI tools**.
+- Un bloc **Latest news** : dernière note de version et dernière astuce, tirées automatiquement de `_posts`.
+- Vidéos en intégration responsive (16:9) avec chargement différé.
 
-### 4.3 Composants de contenu (includes Liquid réutilisables)
+### 4.3 Composants (includes Liquid)
 | Composant | Rendu | Remplace |
 |---|---|---|
-| `callout` (note / astuce / attention / danger) | Bordure gauche + icône, couleurs azure / aqua / coral | `info-box`, citations `>` détournées |
-| `figure` | Image centrée, légende, `loading="lazy"`, zoom au clic, cadre léger | `<center><img …></center>` + `<br>` |
-| `video` | MP4/WebM en boucle, sans son, lecture au survol ou à l'entrée dans l'écran | GIF de plusieurs Mo |
-| `tabs` | Onglets (WebApp / Looker / Power BI…) | Pages N×M |
-| `steps` | Étapes numérotées avec pastille aqua | Listes « 1. 2. 3. » + captures |
-| `cards` | Grille de liens avec icône et description | Listes de liens à puces |
-| `badge` | New / Beta / Extension / Déprécié | — |
-| Code | Coloration syntaxique et bouton copier | — |
+| `callout` (note / tip / warning) | Bordure gauche + icône, couleurs azure / aqua / coral | `info-box`, citations `>` détournées |
+| `figure` | Image centrée, légende, `loading="lazy"`, zoom au clic | `<center><img …></center>` + `<br>` |
+| `video` | MP4/WebM en boucle, sans son | GIF lourds |
+| `cards` | Grille de liens avec icône | Listes de liens à puces |
+| `steps` | Étapes numérotées, pastille aqua | Listes « 1. 2. 3. » |
 
-### 4.4 Détails visuels
-- Sidebar : icône par section racine (Lucide / FA6), sections fermées par défaut sauf la branche courante (c'est déjà en partie le cas), compteur ou badge « New ».
-- Titres H2 avec ancre `#` au survol (lien copiable).
-- Captures : convention commune (largeur max, coins arrondis à 8 px, ombre légère, annotations en aqua/coral).
-- 404 à l'identité de marque (yeux Datama, recherche, liens populaires).
-- Mode sombre (optionnel, phase 2) : fond `pine-deep`, texte blanc à 90 %, accents aqua.
+Le zoom au clic et le bouton copier demandent un peu de JS, sans jQuery.
+
+### 4.4 Pages FR existantes
+- Les astuces FR gardent leurs URL `/fr/…`.
+- Un petit lien **EN ⇄ FR** s'affiche seulement sur les pages qui ont une jumelle (appariées par un champ de frontmatter, par exemple `translation_key`), avec les balises `hreflang`.
+- Aucun sélecteur de langue global.
 
 ---
 
 ## 5. Bonnes pratiques et maintenance
 
 ### Rédaction
-- **Guide de style** court (`CONTRIBUTING.md`) : ton, tutoiement ou vouvoiement, casse des titres, vocabulaire figé (*WebApp*, *Google Sheets™*, *Metrics relation*…), format des captures, une idée par page.
-- **Frontmatter standard** : `title`, `description` (obligatoire), `solution`, `platforms`, `redirect_from`, `last_reviewed`.
-- Plus de HTML de mise en page dans le Markdown (`<center>`, `<br>`) : uniquement des includes.
-- Le statut de rédaction (`#done`, « images à mettre à jour ») sort du YAML et passe dans des issues GitHub ou un tableau de projet.
-- Corriger les coquilles listées en §1.
+- Un **guide de style** court (`CONTRIBUTING.md`) : ton, casse des titres, vocabulaire figé (*WebApp*, *Google Sheets™*, *Metrics relation*…), format des captures. Il doit s'accorder avec la règle Cursor `.cursor/…/docs-cursor-rule.mdc` et les modèles `dev/templates_posts/`.
+- **Frontmatter standard** : `title` et `description` obligatoires, plus des `keywords` pour la recherche.
+- Plus de `<center>` / `<br>` dans les nouvelles pages. Pour les pages existantes, la migration se fait page par page, quand on y touche.
 
-### Technique
-- **Un seul layout de base** (`base.html` : head, header, footer) et des variantes (`doc`, `post`, `home`).
-- Liens via le filtre `relative_url`, pour supprimer le `//docs`.
-- Activer **`jekyll-sitemap`** et **`jekyll-seo-tag`** (canonical, Open Graph, Twitter cards), supprimer le `sitemap.xml` manuel. Ajouter un `llms.txt` comme sur le site public.
-- Retirer `user-scalable=no`. Revoir les `alt` des images.
-- Médias : GIF → MP4/WebM, PNG → WebP, `loading="lazy"`. Objectif : diviser par 5 à 10 le poids des pages les plus lourdes.
-- Supprimer jQuery et Font Awesome 5 (icônes SVG inline). Rendre la recherche moins dépendante d'un script maison, ou la remplacer (voir §6).
-- Charger le chat HubSpot de façon différée (au clic ou après interaction) pour ne pas pénaliser le temps de chargement.
-- Supprimer les pages héritées (`core_app.md`, `web_application.md`, `home.md`, `_includes/*_old.md`), avec redirections.
+### Technique (sans changer les URL)
+- **Un seul layout de base** (`_layouts/base.html` : head, header, footer). `default`, `page`, `new-page` et `post` en héritent ; les pages n'ont pas besoin d'être modifiées.
+- Liens via le filtre `relative_url`, pour supprimer le `//docs`. Cela change la forme du lien, pas l'adresse de la page.
+- Activer **`jekyll-sitemap`** et **`jekyll-seo-tag`** (tous deux autorisés par GitHub Pages) et supprimer le `sitemap.xml` manuel, après avoir vérifié qu'il liste les mêmes URL.
+- Retirer `user-scalable=no` et revoir les `alt` des images.
+- Médias : convertir les GIF les plus lourds en MP4/WebM, ajouter `loading="lazy"` partout. Les anciens fichiers peuvent rester en place si des liens externes pointent dessus.
+- Remplacer Font Awesome 5 par des icônes SVG inline, retirer jQuery si `sws.js` et `main.js` peuvent s'en passer, et nettoyer les scopes obsolètes de la recherche (`shiny`, `old-ui`).
+- Charger le chat HubSpot en différé.
 
-### Qualité automatisée (GitHub Actions)
-- Build Jekyll à chaque PR.
-- **html-proofer** : liens cassés, images sans `alt`, ancres mortes.
-- **markdownlint** et **cspell** (dictionnaire Datama) pour les coquilles.
-- Le build passe alors par Actions plutôt que par GitHub Pages classique, ce qui débloque aussi des plugins hors liste blanche (`jekyll-last-modified-at` pour la date de mise à jour).
+### Qualité automatisée (optionnel, lot 5)
+- Une GitHub Action qui construit le site à chaque PR et lance **html-proofer** (liens cassés, `alt` manquants) et **cspell** (coquilles).
+- Le déploiement peut rester sur GitHub Pages classique : l'Action ne sert qu'à vérifier.
 
 ---
 
-## 6. Option structurante : rester sur Jekyll ou migrer ?
+## 6. Feuille de route (option A)
 
-| | **A. Faire évoluer Jekyll** | **B. Migrer vers Astro Starlight** |
+| Lot | Contenu | Effort estimé |
 |---|---|---|
-| Sommaire, précédent/suivant, mode sombre, encadrés, onglets, copie du code | À développer (includes + JS) | Inclus nativement |
-| Recherche | `sws.js` maison à refaire | Pagefind, plein texte, hors-ligne, très rapide |
-| i18n EN/FR | Bricolage par dossiers | Natif (utile pour les astuces FR/EN) |
-| Identité du site | Tokens SCSS | Tokens CSS + police Blimone, assez proche de la stack Tailwind du site |
-| Hébergement | GitHub Pages (inchangé) | Statique, déployable sur **Cloudflare** comme `public-website` (cohérence de l'infrastructure) |
-| Coût de migration | Faible au départ, mais tout le reste est à construire | ~220 pages + ~290 posts en Markdown à convertir (Liquid → MDX, en grande partie automatisable) |
-| Risque | Faible | Moyen (URL à rediriger, à tester) |
+| **0. Quick wins** | Coquilles et marqueurs du menu, `//docs` → `relative_url`, `user-scalable`, descriptions manquantes, bandeau sur les pages héritées, `jekyll-sitemap` / `jekyll-seo-tag` | 1–2 j |
+| **1. Identité** | `_tokens.scss`, Montserrat + Blimone, `base.html` unique, header/footer alignés sur le site, liens, boutons, 404 | 2–3 j |
+| **2. Menu** | Regroupements retenus au §3, Privacy/ToS vers le footer, une seule entrée Pricing, contenus partagés via `_includes/shared/` | 1–2 j |
+| **3. Composants** | Sommaire « On this page », précédent/suivant, callout, figure, video, cards, steps, feedback, « Edit on GitHub », lien EN ⇄ FR | 3–4 j |
+| **4. Accueil** | Nouvelle `index.md` (hero compact, cartes, dernières nouveautés) | 1–2 j |
+| **5. Contenu & qualité** | Migration progressive des pages vers les composants (Compare en premier), GIF → vidéo, CI html-proofer + cspell | Continu |
 
-**Recommandation :** si l'objectif est un vrai saut de qualité, **B**. La plupart des points de la §4 sont fournis par Starlight au lieu d'être recodés, et la doc rejoint l'infrastructure Cloudflare du site. Si l'on veut un gain rapide sans changer d'outil, **A** avec les lots 0 à 2 ci-dessous. La nouvelle arborescence (§3) est valable dans les deux cas.
-
----
-
-## 7. Feuille de route proposée
-
-| Lot | Contenu | Effort estimé | Dépend de |
-|---|---|---|---|
-| **0. Quick wins** | Coquilles, marqueurs `#done`, `//docs`, `user-scalable`, descriptions manquantes, pages héritées, `jekyll-sitemap` / `seo-tag` | 1–2 j | — |
-| **1. Identité** | `_tokens.scss`, Montserrat + Blimone, header/footer alignés sur le site, boutons, liens, 404 | 2–3 j | Choix A/B |
-| **2. Arborescence** | Table de correspondance des URL, nouveau `navigation.yml` (≤ 3 niveaux), fusion Pricing / subheader / Marketplace, `redirect_from` | 4–5 j | Validation de l'arbre §3 |
-| **3. Composants** | Callouts, figure, vidéo, onglets, étapes, cartes, sommaire, précédent/suivant, feedback, « Modifier sur GitHub » | 4–5 j (A) / ~1 j (B) | Lot 1 |
-| **4. Accueil & recherche** | Nouvelle page d'accueil, recherche ⌘K | 2–3 j | Lots 1 et 3 |
-| **5. Contenu & médias** | Migration progressive `<center>/<br>` → includes, GIF → vidéo, plan de page standard par solution | Continu, solution par solution (Compare en premier) | Lot 3 |
-| **6. Qualité** | CI : html-proofer, markdownlint, cspell ; guide de style | 1–2 j | — |
+Total des lots 0 à 4 : **8 à 13 jours**. Chaque lot est livrable seul, dans sa propre PR.
 
 ---
 
-## 8. Décisions attendues
-1. **Option A (Jekyll) ou B (Starlight)** ?
-2. Validation (ou ajustements) de **l'arbre cible** de la §3, notamment la fusion des pages par outil BI en pages avec onglets.
-3. **Langue** de la documentation : EN seul (comme aujourd'hui) ou EN + FR ?
-4. **Hébergement / domaine** : rester sur `datama-solutions.github.io/docs` ou passer sur un sous-domaine (`docs.datama.io`) servi par Cloudflare ?
-5. Faut-il recenser les **liens d'aide codés en dur** dans l'app et les extensions (`datama-os`) avant de déplacer les pages ?
+## 7. Garde-fous « URL inchangées »
+- Aucun `git mv` ni suppression de page `.md` ou `.html`.
+- Aucun changement de `permalink` (ni dans `_config.yml`, ni dans les frontmatters).
+- Vérification à chaque lot : on compare la liste des URL produites par le build (`_site/**/*.html`) avant et après. Le seul écart toléré est un nouveau fichier.
