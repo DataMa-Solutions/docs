@@ -1,1102 +1,1991 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://Datama-solutions.github.io/docs/</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/source</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/release.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/tip_of_the_week.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/use_cases_of_the_month.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/web_application.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/input.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/input/source.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/input/metric_relation.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/google_sheet.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/excel_file.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/csv_file.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/google_analytics.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/google_bigquery.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/tableau.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/tableau_demo/tableau_demo.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/PowerBI.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/DataIku.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/Alteryx.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/save.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/loaded_version.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/tableau.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/excel.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/powerBI.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/document.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/url.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/slack_mail.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/static_url.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/change_metrics_relation.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/recent_features.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/menu.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/menu/definitions.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/menu/filters.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/waterfall.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/waterfall/covariance.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/waterfall/summary_view.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/dimensions.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/modeling_components.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/value_boxes.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/summary_chart.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/funnel.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/moves.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/bridge.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/detailed_bridge.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/overview.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/settings.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/aggregation.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/smart_dimension.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/compare_of_compare.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/split_mix_and_perf.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/display_options.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/general_introduction.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/use_cases_examples.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/value_boxes.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance/dimension_comparison.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance/decision_tree.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/dimension_importance/table.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/clustering.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/clustering/simple_chart.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/clustering/clustered_chart.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/interdependence.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/interdependence_detailed_view.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/dashboard/interdependence_detailed_view/sankey.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/tree_depth.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/aggregation_in_percent.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/value_boxes.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/bernoulli.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/other.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/forecasting.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/bayesian_bernoulli.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/volatility.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/anomaly_detection.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/weight_frequentist.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/general_introduction.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/use_cases_examples.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/use_cases_examples/website_cross_page_journeys.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/use_cases_examples/website_intra_page_AB_test.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/use_cases_examples/online_acquisition.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/model.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/priority.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/opportunity_value.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/feasability.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/lost_value.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/data.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/pareto.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/sunburst.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/simple_stat.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow/relative.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/data.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/attribution_model.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/journey_separator.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/simplification_of_journeys.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/number_of_steps_displayed.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/source.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/Datama_on_premise.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/use_cases_examples.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/web_performance_GA.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/marketing_campaign.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/marketing_continuous.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/marketing_scope.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/product_AB_test.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/finance_controlling.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/Content_CS.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/licence_terms.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/licence_terms/privacy_policy.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/licence_terms/terms_of_service.html</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/Datama_on_premise</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/tableau</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/DataIku</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/extensions/Alteryx</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/input/source</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/input/metric_relation</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/use_cases_examples</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/tableau</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/excel</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/document</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/export_results/url</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/create_new_use_case/excel_file</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/menu/start_end_help</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/menu/ratio_helper</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/waterfall</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/waterfall/summary_view</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/mix_effect</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/home/use_cases/marketing_continuous</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/waterfall/covariance</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/chart/zoomed_view</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/summary_chart</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/waterfall/funnel</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/menu/definitions</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/dimension_analysis/performance_effect</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/moves</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/bridge</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/dashboard/detailed_view/detailed_bridge</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/model/dimensions</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/aggregation</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/smart_dimension</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/included_steps</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/compare_of_compare</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/split_mix_and_perf</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/compare/web_application/menu/display_options</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/tree_depth</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/pivot/web_application/menu/settings/aggregation_in_percent</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/bernoulli</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/frequentist/other</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/forecasting</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models/bayesian_bernoulli</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/test_to_compute</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/confidence_interval</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/menu/settings/use_cases_examples/aggregation_in_percent</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/impact/web_application/dashboard/models</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/priority</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/opportunity_value</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/feasability</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/lost_value</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/attribution/data</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/pareto</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/sunburst</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/descriptive_comparison/sunburst_diff</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/simple_stat</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/flow/relative</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/dashboard/detailed_view/data</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/attribution_model</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/journey_separator</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/simplification_of_journeys</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/journey/web_application/menu/settings/number_of_steps_displayed</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://Datama-solutions.github.io/docs/core_app/header/input/metric_relation?id=metric-relation</loc>
-  <lastmod>2021-10-21T12:51:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://datama-solutions.github.io/docs/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/licence_terms.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/licence_terms/privacy_policy.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/licence_terms/terms_of_service.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/Datama_on_premise.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/admin/Power_BI_privacy_policy.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/admin/licence_terms.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/admin/privacy_policy.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/admin/terms_of_service.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/assess.html</loc>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/assess_header.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/assess_interface.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/assess_introduction.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model/bayesian.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model/bootstrap.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model/causal.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model/forecast.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model/frequentist.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/model/volatility.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/assess/settings.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/calendar/Calendar.html</loc>
+    <lastmod>2026-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/calendar/Calendar_interest.html</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/calendar/calendar_compare.html</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/calendar/calendar_creation.html</loc>
+    <lastmod>2026-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/calendar/calendar_detect.html</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/calendar/calendar_explore.html</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/compare.html</loc>
+    <lastmod>2025-08-29</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/compare_interface.html</loc>
+    <lastmod>2025-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/compare_introduction.html</loc>
+    <lastmod>2025-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/bridge.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/compare_header.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/detailed_view.html</loc>
+    <lastmod>2025-08-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/dimensions.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/moves.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/subheader/drill_down_hierarchy.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/subheader/secondary_comparison.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/subheader/settings.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/table.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/interface/waterfall.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/model/covariance.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/model/dimension_analysis_mix.html</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/model/dimension_analysis_performance.html</loc>
+    <lastmod>2025-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/model/model.html</loc>
+    <lastmod>2025-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/compare/model/modeling_components.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/detect/detect.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/detect/detect_header.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/detect/detect_interface.html</loc>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/detect/detect_introduction.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/detect/detection_method.html</loc>
+    <lastmod>2025-08-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/detect/settings.html</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/AI/Introduction.html</loc>
+    <lastmod>2025-12-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/AI/OpenAi-connect.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/PowerBI.html</loc>
+    <lastmod>2025-08-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/PowerBI_demo.html</loc>
+    <lastmod>2025-08-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/integrations.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/tableau.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/integration/tableau_compare_demo.html</loc>
+    <lastmod>2025-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/account.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/general.html</loc>
+    <lastmod>2025-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/header/data.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/header/export.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/header/file.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/header/header.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/header/help.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/header/solutions_header.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/admin/admin.html</loc>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/admin/licences.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/admin/security.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/admin/statistic.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/admin/workbook_limits.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/Content_CS.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/acquisition_display.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/anomaly_detection.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/churn_rate.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/display_campaign.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/finance_controlling.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/get_inspired.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/marketing_campaign.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/marketing_continuous.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/marketing_scope.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/product_AB_test.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/retail_categories.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/retail_performance.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/get_inspired/web_performance_GA.html</loc>
+    <lastmod>2026-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/homepage.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/homepage_header.html</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/user_preferences.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/homepage/workbooks_management.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/interface.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/payment.html</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/dimension_comparison.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/dimension_helper.html</loc>
+    <lastmod>2025-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/filters.html</loc>
+    <lastmod>2025-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/metrics_relation.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/settings.html</loc>
+    <lastmod>2025-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/settings/aggregation.html</loc>
+    <lastmod>2025-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/settings/clustering.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/interface/subheader/subheader.html</loc>
+    <lastmod>2025-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/general_introduction.html</loc>
+    <lastmod>2026-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/interface/attribution.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/interface/descriptive_comparison.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/interface/detailed_view.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/interface/journey_header.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/interface/journey_interface.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/journey.html</loc>
+    <lastmod>2024-04-03</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/model.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/use_cases_examples.html</loc>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/use_cases_examples/online_acquisition.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/use_cases_examples/website_cross_page_journeys.html</loc>
+    <lastmod>2024-08-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/journey/use_cases_examples/website_intra_page_AB_test.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/pivot/interface/subheader/settings.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/pivot/pivot.html</loc>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/pivot/pivot_interface.html</loc>
+    <lastmod>2025-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/pivot/pivot_introduction.html</loc>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/pivot/settings.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/dataset.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/add_source.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/block_output.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/calculated_fields.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/direct_query.html</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/extract_analysis.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/focusExcluded_dimensions.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/google_trend.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/metrics_relation.html</loc>
+    <lastmod>2026-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/refine_data.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/threshold.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/interface/unit.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/prep.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/prep/prep_interface.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new/tutorial/first_use.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/core_app/new_docs.html</loc>
+    <lastmod>2025-02-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/dev/templates_posts/YYYY-MM-DD-release_note.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/dev/templates_posts/YYYY-MM-DD-tip-of-the-week-XX.html</loc>
+    <lastmod>2025-02-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/dev/templates_posts/YYYY-MM-DD-tip-of-the-week-fr-XX.html</loc>
+    <lastmod>2025-02-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/dev/templates_posts/YYYY-MM-DD-use-case-of-the-month-XX.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/06/01/use-case-of-the-month-4.html</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/07/01/use-case-of-the-month-5.html</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/08/01/use-case-of-the-month-6.html</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/08/02/tip-of-the-week-84.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/08/03/tip-of-the-week-85.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/08/04/tip-of-the-week-86.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/08/31/tip-of-the-week-87.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/09/01/use-case-of-the-month-7.html</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/09/07/tip-of-the-week-88.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/09/12/release_note.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/09/14/tip-of-the-week-89.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/09/21/tip-of-the-week-90.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/09/28/tip-of-the-week-91.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/10/01/release_note.html</loc>
+    <lastmod>2024-01-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/10/02/tip-of-the-week-92.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/10/09/tip-of-the-week-93.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/10/16/tip-of-the-week-94.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/10/23/tip-of-the-week-95.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/11/01/release_note.html</loc>
+    <lastmod>2024-04-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/11/09/tip-of-the-week-96.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/11/16/tip-of-the-week-97.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/11/23/tip-of-the-week-98.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/11/30/tip-of-the-week-99.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/12/05/release_note.html</loc>
+    <lastmod>2023-12-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/12/07/tip-of-the-week-100.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2023/12/14/tip-of-the-week-101.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/01/04/tip-of-the-week-102.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/01/11/tip-of-the-week-103.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/01/18/tip-of-the-week-104.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/01/26/use-case-of-the-month-lacoste-archive.html</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/02/02/tip-of-the-week-105.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/02/08/use-case-of-the-month-8.html</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/02/15/tip-of-the-week-106.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/02/21/release_note.html</loc>
+    <lastmod>2024-03-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/02/29/tip-of-the-week-107.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/03/07/use-case-of-the-month-9.html</loc>
+    <lastmod>2024-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/03/14/tip-of-the-week-108.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/03/21/tip-of-the-week-109.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/03/28/tip-of-the-week-110.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/04/02/release_note.html</loc>
+    <lastmod>2024-04-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/04/11/tip-of-the-week-111.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/04/18/tip-of-the-week-112.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/04/24/tip-of-the-week-113.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/05/03/release_note.html</loc>
+    <lastmod>2024-05-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/05/23/tip-of-the-week-114.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/06/06/tip-of-the-week-115.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/06/13/release_note.html</loc>
+    <lastmod>2024-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/06/13/tip-of-the-week-116.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/06/27/tip-of-the-week-117.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/07/05/tip-of-the-week-118.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/07/11/tip-of-the-week-119.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/07/15/use-case-of-the-month-10.html</loc>
+    <lastmod>2024-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/07/18/tip-of-the-week-120.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/07/22/release_note.html</loc>
+    <lastmod>2024-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/08/29/tip-of-the-week-121.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/09/04/release_note.html</loc>
+    <lastmod>2024-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/09/05/tip-of-the-week-122.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/09/12/blog-article.html</loc>
+    <lastmod>2025-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/09/19/tip-of-the-week-124.html</loc>
+    <lastmod>2024-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/09/26/tip-of-the-week-125.html</loc>
+    <lastmod>2024-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/10/03/tip-of-the-week-126.html</loc>
+    <lastmod>2024-10-03</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/10/10/tip-of-the-week-127.html</loc>
+    <lastmod>2024-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/10/21/release_note.html</loc>
+    <lastmod>2024-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/10/24/tip-of-the-week-128.html</loc>
+    <lastmod>2024-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/10/31/tip-of-the-week-129.html</loc>
+    <lastmod>2024-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/11/07/tip-of-the-week-130.html</loc>
+    <lastmod>2024-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/11/20/release_note.html</loc>
+    <lastmod>2025-01-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/11/28/tip-of-the-week-131.html</loc>
+    <lastmod>2024-11-28</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/12/05/tip-of-the-week-132.html</loc>
+    <lastmod>2024-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2024/12/20/tip-of-the-week-133.html</loc>
+    <lastmod>2024-12-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/01/02/happy-new-year.html</loc>
+    <lastmod>2025-01-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/01/10/tip-of-the-week-134.html</loc>
+    <lastmod>2025-01-10</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/01/15/release_note.html</loc>
+    <lastmod>2025-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/01/16/tip-of-the-week-135.html</loc>
+    <lastmod>2025-01-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/01/30/tip-of-the-week-136.html</loc>
+    <lastmod>2025-01-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/02/07/tip-of-the-week-137.html</loc>
+    <lastmod>2025-02-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/02/13/tip-of-the-week-138.html</loc>
+    <lastmod>2025-02-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/02/20/use-case-of-the-month-11.html</loc>
+    <lastmod>2025-02-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/02/27/release_note.html</loc>
+    <lastmod>2025-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/02/27/tip-of-the-week-139.html</loc>
+    <lastmod>2025-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/03/13/reminder-NPS.html</loc>
+    <lastmod>2025-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/03/27/release_note.html</loc>
+    <lastmod>2025-03-28</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/03/27/tip-of-the-week-141.html</loc>
+    <lastmod>2025-03-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/04/10/use-case-of-the-month-12.html</loc>
+    <lastmod>2025-04-10</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/04/17/tip-of-the-week-142.html</loc>
+    <lastmod>2025-04-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/04/23/tip-of-the-week-143.html</loc>
+    <lastmod>2025-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/04/29/release_note.html</loc>
+    <lastmod>2025-04-28</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/05/22/tip-of-the-week-144.html</loc>
+    <lastmod>2025-05-22</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/05/29/release_note.html</loc>
+    <lastmod>2025-06-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/06/12/blog-article.html</loc>
+    <lastmod>2025-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/06/19/tip-of-the-week-145.html</loc>
+    <lastmod>2025-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/06/30/release_note.html</loc>
+    <lastmod>2025-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/07/03/tip-of-the-week-146.html</loc>
+    <lastmod>2025-07-03</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/07/17/tip-of-the-week-147.html</loc>
+    <lastmod>2025-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/07/24/tip-of-the-week-148.html</loc>
+    <lastmod>2025-07-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/07/30/release_note.html</loc>
+    <lastmod>2025-08-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/07/31/tip-of-the-week-149.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/08/14/tip-of-the-week-150.html</loc>
+    <lastmod>2025-08-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/08/21/tip-of-the-week-151.html</loc>
+    <lastmod>2025-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/09/11/tip-of-the-week-152.html</loc>
+    <lastmod>2025-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/09/18/tip-of-the-week-153.html</loc>
+    <lastmod>2025-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/09/24/release_note.html</loc>
+    <lastmod>2025-09-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/09/25/tip-of-the-week-154.html</loc>
+    <lastmod>2025-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/10/09/tip-of-the-week-155.html</loc>
+    <lastmod>2025-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/10/16/tip-of-the-week-156.html</loc>
+    <lastmod>2025-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/10/23/tip-of-the-week-157.html</loc>
+    <lastmod>2025-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/10/29/release_note.html</loc>
+    <lastmod>2025-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/10/30/tip-of-the-week-158.html</loc>
+    <lastmod>2025-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/11/13/use-case-of-the-month-13.html</loc>
+    <lastmod>2025-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/11/20/tip-of-the-week-159.html</loc>
+    <lastmod>2025-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/11/27/release_note.html</loc>
+    <lastmod>2025-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/11/27/tip-of-the-week-160.html</loc>
+    <lastmod>2025-11-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/12/11/tip-of-the-week-161.html</loc>
+    <lastmod>2025-12-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/12/18/tip-of-the-week-162.html</loc>
+    <lastmod>2025-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2025/12/23/release_note.html</loc>
+    <lastmod>2025-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/01/08/tip-of-the-week-163.html</loc>
+    <lastmod>2026-01-08</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/01/15/tip-of-the-week-164.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/01/22/release_note.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/01/22/tip-of-the-week-165.html</loc>
+    <lastmod>2026-01-22</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/01/29/release_note.html</loc>
+    <lastmod>2026-02-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/01/29/use-case-of-the-month-14.html</loc>
+    <lastmod>2026-01-29</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/02/05/release_note.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/02/05/tip-of-the-week-166.html</loc>
+    <lastmod>2026-02-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/02/12/tip-of-the-week-167.html</loc>
+    <lastmod>2026-02-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/02/19/tip-of-the-week-168.html</loc>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/02/26/tip-of-the-week-169.html</loc>
+    <lastmod>2026-02-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/03/05/release_note.html</loc>
+    <lastmod>2026-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/03/05/use-case-of-the-month-15.html</loc>
+    <lastmod>2026-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/03/19/tip-of-the-week-170.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/03/26/release_note.html</loc>
+    <lastmod>2026-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/03/26/tip-of-the-week-171.html</loc>
+    <lastmod>2026-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/04/01/release_note.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/04/01/tip-of-the-week-172.html</loc>
+    <lastmod>2026-04-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/04/09/tip-of-the-week-173.html</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/04/16/tip-of-the-week-174.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/04/23/tip-of-the-week-175.html</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/04/30/tip-of-the-week-176.html</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/05/03/release_note.html</loc>
+    <lastmod>2026-05-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/05/04/release_note.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/05/04/tip-of-the-week-177.html</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/05/05/release_note.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/05/08/tip-of-the-week-178.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/05/28/tip-of-the-week-179.html</loc>
+    <lastmod>2026-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/06/04/use-case-of-the-month-16.html</loc>
+    <lastmod>2026-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/06/05/release_note.html</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/06/11/tip-of-the-week-180.html</loc>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/06/15/release_note.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/06/15/tip-of-the-week-181.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/06/25/tip-of-the-week-182.html</loc>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/02/tip-of-the-week-183.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/09/tip-of-the-week-184.html</loc>
+    <lastmod>2026-07-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/16/tip-of-the-week-185.html</loc>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/17/release_note.html</loc>
+    <lastmod>2026-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/23/tip-of-the-week-186.html</loc>
+    <lastmod>2026-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/29/release_note.html</loc>
+    <lastmod>2026-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/07/30/tip-of-the-week-187.html</loc>
+    <lastmod>2026-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/08/03/release_note.html</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/08/03/tip-of-the-week-188.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/01/release_note.html</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/01/tip-of-the-week-189.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/10/tip-of-the-week-190.html</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/15/release_note.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/17/tip-of-the-week-191.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/22/release_note.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/24/tip-of-the-week-192.html</loc>
+    <lastmod>2026-09-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/09/29/release_note.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/10/01/tip-of-the-week-193.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/10/08/tip-of-the-week-194.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/en/2026/10/15/tip-of-the-week-195.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-assess/concept.html</loc>
+    <lastmod>2025-12-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-assess/introduction.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-assess/settings.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-assess/structure.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/2026-feature.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/concept.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/introduction.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/market-equation-sub-steps.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/out-of-scope.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/settings.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/structure.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-compare/what-if.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-detect/concept.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-detect/introduction.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-detect/settings.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-detect/structure.html</loc>
+    <lastmod>2026-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-explore/concept.html</loc>
+    <lastmod>2025-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-explore/datama-explore.html</loc>
+    <lastmod>2026-01-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-explore/introduction.html</loc>
+    <lastmod>2026-07-03</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-explore/settings.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-explore/structure.html</loc>
+    <lastmod>2025-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/concept.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/datama-spreadsheet.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/introduction.html</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/settings.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/datama-spreadsheet/structure.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/Excel/privacy-policy.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/PowerPoint/privacy-policy.html</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/excel.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/excel_compare.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/excel_explore.html</loc>
+    <lastmod>2026-07-03</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/google-sheets.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/google-sheets_compare.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio.html</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio/privacy-policy.html</loc>
+    <lastmod>2025-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_assess.html</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_compare.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_detect.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_explore.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/looker-studio_spreadsheet.html</loc>
+    <lastmod>2026-05-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_assess.html</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_compare.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_detect.html</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_explore.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/power-bi_spreadsheet.html</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/power_bi.html</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/powerpoint.html</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/powerpoint_assess.html</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/powerpoint_compare.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/powerpoint_detect.html</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/powerpoint_explore.html</loc>
+    <lastmod>2026-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/pricing_plan_looker.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/pricing_plan_pbi.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/pricing_plan_qlik.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/pricing_plan_tableau.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/qlik.html</loc>
+    <lastmod>2025-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_assess.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_compare.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_detect.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_explore.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/qlik_spreadsheet.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_assess.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_compare.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_detect.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_explore.html</loc>
+    <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/tableau-viz_spreadsheet.html</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/how-to-use/tableau_viz.html</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/layer-source.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/skills/download.html</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/skills/install.html</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/skills/introduction.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/extensions/skills/use.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/08/02/tip-of-the-week-fr-84.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/08/03/tip-of-the-week-fr-85.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/08/04/tip-of-the-week-fr-86.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/08/31/tip-of-the-week-fr-87.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/09/07/tip-of-the-week-fr-88.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/09/14/tip-of-the-week-fr-89.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/09/21/tip-of-the-week-fr-90.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/09/28/tip-of-the-week-fr-91.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/10/02/tip-of-the-week-fr-92.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/10/09/tip-of-the-week-fr-93.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/10/16/tip-of-the-week-fr-94.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/10/23/tip-of-the-week-fr-95.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/11/09/tip-of-the-week-fr-96.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/11/16/tip-of-the-week-fr-97.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/11/23/tip-of-the-week-fr-98.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/11/30/tip-of-the-week-fr-99.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/12/07/tip-of-the-week-fr-100.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2023/12/14/tip-of-the-week-fr-101.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/01/04/tip-of-the-week-fr-102.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/01/11/tip-of-the-week-fr-103.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/01/18/tip-of-the-week-fr-104.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/02/02/tip-of-the-week-fr-105.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/02/15/tip-of-the-week-fr-106.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/02/29/tip-of-the-week-fr-107.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/03/14/tip-of-the-week-fr-108.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/03/21/tip-of-the-week-fr-109.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/03/28/tip-of-the-week-fr-110.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/04/11/tip-of-the-week-fr-111.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/04/18/tip-of-the-week-fr-112.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/04/25/tip-of-the-week-fr-113.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/05/23/tip-of-the-week-fr-114.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/06/06/tip-of-the-week-fr-115.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/06/13/tip-of-the-week-fr-116.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/06/27/tip-of-the-week-fr-117.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/07/05/tip-of-the-week-fr-118.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/07/11/tip-of-the-week-fr-119.html</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/07/18/tip-of-the-week-fr-120.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/08/29/tip-of-the-week-fr-121.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/09/05/tip-of-the-week-fr-122.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/09/12/blog-article.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/09/19/tip-of-the-week-fr-124.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/09/26/tip-of-the-week-fr-125.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/10/03/tip-of-the-week-fr-126.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/10/10/tip-of-the-week-fr-127.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/10/24/tip-of-the-week-fr-128.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/10/31/tip-of-the-week-fr-129.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/11/07/tip-of-the-week-fr-130.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/11/28/tip-of-the-week-fr-131.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/12/05/tip-of-the-week-132.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2024/12/20/tip-of-the-week-133.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/01/02/happy-new-year_fr.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/01/10/tip-of-the-week-134.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/01/16/tip-of-the-week-135.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/01/30/tip-of-the-week-136.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/02/07/tip-of-the-week-137.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/02/13/tip-of-the-week-138.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/02/27/tip-of-the-week-139.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/03/13/rappel-NPS.html</loc>
+    <lastmod>2025-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/03/27/tip-of-the-week-fr-141.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/04/17/tip-of-the-week-fr-142.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/04/23/tip-of-the-week-fr-143.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/05/22/tip-of-the-week-fr-144.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/06/12/blog-article.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/06/19/tip-of-the-week-fr-145.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/07/03/tip-of-the-week-fr-146.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/07/17/tip-of-the-week-fr-147.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/07/24/tip-of-the-week-fr-148.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/07/31/tip-of-the-week-fr-149.html</loc>
+    <lastmod>2025-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/08/14/tip-of-the-week-fr-150.html</loc>
+    <lastmod>2025-08-14</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/08/21/tip-of-the-week-fr-151.html</loc>
+    <lastmod>2025-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/09/11/tip-of-the-week-fr-152.html</loc>
+    <lastmod>2025-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/09/18/tip-of-the-week-fr-153.html</loc>
+    <lastmod>2025-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/09/25/tip-of-the-week-fr-154.html</loc>
+    <lastmod>2025-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/10/09/tip-of-the-week-fr-155.html</loc>
+    <lastmod>2025-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/10/16/tip-of-the-week-fr-156.html</loc>
+    <lastmod>2025-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/10/23/tip-of-the-week-fr-157.html</loc>
+    <lastmod>2025-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/10/30/tip-of-the-week-fr-158.html</loc>
+    <lastmod>2025-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/11/20/tip-of-the-week-fr-159.html</loc>
+    <lastmod>2025-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/11/27/tip-of-the-week-fr-160.html</loc>
+    <lastmod>2025-11-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/12/11/tip-of-the-week-fr-161.html</loc>
+    <lastmod>2025-12-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2025/12/18/tip-of-the-week-fr-162.html</loc>
+    <lastmod>2025-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/01/08/tip-of-the-week-fr-163.html</loc>
+    <lastmod>2026-01-08</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/01/15/tip-of-the-week-fr-164.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/01/22/tip-of-the-week-fr-165.html</loc>
+    <lastmod>2026-01-22</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/02/05/tip-of-the-week-fr-166.html</loc>
+    <lastmod>2026-02-05</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/02/12/tip-of-the-week-fr-167.html</loc>
+    <lastmod>2026-02-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/02/19/tip-of-the-week-fr-168.html</loc>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/02/26/tip-of-the-week-fr-169.html</loc>
+    <lastmod>2026-02-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/03/19/tip-of-the-week-fr-170.html</loc>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/03/26/tip-of-the-week-fr-171.html</loc>
+    <lastmod>2026-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/04/01/tip-of-the-week-fr-172.html</loc>
+    <lastmod>2026-04-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/04/09/tip-of-the-week-fr-173.html</loc>
+    <lastmod>2026-04-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/04/16/tip-of-the-week-fr-174.html</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/04/23/tip-of-the-week-fr-175.html</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/04/30/tip-of-the-week-fr-176.html</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/05/04/tip-of-the-week-fr-177.html</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/05/08/tip-of-the-week-fr-178.html</loc>
+    <lastmod>2026-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/05/28/tip-of-the-week-fr-179.html</loc>
+    <lastmod>2026-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/06/11/tip-of-the-week-fr-180.html</loc>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/06/15/tip-of-the-week-fr-181.html</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/06/25/tip-of-the-week-fr-182.html</loc>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/07/02/tip-of-the-week-fr-183.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/07/09/tip-of-the-week-fr-184.html</loc>
+    <lastmod>2026-07-09</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/07/16/tip-of-the-week-fr-185.html</loc>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/07/23/tip-of-the-week-fr-186.html</loc>
+    <lastmod>2026-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/07/30/tip-of-the-week-fr-187.html</loc>
+    <lastmod>2026-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/08/03/tip-of-the-week-fr-188.html</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/09/01/tip-of-the-week-fr-189.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/09/10/tip-of-the-week-fr-190.html</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/09/17/tip-of-the-week-fr-191.html</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/09/24/tip-of-the-week-fr-192.html</loc>
+    <lastmod>2026-09-24</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/10/01/tip-of-the-week-fr-193.html</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/10/08/tip-of-the-week-fr-194.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/fr/2026/10/15/tip-of-the-week-fr-195.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/release.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/tip_of_the_week.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/tip_of_the_week_fr.html</loc>
+    <lastmod>2025-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://datama-solutions.github.io/docs/use_cases_of_the_month.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
 </urlset>
