@@ -191,6 +191,7 @@
               type: h4
 
             - name: Advanced features
+              link: /extensions/datama-compare/2026-feature.html
               type: h4
               subnav:
                   - name: What If scenarios
