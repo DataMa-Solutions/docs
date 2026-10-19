@@ -18,4 +18,4 @@ New Datama Extensions version is out. Six upgrades to sharpen Compare and every 
 * **Hierarchical mix** 🪜 : cascade mix effects along the hierarchy so each level is measured against its parent.
 * **Excel Export output** 📤 : write waterfall results into a worksheet table on every compute, ready for your formulas.
 
-📖 Learn more about [Out of scope]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/out-of-scope.html) · [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html)
+📖 Learn more about [Out of scope]({{site.url}}{{site.baseurl}}/extensions/datama-compare/out-of-scope.html) · [Layer Source]({{site.url}}{{site.baseurl}}/extensions/layer-source.html)

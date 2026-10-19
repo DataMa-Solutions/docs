@@ -12,7 +12,7 @@ keywords: full app journey interface header
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_header.jpg">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/journey_header.jpg">
 
 <br>
 
@@ -48,7 +48,7 @@ Find here the main elements of the solution Header in Datama Journey:
 
 <br> -->
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/journey_settings.png">
 
 <br/>
 
@@ -65,11 +65,11 @@ By using the text input, you can change the seperator between steps of your jour
 
 **From**
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_separator_from.png"/></center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/journey_separator_from.png"/></center>
 
 **To**
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/journey_separator_to.png"/></center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/journey_separator_to.png"/></center>
 
 <br>
 

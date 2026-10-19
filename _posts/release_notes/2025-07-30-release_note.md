@@ -12,7 +12,7 @@ description: |
 ---
 
 * **Marketplace extension** (aka "Datama Light") [1.4.0.0]
-  * Assess: **Forecast method** is now available for Datama Assess. Forecast method allows to take in to account the seasonality of a KPI when assessing the significance of a variation. [Learn more]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html#4--forecast)
+  * Assess: **Forecast method** is now available for Datama Assess. Forecast method allows to take in to account the seasonality of a KPI when assessing the significance of a variation. [Learn more]({{site.url}}{{site.baseurl}}/extensions/datama-assess/concept.html#4--forecast)
 
 * **Wep app**
   * Prep: **Top X based on Rank** is a new method in clustering field calculation in the Prep clean block. It allows to keep only the top segments of a dimension based on a given metric, and cluster all other segments in an "Other" bucket.

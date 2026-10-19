@@ -12,7 +12,7 @@ keywords: light explore settings breakdown dimensions metrics extension plugin
 
 <br>
 
-<center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_settings.png"/></center>
+<center><img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_settings.png"/></center>
 
 <br>
 
@@ -29,7 +29,7 @@ _Find below how you can customize Datama Explore using the General settings_
 
 # 1. General Settings
 
-<center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_general_setting.png"/></center>
+<center><img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_general_setting.png"/></center>
 
 ## 1.1. Comparison definition
 
@@ -39,10 +39,10 @@ Defining a comparison is optional in Datama Explore but enables powerful variati
 
 1. **Add a comparison**: Select the dimension you want to use for comparison, then select 2 segments within that dimension. For example, select "Test Variant" as a dimension and "Variation A" and "Variation B" as the 2 segments.
 2. **Comparison Dimension**: Once defined, a "Comparison Dimension" becomes available in your dimension selection dropdowns, allowing you to analyze variations between your defined segments.
-<!-- <center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.gif"/></center> -->
+<!-- <center><img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/comparison_dimension.gif"/></center> -->
 3. **Variation Metrics**: When using a comparison, additional metrics become available showing absolute change (Δ) and percentage change (% Change) for all your KPIs and metrics.
 
-<center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/metric_variations.png"/></center>
+<center><img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/metric_variations.png"/></center>
 
 <br>
 
@@ -80,7 +80,7 @@ Select the metric to use for grouping calculations. This metric determines how s
 
 ### 1.3.2 Threshold
 
-Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the selected Main K.P.I will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
+Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the selected Main K.P.I will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
 ### 1.3.3 Method
 
@@ -100,16 +100,16 @@ Using metrics relation allows you to change your market equation, add a unit, re
 - When using comparison dimensions, variation metrics (Δ and % Change) are automatically calculated for all steps in your market equation.
 
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_market_equation.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_market_equation.png"/></center>
 
-<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
+<!-- ![img]({{site.url}}{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
 
 
 <br/>
 
 # 3. Plots
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/plots.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/plots.png"/></center>
 
 <br/>
 
@@ -120,7 +120,7 @@ Using metrics relation allows you to change your market equation, add a unit, re
 ### 3.1.1. Join missing values
 Collapse empty continuous values. When this option is enabled, the chart removes continuous intervals (such as dates or numeric ranges) that have no data, so the remaining values are displayed without gaps. This helps make time series or continuous charts look smoother by connecting only the periods that contain actual data, instead of showing empty spaces for missing values.
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Join_missing_value.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Join_missing_value.png"/></center>
 
 ### 3.1.2. Keep position
 
@@ -162,7 +162,7 @@ Controls the thickness (or boldness) of text labels on the chart, for example to
 
 ## 3.4. Legends
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/display_legend.png"/></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/display_legend.png"/></center>
 
 <br/>
 
@@ -197,7 +197,7 @@ With this option, the detection system will visually highlight the data point (e
 
 # 4. Preferences
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_preference.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_preference.png"/></center>
 
 These settings allow you to customize the application to fit with your company, you can also change the analysis language !
 
@@ -222,6 +222,6 @@ Display or hide chart.
 
 <br/>
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/structure.html) or [theoretical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/concept.html) of Datama.
+Get more information about extension [interface]({{site.url}}{{site.baseurl}}/extensions/datama-explore/structure.html) or [theoretical concept]({{site.url}}{{site.baseurl}}/extensions/datama-explore/concept.html) of Datama.
 
 <br>

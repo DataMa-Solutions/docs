@@ -11,7 +11,7 @@ keywords: Datama light detect Detect anomaly intro introduction
 
 > **Datama Detect plugin aims at evaluating over time the normality of a variation and explain it**
 
-<center><img style="width: 20%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-detect/assets/Power BI - Detect.png" alt="logo detect" /></center>
+<center><img style="width: 20%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-detect/assets/Power BI - Detect.png" alt="logo detect" /></center>
 
 <br>
 
@@ -36,8 +36,8 @@ You can use Datama Detect to monitor your main KPIs. If you have enough historic
 # 1. Concept and Design
 
 Quickly understand how Datama Detect can help you in your business analyses by following these links:
-- [Concept:]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/concept.html) Understand theory behing the graphs
-- [Interface]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/structure.html): Deep dive into the interface
+- [Concept:]({{site.url}}{{site.baseurl}}/extensions/datama-detect/concept.html) Understand theory behing the graphs
+- [Interface]({{site.url}}{{site.baseurl}}/extensions/datama-detect/structure.html): Deep dive into the interface
 
 
 <br>
@@ -45,10 +45,10 @@ Quickly understand how Datama Detect can help you in your business analyses by f
 # 2. Datama Extensions
 
 Embed Datama Detect in your reports quickly by following these links:
-- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
-- [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
-- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
+- [In LookerStudio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+- [In Power BI]({{site.url}}{{site.baseurl}}/extensions/how-to-use/power_bi.html)
+- [In Tableau]({{site.url}}{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
+- [In Qlik]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik.html)
 
 <br>
 
@@ -57,4 +57,4 @@ Embed Datama Detect in your reports quickly by following these links:
 <br>
 
 # 3. Going further:
-- [Advanced Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/settings.html)
+- [Advanced Settings]({{site.url}}{{site.baseurl}}/extensions/datama-detect/settings.html)

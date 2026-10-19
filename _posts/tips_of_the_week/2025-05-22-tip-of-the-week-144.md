@@ -13,4 +13,4 @@ Two new functions have been added to enhance your data transformation capabiliti
   * CASE(): Works like a CASE WHEN in SQL.
   * REGEX_CONTAINS(): Allows you to use regular expressions on strings and returns a Boolean ✅
 These additions facilitate the segmentation, cleansing and manipulation of your data directly in Datama 🚀
-Find all the functions available [here](https://datama-solutions.github.io//docs/core_app/new/prep/interface/calculated_fields.html) 👈
+Find all the functions available [here](https://datama-solutions.github.io/docs/core_app/new/prep/interface/calculated_fields.html) 👈

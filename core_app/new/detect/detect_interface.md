@@ -11,14 +11,14 @@ keywords: full app detect interface
 
 **Interface of Datama Detect:** 
 
-- [Header]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html) (find here general information about the Header)
-- [Subheader]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/subheader.html) (find here general information about the Subheader)
+- [Header]({{site.url}}{{site.baseurl}}/core_app/new/interface/header/header.html) (find here general information about the Header)
+- [Subheader]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/subheader.html) (find here general information about the Subheader)
 - [1st Slide](#1st-slide)
 - [2nd Slide](#2nd-slide)
 
 <br>
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_interface.png"/></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_interface.png"/></center>
 
 <br>
 
@@ -33,7 +33,7 @@ This slide represents a time series with all the anomalies (settings by default)
 
 Change the ratio your are analysing by using the dropdown in the title. Within the dropdown KPIs are split between <i>KPIs with anomalies</i> and <i>Others KPIs</i>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/detect/images/detect_dropdownKPIs.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/detect/images/detect_dropdownKPIs.jpg"/></center>
 
 By default Datama Detect is set to analyse each steps of your market equation but you can change it to only a specific step. (in <i>Settings</i>)
 

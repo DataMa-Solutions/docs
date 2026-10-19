@@ -19,13 +19,13 @@ The Datama Compare extension has different layouts depending on your mode:
 
 Single analysis section made for your user. Users can update graph display and play with the dashboard filters but will not be able to manage the setup of the use case.
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/viewer_view.png" alt="viewer_view of Datama Compare" title="Datama Compare - viewer_view" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/viewer_view.png" alt="viewer_view of Datama Compare" title="Datama Compare - viewer_view" /></center>
 
 ## 1.2 Builder mode
 
 Analysis workspace with a **side settings panel**, pinned views, and footer.
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/builder_view.png" alt="builder_view of Datama Compare" title="Datama Compare - builder_view" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/builder_view.png" alt="builder_view of Datama Compare" title="Datama Compare - builder_view" /></center>
 
 <br/>
 
@@ -38,9 +38,9 @@ Settings live **next to the chart** (left panel). The Compare panel starts **col
 - **Live**: Chart, Colors, Waterfall, Tree, and Table tweaks apply immediately
 - **Search**: find options faster in a dense panel
 
-For detailed options, see the [Settings guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
+For detailed options, see the [Settings guide]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html).
 
-**See Source** (header, left of Save) opens [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html): a preview of the data behind the visual (editable in PowerPoint, HTML exports and the AI skill; read-only in BI tools).
+**See Source** (header, left of Save) opens [Layer Source]({{site.url}}{{site.baseurl}}/extensions/layer-source.html): a preview of the data behind the visual (editable in PowerPoint, HTML exports and the AI skill; read-only in BI tools).
 
 <br/>
 
@@ -74,9 +74,9 @@ Common exploration actions:
 - Click **Remaining** to expand aggregated segments
 - **Add pillar** to insert a custom net checkpoint
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Analysis_icons.png" alt="Icons of Datama Compare" title="Icons of Datama Compare" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/Analysis_icons.png" alt="Icons of Datama Compare" title="Icons of Datama Compare" /></center>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Analysis_features.gif" alt="Analysis features interface of Datama Compare" title="Analysis features interface of Datama Compare" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Analysis_features.gif" alt="Analysis features interface of Datama Compare" title="Analysis features interface of Datama Compare" /></center>
 
 <br/>
 

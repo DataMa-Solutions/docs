@@ -17,7 +17,7 @@ keywords: skill download license AI agent
 2. In the platform list on the right, select **AI Skill**.
 3. Click **Download skill**.
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/skills/assets/download-ai-skill.png" alt="Download the Datama AI Skill from Web app integration" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/skills/assets/download-ai-skill.png" alt="Download the Datama AI Skill from Web app integration" /></center>
 
 <br/>
 
@@ -70,7 +70,7 @@ Before downloading, you can toggle **Include license in the skill package**:
 
 # 5. Next steps
 
-- [Install the skill]({{site.url}}/{{site.baseurl}}/extensions/skills/install.html) in your AI assistant host.
-- [Use the skill]({{site.url}}/{{site.baseurl}}/extensions/skills/use.html) with your data and natural-language prompts.
+- [Install the skill]({{site.url}}{{site.baseurl}}/extensions/skills/install.html) in your AI assistant host.
+- [Use the skill]({{site.url}}{{site.baseurl}}/extensions/skills/use.html) with your data and natural-language prompts.
 
 <br/>

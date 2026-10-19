@@ -12,7 +12,7 @@ keywords: full app prep get started 1st first uses use
 
 <br>
 
-Let's start with a simple case, with an Excel dataset. There are multiple [other ways]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html) to load data. 
+Let's start with a simple case, with an Excel dataset. There are multiple [other ways]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/add_source.html) to load data. 
 
 <br>
 
@@ -21,14 +21,14 @@ Let's start with a simple case, with an Excel dataset. There are multiple [other
 Check your columns: 
 - 1st column is what you want to compare (date, device, country…)
 - Followed by the rest of the dimensions (if any)
-- Afterwards come the metrics, quantitative columns which are summable (no ratio, %…) in the order of a funnel or what we call a [“Market Equation”]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).
+- Afterwards come the metrics, quantitative columns which are summable (no ratio, %…) in the order of a funnel or what we call a [“Market Equation”]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).
 
 <br>
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_checkData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_checkData.jpg"/></center>
 
 
-Read more about the [source]({{site.url}}/{{site.baseurl}}/core_app/new/prep/dataset.html)
+Read more about the [source]({{site.url}}{{site.baseurl}}/core_app/new/prep/dataset.html)
 
 <br>
 
@@ -40,7 +40,7 @@ In the “Get inspired” section you will find examples of workbooks in multipl
 
 Here is the Homepage of Datama with all the workbooks saved by you or your team
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.png"/></center>
+<center><img style="width:75%;" src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_addSource.png"/></center>
 
 Click "Add new workbook" to access Datama Prep and connect (or load) your data.
 
@@ -48,13 +48,13 @@ Click "Add new workbook" to access Datama Prep and connect (or load) your data.
 
 # <b>3. Step 3:</b> Add your source to Datama Prep
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.png"/></center>
+<center><img style="width:75%;" src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_connectData.png"/></center>
 
 <br>
 
 From the list of available connectors, select the one that matches your data source
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_loadData.jpg"/></center>
+<center><img style="width:75%;" src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_loadData.jpg"/></center>
 
 <br>
 
@@ -66,14 +66,14 @@ In the Datama output block:
 
 <br>
 
-<div class="info-box"> Read more about the <a href="{{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/block_output.html" target="_blank">Output block</a>
+<div class="info-box"> Read more about the <a href="{{site.url}}{{site.baseurl}}/core_app/new/prep/interface/block_output.html" target="_blank">Output block</a>
 </div>
 
 
 
 <br>
 
-<center><img style="width:75%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.png"/></center>
+<center><img style="width:75%;" src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_outputblock.png"/></center>
 
 If your dataset is properly split between dimensions and metrics, and the metrics relations makes sense, you can select a Datama solution.
 
@@ -91,9 +91,9 @@ A waterfall allows you to quickly identify and understand the factors that cause
 - Each step is a variation that explains the gap of -28.1% (mainly due to -11.7% of Users and -26.7% of Checkout/ Session)
 - When the Checkout/ Sessions drops from -26.7% it has an impact of 12,298€ on Revenue
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusWaterfall.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusWaterfall.jpg"/></center>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusStartEnd.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusStartEnd.jpg"/></center>
 
 <br>
 
@@ -101,17 +101,17 @@ After seeing the quantitative variation of your Revenue, it’s time to understa
 
 By clicking on a step, the graph displays the dimension that mainly explains the gap and the impact each element of this dimension has on that variation.
 
-Each variation is split between mix and performance (see [article]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) or the next section to understand the difference)
+Each variation is split between mix and performance (see [article]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html) or the next section to understand the difference)
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMixPerf.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMixPerf.jpg"/></center>
 
 <br>
 
 ## 5.2 The Moves « graph » is a representation of both Mix & Performance effect
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMoves.jpg"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/images/tuto_bonusMoves.jpg"/></center>
 
 <br>
 

@@ -11,13 +11,13 @@ keywords: Power BI get started powerbi
 
 <br/>
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_intropage.png" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/PBI_intropage.png" align="center" width="650px" />
 
 <br/>
 
 
 <div class="info-box">
- <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}/{{site.baseurl}}/core_app/new/integration/PowerBI_demo.html">version</a> available in the Power BI Marketplace. </div>
+ <strong>Note</strong>: Datama provides two different Power BI extension, the full extension (explained below) and the "light" <a href="{{site.url}}{{site.baseurl}}/core_app/new/integration/PowerBI_demo.html">version</a> available in the Power BI Marketplace. </div>
 
 <br>
 
@@ -61,7 +61,7 @@ Follow one or the other steps to install the Datama plugin:
     2. Search for "Compare - What's driving my variation".
     3. The visual will appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/LoadExtension_PowerBI.gif" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/LoadExtension_PowerBI.gif" align="center" width="650px" />
 
 <br/>
 
@@ -71,7 +71,7 @@ Follow one or the other steps to install the Datama plugin:
     3. Choose the Datama visual from the list provided.
     4. The visual will now appear as a new icon in the visualization pane. Click on it to create the visual on the report canvas.
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/powerbi_addvisual.PNG" align="center" width="130px" />
 <br/>
 
 # 4. Get a free trial period
@@ -89,7 +89,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 3. Create your Datama account
 4. Get your Trial extension with no engagement, and no credit card required
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
+See [here]({{site.url}}{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
 <br>
 
@@ -108,7 +108,7 @@ Once you've imported the extension, here is how you can use it.
 4. **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 
-<img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/ConfigDatasetPBI.gif" align="center" width="650px" />
+<img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/ConfigDatasetPBI.gif" align="center" width="650px" />
 
 <br/>
 
@@ -131,20 +131,20 @@ Once you've imported the extension, here is how you can use it.
 - By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom.
 - **In-depth exploration**: Click a step to open the strongest drivers. You can pin the **Table** or **Tree** view, add **custom pillars**, and keep comment / title in sync with the active split.
 
-To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
+To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
 <br/>
 
 # 7. Settings - Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings. 
 
 
 <br/>
 
 # 8. Get more insights
 
-Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+Explore related documentation to understand how to generate and read insights in [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 <br/>
 

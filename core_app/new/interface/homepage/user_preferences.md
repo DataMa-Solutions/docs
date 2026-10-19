@@ -17,7 +17,7 @@ Color palette and default language for example can be modified at both level.
 
 <br>
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.png"/></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/images/User_preferences.png"/></center>
 
 
 <br>
@@ -47,7 +47,7 @@ Grayscale, scattered and Custom.
 The custom method allows to refine color by color all the graphs available in the solution.
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/colors_palette.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/settings/images/colors_palette.png"/></center>
 
 - Select <i>>custom</i> in the dropdown meny : "Colors Palette for plots"
 - Click to the palette to Edit the colors
@@ -78,7 +78,7 @@ When activated, this toggle allows to automatically display large numbers with a
 
 The rounding setting will bypass the smart rounding available in Datama which adapts the number of decimals according to each number.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/settings/images/force_rounding.png"/></center>
 
 <br/>
 
@@ -87,8 +87,8 @@ The rounding setting will bypass the smart rounding available in Datama which ad
 <br/>
 
 The settings is detailed separately for each solution :
-- [Compare]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
-- [Pivot]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html)
-- [Journey]({{site.url}}/{{site.baseurl}}docs/core_app/new/journey/interface/journey_header.html)
-- [Detect]({{site.url}}/{{site.baseurl}}/core_app/new/detect/settings.html)
-- [Assess]({{site.url}}/{{site.baseurl}}/core_app/new/assess/settings.html)
+- [Compare]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings.html)
+- [Pivot]({{site.url}}{{site.baseurl}}/core_app/new/pivot/interface/subheader/settings.html)
+- [Journey]({{site.url}}{{site.baseurl}}docs/core_app/new/journey/interface/journey_header.html)
+- [Detect]({{site.url}}{{site.baseurl}}/core_app/new/detect/settings.html)
+- [Assess]({{site.url}}{{site.baseurl}}/core_app/new/assess/settings.html)

@@ -22,7 +22,7 @@ This documentation provides an overview of how Datama Compare works and guides y
 
 <br>
 <center>
-    <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" width="70%" />
+    <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/images/compare_introduction.png" width="70%" />
 </center>
 
 
@@ -38,9 +38,9 @@ Datama Compare works with first-party data collected directly by your company, w
 
 Here are the subsections you will find in this chapter:
 
-- [**Concept**]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/concept.html): discover the key principles of Datama Compare and how they apply to business use cases.
+- [**Concept**]({{site.url}}{{site.baseurl}}/extensions/datama-compare/concept.html): discover the key principles of Datama Compare and how they apply to business use cases.
 
-- [**Model**]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html): explore the model structure and its components (covariance, mix, performance, etc.).
+- [**Model**]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/model.html): explore the model structure and its components (covariance, mix, performance, etc.).
 
 <br>
 ---------------------

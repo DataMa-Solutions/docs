@@ -12,7 +12,7 @@ keywords: light compare settings assess extension plugin
 
 <br>
 
-<center><img style="width: 50%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/assess_settings.png"/></center>
+<center><img style="width: 50%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-assess/assets/assess_settings.png"/></center>
 
 <br>
 
@@ -60,14 +60,14 @@ Time series :
 - Volatility
 - Forecast
 
-See [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) to learn more.
+See [concept]({{site.url}}{{site.baseurl}}/extensions/datama-assess/concept.html) to learn more.
 <br>
 
 ### 1.2.3 Level of confidence
 
 Confidence interval is set in % to decide the level of confidence, or statistical power of your assessment. It ranges from 50% to 99%.
 
-Depending on the test you are performing, this input can be used in different ways. Please refer to the [concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) section for more details
+Depending on the test you are performing, this input can be used in different ways. Please refer to the [concept]({{site.url}}{{site.baseurl}}/extensions/datama-assess/concept.html) section for more details
 
 ### 1.2.4 Test side
 
@@ -101,7 +101,7 @@ Only available for Volatility test, this input affords the possibility to limit 
 ## 1.3 Grouping
 
 ### 1.3.1 Group values representation less than (%)
-Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
+Sets the model's aggregation level – if set at X%, segments within each dimension that represent less than X% of the Primary Numerator (e.g., Revenues) will be clustered into an "Other" segment. Default is 2%, but you may want to adjust this parameter as it can significantly impact the calculation of mix effects. [See details]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/settings/aggregation.html)
 
 **Method** chooses how segments are pooled into "Other": **Smallest segments** (default) pools every segment below the threshold; **Long tail** ranks segments by absolute value and pools the smallest ones while their cumulated weight stays within the threshold, so "Other" never exceeds X% of the KPI. Recommended for dimensions with hundreds of small values (SKUs, stores, cities). Numeric dimensions are cut into value ranges instead of one segment per value.
 
@@ -121,9 +121,9 @@ Using metrics relation allows you to change your market equation, add a unit, re
 - When changing the Unit to '%', in addition to change the unit, it also multiplies your figures by 100.
 
 
-<center><img style="align: right; width: 600px;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/metrics_relation.png"/></center>
+<center><img style="align: right; width: 600px;" src="{{site.url}}{{site.baseurl}}/extensions/datama-assess/assets/metrics_relation.png"/></center>
 
-<!-- ![img]({{site.url}}/{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
+<!-- ![img]({{site.url}}{{site.baseurl}}/extensions/assets/gif/PBI_MetricsRelation.PNG){: style="align: center; width: 500px;"} -->
 
 
 <br/>
@@ -135,7 +135,7 @@ These settings allow you to customize the application to fit with your company, 
 ### 3.1. Language
 
  For now only French and English are available, let's us now if you want a new language to be added. 
-<!-- <center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-assess/assets/preferences_assess.png"/></center> -->
+<!-- <center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-assess/assets/preferences_assess.png"/></center> -->
 <br/>
 
 ### 3.2. Fonts & Size
@@ -150,6 +150,6 @@ These settings allow you to customize the application to fit with your company, 
 
 <br/>
 
-Get more information about extension [interface]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/structure.html) or [therotical concept]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/concept.html) of Datama.
+Get more information about extension [interface]({{site.url}}{{site.baseurl}}/extensions/datama-assess/structure.html) or [therotical concept]({{site.url}}{{site.baseurl}}/extensions/datama-assess/concept.html) of Datama.
 
 <br>

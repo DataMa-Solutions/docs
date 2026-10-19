@@ -9,7 +9,7 @@ keywords: full app prep interface
 
 > This section presents the interface of **Datama Prep**
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/prep/images/prep_interfaceSchema.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/prep/images/prep_interfaceSchema.png"/></center>
 
 
 The interface is composed of multiple panels:
@@ -18,7 +18,7 @@ The interface is composed of multiple panels:
 
 The first is the header where you can edit your flow name, open another flow, save it or delete it through the “file” menu. Then when saved, the “Data” menu enables you to schedule the flow (run and pre-cache the flow) or you can analyze it in a solution of your choice.
 
-Find details about the [Header menu]({{site.url}}/{{site.baseurl}}/core_app/new/interface/header/header.html)
+Find details about the [Header menu]({{site.url}}{{site.baseurl}}/core_app/new/interface/header/header.html)
 
 <br>
 
@@ -28,7 +28,7 @@ The sidebar contains a solutions sidebar (to help you navigate through our solut
 
 <br>
 
-Find details about the available [connectors and operators]({{site.url}}/{{site.baseurl}}/core_app/new/prep/interface/add_source.html)
+Find details about the available [connectors and operators]({{site.url}}{{site.baseurl}}/core_app/new/prep/interface/add_source.html)
 
 <br>
 

@@ -1,22 +1,30 @@
-<!--
-  ~ DATAMA SAS
-  ~ --------------
-  ~ NOTICE:  All information contained herein is, and remains
-  ~ the property of DataMa SAS and/or some open source packages used
-  ~ if any.  The intellectual and technical concepts contained
-  ~ herein are proprietary to DataMa SAS
-  ~ and its suppliers and may be covered by French and Foreign Patents,
-  ~ patents in process, and are protected by trade secret or copyright law.
-  ~ Dissemination of this information or reproduction of this material
-  ~ is strictly forbidden unless prior written permission is obtained
-  ~ from DataMa SAS.
-  ~ Notice created by Django <django@datama.fr>, Wazhabits <anatole@datama.fr> updated by Anatole Piveteau
-  ~ Copyright (c) 2024 DATAMA SAS, All rights reserved.
-  ~ Generated for file : footer.html project project-deep-sky
-  -->
-
-<footer>
-    <p style="font-size: 12px; text-align: right; font-style: italic; ">
-        Powered with <i class="fas fa-heart" style="color: #00484a;"></i> by <a href="https://Datama.io" target="_blank">Datama</a>
-    </p>
+<footer class="site-footer">
+    <div class="site-footer__top">
+        <div class="site-footer__brand">
+            <a href="https://datama.io" target="_blank" rel="noopener" aria-label="Datama website">
+                <img src="{{site.url}}{{site.baseurl}}/assets/images/Logo_Datama_Blanc.svg" alt="Datama" width="110" height="24">
+            </a>
+            <p>Your data mate. The why behind your numbers, in every tool you use.</p>
+        </div>
+        <nav class="site-footer__links" aria-label="Footer">
+            <ul>
+                <li class="site-footer__title">Documentation</li>
+                <li><a href="{{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html">Get started</a></li>
+                <li><a href="{{site.url}}{{site.baseurl}}/release.html">Release notes</a></li>
+                <li><a href="{{site.url}}{{site.baseurl}}/tip_of_the_week.html">Tips of the week</a></li>
+            </ul>
+            <ul>
+                <li class="site-footer__title">Datama</li>
+                <li><a href="https://datama.io" target="_blank" rel="noopener">Website</a></li>
+                <li><a href="https://app.datama.io" target="_blank" rel="noopener">Sign in</a></li>
+                <li><a href="https://www.linkedin.com/company/datama/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+            <ul>
+                <li class="site-footer__title">Legal</li>
+                <li><a href="{{site.url}}{{site.baseurl}}/core_app/new/admin/privacy_policy.html">Privacy policy</a></li>
+                <li><a href="{{site.url}}{{site.baseurl}}/core_app/new/admin/terms_of_service.html">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </div>
+    <p class="site-footer__bottom">© {{ site.time | date: "%Y" }} Datama. All rights reserved.</p>
 </footer>

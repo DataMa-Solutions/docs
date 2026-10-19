@@ -1,101 +1,10 @@
 ---
 ---
 jsonLoaded = false
-const search = new Sws('{{site.url}}/{{site.baseurl}}/search.json')
-
-let expanded = [];
-
+const search = new Sws('{{site.url}}{{site.baseurl}}/search.json')
 
 document.addEventListener('DOMContentLoaded', function() {
-    const sidebarMenu = document.querySelector('#menu')
-    // Restore scroll position if saved
-    const savedScrollPosition = localStorage.getItem('menuScrollPosition')
-    if (savedScrollPosition && sidebarMenu) {
-        sidebarMenu.scrollTop = savedScrollPosition
-    }
-    
-    // Save scroll position on click
-    sidebarMenu.addEventListener('click', function(event) {
-        if (event.target.tagName === 'A') {
-            localStorage.setItem('menuScrollPosition', sidebarMenu.scrollTop)
-        }
-    })
-
-    // Reset expanded array
-    expanded = []
-
-    // Set active state for current page and open only its parent menus
-    const currentPath = location.pathname
-    const currentLink = document.querySelector(`a[href$="${currentPath}"]`)
-    if (currentLink) {
-        currentLink.classList.add('active')
-        // Open parent menus
-        let parent = currentLink.parentElement
-        while (parent) {
-            if (parent.tagName === 'UL') {
-                parent.classList.add('open')
-                const parentLink = parent.previousElementSibling
-                if (parentLink && parentLink.tagName === 'A') {
-                    const collapser = parentLink.querySelector('.collapser')
-                    if (collapser) {
-                        collapser.classList.add('active')
-                        const path = parentLink.getAttribute('href')
-                        if (path && !expanded.includes(path)) {
-                            expanded.push(path)
-                        }
-                    }
-                }
-            }
-            parent = parent.parentElement
-        }
-        // Save only the current page's open sections
-        Cookies.set('menu', expanded.join(','))
-    }
-
-    if (window.innerWidth < 700) {
-        document.body.classList.add('menu-close')
-    }
-
-    /**
-     * Aside open/close
-     */
-    document.getElementById('burger').addEventListener('click', (e) => {
-        e.preventDefault()
-        document.body.classList.toggle('menu-close')
-    })
-
-    document.querySelectorAll('aside>nav li>a').forEach(link => {
-        link.addEventListener('click', e => {
-            const collapser = e.target.querySelector('.collapser')
-            if (collapser) {
-                collapser.click()
-            }
-        })
-    })
-
-    document.querySelectorAll('aside>nav .collapser').forEach(collapser => {
-        collapser.addEventListener('click', (e) => {
-            e.preventDefault()
-            e.stopPropagation()
-            
-            const link = e.target.parentElement
-            const subMenu = link.nextElementSibling
-            
-            e.target.classList.toggle('active')
-            if (subMenu) subMenu.classList.toggle('open')
-            
-            const path = link.getAttribute('href')
-            const index = expanded.indexOf(path)
-            
-            if (index === -1) {
-                expanded.push(path)
-            } else {
-                expanded.splice(index, 1)
-            }
-            
-            Cookies.set('menu', expanded.join(','))
-        })
-    })
+    setupMenu()
 
     // Insert a <br> before content h1 if missing (exclude page title and welcome hero)
     const main = document.querySelector('main')
@@ -114,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.addEventListener('scroll', () => {
     const welcomeBounce = document.querySelector('.welcome>.bounce')
-    const aside = document.querySelector('body>aside')
     
     if (window.scrollY < document.body.offsetHeight / 3) {
         if (welcomeBounce) {
@@ -130,15 +38,6 @@ window.addEventListener('scroll', () => {
         }
     }
 
-    if (aside) {
-        if (window.scrollY > aside.offsetTop && !aside.classList.contains('fixed')) {
-            aside.dataset.offset = aside.offsetTop
-            aside.classList.add('fixed')
-        } else if (window.scrollY < aside.offsetTop || 
-                  (aside.dataset.offset && window.scrollY < parseInt(aside.dataset.offset))) {
-            aside.classList.remove('fixed')
-        }
-    }
 })
 
 document.getElementById('gotoDoc')?.addEventListener('click', (e) => {
@@ -214,4 +113,91 @@ function downloadLightVizTrex(e, solution='compare') {
             document.body.removeChild(element);
         })
         .catch((e) => console.error(e));
+}
+/**
+ * Sidebar menu: open the current page's branch, expand/collapse sections,
+ * keep the current page visible, and the mobile drawer.
+ */
+function setupMenu() {
+    const menu = document.getElementById('menu')
+    if (!menu) return
+    const nav = menu.querySelector('nav')
+    const MOBILE = window.matchMedia('(max-width: 767px)')
+    localStorage.removeItem('menuScrollPosition') // replaced by sessionStorage below
+
+    const setOpen = (item, open) => {
+        item.classList.toggle('is-open', open)
+        const collapser = item.querySelector(':scope > .nav-row > .collapser')
+        if (collapser) collapser.setAttribute('aria-expanded', open ? 'true' : 'false')
+    }
+
+    // Initial state without animation
+    menu.classList.add('menu-no-anim')
+
+    // Current page: highlight it, open its own section and every parent
+    const current = [...nav.querySelectorAll('a.nav-link')].find(a => {
+        const url = new URL(a.href, location.href)
+        return url.pathname === location.pathname && !url.hash
+    })
+    if (current) {
+        current.classList.add('active')
+        current.setAttribute('aria-current', 'page')
+        const item = current.closest('.nav-item')
+        if (item.classList.contains('has-children')) setOpen(item, true)
+        let parent = item.parentElement.closest('.nav-item')
+        while (parent) {
+            parent.classList.add('is-ancestor')
+            setOpen(parent, true)
+            parent = parent.parentElement.closest('.nav-item')
+        }
+    }
+
+    // Expand / collapse: the chevron, or the label of an entry without a page
+    nav.querySelectorAll('.collapser, button.nav-group').forEach(button => {
+        button.addEventListener('click', () => {
+            const item = button.closest('.nav-item')
+            setOpen(item, !item.classList.contains('is-open'))
+        })
+    })
+
+    menu.querySelector('[data-menu-collapse-all]')?.addEventListener('click', () => {
+        nav.querySelectorAll('.nav-item.is-open').forEach(item => setOpen(item, false))
+        menu.scrollTop = 0
+    })
+
+    // Keep the menu where it was after a click in it; otherwise bring the
+    // current page into view.
+    nav.addEventListener('click', e => {
+        if (e.target.closest('a.nav-link')) sessionStorage.setItem('menuScroll', menu.scrollTop)
+    })
+    const saved = sessionStorage.getItem('menuScroll')
+    sessionStorage.removeItem('menuScroll')
+    if (saved !== null) menu.scrollTop = parseInt(saved, 10)
+    if (current) {
+        const top = menu.querySelector('.menu-top')
+        const visibleTop = menu.getBoundingClientRect().top + (top ? top.offsetHeight : 0)
+        const box = current.getBoundingClientRect()
+        if (box.top < visibleTop || box.bottom > menu.getBoundingClientRect().bottom) {
+            menu.scrollTop += box.top - visibleTop - (menu.clientHeight - (top ? top.offsetHeight : 0)) / 2 + box.height / 2
+        }
+    }
+
+    requestAnimationFrame(() => requestAnimationFrame(() => menu.classList.remove('menu-no-anim')))
+
+    // Small screens: the menu is a drawer opened from the header
+    const openers = document.querySelectorAll('[data-menu-open]')
+    const setDrawer = open => {
+        document.body.classList.toggle('menu-open', open)
+        openers.forEach(b => b.setAttribute('aria-expanded', open ? 'true' : 'false'))
+        if (open) (menu.querySelector('.search-bar') || current || menu).focus?.({ preventScroll: true })
+    }
+    openers.forEach(b => b.addEventListener('click', () => setDrawer(true)))
+    document.querySelectorAll('[data-menu-close]').forEach(b => b.addEventListener('click', () => setDrawer(false)))
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && document.body.classList.contains('menu-open')) setDrawer(false)
+    })
+    nav.addEventListener('click', e => {
+        if (MOBILE.matches && e.target.closest('a.nav-link')) setDrawer(false)
+    })
+    MOBILE.addEventListener?.('change', e => { if (!e.matches) setDrawer(false) })
 }

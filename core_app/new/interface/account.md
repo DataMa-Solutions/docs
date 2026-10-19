@@ -28,7 +28,7 @@ Web App accounts provide access to the full Datama application, including its ex
 - Access to **demo use cases** without registration.  
 - **Registration required** to unlock free features.  
 
-<center><img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/anonymous.png" alt="Anonymous User" /></center>
+<center><img style="width:40%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/anonymous.png" alt="Anonymous User" /></center>
 
 <br/>
 
@@ -37,7 +37,7 @@ Web App accounts provide access to the full Datama application, including its ex
 - Access to standard features with **some limitations**:  
   - **2 metrics**, **2 dimensions**, **1,000 rows**.  
 
-<center><img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/images/FreeUser.png" alt="Free User" /></center>
+<center><img style="width:40%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/images/FreeUser.png" alt="Free User" /></center>
 
 <br/>
 

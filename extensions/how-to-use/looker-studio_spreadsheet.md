@@ -63,8 +63,8 @@ Result mode displays the spreadsheet result without toolbar and without grid lin
 
 # 5. Advanced usage
 
-- [Spreadsheet concept]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/concept.html)
-- [Spreadsheet settings]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/settings.html)
+- [Spreadsheet concept]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/concept.html)
+- [Spreadsheet settings]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/settings.html)
 
 <br/>
 

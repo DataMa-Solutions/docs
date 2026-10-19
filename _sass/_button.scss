@@ -1,19 +1,49 @@
+// Pill buttons, same variants as public-website (src/components/ui/button.tsx).
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   padding: 10px 20px;
-  border: 1px solid transparent;
-  border-radius: 5px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-family: $font-body;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none !important;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
   &:hover {
-    text-decoration: none;
     cursor: pointer;
   }
 }
 
-.btn-primary {
-  background-color: $datagreen_light;
+.btn-primary,
+.btn-primary:visited {
+  background-color: $pine;
   color: $white !important;
   &:hover {
+    background-color: $pine-deep;
     color: $white !important;
-    background-color: darken($datagreen_light, 5%);
+  }
+}
+
+.btn-accent,
+.btn-accent:visited {
+  background-color: $aqua;
+  color: $pine !important;
+  &:hover {
+    background-color: $white;
+    border-color: $aqua;
+  }
+}
+
+.btn-ghost,
+.btn-ghost:visited {
+  border-color: rgba($pine, 0.15);
+  color: $pine !important;
+  &:hover {
+    border-color: $aqua;
   }
 }
 

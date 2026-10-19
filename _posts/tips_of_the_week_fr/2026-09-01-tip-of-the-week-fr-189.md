@@ -20,4 +20,4 @@ La version redesignée arrive dans les **extensions marketplace** (Power BI, Tab
 
 👉 Ouvrez Compare dans votre outil BI préféré et testez la différence. Même sécurité serverless, **beaucoup plus de puissance** sous la main.
 
-📖 [Découvrir toutes les nouveautés]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html)
+📖 [Découvrir toutes les nouveautés]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html)

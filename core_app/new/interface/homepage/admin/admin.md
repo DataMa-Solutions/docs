@@ -11,7 +11,7 @@ keywords: full app home admin
 >On this page, find details on the **Admin** section of the homepage
 
 
-<center><img style="width:30%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.png"/></center>
+<center><img style="width:30%;" src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/admin/images/admin.png"/></center>
 
 <br>
 
@@ -45,7 +45,7 @@ You can customize the histogram according to several breakdowns (Total, Solution
 > **What's a Computation?**
 At Datama, the consumption of the solution is made according to the number of computations, which is the number of times the algorithms are triggered to display new results. This means that when using filters, playing with settings, or saving, this counts a Computation. However, this has no impact on the cost of the solution. Feel free to use the solution as much as you want!
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/images/statistic.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/admin/images/statistic.png"/></center>
 
 <br>
 
@@ -53,7 +53,7 @@ At Datama, the consumption of the solution is made according to the number of co
 
 Understanding and monitoring your organization's workbook usage is crucial for effective team management. Datama provides detailed information about how workbook limits work and how they are calculated.
 
-Learn more about [Workbook Limits]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/admin/workbook_limits.html)
+Learn more about [Workbook Limits]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/admin/workbook_limits.html)
 
 <br>
 

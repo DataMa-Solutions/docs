@@ -15,7 +15,7 @@ description: |
 {% if post.article_link != null %}
 👉 Read our [article]({{page.article_link}}) to learn more!
 {% endif %}
-<img src="{{site.url}}/{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
+<img src="{{site.url}}{{site.baseurl}}{{post.img_url}}" title="{{ post.title }}"/>
 {% endif %}
 {% endfor %}
 </div>

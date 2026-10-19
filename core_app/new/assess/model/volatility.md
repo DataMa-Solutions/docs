@@ -17,7 +17,7 @@ Datama uses normal distribution quantiles to identify outliers and spot “abnor
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/assess/images/assess_volatility.png" alt="assess - forecast model" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/assess/images/assess_volatility.png" alt="assess - forecast model" /></center>
 
 
 

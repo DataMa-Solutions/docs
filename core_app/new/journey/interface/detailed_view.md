@@ -9,7 +9,7 @@ keywords: full app journey detailed view detail details
 > This chapter is stil in construction in the solution (see old version of Datama to get information about the Detailed View)
 
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/workinprogress.jpg" style="width:250px; height:auto;"/></center>
 
 
 Detailed View is a group of 4 tabs. See the articles below for details on each tab:
@@ -21,7 +21,7 @@ Detailed View is a group of 4 tabs. See the articles below for details on each t
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/detailed_view.png"  style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/detailed_view.png"  style="width:1000px;">
 
 
 
@@ -38,7 +38,7 @@ The size of the flow shown is related to the percentage of the metric flowing fr
 
 **<u>Example:</u>**
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/flow.png"  style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/flow.png"  style="width:1000px;">
 
 <br>
 
@@ -49,7 +49,7 @@ Relative is another way to display the [Flow](#1-flow) graph.
 
 **Example:**
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Relative.png"  style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/Relative.png"  style="width:1000px;">
 
 <br>
 
@@ -63,7 +63,7 @@ The Simple Stat tab is a graph allowing you to visualize various information on 
 
 **<u>Example:</u>**
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/Simple_stat.png"  style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/Simple_stat.png"  style="width:1000px;">
 
 <br>
 
@@ -80,4 +80,4 @@ With :
 * **lastnext:** information used to create Flow
 
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/journey/interface/images/data2.png"  style="width:1000px;">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/journey/interface/images/data2.png"  style="width:1000px;">

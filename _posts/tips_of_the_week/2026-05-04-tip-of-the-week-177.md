@@ -24,4 +24,4 @@ You can use **Datama Compare directly in your workbook** 🎉
 * **Live what-if feel:** change numbers or scenarios in the sheet and **re-read impact** on the waterfall and tree as you usually iterate in Excel.
 * **Full Compare toolkit:** waterfall and performance tree, smart scoring, mix effect, intelligent comments, and interactive drill-down.
 
-🖱️ [Learn more in the Excel Compare documentation](https://datama-solutions.github.io//docs/extensions/how-to-use/excel_compare.html)
+🖱️ [Learn more in the Excel Compare documentation](https://datama-solutions.github.io/docs/extensions/how-to-use/excel_compare.html)

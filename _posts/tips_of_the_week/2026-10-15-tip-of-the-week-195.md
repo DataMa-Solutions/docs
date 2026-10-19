@@ -23,4 +23,4 @@ How to do it 👇
 
 ✨ Know which lever is worth pulling before you pull it.
 
-📖 [Learn more about What If]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html)
+📖 [Learn more about What If]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html)

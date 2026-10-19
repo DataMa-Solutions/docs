@@ -20,21 +20,21 @@ Beyond Datama exports, you can also load **any custom HTML** file (or paste HTML
 
 Here are the currently supported Datama solutions, and related documentation.
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint_compare.html): Explain variations through dynamic waterfall and KPI tree
+- [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint_compare.html): Explain variations through dynamic waterfall and KPI tree
 
-<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/Compare_PowerPoint.gif" alt="Datama Compare in PowerPoint"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/Compare_PowerPoint.gif" alt="Datama Compare in PowerPoint"/></center>
 
-- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint_detect.html): Detect anomalies in trend lines
+- [Datama Detect]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint_detect.html): Detect anomalies in trend lines
 
-<!-- <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Detect_PowerPoint.gif" align="center" width="650px" /> -->
+<!-- <img src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/Detect_PowerPoint.gif" align="center" width="650px" /> -->
 
-- [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint_assess.html): Assess statistical significance of variations
+- [Datama Assess]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint_assess.html): Assess statistical significance of variations
 
-<!-- <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Assess_PowerPoint.gif" align="center" width="650px" /> -->
+<!-- <img src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/Assess_PowerPoint.gif" align="center" width="650px" /> -->
 
-- [Datama Explore]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint_explore.html): Granular KPI breakdown
+- [Datama Explore]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint_explore.html): Granular KPI breakdown
 
-<!-- <img src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/Explore_PowerPoint.gif" align="center" width="650px" /> -->
+<!-- <img src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/Explore_PowerPoint.gif" align="center" width="650px" /> -->
 
 <br/>
 
@@ -56,4 +56,4 @@ To go further, open the PowerPoint solution documentation to learn how to instal
 
 <br/>
 
-Note: Learn how Datama for PowerPoint handles personal information and security in [Privacy Policy (PowerPoint Add-in)]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/PowerPoint/privacy-policy.html)
+Note: Learn how Datama for PowerPoint handles personal information and security in [Privacy Policy (PowerPoint Add-in)]({{site.url}}{{site.baseurl}}/extensions/how-to-use/PowerPoint/privacy-policy.html)

@@ -12,7 +12,7 @@
 
 .reading-progress-bar-fill {
     height: 100%;
-    background-color: #00484A; /* Datama dark green - matches theme */
+    background-color: #16D0B4; /* Datama aqua, see _sass/_tokens.scss */
     width: 0%;
     transition: width 0.1s ease-out;
 }

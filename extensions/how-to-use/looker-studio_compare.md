@@ -12,7 +12,7 @@ keywords: Looker LookerStudio compare get started
 <br/>
 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Lookerstudio_Wireframe.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Lookerstudio_Wireframe.png" /></center>
 
 # 1. Overview
 This document provides detailed documentation for the "Datama Compare - What's driving my variation?" plugin, a powerful extension for Looker Studio. This plugin enhances data analysis capabilities by explaining performance variations with easy to understand data waterfall graph.
@@ -45,7 +45,7 @@ Below is a short intro video
 
 In order to use Datama in your report, you need to start by creating an account on [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Licence compare in looker studio.png" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Licence compare in looker studio.png" /></center>
 
 
 And then, follow these steps to add the Datama extension in your Looker Studio report : 
@@ -57,7 +57,7 @@ And then, follow these steps to add the Datama extension in your Looker Studio r
 
 <br>
 
-<center><img style="width:90%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
+<center><img style="width:90%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/looker.gif" /></center>
 
 <br>
 
@@ -81,7 +81,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 
 
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
+<!---<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
 
 <br>
 
@@ -100,7 +100,7 @@ Once you've imported the extension, here is how you can use it.
 4.  **Explanation dimensions**: Add Dimensions that will be used to explain the variations of your performance. Each variation will have an interest score to see how important they are to explain your variations.
 
 <br/>
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/MetricsDimensionLookerStudio.gif" /></center>
 
 **3. Custom settings**: Open the **side settings panel** next to the chart (collapsed by default on Compare). Use the icon rail to jump between Comparison, Modeling, Market Equation, Chart, Colors, Waterfall, Tree, and Table. Analysis changes require **Apply**; chart and visual options update live.
 
@@ -108,11 +108,11 @@ Once you've imported the extension, here is how you can use it.
 If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
 Please note that no customized settings will be saved unless you complete this step.
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Jsonsave.gif" /></center>
 
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/editmore.gif" /></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/editmore.gif" /></center>
 
 
 <br/>
@@ -130,7 +130,7 @@ Please note that no customized settings will be saved unless you complete this s
 - By default, the most interesting dimension will be selected for this zoomed step. Right-click a bar **or** a value / top-line label, then use **Split by** to change dimension. Drill up or click another step to leave the zoom. You can also pin Table / Tree views and add custom pillars from the context menu.
 - **In-Depth exploration**: By interacting with a step—simply click on it—you'll delve into the underlying dimensions that are most influential in explaining your performance variances at each stage of your funnel.
 
-To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/core_app/new/tutorial/first_use.html)
+To discover more about how to read a Waterfall, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/core_app/new/tutorial/first_use.html)
 
 <br/>
 
@@ -145,13 +145,13 @@ Following this [link](https://lookerstudio.google.com/u/0/reporting/0cdd7495-3b1
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings available in this extension. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html) to get the full view of the extension Settings available in this extension. 
 
 <br/>
 
 # 9. Get more insights
 
-Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html)
+Explore related documentation to understand how to generate insights in [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/datama-compare/introduction.html)
 
 You can also see the demo [here](https://dataguillaume.gumroad.com/l/zkwemf) with Datama Compare and other available extensions in Looker studio connected to Google Analaytics source.
 

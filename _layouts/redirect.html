@@ -1,0 +1,21 @@
+{% comment %}
+  Redirect layout: keeps an outdated page's URL alive and sends visitors to
+  its replacement. GitHub Pages has no server-side redirects, so this uses a
+  meta refresh with a JS fallback that keeps the #anchor.
+  Usage (front matter): layout: redirect / redirect_to: /path/to/new/page.html
+{% endcomment %}
+{% assign target = page.redirect_to | relative_url %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <link rel="canonical" href="{{ target }}">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ target }}">
+    <script>location.replace("{{ target }}" + location.hash)</script>
+</head>
+<body>
+    <p>This page has moved. <a href="{{ target }}">Click here if you are not redirected.</a></p>
+</body>
+</html>

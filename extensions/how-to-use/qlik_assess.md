@@ -60,7 +60,7 @@ To add the Datama extension to Qlik Sense Online, follow these steps :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_upload_extension.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/qlik_upload_extension.gif" /></center>
 
 <br/>
 
@@ -78,7 +78,7 @@ Follow these steps to add Datama in your app :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/qlik_add_to_app.gif" /></center>
 
 <br>
 
@@ -98,9 +98,9 @@ You can get a free trial period of 7 days allowing you to test the full version 
 3. Create your Datama account
 4. Get your Trial extension with no engagement, and no credit card required
 
-See [here]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
+See [here]({{site.url}}{{site.baseurl}}/extensions/how-to-use/pricing_plan_pbi.html) our different plans.
 
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
+<!---<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
 
 <br>
 
@@ -124,13 +124,13 @@ Once you've imported the extension, here is how you can use it.
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html)
+To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-assess/introduction.html)
 
 <br/>
 
 # 7. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-assess/settings.html) to get the full view of the extension Settings. 
 
 <br/>
 

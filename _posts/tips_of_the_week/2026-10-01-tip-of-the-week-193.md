@@ -21,4 +21,4 @@ How to use them 👇
 
 ✨ Perfect to explain a variation down to the smallest stage of your funnel 🚀
 
-📖 [Learn more about Sub-steps]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html)
+📖 [Learn more about Sub-steps]({{site.url}}{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html)

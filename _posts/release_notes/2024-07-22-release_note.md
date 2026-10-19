@@ -10,7 +10,7 @@ description: |
 ---
 
 * **Marketplace extension** (aka "Datama Light")
-  * Datama Compare for Qlik is now available! Check our [Learn more]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html) documentation to test this
+  * Datama Compare for Qlik is now available! Check our [Learn more]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik.html) documentation to test this
   * Tableau Viz, Power BI and Looker Studio now has a separate input for comparison column for easier set up
   * [Beta 🧪] Datama Light Compare waterfall now includes the possibility to display smart comments and title for the chart. Comments structure is similar to the one in full app, providing key insights and takeaways in a limited set of bullet points. However, some remarkable new features has been introduced
     * Ability to edit and save the content of the text, alias and structure of comments through advanced editor. Just right click on any sentence to open the editor

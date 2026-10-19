@@ -6,7 +6,7 @@ scope: Datama/light/explore
 keywords: Datama light explore breakdown dimensions metrics visualization intro introduction
 ---
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/helper_webapp.png" alt="helper webapp" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/helper_webapp.png" alt="helper webapp" /></center>
 
 <br>
 
@@ -21,13 +21,13 @@ This module, which has full app version (screenshot above) and extension version
 
 Here’s what you going to find in this chapter:
 
-* [Introduction]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html)
-* [Concept]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/concept.html)
-* [Interface presentation]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/structure.html)
-* [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html)
+* [Introduction]({{site.url}}{{site.baseurl}}/extensions/datama-explore/introduction.html)
+* [Concept]({{site.url}}{{site.baseurl}}/extensions/datama-explore/concept.html)
+* [Interface presentation]({{site.url}}{{site.baseurl}}/extensions/datama-explore/structure.html)
+* [Settings]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html)
 
 <br>
 
-<center><img style="width: 70%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-explore/assets/explore_view.png" alt="explore view" /></center>
+<center><img style="width: 70%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-explore/assets/explore_view.png" alt="explore view" /></center>
 
 <br>

@@ -30,4 +30,4 @@ In this month's use case, find out how one of the largest energy providers in Fr
 
 Read the full story [here](https://www.Datama.io/2022/10/05/use-case-1-paid-acquisition-wow-analysis/)
 
-![Use case 1]({{site.url}}/{{site.baseurl}}/assets/images/use_case/uc_1.png)
+![Use case 1]({{site.url}}{{site.baseurl}}/assets/images/use_case/uc_1.png)

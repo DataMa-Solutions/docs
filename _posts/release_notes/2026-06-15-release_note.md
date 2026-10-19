@@ -6,6 +6,6 @@ description: Datama Skills let compatible AI assistants deliver interactive Comp
 
 ---
 
-* **Datama Skills** are now available: download `datama.zip` from your account and install it in a compatible AI assistant (Claude, Cursor, ChatGPT, …). The skill routes to **Compare** or **Explore** and returns an interactive HTML visualization. Documentation: [Datama Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html).
+* **Datama Skills** are now available: download `datama.zip` from your account and install it in a compatible AI assistant (Claude, Cursor, ChatGPT, …). The skill routes to **Compare** or **Explore** and returns an interactive HTML visualization. Documentation: [Datama Skills]({{site.url}}{{site.baseurl}}/extensions/skills/introduction.html).
 
 {% include embed_totw.html num=181 open=true %}

@@ -10,17 +10,17 @@ keywords: extensions light viz tools
 
 > Datama provides the layer of business intelligence missing in data visualization tools
 
-<center> <img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_list.png"></center>
+<center> <img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/Extension_list.png"></center>
 
 <br/>
 
 Find below documentation related to each extensions
 
 
-- [Datama Compare]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/introduction.html): Explain variations through dynamic waterfall and KPI tree
-- [Datama Detect]({{site.url}}/{{site.baseurl}}/extensions/datama-detect/introduction.html): Detect anomalies in trend lines
-- [Datama Assess]({{site.url}}/{{site.baseurl}}/extensions/datama-assess/introduction.html): Assess statistical significance of variations
-- [Datama Spreadsheet]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/introduction.html): Analyze data with spreadsheet and pivot-table workflows
+- [Datama Compare]({{site.url}}{{site.baseurl}}/extensions/datama-compare/introduction.html): Explain variations through dynamic waterfall and KPI tree
+- [Datama Detect]({{site.url}}{{site.baseurl}}/extensions/datama-detect/introduction.html): Detect anomalies in trend lines
+- [Datama Assess]({{site.url}}{{site.baseurl}}/extensions/datama-assess/introduction.html): Assess statistical significance of variations
+- [Datama Spreadsheet]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/introduction.html): Analyze data with spreadsheet and pivot-table workflows
 
 <br>
 
@@ -30,16 +30,16 @@ Find below documentation related to each extensions
 <br/>
 
 ### Find Datama in different markeplaces:
-- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
-- [In Power BI]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/power_bi.html)
-- [In Tableau]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
-- [In Qlik]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/qlik.html)
-- [In Google Sheets™]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
-- [In Excel]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/excel.html)
+- [In LookerStudio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+- [In Power BI]({{site.url}}{{site.baseurl}}/extensions/how-to-use/power_bi.html)
+- [In Tableau]({{site.url}}{{site.baseurl}}/extensions/how-to-use/tableau_viz.html)
+- [In Qlik]({{site.url}}{{site.baseurl}}/extensions/how-to-use/qlik.html)
+- [In Google Sheets™]({{site.url}}{{site.baseurl}}/extensions/how-to-use/google-sheets.html)
+- [In Excel]({{site.url}}{{site.baseurl}}/extensions/how-to-use/excel.html)
 
 Datama Spreadsheet is currently available only in Tableau, Power BI, Qlik, and Looker Studio marketplace environments.
-- [AI Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html), use Datama Compare and Explore from Claude, Cursor, and other Agent Skills hosts
-- [Layer Source]({{site.url}}/{{site.baseurl}}/extensions/layer-source.html), preview (and, in PowerPoint, HTML exports and AI skills, edit) the data behind any Datama visual
+- [AI Skills]({{site.url}}{{site.baseurl}}/extensions/skills/introduction.html), use Datama Compare and Explore from Claude, Cursor, and other Agent Skills hosts
+- [Layer Source]({{site.url}}{{site.baseurl}}/extensions/layer-source.html), preview (and, in PowerPoint, HTML exports and AI skills, edit) the data behind any Datama visual
 
 <br>
 

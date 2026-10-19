@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.59 92.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00484a;
+        mix-blend-mode: multiply;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g class="cls-3">
+    <g id="Calque_1" data-name="Calque 1">
+      <g>
+        <path class="cls-2" d="m43.13,71.01c-1.39,13.39-9.04,21.74-20.87,21.74H0v-50.04c0-12.29,9.97-22.26,22.26-22.26h0c10.95,0,18.43,6.96,20.52,19.48l.34,31.08Z"/>
+        <path class="cls-1" d="m90.07,15.67c0-20.28-37.67-20.28-37.67,0"/>
+        <path class="cls-1" d="m37.67,15.67c-3.94-21.51-34.34-20.28-37.67,0"/>
+        <path class="cls-2" d="m92.59,71.01c-1.39,13.39-9.04,21.74-20.87,21.74h-22.26v-50.04c0-12.29,9.97-22.26,22.26-22.26h0c10.95,0,18.43,6.96,20.52,19.48l.34,31.08Z"/>
+        <circle class="cls-1" cx="78.49" cy="60.52" r="12.31"/>
+        <circle class="cls-1" cx="28.77" cy="60.52" r="12.31"/>
+        <circle class="cls-2" cx="25.75" cy="52.14" r="3.01"/>
+        <circle class="cls-2" cx="74.88" cy="52.14" r="3.01"/>
+      </g>
+    </g>
+  </g>
+</svg>

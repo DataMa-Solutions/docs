@@ -65,8 +65,8 @@ Result mode removes toolbar and grid lines for cleaner reading.
 
 # 5. Advanced usage
 
-- [Spreadsheet concept]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/concept.html)
-- [Spreadsheet settings]({{site.url}}/{{site.baseurl}}/extensions/datama-spreadsheet/settings.html)
+- [Spreadsheet concept]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/concept.html)
+- [Spreadsheet settings]({{site.url}}{{site.baseurl}}/extensions/datama-spreadsheet/settings.html)
 
 <br/>
 

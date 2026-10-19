@@ -14,7 +14,7 @@ In Datama Explore, calendars are used to enrich **data exploration and contextua
 
 They help users understand how events relate to KPIs during exploration.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/calendar/images/calendar_in_helper.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/calendar/images/calendar_in_helper.png"/></center>
 
 <br>
 

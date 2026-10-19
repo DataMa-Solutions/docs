@@ -32,7 +32,7 @@ This document provides detailed documentation for the "Datama Explore" plugin, a
 Below is a short intro video
 <br/>
 
-- [In LookerStudio]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
+- [In LookerStudio]({{site.url}}{{site.baseurl}}/extensions/how-to-use/looker-studio.html)
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/uM1a8XZrs-w"
   title="YouTube video player"
@@ -46,19 +46,19 @@ Below is a short intro video
 
 - **Dimension and second breakdown:** Datama Explore lets you break down every metric in your dataset across any available dimension. You can also drill down dimension-by-dimension: for instance, start by breaking down product sales by Country in D1. If you want to focus on the UK, you can then introduce a second breakdown dimension in D2—such as Channel, Device, or any other available dimension—to refine the analysis.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/seconddimensions.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/seconddimensions.gif" /></center>
 
 - **Second metric:** Datama Explore also supports comparing two KPIs side by side. Simply add a second metric in M2. For example, you can define M1 = Sessions and M2 = ABV to visualize how the two metrics evolve across your chosen dimensions.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/secondmetric.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/secondmetric.gif" /></center>
 
 - **Comparison dimension:** When you set a comparison dimension—e.g., Device—and compare two segments such as Tablet vs. Mobile on the Sessions KPI, Datama Explore automatically builds a comparison dimension. This new dimension aggregates the metric values by the selected segments, including Mobile, Tablet, and any other device category.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/Explore_Comparisondimension.gif" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/Explore_Comparisondimension.gif" /></center>
 
 - **KPI change in Absolute value or Percentage:** For comparisons between segments or between time periods, Datama Explore allows you to show the variations either as absolute differences or as percent changes, depending on the format that best fits your analysis.
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/Absolute or percentage.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/Absolute or percentage.png" /></center>
 
 <br/>
 
@@ -67,7 +67,7 @@ Below is a short intro video
 
 In order to use Datama in your report, you need to start create an account in [app.datama.io](app.datama.io) and go to "My account" then "Extensions" and copy the path from the Looker Studio extension. 
 
-<center><img style="width:60%;" src="{{site.url}}/{{site.baseurl}}/extensions/assets/helper licence.png" /></center>
+<center><img style="width:60%;" src="{{site.url}}{{site.baseurl}}/extensions/assets/helper licence.png" /></center>
 
 
 And then, follow these steps to add Datama in your Looker Studio report : 
@@ -79,7 +79,7 @@ And then, follow these steps to add Datama in your Looker Studio report :
 
 <br>
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/import_explore_light.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/import_explore_light.gif" /></center>
 
 <br>
 
@@ -103,7 +103,7 @@ You can get a free trial period of 7 days allowing you to test the full version 
 4. Get your Trial extension with no engagement, and no credit card required
 
 
-<!---<center><img src="{{site.url}}/{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
+<!---<center><img src="{{site.url}}{{site.baseurl}}/extensions/assets/gif/looker-try.gif" alt="Get a free trial period"/></center>-->
 
 <br>
 
@@ -116,28 +116,28 @@ Once you've imported the extension, here is how you can use it.
 
 **2. KPIs definition**: Drag and drop the metrics you want to monitor in the appropriate field. Make sure that you add summable metrics: Datama will compute ratios based on the market equation that you define in the extension settings
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/dimension_metric.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/dimension_metric.gif" /></center>
 
 <br/>
 
 **3. Custom settings**: Click the “Settings” icon in the top-left corner of Datama’s widget, or configure dimensions, metrics, and secondary breakdowns directly from the display menu located above the chart.
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/second_dimensions_metric.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/second_dimensions_metric.gif" /></center>
 
 **4. [Paid user only] Save settings**: Once you are happy with your settings, in the Looker studio side panel, in the "Style" tab, paste the JSON automatically added to your clipboard in the "Config JSON" field. 
 If you’re unsure whether it’s the latest version, click the Save button in the top-right corner to generate the updated JSON, then paste it again into the Config JSON field.
 Please note that no customized settings will be saved unless you complete this step.
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/JSONsave.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/JSONsave.gif" /></center>
 
 **5. [Paid user only] Leave edit mode**: In the Looker Studio side panel, in the "Style" tab, untick the "Edit mode" toggle. Dashboard viewers won't see the top header and footer anymore, for a smoother experience. 
 
-<center><img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/extensions/how-to-use/assets/edit_mode.gif" /></center>
+<center><img style="width:80%;" src="{{site.url}}{{site.baseurl}}/extensions/how-to-use/assets/edit_mode.gif" /></center>
 
 
 # 6. Read your Analysis
 
-To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/introduction.html)
+To discover more about how to use Datama Assess, you can read our [dedicated section]({{site.url}}{{site.baseurl}}/extensions/datama-explore/introduction.html)
 
 <br/>
 
@@ -154,7 +154,7 @@ If you're using Google Ads as a data source in Looker Studio, you can use this [
 
 # 8. Advanced Usage
 
-Follow this [link]({{site.url}}/{{site.baseurl}}/extensions/datama-explore/settings.html) to get the full view of the extension Settings. 
+Follow this [link]({{site.url}}{{site.baseurl}}/extensions/datama-explore/settings.html) to get the full view of the extension Settings. 
 <br/>
 
 # 9. Support and Resources

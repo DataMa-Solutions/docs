@@ -9,7 +9,7 @@ keywords: light compare features
 <br/>
 
 > **This page highlights the main new capabilities of Datama Compare**, grouped by algorithm, display, and UI / UX.  
-> For detailed controls, see [Settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
+> For detailed controls, see [Settings]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html).
 
 <br/>
 
@@ -27,9 +27,9 @@ Under **Modeling › Analysis method**, choose how the waterfall explores your d
 
 **Dimensions then Steps** is especially useful when the first question is *which segment moved?* before *which KPI step moved?*.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/4_Analysis_methods.gif" alt="Analysis method settings" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/4_Analysis_methods.gif" alt="Analysis method settings" /></center>
 
-See [Settings › Modeling › Analysis method]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#21-analysis-method).
+See [Settings › Modeling › Analysis method]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#21-analysis-method).
 
 ### Infinite drill-down
 
@@ -59,9 +59,9 @@ Datama then:
 - Lets you drill down (or filter) into deeper levels
 - Lets you **pin** a dimension as the priority driver of the analysis
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/5_Dimension_hierarchy.gif" alt="Dimension hierarchy drill-down" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/5_Dimension_hierarchy.gif" alt="Dimension hierarchy drill-down" /></center>
 
-See [Settings › Dimensions › Hierarchy]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierarchy).
+See [Settings › Dimensions › Hierarchy]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#31-hierarchy).
 
 <br/>
 
@@ -73,9 +73,9 @@ The **Table** view is available as a pinned surface next to the waterfall. It is
 
 You can also **copy the table as CSV** by clicking the small **copy** icon at the top left of the table, to reuse the data in Excel, Sheets, or another tool without leaving the widget.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/img/2_1_Table.png" alt="Table view interactive with the waterfall" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/img/2_1_Table.png" alt="Table view interactive with the waterfall" /></center>
 
-See [Settings › Table]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#10-table).
+See [Settings › Table]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#10-table).
 
 <br/>
 
@@ -91,9 +91,9 @@ Insert synthetic **net checkpoints** on the waterfall (e.g. “After mix”, “
 
 Useful to stage the story of the variation without changing the underlying market equation.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/7_Sub_Pillar.gif" alt="Custom pillars on the waterfall" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/7_Sub_Pillar.gif" alt="Custom pillars on the waterfall" /></center>
 
-See [Settings › Waterfall › Pillars]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#92-elements) and the [Context menu]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#11-context-menu).
+See [Settings › Waterfall › Pillars]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#92-elements) and the [Context menu]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#11-context-menu).
 
 <br/>
 
@@ -112,7 +112,7 @@ Once an arrow is placed, you can edit it directly on the chart:
 - **Click the line**: cycle through the three **style presets**
 - **Click the label**: switch the displayed value between **% change**, **impact in points**, and **both**
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/9_Difference_arrows.gif" alt="Difference arrows annotations on the waterfall" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/9_Difference_arrows.gif" alt="Difference arrows annotations on the waterfall" /></center>
 
 <br/>
 
@@ -133,9 +133,9 @@ From **Chart › Views**, you can pin and arrange several surfaces side by side:
 
 Resize panes in the layout preview, pin or unpin views, and keep everything in sync when you drill or Split by.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/1_Views.gif" alt="Multi-view workspace with waterfall, comment and table" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/1_Views.gif" alt="Multi-view workspace with waterfall, comment and table" /></center>
 
-See [Settings › Chart › Views]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#62-views).
+See [Settings › Chart › Views]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#62-views).
 
 <br/>
 
@@ -145,9 +145,9 @@ Right-click a **bar**, a **value label**, or a **top-line label** to open the co
 
 All labels on the waterfall are editable from this menu, so you can adjust display options directly on the chart without opening the full settings panel (value labels, top-line labels, connectors, and related styling).
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Settings_shorcuts.gif" alt="Edit waterfall labels from the right-click context menu" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Settings_shorcuts.gif" alt="Edit waterfall labels from the right-click context menu" /></center>
 
-See [Context menu]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#11-context-menu).
+See [Context menu]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#11-context-menu).
 
 <br/>
 
@@ -162,9 +162,9 @@ This makes it easier to follow the same driver across surfaces and keep the narr
 
 A **shortcut bar** also appears on chart hover and stays out of the way otherwise (Split by, Reverse axis, Waterfall / Tree toggle, Comment, Table, Settings).
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/2_Views_interactivity.gif" alt="Cross-view interactivity: hover highlight and synced drill" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/2_Views_interactivity.gif" alt="Cross-view interactivity: hover highlight and synced drill" /></center>
 
-See [Shortcuts on hover]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#12-shortcuts-on-hover).
+See [Shortcuts on hover]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#12-shortcuts-on-hover).
 
 <br/>
 
@@ -178,7 +178,7 @@ Settings live in a **side panel** next to the chart. The panel starts **collapse
 - **Search**: find options faster in a dense panel
 - **Tooltips**: explain advanced options on controls
 
-For detailed options, see the [Settings guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html).
+For detailed options, see the [Settings guide]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html).
 
 <br/>
 
@@ -188,7 +188,7 @@ Equation **operators** (`×`, `÷`, `+`, …) can be shown on the **Tree** view 
 
 Configure them under **Tree › Operators**.
 
-See [Settings › Tree › Operators]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#82-tree-operators).
+See [Settings › Tree › Operators]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#82-tree-operators).
 
 <br/>
 
@@ -198,9 +198,9 @@ Assign an **emoji** to each step of the market equation. In **Tree** view, these
 
 Configure the emoji column under **Market Equation**, then **Apply**. The enrichment is visible on Tree cards only.
 
-<center><img style="width: 80%;" src="{{site.url}}/{{site.baseurl}}/extensions/datama-compare/assets/gif/Tree_emoji.gif" alt="Emojis on Tree cards from the market equation" /></center>
+<center><img style="width: 80%;" src="{{site.url}}{{site.baseurl}}/extensions/datama-compare/assets/gif/Tree_emoji.gif" alt="Emojis on Tree cards from the market equation" /></center>
 
-See [Settings › Market Equation]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#4-market-equation).
+See [Settings › Market Equation]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#4-market-equation).
 
 <br/>
 
@@ -219,8 +219,8 @@ See [Settings › Market Equation]({{site.url}}/{{site.baseurl}}/extensions/data
 
 | Topic | Page |
 |:---|:---|
-| **What If** scenarios | [What If in Datama Light]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/what-if.html) |
-| **Market equation Sub-steps** | [Sub-steps guide]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) |
-| Covariance controls & Remaining ranking | [Settings › Modeling › Covariance]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#24-covariance) · [Items displayed]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html#664-compare) |
+| **What If** scenarios | [What If in Datama Light]({{site.url}}{{site.baseurl}}/extensions/datama-compare/what-if.html) |
+| **Market equation Sub-steps** | [Sub-steps guide]({{site.url}}{{site.baseurl}}/extensions/datama-compare/market-equation-sub-steps.html) |
+| Covariance controls & Remaining ranking | [Settings › Modeling › Covariance]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#24-covariance) · [Items displayed]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html#664-compare) |
 
 <br/>

@@ -10,7 +10,7 @@ keywords: full app pivot settings subheader sub header
 > Here is the different settings available in Datama **Pivot**
 
 <br>
-<center><img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png"/></center>
+<center><img style="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png"/></center>
 
 # 1. Metric Relation Analysis
 
@@ -19,7 +19,7 @@ keywords: full app pivot settings subheader sub header
 
 ## 1.1 Analyse all metrics relation steps
 
-Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
+Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
 
 ## 1.3 Step interest criteria
 
@@ -119,7 +119,7 @@ keywords: full app pivot settings subheader sub header
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_settings.png">
 
 > Find here the details of the main settings Datama Pivot
 
@@ -132,17 +132,17 @@ keywords: full app pivot settings subheader sub header
 
 The level of aggregation that the model is using – e.g. if Level of aggregation is set at X%, segment within each dimension that represents less than X% of the Primary Numerator (e.g. Revenues) of the main KPI you’re analyzing will be clustered in one « Other » segment. X is set at 2 by default, but you may want to play with this parameter quite a bit because it can change significantly the calculation of mix effects.
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_2per_chart.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_2per_chart.png">
 
 Click on the drop-down arrow to display the settings menu
 Move the cursor to the right to increase the level of aggregation.
 Click on « Apply » to get results.
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/5per_pivot_set.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/5per_pivot_set.png">
 
 Segments are now aggregated at the requested level
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/pivot/images/pivot_5per_chart.png">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/pivot/images/pivot_5per_chart.png">
 
 <br>
 
@@ -188,7 +188,7 @@ When the toggle is checked, Pivot is focusing on the numerator of the step you a
 
 ## Analyse all metrics relation steps
 
-Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}/{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
+Datama Pivot can analyse one step or all the steps of your funnel. When the toggle is checked, it displays the [Market equation tree]({{site.url}}{{site.baseurl}}/core_app/new/pivot/pivot_interface.html#market-equation-tree) slide. You can not activate _Inspect numerator only_ in the same time.
 
 ## Step interest criteria
 

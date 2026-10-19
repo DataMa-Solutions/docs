@@ -12,7 +12,7 @@ keywords: full app compare settings
 
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Compare_setting_gear.gif"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Compare_setting_gear.gif"/></center>
 
 
 <br>
@@ -20,7 +20,7 @@ keywords: full app compare settings
 <!--
 
 <b>Methodology:<b><br>
-  - [Drill Down Hierarchy]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
+  - [Drill Down Hierarchy]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html)
   - [Split Mix and Perf](#split-mix-and-perf)
   - [Negative Driver First](#negative-driver-first)
 
@@ -65,7 +65,7 @@ Color palette and default language for example can be modified at both level.
 <br>
 
 # 2. Compare Model
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/advanced_setting.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/advanced_setting.png"/></center>
 
 ## 2.1. Methodology
 
@@ -83,7 +83,7 @@ The drill down input allows to define the methodology to break down main KPI var
 
 By activating the "Dimensions then Steps" option, you will see the impact of the top 5 segments of the most interesting dimension for the total step variation to explain the gap. Then, by clicking on a given segment, you will be able to get the details of the impact of each step of your market equation on that specific segment.
 
-Discover [more]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html) on this setting.
+Discover [more]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/drill_down_hierarchy.html) on this setting.
 
 <br>
 
@@ -158,10 +158,10 @@ By default this parameter is set at '4'.
 
 When owning a license of Datama Assess (aka Datama Impact), you can activate the significance test.
 Switch on to compute significance of steps variations, using Datama Assess methodology. Signficative variations will make % appear with a star (*) in the overall waterfall chart.
-The test performed is a [Frequentist test]({{site.url}}/{{site.baseurl}}/core_app/new/assess/model/frequentist.html).
+The test performed is a [Frequentist test]({{site.url}}{{site.baseurl}}/core_app/new/assess/model/frequentist.html).
 <br>
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/images/compare_significanceTest.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/images/compare_significanceTest.png"/></center>
 
 <br>
 
@@ -174,7 +174,7 @@ When deactivated Datama will adapt the Axis to your dataset. This help to better
 
 # 3. Workbook style
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/workbook_style.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/workbook_style.png"/></center>
 
 ## 3.1. Language and colors 
 
@@ -193,7 +193,7 @@ Graph colors are customizable in 3 different ways:
 
 The custom method allows you to refine color by color all the graphs available in the solution.
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/settings/images/colors_palette.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/settings/images/colors_palette.png"/></center>
 
 To customize colors:
 1. Select "custom" in the "Colors Palette for plots" dropdown menu
@@ -235,7 +235,7 @@ This setting allows you to control the number of decimal places displayed in you
 
 # 4. KPI & Markets Equation
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/market_equation.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/market_equation.png"/></center>
 
 The market equation is the foundation of your analysis in Datama Compare. It defines how your metrics are related to each other to compute your main KPI. For example, in retail, Revenue can be broken down as: Revenue = Volume * (Revenue/Volume), where Volume represents the number of products sold and Revenue/Volume is the average price per unit.
 
@@ -244,13 +244,13 @@ Each step in your market equation becomes a step in the waterfall analysis, help
    - Sum of metrics
    - Custom formula
 
-For more detailed information on how to build and optimize your market equation, please refer to our [dedicated documentation]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).
+For more detailed information on how to build and optimize your market equation, please refer to our [dedicated documentation]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html).
 
 <br>
 
 # 5. Dimensions
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Dimensions.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Dimensions.png"/></center>
 
 ## 5.1. Comparison
 
@@ -312,7 +312,7 @@ Clustering is necessary for dimension analysis
 - For discrete dimensions, anything below X% (X=2) of primary numerator is aggregated into "other"
 - For continuous dimensions, cuts are made using weighted decision tree methodology, in order to create coherent buckets.
 
-Read [docs related to continuous dimension]({{site.url}}/{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
+Read [docs related to continuous dimension]({{site.url}}{{site.baseurl}}/core_app/new/interface/homepage/get_inspired/marketing_continuous.html)
 
 <br>
 
@@ -344,7 +344,7 @@ Datama first analyzes raw data to identify and quantify variations in key perfor
 <br>
 
 ### 6.1.2. OpenAI Integration
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/AI.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/AI.png"/></center>
 The generated insights are then processed by OpenAI's language model. OpenAI enhances these narratives by adding contextual insights, ensuring that explanations are complete and tailored to the specific context of your data and business.
 
 <br>
@@ -358,7 +358,7 @@ The generated insights are then processed by OpenAI's language model. OpenAI enh
 
 # 7. Saving Options
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Saving_options.png"/></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/subheader/settings/images/Saving_options.png"/></center>
 
 ## 7.1. Basic Save
 - Click on the "Save" icon to update your current use case

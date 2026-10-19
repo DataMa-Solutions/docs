@@ -53,7 +53,7 @@ For those who has a whole analytics team dedicated to the subject, this plan is 
 
 Here are somme pricing ditails for different options.
 
-<center><img style="width:50%" src="{{site.url}}/{{site.baseurl}}/extensions/assets/pricing_details.png" /></center>
+<center><img style="width:50%" src="{{site.url}}{{site.baseurl}}/extensions/assets/pricing_details.png" /></center>
 
 <div class="info-box">
  <strong>Note</strong>: For more information on each plan's features and to determine which is the best fit for your organization, please  <a target="_blank" href="https://Datama.io/lets-talk/">contact</a> </div>

@@ -6,7 +6,7 @@ scope: Datama/saas/compare
 keywords: full app compare overview
 ---
 
-<center><img src="{{site.url}}/{{site.baseurl}}/core_app/new/images/compare_icon.jpg" alt="logo compare" /></center>
+<center><img src="{{site.url}}{{site.baseurl}}/core_app/new/images/compare_icon.jpg" alt="logo compare" /></center>
 
 > **Datama Compare is a data analysis tool that allows you to quickly identify and understand the factors that cause your performance indicators to rise or fall.**
 
@@ -29,8 +29,8 @@ Dive deep into the complexity of your performance data with Datama Compare. Seam
 
 This documentation gives you an overview of how it works and how to use it.
 What's in it : 
-- [Interface presentation]({{site.url}}/{{site.baseurl}}/core_app/new/compare/compare_interface.html)
-- [Theoritical Model description]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/model.html)
+- [Interface presentation]({{site.url}}{{site.baseurl}}/core_app/new/compare/compare_interface.html)
+- [Theoritical Model description]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/model.html)
 
 
 <br>

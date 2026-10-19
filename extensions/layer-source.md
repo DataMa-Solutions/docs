@@ -8,7 +8,7 @@ keywords: light layer source see source data preview edit paste powerpoint expor
 
 <br/>
 
-> Related: [Datama Compare settings]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/settings.html) · [PowerPoint]({{site.url}}/{{site.baseurl}}/extensions/how-to-use/powerpoint.html) · [AI Skills]({{site.url}}/{{site.baseurl}}/extensions/skills/introduction.html)
+> Related: [Datama Compare settings]({{site.url}}{{site.baseurl}}/extensions/datama-compare/settings.html) · [PowerPoint]({{site.url}}{{site.baseurl}}/extensions/how-to-use/powerpoint.html) · [AI Skills]({{site.url}}{{site.baseurl}}/extensions/skills/introduction.html)
 
 <br/>
 

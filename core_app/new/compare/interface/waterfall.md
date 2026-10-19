@@ -16,7 +16,7 @@ The waterfall panel consists of three distinct tabs, each providing a specific l
 
 <br>
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_waterfall.png"> </center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_waterfall.png"> </center>
 
 
 <br>
@@ -27,7 +27,7 @@ The **Waterfall** is the core element of the **Datama Compare** interface. It co
 
 <br>
 
-<center> <img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/Waterfall-768x627.jpg"> </center>
+<center> <img style="width:40%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/Waterfall-768x627.jpg"> </center>
 
 <br>
 
@@ -45,7 +45,7 @@ The **Waterfall** follows a structured approach based on a **market equation**, 
 
 * By default the Steps are the multiplication of each ratio but can also be additive
 
-For a more in-depth explanation of how the **market equation** structures the waterfall, refer to [this detailed guide]({{site.url}}/{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) or you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
+For a more in-depth explanation of how the **market equation** structures the waterfall, refer to [this detailed guide]({{site.url}}{{site.baseurl}}/core_app/new/interface/subheader/metrics_relation.html) or you can read our dedicated [article](https://datama.io/how-to-build-my-business-metric-relation/).
 
 
 <br>
@@ -58,11 +58,11 @@ By default, the most interesting dimension will be selected for this zoomed step
 You can change the selected dimension for this zoomed step by changing right clicking on the boxes of a segment and select the appropriate dimension in the "split by". You can unzoom by clicking on other steps or clicking on the box again.
 
 
-<!--* Need to distribute co-variance proportionally to abs(gap) to 'make it match'. Co-variance has to be monitored in final output. See [Covariance]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/modeling_components.html) page-->    
+<!--* Need to distribute co-variance proportionally to abs(gap) to 'make it match'. Co-variance has to be monitored in final output. See [Covariance]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/modeling_components.html) page-->    
 
 <br>
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_zoomedView.jpg"> </center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_zoomedView.jpg"> </center>
 
 
 # 2. Funnel
@@ -71,7 +71,7 @@ The funnel section shows the % change and absolute values of each KPI.
 
 This funnel gives details on numbers behind waterfall chart. Each step of your conversion funnel is a box, total step is squared in black. Hovering gives you details on numerator and denominator behind the ratio. You can remove the funnel shape in display settings.
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_funnel.png"> </center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_funnel.png"> </center>
 
 <br>
 
@@ -88,11 +88,11 @@ For each step, it shows the total mix effect of each dimension (which has a mix 
 This graph represents the sum of the Mix impact of each dimension at each step of your funnel. The red circle represents the gap your are trying to understand at this step of the funnel, to allow evaluation of mix effect contribution to overall impact.
 
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonMix.jpg"> </center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonMix.jpg"> </center>
 
 <br>
 
-read more about [Mix effect]({{site.url}}/{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html#mix-effect)
+read more about [Mix effect]({{site.url}}{{site.baseurl}}/core_app/new/compare/model/dimension_analysis_mix.html#mix-effect)
 
 <br>
 
@@ -105,7 +105,7 @@ All things being equal the performance effect is the evolution of a performance.
 
 As presented below the performance effect could be represented at each step of your metric relation and for any dimension.
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMin.jpg"> </center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMin.jpg"> </center>
 
 <br>
 
@@ -116,7 +116,7 @@ The width of the bar and the parenthesis ‘(x…)’ in the call outs refers to
 
 Red dots refer to the total impact of that step (as in ‘Waterfall Chart’), to allow evaluation of segment performance contribution to overall impact.
 
-<center> <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMax.jpg"> </center>
+<center> <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_dimensionComparisonPerfMax.jpg"> </center>
 
 <br>
 
@@ -129,5 +129,5 @@ In the **Waterfall analysis**, covariance is managed by distributing shared effe
 Understanding **covariance effects** is key to accurately interpreting results, especially when analyzing complex datasets with interdependent variables.  
 
 <div class="info-box">
-  For a deeper dive into how covariance is handled within the waterfall model, refer to <a href="{{site.url}}/{{site.baseurl}}/core_app/new/compare/model/covariance.html">this detailed explanation</a>
+  For a deeper dive into how covariance is handled within the waterfall model, refer to <a href="{{site.url}}{{site.baseurl}}/core_app/new/compare/model/covariance.html">this detailed explanation</a>
 </div>

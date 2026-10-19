@@ -14,7 +14,7 @@ The table allows to access a detail view of the data with the ability to refine 
 
 <br>
 
-![table]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_table.jpg)
+![table]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_table.jpg)
 
 <br>
 
@@ -33,7 +33,7 @@ Note that when activating a "Secondary Comparison", the secondary comparison val
 # 2. How could it look like?
 
 Change Formatting of the table by clicking on the Settings icon:
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg">
 
 <br>
 
@@ -41,7 +41,7 @@ The display is adaptable according to your needs.
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg" style="width:70%">
+<img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg" style="width:70%">
 
 - **Arrow**: Displays an arrow that goes up or down depending on the positive or negative variation 
 - **Bars**: Displays a bars filled according to the impact on the total variation of this step

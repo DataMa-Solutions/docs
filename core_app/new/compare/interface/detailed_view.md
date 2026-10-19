@@ -13,14 +13,14 @@ keywords: full app compare detail detailed view
 <br>
 
 
-<center> <img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/moves_tab.png"></center>
+<center> <img style="width:40%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/moves_tab.png"></center>
 
-<!-- ![detailed_view]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/moves.jpg) -->
+<!-- ![detailed_view]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/moves.jpg) -->
 
 By default, the drop-down menus are automatically selected in both main step and main dimension of your analysis. You can change the selection of either a step or a dimension. Each time you run the calculation, the default selection in the drop-down menu will be reactivated.
 
 
-<center> <img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/carret_moves.png"></center>
+<center> <img style="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/carret_moves.png"></center>
 
 <br>
 
@@ -34,8 +34,8 @@ The selection is dynamic: selection made on the « Detailed view – filter » w
 
 In the Detailed View the graph **« Moves »** represents a key element. It allows you to deep dive in all and every dimension and elements of your dimension and understand Mix effect and Performance effect with arrows.
 
-<center> <img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_moves.jpg"></center>
-<!-- ![moves]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_moves.jpg ) -->
+<center> <img style="width:80%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_moves.jpg"></center>
+<!-- ![moves]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_moves.jpg ) -->
 
 This graph shows the performance effect and the mix effect within a single serie of arrows (or vectors). The start of the arrow represents the Start point (eg. "Last Month") of your analysis and the end of the arrow represents the End point (eg. "This Month") of the analysis. An arrow is either an evolution of the performance effect and the mix effect from Start point to End point.
 
@@ -45,13 +45,13 @@ This graph shows the performance effect and the mix effect within a single serie
 
 <br>
 
-Read more [details]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/dimensions.html) on Mix & Performance Effects.
+Read more [details]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/dimensions.html) on Mix & Performance Effects.
 
 <br>
 
-<center> <img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_movesExplanation.png"></center>
+<center> <img style="width:80%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_movesExplanation.png"></center>
 
-<!-- ![moves2]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_movesExplanation.png) -->
+<!-- ![moves2]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_movesExplanation.png) -->
 
 **Abscissa** of this graph is the Denominator of the Step, what we call the mix effect. It represents the evolution of the breakdown in input and in output (e.g. in the picture above, the abcissa is the % of Session by type of Medium. The orange arrow « Referral » goes from 37% of the Session in input to 31% at the End. This will have a mix effect. There is a decreased in % of this type of traffic).
 
@@ -79,8 +79,8 @@ The bridge focuses on one KPI at a time. It shows the impact that each dimension
 
 <br>
 
-<center> <img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_bridge.jpg"></center>
-<!-- ![bridge]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_bridge.jpg ) -->
+<center> <img style="width:80%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_bridge.jpg"></center>
+<!-- ![bridge]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_bridge.jpg ) -->
 
 
 
@@ -106,8 +106,8 @@ The table allows to access a detail view of the data with the ability to refine 
 
 <br>
 
-<center> <img style="width:80%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_table.jpg"></center>
-<!-- ![table]({{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_table.jpg) -->
+<center> <img style="width:80%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_table.jpg"></center>
+<!-- ![table]({{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_table.jpg) -->
 
 <br>
 
@@ -129,17 +129,17 @@ Note that when activating a "Secondary Comparison", the secondary comparison val
 
 Change Formatting of the table by clicking on the Settings icon:
 
-<center> <img style="width:40%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg"></center>
-<!-- <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg"> -->
+<center> <img style="width:40%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg"></center>
+<!-- <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_editTableSettings.jpg"> -->
 
 <br>
 
 The display is adaptable according to your needs.
 
 <br>
-<center> <img style="width:70%;" src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg"></center>
+<center> <img style="width:70%;" src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg"></center>
 
-<!-- <img src="{{site.url}}/{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg" style="width:70%"> -->
+<!-- <img src="{{site.url}}{{site.baseurl}}/core_app/new/compare/interface/images/compare_tableConditionalFormatting.jpg" style="width:70%"> -->
 
 - **Arrow**: Displays an arrow that goes up or down depending on the positive or negative variation 
 - **Bars**: Displays a bars filled according to the impact on the total variation of this step

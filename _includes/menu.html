@@ -1,44 +1,29 @@
-<!--
-  ~ Datama SAS
-  ~ --------------
-  ~ NOTICE:  All information contained herein is, and remains
-  ~ the property of Datama SAS and/or some open source packages used
-  ~ if any.  The intellectual and technical concepts contained
-  ~ herein are proprietary to Datama SAS
-  ~ and its suppliers and may be covered by French and Foreign Patents,
-  ~ patents in process, and are protected by trade secret or copyright law.
-  ~ Dissemination of this information or reproduction of this material
-  ~ is strictly forbidden unless prior written permission is obtained
-  ~ from Datama SAS.
-  ~ Notice created by Django <django@Datama.fr>, Wazhabits <anatole@Datama.fr> updated by Anatole Piveteau
-  ~ Copyright (c) 2023 Datama SAS, All rights reserved.
-  ~ Generated for file : menu.html project project-deep-sky
-  -->
-
-<ul>
+{% comment %}
+  Sidebar menu, rendered recursively from _data/navigation.yml.
+  Each entry is a row: an optional chevron button that expands/collapses its
+  children, then the link (or a plain toggle when the entry has no page).
+  The visual level comes from the depth, not from the `type` field; only
+  `type: separated` is used, to start a new group with some space.
+{% endcomment %}
+{% assign menu_depth = include.depth | default: 1 %}
+<ul class="nav-list nav-level-{{ menu_depth }}">
     {% for item in include.nav %}
-    <li>
-        {% if item.type == 'separated' %}
-            <hr>
-        {% endif %}
-        <a href="{{site.url}}/{{site.baseurl}}{{ item.link }}">
-            {% if item.type == 'separated' %}
-               <h2>{{ item.name }}</h2>
-            {% elsif item.type == 'h3' %}               
-               <h3>{{ item.name }}</h3>
-            {% elsif item.type == 'h4' %}               
-               <h4>{{ item.name }}</h4>
-            {% elsif item.type == 'bold' %}
-               <h2>{{ item.name }}</h2>
-            {% else %}
-                {{ item.name }}
-            {% endif %}
+    <li class="nav-item{% if item.subnav %} has-children{% endif %}{% if item.type == 'separated' %} nav-item--separated{% endif %}">
+        <div class="nav-row">
             {% if item.subnav %}
-                <button class="collapser"></button>
+            <button class="collapser" type="button" aria-expanded="false" aria-label="Show or hide the pages under {{ item.name }}"></button>
             {% endif %}
-        </a>
+            {% if item.link %}
+            <a class="nav-link" href="{{site.url}}{{site.baseurl}}{{ item.link }}">{{ item.name }}</a>
+            {% else %}
+            <button class="nav-link nav-group" type="button">{{ item.name }}</button>
+            {% endif %}
+        </div>
         {% if item.subnav %}
-            {% include menu.html nav=item.subnav %}
+        {% assign next_depth = include.depth | default: 1 | plus: 1 %}
+        <div class="nav-children">
+            {% include menu.html nav=item.subnav depth=next_depth %}
+        </div>
         {% endif %}
     </li>
     {% endfor %}
