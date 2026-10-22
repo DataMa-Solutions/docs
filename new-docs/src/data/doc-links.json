@@ -1,0 +1,14 @@
+{
+  "$comment": "Slugs the product links to. Paths are relative to the site root. Light resolves a slug to DOCS_BASE_URL + path; check-doc-links.mjs fails the build if a path or anchor no longer exists.",
+  "home": "/",
+  "compare.overview": "/solutions/compare/",
+  "compare.settings.comparison-definition": "/solutions/compare/settings/#comparison-definition",
+  "compare.settings.use-indices": "/solutions/compare/settings/#use-indices-instead-of-values",
+  "detect.overview": "/solutions/detect/",
+  "detect.settings.anomaly-dimension": "/solutions/detect/settings/#anomaly-dimension",
+  "detect.settings.calendar": "/solutions/detect/settings/#calendar",
+  "integrations.power-bi": "/integrations/power-bi/",
+  "integrations.power-bi.compare": "/integrations/power-bi/#compare",
+  "integrations.power-bi.detect": "/integrations/power-bi/#detect",
+  "legal.privacy": "/legal/privacy/"
+}

@@ -1,0 +1,3 @@
+# Cloudflare redirects for docs.datama.io. First matching rule wins.
+# Old-site URLs (datama-solutions.github.io/docs/...) are redirected from the old
+# site itself at the end of the transition, not here.

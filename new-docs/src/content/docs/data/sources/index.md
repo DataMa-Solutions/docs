@@ -1,0 +1,6 @@
+---
+title: Data sources
+---
+
+Placeholder. One page per source (Google Sheets, BigQuery, Snowflake, GA4…),
+replacing the anchors of the old `prep/interface/add_source` page.
