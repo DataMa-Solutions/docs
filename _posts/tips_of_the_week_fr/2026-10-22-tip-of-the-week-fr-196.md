@@ -9,9 +9,9 @@ img_height: 450
 layout: post
 ---
 
-Vous attrapez encore la souris à chaque changement de vue ? ⌨️
+Vous avez encore besoin de la souris à chaque changement de vue ? ⌨️
 
-L'extension Datama Compare repensée propose quatre raccourcis clavier. Passez du **Waterfall** au **Tree**, inversez les axes ou accédez directement à un réglage, sans quitter le clavier.
+L'extension Datama Compare propose maintenant quatre raccourcis clavier. Passez des graphiques **Waterfall** au **Tree**, inversez les axes ou accédez directement à un réglage, en restant sur votre clavier.
 
 À essayer 👇
 
@@ -21,5 +21,3 @@ L'extension Datama Compare repensée propose quatre raccourcis clavier. Passez d
 * 🔎 **Shift + S** : ouvre le panneau **Settings** avec le curseur déjà dans la barre de recherche, qui trouve aussi les options des panneaux d'analyse (Comparison, Modeling, Dimensions...)
 
 ✨ Des démos en direct plus fluides, et le bon réglage à une recherche près.
-
-📖 [En savoir plus sur les raccourcis clavier]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html#37-keyboard-shortcuts)

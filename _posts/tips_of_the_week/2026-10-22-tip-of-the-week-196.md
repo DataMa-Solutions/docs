@@ -21,5 +21,3 @@ Try them 👇
 * 🔎 **Shift + S**: open the **settings panel** with the cursor already in the search bar, which also finds the options of the analysis panels (Comparison, Modeling, Dimensions...)
 
 ✨ Faster live demos, and the right setting one search away.
-
-📖 [Learn more about the keyboard shortcuts]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html#37-keyboard-shortcuts)
