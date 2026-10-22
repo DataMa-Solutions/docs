@@ -2,8 +2,8 @@
 feed: totw_fr
 title:  "Tip of the week 196: Quatre raccourcis clavier pour accélérer Datama Compare"
 date:   2026-10-22 08:00:00 +0200
-img_url: /assets/images/tip/196.gif
-img_type: image/gif
+img_url: /assets/images/tip/196.jpeg
+img_type: image/jpeg
 img_width: 800
 img_height: 450
 layout: post
