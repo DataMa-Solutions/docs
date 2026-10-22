@@ -1,5 +1,6 @@
 ---
 title: Web app tour
+environments: [webapp]
 sidebar:
   order: 2
 ---

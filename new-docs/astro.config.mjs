@@ -17,6 +17,12 @@ export default defineConfig({
 				root: { label: 'English', lang: 'en' },
 				fr: { label: 'Français', lang: 'fr' },
 			},
+			components: {
+				Head: './src/components/Head.astro',
+				Sidebar: './src/components/Sidebar.astro',
+				PageTitle: './src/components/PageTitle.astro',
+			},
+			routeMiddleware: './src/routeData.ts',
 			head: allowIndexing
 				? []
 				: [{ tag: 'meta', attrs: { name: 'robots', content: 'noindex, nofollow' } }],
@@ -30,7 +36,7 @@ export default defineConfig({
 					],
 				},
 				{ label: 'Data', items: [{ autogenerate: { directory: 'data' } }] },
-				{ label: 'Integrations', items: [{ autogenerate: { directory: 'integrations' } }] },
+				{ label: 'Environments', items: [{ autogenerate: { directory: 'environments' } }] },
 				{ label: 'Guides', items: [{ autogenerate: { directory: 'guides' } }] },
 				{ label: 'Administration', items: [{ autogenerate: { directory: 'admin' } }] },
 				{ label: 'Reference', items: [{ autogenerate: { directory: 'reference' } }] },

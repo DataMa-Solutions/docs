@@ -1,0 +1,35 @@
+---
+title: Compare settings
+sidebar:
+  order: 9
+---
+
+import Env from '../../../../components/Env.astro';
+import Since from '../../../../components/Since.astro';
+
+Every heading below is a stable anchor that the product links to. Headings carry
+no section number, so reordering never breaks a link. Renaming a heading changes
+its anchor: update `src/data/doc-links.json` in the same change, and
+`npm run check:links` fails until you do.
+
+## Comparison definition
+
+Common to every environment.
+
+<Env only="webapp">
+In the web app, pick the two periods from the comparison selector in the subheader.
+</Env>
+
+<Env only="tableau powerbi looker qlik">
+In a BI tool, the comparison comes from a field of the report: drag it onto the
+**Comparison** slot of the visual.
+</Env>
+
+## Use indices instead of values
+
+Placeholder.
+
+## What-if scenarios
+
+<Since v="4.2" /> Placeholder for a feature introduced in v4.2. The tag sits
+under the heading, not in it, so the anchor stays `#what-if-scenarios`.

@@ -1,0 +1,70 @@
+---
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+import { ENVIRONMENTS } from '../lib/environments';
+---
+
+<label class="env-picker">
+	<span>Environment</span>
+	<select data-env-picker>
+		<option value="">All environments</option>
+		{ENVIRONMENTS.map((env) => <option value={env.id}>{env.label}</option>)}
+	</select>
+</label>
+<Default><slot /></Default>
+
+<script>
+	const KEY = 'datama-docs-env';
+
+	// Hide sidebar groups left with no visible entry. Deepest groups first, so a
+	// parent sees its emptied children as hidden.
+	function hideEmptyGroups() {
+		for (const details of [...document.querySelectorAll('nav details')].reverse()) {
+			const li = details.parentElement;
+			if (!li) continue;
+			li.style.display = '';
+			const items = [...details.querySelectorAll(':scope > ul > li')];
+			if (items.every((item) => getComputedStyle(item).display === 'none')) li.style.display = 'none';
+		}
+	}
+
+	function apply(env: string) {
+		if (env) document.documentElement.dataset.env = env;
+		else delete document.documentElement.dataset.env;
+		try {
+			if (env) localStorage.setItem(KEY, env);
+			else localStorage.removeItem(KEY);
+		} catch {}
+		const url = new URL(location.href);
+		if (env) url.searchParams.set('env', env);
+		else url.searchParams.delete('env');
+		history.replaceState(null, '', url);
+		for (const picker of document.querySelectorAll<HTMLSelectElement>('[data-env-picker]')) picker.value = env;
+		hideEmptyGroups();
+	}
+
+	const current = document.documentElement.dataset.env ?? '';
+	for (const picker of document.querySelectorAll<HTMLSelectElement>('[data-env-picker]')) {
+		picker.value = current;
+		picker.addEventListener('change', () => apply(picker.value));
+	}
+	hideEmptyGroups();
+</script>
+
+<style>
+	.env-picker {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		margin-bottom: 1rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+	}
+	.env-picker select {
+		padding: 0.4rem 0.5rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.25rem;
+		background: var(--sl-color-black);
+		color: var(--sl-color-white);
+		font-size: var(--sl-text-sm);
+	}
+</style>

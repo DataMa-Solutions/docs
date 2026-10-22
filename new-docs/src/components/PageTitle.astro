@@ -1,0 +1,29 @@
+---
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import { Badge } from '@astrojs/starlight/components';
+import { environmentLabel } from '../lib/environments';
+
+const { environments, since } = Astro.locals.starlightRoute.entry.data;
+---
+
+<Default />
+{since && <Badge text={`Available from v${since}`} variant="tip" />}
+{
+	environments && (
+		<p class="env-unavailable" data-envs={environments.join(' ')}>
+			This page does not apply to the environment you selected. It covers:{' '}
+			{environments.map(environmentLabel).join(', ')}.
+		</p>
+	)
+}
+
+<style>
+	.env-unavailable {
+		display: none;
+		margin-top: 1rem;
+		padding: 0.75rem 1rem;
+		border-left: 4px solid var(--sl-color-orange);
+		background: var(--sl-color-orange-low);
+		color: var(--sl-color-orange-high);
+	}
+</style>

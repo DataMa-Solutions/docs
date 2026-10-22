@@ -1,0 +1,27 @@
+---
+import { ENVIRONMENT_IDS } from '../lib/environments';
+
+// One rule per environment: when html[data-env="x"] is set, anything tagged
+// data-envs without "x" is hidden. No environment chosen = everything shows.
+const css = ENVIRONMENT_IDS.map(
+	(id) =>
+		`html[data-env="${id}"] [data-envs]:not([data-envs~="${id}"]),` +
+		`html[data-env="${id}"] li:has(> a[data-envs]:not([data-envs~="${id}"]))` +
+		`{display:none!important}` +
+		`html[data-env="${id}"] .env-unavailable[data-envs]:not([data-envs~="${id}"]){display:block!important}`,
+).join('\n');
+---
+
+<style is:inline set:html={css} />
+<script is:inline define:vars={{ ids: ENVIRONMENT_IDS }}>
+	// Runs before first paint so the filtered sidebar never flashes.
+	// ?env=… (set by links from the product) wins over the stored choice.
+	(() => {
+		let env = new URLSearchParams(location.search).get('env');
+		try {
+			if (env && ids.includes(env)) localStorage.setItem('datama-docs-env', env);
+			else env = localStorage.getItem('datama-docs-env');
+		} catch {}
+		if (env && ids.includes(env)) document.documentElement.dataset.env = env;
+	})();
+</script>

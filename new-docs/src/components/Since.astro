@@ -1,0 +1,10 @@
+---
+// Inline tag for a feature added in a given version: <Since v="4.2" />
+import { Badge } from '@astrojs/starlight/components';
+
+interface Props {
+	v: string;
+}
+---
+
+<Badge text={`v${Astro.props.v}+`} variant="tip" size="small" />

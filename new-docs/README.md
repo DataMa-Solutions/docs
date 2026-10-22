@@ -27,7 +27,7 @@ npm run check:links  # after build: every slug in src/data/doc-links.json resolv
 | `src/content/docs/start/` | First steps, web app tour |
 | `src/content/docs/solutions/<solution>/` | Overview, how it works, views, settings |
 | `src/content/docs/data/` | Datasets, sources (one page each), calendars |
-| `src/content/docs/integrations/` | One page per platform, one section per solution |
+| `src/content/docs/environments/` | Install and set-up, one page per environment |
 | `src/content/docs/guides/` | Use cases |
 | `src/content/docs/admin/` | Workspace, plans and billing, on-premise |
 | `src/content/docs/reference/` | Common settings, glossary, release notes |
@@ -37,10 +37,37 @@ npm run check:links  # after build: every slug in src/data/doc-links.json resolv
 The sidebar is generated from these folders (`astro.config.mjs`); order pages
 with `sidebar.order` in their frontmatter.
 
+## Environment picker
+
+DataMa Studio runs in several environments (web app, Looker Studio, Tableau,
+Power BI, Qlik, Excel, Google Sheets, AI Skill). Each subject is written once;
+the picker at the top of the sidebar filters what the reader sees. The list
+lives in `src/lib/environments.ts`.
+
+- **A page for some environments only:** `environments: [webapp]` in its
+  frontmatter. Its sidebar link is hidden for the others, and a reader who lands
+  on it anyway sees a notice. No `environments` = every environment.
+- **A passage for some environments only:** in an `.mdx` page,
+  `<Env only="tableau powerbi">…</Env>` (`src/components/Env.astro`). An
+  unknown id fails the build.
+- **Choosing the environment:** the picker, or `?env=<id>` in the URL (what the
+  product appends to its links). The choice is remembered in the browser.
+  Without a choice, everything shows.
+
+Filtering happens in the browser (the site is static): a script in `<head>`
+sets `html[data-env]` before first paint, and CSS hides whatever is tagged with
+other environments. Every page keeps a single URL.
+
+The docs always describe the latest version; there are no versioned copies. A
+recent feature gets a tag: `since: "4.2"` in the frontmatter for a whole page,
+or `<Since v="4.2" />` under a heading for one section (not inside the heading,
+which would change its anchor).
+
 ## Links from the product
 
 The product links to the docs by **slug**, never by a hardcoded URL. Slugs live
-in `src/data/doc-links.json`. Anchors are the heading text slugified, with no
+in `src/data/doc-links.json`; the product appends `?env=<id>` so the docs
+open filtered on its environment. Anchors are the heading text slugified, with no
 section number (`## Calendar` → `#calendar`), so reordering a page never breaks
 a link. Renaming a heading changes its anchor: update the registry in the same
 change. `npm run check:links` fails the build if a slug points at a missing page
