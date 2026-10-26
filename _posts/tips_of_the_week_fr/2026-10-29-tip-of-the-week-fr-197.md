@@ -23,4 +23,4 @@ Comment faire 👇
 
 ✨ L'écart clé de votre histoire, mis en avant dans un visuel prêt pour vos slides.
 
-📖 [Difference arrows]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html)
+📖 [Difference arrows]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html)

@@ -23,4 +23,4 @@ How to do it 👇
 
 ✨ The key gap of your story, highlighted in one slide-ready visual.
 
-📖 [Difference arrows]({{site.url}}/{{site.baseurl}}/extensions/datama-compare/2026-feature.html)
+📖 [Difference arrows]({{site.url}}{{site.baseurl}}/extensions/datama-compare/2026-feature.html)
