@@ -12,11 +12,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'DataMa Documentation',
-			defaultLocale: 'root',
-			locales: {
-				root: { label: 'English', lang: 'en' },
-				fr: { label: 'Français', lang: 'fr' },
-			},
+			// English only at launch. Translations can be added later as locales
+			// (e.g. fr under /fr/) without changing existing URLs.
 			components: {
 				Head: './src/components/Head.astro',
 				Sidebar: './src/components/Sidebar.astro',

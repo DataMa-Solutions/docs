@@ -6,8 +6,17 @@ repository stays online on GitHub Pages for the previous version during the
 transition.
 
 This folder is a skeleton: the pages under `src/content/docs/` are placeholders
-showing the target structure. It is meant to move to its own repository once
-the name is decided.
+showing the target structure. It lives in the `docs` repository for now
+(Cloudflare builds it with `new-docs/` as root directory); it can move to its
+own repository later.
+
+The site is in English only at launch.
+
+Tip of the week and Use case of the month stay in the docs. DataMa-Feed reads
+the JSON feeds the Jekyll site publishes (`feeds/totw_en.json`,
+`feeds/totw_fr.json`, `feeds/ucotm.json`, `feeds/release_note.json`): the new
+site must serve the same files with the same fields before DataMa-Feed is
+pointed at it.
 
 ## Run locally
 
@@ -28,11 +37,10 @@ npm run check:links  # after build: every slug in src/data/doc-links.json resolv
 | `src/content/docs/solutions/<solution>/` | Overview, how it works, views, settings |
 | `src/content/docs/data/` | Datasets, sources (one page each), calendars |
 | `src/content/docs/environments/` | Install and set-up, one page per environment |
-| `src/content/docs/guides/` | Use cases |
+| `src/content/docs/guides/` | Tip of the week, Use case of the month, use cases by industry |
 | `src/content/docs/admin/` | Workspace, plans and billing, on-premise |
 | `src/content/docs/reference/` | Common settings, glossary, release notes |
 | `src/content/docs/legal/` | Privacy policies, terms |
-| `src/content/docs/fr/` | French translations (same paths); missing pages fall back to English |
 
 The sidebar is generated from these folders (`astro.config.mjs`); order pages
 with `sidebar.order` in their frontmatter.
